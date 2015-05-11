@@ -1,6 +1,6 @@
 ﻿WebGrab+Plus/w MDB & REX Postprocess -- version 1.54.6/0.01 -- Jan van Straaten
 -------------------------------------------------------------------------------
-job started at 11/05/2015 08:01:03
+job started at 11/05/2015 16:01:04
 
 
 reading config file: /home/stefano/git/epg/WebGrab++.config.xml
@@ -51,7 +51,7 @@ channel Italia 1 HD site -- MEDIASET.IT -- update mode incremental
 
    Summary for update of Italia 1 HD
      no changes, no update necessary !
-     unchanged shows inspected 105
+     unchanged shows inspected 104
      total after update        116
 
 channel Rete 4 HD site -- MEDIASET.IT -- update mode incremental
@@ -64,11 +64,38 @@ channel Rete 4 HD site -- MEDIASET.IT -- update mode incremental
      total after update        78
 
 channel Italia 2 site -- MEDIASET.IT -- update mode incremental
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 17:43:00 stop = 12/05/2015 18:16:00 title = ALLA FINE DEL TORNEO ...
+      Replaces ----- start = 12/05/2015 17:43:00 stop = 12/05/2015 18:07:00 title = ALLA FINE DEL TORNEO ...
+      Replaces ----- start = 12/05/2015 18:07:00 stop = 12/05/2015 18:31:00 title = TERRIBILE COMPLOTTO (UN)
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 18:16:00 stop = 12/05/2015 18:21:00 title = CAMERA CAFE'
+      Replaces ----- start = 12/05/2015 18:07:00 stop = 12/05/2015 18:31:00 title = TERRIBILE COMPLOTTO (UN)
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 18:21:00 stop = 12/05/2015 18:29:00 title = CAMERA CAFE'
+      Replaces ----- start = 12/05/2015 18:07:00 stop = 12/05/2015 18:31:00 title = TERRIBILE COMPLOTTO (UN)
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 18:29:00 stop = 12/05/2015 19:31:00 title = PREMIUM SPORT
+      Replaces ----- start = 12/05/2015 18:07:00 stop = 12/05/2015 18:31:00 title = TERRIBILE COMPLOTTO (UN)
+      Replaces ----- start = 12/05/2015 18:31:00 stop = 12/05/2015 19:00:00 title = CAMERA CAFE'
+      Replaces ----- start = 12/05/2015 19:00:00 stop = 12/05/2015 19:31:00 title = PREMIUM SPORT
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 13/05/2015 08:52:00 stop = 13/05/2015 09:06:00 title = CAMERA CAFE'
+      Replaces ----- start = 13/05/2015 08:52:00 stop = 13/05/2015 08:58:00 title = CAMERA CAFE'
+      Replaces ----- start = 13/05/2015 08:58:00 stop = 13/05/2015 09:06:00 title = CAMERA CAFE'
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 13/05/2015 17:54:00 stop = 13/05/2015 18:28:00 title = TERRIBILE COMPLOTTO (UN)
+      Replaces ----- start = 13/05/2015 17:54:00 stop = 13/05/2015 18:21:00 title = RITORNO DI AL SATAN
+      Replaces ----- start = 13/05/2015 18:21:00 stop = 13/05/2015 18:28:00 title = CAMERA CAFE'
 
    Summary for update of Italia 2
-     no changes, no update necessary !
-     unchanged shows inspected 121
-     total after update        128
+     missing shows added       0
+     changed shows updated     6
+     new shows added           0
+     unchanged shows inspected 113
+     total after update        126
+     elapstime / updated show  0.84 seconds
+
 
 channel Mediaset Extra site -- MEDIASET.IT -- update mode incremental
    skipped show without a title at 11/05/2015 06:35:00
@@ -81,25 +108,114 @@ System.FormatException: String was not recognized as a valid DateTime.
   at WebGrab.Program.Main (System.String[] args) [0x00000] in <filename unknown>:0 
 
 channel La 5 site -- MEDIASET.IT -- update mode incremental
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 11:10:00 stop = 12/05/2015 11:40:00 title = DONNA MODERNA LIVE
+      Replaces ----- start = 12/05/2015 11:10:00 stop = 12/05/2015 11:40:00 title = A CUCCIA DI CUORI
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 12:30:00 stop = 12/05/2015 13:05:00 title = A CUCCIA DI CUORI
+      Replaces ----- start = 12/05/2015 12:30:00 stop = 12/05/2015 13:05:00 title = DONNA MODERNA LIVE
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 21:10:00 stop = 12/05/2015 23:35:00 title = UN PRINCIPE TUTTO MIO
+      Replaces ----- start = 12/05/2015 21:10:00 stop = 12/05/2015 23:15:00 title = UN PRINCIPE TUTTO MIO
+      Replaces ----- start = 12/05/2015 23:15:00 stop = 13/05/2015 00:25:00 title = UOMINI E DONNE
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 23:35:00 stop = 12/05/2015 23:40:00 title = TRE MINUTI DI DOLCEZZA
+      Replaces ----- start = 12/05/2015 23:15:00 stop = 13/05/2015 00:25:00 title = UOMINI E DONNE
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 23:40:00 stop = 13/05/2015 00:50:00 title = UOMINI E DONNE
+      Replaces ----- start = 12/05/2015 23:15:00 stop = 13/05/2015 00:25:00 title = UOMINI E DONNE
+      Replaces ----- start = 13/05/2015 00:25:00 stop = 13/05/2015 01:00:00 title = DONNA MODERNA LIVE
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 13/05/2015 00:50:00 stop = 13/05/2015 01:25:00 title = DONNA MODERNA LIVE
+      Replaces ----- start = 13/05/2015 00:25:00 stop = 13/05/2015 01:00:00 title = DONNA MODERNA LIVE
+      Replaces ----- start = 13/05/2015 01:00:00 stop = 13/05/2015 01:45:00 title = COME MI VORREI
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 13/05/2015 01:25:00 stop = 13/05/2015 02:10:00 title = COME MI VORREI
+      Replaces ----- start = 13/05/2015 01:00:00 stop = 13/05/2015 01:45:00 title = COME MI VORREI
+      Replaces ----- start = 13/05/2015 01:45:00 stop = 13/05/2015 02:10:00 title = A CUCCIA DI CUORI
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 13/05/2015 02:10:00 stop = 13/05/2015 02:35:00 title = A CUCCIA DI CUORI
+      Replaces ----- start = 13/05/2015 02:10:00 stop = 13/05/2015 03:00:00 title = EXTREME MAKEOVER HOME EDITION VIII
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 13/05/2015 02:35:00 stop = 13/05/2015 03:25:00 title = EXTREME MAKEOVER HOME EDITION VIII
+      Replaces ----- start = 13/05/2015 02:10:00 stop = 13/05/2015 03:00:00 title = EXTREME MAKEOVER HOME EDITION VIII
+      Replaces ----- start = 13/05/2015 03:00:00 stop = 13/05/2015 03:55:00 title = NON DITELO ALLA SPOSA VI
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 13/05/2015 03:25:00 stop = 13/05/2015 04:25:00 title = NON DITELO ALLA SPOSA VI
+      Replaces ----- start = 13/05/2015 03:00:00 stop = 13/05/2015 03:55:00 title = NON DITELO ALLA SPOSA VI
+      Replaces ----- start = 13/05/2015 03:55:00 stop = 13/05/2015 04:25:00 title = DONNA MODERNA LIVE
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 13/05/2015 11:10:00 stop = 13/05/2015 11:40:00 title = DONNA MODERNA LIVE
+      Replaces ----- start = 13/05/2015 11:10:00 stop = 13/05/2015 11:40:00 title = A CUCCIA DI CUORI
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 13/05/2015 12:30:00 stop = 13/05/2015 13:05:00 title = A CUCCIA DI CUORI
+      Replaces ----- start = 13/05/2015 12:30:00 stop = 13/05/2015 13:05:00 title = DONNA MODERNA LIVE
 
    Summary for update of La 5
-     no changes, no update necessary !
-     unchanged shows inspected 75
+     missing shows added       0
+     changed shows updated     12
+     new shows added           0
+     unchanged shows inspected 63
      total after update        82
+     elapstime / updated show  0.82 seconds
+
 
 channel Iris site -- MEDIASET.IT -- update mode incremental
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 08:39:00 stop = 12/05/2015 08:47:00 title = LIVE FROM CANNES
+      Replaces ----- start = 12/05/2015 08:39:00 stop = 12/05/2015 08:47:00 title = NEW PROGRAM
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 15:08:00 stop = 12/05/2015 15:24:00 title = LIVE FROM CANNES
+      Replaces ----- start = 12/05/2015 15:08:00 stop = 12/05/2015 15:24:00 title = NEW PROGRAM
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 23:35:00 stop = 12/05/2015 23:51:00 title = LIVE FROM CANNES
+      Replaces ----- start = 12/05/2015 23:35:00 stop = 12/05/2015 23:51:00 title = NEW PROGRAM
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 13/05/2015 13:54:00 stop = 13/05/2015 14:18:00 title = LIVE FROM CANNES
+      Replaces ----- start = 13/05/2015 13:54:00 stop = 13/05/2015 14:18:00 title = NEW PROGRAM
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 13/05/2015 21:00:00 stop = 13/05/2015 21:04:00 title = IO L'HO VISTO
+      Replaces ----- start = 13/05/2015 21:00:00 stop = 13/05/2015 23:25:00 title = IL NEMICO ALLE PORTE
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 13/05/2015 21:04:00 stop = 13/05/2015 23:21:00 title = IL NEMICO ALLE PORTE
+      Replaces ----- start = 13/05/2015 21:00:00 stop = 13/05/2015 23:25:00 title = IL NEMICO ALLE PORTE
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 13/05/2015 23:21:00 stop = 13/05/2015 23:25:00 title = IO L'HO VISTO
+      Replaces ----- start = 13/05/2015 21:00:00 stop = 13/05/2015 23:25:00 title = IL NEMICO ALLE PORTE
 
    Summary for update of Iris
-     no changes, no update necessary !
-     unchanged shows inspected 49
-     total after update        52
+     missing shows added       0
+     changed shows updated     7
+     new shows added           0
+     unchanged shows inspected 42
+     total after update        54
+     elapstime / updated show  0.80 seconds
+
 
 channel Top Crime site -- MEDIASET.IT -- update mode incremental
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 05:55:00 stop = 12/05/2015 06:20:00 title = DISTRETTO DI POLIZIA 1
+      Replaces ----- start = 12/05/2015 05:55:00 stop = 12/05/2015 06:30:00 title = COLD BLOOD I
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 06:20:00 stop = 12/05/2015 06:40:00 title = URBAN LEGENDS III
+      Replaces ----- start = 12/05/2015 05:55:00 stop = 12/05/2015 06:30:00 title = COLD BLOOD I
+      Replaces ----- start = 12/05/2015 06:30:00 stop = 12/05/2015 06:45:00 title = TELEVENDITA MEDIA SHOPPING
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 06:40:00 stop = 12/05/2015 06:50:00 title = TELEVENDITA MEDIA SHOPPING
+      Replaces ----- start = 12/05/2015 06:30:00 stop = 12/05/2015 06:45:00 title = TELEVENDITA MEDIA SHOPPING
+      Replaces ----- start = 12/05/2015 06:45:00 stop = 12/05/2015 07:48:00 title = CRIMINAL INTENT I
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 06:50:00 stop = 12/05/2015 07:48:00 title = CRIMINAL INTENT I
+      Replaces ----- start = 12/05/2015 06:45:00 stop = 12/05/2015 07:48:00 title = CRIMINAL INTENT I
 
    Summary for update of Top Crime
-     no changes, no update necessary !
-     unchanged shows inspected 81
-     total after update        89
+     missing shows added       0
+     changed shows updated     4
+     new shows added           0
+     unchanged shows inspected 76
+     total after update        90
+     elapstime / updated show  0.82 seconds
+
 
 channel RSI LA 1 site -- TV.ZAM.IT -- update mode incremental
 
@@ -129,11 +245,62 @@ channel Cielo HD site -- GUIDATV.SKY.IT -- update mode incremental
      total after update        71
 
 channel Focus site -- GUIDATV.SKY.IT -- update mode incremental
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 11/05/2015 09:25:00 stop = 11/05/2015 10:20:00 title = Avventura tra i giaguari
+      Replaces ----- start = 11/05/2015 09:25:00 stop = 11/05/2015 10:21:00 title = Avventura tra i giaguari
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 11/05/2015 10:20:00 stop = 11/05/2015 11:20:00 title = Terra. Evoluzione di un pianeta
+      Replaces ----- start = 11/05/2015 09:25:00 stop = 11/05/2015 10:21:00 title = Avventura tra i giaguari
+      Replaces ----- start = 11/05/2015 10:21:00 stop = 11/05/2015 11:19:00 title = Terra. Evoluzione di un pianeta
+      Replaces ----- start = 11/05/2015 11:19:00 stop = 11/05/2015 12:05:00 title = I segreti del tempo
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 11/05/2015 11:20:00 stop = 11/05/2015 12:05:00 title = I segreti del tempo
+      Replaces ----- start = 11/05/2015 11:19:00 stop = 11/05/2015 12:05:00 title = I segreti del tempo
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 11/05/2015 15:10:00 stop = 11/05/2015 16:00:00 title = Mutant Planet
+      Replaces ----- start = 11/05/2015 15:10:00 stop = 11/05/2015 16:03:00 title = Mutant Planet
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 11/05/2015 16:00:00 stop = 11/05/2015 16:55:00 title = A caccia di miti
+      Replaces ----- start = 11/05/2015 15:10:00 stop = 11/05/2015 16:03:00 title = Mutant Planet
+      Replaces ----- start = 11/05/2015 16:03:00 stop = 11/05/2015 16:55:00 title = A caccia di miti
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 11/05/2015 18:30:00 stop = 11/05/2015 19:25:00 title = X Machines
+      Replaces ----- start = 11/05/2015 18:30:00 stop = 11/05/2015 19:26:00 title = X Machines
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 11/05/2015 19:25:00 stop = 11/05/2015 20:20:00 title = Megafabbriche
+      Replaces ----- start = 11/05/2015 18:30:00 stop = 11/05/2015 19:26:00 title = X Machines
+      Replaces ----- start = 11/05/2015 19:26:00 stop = 11/05/2015 20:20:00 title = Megafabbriche
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 01:25:00 stop = 12/05/2015 02:15:00 title = MythBusters
+      Replaces ----- start = 12/05/2015 01:25:00 stop = 12/05/2015 02:17:00 title = MythBusters
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 02:15:00 stop = 12/05/2015 03:05:00 title = Indagini ad alta quota
+      Replaces ----- start = 12/05/2015 01:25:00 stop = 12/05/2015 02:17:00 title = MythBusters
+      Replaces ----- start = 12/05/2015 02:17:00 stop = 12/05/2015 03:05:00 title = Indagini ad alta quota
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 03:05:00 stop = 12/05/2015 04:00:00 title = Avventura tra i giaguari
+      Replaces ----- start = 12/05/2015 03:05:00 stop = 12/05/2015 03:59:00 title = Avventura tra i giaguari
+      Replaces ----- start = 12/05/2015 03:59:00 stop = 12/05/2015 04:53:00 title = Terra. Evoluzione di un pianeta
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 04:00:00 stop = 12/05/2015 04:50:00 title = Terra. Evoluzione di un pianeta
+      Replaces ----- start = 12/05/2015 03:59:00 stop = 12/05/2015 04:53:00 title = Terra. Evoluzione di un pianeta
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 04:50:00 stop = 12/05/2015 05:35:00 title = A caccia di miti
+      Replaces ----- start = 12/05/2015 03:59:00 stop = 12/05/2015 04:53:00 title = Terra. Evoluzione di un pianeta
+      Replaces ----- start = 12/05/2015 04:53:00 stop = 12/05/2015 05:38:00 title = A caccia di miti
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 05:35:00 stop = 12/05/2015 06:00:00 title = Come e' fatto il cibo
+      Replaces ----- start = 12/05/2015 04:53:00 stop = 12/05/2015 05:38:00 title = A caccia di miti
+      Replaces ----- start = 12/05/2015 05:38:00 stop = 12/05/2015 06:00:00 title = Come e' fatto il cibo
 
    Summary for update of Focus
-     no changes, no update necessary !
-     unchanged shows inspected 103
+     missing shows added       0
+     changed shows updated     13
+     new shows added           0
+     unchanged shows inspected 90
      total after update        103
+     elapstime / updated show  2.72 seconds
+
 
 channel Cartoon Network site -- GUIDATV.SKY.IT -- update mode incremental
 
@@ -150,11 +317,39 @@ channel Sky Disney XD HD site -- GUIDATV.SKY.IT -- update mode incremental
      total after update        259
 
 channel Disney Channel HD site -- GUIDATV.SKY.IT -- update mode incremental
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 09:40:00 stop = 12/05/2015 10:10:00 title = Sabrina vita da strega
+      Replaces ----- start = 12/05/2015 09:40:00 stop = 12/05/2015 10:05:00 title = Sabrina vita da strega
+      Replaces ----- start = 12/05/2015 10:05:00 stop = 12/05/2015 10:10:00 title = Life Bites
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 10:10:00 stop = 12/05/2015 10:15:00 title = Life Bites
+      Replaces ----- start = 12/05/2015 10:10:00 stop = 12/05/2015 10:20:00 title = Life Bites
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 10:15:00 stop = 12/05/2015 10:20:00 title = Life Bites
+      Replaces ----- start = 12/05/2015 10:10:00 stop = 12/05/2015 10:20:00 title = Life Bites
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 13:10:00 stop = 12/05/2015 13:35:00 title = Dog with a blog
+      Replaces ----- start = 12/05/2015 13:10:00 stop = 12/05/2015 13:30:00 title = Dog with a blog
+      Replaces ----- start = 12/05/2015 13:30:00 stop = 12/05/2015 14:00:00 title = Austin & Ally
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 13:35:00 stop = 12/05/2015 14:00:00 title = Austin & Ally
+      Replaces ----- start = 12/05/2015 13:30:00 stop = 12/05/2015 14:00:00 title = Austin & Ally
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 13/05/2015 00:35:00 stop = 13/05/2015 00:50:00 title = Doggywood
+      Replaces ----- start = 13/05/2015 00:35:00 stop = 13/05/2015 00:45:00 title = Doggywood
+      Replaces ----- start = 13/05/2015 00:45:00 stop = 13/05/2015 01:10:00 title = The Avatars
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 13/05/2015 00:50:00 stop = 13/05/2015 01:10:00 title = The Avatars
+      Replaces ----- start = 13/05/2015 00:45:00 stop = 13/05/2015 01:10:00 title = The Avatars
 
    Summary for update of Disney Channel HD
-     no changes, no update necessary !
-     unchanged shows inspected 206
+     missing shows added       0
+     changed shows updated     7
+     new shows added           0
+     unchanged shows inspected 199
      total after update        206
+     elapstime / updated show  1.68 seconds
+
 
 channel Disney Junior site -- GUIDATV.SKY.IT -- update mode incremental
 
@@ -164,11 +359,39 @@ channel Disney Junior site -- GUIDATV.SKY.IT -- update mode incremental
      total after update        297
 
 channel Premium Disney Channel +1 site -- GUIDATV.SKY.IT -- update mode incremental
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 10:40:00 stop = 12/05/2015 11:10:00 title = Sabrina vita da strega
+      Replaces ----- start = 12/05/2015 10:40:00 stop = 12/05/2015 11:05:00 title = Sabrina vita da strega
+      Replaces ----- start = 12/05/2015 11:05:00 stop = 12/05/2015 11:10:00 title = Life Bites
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 11:10:00 stop = 12/05/2015 11:15:00 title = Life Bites
+      Replaces ----- start = 12/05/2015 11:10:00 stop = 12/05/2015 11:20:00 title = Life Bites
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 11:15:00 stop = 12/05/2015 11:20:00 title = Life Bites
+      Replaces ----- start = 12/05/2015 11:10:00 stop = 12/05/2015 11:20:00 title = Life Bites
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 14:10:00 stop = 12/05/2015 14:35:00 title = Dog with a blog
+      Replaces ----- start = 12/05/2015 14:10:00 stop = 12/05/2015 14:30:00 title = Dog with a blog
+      Replaces ----- start = 12/05/2015 14:30:00 stop = 12/05/2015 15:00:00 title = Austin & Ally
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 14:35:00 stop = 12/05/2015 15:00:00 title = Austin & Ally
+      Replaces ----- start = 12/05/2015 14:30:00 stop = 12/05/2015 15:00:00 title = Austin & Ally
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 13/05/2015 01:35:00 stop = 13/05/2015 01:50:00 title = Doggywood
+      Replaces ----- start = 13/05/2015 01:35:00 stop = 13/05/2015 01:45:00 title = Doggywood
+      Replaces ----- start = 13/05/2015 01:45:00 stop = 13/05/2015 02:10:00 title = The Avatars
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 13/05/2015 01:50:00 stop = 13/05/2015 02:10:00 title = The Avatars
+      Replaces ----- start = 13/05/2015 01:45:00 stop = 13/05/2015 02:10:00 title = The Avatars
 
    Summary for update of Premium Disney Channel +1
-     no changes, no update necessary !
-     unchanged shows inspected 209
+     missing shows added       0
+     changed shows updated     7
+     new shows added           0
+     unchanged shows inspected 202
      total after update        209
+     elapstime / updated show  1.74 seconds
+
 
 channel Nikelodeon site -- GUIDATV.SKY.IT -- update mode incremental
 
@@ -290,11 +513,22 @@ channel Premium BBC site -- MEDIASET.IT -- update mode incremental
      total after update        102
 
 channel Premium Calcio site -- MEDIASET.IT -- update mode incremental
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 18:30:00 stop = 12/05/2015 18:40:00 title = PREMIUM SPORT
+      Replaces ----- start = 12/05/2015 18:30:00 stop = 12/05/2015 19:00:00 title = PREMIUM SPORT
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 18:40:00 stop = 12/05/2015 19:30:00 title = PREMIUM SPORT
+      Replaces ----- start = 12/05/2015 18:30:00 stop = 12/05/2015 19:00:00 title = PREMIUM SPORT
+      Replaces ----- start = 12/05/2015 19:00:00 stop = 12/05/2015 19:30:00 title = PREMIUM SPORT
 
    Summary for update of Premium Calcio
-     no changes, no update necessary !
-     unchanged shows inspected 101
+     missing shows added       0
+     changed shows updated     2
+     new shows added           0
+     unchanged shows inspected 99
      total after update        111
+     elapstime / updated show  1.25 seconds
+
 
 channel Sky Cinema 1 HD site -- GUIDATV.SKY.IT -- update mode incremental
 
@@ -549,11 +783,131 @@ channel Sky discovery HD site -- GUIDATV.SKY.IT -- update mode incremental
      total after update        101
 
 channel Sky NationalGeo HD site -- GUIDATV.SKY.IT -- update mode incremental
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 06:00:00 stop = 12/05/2015 06:55:00 title = Quei secondi fatali
+      Replaces ----- start = 12/05/2015 06:00:00 stop = 12/05/2015 07:00:00 title = Quei secondi fatali
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 06:55:00 stop = 12/05/2015 07:55:00 title = L'uomo dello spazio
+      Replaces ----- start = 12/05/2015 06:00:00 stop = 12/05/2015 07:00:00 title = Quei secondi fatali
+      Replaces ----- start = 12/05/2015 07:00:00 stop = 12/05/2015 07:50:00 title = L'uomo dello spazio
+      Replaces ----- start = 12/05/2015 07:50:00 stop = 12/05/2015 08:40:00 title = James May: Toy Stories
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 07:55:00 stop = 12/05/2015 08:55:00 title = James May: Toy Stories
+      Replaces ----- start = 12/05/2015 07:50:00 stop = 12/05/2015 08:40:00 title = James May: Toy Stories
+      Replaces ----- start = 12/05/2015 08:40:00 stop = 12/05/2015 09:10:00 title = La scienza ha fatto bang
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 08:55:00 stop = 12/05/2015 09:25:00 title = La scienza ha fatto bang
+      Replaces ----- start = 12/05/2015 08:40:00 stop = 12/05/2015 09:10:00 title = La scienza ha fatto bang
+      Replaces ----- start = 12/05/2015 09:10:00 stop = 12/05/2015 09:40:00 title = Cosa ti dice il cervello?
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 09:25:00 stop = 12/05/2015 09:55:00 title = Cosa ti dice il cervello?
+      Replaces ----- start = 12/05/2015 09:10:00 stop = 12/05/2015 09:40:00 title = Cosa ti dice il cervello?
+      Replaces ----- start = 12/05/2015 09:40:00 stop = 12/05/2015 10:40:00 title = L'anno delle tempeste
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 09:55:00 stop = 12/05/2015 10:50:00 title = L'anno delle tempeste
+      Replaces ----- start = 12/05/2015 09:40:00 stop = 12/05/2015 10:40:00 title = L'anno delle tempeste
+      Replaces ----- start = 12/05/2015 10:40:00 stop = 12/05/2015 11:30:00 title = Megafabbriche
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 10:50:00 stop = 12/05/2015 11:45:00 title = Megafabbriche
+      Replaces ----- start = 12/05/2015 10:40:00 stop = 12/05/2015 11:30:00 title = Megafabbriche
+      Replaces ----- start = 12/05/2015 11:30:00 stop = 12/05/2015 11:55:00 title = Stupidi al quadrato
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 11:45:00 stop = 12/05/2015 12:15:00 title = Stupidi al quadrato
+      Replaces ----- start = 12/05/2015 11:30:00 stop = 12/05/2015 11:55:00 title = Stupidi al quadrato
+      Replaces ----- start = 12/05/2015 11:55:00 stop = 12/05/2015 12:55:00 title = Indagini ad alta quota
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 12:15:00 stop = 12/05/2015 13:10:00 title = Indagini ad alta quota
+      Replaces ----- start = 12/05/2015 11:55:00 stop = 12/05/2015 12:55:00 title = Indagini ad alta quota
+      Replaces ----- start = 12/05/2015 12:55:00 stop = 12/05/2015 13:55:00 title = Megafabbriche
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 13:10:00 stop = 12/05/2015 14:05:00 title = Megafabbriche
+      Replaces ----- start = 12/05/2015 12:55:00 stop = 12/05/2015 13:55:00 title = Megafabbriche
+      Replaces ----- start = 12/05/2015 13:55:00 stop = 12/05/2015 14:25:00 title = Stupidi al quadrato
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 14:05:00 stop = 12/05/2015 14:30:00 title = Stupidi al quadrato
+      Replaces ----- start = 12/05/2015 13:55:00 stop = 12/05/2015 14:25:00 title = Stupidi al quadrato
+      Replaces ----- start = 12/05/2015 14:25:00 stop = 12/05/2015 14:55:00 title = Stupidi al quadrato
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 14:30:00 stop = 12/05/2015 15:00:00 title = Stupidi al quadrato
+      Replaces ----- start = 12/05/2015 14:25:00 stop = 12/05/2015 14:55:00 title = Stupidi al quadrato
+      Replaces ----- start = 12/05/2015 14:55:00 stop = 12/05/2015 15:25:00 title = Cosa ti dice il cervello?
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 15:00:00 stop = 12/05/2015 15:30:00 title = Cosa ti dice il cervello?
+      Replaces ----- start = 12/05/2015 14:55:00 stop = 12/05/2015 15:25:00 title = Cosa ti dice il cervello?
+      Replaces ----- start = 12/05/2015 15:25:00 stop = 12/05/2015 15:55:00 title = Muoviti o muori
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 15:30:00 stop = 12/05/2015 16:00:00 title = Muoviti o muori
+      Replaces ----- start = 12/05/2015 15:25:00 stop = 12/05/2015 15:55:00 title = Muoviti o muori
+      Replaces ----- start = 12/05/2015 15:55:00 stop = 12/05/2015 16:25:00 title = Muoviti o muori
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 16:00:00 stop = 12/05/2015 16:25:00 title = Muoviti o muori
+      Replaces ----- start = 12/05/2015 15:55:00 stop = 12/05/2015 16:25:00 title = Muoviti o muori
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 16:25:00 stop = 12/05/2015 17:20:00 title = Dubai. Il mega aeroporto
+      Replaces ----- start = 12/05/2015 16:25:00 stop = 12/05/2015 17:25:00 title = Dubai. Il mega aeroporto
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 17:20:00 stop = 12/05/2015 18:20:00 title = Megafabbriche
+      Replaces ----- start = 12/05/2015 16:25:00 stop = 12/05/2015 17:25:00 title = Dubai. Il mega aeroporto
+      Replaces ----- start = 12/05/2015 17:25:00 stop = 12/05/2015 18:25:00 title = Megafabbriche
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 18:20:00 stop = 12/05/2015 19:20:00 title = Indagini ad alta quota
+      Replaces ----- start = 12/05/2015 17:25:00 stop = 12/05/2015 18:25:00 title = Megafabbriche
+      Replaces ----- start = 12/05/2015 18:25:00 stop = 12/05/2015 19:25:00 title = Indagini ad alta quota
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 19:20:00 stop = 12/05/2015 19:50:00 title = Cosa ti dice il cervello?
+      Replaces ----- start = 12/05/2015 18:25:00 stop = 12/05/2015 19:25:00 title = Indagini ad alta quota
+      Replaces ----- start = 12/05/2015 19:25:00 stop = 12/05/2015 19:55:00 title = Cosa ti dice il cervello?
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 19:50:00 stop = 12/05/2015 20:20:00 title = Stupidi al quadrato
+      Replaces ----- start = 12/05/2015 19:25:00 stop = 12/05/2015 19:55:00 title = Cosa ti dice il cervello?
+      Replaces ----- start = 12/05/2015 19:55:00 stop = 12/05/2015 20:25:00 title = Stupidi al quadrato
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 20:20:00 stop = 12/05/2015 20:55:00 title = Stupidi al quadrato
+      Replaces ----- start = 12/05/2015 19:55:00 stop = 12/05/2015 20:25:00 title = Stupidi al quadrato
+      Replaces ----- start = 12/05/2015 20:25:00 stop = 12/05/2015 20:55:00 title = Stupidi al quadrato
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 21:55:00 stop = 12/05/2015 22:55:00 title = Crash Science
+      Replaces ----- start = 12/05/2015 21:55:00 stop = 12/05/2015 22:55:00 title = A tutto motori: Crash Science
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 22:55:00 stop = 12/05/2015 23:50:00 title = A tutto motori: Il re delle moto
+      Replaces ----- start = 12/05/2015 22:55:00 stop = 12/05/2015 23:55:00 title = A tutto motori: Il re delle moto
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 23:50:00 stop = 13/05/2015 00:45:00 title = A tutto motori: Megafabbriche italiane
+      Replaces ----- start = 12/05/2015 22:55:00 stop = 12/05/2015 23:55:00 title = A tutto motori: Il re delle moto
+      Replaces ----- start = 12/05/2015 23:55:00 stop = 13/05/2015 00:55:00 title = A tutto motori: Megafabbriche italiane
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 13/05/2015 00:45:00 stop = 13/05/2015 01:45:00 title = Megafabbriche
+      Replaces ----- start = 12/05/2015 23:55:00 stop = 13/05/2015 00:55:00 title = A tutto motori: Megafabbriche italiane
+      Replaces ----- start = 13/05/2015 00:55:00 stop = 13/05/2015 01:55:00 title = Megafabbriche
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 13/05/2015 01:45:00 stop = 13/05/2015 02:45:00 title = Quei secondi fatali
+      Replaces ----- start = 13/05/2015 00:55:00 stop = 13/05/2015 01:55:00 title = Megafabbriche
+      Replaces ----- start = 13/05/2015 01:55:00 stop = 13/05/2015 02:55:00 title = Quei secondi fatali
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 13/05/2015 02:45:00 stop = 13/05/2015 03:40:00 title = James May: Toy Stories
+      Replaces ----- start = 13/05/2015 01:55:00 stop = 13/05/2015 02:55:00 title = Quei secondi fatali
+      Replaces ----- start = 13/05/2015 02:55:00 stop = 13/05/2015 03:55:00 title = James May: Toy Stories
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 13/05/2015 03:40:00 stop = 13/05/2015 04:35:00 title = L'uomo dello spazio
+      Replaces ----- start = 13/05/2015 02:55:00 stop = 13/05/2015 03:55:00 title = James May: Toy Stories
+      Replaces ----- start = 13/05/2015 03:55:00 stop = 13/05/2015 04:45:00 title = L'uomo dello spazio
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 13/05/2015 04:35:00 stop = 13/05/2015 05:05:00 title = La scienza ha fatto bang
+      Replaces ----- start = 13/05/2015 03:55:00 stop = 13/05/2015 04:45:00 title = L'uomo dello spazio
+      Replaces ----- start = 13/05/2015 04:45:00 stop = 13/05/2015 05:10:00 title = La scienza ha fatto bang
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 13/05/2015 05:05:00 stop = 13/05/2015 06:00:00 title = Indagini ad alta quota
+      Replaces ----- start = 13/05/2015 04:45:00 stop = 13/05/2015 05:10:00 title = La scienza ha fatto bang
+      Replaces ----- start = 13/05/2015 05:10:00 stop = 13/05/2015 06:00:00 title = Indagini ad alta quota
 
    Summary for update of Sky NationalGeo HD
-     no changes, no update necessary !
-     unchanged shows inspected 97
+     missing shows added       0
+     changed shows updated     30
+     new shows added           0
+     unchanged shows inspected 67
      total after update        97
+     elapstime / updated show  2.40 seconds
+
 
 channel Sky NatGeo People HD site -- GUIDATV.SKY.IT -- update mode incremental
 
@@ -605,25 +959,194 @@ channel Sky Arte HD site -- GUIDATV.SKY.IT -- update mode incremental
      total after update        83
 
 channel Sky Dmax HD site -- GUIDATV.SKY.IT -- update mode incremental
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 13/05/2015 22:00:00 stop = 13/05/2015 22:25:00 title = Come e' fatto il cibo
+      Replaces ----- start = 13/05/2015 22:00:00 stop = 13/05/2015 22:55:00 title = Food Fighters
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 13/05/2015 22:25:00 stop = 13/05/2015 22:55:00 title = Come e' fatto il cibo
+      Replaces ----- start = 13/05/2015 22:00:00 stop = 13/05/2015 22:55:00 title = Food Fighters
 
    Summary for update of Sky Dmax HD
-     no changes, no update necessary !
-     unchanged shows inspected 117
-     total after update        117
+     missing shows added       0
+     changed shows updated     2
+     new shows added           0
+     unchanged shows inspected 116
+     total after update        118
+     elapstime / updated show  2.14 seconds
+
 
 channel Sky eXplora HD site -- GUIDATV.SKY.IT -- update mode incremental
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 06:00:00 stop = 12/05/2015 06:55:00 title = La macchina perfetta
+      Replaces ----- start = 12/05/2015 06:00:00 stop = 12/05/2015 07:00:00 title = La macchina perfetta
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 06:55:00 stop = 12/05/2015 07:55:00 title = Prometheus
+      Replaces ----- start = 12/05/2015 06:00:00 stop = 12/05/2015 07:00:00 title = La macchina perfetta
+      Replaces ----- start = 12/05/2015 07:00:00 stop = 12/05/2015 08:00:00 title = Prometheus
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 07:55:00 stop = 12/05/2015 08:45:00 title = Superhuman
+      Replaces ----- start = 12/05/2015 07:00:00 stop = 12/05/2015 08:00:00 title = Prometheus
+      Replaces ----- start = 12/05/2015 08:00:00 stop = 12/05/2015 08:50:00 title = Superhuman
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 08:45:00 stop = 12/05/2015 09:45:00 title = Prometheus
+      Replaces ----- start = 12/05/2015 08:00:00 stop = 12/05/2015 08:50:00 title = Superhuman
+      Replaces ----- start = 12/05/2015 08:50:00 stop = 12/05/2015 09:40:00 title = Prometheus
+      Replaces ----- start = 12/05/2015 09:40:00 stop = 12/05/2015 10:10:00 title = Prometheus
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 09:45:00 stop = 12/05/2015 10:15:00 title = Prometheus
+      Replaces ----- start = 12/05/2015 09:40:00 stop = 12/05/2015 10:10:00 title = Prometheus
+      Replaces ----- start = 12/05/2015 10:10:00 stop = 12/05/2015 10:45:00 title = Ecco perche'!
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 10:15:00 stop = 12/05/2015 10:45:00 title = Ecco perche'!
+      Replaces ----- start = 12/05/2015 10:10:00 stop = 12/05/2015 10:45:00 title = Ecco perche'!
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 10:45:00 stop = 12/05/2015 11:15:00 title = Ecco perche'!
+      Replaces ----- start = 12/05/2015 10:45:00 stop = 12/05/2015 11:10:00 title = Ecco perche'!
+      Replaces ----- start = 12/05/2015 11:10:00 stop = 12/05/2015 11:35:00 title = Il banco dei pugni
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 11:15:00 stop = 12/05/2015 11:40:00 title = Il banco dei pugni
+      Replaces ----- start = 12/05/2015 11:10:00 stop = 12/05/2015 11:35:00 title = Il banco dei pugni
+      Replaces ----- start = 12/05/2015 11:35:00 stop = 12/05/2015 12:00:00 title = Il banco dei pugni
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 11:40:00 stop = 12/05/2015 12:05:00 title = Il banco dei pugni
+      Replaces ----- start = 12/05/2015 11:35:00 stop = 12/05/2015 12:00:00 title = Il banco dei pugni
+      Replaces ----- start = 12/05/2015 12:00:00 stop = 12/05/2015 12:20:00 title = Il banco dei pugni
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 12:05:00 stop = 12/05/2015 12:30:00 title = Il banco dei pugni
+      Replaces ----- start = 12/05/2015 12:00:00 stop = 12/05/2015 12:20:00 title = Il banco dei pugni
+      Replaces ----- start = 12/05/2015 12:20:00 stop = 12/05/2015 12:45:00 title = Il banco dei pugni
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 12:30:00 stop = 12/05/2015 12:50:00 title = Il banco dei pugni
+      Replaces ----- start = 12/05/2015 12:20:00 stop = 12/05/2015 12:45:00 title = Il banco dei pugni
+      Replaces ----- start = 12/05/2015 12:45:00 stop = 12/05/2015 13:05:00 title = Fritti da legare
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 12:50:00 stop = 12/05/2015 13:15:00 title = Fritti da legare
+      Replaces ----- start = 12/05/2015 12:45:00 stop = 12/05/2015 13:05:00 title = Fritti da legare
+      Replaces ----- start = 12/05/2015 13:05:00 stop = 12/05/2015 13:30:00 title = I giganti della strada
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 13:15:00 stop = 12/05/2015 13:40:00 title = I giganti della strada
+      Replaces ----- start = 12/05/2015 13:05:00 stop = 12/05/2015 13:30:00 title = I giganti della strada
+      Replaces ----- start = 12/05/2015 13:30:00 stop = 12/05/2015 14:20:00 title = Se ti prendo, ti ammazzo!
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 13:40:00 stop = 12/05/2015 14:35:00 title = Se ti prendo, ti ammazzo!
+      Replaces ----- start = 12/05/2015 13:30:00 stop = 12/05/2015 14:20:00 title = Se ti prendo, ti ammazzo!
+      Replaces ----- start = 12/05/2015 14:20:00 stop = 12/05/2015 14:45:00 title = A tutti i costi
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 14:35:00 stop = 12/05/2015 14:55:00 title = A tutti i costi
+      Replaces ----- start = 12/05/2015 14:20:00 stop = 12/05/2015 14:45:00 title = A tutti i costi
+      Replaces ----- start = 12/05/2015 14:45:00 stop = 12/05/2015 15:10:00 title = A tutti i costi
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 14:55:00 stop = 12/05/2015 15:20:00 title = A tutti i costi
+      Replaces ----- start = 12/05/2015 14:45:00 stop = 12/05/2015 15:10:00 title = A tutti i costi
+      Replaces ----- start = 12/05/2015 15:10:00 stop = 12/05/2015 16:00:00 title = Pazzi per il legno
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 15:20:00 stop = 12/05/2015 16:10:00 title = Pazzi per il legno
+      Replaces ----- start = 12/05/2015 15:10:00 stop = 12/05/2015 16:00:00 title = Pazzi per il legno
+      Replaces ----- start = 12/05/2015 16:00:00 stop = 12/05/2015 16:40:00 title = Come salvarsi la pelle
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 16:10:00 stop = 12/05/2015 16:50:00 title = Come salvarsi la pelle
+      Replaces ----- start = 12/05/2015 16:00:00 stop = 12/05/2015 16:40:00 title = Come salvarsi la pelle
+      Replaces ----- start = 12/05/2015 16:40:00 stop = 12/05/2015 17:00:00 title = Il banco dei pugni
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 16:50:00 stop = 12/05/2015 17:10:00 title = Il banco dei pugni
+      Replaces ----- start = 12/05/2015 16:40:00 stop = 12/05/2015 17:00:00 title = Il banco dei pugni
+      Replaces ----- start = 12/05/2015 17:00:00 stop = 12/05/2015 17:25:00 title = Il banco dei pugni
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 17:10:00 stop = 12/05/2015 17:35:00 title = Il banco dei pugni
+      Replaces ----- start = 12/05/2015 17:00:00 stop = 12/05/2015 17:25:00 title = Il banco dei pugni
+      Replaces ----- start = 12/05/2015 17:25:00 stop = 12/05/2015 17:50:00 title = Il banco dei pugni
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 17:35:00 stop = 12/05/2015 18:00:00 title = Il banco dei pugni
+      Replaces ----- start = 12/05/2015 17:25:00 stop = 12/05/2015 17:50:00 title = Il banco dei pugni
+      Replaces ----- start = 12/05/2015 17:50:00 stop = 12/05/2015 18:55:00 title = Dea: squadra anti-droga
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 18:00:00 stop = 12/05/2015 18:45:00 title = Dea: squadra anti-droga
+      Replaces ----- start = 12/05/2015 17:50:00 stop = 12/05/2015 18:55:00 title = Dea: squadra anti-droga
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 18:45:00 stop = 12/05/2015 19:15:00 title = I giganti della strada
+      Replaces ----- start = 12/05/2015 17:50:00 stop = 12/05/2015 18:55:00 title = Dea: squadra anti-droga
+      Replaces ----- start = 12/05/2015 18:55:00 stop = 12/05/2015 19:25:00 title = I giganti della strada
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 19:15:00 stop = 12/05/2015 19:40:00 title = Il banco dei pugni
+      Replaces ----- start = 12/05/2015 18:55:00 stop = 12/05/2015 19:25:00 title = I giganti della strada
+      Replaces ----- start = 12/05/2015 19:25:00 stop = 12/05/2015 19:45:00 title = Il banco dei pugni
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 19:40:00 stop = 12/05/2015 20:00:00 title = Fritti da legare
+      Replaces ----- start = 12/05/2015 19:25:00 stop = 12/05/2015 19:45:00 title = Il banco dei pugni
+      Replaces ----- start = 12/05/2015 19:45:00 stop = 12/05/2015 20:10:00 title = Fritti da legare
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 20:00:00 stop = 12/05/2015 20:30:00 title = I giganti della strada
+      Replaces ----- start = 12/05/2015 19:45:00 stop = 12/05/2015 20:10:00 title = Fritti da legare
+      Replaces ----- start = 12/05/2015 20:10:00 stop = 12/05/2015 20:35:00 title = I giganti della strada
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 20:30:00 stop = 12/05/2015 21:00:00 title = I giganti della strada
+      Replaces ----- start = 12/05/2015 20:10:00 stop = 12/05/2015 20:35:00 title = I giganti della strada
+      Replaces ----- start = 12/05/2015 20:35:00 stop = 12/05/2015 21:00:00 title = I giganti della strada
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 21:00:00 stop = 12/05/2015 21:45:00 title = Dea: squadra anti-droga
+      Replaces ----- start = 12/05/2015 21:00:00 stop = 12/05/2015 21:50:00 title = Dea: squadra anti-droga
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 21:45:00 stop = 12/05/2015 22:30:00 title = Come salvarsi la pelle
+      Replaces ----- start = 12/05/2015 21:00:00 stop = 12/05/2015 21:50:00 title = Dea: squadra anti-droga
+      Replaces ----- start = 12/05/2015 21:50:00 stop = 12/05/2015 22:35:00 title = Come salvarsi la pelle
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 22:30:00 stop = 12/05/2015 22:55:00 title = Il banco dei pugni
+      Replaces ----- start = 12/05/2015 21:50:00 stop = 12/05/2015 22:35:00 title = Come salvarsi la pelle
+      Replaces ----- start = 12/05/2015 22:35:00 stop = 12/05/2015 23:00:00 title = Il banco dei pugni
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 22:55:00 stop = 12/05/2015 23:15:00 title = Il banco dei pugni
+      Replaces ----- start = 12/05/2015 22:35:00 stop = 12/05/2015 23:00:00 title = Il banco dei pugni
+      Replaces ----- start = 12/05/2015 23:00:00 stop = 12/05/2015 23:25:00 title = Il banco dei pugni
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 23:15:00 stop = 13/05/2015 00:15:00 title = Malattie incredibili
+      Replaces ----- start = 12/05/2015 23:00:00 stop = 12/05/2015 23:25:00 title = Il banco dei pugni
+      Replaces ----- start = 12/05/2015 23:25:00 stop = 13/05/2015 00:20:00 title = Malattie incredibili
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 13/05/2015 00:15:00 stop = 13/05/2015 01:10:00 title = Malattie incredibili
+      Replaces ----- start = 12/05/2015 23:25:00 stop = 13/05/2015 00:20:00 title = Malattie incredibili
+      Replaces ----- start = 13/05/2015 00:20:00 stop = 13/05/2015 01:15:00 title = Malattie incredibili
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 13/05/2015 01:10:00 stop = 13/05/2015 01:35:00 title = Bizarre E.R.
+      Replaces ----- start = 13/05/2015 00:20:00 stop = 13/05/2015 01:15:00 title = Malattie incredibili
+      Replaces ----- start = 13/05/2015 01:15:00 stop = 13/05/2015 01:40:00 title = Bizarre E.R.
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 13/05/2015 01:35:00 stop = 13/05/2015 02:00:00 title = Bizarre E.R.
+      Replaces ----- start = 13/05/2015 01:15:00 stop = 13/05/2015 01:40:00 title = Bizarre E.R.
+      Replaces ----- start = 13/05/2015 01:40:00 stop = 13/05/2015 02:05:00 title = Bizarre E.R.
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 13/05/2015 02:00:00 stop = 13/05/2015 02:50:00 title = L'esorcista
+      Replaces ----- start = 13/05/2015 01:40:00 stop = 13/05/2015 02:05:00 title = Bizarre E.R.
+      Replaces ----- start = 13/05/2015 02:05:00 stop = 13/05/2015 02:55:00 title = L'esorcista
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 13/05/2015 02:50:00 stop = 13/05/2015 03:40:00 title = Orrori a 4 ruote
+      Replaces ----- start = 13/05/2015 02:05:00 stop = 13/05/2015 02:55:00 title = L'esorcista
+      Replaces ----- start = 13/05/2015 02:55:00 stop = 13/05/2015 03:40:00 title = Orrori a 4 ruote
 
    Summary for update of Sky eXplora HD
-     no changes, no update necessary !
-     unchanged shows inspected 119
+     missing shows added       0
+     changed shows updated     37
+     new shows added           0
+     unchanged shows inspected 82
      total after update        119
+     elapstime / updated show  2.84 seconds
+
 
 channel Sky Pesca & Caccia site -- GUIDATV.SKY.IT -- update mode incremental
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 17:05:00 stop = 12/05/2015 18:00:00 title = Hot Spot Italia
+      Replaces ----- start = 12/05/2015 17:05:00 stop = 12/05/2015 18:00:00 title = Hot Spot Italia 2012
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 13/05/2015 05:05:00 stop = 13/05/2015 06:00:00 title = Hot Spot Italia
+      Replaces ----- start = 13/05/2015 05:05:00 stop = 13/05/2015 06:00:00 title = Hot Spot Italia 2012
 
    Summary for update of Sky Pesca & Caccia
-     no changes, no update necessary !
-     unchanged shows inspected 142
+     missing shows added       0
+     changed shows updated     2
+     new shows added           0
+     unchanged shows inspected 140
      total after update        142
+     elapstime / updated show  1.96 seconds
+
 
 channel Caccia site -- GUIDATV.SKY.IT -- update mode incremental
 
@@ -647,11 +1170,52 @@ channel Sky Sport Plus HD site -- GUIDATV.SKY.IT -- update mode incremental
      total after update        79
 
 channel Sky Fox Sport HD site -- GUIDATV.SKY.IT -- update mode incremental
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 13/05/2015 07:45:00 stop = 13/05/2015 10:25:00 title = Sveglia con Fox
+      Replaces ----- start = 13/05/2015 07:45:00 stop = 13/05/2015 10:30:00 title = Sveglia con Fox
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 13/05/2015 10:25:00 stop = 13/05/2015 10:55:00 title = PSG
+      Replaces ----- start = 13/05/2015 07:45:00 stop = 13/05/2015 10:30:00 title = Sveglia con Fox
+      Replaces ----- start = 13/05/2015 10:30:00 stop = 13/05/2015 11:00:00 title = PSG
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 13/05/2015 10:55:00 stop = 13/05/2015 12:45:00 title = Real Madrid
+      Replaces ----- start = 13/05/2015 10:30:00 stop = 13/05/2015 11:00:00 title = PSG
+      Replaces ----- start = 13/05/2015 11:00:00 stop = 13/05/2015 12:45:00 title = Real Madrid
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 13/05/2015 18:45:00 stop = 13/05/2015 19:40:00 title = Premier League Review
+      Replaces ----- start = 13/05/2015 18:45:00 stop = 13/05/2015 19:45:00 title = Premier League Review
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 13/05/2015 19:40:00 stop = 13/05/2015 20:40:00 title = Liga Review
+      Replaces ----- start = 13/05/2015 18:45:00 stop = 13/05/2015 19:45:00 title = Premier League Review
+      Replaces ----- start = 13/05/2015 19:45:00 stop = 13/05/2015 20:45:00 title = Liga Review
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 13/05/2015 20:40:00 stop = 13/05/2015 21:10:00 title = Top Assist e Top Parate
+      Replaces ----- start = 13/05/2015 19:45:00 stop = 13/05/2015 20:45:00 title = Liga Review
+      Replaces ----- start = 13/05/2015 20:45:00 stop = 13/05/2015 21:15:00 title = Top Assist e Top Parate
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 13/05/2015 21:10:00 stop = 13/05/2015 21:40:00 title = The Swansea Way
+      Replaces ----- start = 13/05/2015 20:45:00 stop = 13/05/2015 21:15:00 title = Top Assist e Top Parate
+      Replaces ----- start = 13/05/2015 21:15:00 stop = 13/05/2015 21:45:00 title = The Swansea Way
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 13/05/2015 21:40:00 stop = 13/05/2015 22:10:00 title = Chelsea, Gimme Five: Tutti i Gol
+      Replaces ----- start = 13/05/2015 21:15:00 stop = 13/05/2015 21:45:00 title = The Swansea Way
+      Replaces ----- start = 13/05/2015 21:45:00 stop = 13/05/2015 22:15:00 title = Chelsea, Gimme Five: Tutti i Gol
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 13/05/2015 22:10:00 stop = 13/05/2015 23:55:00 title = San Paolo
+      Replaces ----- start = 13/05/2015 21:45:00 stop = 13/05/2015 22:15:00 title = Chelsea, Gimme Five: Tutti i Gol
+      Replaces ----- start = 13/05/2015 22:15:00 stop = 14/05/2015 00:00:00 title = San Paolo
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 13/05/2015 23:55:00 stop = 14/05/2015 00:25:00 title = Libertadores per tutti!
+      Replaces ----- start = 13/05/2015 22:15:00 stop = 14/05/2015 00:00:00 title = San Paolo
 
    Summary for update of Sky Fox Sport HD
-     no changes, no update necessary !
-     unchanged shows inspected 83
-     total after update        83
+     missing shows added       0
+     changed shows updated     10
+     new shows added           0
+     unchanged shows inspected 74
+     total after update        84
+     elapstime / updated show  2.40 seconds
+
 
 channel Sky Fox Sport 2 HD site -- GUIDATV.SKY.IT -- update mode incremental
 
@@ -675,37 +1239,165 @@ channel Sky Sport 2 HD site -- GUIDATV.SKY.IT -- update mode incremental
      total after update        50
 
 channel Sky Sport 3 HD site -- GUIDATV.SKY.IT -- update mode incremental
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 11/05/2015 02:00:00 stop = 11/05/2015 03:45:00 title = Parma
-      Replaces ----- start = 11/05/2015 01:00:00 stop = 11/05/2015 02:45:00 title = Parma
-      Replaces ----- start = 11/05/2015 02:45:00 stop = 11/05/2015 03:00:00 title = Nissan the Quest 7
-      Replaces ----- start = 11/05/2015 03:00:00 stop = 11/05/2015 06:00:00 title = Golf: Us Pga Tour
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 11/05/2015 03:45:00 stop = 11/05/2015 06:00:00 title = Golf: Us Pga Tour
-      Replaces ----- start = 11/05/2015 03:00:00 stop = 11/05/2015 06:00:00 title = Golf: Us Pga Tour
 
    Summary for update of Sky Sport 3 HD
-     missing shows added       0
-     changed shows updated     2
-     new shows added           0
-     unchanged shows inspected 46
+     no changes, no update necessary !
+     unchanged shows inspected 48
      total after update        48
-     elapstime / updated show  2.47 seconds
-
 
 channel Sky Eurosport 1 HD site -- GUIDATV.SKY.IT -- update mode incremental
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 11/05/2015 10:00:00 stop = 11/05/2015 11:00:00 title = Ciclismo: Giro d'Italia Today
+      Replaces ----- start = 11/05/2015 10:00:00 stop = 11/05/2015 11:15:00 title = Ciclismo: Giro d'Italia
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 11/05/2015 11:00:00 stop = 11/05/2015 11:15:00 title = Motori: Motorsports Weekend
+      Replaces ----- start = 11/05/2015 10:00:00 stop = 11/05/2015 11:15:00 title = Ciclismo: Giro d'Italia
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 11/05/2015 11:15:00 stop = 11/05/2015 11:55:00 title = Superbike: GP Italia
+      Replaces ----- start = 11/05/2015 11:15:00 stop = 11/05/2015 12:00:00 title = Superbike: GP Italia
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 11/05/2015 11:55:00 stop = 11/05/2015 12:25:00 title = Supersport: GP Italia
+      Replaces ----- start = 11/05/2015 11:15:00 stop = 11/05/2015 12:00:00 title = Superbike: GP Italia
+      Replaces ----- start = 11/05/2015 12:00:00 stop = 11/05/2015 12:30:00 title = Supersport: GP Italia
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 11/05/2015 12:25:00 stop = 11/05/2015 13:10:00 title = Superbike: GP Italia
+      Replaces ----- start = 11/05/2015 12:00:00 stop = 11/05/2015 12:30:00 title = Supersport: GP Italia
+      Replaces ----- start = 11/05/2015 12:30:00 stop = 11/05/2015 13:15:00 title = Superbike: GP Italia
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 11/05/2015 13:10:00 stop = 11/05/2015 14:15:00 title = Ciclismo: Giro d'Italia Today
+      Replaces ----- start = 11/05/2015 12:30:00 stop = 11/05/2015 13:15:00 title = Superbike: GP Italia
+      Replaces ----- start = 11/05/2015 13:15:00 stop = 11/05/2015 14:15:00 title = Ciclismo: Giro d'Italia
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 11/05/2015 14:30:00 stop = 11/05/2015 17:25:00 title = Ciclismo: Giro d'Italia  (live)
+      Replaces ----- start = 11/05/2015 14:30:00 stop = 11/05/2015 17:30:00 title = Ciclismo: Giro d'Italia  (live)
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 11/05/2015 17:25:00 stop = 11/05/2015 17:45:00 title = Ciclismo: Giro d'Italia  (live)
+      Replaces ----- start = 11/05/2015 14:30:00 stop = 11/05/2015 17:30:00 title = Ciclismo: Giro d'Italia  (live)
+      Replaces ----- start = 11/05/2015 17:30:00 stop = 11/05/2015 17:45:00 title = Ciclismo: Giro d'Italia  (live)
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 11/05/2015 18:30:00 stop = 11/05/2015 18:45:00 title = Calcio: UEFA Women's Football Show
+      Replaces ----- start = 11/05/2015 18:30:00 stop = 11/05/2015 19:30:00 title = Calcio: Major League Soccer
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 11/05/2015 18:45:00 stop = 11/05/2015 19:30:00 title = Calcio: Major League Soccer
+      Replaces ----- start = 11/05/2015 18:30:00 stop = 11/05/2015 19:30:00 title = Calcio: Major League Soccer
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 11/05/2015 19:30:00 stop = 11/05/2015 20:30:00 title = Calcio: Olanda
+      Replaces ----- start = 11/05/2015 19:30:00 stop = 11/05/2015 20:45:00 title = Calcio: Campionato Europeo U17
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 11/05/2015 20:30:00 stop = 11/05/2015 20:45:00 title = All sports: WATTS
+      Replaces ----- start = 11/05/2015 19:30:00 stop = 11/05/2015 20:45:00 title = Calcio: Campionato Europeo U17
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 11/05/2015 20:45:00 stop = 11/05/2015 21:45:00 title = Fight sport: Fight Club
+      Replaces ----- start = 11/05/2015 20:45:00 stop = 11/05/2015 21:00:00 title = All sports: WATTS
+      Replaces ----- start = 11/05/2015 21:00:00 stop = 11/05/2015 22:00:00 title = Fight sport: Fight Club
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 11/05/2015 21:45:00 stop = 11/05/2015 22:05:00 title = Equitazione: Horse Racing Time
+      Replaces ----- start = 11/05/2015 21:00:00 stop = 11/05/2015 22:00:00 title = Fight sport: Fight Club
+      Replaces ----- start = 11/05/2015 22:00:00 stop = 11/05/2015 23:00:00 title = Ciclismo: Giro d'Italia
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 11/05/2015 22:05:00 stop = 11/05/2015 23:00:00 title = Ciclismo: Giro d'Italia Today
+      Replaces ----- start = 11/05/2015 22:00:00 stop = 11/05/2015 23:00:00 title = Ciclismo: Giro d'Italia
 
    Summary for update of Sky Eurosport 1 HD
-     no changes, no update necessary !
-     unchanged shows inspected 54
-     total after update        54
+     missing shows added       0
+     changed shows updated     15
+     new shows added           0
+     unchanged shows inspected 42
+     total after update        57
+     elapstime / updated show  2.36 seconds
+
 
 channel Sky Eurosport 2 HD site -- GUIDATV.SKY.IT -- update mode incremental
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 11/05/2015 02:00:00 stop = 11/05/2015 03:50:00 title = Ciclismo: Giro della California
+      Replaces ----- start = 11/05/2015 02:00:00 stop = 11/05/2015 03:00:00 title = Ciclismo: Giro della California
+      Replaces ----- start = 11/05/2015 03:00:00 stop = 11/05/2015 04:00:00 title = Canottaggio: Coppa del Mondo
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 11/05/2015 03:50:00 stop = 11/05/2015 04:45:00 title = Ciclismo: 4 giorni di Dunkerque
+      Replaces ----- start = 11/05/2015 03:00:00 stop = 11/05/2015 04:00:00 title = Canottaggio: Coppa del Mondo
+      Replaces ----- start = 11/05/2015 04:00:00 stop = 11/05/2015 05:00:00 title = Ciclismo: 4 giorni di Dunkerque
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 11/05/2015 04:45:00 stop = 11/05/2015 05:55:00 title = Ciclismo: Giro della California
+      Replaces ----- start = 11/05/2015 04:00:00 stop = 11/05/2015 05:00:00 title = Ciclismo: 4 giorni di Dunkerque
+      Replaces ----- start = 11/05/2015 05:00:00 stop = 11/05/2015 06:00:00 title = Ciclismo: Giro della California
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 11/05/2015 05:55:00 stop = 11/05/2015 06:55:00 title = Calcio: Slovenia
+      Replaces ----- start = 11/05/2015 05:00:00 stop = 11/05/2015 06:00:00 title = Ciclismo: Giro della California
+      Replaces ----- start = 11/05/2015 06:00:00 stop = 11/05/2015 07:00:00 title = Calcio: Slovenia
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 11/05/2015 06:55:00 stop = 11/05/2015 08:00:00 title = Calcio: Olanda
+      Replaces ----- start = 11/05/2015 06:00:00 stop = 11/05/2015 07:00:00 title = Calcio: Slovenia
+      Replaces ----- start = 11/05/2015 07:00:00 stop = 11/05/2015 08:00:00 title = Calcio: Olanda
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 11/05/2015 08:00:00 stop = 11/05/2015 09:25:00 title = Ciclismo: Giro d'Italia Today
+      Replaces ----- start = 11/05/2015 08:00:00 stop = 11/05/2015 09:30:00 title = Ciclismo: Giro d'Italia Today
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 11/05/2015 09:25:00 stop = 11/05/2015 10:25:00 title = Calcio: Slovenia
+      Replaces ----- start = 11/05/2015 08:00:00 stop = 11/05/2015 09:30:00 title = Ciclismo: Giro d'Italia Today
+      Replaces ----- start = 11/05/2015 09:30:00 stop = 11/05/2015 10:30:00 title = Calcio: Slovenia
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 11/05/2015 10:25:00 stop = 11/05/2015 11:30:00 title = Calcio: Olanda
+      Replaces ----- start = 11/05/2015 09:30:00 stop = 11/05/2015 10:30:00 title = Calcio: Slovenia
+      Replaces ----- start = 11/05/2015 10:30:00 stop = 11/05/2015 11:30:00 title = Calcio: Olanda
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 11/05/2015 11:30:00 stop = 11/05/2015 12:25:00 title = Ciclismo: Giro della California
+      Replaces ----- start = 11/05/2015 11:30:00 stop = 11/05/2015 12:30:00 title = Ciclismo: Giro della California
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 11/05/2015 12:25:00 stop = 11/05/2015 13:15:00 title = Ciclismo: Giro d'Italia Today
+      Replaces ----- start = 11/05/2015 11:30:00 stop = 11/05/2015 12:30:00 title = Ciclismo: Giro della California
+      Replaces ----- start = 11/05/2015 12:30:00 stop = 11/05/2015 13:15:00 title = Ciclismo: Giro d'Italia Today
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 11/05/2015 13:15:00 stop = 11/05/2015 14:40:00 title = Calcio: Slovenia
+      Replaces ----- start = 11/05/2015 13:15:00 stop = 11/05/2015 14:45:00 title = Calcio: Slovenia
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 11/05/2015 14:40:00 stop = 11/05/2015 15:45:00 title = Canottaggio: Coppa del Mondo
+      Replaces ----- start = 11/05/2015 13:15:00 stop = 11/05/2015 14:45:00 title = Calcio: Slovenia
+      Replaces ----- start = 11/05/2015 14:45:00 stop = 11/05/2015 15:45:00 title = Canottaggio: Coppa del Mondo
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 11/05/2015 18:00:00 stop = 11/05/2015 18:25:00 title = Supersport: GP Italia
+      Replaces ----- start = 11/05/2015 18:00:00 stop = 11/05/2015 18:30:00 title = Supersport: GP Italia
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 11/05/2015 18:25:00 stop = 11/05/2015 19:10:00 title = Superbike: GP Italia
+      Replaces ----- start = 11/05/2015 18:00:00 stop = 11/05/2015 18:30:00 title = Supersport: GP Italia
+      Replaces ----- start = 11/05/2015 18:30:00 stop = 11/05/2015 19:15:00 title = Superbike: GP Italia
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 11/05/2015 19:10:00 stop = 11/05/2015 20:00:00 title = Motocross: Mondiale
+      Replaces ----- start = 11/05/2015 18:30:00 stop = 11/05/2015 19:15:00 title = Superbike: GP Italia
+      Replaces ----- start = 11/05/2015 19:15:00 stop = 11/05/2015 20:00:00 title = Motocross: Mondiale
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 11/05/2015 20:00:00 stop = 11/05/2015 21:25:00 title = Ciclismo: Giro d'Italia Today
+      Replaces ----- start = 11/05/2015 20:00:00 stop = 11/05/2015 21:30:00 title = Ciclismo: Giro d'Italia Today
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 11/05/2015 21:25:00 stop = 11/05/2015 22:30:00 title = Calcio: Slovenia
+      Replaces ----- start = 11/05/2015 20:00:00 stop = 11/05/2015 21:30:00 title = Ciclismo: Giro d'Italia Today
+      Replaces ----- start = 11/05/2015 21:30:00 stop = 11/05/2015 22:30:00 title = Calcio: Slovenia
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 11/05/2015 22:30:00 stop = 11/05/2015 23:25:00 title = Calcio: Olanda
+      Replaces ----- start = 11/05/2015 22:30:00 stop = 11/05/2015 23:30:00 title = Calcio: Olanda
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 11/05/2015 23:25:00 stop = 12/05/2015 00:55:00 title = Fight sport: Fight Club
+      Replaces ----- start = 11/05/2015 22:30:00 stop = 11/05/2015 23:30:00 title = Calcio: Olanda
+      Replaces ----- start = 11/05/2015 23:30:00 stop = 12/05/2015 01:00:00 title = Fight sport: Fight Club
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 00:55:00 stop = 12/05/2015 01:55:00 title = Ciclismo: Giro della California
+      Replaces ----- start = 11/05/2015 23:30:00 stop = 12/05/2015 01:00:00 title = Fight sport: Fight Club
+      Replaces ----- start = 12/05/2015 01:00:00 stop = 12/05/2015 02:00:00 title = Ciclismo: Giro della California
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 01:55:00 stop = 12/05/2015 02:55:00 title = Ciclismo: Giro d'Italia Today
+      Replaces ----- start = 12/05/2015 01:00:00 stop = 12/05/2015 02:00:00 title = Ciclismo: Giro della California
+      Replaces ----- start = 12/05/2015 02:00:00 stop = 12/05/2015 03:00:00 title = Ciclismo: Giro d'Italia Today
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 02:55:00 stop = 12/05/2015 03:00:00 title = Canottaggio: Coppa del Mondo
+      Replaces ----- start = 12/05/2015 02:00:00 stop = 12/05/2015 03:00:00 title = Ciclismo: Giro d'Italia Today
 
    Summary for update of Sky Eurosport 2 HD
-     no changes, no update necessary !
-     unchanged shows inspected 70
+     missing shows added       0
+     changed shows updated     22
+     new shows added           0
+     unchanged shows inspected 48
      total after update        70
+     elapstime / updated show  2.28 seconds
+
 
 channel Sky Sport F1 HD site -- GUIDATV.SKY.IT -- update mode incremental
 
@@ -715,18 +1407,63 @@ channel Sky Sport F1 HD site -- GUIDATV.SKY.IT -- update mode incremental
      total after update        101
 
 channel Sky Sport MotoGP HD site -- GUIDATV.SKY.IT -- update mode incremental
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 11/05/2015 21:00:00 stop = 11/05/2015 22:00:00 title = MotoGP Gara 2014: GP Francia
+      Replaces ----- start = 11/05/2015 21:00:00 stop = 11/05/2015 22:00:00 title = Storie di GP: Francia 2004 Classe 125 cc
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 03:00:00 stop = 12/05/2015 04:00:00 title = MotoGP Gara 2014: GP Francia
+      Replaces ----- start = 12/05/2015 03:00:00 stop = 12/05/2015 04:00:00 title = Storie di GP: Francia 2004 Classe 125 cc
 
    Summary for update of Sky Sport MotoGP HD
-     no changes, no update necessary !
-     unchanged shows inspected 89
+     missing shows added       0
+     changed shows updated     2
+     new shows added           0
+     unchanged shows inspected 87
      total after update        89
+     elapstime / updated show  2.15 seconds
+
 
 channel Sky Supertennis HD site -- GUIDATV.SKY.IT -- update mode incremental
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 11/05/2015 05:30:00 stop = 11/05/2015 08:00:00 title = WTA Premier Madrid
+      Replaces ----- start = 11/05/2015 05:30:00 stop = 11/05/2015 07:45:00 title = WTA Premier Madrid
+      Replaces ----- start = 11/05/2015 07:45:00 stop = 11/05/2015 08:45:00 title = Master 1000 Montecarlo
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 11/05/2015 08:00:00 stop = 11/05/2015 09:00:00 title = Master 1000 Montecarlo
+      Replaces ----- start = 11/05/2015 07:45:00 stop = 11/05/2015 08:45:00 title = Master 1000 Montecarlo
+      Replaces ----- start = 11/05/2015 08:45:00 stop = 11/05/2015 10:30:00 title = WTA Premier Madrid. Finale
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 11/05/2015 09:00:00 stop = 11/05/2015 10:00:00 title = Kvitova
+      Replaces ----- start = 11/05/2015 08:45:00 stop = 11/05/2015 10:30:00 title = WTA Premier Madrid. Finale
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 11/05/2015 10:00:00 stop = 11/05/2015 10:30:00 title = Ieri al Foro Italico
+      Replaces ----- start = 11/05/2015 08:45:00 stop = 11/05/2015 10:30:00 title = WTA Premier Madrid. Finale
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 11/05/2015 19:30:00 stop = 11/05/2015 21:00:00 title = Tennis with stars
+      Replaces ----- start = 11/05/2015 19:30:00 stop = 11/05/2015 20:00:00 title = Ball Boys
+      Replaces ----- start = 11/05/2015 20:00:00 stop = 11/05/2015 21:00:00 title = WTA Roma Internazionali BNL d'Italia
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 19:30:00 stop = 12/05/2015 20:30:00 title = WTA Roma Internazionali BNL...
+      Replaces ----- start = 12/05/2015 19:30:00 stop = 12/05/2015 21:30:00 title = WTA Roma Internazionali BNL...
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 12/05/2015 20:30:00 stop = 12/05/2015 21:30:00 title = Ball Boys
+      Replaces ----- start = 12/05/2015 19:30:00 stop = 12/05/2015 21:30:00 title = WTA Roma Internazionali BNL...
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 13/05/2015 00:30:00 stop = 13/05/2015 09:15:00 title = WTA Roma Internazionali BNL d'Italia
+      Replaces ----- start = 13/05/2015 00:30:00 stop = 13/05/2015 01:00:00 title = Ball Boys
+      Replaces ----- start = 13/05/2015 01:00:00 stop = 13/05/2015 09:45:00 title = WTA Roma Internazionali BNL d'Italia
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 13/05/2015 09:15:00 stop = 13/05/2015 09:45:00 title = Ball Boys
+      Replaces ----- start = 13/05/2015 01:00:00 stop = 13/05/2015 09:45:00 title = WTA Roma Internazionali BNL d'Italia
 
    Summary for update of Sky Supertennis HD
-     no changes, no update necessary !
-     unchanged shows inspected 32
-     total after update        32
+     missing shows added       0
+     changed shows updated     9
+     new shows added           0
+     unchanged shows inspected 24
+     total after update        33
+     elapstime / updated show  2.15 seconds
+
 
 channel Sky Super Calcio HD site -- GUIDATV.SKY.IT -- update mode incremental
 
@@ -952,7 +1689,7 @@ channel Radio Italia Tv site -- GUIDATV.SKY.IT -- update mode incremental
      unchanged shows inspected 29
      total after update        29
 
-10702 shows in 130 channels
-2 updated shows
+10709 shows in 130 channels
+187 updated shows
 0 new shows added
-job finished at 11/05/2015 08:18:47 done in 1063 seconds
+job finished at 11/05/2015 16:25:18 done in 1454 seconds
