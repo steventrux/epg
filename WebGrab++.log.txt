@@ -1,6 +1,6 @@
 ﻿WebGrab+Plus/w MDB & REX Postprocess -- version 1.54.6/0.01 -- Jan van Straaten
 -------------------------------------------------------------------------------
-job started at 05/07/2015 08:01:04
+job started at 05/07/2015 16:01:04
 
 
 reading config file: /home/stefano/git/epg/WebGrab++.config.xml
@@ -21,7 +21,6 @@ running on Unix 3.14.32.6
 
 xmltv input file - /home/stefano/git/epg/guide.xml - found
 0 superfluous shows removed
-removed 2 overlapping shows in Mediaset Extra starting after 05/07/2015 07:00:00
 update requested for - 177 - out of - 177 - channels and for 3 day(s)
 update mode set per individual channel
 
@@ -78,7 +77,7 @@ channel Italia 1 HD site -- MEDIASET.IT -- update mode incremental
 
    Summary for update of Italia 1 HD
      no changes, no update necessary !
-     unchanged shows inspected 97
+     unchanged shows inspected 95
      total after update        107
 
 channel Rete 4 HD site -- MEDIASET.IT -- update mode incremental
@@ -104,7 +103,7 @@ channel Rete 4 HD site -- MEDIASET.IT -- update mode incremental
      new shows added           0
      unchanged shows inspected 39
      total after update        49
-     elapstime / updated show  0.76 seconds
+     elapstime / updated show  0.96 seconds
 
 
 channel Italia 2 site -- MEDIASET.IT -- update mode incremental
@@ -115,6 +114,11 @@ channel Italia 2 site -- MEDIASET.IT -- update mode incremental
      total after update        118
 
 channel Mediaset Extra site -- MEDIASET.IT -- update mode incremental
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 05/07/2015 06:25:00 stop = 05/07/2015 08:35:00 title = LE STAGIONI DEL CUORE
+      Replaces ----- start = 05/07/2015 06:25:00 stop = 05/07/2015 07:00:00 title = LE STAGIONI DEL CUORE
+      Replaces ----- start = 05/07/2015 07:00:00 stop = 05/07/2015 07:35:00 title = SI' O NO (?)
+      Replaces ----- start = 05/07/2015 07:00:00 stop = 05/07/2015 07:35:00 title = SI' O NO (?)
    skipped show without a title at 05/07/2015 06:25:00
    skipped show without a title at 05/07/2015 06:25:00
    skipped show without a title at 05/07/2015 06:25:00
@@ -125,27 +129,26 @@ channel Mediaset Extra site -- MEDIASET.IT -- update mode incremental
    epg correction :  CHANGED show corrected,
       show with ---- start = 05/07/2015 06:25:00 stop = 05/07/2015 07:00:00 title = LE STAGIONI DEL CUORE
       Replaces ----- start = 05/07/2015 06:25:00 stop = 05/07/2015 07:00:00 title = LE STAGIONI DEL CUORE
-      Replaces ----- start = 05/07/2015 06:25:00 stop = 05/07/2015 08:35:00 title = LE STAGIONI DEL CUORE
-   suspicious      title in index page  = SI' O NO
-      differs from title in showdetails = SI' O NO (?)
-   epg correction :  CHANGED show corrected,
+multiple entry of a show at 20150705070000 +0200
+   forced update :  show REPLACED (forced update / overlap or timeorder error in EPG
       show with ---- start = 05/07/2015 07:00:00 stop = 05/07/2015 07:35:00 title = SI' O NO (?)
-      Replaces ----- start = 05/07/2015 06:25:00 stop = 05/07/2015 08:35:00 title = LE STAGIONI DEL CUORE
+      Replaces ----- start = 05/07/2015 07:00:00 stop = 05/07/2015 07:35:00 title = SI' O NO (?)
+      Replaces ----- start = 05/07/2015 07:00:00 stop = 05/07/2015 07:35:00 title = SI' O NO (?)
    skipped show without a title at 05/07/2015 07:00:00
-   suspicious      title in index page  = SI' O NO
-      differs from title in showdetails = SI' O NO (?)
-   epg correction :  CHANGED show corrected,
+multiple entry of a show at 20150705070000 +0200
+   forced update :  show REPLACED (forced update / overlap or timeorder error in EPG
       show with ---- start = 05/07/2015 07:00:00 stop = 05/07/2015 07:35:00 title = SI' O NO (?)
-      Replaces ----- start = 05/07/2015 06:25:00 stop = 05/07/2015 08:35:00 title = LE STAGIONI DEL CUORE
+      Replaces ----- start = 05/07/2015 07:00:00 stop = 05/07/2015 07:35:00 title = SI' O NO (?)
+      Replaces ----- start = 05/07/2015 07:00:00 stop = 05/07/2015 07:35:00 title = SI' O NO (?)
    skipped show without a title at 05/07/2015 07:00:00
 
    Summary for update of Mediaset Extra
      missing shows added       0
-     changed shows updated     3
+     changed shows updated     4
      new shows added           0
-     unchanged shows inspected 3
+     unchanged shows inspected 2
      total after update        5
-     elapstime / updated show  0.67 seconds
+     elapstime / updated show  0.84 seconds
 
 
 channel La 5 site -- MEDIASET.IT -- update mode incremental
@@ -159,7 +162,7 @@ channel Iris site -- MEDIASET.IT -- update mode incremental
 
    Summary for update of Iris
      no changes, no update necessary !
-     unchanged shows inspected 45
+     unchanged shows inspected 43
      total after update        48
 
 channel Top Crime site -- MEDIASET.IT -- update mode incremental
@@ -730,7 +733,7 @@ channel Sky Horror site -- GUIDATV.SKY.IT -- update mode incremental
      new shows added           0
      unchanged shows inspected 0
      total after update        12
-     elapstime / updated show  1.17 seconds
+     elapstime / updated show  1.31 seconds
 
 
 channel Comedy Central site -- GUIDATV.SKY.IT -- update mode incremental
@@ -1298,26 +1301,6 @@ channel Radio Italia site -- GUIDATV.SKY.IT -- update mode incremental
      total after update        28
 
 channel Sky Sport F1 UK site -- UK-SKY.COM -- update mode incremental
-   suspicious      title in index page  = Live British GP3: Race 2
-      differs from title in showdetails = British GP3: Race 2
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 05/07/2015 08:05:00 stop = 05/07/2015 09:05:00 title = British GP3: Race 2
-      Replaces ----- start = 05/07/2015 08:05:00 stop = 05/07/2015 09:05:00 title = British GP3: Race 2
-   suspicious      title in index page  = Live British GP2: Sprint Race
-      differs from title in showdetails = British GP2: Sprint Race
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 05/07/2015 09:15:00 stop = 05/07/2015 10:30:00 title = British GP2: Sprint Race
-      Replaces ----- start = 05/07/2015 09:15:00 stop = 05/07/2015 10:30:00 title = British GP2: Sprint Race
-   suspicious      title in index page  = Live British GP: Track Parade
-      differs from title in showdetails = British GP: Track Parade
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 05/07/2015 11:30:00 stop = 05/07/2015 12:00:00 title = British GP: Track Parade
-      Replaces ----- start = 05/07/2015 11:30:00 stop = 05/07/2015 12:00:00 title = British GP: Track Parade
-   suspicious      title in index page  = Live British GP: Pit Lane Live
-      differs from title in showdetails = British GP: Pit Lane Live
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 05/07/2015 12:00:00 stop = 05/07/2015 12:30:00 title = British GP: Pit Lane Live
-      Replaces ----- start = 05/07/2015 12:00:00 stop = 05/07/2015 12:30:00 title = British GP: Pit Lane Live
    suspicious      title in index page  = Live British Grand Prix
       differs from title in showdetails = British Grand Prix
    epg correction :  CHANGED show corrected,
@@ -1331,24 +1314,14 @@ channel Sky Sport F1 UK site -- UK-SKY.COM -- update mode incremental
 
    Summary for update of Sky Sport F1 UK
      missing shows added       0
-     changed shows updated     6
+     changed shows updated     2
      new shows added           0
-     unchanged shows inspected 63
+     unchanged shows inspected 58
      total after update        74
-     elapstime / updated show  1.42 seconds
+     elapstime / updated show  1.59 seconds
 
 
 channel UK: SKY SPORT 1 site -- UK-SKY.COM -- update mode incremental
-   suspicious      title in index page  = Live British GP: Track Parade
-      differs from title in showdetails = British GP: Track Parade
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 05/07/2015 11:30:00 stop = 05/07/2015 12:00:00 title = British GP: Track Parade
-      Replaces ----- start = 05/07/2015 11:30:00 stop = 05/07/2015 12:00:00 title = British GP: Track Parade
-   suspicious      title in index page  = Live British GP: Pit Lane Live
-      differs from title in showdetails = British GP: Pit Lane Live
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 05/07/2015 12:00:00 stop = 05/07/2015 12:30:00 title = British GP: Pit Lane Live
-      Replaces ----- start = 05/07/2015 12:00:00 stop = 05/07/2015 12:30:00 title = British GP: Pit Lane Live
    suspicious      title in index page  = Live British Grand Prix
       differs from title in showdetails = British Grand Prix
    epg correction :  CHANGED show corrected,
@@ -1372,11 +1345,11 @@ channel UK: SKY SPORT 1 site -- UK-SKY.COM -- update mode incremental
 
    Summary for update of UK: SKY SPORT 1
      missing shows added       0
-     changed shows updated     6
+     changed shows updated     4
      new shows added           0
-     unchanged shows inspected 99
+     unchanged shows inspected 90
      total after update        118
-     elapstime / updated show  1.37 seconds
+     elapstime / updated show  1.84 seconds
 
 
 channel UK: SKY SPORT 2 site -- UK-SKY.COM -- update mode incremental
@@ -1390,26 +1363,21 @@ channel UK: SKY SPORT 2 site -- UK-SKY.COM -- update mode incremental
      missing shows added       0
      changed shows updated     1
      new shows added           0
-     unchanged shows inspected 69
+     unchanged shows inspected 62
      total after update        77
-     elapstime / updated show  1.26 seconds
+     elapstime / updated show  2.38 seconds
 
 
 channel UK: SKY SPORT 3 site -- UK-SKY.COM -- update mode incremental
-   suspicious      title in index page  = Live Hockey World League
-      differs from title in showdetails = Hockey World League
+   suspicious      title in index page  = Live Hockey: GBR v IND
+      differs from title in showdetails = Hockey: GBR v IND
    epg correction :  CHANGED show corrected,
-      show with ---- start = 05/07/2015 12:00:00 stop = 05/07/2015 13:45:00 title = Hockey World League
-      Replaces ----- start = 05/07/2015 12:00:00 stop = 05/07/2015 13:45:00 title = Hockey World League
-   suspicious      title in index page  = Live Hockey World League
-      differs from title in showdetails = Hockey World League
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 05/07/2015 14:30:00 stop = 05/07/2015 16:15:00 title = Hockey World League
+      show with ---- start = 05/07/2015 14:30:00 stop = 05/07/2015 16:15:00 title = Hockey: GBR v IND
       Replaces ----- start = 05/07/2015 14:30:00 stop = 05/07/2015 16:15:00 title = Hockey World League
-   suspicious      title in index page  = Live Hockey World League Final
-      differs from title in showdetails = Hockey World League Final
+   suspicious      title in index page  = Live Hockey: AUS v BEL
+      differs from title in showdetails = Hockey: AUS v BEL
    epg correction :  CHANGED show corrected,
-      show with ---- start = 05/07/2015 17:00:00 stop = 05/07/2015 18:45:00 title = Hockey World League Final
+      show with ---- start = 05/07/2015 17:00:00 stop = 05/07/2015 18:45:00 title = Hockey: AUS v BEL
       Replaces ----- start = 05/07/2015 17:00:00 stop = 05/07/2015 18:45:00 title = Hockey World League Final
    suspicious      title in index page  = Live WWE Late Night Raw
       differs from title in showdetails = WWE Late Night Raw
@@ -1419,11 +1387,11 @@ channel UK: SKY SPORT 3 site -- UK-SKY.COM -- update mode incremental
 
    Summary for update of UK: SKY SPORT 3
      missing shows added       0
-     changed shows updated     4
+     changed shows updated     3
      new shows added           0
-     unchanged shows inspected 68
+     unchanged shows inspected 62
      total after update        84
-     elapstime / updated show  1.26 seconds
+     elapstime / updated show  2.27 seconds
 
 
 channel UK: SKY SPORT 4 site -- UK-SKY.COM -- update mode incremental
@@ -1447,9 +1415,9 @@ channel UK: SKY SPORT 4 site -- UK-SKY.COM -- update mode incremental
      missing shows added       0
      changed shows updated     3
      new shows added           0
-     unchanged shows inspected 64
+     unchanged shows inspected 57
      total after update        76
-     elapstime / updated show  1.34 seconds
+     elapstime / updated show  1.97 seconds
 
 
 channel Sky Bundesliga DE HD site -- TVTODAY.DE -- update mode incremental
@@ -1474,6 +1442,6 @@ channel Sky Sport 2 DE HD site -- TVTODAY.DE -- update mode incremental
      total after update        29
 
 15618 shows in 177 channels
-38 updated shows
+32 updated shows
 0 new shows added
-job finished at 05/07/2015 08:24:52 done in 1428 seconds
+job finished at 05/07/2015 16:29:40 done in 1716 seconds
