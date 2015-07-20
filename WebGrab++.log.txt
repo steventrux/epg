@@ -1,6 +1,6 @@
 ﻿WebGrab+Plus/w MDB & REX Postprocess -- version 1.54.6/0.01 -- Jan van Straaten
 -------------------------------------------------------------------------------
-job started at 20/07/2015 08:01:03
+job started at 20/07/2015 16:01:03
 
 
 reading config file: /home/stefano/git/epg/WebGrab++.config.xml
@@ -74,11 +74,29 @@ channel Canale 5 HD site -- MEDIASET.IT -- update mode incremental
      total after update        121
 
 channel Italia 1 HD site -- MEDIASET.IT -- update mode incremental
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 05:50:00 stop = 21/07/2015 06:25:00 title = TELEVENDITA MEDIA SHOPPING
+      Replaces ----- start = 21/07/2015 05:50:00 stop = 21/07/2015 06:05:00 title = TELEVENDITA MEDIA SHOPPING
+      Replaces ----- start = 21/07/2015 06:05:00 stop = 21/07/2015 06:25:00 title = TIL DEATH - PER TUTTA LA VITA IV
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 16:20:00 stop = 21/07/2015 16:25:00 title = CAMERA CAFE'
+      Replaces ----- start = 21/07/2015 16:20:00 stop = 21/07/2015 16:30:00 title = CAMERA CAFE'
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 16:25:00 stop = 21/07/2015 16:30:00 title = CAMERA CAFE'
+      Replaces ----- start = 21/07/2015 16:20:00 stop = 21/07/2015 16:30:00 title = CAMERA CAFE'
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 22/07/2015 05:50:00 stop = 22/07/2015 06:25:00 title = TELEVENDITA MEDIA SHOPPING
+      Replaces ----- start = 22/07/2015 05:50:00 stop = 22/07/2015 06:05:00 title = TELEVENDITA MEDIA SHOPPING
+      Replaces ----- start = 22/07/2015 06:05:00 stop = 22/07/2015 06:25:00 title = TIL DEATH - PER TUTTA LA VITA IV
 
    Summary for update of Italia 1 HD
-     no changes, no update necessary !
-     unchanged shows inspected 106
-     total after update        117
+     missing shows added       0
+     changed shows updated     4
+     new shows added           0
+     unchanged shows inspected 99
+     total after update        116
+     elapstime / updated show  0.65 seconds
+
 
 channel Rete 4 HD site -- MEDIASET.IT -- update mode incremental
 
@@ -95,14 +113,38 @@ channel Italia 2 site -- MEDIASET.IT -- update mode incremental
      total after update        134
 
 channel Mediaset Extra site -- MEDIASET.IT -- update mode incremental
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 20/07/2015 06:05:00 stop = 20/07/2015 06:25:00 title = TELEVENDITA MEDIA SHOPPING
+      Replaces ----- start = 20/07/2015 06:05:00 stop = 20/07/2015 06:45:00 title = TELEVENDITA MEDIA SHOPPING
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 20/07/2015 06:25:00 stop = 20/07/2015 06:45:00 title = CIAO DARWIN: A SPASSO NEL TEMPO
+      Replaces ----- start = 20/07/2015 06:05:00 stop = 20/07/2015 06:45:00 title = TELEVENDITA MEDIA SHOPPING
+multiple entry of a show at 20150720064500 +0200
    skipped show without a title at 20/07/2015 06:45:00
-unable to update channel Mediaset Extra
+multiple entry of a show at 20150720064500 +0200
+   suspicious      title in index page  = SI' O NO
+      differs from title in showdetails = SI' O NO (?)
+   suspicious      title in index page  = LA DONNA DEL MISTERO
+      differs from title in showdetails = SI' O NO
+   suspicious      title in index page  = ZELIG - SVISTI E MAI VISTI
+      differs from title in showdetails = ZELIG
+   suspicious      title in index page  = ANNI 50
+      differs from title in showdetails = ITALIA'S GOT TALE.....
+   suspicious      title in index page  = SI' O NO
+      differs from title in showdetails = SI' O NO (?)
+   suspicious      title in index page  = EXTRASHOW
+      differs from title in showdetails = EXTRASHOW (?)
+   suspicious      title in index page  = EXTRASHOW
+      differs from title in showdetails = EXTRASHOW (?)
 
-System.FormatException: String was not recognized as a valid DateTime.
-  at System.DateTime.Parse (System.String s, IFormatProvider provider, DateTimeStyles styles) [0x00000] in <filename unknown>:0 
-  at System.DateTime.Parse (System.String s, IFormatProvider provider) [0x00000] in <filename unknown>:0 
-  at WebGrab.Program.UpdateChannel (System.String strIndex, WebGrab.ChannelToUpdate Chan, WebGrab.XmlTarget xTarget) [0x00000] in <filename unknown>:0 
-  at WebGrab.Program.Main (System.String[] args) [0x00000] in <filename unknown>:0 
+   Summary for update of Mediaset Extra
+     missing shows added       0
+     changed shows updated     2
+     new shows added           47
+     unchanged shows inspected 3
+     total after update        50
+     elapstime / updated show  0.56 seconds
+
 
 channel La 5 site -- MEDIASET.IT -- update mode incremental
 
@@ -115,14 +157,14 @@ channel Iris site -- MEDIASET.IT -- update mode incremental
 
    Summary for update of Iris
      no changes, no update necessary !
-     unchanged shows inspected 47
+     unchanged shows inspected 46
      total after update        51
 
 channel Top Crime site -- MEDIASET.IT -- update mode incremental
 
    Summary for update of Top Crime
      no changes, no update necessary !
-     unchanged shows inspected 73
+     unchanged shows inspected 72
      total after update        80
 
 channel RSI site -- TV.ZAM.IT -- update mode incremental
@@ -146,11 +188,40 @@ Cannot find any shows on the Index Page !
      total after update        0
 
 channel La 7 site -- GUIDATV.SKY.IT -- update mode incremental
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 20/07/2015 20:35:00 stop = 20/07/2015 22:40:00 title = In Onda
+      Replaces ----- start = 20/07/2015 20:35:00 stop = 20/07/2015 21:10:00 title = In Onda
+      Replaces ----- start = 20/07/2015 21:10:00 stop = 20/07/2015 23:45:00 title = Tepepa
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 20/07/2015 22:40:00 stop = 21/07/2015 00:45:00 title = Piazzapulita
+      Replaces ----- start = 20/07/2015 21:10:00 stop = 20/07/2015 23:45:00 title = Tepepa
+      Replaces ----- start = 20/07/2015 23:45:00 stop = 21/07/2015 01:30:00 title = Django
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 00:45:00 stop = 21/07/2015 01:00:00 title = Tg La7
+      Replaces ----- start = 20/07/2015 23:45:00 stop = 21/07/2015 01:30:00 title = Django
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 01:00:00 stop = 21/07/2015 02:15:00 title = Coffee Break
+      Replaces ----- start = 20/07/2015 23:45:00 stop = 21/07/2015 01:30:00 title = Django
+      Replaces ----- start = 21/07/2015 01:30:00 stop = 21/07/2015 01:45:00 title = Tg La7
+      Replaces ----- start = 21/07/2015 01:45:00 stop = 21/07/2015 02:25:00 title = In Onda
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 02:15:00 stop = 21/07/2015 04:30:00 title = L'aria d'estate
+      Replaces ----- start = 21/07/2015 01:45:00 stop = 21/07/2015 02:25:00 title = In Onda
+      Replaces ----- start = 21/07/2015 02:25:00 stop = 21/07/2015 03:40:00 title = Coffee Break
+      Replaces ----- start = 21/07/2015 03:40:00 stop = 21/07/2015 05:25:00 title = L'aria d'estate
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 04:30:00 stop = 21/07/2015 06:00:00 title = Omnibus La7
+      Replaces ----- start = 21/07/2015 03:40:00 stop = 21/07/2015 05:25:00 title = L'aria d'estate
+      Replaces ----- start = 21/07/2015 05:25:00 stop = 21/07/2015 06:00:00 title = Omnibus La7
 
    Summary for update of La 7
-     no changes, no update necessary !
-     unchanged shows inspected 96
-     total after update        96
+     missing shows added       0
+     changed shows updated     6
+     new shows added           0
+     unchanged shows inspected 88
+     total after update        94
+     elapstime / updated show  1.29 seconds
+
 
 channel Mtv HD site -- GUIDATV.SKY.IT -- update mode incremental
 
@@ -314,11 +385,93 @@ channel Super! site -- GUIDATV.SKY.IT -- update mode incremental
      total after update        181
 
 channel Cartonito site -- GUIDATV.SKY.IT -- update mode incremental
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 07:10:00 stop = 21/07/2015 07:35:00 title = Daniel Tiger
+      Replaces ----- start = 21/07/2015 07:10:00 stop = 21/07/2015 07:35:00 title = Franklin and Friends
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 07:35:00 stop = 21/07/2015 08:00:00 title = Daniel Tiger
+      Replaces ----- start = 21/07/2015 07:35:00 stop = 21/07/2015 08:00:00 title = Dora l'esploratrice
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 08:25:00 stop = 21/07/2015 08:50:00 title = My Little Pony: L'amicizia e' magica
+      Replaces ----- start = 21/07/2015 08:25:00 stop = 21/07/2015 08:50:00 title = Daniel Tiger
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 08:50:00 stop = 21/07/2015 09:15:00 title = My Little Pony: L'amicizia e' magica
+      Replaces ----- start = 21/07/2015 08:50:00 stop = 21/07/2015 09:15:00 title = Daniel Tiger
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 12:25:00 stop = 21/07/2015 12:35:00 title = Pocoyo
+      Replaces ----- start = 21/07/2015 12:25:00 stop = 21/07/2015 12:35:00 title = Daniel Tiger
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 18:20:00 stop = 21/07/2015 18:45:00 title = Paw Patrol
+      Replaces ----- start = 21/07/2015 18:20:00 stop = 21/07/2015 18:45:00 title = Dora l'esploratrice
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 18:45:00 stop = 21/07/2015 19:10:00 title = Giust'in tempo
+      Replaces ----- start = 21/07/2015 18:45:00 stop = 21/07/2015 19:10:00 title = Dora l'esploratrice
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 19:10:00 stop = 21/07/2015 19:35:00 title = Giust'in tempo
+      Replaces ----- start = 21/07/2015 19:10:00 stop = 21/07/2015 19:35:00 title = Daniel Tiger
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 19:35:00 stop = 21/07/2015 20:00:00 title = Dora l'esploratrice
+      Replaces ----- start = 21/07/2015 19:35:00 stop = 21/07/2015 20:00:00 title = Daniel Tiger
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 20:25:00 stop = 21/07/2015 20:55:00 title = Daniel Tiger
+      Replaces ----- start = 21/07/2015 20:25:00 stop = 21/07/2015 20:55:00 title = I Puffi
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 20:55:00 stop = 21/07/2015 21:25:00 title = Simsalagrimm
+      Replaces ----- start = 21/07/2015 20:55:00 stop = 21/07/2015 21:25:00 title = Paw Patrol
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 21:25:00 stop = 21/07/2015 21:55:00 title = Pippi Calzelunghe
+      Replaces ----- start = 21/07/2015 21:25:00 stop = 21/07/2015 21:55:00 title = Paw Patrol
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 21:55:00 stop = 21/07/2015 22:20:00 title = Pippi Calzelunghe
+      Replaces ----- start = 21/07/2015 21:55:00 stop = 21/07/2015 22:20:00 title = Simsalagrimm
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 22/07/2015 07:10:00 stop = 22/07/2015 07:35:00 title = Daniel Tiger
+      Replaces ----- start = 22/07/2015 07:10:00 stop = 22/07/2015 07:35:00 title = Franklin and Friends
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 22/07/2015 07:35:00 stop = 22/07/2015 08:00:00 title = Daniel Tiger
+      Replaces ----- start = 22/07/2015 07:35:00 stop = 22/07/2015 08:00:00 title = Dora l'esploratrice
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 22/07/2015 08:25:00 stop = 22/07/2015 08:50:00 title = My Little Pony: L'amicizia e' magica
+      Replaces ----- start = 22/07/2015 08:25:00 stop = 22/07/2015 08:50:00 title = Daniel Tiger
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 22/07/2015 08:50:00 stop = 22/07/2015 09:15:00 title = My Little Pony: L'amicizia e' magica
+      Replaces ----- start = 22/07/2015 08:50:00 stop = 22/07/2015 09:15:00 title = Daniel Tiger
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 22/07/2015 12:25:00 stop = 22/07/2015 12:35:00 title = Pocoyo
+      Replaces ----- start = 22/07/2015 12:25:00 stop = 22/07/2015 12:35:00 title = Daniel Tiger
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 22/07/2015 18:20:00 stop = 22/07/2015 18:45:00 title = Paw Patrol
+      Replaces ----- start = 22/07/2015 18:20:00 stop = 22/07/2015 18:45:00 title = Dora l'esploratrice
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 22/07/2015 18:45:00 stop = 22/07/2015 19:10:00 title = Giust'in tempo
+      Replaces ----- start = 22/07/2015 18:45:00 stop = 22/07/2015 19:10:00 title = Dora l'esploratrice
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 22/07/2015 19:10:00 stop = 22/07/2015 19:35:00 title = Giust'in tempo
+      Replaces ----- start = 22/07/2015 19:10:00 stop = 22/07/2015 19:35:00 title = Daniel Tiger
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 22/07/2015 19:35:00 stop = 22/07/2015 20:00:00 title = Dora l'esploratrice
+      Replaces ----- start = 22/07/2015 19:35:00 stop = 22/07/2015 20:00:00 title = Daniel Tiger
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 22/07/2015 20:25:00 stop = 22/07/2015 20:55:00 title = Daniel Tiger
+      Replaces ----- start = 22/07/2015 20:25:00 stop = 22/07/2015 20:55:00 title = I Puffi
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 22/07/2015 20:55:00 stop = 22/07/2015 21:25:00 title = Simsalagrimm
+      Replaces ----- start = 22/07/2015 20:55:00 stop = 22/07/2015 21:25:00 title = Paw Patrol
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 22/07/2015 21:25:00 stop = 22/07/2015 21:55:00 title = Pippi Calzelunghe
+      Replaces ----- start = 22/07/2015 21:25:00 stop = 22/07/2015 21:55:00 title = Paw Patrol
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 22/07/2015 21:55:00 stop = 22/07/2015 22:20:00 title = Pippi Calzelunghe
+      Replaces ----- start = 22/07/2015 21:55:00 stop = 22/07/2015 22:20:00 title = Simsalagrimm
 
    Summary for update of Cartonito
-     no changes, no update necessary !
-     unchanged shows inspected 168
+     missing shows added       0
+     changed shows updated     26
+     new shows added           0
+     unchanged shows inspected 142
      total after update        168
+     elapstime / updated show  1.39 seconds
+
 
 channel Rai_gulp site -- GUIDATV.SKY.IT -- update mode incremental
 
@@ -559,18 +712,266 @@ channel Sky Atlantic + 1 site -- GUIDATV.SKY.IT -- update mode incremental
      total after update        65
 
 channel Fox  HD site -- GUIDATV.SKY.IT -- update mode incremental
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 05:05:00 stop = 21/07/2015 06:15:00 title = The Glades
+      Replaces ----- start = 21/07/2015 05:05:00 stop = 21/07/2015 06:00:00 title = The Glades
+      Replaces ----- start = 21/07/2015 06:00:00 stop = 21/07/2015 06:20:00 title = How I Met Your Mother
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 06:15:00 stop = 21/07/2015 06:40:00 title = How I Met Your Mother
+      Replaces ----- start = 21/07/2015 06:00:00 stop = 21/07/2015 06:20:00 title = How I Met Your Mother
+      Replaces ----- start = 21/07/2015 06:20:00 stop = 21/07/2015 07:10:00 title = Sleepy Hollow
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 06:40:00 stop = 21/07/2015 07:30:00 title = Sleepy Hollow
+      Replaces ----- start = 21/07/2015 06:20:00 stop = 21/07/2015 07:10:00 title = Sleepy Hollow
+      Replaces ----- start = 21/07/2015 07:10:00 stop = 21/07/2015 08:05:00 title = The Chicago Code
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 07:30:00 stop = 21/07/2015 08:25:00 title = The Chicago Code
+      Replaces ----- start = 21/07/2015 07:10:00 stop = 21/07/2015 08:05:00 title = The Chicago Code
+      Replaces ----- start = 21/07/2015 08:05:00 stop = 21/07/2015 08:55:00 title = The Glades
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 08:25:00 stop = 21/07/2015 09:15:00 title = The Glades
+      Replaces ----- start = 21/07/2015 08:05:00 stop = 21/07/2015 08:55:00 title = The Glades
+      Replaces ----- start = 21/07/2015 08:55:00 stop = 21/07/2015 09:50:00 title = Le regole del delitto perfetto
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 09:15:00 stop = 21/07/2015 10:05:00 title = Le regole del delitto perfetto
+      Replaces ----- start = 21/07/2015 08:55:00 stop = 21/07/2015 09:50:00 title = Le regole del delitto perfetto
+      Replaces ----- start = 21/07/2015 09:50:00 stop = 21/07/2015 10:20:00 title = How I Met Your Mother
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 10:05:00 stop = 21/07/2015 10:35:00 title = How I Met Your Mother
+      Replaces ----- start = 21/07/2015 09:50:00 stop = 21/07/2015 10:20:00 title = How I Met Your Mother
+      Replaces ----- start = 21/07/2015 10:20:00 stop = 21/07/2015 10:45:00 title = How I Met Your Mother
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 10:35:00 stop = 21/07/2015 11:00:00 title = How I Met Your Mother
+      Replaces ----- start = 21/07/2015 10:20:00 stop = 21/07/2015 10:45:00 title = How I Met Your Mother
+      Replaces ----- start = 21/07/2015 10:45:00 stop = 21/07/2015 11:15:00 title = I Simpson
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 11:00:00 stop = 21/07/2015 11:25:00 title = I Simpson
+      Replaces ----- start = 21/07/2015 10:45:00 stop = 21/07/2015 11:15:00 title = I Simpson
+      Replaces ----- start = 21/07/2015 11:15:00 stop = 21/07/2015 11:40:00 title = I Simpson
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 11:25:00 stop = 21/07/2015 11:55:00 title = I Simpson
+      Replaces ----- start = 21/07/2015 11:15:00 stop = 21/07/2015 11:40:00 title = I Simpson
+      Replaces ----- start = 21/07/2015 11:40:00 stop = 21/07/2015 12:10:00 title = I Simpson
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 11:55:00 stop = 21/07/2015 12:15:00 title = I Simpson
+      Replaces ----- start = 21/07/2015 11:40:00 stop = 21/07/2015 12:10:00 title = I Simpson
+      Replaces ----- start = 21/07/2015 12:10:00 stop = 21/07/2015 13:05:00 title = Castle
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 12:15:00 stop = 21/07/2015 13:10:00 title = Castle
+      Replaces ----- start = 21/07/2015 12:10:00 stop = 21/07/2015 13:05:00 title = Castle
+      Replaces ----- start = 21/07/2015 13:05:00 stop = 21/07/2015 14:00:00 title = Bones
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 13:10:00 stop = 21/07/2015 14:00:00 title = Bones
+      Replaces ----- start = 21/07/2015 13:05:00 stop = 21/07/2015 14:00:00 title = Bones
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 15:45:00 stop = 21/07/2015 16:05:00 title = I Simpson
+      Replaces ----- start = 21/07/2015 15:45:00 stop = 21/07/2015 16:10:00 title = I Simpson
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 16:05:00 stop = 21/07/2015 16:35:00 title = How I Met Your Mother
+      Replaces ----- start = 21/07/2015 15:45:00 stop = 21/07/2015 16:10:00 title = I Simpson
+      Replaces ----- start = 21/07/2015 16:10:00 stop = 21/07/2015 16:40:00 title = How I Met Your Mother
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 16:35:00 stop = 21/07/2015 17:00:00 title = How I Met Your Mother
+      Replaces ----- start = 21/07/2015 16:10:00 stop = 21/07/2015 16:40:00 title = How I Met Your Mother
+      Replaces ----- start = 21/07/2015 16:40:00 stop = 21/07/2015 17:05:00 title = How I Met Your Mother
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 17:00:00 stop = 21/07/2015 17:55:00 title = Le regole del delitto perfetto
+      Replaces ----- start = 21/07/2015 16:40:00 stop = 21/07/2015 17:05:00 title = How I Met Your Mother
+      Replaces ----- start = 21/07/2015 17:05:00 stop = 21/07/2015 18:00:00 title = Le regole del delitto perfetto
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 17:55:00 stop = 21/07/2015 18:45:00 title = Bones
+      Replaces ----- start = 21/07/2015 17:05:00 stop = 21/07/2015 18:00:00 title = Le regole del delitto perfetto
+      Replaces ----- start = 21/07/2015 18:00:00 stop = 21/07/2015 19:00:00 title = Bones
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 18:45:00 stop = 21/07/2015 19:40:00 title = Bones
+      Replaces ----- start = 21/07/2015 18:00:00 stop = 21/07/2015 19:00:00 title = Bones
+      Replaces ----- start = 21/07/2015 19:00:00 stop = 21/07/2015 19:45:00 title = Bones
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 19:40:00 stop = 21/07/2015 20:05:00 title = I Simpson
+      Replaces ----- start = 21/07/2015 19:00:00 stop = 21/07/2015 19:45:00 title = Bones
+      Replaces ----- start = 21/07/2015 19:45:00 stop = 21/07/2015 20:10:00 title = I Simpson
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 20:05:00 stop = 21/07/2015 20:35:00 title = I Simpson
+      Replaces ----- start = 21/07/2015 19:45:00 stop = 21/07/2015 20:10:00 title = I Simpson
+      Replaces ----- start = 21/07/2015 20:10:00 stop = 21/07/2015 20:35:00 title = I Simpson
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 21:50:00 stop = 21/07/2015 22:20:00 title = How I Met Your Mother
+      Replaces ----- start = 21/07/2015 21:50:00 stop = 21/07/2015 22:15:00 title = How I Met Your Mother
+      Replaces ----- start = 21/07/2015 22:15:00 stop = 21/07/2015 22:45:00 title = How I Met Your Mother
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 22:20:00 stop = 21/07/2015 22:45:00 title = How I Met Your Mother
+      Replaces ----- start = 21/07/2015 22:15:00 stop = 21/07/2015 22:45:00 title = How I Met Your Mother
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 22:45:00 stop = 21/07/2015 23:45:00 title = Cumbia Ninja
+      Replaces ----- start = 21/07/2015 22:45:00 stop = 21/07/2015 23:35:00 title = Cumbia Ninja
+      Replaces ----- start = 21/07/2015 23:35:00 stop = 22/07/2015 00:30:00 title = Le regole del delitto perfetto
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 23:45:00 stop = 22/07/2015 00:40:00 title = Le regole del delitto perfetto
+      Replaces ----- start = 21/07/2015 23:35:00 stop = 22/07/2015 00:30:00 title = Le regole del delitto perfetto
+      Replaces ----- start = 22/07/2015 00:30:00 stop = 22/07/2015 01:20:00 title = Bones
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 22/07/2015 00:40:00 stop = 22/07/2015 01:35:00 title = Bones
+      Replaces ----- start = 22/07/2015 00:30:00 stop = 22/07/2015 01:20:00 title = Bones
+      Replaces ----- start = 22/07/2015 01:20:00 stop = 22/07/2015 02:10:00 title = Bones
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 22/07/2015 01:35:00 stop = 22/07/2015 02:30:00 title = Bones
+      Replaces ----- start = 22/07/2015 01:20:00 stop = 22/07/2015 02:10:00 title = Bones
+      Replaces ----- start = 22/07/2015 02:10:00 stop = 22/07/2015 03:00:00 title = The Chicago Code
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 22/07/2015 02:30:00 stop = 22/07/2015 03:20:00 title = The Chicago Code
+      Replaces ----- start = 22/07/2015 02:10:00 stop = 22/07/2015 03:00:00 title = The Chicago Code
+      Replaces ----- start = 22/07/2015 03:00:00 stop = 22/07/2015 03:50:00 title = Sleepy Hollow
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 22/07/2015 03:20:00 stop = 22/07/2015 04:10:00 title = Sleepy Hollow
+      Replaces ----- start = 22/07/2015 03:00:00 stop = 22/07/2015 03:50:00 title = Sleepy Hollow
+      Replaces ----- start = 22/07/2015 03:50:00 stop = 22/07/2015 04:45:00 title = Da Vinci's Demons
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 22/07/2015 04:10:00 stop = 22/07/2015 05:10:00 title = Da Vinci's Demons
+      Replaces ----- start = 22/07/2015 03:50:00 stop = 22/07/2015 04:45:00 title = Da Vinci's Demons
+      Replaces ----- start = 22/07/2015 04:45:00 stop = 22/07/2015 06:00:00 title = The Glades
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 22/07/2015 05:10:00 stop = 22/07/2015 06:00:00 title = The Glades
+      Replaces ----- start = 22/07/2015 04:45:00 stop = 22/07/2015 06:00:00 title = The Glades
 
    Summary for update of Fox  HD
-     no changes, no update necessary !
-     unchanged shows inspected 105
+     missing shows added       0
+     changed shows updated     31
+     new shows added           0
+     unchanged shows inspected 74
      total after update        105
+     elapstime / updated show  1.94 seconds
+
 
 channel FOX +1 site -- GUIDATV.SKY.IT -- update mode incremental
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 06:05:00 stop = 21/07/2015 07:15:00 title = The Glades
+      Replaces ----- start = 21/07/2015 06:05:00 stop = 21/07/2015 07:00:00 title = The Glades
+      Replaces ----- start = 21/07/2015 07:00:00 stop = 21/07/2015 07:20:00 title = How I Met Your Mother
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 07:15:00 stop = 21/07/2015 07:40:00 title = How I Met Your Mother
+      Replaces ----- start = 21/07/2015 07:00:00 stop = 21/07/2015 07:20:00 title = How I Met Your Mother
+      Replaces ----- start = 21/07/2015 07:20:00 stop = 21/07/2015 08:10:00 title = Sleepy Hollow
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 07:40:00 stop = 21/07/2015 08:30:00 title = Sleepy Hollow
+      Replaces ----- start = 21/07/2015 07:20:00 stop = 21/07/2015 08:10:00 title = Sleepy Hollow
+      Replaces ----- start = 21/07/2015 08:10:00 stop = 21/07/2015 09:05:00 title = The Chicago Code
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 08:30:00 stop = 21/07/2015 09:25:00 title = The Chicago Code
+      Replaces ----- start = 21/07/2015 08:10:00 stop = 21/07/2015 09:05:00 title = The Chicago Code
+      Replaces ----- start = 21/07/2015 09:05:00 stop = 21/07/2015 09:55:00 title = The Glades
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 09:25:00 stop = 21/07/2015 10:15:00 title = The Glades
+      Replaces ----- start = 21/07/2015 09:05:00 stop = 21/07/2015 09:55:00 title = The Glades
+      Replaces ----- start = 21/07/2015 09:55:00 stop = 21/07/2015 10:50:00 title = Le regole del delitto perfetto
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 10:15:00 stop = 21/07/2015 11:05:00 title = Le regole del delitto perfetto
+      Replaces ----- start = 21/07/2015 09:55:00 stop = 21/07/2015 10:50:00 title = Le regole del delitto perfetto
+      Replaces ----- start = 21/07/2015 10:50:00 stop = 21/07/2015 11:20:00 title = How I Met Your Mother
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 11:05:00 stop = 21/07/2015 11:35:00 title = How I Met Your Mother
+      Replaces ----- start = 21/07/2015 10:50:00 stop = 21/07/2015 11:20:00 title = How I Met Your Mother
+      Replaces ----- start = 21/07/2015 11:20:00 stop = 21/07/2015 11:45:00 title = How I Met Your Mother
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 11:35:00 stop = 21/07/2015 12:00:00 title = How I Met Your Mother
+      Replaces ----- start = 21/07/2015 11:20:00 stop = 21/07/2015 11:45:00 title = How I Met Your Mother
+      Replaces ----- start = 21/07/2015 11:45:00 stop = 21/07/2015 12:15:00 title = I Simpson
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 12:00:00 stop = 21/07/2015 12:25:00 title = I Simpson
+      Replaces ----- start = 21/07/2015 11:45:00 stop = 21/07/2015 12:15:00 title = I Simpson
+      Replaces ----- start = 21/07/2015 12:15:00 stop = 21/07/2015 12:40:00 title = I Simpson
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 12:25:00 stop = 21/07/2015 12:55:00 title = I Simpson
+      Replaces ----- start = 21/07/2015 12:15:00 stop = 21/07/2015 12:40:00 title = I Simpson
+      Replaces ----- start = 21/07/2015 12:40:00 stop = 21/07/2015 13:10:00 title = I Simpson
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 12:55:00 stop = 21/07/2015 13:15:00 title = I Simpson
+      Replaces ----- start = 21/07/2015 12:40:00 stop = 21/07/2015 13:10:00 title = I Simpson
+      Replaces ----- start = 21/07/2015 13:10:00 stop = 21/07/2015 14:05:00 title = Castle
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 13:15:00 stop = 21/07/2015 14:10:00 title = Castle
+      Replaces ----- start = 21/07/2015 13:10:00 stop = 21/07/2015 14:05:00 title = Castle
+      Replaces ----- start = 21/07/2015 14:05:00 stop = 21/07/2015 15:00:00 title = Bones
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 14:10:00 stop = 21/07/2015 15:00:00 title = Bones
+      Replaces ----- start = 21/07/2015 14:05:00 stop = 21/07/2015 15:00:00 title = Bones
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 16:45:00 stop = 21/07/2015 17:05:00 title = I Simpson
+      Replaces ----- start = 21/07/2015 16:45:00 stop = 21/07/2015 17:10:00 title = I Simpson
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 17:05:00 stop = 21/07/2015 17:35:00 title = How I Met Your Mother
+      Replaces ----- start = 21/07/2015 16:45:00 stop = 21/07/2015 17:10:00 title = I Simpson
+      Replaces ----- start = 21/07/2015 17:10:00 stop = 21/07/2015 17:40:00 title = How I Met Your Mother
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 17:35:00 stop = 21/07/2015 18:00:00 title = How I Met Your Mother
+      Replaces ----- start = 21/07/2015 17:10:00 stop = 21/07/2015 17:40:00 title = How I Met Your Mother
+      Replaces ----- start = 21/07/2015 17:40:00 stop = 21/07/2015 18:05:00 title = How I Met Your Mother
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 18:00:00 stop = 21/07/2015 18:55:00 title = Le regole del delitto perfetto
+      Replaces ----- start = 21/07/2015 17:40:00 stop = 21/07/2015 18:05:00 title = How I Met Your Mother
+      Replaces ----- start = 21/07/2015 18:05:00 stop = 21/07/2015 19:00:00 title = Le regole del delitto perfetto
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 18:55:00 stop = 21/07/2015 19:45:00 title = Bones
+      Replaces ----- start = 21/07/2015 18:05:00 stop = 21/07/2015 19:00:00 title = Le regole del delitto perfetto
+      Replaces ----- start = 21/07/2015 19:00:00 stop = 21/07/2015 20:00:00 title = Bones
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 19:45:00 stop = 21/07/2015 20:40:00 title = Bones
+      Replaces ----- start = 21/07/2015 19:00:00 stop = 21/07/2015 20:00:00 title = Bones
+      Replaces ----- start = 21/07/2015 20:00:00 stop = 21/07/2015 20:45:00 title = Bones
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 20:40:00 stop = 21/07/2015 21:05:00 title = I Simpson
+      Replaces ----- start = 21/07/2015 20:00:00 stop = 21/07/2015 20:45:00 title = Bones
+      Replaces ----- start = 21/07/2015 20:45:00 stop = 21/07/2015 21:10:00 title = I Simpson
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 21:05:00 stop = 21/07/2015 21:35:00 title = I Simpson
+      Replaces ----- start = 21/07/2015 20:45:00 stop = 21/07/2015 21:10:00 title = I Simpson
+      Replaces ----- start = 21/07/2015 21:10:00 stop = 21/07/2015 21:35:00 title = I Simpson
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 22:50:00 stop = 21/07/2015 23:20:00 title = How I Met Your Mother
+      Replaces ----- start = 21/07/2015 22:50:00 stop = 21/07/2015 23:15:00 title = How I Met Your Mother
+      Replaces ----- start = 21/07/2015 23:15:00 stop = 21/07/2015 23:45:00 title = How I Met Your Mother
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 23:20:00 stop = 21/07/2015 23:45:00 title = How I Met Your Mother
+      Replaces ----- start = 21/07/2015 23:15:00 stop = 21/07/2015 23:45:00 title = How I Met Your Mother
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 23:45:00 stop = 22/07/2015 00:45:00 title = Cumbia Ninja
+      Replaces ----- start = 21/07/2015 23:45:00 stop = 22/07/2015 00:35:00 title = Cumbia Ninja
+      Replaces ----- start = 22/07/2015 00:35:00 stop = 22/07/2015 01:30:00 title = Le regole del delitto perfetto
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 22/07/2015 00:45:00 stop = 22/07/2015 01:40:00 title = Le regole del delitto perfetto
+      Replaces ----- start = 22/07/2015 00:35:00 stop = 22/07/2015 01:30:00 title = Le regole del delitto perfetto
+      Replaces ----- start = 22/07/2015 01:30:00 stop = 22/07/2015 02:20:00 title = Bones
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 22/07/2015 01:40:00 stop = 22/07/2015 02:35:00 title = Bones
+      Replaces ----- start = 22/07/2015 01:30:00 stop = 22/07/2015 02:20:00 title = Bones
+      Replaces ----- start = 22/07/2015 02:20:00 stop = 22/07/2015 03:10:00 title = Bones
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 22/07/2015 02:35:00 stop = 22/07/2015 03:30:00 title = Bones
+      Replaces ----- start = 22/07/2015 02:20:00 stop = 22/07/2015 03:10:00 title = Bones
+      Replaces ----- start = 22/07/2015 03:10:00 stop = 22/07/2015 04:00:00 title = The Chicago Code
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 22/07/2015 03:30:00 stop = 22/07/2015 04:20:00 title = The Chicago Code
+      Replaces ----- start = 22/07/2015 03:10:00 stop = 22/07/2015 04:00:00 title = The Chicago Code
+      Replaces ----- start = 22/07/2015 04:00:00 stop = 22/07/2015 04:50:00 title = Sleepy Hollow
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 22/07/2015 04:20:00 stop = 22/07/2015 05:10:00 title = Sleepy Hollow
+      Replaces ----- start = 22/07/2015 04:00:00 stop = 22/07/2015 04:50:00 title = Sleepy Hollow
+      Replaces ----- start = 22/07/2015 04:50:00 stop = 22/07/2015 05:45:00 title = Da Vinci's Demons
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 22/07/2015 05:10:00 stop = 22/07/2015 06:10:00 title = Da Vinci's Demons
+      Replaces ----- start = 22/07/2015 04:50:00 stop = 22/07/2015 05:45:00 title = Da Vinci's Demons
+      Replaces ----- start = 22/07/2015 05:45:00 stop = 22/07/2015 07:00:00 title = The Glades
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 22/07/2015 06:10:00 stop = 22/07/2015 07:00:00 title = The Glades
+      Replaces ----- start = 22/07/2015 05:45:00 stop = 22/07/2015 07:00:00 title = The Glades
 
    Summary for update of FOX +1
-     no changes, no update necessary !
-     unchanged shows inspected 104
+     missing shows added       0
+     changed shows updated     31
+     new shows added           0
+     unchanged shows inspected 73
      total after update        104
+     elapstime / updated show  2.51 seconds
+
 
 channel Fox life HD site -- GUIDATV.SKY.IT -- update mode incremental
 
@@ -608,11 +1009,192 @@ channel Fox crime + 2 site -- GUIDATV.SKY.IT -- update mode incremental
      total after update        83
 
 channel FOX COMEDY HD site -- GUIDATV.SKY.IT -- update mode incremental
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 05:15:00 stop = 21/07/2015 06:35:00 title = I Jefferson
+      Replaces ----- start = 21/07/2015 05:15:00 stop = 21/07/2015 06:00:00 title = I Jefferson
+      Replaces ----- start = 21/07/2015 06:00:00 stop = 21/07/2015 06:30:00 title = Il mio amico Arnold
+      Replaces ----- start = 21/07/2015 06:30:00 stop = 21/07/2015 07:00:00 title = La tata
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 06:35:00 stop = 21/07/2015 07:10:00 title = Il mio amico Arnold
+      Replaces ----- start = 21/07/2015 06:30:00 stop = 21/07/2015 07:00:00 title = La tata
+      Replaces ----- start = 21/07/2015 07:00:00 stop = 21/07/2015 07:30:00 title = La tata
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 07:10:00 stop = 21/07/2015 07:35:00 title = La tata
+      Replaces ----- start = 21/07/2015 07:00:00 stop = 21/07/2015 07:30:00 title = La tata
+      Replaces ----- start = 21/07/2015 07:30:00 stop = 21/07/2015 08:00:00 title = New Girl
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 07:35:00 stop = 21/07/2015 08:05:00 title = La tata
+      Replaces ----- start = 21/07/2015 07:30:00 stop = 21/07/2015 08:00:00 title = New Girl
+      Replaces ----- start = 21/07/2015 08:00:00 stop = 21/07/2015 08:30:00 title = New Girl
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 08:05:00 stop = 21/07/2015 08:35:00 title = New Girl
+      Replaces ----- start = 21/07/2015 08:00:00 stop = 21/07/2015 08:30:00 title = New Girl
+      Replaces ----- start = 21/07/2015 08:30:00 stop = 21/07/2015 09:00:00 title = Innamorati pazzi
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 08:35:00 stop = 21/07/2015 09:00:00 title = New Girl
+      Replaces ----- start = 21/07/2015 08:30:00 stop = 21/07/2015 09:00:00 title = Innamorati pazzi
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 09:30:00 stop = 21/07/2015 09:55:00 title = Innamorati pazzi
+      Replaces ----- start = 21/07/2015 09:30:00 stop = 21/07/2015 10:00:00 title = Aiutami Hope
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 09:55:00 stop = 21/07/2015 10:25:00 title = Aiutami Hope
+      Replaces ----- start = 21/07/2015 09:30:00 stop = 21/07/2015 10:00:00 title = Aiutami Hope
+      Replaces ----- start = 21/07/2015 10:00:00 stop = 21/07/2015 10:30:00 title = Aiutami Hope
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 10:25:00 stop = 21/07/2015 10:50:00 title = Aiutami Hope
+      Replaces ----- start = 21/07/2015 10:00:00 stop = 21/07/2015 10:30:00 title = Aiutami Hope
+      Replaces ----- start = 21/07/2015 10:30:00 stop = 21/07/2015 11:00:00 title = Modern Family
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 10:50:00 stop = 21/07/2015 11:20:00 title = Modern Family
+      Replaces ----- start = 21/07/2015 10:30:00 stop = 21/07/2015 11:00:00 title = Modern Family
+      Replaces ----- start = 21/07/2015 11:00:00 stop = 21/07/2015 11:30:00 title = Modern Family
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 11:20:00 stop = 21/07/2015 11:45:00 title = Modern Family
+      Replaces ----- start = 21/07/2015 11:00:00 stop = 21/07/2015 11:30:00 title = Modern Family
+      Replaces ----- start = 21/07/2015 11:30:00 stop = 21/07/2015 12:00:00 title = Modern Family
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 11:45:00 stop = 21/07/2015 12:15:00 title = Modern Family
+      Replaces ----- start = 21/07/2015 11:30:00 stop = 21/07/2015 12:00:00 title = Modern Family
+      Replaces ----- start = 21/07/2015 12:00:00 stop = 21/07/2015 12:25:00 title = Modern Family
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 12:15:00 stop = 21/07/2015 12:40:00 title = Modern Family
+      Replaces ----- start = 21/07/2015 12:00:00 stop = 21/07/2015 12:25:00 title = Modern Family
+      Replaces ----- start = 21/07/2015 12:25:00 stop = 21/07/2015 12:55:00 title = New Girl
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 12:40:00 stop = 21/07/2015 13:10:00 title = New Girl
+      Replaces ----- start = 21/07/2015 12:25:00 stop = 21/07/2015 12:55:00 title = New Girl
+      Replaces ----- start = 21/07/2015 12:55:00 stop = 21/07/2015 13:20:00 title = New Girl
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 13:10:00 stop = 21/07/2015 13:35:00 title = New Girl
+      Replaces ----- start = 21/07/2015 12:55:00 stop = 21/07/2015 13:20:00 title = New Girl
+      Replaces ----- start = 21/07/2015 13:20:00 stop = 21/07/2015 13:50:00 title = Friends
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 13:35:00 stop = 21/07/2015 14:05:00 title = Friends
+      Replaces ----- start = 21/07/2015 13:20:00 stop = 21/07/2015 13:50:00 title = Friends
+      Replaces ----- start = 21/07/2015 13:50:00 stop = 21/07/2015 14:15:00 title = Friends
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 14:05:00 stop = 21/07/2015 14:30:00 title = Friends
+      Replaces ----- start = 21/07/2015 13:50:00 stop = 21/07/2015 14:15:00 title = Friends
+      Replaces ----- start = 21/07/2015 14:15:00 stop = 21/07/2015 14:45:00 title = Friends
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 14:30:00 stop = 21/07/2015 15:00:00 title = Friends
+      Replaces ----- start = 21/07/2015 14:15:00 stop = 21/07/2015 14:45:00 title = Friends
+      Replaces ----- start = 21/07/2015 14:45:00 stop = 21/07/2015 15:10:00 title = Friends
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 15:00:00 stop = 21/07/2015 15:30:00 title = Friends
+      Replaces ----- start = 21/07/2015 14:45:00 stop = 21/07/2015 15:10:00 title = Friends
+      Replaces ----- start = 21/07/2015 15:10:00 stop = 21/07/2015 15:35:00 title = L'uomo di casa
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 15:30:00 stop = 21/07/2015 15:55:00 title = L'uomo di casa
+      Replaces ----- start = 21/07/2015 15:10:00 stop = 21/07/2015 15:35:00 title = L'uomo di casa
+      Replaces ----- start = 21/07/2015 15:35:00 stop = 21/07/2015 16:00:00 title = L'uomo di casa
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 15:55:00 stop = 21/07/2015 16:25:00 title = L'uomo di casa
+      Replaces ----- start = 21/07/2015 15:35:00 stop = 21/07/2015 16:00:00 title = L'uomo di casa
+      Replaces ----- start = 21/07/2015 16:00:00 stop = 21/07/2015 16:30:00 title = Innamorati pazzi
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 16:25:00 stop = 21/07/2015 16:50:00 title = Innamorati pazzi
+      Replaces ----- start = 21/07/2015 16:00:00 stop = 21/07/2015 16:30:00 title = Innamorati pazzi
+      Replaces ----- start = 21/07/2015 16:30:00 stop = 21/07/2015 17:00:00 title = Innamorati pazzi
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 16:50:00 stop = 21/07/2015 17:15:00 title = Innamorati pazzi
+      Replaces ----- start = 21/07/2015 16:30:00 stop = 21/07/2015 17:00:00 title = Innamorati pazzi
+      Replaces ----- start = 21/07/2015 17:00:00 stop = 21/07/2015 17:30:00 title = Aiutami Hope
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 17:15:00 stop = 21/07/2015 17:45:00 title = Aiutami Hope
+      Replaces ----- start = 21/07/2015 17:00:00 stop = 21/07/2015 17:30:00 title = Aiutami Hope
+      Replaces ----- start = 21/07/2015 17:30:00 stop = 21/07/2015 18:00:00 title = Aiutami Hope
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 17:45:00 stop = 21/07/2015 18:10:00 title = Aiutami Hope
+      Replaces ----- start = 21/07/2015 17:30:00 stop = 21/07/2015 18:00:00 title = Aiutami Hope
+      Replaces ----- start = 21/07/2015 18:00:00 stop = 21/07/2015 18:30:00 title = New Girl
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 18:10:00 stop = 21/07/2015 18:40:00 title = New Girl
+      Replaces ----- start = 21/07/2015 18:00:00 stop = 21/07/2015 18:30:00 title = New Girl
+      Replaces ----- start = 21/07/2015 18:30:00 stop = 21/07/2015 19:00:00 title = New Girl
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 18:40:00 stop = 21/07/2015 19:05:00 title = New Girl
+      Replaces ----- start = 21/07/2015 18:30:00 stop = 21/07/2015 19:00:00 title = New Girl
+      Replaces ----- start = 21/07/2015 19:00:00 stop = 21/07/2015 19:30:00 title = L'uomo di casa
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 19:05:00 stop = 21/07/2015 19:30:00 title = L'uomo di casa
+      Replaces ----- start = 21/07/2015 19:00:00 stop = 21/07/2015 19:30:00 title = L'uomo di casa
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 20:25:00 stop = 21/07/2015 20:55:00 title = Friends
+      Replaces ----- start = 21/07/2015 20:25:00 stop = 21/07/2015 20:50:00 title = Friends
+      Replaces ----- start = 21/07/2015 20:50:00 stop = 21/07/2015 21:20:00 title = Friends
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 20:55:00 stop = 21/07/2015 21:20:00 title = Friends
+      Replaces ----- start = 21/07/2015 20:50:00 stop = 21/07/2015 21:20:00 title = Friends
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 22:45:00 stop = 21/07/2015 23:10:00 title = The Last Man on Earth
+      Replaces ----- start = 21/07/2015 22:45:00 stop = 21/07/2015 23:15:00 title = The Last Man on Earth
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 23:10:00 stop = 21/07/2015 23:35:00 title = The Last Man on Earth
+      Replaces ----- start = 21/07/2015 22:45:00 stop = 21/07/2015 23:15:00 title = The Last Man on Earth
+      Replaces ----- start = 21/07/2015 23:15:00 stop = 21/07/2015 23:35:00 title = The Last Man on Earth
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 23:35:00 stop = 22/07/2015 00:00:00 title = The Last Man on Earth
+      Replaces ----- start = 21/07/2015 23:35:00 stop = 22/07/2015 00:05:00 title = The Last Man on Earth
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 22/07/2015 00:00:00 stop = 22/07/2015 00:35:00 title = Roba dell'altro Comedy: Boris
+      Replaces ----- start = 21/07/2015 23:35:00 stop = 22/07/2015 00:05:00 title = The Last Man on Earth
+      Replaces ----- start = 22/07/2015 00:05:00 stop = 22/07/2015 00:30:00 title = Roba dell'altro Comedy: Boris
+      Replaces ----- start = 22/07/2015 00:30:00 stop = 22/07/2015 01:00:00 title = Roba dell'altro Comedy: Boris
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 22/07/2015 00:35:00 stop = 22/07/2015 01:00:00 title = Roba dell'altro Comedy: Boris
+      Replaces ----- start = 22/07/2015 00:30:00 stop = 22/07/2015 01:00:00 title = Roba dell'altro Comedy: Boris
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 22/07/2015 01:00:00 stop = 22/07/2015 01:10:00 title = Roba dell'altro Comedy: Super G
+      Replaces ----- start = 22/07/2015 01:00:00 stop = 22/07/2015 01:30:00 title = Friends
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 22/07/2015 01:10:00 stop = 22/07/2015 01:40:00 title = Friends
+      Replaces ----- start = 22/07/2015 01:00:00 stop = 22/07/2015 01:30:00 title = Friends
+      Replaces ----- start = 22/07/2015 01:30:00 stop = 22/07/2015 02:00:00 title = Friends
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 22/07/2015 01:40:00 stop = 22/07/2015 02:10:00 title = Friends
+      Replaces ----- start = 22/07/2015 01:30:00 stop = 22/07/2015 02:00:00 title = Friends
+      Replaces ----- start = 22/07/2015 02:00:00 stop = 22/07/2015 02:30:00 title = Friends
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 22/07/2015 02:10:00 stop = 22/07/2015 02:35:00 title = Friends
+      Replaces ----- start = 22/07/2015 02:00:00 stop = 22/07/2015 02:30:00 title = Friends
+      Replaces ----- start = 22/07/2015 02:30:00 stop = 22/07/2015 03:00:00 title = Friends
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 22/07/2015 02:35:00 stop = 22/07/2015 03:05:00 title = Friends
+      Replaces ----- start = 22/07/2015 02:30:00 stop = 22/07/2015 03:00:00 title = Friends
+      Replaces ----- start = 22/07/2015 03:00:00 stop = 22/07/2015 03:30:00 title = Aiutami Hope
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 22/07/2015 03:05:00 stop = 22/07/2015 03:25:00 title = Aiutami Hope
+      Replaces ----- start = 22/07/2015 03:00:00 stop = 22/07/2015 03:30:00 title = Aiutami Hope
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 22/07/2015 03:25:00 stop = 22/07/2015 03:50:00 title = Aiutami Hope
+      Replaces ----- start = 22/07/2015 03:00:00 stop = 22/07/2015 03:30:00 title = Aiutami Hope
+      Replaces ----- start = 22/07/2015 03:30:00 stop = 22/07/2015 04:00:00 title = Aiutami Hope
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 22/07/2015 03:50:00 stop = 22/07/2015 04:20:00 title = La tata
+      Replaces ----- start = 22/07/2015 03:30:00 stop = 22/07/2015 04:00:00 title = Aiutami Hope
+      Replaces ----- start = 22/07/2015 04:00:00 stop = 22/07/2015 04:30:00 title = I Jefferson
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 22/07/2015 04:20:00 stop = 22/07/2015 04:45:00 title = La tata
+      Replaces ----- start = 22/07/2015 04:00:00 stop = 22/07/2015 04:30:00 title = I Jefferson
+      Replaces ----- start = 22/07/2015 04:30:00 stop = 22/07/2015 05:00:00 title = I Jefferson
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 22/07/2015 04:45:00 stop = 22/07/2015 05:15:00 title = I Jefferson
+      Replaces ----- start = 22/07/2015 04:30:00 stop = 22/07/2015 05:00:00 title = I Jefferson
+      Replaces ----- start = 22/07/2015 05:00:00 stop = 22/07/2015 05:30:00 title = I Jefferson
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 22/07/2015 05:15:00 stop = 22/07/2015 06:00:00 title = I Jefferson
+      Replaces ----- start = 22/07/2015 05:00:00 stop = 22/07/2015 05:30:00 title = I Jefferson
+      Replaces ----- start = 22/07/2015 05:30:00 stop = 22/07/2015 06:00:00 title = I Jefferson
 
    Summary for update of FOX COMEDY HD
-     no changes, no update necessary !
-     unchanged shows inspected 152
-     total after update        152
+     missing shows added       0
+     changed shows updated     46
+     new shows added           0
+     unchanged shows inspected 107
+     total after update        153
+     elapstime / updated show  2.15 seconds
+
 
 channel FOX ANIMATION HD site -- GUIDATV.SKY.IT -- update mode incremental
 
@@ -874,11 +1456,22 @@ channel FOX SPORT HD site -- GUIDATV.SKY.IT -- update mode incremental
      total after update        65
 
 channel FOX SPORT 2 HD site -- GUIDATV.SKY.IT -- update mode incremental
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 20/07/2015 11:00:00 stop = 20/07/2015 13:15:00 title = IAAF Diamond League
+      Replaces ----- start = 20/07/2015 11:00:00 stop = 20/07/2015 13:00:00 title = IAAF Diamond League
+      Replaces ----- start = 20/07/2015 13:00:00 stop = 20/07/2015 13:30:00 title = Adrenalinik 2015
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 20/07/2015 13:15:00 stop = 20/07/2015 13:30:00 title = Top Fox Sports
+      Replaces ----- start = 20/07/2015 13:00:00 stop = 20/07/2015 13:30:00 title = Adrenalinik 2015
 
    Summary for update of FOX SPORT 2 HD
-     no changes, no update necessary !
-     unchanged shows inspected 62
+     missing shows added       0
+     changed shows updated     2
+     new shows added           0
+     unchanged shows inspected 60
      total after update        62
+     elapstime / updated show  1.64 seconds
+
 
 channel Sport 1 HD site -- GUIDATV.SKY.IT -- update mode incremental
 
@@ -888,25 +1481,114 @@ channel Sport 1 HD site -- GUIDATV.SKY.IT -- update mode incremental
      total after update        75
 
 channel Sport 2 HD site -- GUIDATV.SKY.IT -- update mode incremental
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 20/07/2015 14:00:00 stop = 20/07/2015 14:30:00 title = Golf: Sky Studio
+      Replaces ----- start = 20/07/2015 14:00:00 stop = 20/07/2015 15:45:00 title = Basket: Europeo U20
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 20/07/2015 14:30:00 stop = 20/07/2015 20:00:00 title = Golf: The Open Championship  (diretta)
+      Replaces ----- start = 20/07/2015 14:00:00 stop = 20/07/2015 15:45:00 title = Basket: Europeo U20
+      Replaces ----- start = 20/07/2015 15:45:00 stop = 20/07/2015 16:15:00 title = The Boat Show
+      Replaces ----- start = 20/07/2015 16:15:00 stop = 20/07/2015 16:30:00 title = Speciale Rugby Dominguez Camp
+      Replaces ----- start = 20/07/2015 16:30:00 stop = 20/07/2015 17:30:00 title = Rugby: Australia
+      Replaces ----- start = 20/07/2015 17:30:00 stop = 20/07/2015 18:30:00 title = WWE Main Event
+      Replaces ----- start = 20/07/2015 18:30:00 stop = 20/07/2015 19:00:00 title = Icarus
+      Replaces ----- start = 20/07/2015 19:00:00 stop = 20/07/2015 20:00:00 title = Rugby: All Blacks
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 20/07/2015 20:00:00 stop = 20/07/2015 20:30:00 title = Golf: Sky Studio  (diretta)
+      Replaces ----- start = 20/07/2015 20:00:00 stop = 20/07/2015 21:00:00 title = IndyCar: Iowa
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 20/07/2015 20:30:00 stop = 20/07/2015 21:00:00 title = Icarus
+      Replaces ----- start = 20/07/2015 20:00:00 stop = 20/07/2015 21:00:00 title = IndyCar: Iowa
 
    Summary for update of Sport 2 HD
-     no changes, no update necessary !
-     unchanged shows inspected 70
-     total after update        70
+     missing shows added       0
+     changed shows updated     4
+     new shows added           0
+     unchanged shows inspected 62
+     total after update        66
+     elapstime / updated show  1.90 seconds
+
 
 channel Sport 3 HD site -- GUIDATV.SKY.IT -- update mode incremental
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 20/07/2015 18:00:00 stop = 20/07/2015 18:15:00 title = ItalBasket: Tiri Lib(e)ri
+      Replaces ----- start = 20/07/2015 18:00:00 stop = 20/07/2015 19:30:00 title = ItalBasket
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 20/07/2015 18:15:00 stop = 20/07/2015 18:40:00 title = ItalBasket: Coast to Coast: Basilicata
+      Replaces ----- start = 20/07/2015 18:00:00 stop = 20/07/2015 19:30:00 title = ItalBasket
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 20/07/2015 18:40:00 stop = 20/07/2015 19:00:00 title = ItalBasket: Streetball Italian Tour
+      Replaces ----- start = 20/07/2015 18:00:00 stop = 20/07/2015 19:30:00 title = ItalBasket
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 20/07/2015 19:00:00 stop = 20/07/2015 19:30:00 title = ItalBasket: Glory Days: Matteo Soragna
+      Replaces ----- start = 20/07/2015 18:00:00 stop = 20/07/2015 19:30:00 title = ItalBasket
 
    Summary for update of Sport 3 HD
-     no changes, no update necessary !
-     unchanged shows inspected 83
-     total after update        83
+     missing shows added       0
+     changed shows updated     4
+     new shows added           0
+     unchanged shows inspected 82
+     total after update        86
+     elapstime / updated show  1.59 seconds
+
 
 channel Eurosport 1 HD site -- GUIDATV.SKY.IT -- update mode incremental
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 20/07/2015 04:00:00 stop = 20/07/2015 05:35:00 title = Calcio: Spagna
+      Replaces ----- start = 20/07/2015 04:00:00 stop = 20/07/2015 05:30:00 title = Calcio: Spagna
+      Replaces ----- start = 20/07/2015 05:30:00 stop = 20/07/2015 06:30:00 title = Ciclismo: Tour de France Today
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 20/07/2015 05:35:00 stop = 20/07/2015 06:30:00 title = Ciclismo: Tour de France Today
+      Replaces ----- start = 20/07/2015 05:30:00 stop = 20/07/2015 06:30:00 title = Ciclismo: Tour de France Today
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 20/07/2015 06:30:00 stop = 20/07/2015 06:55:00 title = All sports: WATTS
+      Replaces ----- start = 20/07/2015 06:30:00 stop = 20/07/2015 06:45:00 title = All sports: WATTS
+      Replaces ----- start = 20/07/2015 06:45:00 stop = 20/07/2015 07:15:00 title = Rally: European Rally Championship
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 20/07/2015 06:55:00 stop = 20/07/2015 07:20:00 title = Rally: European Rally Championship
+      Replaces ----- start = 20/07/2015 06:45:00 stop = 20/07/2015 07:15:00 title = Rally: European Rally Championship
+      Replaces ----- start = 20/07/2015 07:15:00 stop = 20/07/2015 07:45:00 title = Superbike: GP Stati Uniti
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 20/07/2015 07:20:00 stop = 20/07/2015 07:40:00 title = Superbike: GP Stati Uniti
+      Replaces ----- start = 20/07/2015 07:15:00 stop = 20/07/2015 07:45:00 title = Superbike: GP Stati Uniti
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 20/07/2015 07:40:00 stop = 20/07/2015 08:30:00 title = Superbike: GP Stati Uniti
+      Replaces ----- start = 20/07/2015 07:15:00 stop = 20/07/2015 07:45:00 title = Superbike: GP Stati Uniti
+      Replaces ----- start = 20/07/2015 07:45:00 stop = 20/07/2015 08:30:00 title = Superbike: GP Stati Uniti
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 20/07/2015 09:30:00 stop = 20/07/2015 10:25:00 title = Ciclismo: Tour de France Today
+      Replaces ----- start = 20/07/2015 09:30:00 stop = 20/07/2015 10:30:00 title = Ciclismo: Tour de France Today
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 20/07/2015 10:25:00 stop = 20/07/2015 11:50:00 title = Beach soccer: Coppa del Mondo
+      Replaces ----- start = 20/07/2015 09:30:00 stop = 20/07/2015 10:30:00 title = Ciclismo: Tour de France Today
+      Replaces ----- start = 20/07/2015 10:30:00 stop = 20/07/2015 11:30:00 title = Beach soccer: Coppa del Mondo
+      Replaces ----- start = 20/07/2015 11:30:00 stop = 20/07/2015 12:45:00 title = Calcio: Spagna
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 20/07/2015 11:50:00 stop = 20/07/2015 12:45:00 title = Calcio: Spagna
+      Replaces ----- start = 20/07/2015 11:30:00 stop = 20/07/2015 12:45:00 title = Calcio: Spagna
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 20/07/2015 22:00:00 stop = 20/07/2015 23:05:00 title = Ciclismo: Tour de France Today
+      Replaces ----- start = 20/07/2015 22:00:00 stop = 20/07/2015 23:00:00 title = Ciclismo: Tour de France Today
+      Replaces ----- start = 20/07/2015 23:00:00 stop = 21/07/2015 00:30:00 title = Calcio: Spagna
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 20/07/2015 23:05:00 stop = 21/07/2015 00:30:00 title = Calcio: Spagna
+      Replaces ----- start = 20/07/2015 23:00:00 stop = 21/07/2015 00:30:00 title = Calcio: Spagna
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 00:30:00 stop = 21/07/2015 01:25:00 title = Ciclismo: Tour de France Today
+      Replaces ----- start = 21/07/2015 00:30:00 stop = 21/07/2015 01:30:00 title = Ciclismo: Tour de France Today
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 01:25:00 stop = 21/07/2015 03:00:00 title = Atletica: Campionati del Mondo Giovani
+      Replaces ----- start = 21/07/2015 00:30:00 stop = 21/07/2015 01:30:00 title = Ciclismo: Tour de France Today
+      Replaces ----- start = 21/07/2015 01:30:00 stop = 21/07/2015 03:00:00 title = Atletica: Campionati del Mondo Giovani
 
    Summary for update of Eurosport 1 HD
-     no changes, no update necessary !
-     unchanged shows inspected 76
+     missing shows added       0
+     changed shows updated     13
+     new shows added           0
+     unchanged shows inspected 63
      total after update        76
+     elapstime / updated show  1.71 seconds
+
 
 channel Eurosport 2 HD site -- GUIDATV.SKY.IT -- update mode incremental
 
@@ -930,11 +1612,29 @@ channel MOTOGP HD site -- GUIDATV.SKY.IT -- update mode incremental
      total after update        120
 
 channel Super Tennis HD site -- GUIDATV.SKY.IT -- update mode incremental
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 20/07/2015 07:00:00 stop = 20/07/2015 09:45:00 title = ATP Magazine
+      Replaces ----- start = 20/07/2015 07:00:00 stop = 20/07/2015 08:00:00 title = ATP Magazine
+      Replaces ----- start = 20/07/2015 08:00:00 stop = 20/07/2015 11:00:00 title = Gran Bretagna
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 20/07/2015 09:45:00 stop = 20/07/2015 12:00:00 title = Errani
+      Replaces ----- start = 20/07/2015 08:00:00 stop = 20/07/2015 11:00:00 title = Gran Bretagna
+      Replaces ----- start = 20/07/2015 11:00:00 stop = 20/07/2015 17:30:00 title = WTA Istanbul
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 20/07/2015 12:00:00 stop = 20/07/2015 17:30:00 title = WTA Istanbul
+      Replaces ----- start = 20/07/2015 11:00:00 stop = 20/07/2015 17:30:00 title = WTA Istanbul
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 20/07/2015 22:15:00 stop = 21/07/2015 01:00:00 title = WTA Istanbul
+      Replaces ----- start = 20/07/2015 22:15:00 stop = 21/07/2015 01:00:00 title = Gran Bretagna
 
    Summary for update of Super Tennis HD
-     no changes, no update necessary !
-     unchanged shows inspected 41
+     missing shows added       0
+     changed shows updated     4
+     new shows added           0
+     unchanged shows inspected 37
      total after update        41
+     elapstime / updated show  1.65 seconds
+
 
 channel Supercalcio HD site -- GUIDATV.SKY.IT -- update mode incremental
 
@@ -951,18 +1651,138 @@ channel Milan Channel site -- GUIDATV.SKY.IT -- update mode incremental
      total after update        90
 
 channel Juve Channel site -- GUIDATV.SKY.IT -- update mode incremental
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 20/07/2015 12:00:00 stop = 20/07/2015 12:15:00 title = Qui Vinovo summer
+      Replaces ----- start = 20/07/2015 12:00:00 stop = 20/07/2015 12:30:00 title = Qui Vinovo summer
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 20/07/2015 12:15:00 stop = 20/07/2015 13:15:00 title = J live summer
+      Replaces ----- start = 20/07/2015 12:00:00 stop = 20/07/2015 12:30:00 title = Qui Vinovo summer
+      Replaces ----- start = 20/07/2015 12:30:00 stop = 20/07/2015 13:30:00 title = J live summer
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 20/07/2015 13:15:00 stop = 20/07/2015 13:30:00 title = Qui Vinovo summer
+      Replaces ----- start = 20/07/2015 12:30:00 stop = 20/07/2015 13:30:00 title = J live summer
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 20/07/2015 14:15:00 stop = 20/07/2015 16:00:00 title = CL Borussia
+      Replaces ----- start = 20/07/2015 14:15:00 stop = 20/07/2015 15:00:00 title = CL Borussia
+      Replaces ----- start = 20/07/2015 15:00:00 stop = 20/07/2015 15:15:00 title = Qui Vinovo summer
+      Replaces ----- start = 20/07/2015 15:15:00 stop = 20/07/2015 16:15:00 title = CL Borussia
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 20/07/2015 16:00:00 stop = 20/07/2015 16:30:00 title = Press conference Marotta e Allegri
+      Replaces ----- start = 20/07/2015 15:15:00 stop = 20/07/2015 16:15:00 title = CL Borussia
+      Replaces ----- start = 20/07/2015 16:15:00 stop = 20/07/2015 16:30:00 title = Matchtime CL Borussia
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 20/07/2015 16:30:00 stop = 20/07/2015 17:00:00 title = Matchtime XL CL Borussia
+      Replaces ----- start = 20/07/2015 16:30:00 stop = 20/07/2015 17:00:00 title = Press Conference
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 20/07/2015 19:00:00 stop = 20/07/2015 19:30:00 title = Press conference Marotta e Allegri
+      Replaces ----- start = 20/07/2015 19:00:00 stop = 20/07/2015 19:30:00 title = Press Conference
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 20/07/2015 22:30:00 stop = 20/07/2015 23:00:00 title = Press conference Marotta e Allegri
+      Replaces ----- start = 20/07/2015 22:30:00 stop = 20/07/2015 23:00:00 title = Press Conference
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 06:30:00 stop = 21/07/2015 07:00:00 title = Press conference Marotta e Allegri
+      Replaces ----- start = 21/07/2015 06:30:00 stop = 21/07/2015 07:00:00 title = Press Conference
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 09:30:00 stop = 21/07/2015 10:00:00 title = Press Conference Khedira
+      Replaces ----- start = 21/07/2015 09:30:00 stop = 21/07/2015 10:00:00 title = Press Conference
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 12:00:00 stop = 21/07/2015 12:30:00 title = Qui Vinovo con Press Conference Rugani
+      Replaces ----- start = 21/07/2015 12:00:00 stop = 21/07/2015 12:15:00 title = Qui Vinovo summer
+      Replaces ----- start = 21/07/2015 12:15:00 stop = 21/07/2015 13:15:00 title = J live summer
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 12:30:00 stop = 21/07/2015 13:30:00 title = J live summer
+      Replaces ----- start = 21/07/2015 12:15:00 stop = 21/07/2015 13:15:00 title = J live summer
+      Replaces ----- start = 21/07/2015 13:15:00 stop = 21/07/2015 13:30:00 title = Qui Vinovo summer
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 13:30:00 stop = 21/07/2015 14:00:00 title = Press Conference Dybala
+      Replaces ----- start = 21/07/2015 13:30:00 stop = 21/07/2015 14:00:00 title = Press Conference
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 16:30:00 stop = 21/07/2015 17:00:00 title = Press Conference Rugani
+      Replaces ----- start = 21/07/2015 16:30:00 stop = 21/07/2015 17:00:00 title = Press Conference
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 19:00:00 stop = 21/07/2015 19:30:00 title = Press Conference Rugani
+      Replaces ----- start = 21/07/2015 19:00:00 stop = 21/07/2015 19:30:00 title = Press Conference
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 22:30:00 stop = 21/07/2015 23:00:00 title = Press Conference Rugani
+      Replaces ----- start = 21/07/2015 22:30:00 stop = 21/07/2015 23:00:00 title = Press Conference
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 22/07/2015 03:00:00 stop = 22/07/2015 03:30:00 title = Press Conference Rugani
+      Replaces ----- start = 22/07/2015 03:00:00 stop = 22/07/2015 03:30:00 title = Press Conference
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 22/07/2015 09:00:00 stop = 22/07/2015 09:30:00 title = Press Conference Zaza
+      Replaces ----- start = 22/07/2015 09:00:00 stop = 22/07/2015 09:30:00 title = Press Conference
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 22/07/2015 09:30:00 stop = 22/07/2015 10:00:00 title = Press Conference Rugani
+      Replaces ----- start = 22/07/2015 09:30:00 stop = 22/07/2015 10:00:00 title = Match Gallery Roma
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 22/07/2015 12:00:00 stop = 22/07/2015 12:15:00 title = Qui Vinovo summer
+      Replaces ----- start = 22/07/2015 12:00:00 stop = 22/07/2015 12:30:00 title = Qui Vinovo summer
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 22/07/2015 12:15:00 stop = 22/07/2015 13:15:00 title = J live summer
+      Replaces ----- start = 22/07/2015 12:00:00 stop = 22/07/2015 12:30:00 title = Qui Vinovo summer
+      Replaces ----- start = 22/07/2015 12:30:00 stop = 22/07/2015 13:30:00 title = J live summer
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 22/07/2015 13:15:00 stop = 22/07/2015 13:30:00 title = Qui Vinovo summer
+      Replaces ----- start = 22/07/2015 12:30:00 stop = 22/07/2015 13:30:00 title = J live summer
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 22/07/2015 13:30:00 stop = 22/07/2015 14:00:00 title = Press conference Marotta e Allegri
+      Replaces ----- start = 22/07/2015 13:30:00 stop = 22/07/2015 14:00:00 title = Press Conference
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 22/07/2015 16:30:00 stop = 22/07/2015 17:00:00 title = Press Conference Rugani
+      Replaces ----- start = 22/07/2015 16:30:00 stop = 22/07/2015 17:00:00 title = Press Conference
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 22/07/2015 19:00:00 stop = 22/07/2015 19:30:00 title = Press conference Marotta e Allegri
+      Replaces ----- start = 22/07/2015 19:00:00 stop = 22/07/2015 19:30:00 title = Press Conference
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 22/07/2015 22:30:00 stop = 22/07/2015 23:00:00 title = Press Conference Rugani
+      Replaces ----- start = 22/07/2015 22:30:00 stop = 22/07/2015 23:00:00 title = Press Conference
 
    Summary for update of Juve Channel
-     no changes, no update necessary !
-     unchanged shows inspected 106
-     total after update        106
+     missing shows added       0
+     changed shows updated     26
+     new shows added           0
+     unchanged shows inspected 79
+     total after update        105
+     elapstime / updated show  1.92 seconds
+
 
 channel Inter Channel site -- GUIDATV.SKY.IT -- update mode incremental
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 20/07/2015 18:30:00 stop = 20/07/2015 19:15:00 title = Sintesi Bayern Inter 1988/89
+      Replaces ----- start = 20/07/2015 18:30:00 stop = 20/07/2015 19:15:00 title = Sintesi Inter Fiorentina 2010/11
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 20/07/2015 21:00:00 stop = 20/07/2015 21:45:00 title = Sintesi Bayern Inter 2010/11
+      Replaces ----- start = 20/07/2015 21:00:00 stop = 20/07/2015 21:45:00 title = Sintesi Inter Fiorentina 2010/11
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 09:50:00 stop = 21/07/2015 10:30:00 title = Sintesi Bayern Inter 1988/89
+      Replaces ----- start = 21/07/2015 09:50:00 stop = 21/07/2015 10:30:00 title = Sintesi Inter Fiorentina 2006/07
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 11:00:00 stop = 21/07/2015 13:00:00 title = Fiorentina Inter 2011/12
+      Replaces ----- start = 21/07/2015 11:00:00 stop = 21/07/2015 13:00:00 title = Fiorentina Inter 2007/08
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 18:30:00 stop = 21/07/2015 19:15:00 title = Sintesi Bayern Inter 2008
+      Replaces ----- start = 21/07/2015 18:30:00 stop = 21/07/2015 19:15:00 title = Sintesi Inter Fiorentina 2006/07
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 21:00:00 stop = 21/07/2015 21:45:00 title = Sintesi Bayern Inter 2009/10
+      Replaces ----- start = 21/07/2015 21:00:00 stop = 21/07/2015 21:45:00 title = Sintesi Inter Fiorentina 2006/07
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 22/07/2015 09:50:00 stop = 22/07/2015 10:30:00 title = Sintesi Inter Milan 2009
+      Replaces ----- start = 22/07/2015 09:50:00 stop = 22/07/2015 10:30:00 title = Sintesi Inter Fiorentina 2013/14
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 22/07/2015 18:30:00 stop = 22/07/2015 19:15:00 title = Sintesi Inter Milan 2009
+      Replaces ----- start = 22/07/2015 18:30:00 stop = 22/07/2015 19:15:00 title = Sintesi Inter Fiorentina 2013/14
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 22/07/2015 21:00:00 stop = 22/07/2015 21:45:00 title = Sintesi Inter Milan 2005/06
+      Replaces ----- start = 22/07/2015 21:00:00 stop = 22/07/2015 21:45:00 title = Sintesi Inter Fiorentina 2013/14
 
    Summary for update of Inter Channel
-     no changes, no update necessary !
-     unchanged shows inspected 118
+     missing shows added       0
+     changed shows updated     9
+     new shows added           0
+     unchanged shows inspected 109
      total after update        118
+     elapstime / updated show  1.70 seconds
+
 
 channel Roma Chanell site -- GUIDATV.SKY.IT -- update mode incremental
 
@@ -1220,7 +2040,7 @@ channel Sky Sport F1 UK site -- UK-SKY.COM -- update mode incremental
 
    Summary for update of Sky Sport F1 UK
      no changes, no update necessary !
-     unchanged shows inspected 68
+     unchanged shows inspected 60
      total after update        75
 
 channel UK: SKY SPORT 1 site -- UK-SKY.COM -- update mode incremental
@@ -1259,102 +2079,24 @@ channel UK: SKY SPORT 1 site -- UK-SKY.COM -- update mode incremental
      missing shows added       0
      changed shows updated     6
      new shows added           0
-     unchanged shows inspected 60
+     unchanged shows inspected 53
      total after update        76
-     elapstime / updated show  1.18 seconds
+     elapstime / updated show  1.23 seconds
 
 
 channel UK: SKY SPORT 2 site -- UK-SKY.COM -- update mode incremental
    epg correction :  CHANGED show corrected,
-      show with ---- start = 20/07/2015 07:00:00 stop = 20/07/2015 07:30:00 title = Ricky Ponting Masterclass
-      Replaces ----- start = 20/07/2015 07:00:00 stop = 20/07/2015 08:00:00 title = The Ashes - Highlights
+      show with ---- start = 21/07/2015 07:00:00 stop = 21/07/2015 07:30:00 title = Allan Border: Cricket's Greatest
+      Replaces ----- start = 21/07/2015 07:00:00 stop = 21/07/2015 08:00:00 title = The Ashes - Highlights
    epg correction :  CHANGED show corrected,
-      show with ---- start = 20/07/2015 07:30:00 stop = 20/07/2015 08:00:00 title = Ricky Ponting Masterclass
-      Replaces ----- start = 20/07/2015 07:00:00 stop = 20/07/2015 08:00:00 title = The Ashes - Highlights
+      show with ---- start = 21/07/2015 07:30:00 stop = 21/07/2015 08:00:00 title = Ian Botham: Cricket's Greatest
+      Replaces ----- start = 21/07/2015 07:00:00 stop = 21/07/2015 08:00:00 title = The Ashes - Highlights
    epg correction :  CHANGED show corrected,
-      show with ---- start = 20/07/2015 08:00:00 stop = 20/07/2015 08:30:00 title = Ricky Ponting Masterclass
-      Replaces ----- start = 20/07/2015 08:00:00 stop = 20/07/2015 09:00:00 title = The Ashes - Verdict
+      show with ---- start = 21/07/2015 08:00:00 stop = 21/07/2015 08:30:00 title = Steve Waugh: Cricket's Greatest
+      Replaces ----- start = 21/07/2015 08:00:00 stop = 21/07/2015 09:00:00 title = The Ashes - Verdict
    epg correction :  CHANGED show corrected,
-      show with ---- start = 20/07/2015 08:30:00 stop = 20/07/2015 09:00:00 title = Shane Warne: Crickets Greatest
-      Replaces ----- start = 20/07/2015 08:00:00 stop = 20/07/2015 09:00:00 title = The Ashes - Verdict
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 20/07/2015 09:00:00 stop = 20/07/2015 09:30:00 title = Pace Like Fire: West Indies
-      Replaces ----- start = 20/07/2015 09:00:00 stop = 20/07/2015 09:25:00 title = Pace Like Fire: West Indies
-      Replaces ----- start = 20/07/2015 09:25:00 stop = 20/07/2015 10:00:00 title = Ashes Fever
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 20/07/2015 09:30:00 stop = 20/07/2015 10:00:00 title = Pace Like Fire
-      Replaces ----- start = 20/07/2015 09:25:00 stop = 20/07/2015 10:00:00 title = Ashes Fever
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 20/07/2015 10:00:00 stop = 20/07/2015 12:00:00 title = The Ashes: 2nd Test Review
-      Replaces ----- start = 20/07/2015 10:00:00 stop = 20/07/2015 18:00:00 title = The Ashes
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 20/07/2015 12:00:00 stop = 20/07/2015 13:00:00 title = The Ashes: Verdict
-      Replaces ----- start = 20/07/2015 10:00:00 stop = 20/07/2015 18:00:00 title = The Ashes
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 20/07/2015 13:00:00 stop = 20/07/2015 13:30:00 title = Pace Like Fire
-      Replaces ----- start = 20/07/2015 10:00:00 stop = 20/07/2015 18:00:00 title = The Ashes
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 20/07/2015 13:30:00 stop = 20/07/2015 14:00:00 title = Pace Like Fire
-      Replaces ----- start = 20/07/2015 10:00:00 stop = 20/07/2015 18:00:00 title = The Ashes
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 20/07/2015 14:00:00 stop = 20/07/2015 14:30:00 title = Crickets Greatest: Sachin Tendulkar
-      Replaces ----- start = 20/07/2015 10:00:00 stop = 20/07/2015 18:00:00 title = The Ashes
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 20/07/2015 14:30:00 stop = 20/07/2015 15:00:00 title = Cricketing Yorkshire
-      Replaces ----- start = 20/07/2015 10:00:00 stop = 20/07/2015 18:00:00 title = The Ashes
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 20/07/2015 15:00:00 stop = 20/07/2015 17:00:00 title = The Ashes: 2nd Test Review
-      Replaces ----- start = 20/07/2015 10:00:00 stop = 20/07/2015 18:00:00 title = The Ashes
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 20/07/2015 17:00:00 stop = 20/07/2015 18:00:00 title = The Ashes: Verdict
-      Replaces ----- start = 20/07/2015 10:00:00 stop = 20/07/2015 18:00:00 title = The Ashes
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 20/07/2015 18:30:00 stop = 20/07/2015 19:01:00 title = Crickets Greatest:
-      Replaces ----- start = 20/07/2015 18:30:00 stop = 20/07/2015 18:55:00 title = Pace Like Fire: West Indies
-      Replaces ----- start = 20/07/2015 18:55:00 stop = 20/07/2015 19:00:00 title = Cricket Shorts: Shaun Pollock
-      Replaces ----- start = 20/07/2015 19:00:00 stop = 20/07/2015 19:30:00 title = Wasim Akram: Cricket's Greatest
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 20/07/2015 19:01:00 stop = 20/07/2015 19:30:00 title = Cricketing Yorkshire
-      Replaces ----- start = 20/07/2015 19:00:00 stop = 20/07/2015 19:30:00 title = Wasim Akram: Cricket's Greatest
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 20/07/2015 20:00:00 stop = 20/07/2015 22:01:00 title = The Ashes: 2nd Test Review
-      Replaces ----- start = 20/07/2015 20:00:00 stop = 20/07/2015 21:00:00 title = The Ashes - Highlights
-      Replaces ----- start = 20/07/2015 21:00:00 stop = 20/07/2015 22:00:00 title = The Ashes - Verdict
-      Replaces ----- start = 20/07/2015 22:00:00 stop = 20/07/2015 22:30:00 title = Wasim Akram: Cricket's Greatest
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 20/07/2015 22:01:00 stop = 20/07/2015 23:00:00 title = The Ashes - Verdict
-      Replaces ----- start = 20/07/2015 22:00:00 stop = 20/07/2015 22:30:00 title = Wasim Akram: Cricket's Greatest
-      Replaces ----- start = 20/07/2015 22:30:00 stop = 20/07/2015 23:00:00 title = Shane Warne: Cricket's Greatest
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 20/07/2015 23:00:00 stop = 20/07/2015 23:29:00 title = Ricky Ponting Masterclass
-      Replaces ----- start = 20/07/2015 23:00:00 stop = 21/07/2015 00:00:00 title = The Ashes - Highlights
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 20/07/2015 23:29:00 stop = 21/07/2015 00:00:00 title = Crickets Greatest: Sachin Tendulkar
-      Replaces ----- start = 20/07/2015 23:00:00 stop = 21/07/2015 00:00:00 title = The Ashes - Highlights
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 21/07/2015 00:00:00 stop = 21/07/2015 00:30:00 title = Ricky Ponting Masterclass: Episode 2
-      Replaces ----- start = 21/07/2015 00:00:00 stop = 21/07/2015 01:00:00 title = The Ashes - Verdict
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 21/07/2015 00:30:00 stop = 21/07/2015 01:00:00 title = Cricketing Yorkshire: Episode 2
-      Replaces ----- start = 21/07/2015 00:00:00 stop = 21/07/2015 01:00:00 title = The Ashes - Verdict
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 21/07/2015 01:00:00 stop = 21/07/2015 03:00:00 title = The Ashes: 2nd Test Review
-      Replaces ----- start = 21/07/2015 01:00:00 stop = 21/07/2015 01:35:00 title = Part 4: Ricky Ponting Masterclass
-      Replaces ----- start = 21/07/2015 01:35:00 stop = 21/07/2015 02:00:00 title = Pace Like Fire: West Indies
-      Replaces ----- start = 21/07/2015 02:00:00 stop = 21/07/2015 03:00:00 title = The Ashes - Highlights
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 21/07/2015 04:00:00 stop = 21/07/2015 04:30:00 title = Part 4: Ricky Ponting Masterclass
-      Replaces ----- start = 21/07/2015 04:00:00 stop = 21/07/2015 04:35:00 title = Part 4: Ricky Ponting Masterclass
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 21/07/2015 04:30:00 stop = 21/07/2015 05:00:00 title = Pace Like Fire: West Indies
-      Replaces ----- start = 21/07/2015 04:00:00 stop = 21/07/2015 04:35:00 title = Part 4: Ricky Ponting Masterclass
-      Replaces ----- start = 21/07/2015 04:35:00 stop = 21/07/2015 05:00:00 title = Pace Like Fire: West Indies
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 21/07/2015 05:00:00 stop = 21/07/2015 05:30:00 title = Shane Warne: Crickets Greatest
-      Replaces ----- start = 21/07/2015 05:00:00 stop = 21/07/2015 06:00:00 title = Time Of Our Lives: One Day Wonders
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 21/07/2015 05:30:00 stop = 21/07/2015 06:00:00 title = Crickets Greatest: Sachin Tendulkar
-      Replaces ----- start = 21/07/2015 05:00:00 stop = 21/07/2015 06:00:00 title = Time Of Our Lives: One Day Wonders
+      show with ---- start = 21/07/2015 08:30:00 stop = 21/07/2015 09:00:00 title = David Gower: Cricket's Greatest
+      Replaces ----- start = 21/07/2015 08:00:00 stop = 21/07/2015 09:00:00 title = The Ashes - Verdict
    suspicious      title in index page  = Live Women's Ashes - 1st ODI
       differs from title in showdetails = Women's Ashes - 1st ODI
    epg correction :  CHANGED show corrected,
@@ -1368,11 +2110,11 @@ channel UK: SKY SPORT 2 site -- UK-SKY.COM -- update mode incremental
 
    Summary for update of UK: SKY SPORT 2
      missing shows added       0
-     changed shows updated     29
+     changed shows updated     6
      new shows added           0
-     unchanged shows inspected 50
-     total after update        88
-     elapstime / updated show  1.32 seconds
+     unchanged shows inspected 63
+     total after update        90
+     elapstime / updated show  1.42 seconds
 
 
 channel UK: SKY SPORT 3 site -- UK-SKY.COM -- update mode incremental
@@ -1391,6 +2133,9 @@ channel UK: SKY SPORT 3 site -- UK-SKY.COM -- update mode incremental
    epg correction :  CHANGED show corrected,
       show with ---- start = 21/07/2015 09:30:00 stop = 21/07/2015 13:15:00 title = ICC World T20 Qualifiers
       Replaces ----- start = 21/07/2015 09:30:00 stop = 21/07/2015 13:15:00 title = ICC World T20 Qualifiers
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 21/07/2015 13:30:00 stop = 21/07/2015 13:45:00 title = Cricket Classic: ENG v AUS 2005
+      Replaces ----- start = 21/07/2015 13:30:00 stop = 21/07/2015 13:45:00 title = Cricket Shorts: Shaun Pollock
    suspicious      title in index page  = Live ICC World T20 Qualifiers
       differs from title in showdetails = ICC World T20 Qualifiers
    epg correction :  CHANGED show corrected,
@@ -1404,52 +2149,20 @@ channel UK: SKY SPORT 3 site -- UK-SKY.COM -- update mode incremental
 
    Summary for update of UK: SKY SPORT 3
      missing shows added       0
-     changed shows updated     5
+     changed shows updated     6
      new shows added           0
-     unchanged shows inspected 59
+     unchanged shows inspected 52
      total after update        75
-     elapstime / updated show  1.30 seconds
+     elapstime / updated show  1.29 seconds
 
 
 channel UK: SKY SPORT 4 site -- UK-SKY.COM -- update mode incremental
    epg correction :  CHANGED show corrected,
-      show with ---- start = 20/07/2015 09:00:00 stop = 20/07/2015 13:45:00 title = PGA Tour Golf
-      Replaces ----- start = 20/07/2015 09:00:00 stop = 20/07/2015 12:00:00 title = PGA Tour Golf
-      Replaces ----- start = 20/07/2015 12:00:00 stop = 20/07/2015 13:00:00 title = Sporting Heroes: McGinley/Jacklin
-      Replaces ----- start = 20/07/2015 13:00:00 stop = 20/07/2015 13:30:00 title = Sporting Greats: Michael Johnson
-      Replaces ----- start = 20/07/2015 13:30:00 stop = 20/07/2015 14:00:00 title = Sporting Greats:Heike Drechsler
+      show with ---- start = 20/07/2015 22:15:00 stop = 20/07/2015 22:45:00 title = Ladies Golf Union 2015
+      Replaces ----- start = 20/07/2015 22:15:00 stop = 20/07/2015 22:45:00 title = Sporting Heroes
    epg correction :  CHANGED show corrected,
-      show with ---- start = 20/07/2015 13:45:00 stop = 20/07/2015 14:00:00 title = Sporting Greats: Henman in Paris
-      Replaces ----- start = 20/07/2015 13:30:00 stop = 20/07/2015 14:00:00 title = Sporting Greats:Heike Drechsler
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 20/07/2015 14:00:00 stop = 20/07/2015 18:45:00 title = PGA Tour Golf
-      Replaces ----- start = 20/07/2015 14:00:00 stop = 20/07/2015 17:00:00 title = PGA Tour Golf
-      Replaces ----- start = 20/07/2015 17:00:00 stop = 20/07/2015 17:30:00 title = Sporting Greats: Michael Johnson
-      Replaces ----- start = 20/07/2015 17:30:00 stop = 20/07/2015 18:00:00 title = Sporting Greats:Heike Drechsler
-      Replaces ----- start = 20/07/2015 18:00:00 stop = 20/07/2015 18:30:00 title = Ladies Golf Union 2015
-      Replaces ----- start = 20/07/2015 18:30:00 stop = 20/07/2015 19:00:00 title = Sporting Rivalries: The Big Three
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 20/07/2015 18:45:00 stop = 20/07/2015 19:15:00 title = Ladies Golf Union 2015
-      Replaces ----- start = 20/07/2015 18:30:00 stop = 20/07/2015 19:00:00 title = Sporting Rivalries: The Big Three
-      Replaces ----- start = 20/07/2015 19:00:00 stop = 20/07/2015 20:30:00 title = Jnr Team Golf Home Nations Ch'ship
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 20/07/2015 19:15:00 stop = 20/07/2015 20:45:00 title = Jnr Team Golf Home Nations Ch'ship
-      Replaces ----- start = 20/07/2015 19:00:00 stop = 20/07/2015 20:30:00 title = Jnr Team Golf Home Nations Ch'ship
-      Replaces ----- start = 20/07/2015 20:30:00 stop = 20/07/2015 21:30:00 title = PGA Tour Golf
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 20/07/2015 20:45:00 stop = 20/07/2015 21:45:00 title = PGA Tour Golf
-      Replaces ----- start = 20/07/2015 20:30:00 stop = 20/07/2015 21:30:00 title = PGA Tour Golf
-      Replaces ----- start = 20/07/2015 21:30:00 stop = 20/07/2015 22:00:00 title = Super League Fulltime
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 20/07/2015 21:45:00 stop = 20/07/2015 22:15:00 title = Super League Fulltime
-      Replaces ----- start = 20/07/2015 21:30:00 stop = 20/07/2015 22:00:00 title = Super League Fulltime
-      Replaces ----- start = 20/07/2015 22:00:00 stop = 20/07/2015 23:00:00 title = Sporting Heroes: McGinley/Jacklin
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 20/07/2015 22:15:00 stop = 20/07/2015 22:45:00 title = Sporting Heroes
-      Replaces ----- start = 20/07/2015 22:00:00 stop = 20/07/2015 23:00:00 title = Sporting Heroes: McGinley/Jacklin
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 20/07/2015 22:45:00 stop = 20/07/2015 23:00:00 title = Larsson Baresi
-      Replaces ----- start = 20/07/2015 22:00:00 stop = 20/07/2015 23:00:00 title = Sporting Heroes: McGinley/Jacklin
+      show with ---- start = 20/07/2015 22:45:00 stop = 20/07/2015 23:00:00 title = one2eleven: Larsson & Baresi
+      Replaces ----- start = 20/07/2015 22:45:00 stop = 20/07/2015 23:00:00 title = Larsson Baresi
    suspicious      title in index page  = Live Greyhound Racing
       differs from title in showdetails = Greyhound Racing
    epg correction :  CHANGED show corrected,
@@ -1458,11 +2171,11 @@ channel UK: SKY SPORT 4 site -- UK-SKY.COM -- update mode incremental
 
    Summary for update of UK: SKY SPORT 4
      missing shows added       0
-     changed shows updated     10
+     changed shows updated     3
      new shows added           0
-     unchanged shows inspected 47
+     unchanged shows inspected 50
      total after update        64
-     elapstime / updated show  1.56 seconds
+     elapstime / updated show  1.36 seconds
 
 
 channel Sky Bundesliga DE HD site -- TVTODAY.DE -- update mode incremental
@@ -1486,7 +2199,7 @@ channel Sky Sport 2 DE HD site -- TVTODAY.DE -- update mode incremental
      unchanged shows inspected 33
      total after update        35
 
-16085 shows in 177 channels
-50 updated shows
-2 new shows added
-job finished at 20/07/2015 08:25:05 done in 1442 seconds
+16129 shows in 177 channels
+229 updated shows
+47 new shows added
+job finished at 20/07/2015 16:31:06 done in 1803 seconds
