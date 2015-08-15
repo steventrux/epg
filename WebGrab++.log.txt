@@ -1,6 +1,6 @@
 ﻿WebGrab+Plus/w MDB & REX Postprocess -- version 1.54.6/0.01 -- Jan van Straaten
 -------------------------------------------------------------------------------
-job started at 15/08/2015 08:01:03
+job started at 15/08/2015 16:01:03
 
 
 reading config file: /home/stefano/git/epg/WebGrab++.config.xml
@@ -21,6 +21,7 @@ running on Unix 3.14.32.6
 
 xmltv input file - /home/stefano/git/epg/guide.xml - found
 0 superfluous shows removed
+removed a show that is not in time increasing order in Mediaset Extra starting after 16/08/2015 08:15:00
 update requested for - 177 - out of - 177 - channels and for 3 day(s)
 update mode set per individual channel
 
@@ -77,7 +78,7 @@ channel Italia 1 HD site -- MEDIASET.IT -- update mode incremental
 
    Summary for update of Italia 1 HD
      no changes, no update necessary !
-     unchanged shows inspected 95
+     unchanged shows inspected 93
      total after update        106
 
 channel Rete 4 HD site -- MEDIASET.IT -- update mode incremental
@@ -178,7 +179,7 @@ channel Mediaset Extra site -- MEDIASET.IT -- update mode incremental
      new shows added           0
      unchanged shows inspected 30
      total after update        60
-     elapstime / updated show  0.58 seconds
+     elapstime / updated show  0.63 seconds
 
 
 channel La 5 site -- MEDIASET.IT -- update mode incremental
@@ -192,14 +193,14 @@ channel Iris site -- MEDIASET.IT -- update mode incremental
 
    Summary for update of Iris
      no changes, no update necessary !
-     unchanged shows inspected 50
+     unchanged shows inspected 48
      total after update        54
 
 channel Top Crime site -- MEDIASET.IT -- update mode incremental
 
    Summary for update of Top Crime
      no changes, no update necessary !
-     unchanged shows inspected 75
+     unchanged shows inspected 74
      total after update        85
 
 channel RSI site -- TV.ZAM.IT -- update mode incremental
@@ -608,138 +609,18 @@ channel Sky 3D site -- GUIDATV.SKY.IT -- update mode incremental
      total after update        63
 
 channel Sky Uno HD site -- GUIDATV.SKY.IT -- update mode incremental
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 06:20:00 stop = 17/08/2015 06:35:00 title = MasterChef Magazine 4
-      Replaces ----- start = 17/08/2015 06:20:00 stop = 17/08/2015 06:40:00 title = MasterChef Magazine 4
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 06:35:00 stop = 17/08/2015 07:25:00 title = Il giro del mondo in 80 piatti
-      Replaces ----- start = 17/08/2015 06:20:00 stop = 17/08/2015 06:40:00 title = MasterChef Magazine 4
-      Replaces ----- start = 17/08/2015 06:40:00 stop = 17/08/2015 07:25:00 title = Il giro del mondo in 80 piatti
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 09:40:00 stop = 17/08/2015 09:45:00 title = Alessandro Borghese Kitchen Sound
-      Replaces ----- start = 17/08/2015 09:40:00 stop = 17/08/2015 09:55:00 title = Alessandro Borghese Kitchen Sound
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 09:45:00 stop = 17/08/2015 10:35:00 title = America's Next Top Model
-      Replaces ----- start = 17/08/2015 09:40:00 stop = 17/08/2015 09:55:00 title = Alessandro Borghese Kitchen Sound
-      Replaces ----- start = 17/08/2015 09:55:00 stop = 17/08/2015 10:40:00 title = America's Next Top Model
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 10:35:00 stop = 17/08/2015 11:25:00 title = America's Next Top Model
-      Replaces ----- start = 17/08/2015 09:55:00 stop = 17/08/2015 10:40:00 title = America's Next Top Model
-      Replaces ----- start = 17/08/2015 10:40:00 stop = 17/08/2015 11:30:00 title = America's Next Top Model
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 11:25:00 stop = 17/08/2015 12:10:00 title = American Idol
-      Replaces ----- start = 17/08/2015 10:40:00 stop = 17/08/2015 11:30:00 title = America's Next Top Model
-      Replaces ----- start = 17/08/2015 11:30:00 stop = 17/08/2015 12:15:00 title = American Idol
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 12:10:00 stop = 17/08/2015 13:00:00 title = American Idol
-      Replaces ----- start = 17/08/2015 11:30:00 stop = 17/08/2015 12:15:00 title = American Idol
-      Replaces ----- start = 17/08/2015 12:15:00 stop = 17/08/2015 13:00:00 title = American Idol
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 15:05:00 stop = 17/08/2015 15:45:00 title = Masterchef USA
-      Replaces ----- start = 17/08/2015 15:05:00 stop = 17/08/2015 15:55:00 title = Masterchef USA
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 15:45:00 stop = 17/08/2015 16:30:00 title = Masterchef USA
-      Replaces ----- start = 17/08/2015 15:05:00 stop = 17/08/2015 15:55:00 title = Masterchef USA
-      Replaces ----- start = 17/08/2015 15:55:00 stop = 17/08/2015 16:35:00 title = Masterchef USA
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 16:30:00 stop = 17/08/2015 17:00:00 title = Giardini da incubo
-      Replaces ----- start = 17/08/2015 15:55:00 stop = 17/08/2015 16:35:00 title = Masterchef USA
-      Replaces ----- start = 17/08/2015 16:35:00 stop = 17/08/2015 17:05:00 title = Giardini da incubo
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 17:00:00 stop = 17/08/2015 17:50:00 title = America's Next Top Model
-      Replaces ----- start = 17/08/2015 16:35:00 stop = 17/08/2015 17:05:00 title = Giardini da incubo
-      Replaces ----- start = 17/08/2015 17:05:00 stop = 17/08/2015 17:45:00 title = America's Next Top Model
-      Replaces ----- start = 17/08/2015 17:45:00 stop = 17/08/2015 18:35:00 title = America's Next Top Model
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 17:50:00 stop = 17/08/2015 18:40:00 title = America's Next Top Model
-      Replaces ----- start = 17/08/2015 17:45:00 stop = 17/08/2015 18:35:00 title = America's Next Top Model
-      Replaces ----- start = 17/08/2015 18:35:00 stop = 17/08/2015 19:30:00 title = American Idol
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 18:40:00 stop = 17/08/2015 19:20:00 title = American Idol
-      Replaces ----- start = 17/08/2015 18:35:00 stop = 17/08/2015 19:30:00 title = American Idol
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 19:20:00 stop = 17/08/2015 20:10:00 title = American Idol
-      Replaces ----- start = 17/08/2015 18:35:00 stop = 17/08/2015 19:30:00 title = American Idol
-      Replaces ----- start = 17/08/2015 19:30:00 stop = 17/08/2015 20:10:00 title = American Idol
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 23:35:00 stop = 17/08/2015 23:55:00 title = I boss della sabbia
-      Replaces ----- start = 17/08/2015 23:35:00 stop = 18/08/2015 00:00:00 title = I boss della sabbia
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 23:55:00 stop = 18/08/2015 00:20:00 title = Duck Dynasty: buzzurri e bizzarri
-      Replaces ----- start = 17/08/2015 23:35:00 stop = 18/08/2015 00:00:00 title = I boss della sabbia
 
    Summary for update of Sky Uno HD
-     missing shows added       0
-     changed shows updated     16
-     new shows added           0
-     unchanged shows inspected 82
+     no changes, no update necessary !
+     unchanged shows inspected 98
      total after update        98
-     elapstime / updated show  2.35 seconds
-
 
 channel Sky Uno + 1 HD site -- GUIDATV.SKY.IT -- update mode incremental
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 07:20:00 stop = 17/08/2015 07:35:00 title = MasterChef Magazine 4
-      Replaces ----- start = 17/08/2015 07:20:00 stop = 17/08/2015 07:40:00 title = MasterChef Magazine 4
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 07:35:00 stop = 17/08/2015 08:25:00 title = Il giro del mondo in 80 piatti
-      Replaces ----- start = 17/08/2015 07:20:00 stop = 17/08/2015 07:40:00 title = MasterChef Magazine 4
-      Replaces ----- start = 17/08/2015 07:40:00 stop = 17/08/2015 08:25:00 title = Il giro del mondo in 80 piatti
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 10:40:00 stop = 17/08/2015 10:45:00 title = Alessandro Borghese Kitchen Sound
-      Replaces ----- start = 17/08/2015 10:40:00 stop = 17/08/2015 10:55:00 title = Alessandro Borghese Kitchen Sound
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 10:45:00 stop = 17/08/2015 11:35:00 title = America's Next Top Model
-      Replaces ----- start = 17/08/2015 10:40:00 stop = 17/08/2015 10:55:00 title = Alessandro Borghese Kitchen Sound
-      Replaces ----- start = 17/08/2015 10:55:00 stop = 17/08/2015 11:40:00 title = America's Next Top Model
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 11:35:00 stop = 17/08/2015 12:25:00 title = America's Next Top Model
-      Replaces ----- start = 17/08/2015 10:55:00 stop = 17/08/2015 11:40:00 title = America's Next Top Model
-      Replaces ----- start = 17/08/2015 11:40:00 stop = 17/08/2015 12:30:00 title = America's Next Top Model
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 12:25:00 stop = 17/08/2015 13:10:00 title = American Idol
-      Replaces ----- start = 17/08/2015 11:40:00 stop = 17/08/2015 12:30:00 title = America's Next Top Model
-      Replaces ----- start = 17/08/2015 12:30:00 stop = 17/08/2015 13:15:00 title = American Idol
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 13:10:00 stop = 17/08/2015 14:00:00 title = American Idol
-      Replaces ----- start = 17/08/2015 12:30:00 stop = 17/08/2015 13:15:00 title = American Idol
-      Replaces ----- start = 17/08/2015 13:15:00 stop = 17/08/2015 14:00:00 title = American Idol
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 16:05:00 stop = 17/08/2015 16:45:00 title = Masterchef USA
-      Replaces ----- start = 17/08/2015 16:05:00 stop = 17/08/2015 16:55:00 title = Masterchef USA
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 16:45:00 stop = 17/08/2015 17:30:00 title = Masterchef USA
-      Replaces ----- start = 17/08/2015 16:05:00 stop = 17/08/2015 16:55:00 title = Masterchef USA
-      Replaces ----- start = 17/08/2015 16:55:00 stop = 17/08/2015 17:35:00 title = Masterchef USA
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 17:30:00 stop = 17/08/2015 18:00:00 title = Giardini da incubo
-      Replaces ----- start = 17/08/2015 16:55:00 stop = 17/08/2015 17:35:00 title = Masterchef USA
-      Replaces ----- start = 17/08/2015 17:35:00 stop = 17/08/2015 18:05:00 title = Giardini da incubo
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 18:00:00 stop = 17/08/2015 18:50:00 title = America's Next Top Model
-      Replaces ----- start = 17/08/2015 17:35:00 stop = 17/08/2015 18:05:00 title = Giardini da incubo
-      Replaces ----- start = 17/08/2015 18:05:00 stop = 17/08/2015 18:45:00 title = America's Next Top Model
-      Replaces ----- start = 17/08/2015 18:45:00 stop = 17/08/2015 19:35:00 title = America's Next Top Model
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 18:50:00 stop = 17/08/2015 19:40:00 title = America's Next Top Model
-      Replaces ----- start = 17/08/2015 18:45:00 stop = 17/08/2015 19:35:00 title = America's Next Top Model
-      Replaces ----- start = 17/08/2015 19:35:00 stop = 17/08/2015 20:30:00 title = American Idol
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 19:40:00 stop = 17/08/2015 20:20:00 title = American Idol
-      Replaces ----- start = 17/08/2015 19:35:00 stop = 17/08/2015 20:30:00 title = American Idol
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 20:20:00 stop = 17/08/2015 21:10:00 title = American Idol
-      Replaces ----- start = 17/08/2015 19:35:00 stop = 17/08/2015 20:30:00 title = American Idol
-      Replaces ----- start = 17/08/2015 20:30:00 stop = 17/08/2015 21:10:00 title = American Idol
 
    Summary for update of Sky Uno + 1 HD
-     missing shows added       0
-     changed shows updated     14
-     new shows added           0
-     unchanged shows inspected 82
+     no changes, no update necessary !
+     unchanged shows inspected 96
      total after update        96
-     elapstime / updated show  1.72 seconds
-
 
 channel Sky Atlantic HD site -- GUIDATV.SKY.IT -- update mode incremental
 
@@ -805,518 +686,11 @@ channel Fox crime + 2 site -- GUIDATV.SKY.IT -- update mode incremental
      total after update        84
 
 channel FOX COMEDY HD site -- GUIDATV.SKY.IT -- update mode incremental
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 06:00:00 stop = 15/08/2015 06:25:00 title = Il mio amico Arnold
-      Replaces ----- start = 15/08/2015 06:00:00 stop = 15/08/2015 06:30:00 title = Il mio amico Arnold
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 06:25:00 stop = 15/08/2015 06:55:00 title = Il mio amico Arnold
-      Replaces ----- start = 15/08/2015 06:00:00 stop = 15/08/2015 06:30:00 title = Il mio amico Arnold
-      Replaces ----- start = 15/08/2015 06:30:00 stop = 15/08/2015 07:00:00 title = La tata
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 06:55:00 stop = 15/08/2015 07:25:00 title = I Jefferson
-      Replaces ----- start = 15/08/2015 06:30:00 stop = 15/08/2015 07:00:00 title = La tata
-      Replaces ----- start = 15/08/2015 07:00:00 stop = 15/08/2015 07:30:00 title = La tata
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 07:25:00 stop = 15/08/2015 07:50:00 title = I Jefferson
-      Replaces ----- start = 15/08/2015 07:00:00 stop = 15/08/2015 07:30:00 title = La tata
-      Replaces ----- start = 15/08/2015 07:30:00 stop = 15/08/2015 08:00:00 title = La tata
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 07:50:00 stop = 15/08/2015 08:20:00 title = La tata
-      Replaces ----- start = 15/08/2015 07:30:00 stop = 15/08/2015 08:00:00 title = La tata
-      Replaces ----- start = 15/08/2015 08:00:00 stop = 15/08/2015 08:30:00 title = La tata
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 08:20:00 stop = 15/08/2015 08:50:00 title = La tata
-      Replaces ----- start = 15/08/2015 08:00:00 stop = 15/08/2015 08:30:00 title = La tata
-      Replaces ----- start = 15/08/2015 08:30:00 stop = 15/08/2015 09:00:00 title = La tata
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 08:50:00 stop = 15/08/2015 09:15:00 title = La tata
-      Replaces ----- start = 15/08/2015 08:30:00 stop = 15/08/2015 09:00:00 title = La tata
-      Replaces ----- start = 15/08/2015 09:00:00 stop = 15/08/2015 09:30:00 title = La tata
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 09:15:00 stop = 15/08/2015 09:45:00 title = La tata
-      Replaces ----- start = 15/08/2015 09:00:00 stop = 15/08/2015 09:30:00 title = La tata
-      Replaces ----- start = 15/08/2015 09:30:00 stop = 15/08/2015 10:00:00 title = Aiutami Hope
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 09:45:00 stop = 15/08/2015 10:10:00 title = La tata
-      Replaces ----- start = 15/08/2015 09:30:00 stop = 15/08/2015 10:00:00 title = Aiutami Hope
-      Replaces ----- start = 15/08/2015 10:00:00 stop = 15/08/2015 10:30:00 title = Aiutami Hope
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 10:10:00 stop = 15/08/2015 10:40:00 title = La tata
-      Replaces ----- start = 15/08/2015 10:00:00 stop = 15/08/2015 10:30:00 title = Aiutami Hope
-      Replaces ----- start = 15/08/2015 10:30:00 stop = 15/08/2015 11:00:00 title = Aiutami Hope
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 10:40:00 stop = 15/08/2015 11:05:00 title = Aiutami Hope
-      Replaces ----- start = 15/08/2015 10:30:00 stop = 15/08/2015 11:00:00 title = Aiutami Hope
-      Replaces ----- start = 15/08/2015 11:00:00 stop = 15/08/2015 11:30:00 title = Aiutami Hope
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 11:05:00 stop = 15/08/2015 11:30:00 title = Aiutami Hope
-      Replaces ----- start = 15/08/2015 11:00:00 stop = 15/08/2015 11:30:00 title = Aiutami Hope
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 11:30:00 stop = 15/08/2015 11:55:00 title = Aiutami Hope
-      Replaces ----- start = 15/08/2015 11:30:00 stop = 15/08/2015 12:00:00 title = L'uomo di casa
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 11:55:00 stop = 15/08/2015 12:20:00 title = Aiutami Hope
-      Replaces ----- start = 15/08/2015 11:30:00 stop = 15/08/2015 12:00:00 title = L'uomo di casa
-      Replaces ----- start = 15/08/2015 12:00:00 stop = 15/08/2015 12:25:00 title = L'uomo di casa
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 12:20:00 stop = 15/08/2015 12:45:00 title = L'uomo di casa
-      Replaces ----- start = 15/08/2015 12:00:00 stop = 15/08/2015 12:25:00 title = L'uomo di casa
-      Replaces ----- start = 15/08/2015 12:25:00 stop = 15/08/2015 12:55:00 title = L'uomo di casa
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 12:45:00 stop = 15/08/2015 13:10:00 title = L'uomo di casa
-      Replaces ----- start = 15/08/2015 12:25:00 stop = 15/08/2015 12:55:00 title = L'uomo di casa
-      Replaces ----- start = 15/08/2015 12:55:00 stop = 15/08/2015 13:20:00 title = Friends
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 13:10:00 stop = 15/08/2015 13:40:00 title = L'uomo di casa
-      Replaces ----- start = 15/08/2015 12:55:00 stop = 15/08/2015 13:20:00 title = Friends
-      Replaces ----- start = 15/08/2015 13:20:00 stop = 15/08/2015 13:50:00 title = Friends
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 13:40:00 stop = 15/08/2015 14:05:00 title = Friends
-      Replaces ----- start = 15/08/2015 13:20:00 stop = 15/08/2015 13:50:00 title = Friends
-      Replaces ----- start = 15/08/2015 13:50:00 stop = 15/08/2015 14:15:00 title = Friends
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 14:05:00 stop = 15/08/2015 14:30:00 title = Friends
-      Replaces ----- start = 15/08/2015 13:50:00 stop = 15/08/2015 14:15:00 title = Friends
-      Replaces ----- start = 15/08/2015 14:15:00 stop = 15/08/2015 14:45:00 title = Friends
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 14:30:00 stop = 15/08/2015 15:00:00 title = Friends
-      Replaces ----- start = 15/08/2015 14:15:00 stop = 15/08/2015 14:45:00 title = Friends
-      Replaces ----- start = 15/08/2015 14:45:00 stop = 15/08/2015 15:10:00 title = Modern Family
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 15:00:00 stop = 15/08/2015 15:25:00 title = Friends
-      Replaces ----- start = 15/08/2015 14:45:00 stop = 15/08/2015 15:10:00 title = Modern Family
-      Replaces ----- start = 15/08/2015 15:10:00 stop = 15/08/2015 15:35:00 title = Modern Family
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 15:25:00 stop = 15/08/2015 15:50:00 title = Modern Family
-      Replaces ----- start = 15/08/2015 15:10:00 stop = 15/08/2015 15:35:00 title = Modern Family
-      Replaces ----- start = 15/08/2015 15:35:00 stop = 15/08/2015 16:00:00 title = Modern Family
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 15:50:00 stop = 15/08/2015 16:15:00 title = Modern Family
-      Replaces ----- start = 15/08/2015 15:35:00 stop = 15/08/2015 16:00:00 title = Modern Family
-      Replaces ----- start = 15/08/2015 16:00:00 stop = 15/08/2015 16:30:00 title = Modern Family
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 16:15:00 stop = 15/08/2015 16:40:00 title = Modern Family
-      Replaces ----- start = 15/08/2015 16:00:00 stop = 15/08/2015 16:30:00 title = Modern Family
-      Replaces ----- start = 15/08/2015 16:30:00 stop = 15/08/2015 17:00:00 title = Modern Family
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 16:40:00 stop = 15/08/2015 17:05:00 title = Modern Family
-      Replaces ----- start = 15/08/2015 16:30:00 stop = 15/08/2015 17:00:00 title = Modern Family
-      Replaces ----- start = 15/08/2015 17:00:00 stop = 15/08/2015 17:30:00 title = L'uomo di casa
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 17:05:00 stop = 15/08/2015 17:30:00 title = Modern Family
-      Replaces ----- start = 15/08/2015 17:00:00 stop = 15/08/2015 17:30:00 title = L'uomo di casa
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 18:00:00 stop = 15/08/2015 18:25:00 title = L'uomo di casa
-      Replaces ----- start = 15/08/2015 18:00:00 stop = 15/08/2015 18:30:00 title = L'uomo di casa
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 18:25:00 stop = 15/08/2015 18:50:00 title = L'uomo di casa
-      Replaces ----- start = 15/08/2015 18:00:00 stop = 15/08/2015 18:30:00 title = L'uomo di casa
-      Replaces ----- start = 15/08/2015 18:30:00 stop = 15/08/2015 19:00:00 title = L'uomo di casa
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 18:50:00 stop = 15/08/2015 19:15:00 title = L'uomo di casa
-      Replaces ----- start = 15/08/2015 18:30:00 stop = 15/08/2015 19:00:00 title = L'uomo di casa
-      Replaces ----- start = 15/08/2015 19:00:00 stop = 15/08/2015 19:30:00 title = Modern Family
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 19:15:00 stop = 15/08/2015 19:40:00 title = Modern Family
-      Replaces ----- start = 15/08/2015 19:00:00 stop = 15/08/2015 19:30:00 title = Modern Family
-      Replaces ----- start = 15/08/2015 19:30:00 stop = 15/08/2015 20:00:00 title = Modern Family
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 19:40:00 stop = 15/08/2015 20:05:00 title = Modern Family
-      Replaces ----- start = 15/08/2015 19:30:00 stop = 15/08/2015 20:00:00 title = Modern Family
-      Replaces ----- start = 15/08/2015 20:00:00 stop = 15/08/2015 20:25:00 title = Friends
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 20:05:00 stop = 15/08/2015 20:30:00 title = Friends
-      Replaces ----- start = 15/08/2015 20:00:00 stop = 15/08/2015 20:25:00 title = Friends
-      Replaces ----- start = 15/08/2015 20:25:00 stop = 15/08/2015 20:50:00 title = Friends
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 20:30:00 stop = 15/08/2015 21:00:00 title = Friends
-      Replaces ----- start = 15/08/2015 20:25:00 stop = 15/08/2015 20:50:00 title = Friends
-      Replaces ----- start = 15/08/2015 20:50:00 stop = 15/08/2015 21:20:00 title = Friends
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 21:00:00 stop = 15/08/2015 21:25:00 title = Friends
-      Replaces ----- start = 15/08/2015 20:50:00 stop = 15/08/2015 21:20:00 title = Friends
-      Replaces ----- start = 15/08/2015 21:20:00 stop = 15/08/2015 21:50:00 title = Friends
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 21:25:00 stop = 15/08/2015 21:50:00 title = Friends
-      Replaces ----- start = 15/08/2015 21:20:00 stop = 15/08/2015 21:50:00 title = Friends
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 21:50:00 stop = 15/08/2015 22:20:00 title = Friends
-      Replaces ----- start = 15/08/2015 21:50:00 stop = 15/08/2015 22:15:00 title = Friends
-      Replaces ----- start = 15/08/2015 22:15:00 stop = 15/08/2015 22:45:00 title = Friends
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 22:20:00 stop = 15/08/2015 22:45:00 title = Friends
-      Replaces ----- start = 15/08/2015 22:15:00 stop = 15/08/2015 22:45:00 title = Friends
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 22:45:00 stop = 15/08/2015 23:10:00 title = Fresh Off The Boat
-      Replaces ----- start = 15/08/2015 22:45:00 stop = 15/08/2015 23:15:00 title = Fresh Off The Boat
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 23:10:00 stop = 15/08/2015 23:35:00 title = Fresh Off The Boat
-      Replaces ----- start = 15/08/2015 22:45:00 stop = 15/08/2015 23:15:00 title = Fresh Off The Boat
-      Replaces ----- start = 15/08/2015 23:15:00 stop = 15/08/2015 23:35:00 title = Fresh Off The Boat
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 02:00:00 stop = 16/08/2015 02:10:00 title = Modern Family
-      Replaces ----- start = 16/08/2015 02:00:00 stop = 16/08/2015 02:30:00 title = Modern Family
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 02:10:00 stop = 16/08/2015 02:35:00 title = La tata
-      Replaces ----- start = 16/08/2015 02:00:00 stop = 16/08/2015 02:30:00 title = Modern Family
-      Replaces ----- start = 16/08/2015 02:30:00 stop = 16/08/2015 03:00:00 title = La tata
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 02:35:00 stop = 16/08/2015 03:00:00 title = La tata
-      Replaces ----- start = 16/08/2015 02:30:00 stop = 16/08/2015 03:00:00 title = La tata
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 03:30:00 stop = 16/08/2015 03:55:00 title = La tata
-      Replaces ----- start = 16/08/2015 03:30:00 stop = 16/08/2015 04:00:00 title = La tata
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 03:55:00 stop = 16/08/2015 04:25:00 title = I Jefferson
-      Replaces ----- start = 16/08/2015 03:30:00 stop = 16/08/2015 04:00:00 title = La tata
-      Replaces ----- start = 16/08/2015 04:00:00 stop = 16/08/2015 04:30:00 title = La tata
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 04:25:00 stop = 16/08/2015 04:50:00 title = I Jefferson
-      Replaces ----- start = 16/08/2015 04:00:00 stop = 16/08/2015 04:30:00 title = La tata
-      Replaces ----- start = 16/08/2015 04:30:00 stop = 16/08/2015 05:00:00 title = I Jefferson
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 04:50:00 stop = 16/08/2015 05:50:00 title = Il mio amico Arnold
-      Replaces ----- start = 16/08/2015 04:30:00 stop = 16/08/2015 05:00:00 title = I Jefferson
-      Replaces ----- start = 16/08/2015 05:00:00 stop = 16/08/2015 05:30:00 title = I Jefferson
-      Replaces ----- start = 16/08/2015 05:30:00 stop = 16/08/2015 06:00:00 title = Il mio amico Arnold
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 05:50:00 stop = 16/08/2015 06:15:00 title = Il mio amico Arnold
-      Replaces ----- start = 16/08/2015 05:30:00 stop = 16/08/2015 06:00:00 title = Il mio amico Arnold
-      Replaces ----- start = 16/08/2015 06:00:00 stop = 16/08/2015 06:30:00 title = Il mio amico Arnold
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 06:15:00 stop = 16/08/2015 06:45:00 title = Il mio amico Arnold
-      Replaces ----- start = 16/08/2015 06:00:00 stop = 16/08/2015 06:30:00 title = Il mio amico Arnold
-      Replaces ----- start = 16/08/2015 06:30:00 stop = 16/08/2015 07:00:00 title = La tata
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 06:45:00 stop = 16/08/2015 07:10:00 title = I Jefferson
-      Replaces ----- start = 16/08/2015 06:30:00 stop = 16/08/2015 07:00:00 title = La tata
-      Replaces ----- start = 16/08/2015 07:00:00 stop = 16/08/2015 07:30:00 title = La tata
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 07:10:00 stop = 16/08/2015 07:40:00 title = I Jefferson
-      Replaces ----- start = 16/08/2015 07:00:00 stop = 16/08/2015 07:30:00 title = La tata
-      Replaces ----- start = 16/08/2015 07:30:00 stop = 16/08/2015 08:00:00 title = La tata
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 07:40:00 stop = 16/08/2015 08:05:00 title = La tata
-      Replaces ----- start = 16/08/2015 07:30:00 stop = 16/08/2015 08:00:00 title = La tata
-      Replaces ----- start = 16/08/2015 08:00:00 stop = 16/08/2015 08:30:00 title = La tata
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 08:05:00 stop = 16/08/2015 08:35:00 title = La tata
-      Replaces ----- start = 16/08/2015 08:00:00 stop = 16/08/2015 08:30:00 title = La tata
-      Replaces ----- start = 16/08/2015 08:30:00 stop = 16/08/2015 09:00:00 title = La tata
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 08:35:00 stop = 16/08/2015 09:00:00 title = La tata
-      Replaces ----- start = 16/08/2015 08:30:00 stop = 16/08/2015 09:00:00 title = La tata
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 09:30:00 stop = 16/08/2015 09:55:00 title = La tata
-      Replaces ----- start = 16/08/2015 09:30:00 stop = 16/08/2015 10:00:00 title = Aiutami Hope
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 09:55:00 stop = 16/08/2015 10:25:00 title = La tata
-      Replaces ----- start = 16/08/2015 09:30:00 stop = 16/08/2015 10:00:00 title = Aiutami Hope
-      Replaces ----- start = 16/08/2015 10:00:00 stop = 16/08/2015 10:30:00 title = Aiutami Hope
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 10:25:00 stop = 16/08/2015 10:55:00 title = Aiutami Hope
-      Replaces ----- start = 16/08/2015 10:00:00 stop = 16/08/2015 10:30:00 title = Aiutami Hope
-      Replaces ----- start = 16/08/2015 10:30:00 stop = 16/08/2015 11:00:00 title = Aiutami Hope
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 10:55:00 stop = 16/08/2015 11:20:00 title = Aiutami Hope
-      Replaces ----- start = 16/08/2015 10:30:00 stop = 16/08/2015 11:00:00 title = Aiutami Hope
-      Replaces ----- start = 16/08/2015 11:00:00 stop = 16/08/2015 11:30:00 title = Aiutami Hope
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 11:20:00 stop = 16/08/2015 11:45:00 title = Aiutami Hope
-      Replaces ----- start = 16/08/2015 11:00:00 stop = 16/08/2015 11:30:00 title = Aiutami Hope
-      Replaces ----- start = 16/08/2015 11:30:00 stop = 16/08/2015 12:00:00 title = L'uomo di casa
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 11:45:00 stop = 16/08/2015 12:10:00 title = Aiutami Hope
-      Replaces ----- start = 16/08/2015 11:30:00 stop = 16/08/2015 12:00:00 title = L'uomo di casa
-      Replaces ----- start = 16/08/2015 12:00:00 stop = 16/08/2015 12:25:00 title = L'uomo di casa
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 12:10:00 stop = 16/08/2015 12:35:00 title = L'uomo di casa
-      Replaces ----- start = 16/08/2015 12:00:00 stop = 16/08/2015 12:25:00 title = L'uomo di casa
-      Replaces ----- start = 16/08/2015 12:25:00 stop = 16/08/2015 12:55:00 title = L'uomo di casa
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 12:35:00 stop = 16/08/2015 13:05:00 title = L'uomo di casa
-      Replaces ----- start = 16/08/2015 12:25:00 stop = 16/08/2015 12:55:00 title = L'uomo di casa
-      Replaces ----- start = 16/08/2015 12:55:00 stop = 16/08/2015 13:20:00 title = Friends
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 13:05:00 stop = 16/08/2015 13:30:00 title = L'uomo di casa
-      Replaces ----- start = 16/08/2015 12:55:00 stop = 16/08/2015 13:20:00 title = Friends
-      Replaces ----- start = 16/08/2015 13:20:00 stop = 16/08/2015 13:50:00 title = Friends
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 13:30:00 stop = 16/08/2015 13:55:00 title = Friends
-      Replaces ----- start = 16/08/2015 13:20:00 stop = 16/08/2015 13:50:00 title = Friends
-      Replaces ----- start = 16/08/2015 13:50:00 stop = 16/08/2015 14:15:00 title = Friends
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 13:55:00 stop = 16/08/2015 14:25:00 title = Friends
-      Replaces ----- start = 16/08/2015 13:50:00 stop = 16/08/2015 14:15:00 title = Friends
-      Replaces ----- start = 16/08/2015 14:15:00 stop = 16/08/2015 14:45:00 title = Friends
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 14:25:00 stop = 16/08/2015 14:50:00 title = Friends
-      Replaces ----- start = 16/08/2015 14:15:00 stop = 16/08/2015 14:45:00 title = Friends
-      Replaces ----- start = 16/08/2015 14:45:00 stop = 16/08/2015 15:10:00 title = Modern Family
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 14:50:00 stop = 16/08/2015 15:15:00 title = Friends
-      Replaces ----- start = 16/08/2015 14:45:00 stop = 16/08/2015 15:10:00 title = Modern Family
-      Replaces ----- start = 16/08/2015 15:10:00 stop = 16/08/2015 15:35:00 title = Modern Family
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 15:15:00 stop = 16/08/2015 15:40:00 title = Modern Family
-      Replaces ----- start = 16/08/2015 15:10:00 stop = 16/08/2015 15:35:00 title = Modern Family
-      Replaces ----- start = 16/08/2015 15:35:00 stop = 16/08/2015 16:00:00 title = Modern Family
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 15:40:00 stop = 16/08/2015 16:10:00 title = Modern Family
-      Replaces ----- start = 16/08/2015 15:35:00 stop = 16/08/2015 16:00:00 title = Modern Family
-      Replaces ----- start = 16/08/2015 16:00:00 stop = 16/08/2015 16:30:00 title = Modern Family
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 16:10:00 stop = 16/08/2015 16:30:00 title = Modern Family
-      Replaces ----- start = 16/08/2015 16:00:00 stop = 16/08/2015 16:30:00 title = Modern Family
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 16:30:00 stop = 16/08/2015 16:55:00 title = Modern Family
-      Replaces ----- start = 16/08/2015 16:30:00 stop = 16/08/2015 17:00:00 title = Modern Family
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 16:55:00 stop = 16/08/2015 17:25:00 title = Modern Family
-      Replaces ----- start = 16/08/2015 16:30:00 stop = 16/08/2015 17:00:00 title = Modern Family
-      Replaces ----- start = 16/08/2015 17:00:00 stop = 16/08/2015 17:30:00 title = L'uomo di casa
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 17:25:00 stop = 16/08/2015 17:50:00 title = L'uomo di casa
-      Replaces ----- start = 16/08/2015 17:00:00 stop = 16/08/2015 17:30:00 title = L'uomo di casa
-      Replaces ----- start = 16/08/2015 17:30:00 stop = 16/08/2015 18:00:00 title = L'uomo di casa
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 17:50:00 stop = 16/08/2015 18:15:00 title = L'uomo di casa
-      Replaces ----- start = 16/08/2015 17:30:00 stop = 16/08/2015 18:00:00 title = L'uomo di casa
-      Replaces ----- start = 16/08/2015 18:00:00 stop = 16/08/2015 18:30:00 title = L'uomo di casa
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 18:15:00 stop = 16/08/2015 18:40:00 title = L'uomo di casa
-      Replaces ----- start = 16/08/2015 18:00:00 stop = 16/08/2015 18:30:00 title = L'uomo di casa
-      Replaces ----- start = 16/08/2015 18:30:00 stop = 16/08/2015 19:00:00 title = L'uomo di casa
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 18:40:00 stop = 16/08/2015 19:05:00 title = L'uomo di casa
-      Replaces ----- start = 16/08/2015 18:30:00 stop = 16/08/2015 19:00:00 title = L'uomo di casa
-      Replaces ----- start = 16/08/2015 19:00:00 stop = 16/08/2015 19:30:00 title = The Last Man on Earth
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 19:05:00 stop = 16/08/2015 19:35:00 title = The Last Man on Earth
-      Replaces ----- start = 16/08/2015 19:00:00 stop = 16/08/2015 19:30:00 title = The Last Man on Earth
-      Replaces ----- start = 16/08/2015 19:30:00 stop = 16/08/2015 20:00:00 title = The Last Man on Earth
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 19:35:00 stop = 16/08/2015 20:00:00 title = The Last Man on Earth
-      Replaces ----- start = 16/08/2015 19:30:00 stop = 16/08/2015 20:00:00 title = The Last Man on Earth
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 21:20:00 stop = 16/08/2015 21:45:00 title = Friends
-      Replaces ----- start = 16/08/2015 21:20:00 stop = 16/08/2015 21:50:00 title = Friends
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 21:45:00 stop = 16/08/2015 22:10:00 title = Friends
-      Replaces ----- start = 16/08/2015 21:20:00 stop = 16/08/2015 21:50:00 title = Friends
-      Replaces ----- start = 16/08/2015 21:50:00 stop = 16/08/2015 22:15:00 title = Friends
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 22:10:00 stop = 16/08/2015 22:40:00 title = Friends
-      Replaces ----- start = 16/08/2015 21:50:00 stop = 16/08/2015 22:15:00 title = Friends
-      Replaces ----- start = 16/08/2015 22:15:00 stop = 16/08/2015 22:45:00 title = Friends
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 22:40:00 stop = 16/08/2015 23:05:00 title = Modern Family
-      Replaces ----- start = 16/08/2015 22:15:00 stop = 16/08/2015 22:45:00 title = Friends
-      Replaces ----- start = 16/08/2015 22:45:00 stop = 16/08/2015 23:15:00 title = Modern Family
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 23:05:00 stop = 16/08/2015 23:30:00 title = Modern Family
-      Replaces ----- start = 16/08/2015 22:45:00 stop = 16/08/2015 23:15:00 title = Modern Family
-      Replaces ----- start = 16/08/2015 23:15:00 stop = 16/08/2015 23:35:00 title = Modern Family
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 23:30:00 stop = 16/08/2015 23:55:00 title = L'uomo di casa
-      Replaces ----- start = 16/08/2015 23:15:00 stop = 16/08/2015 23:35:00 title = Modern Family
-      Replaces ----- start = 16/08/2015 23:35:00 stop = 17/08/2015 00:05:00 title = L'uomo di casa
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 23:55:00 stop = 17/08/2015 00:25:00 title = L'uomo di casa
-      Replaces ----- start = 16/08/2015 23:35:00 stop = 17/08/2015 00:05:00 title = L'uomo di casa
-      Replaces ----- start = 17/08/2015 00:05:00 stop = 17/08/2015 00:30:00 title = L'uomo di casa
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 00:25:00 stop = 17/08/2015 00:50:00 title = Modern Family
-      Replaces ----- start = 17/08/2015 00:05:00 stop = 17/08/2015 00:30:00 title = L'uomo di casa
-      Replaces ----- start = 17/08/2015 00:30:00 stop = 17/08/2015 01:00:00 title = Modern Family
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 00:50:00 stop = 17/08/2015 01:15:00 title = Modern Family
-      Replaces ----- start = 17/08/2015 00:30:00 stop = 17/08/2015 01:00:00 title = Modern Family
-      Replaces ----- start = 17/08/2015 01:00:00 stop = 17/08/2015 01:30:00 title = Modern Family
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 01:15:00 stop = 17/08/2015 01:40:00 title = Modern Family
-      Replaces ----- start = 17/08/2015 01:00:00 stop = 17/08/2015 01:30:00 title = Modern Family
-      Replaces ----- start = 17/08/2015 01:30:00 stop = 17/08/2015 02:00:00 title = Modern Family
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 01:40:00 stop = 17/08/2015 02:05:00 title = Modern Family
-      Replaces ----- start = 17/08/2015 01:30:00 stop = 17/08/2015 02:00:00 title = Modern Family
-      Replaces ----- start = 17/08/2015 02:00:00 stop = 17/08/2015 02:30:00 title = Modern Family
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 02:05:00 stop = 17/08/2015 02:30:00 title = La tata
-      Replaces ----- start = 17/08/2015 02:00:00 stop = 17/08/2015 02:30:00 title = Modern Family
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 03:00:00 stop = 17/08/2015 03:25:00 title = La tata
-      Replaces ----- start = 17/08/2015 03:00:00 stop = 17/08/2015 03:30:00 title = La tata
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 03:25:00 stop = 17/08/2015 03:50:00 title = La tata
-      Replaces ----- start = 17/08/2015 03:00:00 stop = 17/08/2015 03:30:00 title = La tata
-      Replaces ----- start = 17/08/2015 03:30:00 stop = 17/08/2015 04:00:00 title = La tata
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 03:50:00 stop = 17/08/2015 04:20:00 title = I Jefferson
-      Replaces ----- start = 17/08/2015 03:30:00 stop = 17/08/2015 04:00:00 title = La tata
-      Replaces ----- start = 17/08/2015 04:00:00 stop = 17/08/2015 04:30:00 title = La tata
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 04:20:00 stop = 17/08/2015 04:50:00 title = I Jefferson
-      Replaces ----- start = 17/08/2015 04:00:00 stop = 17/08/2015 04:30:00 title = La tata
-      Replaces ----- start = 17/08/2015 04:30:00 stop = 17/08/2015 05:00:00 title = I Jefferson
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 04:50:00 stop = 17/08/2015 06:00:00 title = Il mio amico Arnold
-      Replaces ----- start = 17/08/2015 04:30:00 stop = 17/08/2015 05:00:00 title = I Jefferson
-      Replaces ----- start = 17/08/2015 05:00:00 stop = 17/08/2015 05:30:00 title = I Jefferson
-      Replaces ----- start = 17/08/2015 05:30:00 stop = 17/08/2015 06:00:00 title = Il mio amico Arnold
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 06:30:00 stop = 17/08/2015 06:55:00 title = Il mio amico Arnold
-      Replaces ----- start = 17/08/2015 06:30:00 stop = 17/08/2015 07:00:00 title = La tata
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 06:55:00 stop = 17/08/2015 07:25:00 title = I Jefferson
-      Replaces ----- start = 17/08/2015 06:30:00 stop = 17/08/2015 07:00:00 title = La tata
-      Replaces ----- start = 17/08/2015 07:00:00 stop = 17/08/2015 07:30:00 title = La tata
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 07:25:00 stop = 17/08/2015 07:50:00 title = I Jefferson
-      Replaces ----- start = 17/08/2015 07:00:00 stop = 17/08/2015 07:30:00 title = La tata
-      Replaces ----- start = 17/08/2015 07:30:00 stop = 17/08/2015 08:00:00 title = L'uomo di casa
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 07:50:00 stop = 17/08/2015 08:20:00 title = La tata
-      Replaces ----- start = 17/08/2015 07:30:00 stop = 17/08/2015 08:00:00 title = L'uomo di casa
-      Replaces ----- start = 17/08/2015 08:00:00 stop = 17/08/2015 08:30:00 title = L'uomo di casa
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 08:20:00 stop = 17/08/2015 08:50:00 title = La tata
-      Replaces ----- start = 17/08/2015 08:00:00 stop = 17/08/2015 08:30:00 title = L'uomo di casa
-      Replaces ----- start = 17/08/2015 08:30:00 stop = 17/08/2015 09:00:00 title = Dharma e Greg
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 08:50:00 stop = 17/08/2015 09:15:00 title = L'uomo di casa
-      Replaces ----- start = 17/08/2015 08:30:00 stop = 17/08/2015 09:00:00 title = Dharma e Greg
-      Replaces ----- start = 17/08/2015 09:00:00 stop = 17/08/2015 09:30:00 title = Dharma e Greg
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 09:15:00 stop = 17/08/2015 09:40:00 title = L'uomo di casa
-      Replaces ----- start = 17/08/2015 09:00:00 stop = 17/08/2015 09:30:00 title = Dharma e Greg
-      Replaces ----- start = 17/08/2015 09:30:00 stop = 17/08/2015 10:00:00 title = Aiutami Hope
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 09:40:00 stop = 17/08/2015 10:05:00 title = Dharma e Greg
-      Replaces ----- start = 17/08/2015 09:30:00 stop = 17/08/2015 10:00:00 title = Aiutami Hope
-      Replaces ----- start = 17/08/2015 10:00:00 stop = 17/08/2015 10:30:00 title = Aiutami Hope
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 10:05:00 stop = 17/08/2015 10:30:00 title = Dharma e Greg
-      Replaces ----- start = 17/08/2015 10:00:00 stop = 17/08/2015 10:30:00 title = Aiutami Hope
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 10:30:00 stop = 17/08/2015 10:55:00 title = Aiutami Hope
-      Replaces ----- start = 17/08/2015 10:30:00 stop = 17/08/2015 11:00:00 title = New Girl
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 10:55:00 stop = 17/08/2015 11:25:00 title = Aiutami Hope
-      Replaces ----- start = 17/08/2015 10:30:00 stop = 17/08/2015 11:00:00 title = New Girl
-      Replaces ----- start = 17/08/2015 11:00:00 stop = 17/08/2015 11:30:00 title = New Girl
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 11:25:00 stop = 17/08/2015 11:50:00 title = New Girl
-      Replaces ----- start = 17/08/2015 11:00:00 stop = 17/08/2015 11:30:00 title = New Girl
-      Replaces ----- start = 17/08/2015 11:30:00 stop = 17/08/2015 12:00:00 title = New Girl
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 11:50:00 stop = 17/08/2015 12:15:00 title = New Girl
-      Replaces ----- start = 17/08/2015 11:30:00 stop = 17/08/2015 12:00:00 title = New Girl
-      Replaces ----- start = 17/08/2015 12:00:00 stop = 17/08/2015 12:25:00 title = New Girl
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 12:15:00 stop = 17/08/2015 12:45:00 title = New Girl
-      Replaces ----- start = 17/08/2015 12:00:00 stop = 17/08/2015 12:25:00 title = New Girl
-      Replaces ----- start = 17/08/2015 12:25:00 stop = 17/08/2015 12:55:00 title = I miei peggiori amici
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 12:45:00 stop = 17/08/2015 13:10:00 title = New Girl
-      Replaces ----- start = 17/08/2015 12:25:00 stop = 17/08/2015 12:55:00 title = I miei peggiori amici
-      Replaces ----- start = 17/08/2015 12:55:00 stop = 17/08/2015 13:20:00 title = I miei peggiori amici
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 13:10:00 stop = 17/08/2015 13:35:00 title = I miei peggiori amici
-      Replaces ----- start = 17/08/2015 12:55:00 stop = 17/08/2015 13:20:00 title = I miei peggiori amici
-      Replaces ----- start = 17/08/2015 13:20:00 stop = 17/08/2015 13:50:00 title = Friends
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 13:35:00 stop = 17/08/2015 14:05:00 title = I miei peggiori amici
-      Replaces ----- start = 17/08/2015 13:20:00 stop = 17/08/2015 13:50:00 title = Friends
-      Replaces ----- start = 17/08/2015 13:50:00 stop = 17/08/2015 14:15:00 title = Friends
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 14:05:00 stop = 17/08/2015 14:30:00 title = Friends
-      Replaces ----- start = 17/08/2015 13:50:00 stop = 17/08/2015 14:15:00 title = Friends
-      Replaces ----- start = 17/08/2015 14:15:00 stop = 17/08/2015 14:45:00 title = Friends
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 14:30:00 stop = 17/08/2015 14:55:00 title = Friends
-      Replaces ----- start = 17/08/2015 14:15:00 stop = 17/08/2015 14:45:00 title = Friends
-      Replaces ----- start = 17/08/2015 14:45:00 stop = 17/08/2015 15:10:00 title = Friends
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 14:55:00 stop = 17/08/2015 15:20:00 title = Friends
-      Replaces ----- start = 17/08/2015 14:45:00 stop = 17/08/2015 15:10:00 title = Friends
-      Replaces ----- start = 17/08/2015 15:10:00 stop = 17/08/2015 15:35:00 title = L'uomo di casa
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 15:20:00 stop = 17/08/2015 15:50:00 title = Friends
-      Replaces ----- start = 17/08/2015 15:10:00 stop = 17/08/2015 15:35:00 title = L'uomo di casa
-      Replaces ----- start = 17/08/2015 15:35:00 stop = 17/08/2015 16:00:00 title = L'uomo di casa
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 15:50:00 stop = 17/08/2015 16:15:00 title = L'uomo di casa
-      Replaces ----- start = 17/08/2015 15:35:00 stop = 17/08/2015 16:00:00 title = L'uomo di casa
-      Replaces ----- start = 17/08/2015 16:00:00 stop = 17/08/2015 16:30:00 title = Dharma e Greg
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 16:15:00 stop = 17/08/2015 16:40:00 title = L'uomo di casa
-      Replaces ----- start = 17/08/2015 16:00:00 stop = 17/08/2015 16:30:00 title = Dharma e Greg
-      Replaces ----- start = 17/08/2015 16:30:00 stop = 17/08/2015 17:00:00 title = Dharma e Greg
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 16:40:00 stop = 17/08/2015 17:05:00 title = Dharma e Greg
-      Replaces ----- start = 17/08/2015 16:30:00 stop = 17/08/2015 17:00:00 title = Dharma e Greg
-      Replaces ----- start = 17/08/2015 17:00:00 stop = 17/08/2015 17:30:00 title = Aiutami Hope
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 17:05:00 stop = 17/08/2015 17:30:00 title = Dharma e Greg
-      Replaces ----- start = 17/08/2015 17:00:00 stop = 17/08/2015 17:30:00 title = Aiutami Hope
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 17:30:00 stop = 17/08/2015 17:55:00 title = Aiutami Hope
-      Replaces ----- start = 17/08/2015 17:30:00 stop = 17/08/2015 18:00:00 title = Aiutami Hope
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 17:55:00 stop = 17/08/2015 18:20:00 title = Aiutami Hope
-      Replaces ----- start = 17/08/2015 17:30:00 stop = 17/08/2015 18:00:00 title = Aiutami Hope
-      Replaces ----- start = 17/08/2015 18:00:00 stop = 17/08/2015 18:30:00 title = I miei peggiori amici
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 18:20:00 stop = 17/08/2015 18:45:00 title = I miei peggiori amici
-      Replaces ----- start = 17/08/2015 18:00:00 stop = 17/08/2015 18:30:00 title = I miei peggiori amici
-      Replaces ----- start = 17/08/2015 18:30:00 stop = 17/08/2015 19:00:00 title = I miei peggiori amici
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 18:45:00 stop = 17/08/2015 19:10:00 title = I miei peggiori amici
-      Replaces ----- start = 17/08/2015 18:30:00 stop = 17/08/2015 19:00:00 title = I miei peggiori amici
-      Replaces ----- start = 17/08/2015 19:00:00 stop = 17/08/2015 19:30:00 title = L'uomo di casa
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 19:10:00 stop = 17/08/2015 19:35:00 title = L'uomo di casa
-      Replaces ----- start = 17/08/2015 19:00:00 stop = 17/08/2015 19:30:00 title = L'uomo di casa
-      Replaces ----- start = 17/08/2015 19:30:00 stop = 17/08/2015 20:00:00 title = L'uomo di casa
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 19:35:00 stop = 17/08/2015 20:00:00 title = L'uomo di casa
-      Replaces ----- start = 17/08/2015 19:30:00 stop = 17/08/2015 20:00:00 title = L'uomo di casa
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 20:00:00 stop = 17/08/2015 20:30:00 title = Friends
-      Replaces ----- start = 17/08/2015 20:00:00 stop = 17/08/2015 20:25:00 title = Friends
-      Replaces ----- start = 17/08/2015 20:25:00 stop = 17/08/2015 20:50:00 title = Friends
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 20:30:00 stop = 17/08/2015 20:55:00 title = Friends
-      Replaces ----- start = 17/08/2015 20:25:00 stop = 17/08/2015 20:50:00 title = Friends
-      Replaces ----- start = 17/08/2015 20:50:00 stop = 17/08/2015 21:20:00 title = Friends
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 20:55:00 stop = 17/08/2015 21:20:00 title = Friends
-      Replaces ----- start = 17/08/2015 20:50:00 stop = 17/08/2015 21:20:00 title = Friends
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 22:15:00 stop = 17/08/2015 22:40:00 title = Modern Family
-      Replaces ----- start = 17/08/2015 22:15:00 stop = 17/08/2015 22:45:00 title = Modern Family
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 22:40:00 stop = 17/08/2015 23:05:00 title = New Girl
-      Replaces ----- start = 17/08/2015 22:15:00 stop = 17/08/2015 22:45:00 title = Modern Family
-      Replaces ----- start = 17/08/2015 22:45:00 stop = 17/08/2015 23:15:00 title = New Girl
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 23:05:00 stop = 17/08/2015 23:30:00 title = New Girl
-      Replaces ----- start = 17/08/2015 22:45:00 stop = 17/08/2015 23:15:00 title = New Girl
-      Replaces ----- start = 17/08/2015 23:15:00 stop = 17/08/2015 23:35:00 title = New Girl
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 23:30:00 stop = 18/08/2015 00:00:00 title = New Girl
-      Replaces ----- start = 17/08/2015 23:15:00 stop = 17/08/2015 23:35:00 title = New Girl
-      Replaces ----- start = 17/08/2015 23:35:00 stop = 18/08/2015 00:05:00 title = New Girl
 
    Summary for update of FOX COMEDY HD
-     missing shows added       0
-     changed shows updated     132
-     new shows added           0
-     unchanged shows inspected 28
+     no changes, no update necessary !
+     unchanged shows inspected 160
      total after update        160
-     elapstime / updated show  1.88 seconds
-
 
 channel FOX ANIMATION HD site -- GUIDATV.SKY.IT -- update mode incremental
 
@@ -1462,1037 +836,25 @@ channel Nat geo +1 site -- GUIDATV.SKY.IT -- update mode incremental
      total after update        106
 
 channel NatGeo pople HD site -- GUIDATV.SKY.IT -- update mode incremental
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 05:20:00 stop = 15/08/2015 06:10:00 title = Tabu' USA
-      Replaces ----- start = 15/08/2015 05:20:00 stop = 15/08/2015 06:00:00 title = Tabu' USA
-      Replaces ----- start = 15/08/2015 06:00:00 stop = 15/08/2015 06:55:00 title = Next Wave
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 06:10:00 stop = 15/08/2015 06:20:00 title = Tokyorama con La Pina e Diego
-      Replaces ----- start = 15/08/2015 06:00:00 stop = 15/08/2015 06:55:00 title = Next Wave
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 06:20:00 stop = 15/08/2015 06:45:00 title = Next Wave
-      Replaces ----- start = 15/08/2015 06:00:00 stop = 15/08/2015 06:55:00 title = Next Wave
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 06:45:00 stop = 15/08/2015 07:10:00 title = Next Wave
-      Replaces ----- start = 15/08/2015 06:00:00 stop = 15/08/2015 06:55:00 title = Next Wave
-      Replaces ----- start = 15/08/2015 06:55:00 stop = 15/08/2015 07:50:00 title = Heston: cucina possibile
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 07:10:00 stop = 15/08/2015 07:40:00 title = Heston: cucina possibile
-      Replaces ----- start = 15/08/2015 06:55:00 stop = 15/08/2015 07:50:00 title = Heston: cucina possibile
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 07:40:00 stop = 15/08/2015 08:25:00 title = Ricette vincenti
-      Replaces ----- start = 15/08/2015 06:55:00 stop = 15/08/2015 07:50:00 title = Heston: cucina possibile
-      Replaces ----- start = 15/08/2015 07:50:00 stop = 15/08/2015 08:20:00 title = Fast Food Man
-      Replaces ----- start = 15/08/2015 08:20:00 stop = 15/08/2015 08:45:00 title = Fast Food Man
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 08:25:00 stop = 15/08/2015 08:50:00 title = Heston: cucina possibile
-      Replaces ----- start = 15/08/2015 08:20:00 stop = 15/08/2015 08:45:00 title = Fast Food Man
-      Replaces ----- start = 15/08/2015 08:45:00 stop = 15/08/2015 09:10:00 title = Fast Food Man
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 08:50:00 stop = 15/08/2015 09:15:00 title = Fast Food Man
-      Replaces ----- start = 15/08/2015 08:45:00 stop = 15/08/2015 09:10:00 title = Fast Food Man
-      Replaces ----- start = 15/08/2015 09:10:00 stop = 15/08/2015 10:05:00 title = Un rifugio da sogno
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 09:15:00 stop = 15/08/2015 09:35:00 title = Fast Food Man
-      Replaces ----- start = 15/08/2015 09:10:00 stop = 15/08/2015 10:05:00 title = Un rifugio da sogno
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 09:35:00 stop = 15/08/2015 10:00:00 title = Fast Food Man
-      Replaces ----- start = 15/08/2015 09:10:00 stop = 15/08/2015 10:05:00 title = Un rifugio da sogno
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 10:00:00 stop = 15/08/2015 10:50:00 title = Un rifugio da sogno
-      Replaces ----- start = 15/08/2015 09:10:00 stop = 15/08/2015 10:05:00 title = Un rifugio da sogno
-      Replaces ----- start = 15/08/2015 10:05:00 stop = 15/08/2015 11:00:00 title = I re degli acquari
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 10:50:00 stop = 15/08/2015 11:40:00 title = I re degli acquari
-      Replaces ----- start = 15/08/2015 10:05:00 stop = 15/08/2015 11:00:00 title = I re degli acquari
-      Replaces ----- start = 15/08/2015 11:00:00 stop = 15/08/2015 11:55:00 title = La mia vecchia nuova casa
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 11:40:00 stop = 15/08/2015 12:05:00 title = La mia vecchia nuova casa
-      Replaces ----- start = 15/08/2015 11:00:00 stop = 15/08/2015 11:55:00 title = La mia vecchia nuova casa
-      Replaces ----- start = 15/08/2015 11:55:00 stop = 15/08/2015 12:50:00 title = La mia vecchia nuova casa
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 12:05:00 stop = 15/08/2015 12:30:00 title = La mia vecchia nuova casa
-      Replaces ----- start = 15/08/2015 11:55:00 stop = 15/08/2015 12:50:00 title = La mia vecchia nuova casa
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 12:30:00 stop = 15/08/2015 13:20:00 title = La mia vecchia nuova casa
-      Replaces ----- start = 15/08/2015 11:55:00 stop = 15/08/2015 12:50:00 title = La mia vecchia nuova casa
-      Replaces ----- start = 15/08/2015 12:50:00 stop = 15/08/2015 13:45:00 title = Le case piu' verdi del mondo
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 13:20:00 stop = 15/08/2015 13:50:00 title = Le case piu' verdi del mondo
-      Replaces ----- start = 15/08/2015 12:50:00 stop = 15/08/2015 13:45:00 title = Le case piu' verdi del mondo
-      Replaces ----- start = 15/08/2015 13:45:00 stop = 15/08/2015 14:40:00 title = Vivere con gusto
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 13:50:00 stop = 15/08/2015 14:15:00 title = Le case piu' verdi del mondo
-      Replaces ----- start = 15/08/2015 13:45:00 stop = 15/08/2015 14:40:00 title = Vivere con gusto
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 14:15:00 stop = 15/08/2015 14:40:00 title = Vivere con gusto
-      Replaces ----- start = 15/08/2015 13:45:00 stop = 15/08/2015 14:40:00 title = Vivere con gusto
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 14:40:00 stop = 15/08/2015 15:05:00 title = Vivere con gusto
-      Replaces ----- start = 15/08/2015 14:40:00 stop = 15/08/2015 15:35:00 title = L'incredibile Dr. Pol
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 15:05:00 stop = 15/08/2015 15:55:00 title = L'incredibile Dr. Pol
-      Replaces ----- start = 15/08/2015 14:40:00 stop = 15/08/2015 15:35:00 title = L'incredibile Dr. Pol
-      Replaces ----- start = 15/08/2015 15:35:00 stop = 15/08/2015 16:30:00 title = L'incredibile Dr. Pol
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 15:55:00 stop = 15/08/2015 16:45:00 title = L'incredibile Dr. Pol
-      Replaces ----- start = 15/08/2015 15:35:00 stop = 15/08/2015 16:30:00 title = L'incredibile Dr. Pol
-      Replaces ----- start = 15/08/2015 16:30:00 stop = 15/08/2015 17:25:00 title = Dog Whisperer
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 16:45:00 stop = 15/08/2015 17:40:00 title = Dog Whisperer
-      Replaces ----- start = 15/08/2015 16:30:00 stop = 15/08/2015 17:25:00 title = Dog Whisperer
-      Replaces ----- start = 15/08/2015 17:25:00 stop = 15/08/2015 18:15:00 title = Dog Whisperer
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 17:40:00 stop = 15/08/2015 18:30:00 title = Dog Whisperer
-      Replaces ----- start = 15/08/2015 17:25:00 stop = 15/08/2015 18:15:00 title = Dog Whisperer
-      Replaces ----- start = 15/08/2015 18:15:00 stop = 15/08/2015 18:40:00 title = La mia vecchia nuova casa
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 18:30:00 stop = 15/08/2015 18:55:00 title = La mia vecchia nuova casa
-      Replaces ----- start = 15/08/2015 18:15:00 stop = 15/08/2015 18:40:00 title = La mia vecchia nuova casa
-      Replaces ----- start = 15/08/2015 18:40:00 stop = 15/08/2015 19:10:00 title = La mia vecchia nuova casa
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 18:55:00 stop = 15/08/2015 19:20:00 title = La mia vecchia nuova casa
-      Replaces ----- start = 15/08/2015 18:40:00 stop = 15/08/2015 19:10:00 title = La mia vecchia nuova casa
-      Replaces ----- start = 15/08/2015 19:10:00 stop = 15/08/2015 20:05:00 title = La mia vecchia nuova casa
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 19:20:00 stop = 15/08/2015 19:45:00 title = La mia vecchia nuova casa
-      Replaces ----- start = 15/08/2015 19:10:00 stop = 15/08/2015 20:05:00 title = La mia vecchia nuova casa
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 19:45:00 stop = 15/08/2015 20:10:00 title = La mia vecchia nuova casa
-      Replaces ----- start = 15/08/2015 19:10:00 stop = 15/08/2015 20:05:00 title = La mia vecchia nuova casa
-      Replaces ----- start = 15/08/2015 20:05:00 stop = 15/08/2015 21:00:00 title = Case da salvare
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 20:10:00 stop = 15/08/2015 21:00:00 title = Case da salvare
-      Replaces ----- start = 15/08/2015 20:05:00 stop = 15/08/2015 21:00:00 title = Case da salvare
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 21:00:00 stop = 15/08/2015 21:25:00 title = Vite da crociera
-      Replaces ----- start = 15/08/2015 21:00:00 stop = 15/08/2015 22:00:00 title = Vite da crociera
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 21:25:00 stop = 15/08/2015 21:50:00 title = Vite da crociera
-      Replaces ----- start = 15/08/2015 21:00:00 stop = 15/08/2015 22:00:00 title = Vite da crociera
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 21:50:00 stop = 15/08/2015 22:40:00 title = Italia: viaggio nella grande bellezza
-      Replaces ----- start = 15/08/2015 21:00:00 stop = 15/08/2015 22:00:00 title = Vite da crociera
-      Replaces ----- start = 15/08/2015 22:00:00 stop = 15/08/2015 23:00:00 title = Vite da crociera
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 22:40:00 stop = 15/08/2015 23:05:00 title = Fast Food Man
-      Replaces ----- start = 15/08/2015 22:00:00 stop = 15/08/2015 23:00:00 title = Vite da crociera
-      Replaces ----- start = 15/08/2015 23:00:00 stop = 16/08/2015 00:00:00 title = Italia: viaggio nella grande bellezza
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 23:05:00 stop = 15/08/2015 23:30:00 title = Fast Food Man
-      Replaces ----- start = 15/08/2015 23:00:00 stop = 16/08/2015 00:00:00 title = Italia: viaggio nella grande bellezza
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 23:30:00 stop = 15/08/2015 23:50:00 title = Fast Food Man
-      Replaces ----- start = 15/08/2015 23:00:00 stop = 16/08/2015 00:00:00 title = Italia: viaggio nella grande bellezza
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 23:50:00 stop = 16/08/2015 00:40:00 title = Ricette vincenti
-      Replaces ----- start = 15/08/2015 23:00:00 stop = 16/08/2015 00:00:00 title = Italia: viaggio nella grande bellezza
-      Replaces ----- start = 16/08/2015 00:00:00 stop = 16/08/2015 00:55:00 title = Fast Food Man
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 00:40:00 stop = 16/08/2015 01:05:00 title = Fast Food Man
-      Replaces ----- start = 16/08/2015 00:00:00 stop = 16/08/2015 00:55:00 title = Fast Food Man
-      Replaces ----- start = 16/08/2015 00:55:00 stop = 16/08/2015 01:50:00 title = Fast Food Man
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 01:05:00 stop = 16/08/2015 01:30:00 title = Heston: cucina possibile
-      Replaces ----- start = 16/08/2015 00:55:00 stop = 16/08/2015 01:50:00 title = Fast Food Man
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 01:30:00 stop = 16/08/2015 01:55:00 title = Heston: cucina possibile
-      Replaces ----- start = 16/08/2015 00:55:00 stop = 16/08/2015 01:50:00 title = Fast Food Man
-      Replaces ----- start = 16/08/2015 01:50:00 stop = 16/08/2015 02:20:00 title = Heston: cucina possibile
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 01:55:00 stop = 16/08/2015 02:20:00 title = Next Wave
-      Replaces ----- start = 16/08/2015 01:50:00 stop = 16/08/2015 02:20:00 title = Heston: cucina possibile
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 02:20:00 stop = 16/08/2015 02:45:00 title = Next Wave
-      Replaces ----- start = 16/08/2015 02:20:00 stop = 16/08/2015 02:45:00 title = Heston: cucina possibile
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 02:45:00 stop = 16/08/2015 03:10:00 title = Eat Street
-      Replaces ----- start = 16/08/2015 02:45:00 stop = 16/08/2015 03:15:00 title = Next Wave
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 03:10:00 stop = 16/08/2015 03:55:00 title = Come ti cambio il ristorante
-      Replaces ----- start = 16/08/2015 02:45:00 stop = 16/08/2015 03:15:00 title = Next Wave
-      Replaces ----- start = 16/08/2015 03:15:00 stop = 16/08/2015 03:45:00 title = Next Wave
-      Replaces ----- start = 16/08/2015 03:45:00 stop = 16/08/2015 04:40:00 title = Come ti cambio il ristorante
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 03:55:00 stop = 16/08/2015 04:40:00 title = Ricette vincenti
-      Replaces ----- start = 16/08/2015 03:45:00 stop = 16/08/2015 04:40:00 title = Come ti cambio il ristorante
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 05:05:00 stop = 16/08/2015 05:55:00 title = Tabu' USA
-      Replaces ----- start = 16/08/2015 05:05:00 stop = 16/08/2015 06:00:00 title = Tabu' USA
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 05:55:00 stop = 16/08/2015 06:00:00 title = Tokyorama con La Pina e Diego
-      Replaces ----- start = 16/08/2015 05:05:00 stop = 16/08/2015 06:00:00 title = Tabu' USA
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 06:55:00 stop = 16/08/2015 07:20:00 title = Heston: cucina possibile
-      Replaces ----- start = 16/08/2015 06:55:00 stop = 16/08/2015 07:25:00 title = Heston: cucina possibile
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 07:20:00 stop = 16/08/2015 08:10:00 title = Ricette vincenti
-      Replaces ----- start = 16/08/2015 06:55:00 stop = 16/08/2015 07:25:00 title = Heston: cucina possibile
-      Replaces ----- start = 16/08/2015 07:25:00 stop = 16/08/2015 07:50:00 title = Heston: cucina possibile
-      Replaces ----- start = 16/08/2015 07:50:00 stop = 16/08/2015 08:20:00 title = Fast Food Man
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 08:10:00 stop = 16/08/2015 08:35:00 title = Heston: cucina possibile
-      Replaces ----- start = 16/08/2015 07:50:00 stop = 16/08/2015 08:20:00 title = Fast Food Man
-      Replaces ----- start = 16/08/2015 08:20:00 stop = 16/08/2015 08:45:00 title = Man vs food: affamato cronico
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 08:35:00 stop = 16/08/2015 09:00:00 title = Fast Food Man
-      Replaces ----- start = 16/08/2015 08:20:00 stop = 16/08/2015 08:45:00 title = Man vs food: affamato cronico
-      Replaces ----- start = 16/08/2015 08:45:00 stop = 16/08/2015 09:10:00 title = Man vs food: affamato cronico
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 09:00:00 stop = 16/08/2015 09:25:00 title = Man vs food: affamato cronico
-      Replaces ----- start = 16/08/2015 08:45:00 stop = 16/08/2015 09:10:00 title = Man vs food: affamato cronico
-      Replaces ----- start = 16/08/2015 09:10:00 stop = 16/08/2015 09:40:00 title = Le case piu' verdi del mondo
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 09:25:00 stop = 16/08/2015 09:45:00 title = Man vs food: affamato cronico
-      Replaces ----- start = 16/08/2015 09:10:00 stop = 16/08/2015 09:40:00 title = Le case piu' verdi del mondo
-      Replaces ----- start = 16/08/2015 09:40:00 stop = 16/08/2015 10:05:00 title = Le case piu' verdi del mondo
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 09:45:00 stop = 16/08/2015 10:15:00 title = Le case piu' verdi del mondo
-      Replaces ----- start = 16/08/2015 09:40:00 stop = 16/08/2015 10:05:00 title = Le case piu' verdi del mondo
-      Replaces ----- start = 16/08/2015 10:05:00 stop = 16/08/2015 11:00:00 title = La mia vecchia nuova casa
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 10:15:00 stop = 16/08/2015 10:40:00 title = Le case piu' verdi del mondo
-      Replaces ----- start = 16/08/2015 10:05:00 stop = 16/08/2015 11:00:00 title = La mia vecchia nuova casa
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 10:40:00 stop = 16/08/2015 11:05:00 title = La mia vecchia nuova casa
-      Replaces ----- start = 16/08/2015 10:05:00 stop = 16/08/2015 11:00:00 title = La mia vecchia nuova casa
-      Replaces ----- start = 16/08/2015 11:00:00 stop = 16/08/2015 11:55:00 title = Un rifugio da sogno
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 11:05:00 stop = 16/08/2015 11:30:00 title = La mia vecchia nuova casa
-      Replaces ----- start = 16/08/2015 11:00:00 stop = 16/08/2015 11:55:00 title = Un rifugio da sogno
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 11:30:00 stop = 16/08/2015 12:20:00 title = Un rifugio da sogno
-      Replaces ----- start = 16/08/2015 11:00:00 stop = 16/08/2015 11:55:00 title = Un rifugio da sogno
-      Replaces ----- start = 16/08/2015 11:55:00 stop = 16/08/2015 12:50:00 title = I re degli acquari
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 12:20:00 stop = 16/08/2015 13:10:00 title = I re degli acquari
-      Replaces ----- start = 16/08/2015 11:55:00 stop = 16/08/2015 12:50:00 title = I re degli acquari
-      Replaces ----- start = 16/08/2015 12:50:00 stop = 16/08/2015 13:45:00 title = Dog Whisperer
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 13:10:00 stop = 16/08/2015 14:05:00 title = Dog Whisperer
-      Replaces ----- start = 16/08/2015 12:50:00 stop = 16/08/2015 13:45:00 title = Dog Whisperer
-      Replaces ----- start = 16/08/2015 13:45:00 stop = 16/08/2015 14:40:00 title = Dog Whisperer
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 14:05:00 stop = 16/08/2015 14:55:00 title = Dog Whisperer
-      Replaces ----- start = 16/08/2015 13:45:00 stop = 16/08/2015 14:40:00 title = Dog Whisperer
-      Replaces ----- start = 16/08/2015 14:40:00 stop = 16/08/2015 15:35:00 title = L'incredibile Dr. Pol
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 14:55:00 stop = 16/08/2015 15:45:00 title = L'incredibile Dr. Pol
-      Replaces ----- start = 16/08/2015 14:40:00 stop = 16/08/2015 15:35:00 title = L'incredibile Dr. Pol
-      Replaces ----- start = 16/08/2015 15:35:00 stop = 16/08/2015 16:30:00 title = Il Cocco di Nonna
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 15:45:00 stop = 16/08/2015 16:15:00 title = Il Cocco di Nonna
-      Replaces ----- start = 16/08/2015 15:35:00 stop = 16/08/2015 16:30:00 title = Il Cocco di Nonna
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 16:15:00 stop = 16/08/2015 16:40:00 title = Il Cocco di Nonna
-      Replaces ----- start = 16/08/2015 15:35:00 stop = 16/08/2015 16:30:00 title = Il Cocco di Nonna
-      Replaces ----- start = 16/08/2015 16:30:00 stop = 16/08/2015 17:25:00 title = Italia: viaggio nella grande bellezza
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 16:40:00 stop = 16/08/2015 17:30:00 title = Italia: viaggio nella grande bellezza
-      Replaces ----- start = 16/08/2015 16:30:00 stop = 16/08/2015 17:25:00 title = Italia: viaggio nella grande bellezza
-      Replaces ----- start = 16/08/2015 17:25:00 stop = 16/08/2015 17:50:00 title = Vivere con gusto
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 17:30:00 stop = 16/08/2015 17:55:00 title = Vivere con gusto
-      Replaces ----- start = 16/08/2015 17:25:00 stop = 16/08/2015 17:50:00 title = Vivere con gusto
-      Replaces ----- start = 16/08/2015 17:50:00 stop = 16/08/2015 18:15:00 title = Vivere con gusto
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 17:55:00 stop = 16/08/2015 18:20:00 title = Vivere con gusto
-      Replaces ----- start = 16/08/2015 17:50:00 stop = 16/08/2015 18:15:00 title = Vivere con gusto
-      Replaces ----- start = 16/08/2015 18:15:00 stop = 16/08/2015 19:10:00 title = L'incredibile Dr. Pol
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 18:20:00 stop = 16/08/2015 19:10:00 title = L'incredibile Dr. Pol
-      Replaces ----- start = 16/08/2015 18:15:00 stop = 16/08/2015 19:10:00 title = L'incredibile Dr. Pol
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 21:00:00 stop = 16/08/2015 21:25:00 title = Reparto maternita'
-      Replaces ----- start = 16/08/2015 21:00:00 stop = 16/08/2015 21:30:00 title = Reparto maternita'
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 21:25:00 stop = 16/08/2015 21:50:00 title = Reparto maternita'
-      Replaces ----- start = 16/08/2015 21:00:00 stop = 16/08/2015 21:30:00 title = Reparto maternita'
-      Replaces ----- start = 16/08/2015 21:30:00 stop = 16/08/2015 22:00:00 title = Reparto maternita'
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 21:50:00 stop = 16/08/2015 22:40:00 title = La mia vecchia nuova casa
-      Replaces ----- start = 16/08/2015 21:30:00 stop = 16/08/2015 22:00:00 title = Reparto maternita'
-      Replaces ----- start = 16/08/2015 22:00:00 stop = 16/08/2015 23:00:00 title = La mia vecchia nuova casa
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 22:40:00 stop = 16/08/2015 23:30:00 title = La mia vecchia nuova casa
-      Replaces ----- start = 16/08/2015 22:00:00 stop = 16/08/2015 23:00:00 title = La mia vecchia nuova casa
-      Replaces ----- start = 16/08/2015 23:00:00 stop = 17/08/2015 00:00:00 title = La mia vecchia nuova casa
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 23:30:00 stop = 17/08/2015 00:20:00 title = Dog Whisperer
-      Replaces ----- start = 16/08/2015 23:00:00 stop = 17/08/2015 00:00:00 title = La mia vecchia nuova casa
-      Replaces ----- start = 17/08/2015 00:00:00 stop = 17/08/2015 00:55:00 title = Dog Whisperer
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 00:20:00 stop = 17/08/2015 01:15:00 title = Dog Whisperer
-      Replaces ----- start = 17/08/2015 00:00:00 stop = 17/08/2015 00:55:00 title = Dog Whisperer
-      Replaces ----- start = 17/08/2015 00:55:00 stop = 17/08/2015 01:50:00 title = Dog Whisperer
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 01:15:00 stop = 17/08/2015 01:40:00 title = Heston: cucina possibile
-      Replaces ----- start = 17/08/2015 00:55:00 stop = 17/08/2015 01:50:00 title = Dog Whisperer
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 01:40:00 stop = 17/08/2015 02:05:00 title = Heston: cucina possibile
-      Replaces ----- start = 17/08/2015 00:55:00 stop = 17/08/2015 01:50:00 title = Dog Whisperer
-      Replaces ----- start = 17/08/2015 01:50:00 stop = 17/08/2015 02:20:00 title = Heston: cucina possibile
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 02:05:00 stop = 17/08/2015 02:30:00 title = Next Wave
-      Replaces ----- start = 17/08/2015 01:50:00 stop = 17/08/2015 02:20:00 title = Heston: cucina possibile
-      Replaces ----- start = 17/08/2015 02:20:00 stop = 17/08/2015 02:45:00 title = Heston: cucina possibile
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 02:30:00 stop = 17/08/2015 02:55:00 title = Next Wave
-      Replaces ----- start = 17/08/2015 02:20:00 stop = 17/08/2015 02:45:00 title = Heston: cucina possibile
-      Replaces ----- start = 17/08/2015 02:45:00 stop = 17/08/2015 03:15:00 title = Next Wave
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 02:55:00 stop = 17/08/2015 03:40:00 title = Come ti cambio il ristorante
-      Replaces ----- start = 17/08/2015 02:45:00 stop = 17/08/2015 03:15:00 title = Next Wave
-      Replaces ----- start = 17/08/2015 03:15:00 stop = 17/08/2015 03:45:00 title = Next Wave
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 03:40:00 stop = 17/08/2015 04:05:00 title = Eat Street
-      Replaces ----- start = 17/08/2015 03:15:00 stop = 17/08/2015 03:45:00 title = Next Wave
-      Replaces ----- start = 17/08/2015 03:45:00 stop = 17/08/2015 04:40:00 title = Come ti cambio il ristorante
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 04:05:00 stop = 17/08/2015 04:25:00 title = Un pasto al sole
-      Replaces ----- start = 17/08/2015 03:45:00 stop = 17/08/2015 04:40:00 title = Come ti cambio il ristorante
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 04:25:00 stop = 17/08/2015 05:15:00 title = Voglio vivere alla grande
-      Replaces ----- start = 17/08/2015 03:45:00 stop = 17/08/2015 04:40:00 title = Come ti cambio il ristorante
-      Replaces ----- start = 17/08/2015 04:40:00 stop = 17/08/2015 05:05:00 title = Un pasto al sole
-      Replaces ----- start = 17/08/2015 05:05:00 stop = 17/08/2015 06:00:00 title = Tabu' USA
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 05:15:00 stop = 17/08/2015 06:00:00 title = Tabu' USA
-      Replaces ----- start = 17/08/2015 05:05:00 stop = 17/08/2015 06:00:00 title = Tabu' USA
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 06:00:00 stop = 17/08/2015 06:05:00 title = Le migliori foto di National Geographic
-      Replaces ----- start = 17/08/2015 06:00:00 stop = 17/08/2015 06:55:00 title = Next Wave
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 06:05:00 stop = 17/08/2015 06:30:00 title = Next Wave
-      Replaces ----- start = 17/08/2015 06:00:00 stop = 17/08/2015 06:55:00 title = Next Wave
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 06:30:00 stop = 17/08/2015 06:55:00 title = Next Wave
-      Replaces ----- start = 17/08/2015 06:00:00 stop = 17/08/2015 06:55:00 title = Next Wave
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 06:55:00 stop = 17/08/2015 07:20:00 title = Fast Food Man
-      Replaces ----- start = 17/08/2015 06:55:00 stop = 17/08/2015 07:50:00 title = Fast Food Man
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 07:20:00 stop = 17/08/2015 08:05:00 title = Ricette vincenti
-      Replaces ----- start = 17/08/2015 06:55:00 stop = 17/08/2015 07:50:00 title = Fast Food Man
-      Replaces ----- start = 17/08/2015 07:50:00 stop = 17/08/2015 08:20:00 title = Eat Street
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 08:05:00 stop = 17/08/2015 08:30:00 title = Fast Food Man
-      Replaces ----- start = 17/08/2015 07:50:00 stop = 17/08/2015 08:20:00 title = Eat Street
-      Replaces ----- start = 17/08/2015 08:20:00 stop = 17/08/2015 08:50:00 title = Vite da crociera
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 08:30:00 stop = 17/08/2015 08:55:00 title = Eat Street
-      Replaces ----- start = 17/08/2015 08:20:00 stop = 17/08/2015 08:50:00 title = Vite da crociera
-      Replaces ----- start = 17/08/2015 08:50:00 stop = 17/08/2015 09:15:00 title = Vite da crociera
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 08:55:00 stop = 17/08/2015 09:20:00 title = Vite da crociera
-      Replaces ----- start = 17/08/2015 08:50:00 stop = 17/08/2015 09:15:00 title = Vite da crociera
-      Replaces ----- start = 17/08/2015 09:15:00 stop = 17/08/2015 10:10:00 title = Crociere da sogno
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 09:20:00 stop = 17/08/2015 09:50:00 title = Vite da crociera
-      Replaces ----- start = 17/08/2015 09:15:00 stop = 17/08/2015 10:10:00 title = Crociere da sogno
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 09:50:00 stop = 17/08/2015 10:40:00 title = Crociere da sogno
-      Replaces ----- start = 17/08/2015 09:15:00 stop = 17/08/2015 10:10:00 title = Crociere da sogno
-      Replaces ----- start = 17/08/2015 10:10:00 stop = 17/08/2015 11:05:00 title = L'incredibile Dr. Pol
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 10:40:00 stop = 17/08/2015 11:30:00 title = L'incredibile Dr. Pol
-      Replaces ----- start = 17/08/2015 10:10:00 stop = 17/08/2015 11:05:00 title = L'incredibile Dr. Pol
-      Replaces ----- start = 17/08/2015 11:05:00 stop = 17/08/2015 12:00:00 title = Come ti cambio il ristorante
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 11:30:00 stop = 17/08/2015 12:25:00 title = Come ti cambio il ristorante
-      Replaces ----- start = 17/08/2015 11:05:00 stop = 17/08/2015 12:00:00 title = Come ti cambio il ristorante
-      Replaces ----- start = 17/08/2015 12:00:00 stop = 17/08/2015 12:55:00 title = La mia vecchia nuova casa
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 12:25:00 stop = 17/08/2015 13:15:00 title = La mia vecchia nuova casa
-      Replaces ----- start = 17/08/2015 12:00:00 stop = 17/08/2015 12:55:00 title = La mia vecchia nuova casa
-      Replaces ----- start = 17/08/2015 12:55:00 stop = 17/08/2015 13:50:00 title = Case da salvare
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 13:15:00 stop = 17/08/2015 14:05:00 title = Case da salvare
-      Replaces ----- start = 17/08/2015 12:55:00 stop = 17/08/2015 13:50:00 title = Case da salvare
-      Replaces ----- start = 17/08/2015 13:50:00 stop = 17/08/2015 14:45:00 title = Il capobranco sei tu con C. Millan
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 14:05:00 stop = 17/08/2015 15:00:00 title = Il capobranco sei tu con C. Millan
-      Replaces ----- start = 17/08/2015 13:50:00 stop = 17/08/2015 14:45:00 title = Il capobranco sei tu con C. Millan
-      Replaces ----- start = 17/08/2015 14:45:00 stop = 17/08/2015 15:40:00 title = Il capobranco sei tu con C. Millan
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 15:00:00 stop = 17/08/2015 15:50:00 title = Il capobranco sei tu con C. Millan
-      Replaces ----- start = 17/08/2015 14:45:00 stop = 17/08/2015 15:40:00 title = Il capobranco sei tu con C. Millan
-      Replaces ----- start = 17/08/2015 15:40:00 stop = 17/08/2015 16:05:00 title = Vite da crociera
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 15:50:00 stop = 17/08/2015 16:15:00 title = Vite da crociera
-      Replaces ----- start = 17/08/2015 15:40:00 stop = 17/08/2015 16:05:00 title = Vite da crociera
-      Replaces ----- start = 17/08/2015 16:05:00 stop = 17/08/2015 16:35:00 title = Vite da crociera
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 16:15:00 stop = 17/08/2015 16:45:00 title = Vite da crociera
-      Replaces ----- start = 17/08/2015 16:05:00 stop = 17/08/2015 16:35:00 title = Vite da crociera
-      Replaces ----- start = 17/08/2015 16:35:00 stop = 17/08/2015 17:30:00 title = Crociere da sogno
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 16:45:00 stop = 17/08/2015 17:35:00 title = Crociere da sogno
-      Replaces ----- start = 17/08/2015 16:35:00 stop = 17/08/2015 17:30:00 title = Crociere da sogno
-      Replaces ----- start = 17/08/2015 17:30:00 stop = 17/08/2015 18:20:00 title = Come ti cambio il ristorante
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 17:35:00 stop = 17/08/2015 18:25:00 title = Come ti cambio il ristorante
-      Replaces ----- start = 17/08/2015 17:30:00 stop = 17/08/2015 18:20:00 title = Come ti cambio il ristorante
-      Replaces ----- start = 17/08/2015 18:20:00 stop = 17/08/2015 19:10:00 title = La mia vecchia nuova casa
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 18:25:00 stop = 17/08/2015 19:15:00 title = La mia vecchia nuova casa
-      Replaces ----- start = 17/08/2015 18:20:00 stop = 17/08/2015 19:10:00 title = La mia vecchia nuova casa
-      Replaces ----- start = 17/08/2015 19:10:00 stop = 17/08/2015 20:05:00 title = Case da salvare
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 19:15:00 stop = 17/08/2015 20:05:00 title = Case da salvare
-      Replaces ----- start = 17/08/2015 19:10:00 stop = 17/08/2015 20:05:00 title = Case da salvare
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 21:00:00 stop = 17/08/2015 21:50:00 title = La mia vecchia nuova casa
-      Replaces ----- start = 17/08/2015 21:00:00 stop = 17/08/2015 22:00:00 title = La mia vecchia nuova casa
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 21:50:00 stop = 17/08/2015 22:20:00 title = Le case piu' verdi del mondo
-      Replaces ----- start = 17/08/2015 21:00:00 stop = 17/08/2015 22:00:00 title = La mia vecchia nuova casa
-      Replaces ----- start = 17/08/2015 22:00:00 stop = 17/08/2015 23:00:00 title = Le case piu' verdi del mondo
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 22:20:00 stop = 17/08/2015 22:45:00 title = Le case piu' verdi del mondo
-      Replaces ----- start = 17/08/2015 22:00:00 stop = 17/08/2015 23:00:00 title = Le case piu' verdi del mondo
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 22:45:00 stop = 17/08/2015 23:35:00 title = Un rifugio da sogno
-      Replaces ----- start = 17/08/2015 22:00:00 stop = 17/08/2015 23:00:00 title = Le case piu' verdi del mondo
-      Replaces ----- start = 17/08/2015 23:00:00 stop = 18/08/2015 00:00:00 title = Un rifugio da sogno
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 23:35:00 stop = 18/08/2015 00:25:00 title = Il capobranco sei tu
-      Replaces ----- start = 17/08/2015 23:00:00 stop = 18/08/2015 00:00:00 title = Un rifugio da sogno
 
    Summary for update of NatGeo pople HD
-     missing shows added       0
-     changed shows updated     108
-     new shows added           0
-     unchanged shows inspected 16
+     no changes, no update necessary !
+     unchanged shows inspected 124
      total after update        124
-     elapstime / updated show  1.97 seconds
-
 
 channel NatGeo Wild HD site -- GUIDATV.SKY.IT -- update mode incremental
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 06:00:00 stop = 15/08/2015 06:55:00 title = Amazzonia selvaggia
-      Replaces ----- start = 15/08/2015 06:00:00 stop = 15/08/2015 06:50:00 title = Amazzonia selvaggia
-      Replaces ----- start = 15/08/2015 06:50:00 stop = 15/08/2015 07:40:00 title = Wild Investigation
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 06:55:00 stop = 15/08/2015 07:40:00 title = Wild Florida
-      Replaces ----- start = 15/08/2015 06:50:00 stop = 15/08/2015 07:40:00 title = Wild Investigation
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 07:40:00 stop = 15/08/2015 08:30:00 title = Wild Florida
-      Replaces ----- start = 15/08/2015 07:40:00 stop = 15/08/2015 08:30:00 title = Gli ultimi paradisi
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 08:30:00 stop = 15/08/2015 09:00:00 title = Wild Investigation
-      Replaces ----- start = 15/08/2015 08:30:00 stop = 15/08/2015 09:20:00 title = Amazzonia selvaggia
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 09:00:00 stop = 15/08/2015 09:50:00 title = Gli ultimi paradisi
-      Replaces ----- start = 15/08/2015 08:30:00 stop = 15/08/2015 09:20:00 title = Amazzonia selvaggia
-      Replaces ----- start = 15/08/2015 09:20:00 stop = 15/08/2015 10:15:00 title = Gli ultimi paradisi
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 09:50:00 stop = 15/08/2015 10:45:00 title = Amazzonia selvaggia
-      Replaces ----- start = 15/08/2015 09:20:00 stop = 15/08/2015 10:15:00 title = Gli ultimi paradisi
-      Replaces ----- start = 15/08/2015 10:15:00 stop = 15/08/2015 11:15:00 title = Wild Indonesia
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 10:45:00 stop = 15/08/2015 11:35:00 title = Gli ultimi paradisi
-      Replaces ----- start = 15/08/2015 10:15:00 stop = 15/08/2015 11:15:00 title = Wild Indonesia
-      Replaces ----- start = 15/08/2015 11:15:00 stop = 15/08/2015 12:10:00 title = Wild Indonesia
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 11:35:00 stop = 15/08/2015 12:25:00 title = Wild Indonesia
-      Replaces ----- start = 15/08/2015 11:15:00 stop = 15/08/2015 12:10:00 title = Wild Indonesia
-      Replaces ----- start = 15/08/2015 12:10:00 stop = 15/08/2015 13:00:00 title = Animal Fight Club
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 12:25:00 stop = 15/08/2015 13:20:00 title = Wild Indonesia
-      Replaces ----- start = 15/08/2015 12:10:00 stop = 15/08/2015 13:00:00 title = Animal Fight Club
-      Replaces ----- start = 15/08/2015 13:00:00 stop = 15/08/2015 14:00:00 title = Animal Fight Club
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 13:20:00 stop = 15/08/2015 14:10:00 title = Animal Fight Club
-      Replaces ----- start = 15/08/2015 13:00:00 stop = 15/08/2015 14:00:00 title = Animal Fight Club
-      Replaces ----- start = 15/08/2015 14:00:00 stop = 15/08/2015 15:00:00 title = Nella mente del predatore
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 14:10:00 stop = 15/08/2015 15:05:00 title = Animal Fight Club
-      Replaces ----- start = 15/08/2015 14:00:00 stop = 15/08/2015 15:00:00 title = Nella mente del predatore
-      Replaces ----- start = 15/08/2015 15:00:00 stop = 15/08/2015 16:00:00 title = Natura segreta
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 15:05:00 stop = 15/08/2015 15:55:00 title = Nella mente del predatore
-      Replaces ----- start = 15/08/2015 15:00:00 stop = 15/08/2015 16:00:00 title = Natura segreta
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 15:55:00 stop = 15/08/2015 16:45:00 title = Natura segreta
-      Replaces ----- start = 15/08/2015 15:00:00 stop = 15/08/2015 16:00:00 title = Natura segreta
-      Replaces ----- start = 15/08/2015 16:00:00 stop = 15/08/2015 17:00:00 title = Natura segreta
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 16:45:00 stop = 15/08/2015 17:35:00 title = Natura segreta
-      Replaces ----- start = 15/08/2015 16:00:00 stop = 15/08/2015 17:00:00 title = Natura segreta
-      Replaces ----- start = 15/08/2015 17:00:00 stop = 15/08/2015 18:00:00 title = Brasile paradiso selvaggio
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 17:35:00 stop = 15/08/2015 18:25:00 title = Wild Brazil
-      Replaces ----- start = 15/08/2015 17:00:00 stop = 15/08/2015 18:00:00 title = Brasile paradiso selvaggio
-      Replaces ----- start = 15/08/2015 18:00:00 stop = 15/08/2015 19:00:00 title = Wild Colombia
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 18:25:00 stop = 15/08/2015 19:20:00 title = Wild Colombia
-      Replaces ----- start = 15/08/2015 18:00:00 stop = 15/08/2015 19:00:00 title = Wild Colombia
-      Replaces ----- start = 15/08/2015 19:00:00 stop = 15/08/2015 20:00:00 title = Sri Lanka: isola indomabile
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 19:20:00 stop = 15/08/2015 20:10:00 title = Sri Lanka: isola indomabile
-      Replaces ----- start = 15/08/2015 19:00:00 stop = 15/08/2015 20:00:00 title = Sri Lanka: isola indomabile
-      Replaces ----- start = 15/08/2015 20:00:00 stop = 15/08/2015 21:00:00 title = Sri Lanka: isola indomabile
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 20:10:00 stop = 15/08/2015 21:00:00 title = Sri Lanka: isola indomabile
-      Replaces ----- start = 15/08/2015 20:00:00 stop = 15/08/2015 21:00:00 title = Sri Lanka: isola indomabile
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 21:00:00 stop = 15/08/2015 21:55:00 title = Gli speciali di Wild
-      Replaces ----- start = 15/08/2015 21:00:00 stop = 15/08/2015 22:00:00 title = Gli speciali di Wild
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 21:55:00 stop = 15/08/2015 22:45:00 title = Peru': paradiso misterioso
-      Replaces ----- start = 15/08/2015 21:00:00 stop = 15/08/2015 22:00:00 title = Gli speciali di Wild
-      Replaces ----- start = 15/08/2015 22:00:00 stop = 15/08/2015 23:00:00 title = Peru': paradiso misterioso
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 22:45:00 stop = 15/08/2015 23:35:00 title = Wild Colombia
-      Replaces ----- start = 15/08/2015 22:00:00 stop = 15/08/2015 23:00:00 title = Peru': paradiso misterioso
-      Replaces ----- start = 15/08/2015 23:00:00 stop = 16/08/2015 00:00:00 title = Wild Colombia
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 23:35:00 stop = 16/08/2015 00:25:00 title = Wild Brazil
-      Replaces ----- start = 15/08/2015 23:00:00 stop = 16/08/2015 00:00:00 title = Wild Colombia
-      Replaces ----- start = 16/08/2015 00:00:00 stop = 16/08/2015 01:00:00 title = Brasile paradiso selvaggio
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 00:25:00 stop = 16/08/2015 01:15:00 title = Animal Fight Club: Africa
-      Replaces ----- start = 16/08/2015 00:00:00 stop = 16/08/2015 01:00:00 title = Brasile paradiso selvaggio
-      Replaces ----- start = 16/08/2015 01:00:00 stop = 16/08/2015 02:00:00 title = Animal Fight Club: Africa
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 01:15:00 stop = 16/08/2015 02:05:00 title = Sri Lanka: isola indomabile
-      Replaces ----- start = 16/08/2015 01:00:00 stop = 16/08/2015 02:00:00 title = Animal Fight Club: Africa
-      Replaces ----- start = 16/08/2015 02:00:00 stop = 16/08/2015 02:50:00 title = Sri Lanka: isola indomabile
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 02:05:00 stop = 16/08/2015 02:30:00 title = Wild Investigation
-      Replaces ----- start = 16/08/2015 02:00:00 stop = 16/08/2015 02:50:00 title = Sri Lanka: isola indomabile
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 02:30:00 stop = 16/08/2015 03:25:00 title = Gli ultimi paradisi
-      Replaces ----- start = 16/08/2015 02:00:00 stop = 16/08/2015 02:50:00 title = Sri Lanka: isola indomabile
-      Replaces ----- start = 16/08/2015 02:50:00 stop = 16/08/2015 03:40:00 title = Wild Investigation
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 03:25:00 stop = 16/08/2015 04:20:00 title = Gli ultimi paradisi
-      Replaces ----- start = 16/08/2015 02:50:00 stop = 16/08/2015 03:40:00 title = Wild Investigation
-      Replaces ----- start = 16/08/2015 03:40:00 stop = 16/08/2015 04:30:00 title = Gli ultimi paradisi
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 04:20:00 stop = 16/08/2015 04:40:00 title = Top Ten Bestiale
-      Replaces ----- start = 16/08/2015 03:40:00 stop = 16/08/2015 04:30:00 title = Gli ultimi paradisi
-      Replaces ----- start = 16/08/2015 04:30:00 stop = 16/08/2015 05:20:00 title = Gli ultimi paradisi
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 04:40:00 stop = 16/08/2015 05:10:00 title = Extreme Animals
-      Replaces ----- start = 16/08/2015 04:30:00 stop = 16/08/2015 05:20:00 title = Gli ultimi paradisi
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 05:10:00 stop = 16/08/2015 06:00:00 title = Amazzonia selvaggia
-      Replaces ----- start = 16/08/2015 04:30:00 stop = 16/08/2015 05:20:00 title = Gli ultimi paradisi
-      Replaces ----- start = 16/08/2015 05:20:00 stop = 16/08/2015 06:00:00 title = Amazzonia selvaggia
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 06:00:00 stop = 16/08/2015 06:55:00 title = Wild Australia
-      Replaces ----- start = 16/08/2015 06:00:00 stop = 16/08/2015 06:50:00 title = Wild Australia
-      Replaces ----- start = 16/08/2015 06:50:00 stop = 16/08/2015 07:40:00 title = Wild Investigation
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 06:55:00 stop = 16/08/2015 07:45:00 title = Wild Scozia
-      Replaces ----- start = 16/08/2015 06:50:00 stop = 16/08/2015 07:40:00 title = Wild Investigation
-      Replaces ----- start = 16/08/2015 07:40:00 stop = 16/08/2015 08:30:00 title = Gli ultimi paradisi
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 07:45:00 stop = 16/08/2015 08:35:00 title = Wild Scozia
-      Replaces ----- start = 16/08/2015 07:40:00 stop = 16/08/2015 08:30:00 title = Gli ultimi paradisi
-      Replaces ----- start = 16/08/2015 08:30:00 stop = 16/08/2015 09:20:00 title = Wild Australia
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 08:35:00 stop = 16/08/2015 09:00:00 title = Wild Investigation
-      Replaces ----- start = 16/08/2015 08:30:00 stop = 16/08/2015 09:20:00 title = Wild Australia
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 09:00:00 stop = 16/08/2015 09:55:00 title = Gli ultimi paradisi
-      Replaces ----- start = 16/08/2015 08:30:00 stop = 16/08/2015 09:20:00 title = Wild Australia
-      Replaces ----- start = 16/08/2015 09:20:00 stop = 16/08/2015 10:15:00 title = Gli ultimi paradisi
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 09:55:00 stop = 16/08/2015 10:45:00 title = Wild Australia
-      Replaces ----- start = 16/08/2015 09:20:00 stop = 16/08/2015 10:15:00 title = Gli ultimi paradisi
-      Replaces ----- start = 16/08/2015 10:15:00 stop = 16/08/2015 11:15:00 title = Sri Lanka: isola indomabile
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 10:45:00 stop = 16/08/2015 11:40:00 title = Gli ultimi paradisi
-      Replaces ----- start = 16/08/2015 10:15:00 stop = 16/08/2015 11:15:00 title = Sri Lanka: isola indomabile
-      Replaces ----- start = 16/08/2015 11:15:00 stop = 16/08/2015 12:10:00 title = Sri Lanka: isola indomabile
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 11:40:00 stop = 16/08/2015 12:30:00 title = Sri Lanka: isola indomabile
-      Replaces ----- start = 16/08/2015 11:15:00 stop = 16/08/2015 12:10:00 title = Sri Lanka: isola indomabile
-      Replaces ----- start = 16/08/2015 12:10:00 stop = 16/08/2015 13:00:00 title = Brasile paradiso selvaggio
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 12:30:00 stop = 16/08/2015 13:25:00 title = Sri Lanka: isola indomabile
-      Replaces ----- start = 16/08/2015 12:10:00 stop = 16/08/2015 13:00:00 title = Brasile paradiso selvaggio
-      Replaces ----- start = 16/08/2015 13:00:00 stop = 16/08/2015 14:00:00 title = Wild Colombia
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 13:25:00 stop = 16/08/2015 14:15:00 title = Wild Brazil
-      Replaces ----- start = 16/08/2015 13:00:00 stop = 16/08/2015 14:00:00 title = Wild Colombia
-      Replaces ----- start = 16/08/2015 14:00:00 stop = 16/08/2015 15:00:00 title = Peru': paradiso misterioso
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 14:15:00 stop = 16/08/2015 15:10:00 title = Wild Colombia
-      Replaces ----- start = 16/08/2015 14:00:00 stop = 16/08/2015 15:00:00 title = Peru': paradiso misterioso
-      Replaces ----- start = 16/08/2015 15:00:00 stop = 16/08/2015 16:00:00 title = Wild Nilo
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 15:10:00 stop = 16/08/2015 16:00:00 title = Peru': paradiso misterioso
-      Replaces ----- start = 16/08/2015 15:00:00 stop = 16/08/2015 16:00:00 title = Wild Nilo
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 16:00:00 stop = 16/08/2015 16:50:00 title = Wild Nilo
-      Replaces ----- start = 16/08/2015 16:00:00 stop = 16/08/2015 17:00:00 title = Gli animali piu' pericolosi: speciale Africa
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 16:50:00 stop = 16/08/2015 17:40:00 title = Gli animali piu' pericolosi: speciale Africa
-      Replaces ----- start = 16/08/2015 16:00:00 stop = 16/08/2015 17:00:00 title = Gli animali piu' pericolosi: speciale Africa
-      Replaces ----- start = 16/08/2015 17:00:00 stop = 16/08/2015 18:00:00 title = Animali bestiali
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 17:40:00 stop = 16/08/2015 18:25:00 title = Animali bestiali
-      Replaces ----- start = 16/08/2015 17:00:00 stop = 16/08/2015 18:00:00 title = Animali bestiali
-      Replaces ----- start = 16/08/2015 18:00:00 stop = 16/08/2015 19:00:00 title = Animali bestiali
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 18:25:00 stop = 16/08/2015 19:15:00 title = Animali bestiali
-      Replaces ----- start = 16/08/2015 18:00:00 stop = 16/08/2015 19:00:00 title = Animali bestiali
-      Replaces ----- start = 16/08/2015 19:00:00 stop = 16/08/2015 20:00:00 title = Il regno delle scimmie
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 19:15:00 stop = 16/08/2015 20:05:00 title = Il regno delle scimmie
-      Replaces ----- start = 16/08/2015 19:00:00 stop = 16/08/2015 20:00:00 title = Il regno delle scimmie
-      Replaces ----- start = 16/08/2015 20:00:00 stop = 16/08/2015 21:00:00 title = Il regno delle scimmie
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 20:05:00 stop = 16/08/2015 21:00:00 title = Il regno delle scimmie
-      Replaces ----- start = 16/08/2015 20:00:00 stop = 16/08/2015 21:00:00 title = Il regno delle scimmie
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 21:00:00 stop = 16/08/2015 21:50:00 title = Wild Nilo
-      Replaces ----- start = 16/08/2015 21:00:00 stop = 16/08/2015 22:00:00 title = Wild Nilo
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 21:50:00 stop = 16/08/2015 22:45:00 title = Nella mente del predatore
-      Replaces ----- start = 16/08/2015 21:00:00 stop = 16/08/2015 22:00:00 title = Wild Nilo
-      Replaces ----- start = 16/08/2015 22:00:00 stop = 16/08/2015 23:00:00 title = Nella mente del predatore
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 22:45:00 stop = 16/08/2015 23:35:00 title = Wild Indonesia
-      Replaces ----- start = 16/08/2015 22:00:00 stop = 16/08/2015 23:00:00 title = Nella mente del predatore
-      Replaces ----- start = 16/08/2015 23:00:00 stop = 17/08/2015 00:00:00 title = Wild Indonesia
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 23:35:00 stop = 17/08/2015 00:25:00 title = Wild Indonesia
-      Replaces ----- start = 16/08/2015 23:00:00 stop = 17/08/2015 00:00:00 title = Wild Indonesia
-      Replaces ----- start = 17/08/2015 00:00:00 stop = 17/08/2015 01:00:00 title = Wild Indonesia
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 00:25:00 stop = 17/08/2015 01:15:00 title = Natura segreta
-      Replaces ----- start = 17/08/2015 00:00:00 stop = 17/08/2015 01:00:00 title = Wild Indonesia
-      Replaces ----- start = 17/08/2015 01:00:00 stop = 17/08/2015 02:00:00 title = Natura segreta
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 01:15:00 stop = 17/08/2015 02:05:00 title = Sri Lanka: isola indomabile
-      Replaces ----- start = 17/08/2015 01:00:00 stop = 17/08/2015 02:00:00 title = Natura segreta
-      Replaces ----- start = 17/08/2015 02:00:00 stop = 17/08/2015 02:50:00 title = Sri Lanka: isola indomabile
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 02:05:00 stop = 17/08/2015 02:30:00 title = Wild Investigation
-      Replaces ----- start = 17/08/2015 02:00:00 stop = 17/08/2015 02:50:00 title = Sri Lanka: isola indomabile
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 02:30:00 stop = 17/08/2015 03:25:00 title = Gli ultimi paradisi
-      Replaces ----- start = 17/08/2015 02:00:00 stop = 17/08/2015 02:50:00 title = Sri Lanka: isola indomabile
-      Replaces ----- start = 17/08/2015 02:50:00 stop = 17/08/2015 03:40:00 title = Wild Investigation
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 03:25:00 stop = 17/08/2015 04:15:00 title = Gli ultimi paradisi
-      Replaces ----- start = 17/08/2015 02:50:00 stop = 17/08/2015 03:40:00 title = Wild Investigation
-      Replaces ----- start = 17/08/2015 03:40:00 stop = 17/08/2015 04:30:00 title = Gli ultimi paradisi
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 04:15:00 stop = 17/08/2015 05:05:00 title = Wild Australia
-      Replaces ----- start = 17/08/2015 03:40:00 stop = 17/08/2015 04:30:00 title = Gli ultimi paradisi
-      Replaces ----- start = 17/08/2015 04:30:00 stop = 17/08/2015 05:20:00 title = Gli ultimi paradisi
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 05:05:00 stop = 17/08/2015 06:00:00 title = Animali bestiali
-      Replaces ----- start = 17/08/2015 04:30:00 stop = 17/08/2015 05:20:00 title = Gli ultimi paradisi
-      Replaces ----- start = 17/08/2015 05:20:00 stop = 17/08/2015 06:00:00 title = Wild Australia
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 06:00:00 stop = 17/08/2015 07:05:00 title = Wild Australia
-      Replaces ----- start = 17/08/2015 06:00:00 stop = 17/08/2015 06:50:00 title = Wild Australia
-      Replaces ----- start = 17/08/2015 06:50:00 stop = 17/08/2015 07:40:00 title = Wild Investigation
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 07:05:00 stop = 17/08/2015 07:55:00 title = Wild Scozia
-      Replaces ----- start = 17/08/2015 06:50:00 stop = 17/08/2015 07:40:00 title = Wild Investigation
-      Replaces ----- start = 17/08/2015 07:40:00 stop = 17/08/2015 08:30:00 title = Gli ultimi paradisi
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 07:55:00 stop = 17/08/2015 08:45:00 title = Wild Scozia
-      Replaces ----- start = 17/08/2015 07:40:00 stop = 17/08/2015 08:30:00 title = Gli ultimi paradisi
-      Replaces ----- start = 17/08/2015 08:30:00 stop = 17/08/2015 09:20:00 title = Wild Australia
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 08:45:00 stop = 17/08/2015 09:10:00 title = Wild Investigation
-      Replaces ----- start = 17/08/2015 08:30:00 stop = 17/08/2015 09:20:00 title = Wild Australia
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 09:10:00 stop = 17/08/2015 10:05:00 title = Gli ultimi paradisi
-      Replaces ----- start = 17/08/2015 08:30:00 stop = 17/08/2015 09:20:00 title = Wild Australia
-      Replaces ----- start = 17/08/2015 09:20:00 stop = 17/08/2015 10:15:00 title = Sri Lanka: isola indomabile
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 10:05:00 stop = 17/08/2015 10:55:00 title = Wild Australia
-      Replaces ----- start = 17/08/2015 09:20:00 stop = 17/08/2015 10:15:00 title = Sri Lanka: isola indomabile
-      Replaces ----- start = 17/08/2015 10:15:00 stop = 17/08/2015 11:15:00 title = Alaska estrema
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 10:55:00 stop = 17/08/2015 11:45:00 title = Sri Lanka: isola indomabile
-      Replaces ----- start = 17/08/2015 10:15:00 stop = 17/08/2015 11:15:00 title = Alaska estrema
-      Replaces ----- start = 17/08/2015 11:15:00 stop = 17/08/2015 12:10:00 title = Animali bestiali
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 11:45:00 stop = 17/08/2015 12:35:00 title = Alaska estrema
-      Replaces ----- start = 17/08/2015 11:15:00 stop = 17/08/2015 12:10:00 title = Animali bestiali
-      Replaces ----- start = 17/08/2015 12:10:00 stop = 17/08/2015 13:00:00 title = Il regno delle scimmie
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 12:35:00 stop = 17/08/2015 13:25:00 title = Animali bestiali
-      Replaces ----- start = 17/08/2015 12:10:00 stop = 17/08/2015 13:00:00 title = Il regno delle scimmie
-      Replaces ----- start = 17/08/2015 13:00:00 stop = 17/08/2015 14:00:00 title = Wild Colombia
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 13:25:00 stop = 17/08/2015 14:15:00 title = Il regno delle scimmie
-      Replaces ----- start = 17/08/2015 13:00:00 stop = 17/08/2015 14:00:00 title = Wild Colombia
-      Replaces ----- start = 17/08/2015 14:00:00 stop = 17/08/2015 15:00:00 title = Tanzania: eden letale
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 14:15:00 stop = 17/08/2015 15:05:00 title = Wild Colombia
-      Replaces ----- start = 17/08/2015 14:00:00 stop = 17/08/2015 15:00:00 title = Tanzania: eden letale
-      Replaces ----- start = 17/08/2015 15:00:00 stop = 17/08/2015 16:00:00 title = Il regno delle scimmie
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 15:05:00 stop = 17/08/2015 16:00:00 title = Tanzania: eden letale
-      Replaces ----- start = 17/08/2015 15:00:00 stop = 17/08/2015 16:00:00 title = Il regno delle scimmie
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 16:00:00 stop = 17/08/2015 16:50:00 title = Il regno delle scimmie
-      Replaces ----- start = 17/08/2015 16:00:00 stop = 17/08/2015 17:00:00 title = Wild Colombia
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 16:50:00 stop = 17/08/2015 17:40:00 title = Wild Colombia
-      Replaces ----- start = 17/08/2015 16:00:00 stop = 17/08/2015 17:00:00 title = Wild Colombia
-      Replaces ----- start = 17/08/2015 17:00:00 stop = 17/08/2015 18:00:00 title = Wild Nilo
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 17:40:00 stop = 17/08/2015 18:30:00 title = Wild Nilo
-      Replaces ----- start = 17/08/2015 17:00:00 stop = 17/08/2015 18:00:00 title = Wild Nilo
-      Replaces ----- start = 17/08/2015 18:00:00 stop = 17/08/2015 19:00:00 title = Vendetta animale
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 18:30:00 stop = 17/08/2015 19:20:00 title = Vendetta animale
-      Replaces ----- start = 17/08/2015 18:00:00 stop = 17/08/2015 19:00:00 title = Vendetta animale
-      Replaces ----- start = 17/08/2015 19:00:00 stop = 17/08/2015 20:00:00 title = Wild Colombia
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 19:20:00 stop = 17/08/2015 20:15:00 title = Wild Colombia
-      Replaces ----- start = 17/08/2015 19:00:00 stop = 17/08/2015 20:00:00 title = Wild Colombia
-      Replaces ----- start = 17/08/2015 20:00:00 stop = 17/08/2015 21:00:00 title = Assassini insuperabili
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 20:15:00 stop = 17/08/2015 21:05:00 title = Assassini insuperabili
-      Replaces ----- start = 17/08/2015 20:00:00 stop = 17/08/2015 21:00:00 title = Assassini insuperabili
-      Replaces ----- start = 17/08/2015 21:00:00 stop = 17/08/2015 22:00:00 title = Brasile paradiso selvaggio
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 21:05:00 stop = 17/08/2015 22:00:00 title = Wild Brazil
-      Replaces ----- start = 17/08/2015 21:00:00 stop = 17/08/2015 22:00:00 title = Brasile paradiso selvaggio
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 22:00:00 stop = 17/08/2015 22:50:00 title = Squalomania: Gli animali piu' pericolosi
-      Replaces ----- start = 17/08/2015 22:00:00 stop = 17/08/2015 23:00:00 title = Squalomania: Wild Tabu'
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 22:50:00 stop = 17/08/2015 23:40:00 title = Squalomania: Squali: branco killer
-      Replaces ----- start = 17/08/2015 22:00:00 stop = 17/08/2015 23:00:00 title = Squalomania: Wild Tabu'
-      Replaces ----- start = 17/08/2015 23:00:00 stop = 18/08/2015 00:00:00 title = Squalomania: Squali: branco killer
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 23:40:00 stop = 18/08/2015 00:30:00 title = Squalomania: Fame da squali
-      Replaces ----- start = 17/08/2015 23:00:00 stop = 18/08/2015 00:00:00 title = Squalomania: Squali: branco killer
 
    Summary for update of NatGeo Wild HD
-     missing shows added       0
-     changed shows updated     81
-     new shows added           0
-     unchanged shows inspected 7
+     no changes, no update necessary !
+     unchanged shows inspected 88
      total after update        88
-     elapstime / updated show  2.35 seconds
-
 
 channel Geo wild +1 site -- GUIDATV.SKY.IT -- update mode incremental
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 07:00:00 stop = 15/08/2015 07:55:00 title = Amazzonia selvaggia
-      Replaces ----- start = 15/08/2015 07:00:00 stop = 15/08/2015 07:50:00 title = Amazzonia selvaggia
-      Replaces ----- start = 15/08/2015 07:50:00 stop = 15/08/2015 08:40:00 title = Wild Investigation
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 07:55:00 stop = 15/08/2015 08:40:00 title = Wild Florida
-      Replaces ----- start = 15/08/2015 07:50:00 stop = 15/08/2015 08:40:00 title = Wild Investigation
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 08:40:00 stop = 15/08/2015 09:30:00 title = Wild Florida
-      Replaces ----- start = 15/08/2015 08:40:00 stop = 15/08/2015 09:30:00 title = Gli ultimi paradisi
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 09:30:00 stop = 15/08/2015 10:00:00 title = Wild Investigation
-      Replaces ----- start = 15/08/2015 09:30:00 stop = 15/08/2015 10:20:00 title = Amazzonia selvaggia
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 10:00:00 stop = 15/08/2015 10:50:00 title = Gli ultimi paradisi
-      Replaces ----- start = 15/08/2015 09:30:00 stop = 15/08/2015 10:20:00 title = Amazzonia selvaggia
-      Replaces ----- start = 15/08/2015 10:20:00 stop = 15/08/2015 11:15:00 title = Gli ultimi paradisi
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 10:50:00 stop = 15/08/2015 11:45:00 title = Amazzonia selvaggia
-      Replaces ----- start = 15/08/2015 10:20:00 stop = 15/08/2015 11:15:00 title = Gli ultimi paradisi
-      Replaces ----- start = 15/08/2015 11:15:00 stop = 15/08/2015 12:15:00 title = Wild Indonesia
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 11:45:00 stop = 15/08/2015 12:35:00 title = Gli ultimi paradisi
-      Replaces ----- start = 15/08/2015 11:15:00 stop = 15/08/2015 12:15:00 title = Wild Indonesia
-      Replaces ----- start = 15/08/2015 12:15:00 stop = 15/08/2015 13:10:00 title = Wild Indonesia
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 12:35:00 stop = 15/08/2015 13:25:00 title = Wild Indonesia
-      Replaces ----- start = 15/08/2015 12:15:00 stop = 15/08/2015 13:10:00 title = Wild Indonesia
-      Replaces ----- start = 15/08/2015 13:10:00 stop = 15/08/2015 14:00:00 title = Animal Fight Club
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 13:25:00 stop = 15/08/2015 14:20:00 title = Wild Indonesia
-      Replaces ----- start = 15/08/2015 13:10:00 stop = 15/08/2015 14:00:00 title = Animal Fight Club
-      Replaces ----- start = 15/08/2015 14:00:00 stop = 15/08/2015 15:00:00 title = Animal Fight Club
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 14:20:00 stop = 15/08/2015 15:10:00 title = Animal Fight Club
-      Replaces ----- start = 15/08/2015 14:00:00 stop = 15/08/2015 15:00:00 title = Animal Fight Club
-      Replaces ----- start = 15/08/2015 15:00:00 stop = 15/08/2015 16:00:00 title = Nella mente del predatore
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 15:10:00 stop = 15/08/2015 16:05:00 title = Animal Fight Club
-      Replaces ----- start = 15/08/2015 15:00:00 stop = 15/08/2015 16:00:00 title = Nella mente del predatore
-      Replaces ----- start = 15/08/2015 16:00:00 stop = 15/08/2015 17:00:00 title = Natura segreta
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 16:05:00 stop = 15/08/2015 16:55:00 title = Nella mente del predatore
-      Replaces ----- start = 15/08/2015 16:00:00 stop = 15/08/2015 17:00:00 title = Natura segreta
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 16:55:00 stop = 15/08/2015 17:45:00 title = Natura segreta
-      Replaces ----- start = 15/08/2015 16:00:00 stop = 15/08/2015 17:00:00 title = Natura segreta
-      Replaces ----- start = 15/08/2015 17:00:00 stop = 15/08/2015 18:00:00 title = Natura segreta
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 17:45:00 stop = 15/08/2015 18:35:00 title = Natura segreta
-      Replaces ----- start = 15/08/2015 17:00:00 stop = 15/08/2015 18:00:00 title = Natura segreta
-      Replaces ----- start = 15/08/2015 18:00:00 stop = 15/08/2015 19:00:00 title = Brasile paradiso selvaggio
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 18:35:00 stop = 15/08/2015 19:25:00 title = Wild Brazil
-      Replaces ----- start = 15/08/2015 18:00:00 stop = 15/08/2015 19:00:00 title = Brasile paradiso selvaggio
-      Replaces ----- start = 15/08/2015 19:00:00 stop = 15/08/2015 20:00:00 title = Wild Colombia
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 19:25:00 stop = 15/08/2015 20:20:00 title = Wild Colombia
-      Replaces ----- start = 15/08/2015 19:00:00 stop = 15/08/2015 20:00:00 title = Wild Colombia
-      Replaces ----- start = 15/08/2015 20:00:00 stop = 15/08/2015 21:00:00 title = Sri Lanka: isola indomabile
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 20:20:00 stop = 15/08/2015 21:10:00 title = Sri Lanka: isola indomabile
-      Replaces ----- start = 15/08/2015 20:00:00 stop = 15/08/2015 21:00:00 title = Sri Lanka: isola indomabile
-      Replaces ----- start = 15/08/2015 21:00:00 stop = 15/08/2015 22:00:00 title = Sri Lanka: isola indomabile
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 21:10:00 stop = 15/08/2015 22:00:00 title = Sri Lanka: isola indomabile
-      Replaces ----- start = 15/08/2015 21:00:00 stop = 15/08/2015 22:00:00 title = Sri Lanka: isola indomabile
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 22:00:00 stop = 15/08/2015 22:55:00 title = Gli speciali di Wild
-      Replaces ----- start = 15/08/2015 22:00:00 stop = 15/08/2015 23:00:00 title = Gli speciali di Wild
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 22:55:00 stop = 15/08/2015 23:45:00 title = Peru': paradiso misterioso
-      Replaces ----- start = 15/08/2015 22:00:00 stop = 15/08/2015 23:00:00 title = Gli speciali di Wild
-      Replaces ----- start = 15/08/2015 23:00:00 stop = 16/08/2015 00:00:00 title = Peru': paradiso misterioso
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 23:45:00 stop = 16/08/2015 00:35:00 title = Wild Colombia
-      Replaces ----- start = 15/08/2015 23:00:00 stop = 16/08/2015 00:00:00 title = Peru': paradiso misterioso
-      Replaces ----- start = 16/08/2015 00:00:00 stop = 16/08/2015 01:00:00 title = Wild Colombia
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 00:35:00 stop = 16/08/2015 01:25:00 title = Wild Brazil
-      Replaces ----- start = 16/08/2015 00:00:00 stop = 16/08/2015 01:00:00 title = Wild Colombia
-      Replaces ----- start = 16/08/2015 01:00:00 stop = 16/08/2015 02:00:00 title = Brasile paradiso selvaggio
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 01:25:00 stop = 16/08/2015 02:15:00 title = Animal Fight Club: Africa
-      Replaces ----- start = 16/08/2015 01:00:00 stop = 16/08/2015 02:00:00 title = Brasile paradiso selvaggio
-      Replaces ----- start = 16/08/2015 02:00:00 stop = 16/08/2015 03:00:00 title = Animal Fight Club: Africa
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 02:15:00 stop = 16/08/2015 03:05:00 title = Sri Lanka: isola indomabile
-      Replaces ----- start = 16/08/2015 02:00:00 stop = 16/08/2015 03:00:00 title = Animal Fight Club: Africa
-      Replaces ----- start = 16/08/2015 03:00:00 stop = 16/08/2015 03:50:00 title = Sri Lanka: isola indomabile
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 03:05:00 stop = 16/08/2015 03:30:00 title = Wild Investigation
-      Replaces ----- start = 16/08/2015 03:00:00 stop = 16/08/2015 03:50:00 title = Sri Lanka: isola indomabile
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 03:30:00 stop = 16/08/2015 04:25:00 title = Gli ultimi paradisi
-      Replaces ----- start = 16/08/2015 03:00:00 stop = 16/08/2015 03:50:00 title = Sri Lanka: isola indomabile
-      Replaces ----- start = 16/08/2015 03:50:00 stop = 16/08/2015 04:40:00 title = Wild Investigation
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 04:25:00 stop = 16/08/2015 05:20:00 title = Gli ultimi paradisi
-      Replaces ----- start = 16/08/2015 03:50:00 stop = 16/08/2015 04:40:00 title = Wild Investigation
-      Replaces ----- start = 16/08/2015 04:40:00 stop = 16/08/2015 05:30:00 title = Gli ultimi paradisi
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 05:20:00 stop = 16/08/2015 05:40:00 title = Top Ten Bestiale
-      Replaces ----- start = 16/08/2015 04:40:00 stop = 16/08/2015 05:30:00 title = Gli ultimi paradisi
-      Replaces ----- start = 16/08/2015 05:30:00 stop = 16/08/2015 06:20:00 title = Gli ultimi paradisi
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 05:40:00 stop = 16/08/2015 06:10:00 title = Extreme Animals
-      Replaces ----- start = 16/08/2015 05:30:00 stop = 16/08/2015 06:20:00 title = Gli ultimi paradisi
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 06:10:00 stop = 16/08/2015 07:00:00 title = Amazzonia selvaggia
-      Replaces ----- start = 16/08/2015 05:30:00 stop = 16/08/2015 06:20:00 title = Gli ultimi paradisi
-      Replaces ----- start = 16/08/2015 06:20:00 stop = 16/08/2015 07:00:00 title = Amazzonia selvaggia
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 07:00:00 stop = 16/08/2015 07:55:00 title = Wild Australia
-      Replaces ----- start = 16/08/2015 07:00:00 stop = 16/08/2015 07:50:00 title = Wild Australia
-      Replaces ----- start = 16/08/2015 07:50:00 stop = 16/08/2015 08:40:00 title = Wild Investigation
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 07:55:00 stop = 16/08/2015 08:45:00 title = Wild Scozia
-      Replaces ----- start = 16/08/2015 07:50:00 stop = 16/08/2015 08:40:00 title = Wild Investigation
-      Replaces ----- start = 16/08/2015 08:40:00 stop = 16/08/2015 09:30:00 title = Gli ultimi paradisi
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 08:45:00 stop = 16/08/2015 09:35:00 title = Wild Scozia
-      Replaces ----- start = 16/08/2015 08:40:00 stop = 16/08/2015 09:30:00 title = Gli ultimi paradisi
-      Replaces ----- start = 16/08/2015 09:30:00 stop = 16/08/2015 10:20:00 title = Wild Australia
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 09:35:00 stop = 16/08/2015 10:00:00 title = Wild Investigation
-      Replaces ----- start = 16/08/2015 09:30:00 stop = 16/08/2015 10:20:00 title = Wild Australia
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 10:00:00 stop = 16/08/2015 10:55:00 title = Gli ultimi paradisi
-      Replaces ----- start = 16/08/2015 09:30:00 stop = 16/08/2015 10:20:00 title = Wild Australia
-      Replaces ----- start = 16/08/2015 10:20:00 stop = 16/08/2015 11:15:00 title = Gli ultimi paradisi
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 10:55:00 stop = 16/08/2015 11:45:00 title = Wild Australia
-      Replaces ----- start = 16/08/2015 10:20:00 stop = 16/08/2015 11:15:00 title = Gli ultimi paradisi
-      Replaces ----- start = 16/08/2015 11:15:00 stop = 16/08/2015 12:15:00 title = Sri Lanka: isola indomabile
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 11:45:00 stop = 16/08/2015 12:40:00 title = Gli ultimi paradisi
-      Replaces ----- start = 16/08/2015 11:15:00 stop = 16/08/2015 12:15:00 title = Sri Lanka: isola indomabile
-      Replaces ----- start = 16/08/2015 12:15:00 stop = 16/08/2015 13:10:00 title = Sri Lanka: isola indomabile
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 12:40:00 stop = 16/08/2015 13:30:00 title = Sri Lanka: isola indomabile
-      Replaces ----- start = 16/08/2015 12:15:00 stop = 16/08/2015 13:10:00 title = Sri Lanka: isola indomabile
-      Replaces ----- start = 16/08/2015 13:10:00 stop = 16/08/2015 14:00:00 title = Brasile paradiso selvaggio
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 13:30:00 stop = 16/08/2015 14:25:00 title = Sri Lanka: isola indomabile
-      Replaces ----- start = 16/08/2015 13:10:00 stop = 16/08/2015 14:00:00 title = Brasile paradiso selvaggio
-      Replaces ----- start = 16/08/2015 14:00:00 stop = 16/08/2015 15:00:00 title = Wild Colombia
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 14:25:00 stop = 16/08/2015 15:15:00 title = Wild Brazil
-      Replaces ----- start = 16/08/2015 14:00:00 stop = 16/08/2015 15:00:00 title = Wild Colombia
-      Replaces ----- start = 16/08/2015 15:00:00 stop = 16/08/2015 16:00:00 title = Peru': paradiso misterioso
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 15:15:00 stop = 16/08/2015 16:10:00 title = Wild Colombia
-      Replaces ----- start = 16/08/2015 15:00:00 stop = 16/08/2015 16:00:00 title = Peru': paradiso misterioso
-      Replaces ----- start = 16/08/2015 16:00:00 stop = 16/08/2015 17:00:00 title = Wild Nilo
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 16:10:00 stop = 16/08/2015 17:00:00 title = Peru': paradiso misterioso
-      Replaces ----- start = 16/08/2015 16:00:00 stop = 16/08/2015 17:00:00 title = Wild Nilo
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 17:00:00 stop = 16/08/2015 17:50:00 title = Wild Nilo
-      Replaces ----- start = 16/08/2015 17:00:00 stop = 16/08/2015 18:00:00 title = Gli animali piu' pericolosi: speciale Africa
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 17:50:00 stop = 16/08/2015 18:40:00 title = Gli animali piu' pericolosi: speciale Africa
-      Replaces ----- start = 16/08/2015 17:00:00 stop = 16/08/2015 18:00:00 title = Gli animali piu' pericolosi: speciale Africa
-      Replaces ----- start = 16/08/2015 18:00:00 stop = 16/08/2015 19:00:00 title = Animali bestiali
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 18:40:00 stop = 16/08/2015 19:25:00 title = Animali bestiali
-      Replaces ----- start = 16/08/2015 18:00:00 stop = 16/08/2015 19:00:00 title = Animali bestiali
-      Replaces ----- start = 16/08/2015 19:00:00 stop = 16/08/2015 20:00:00 title = Animali bestiali
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 19:25:00 stop = 16/08/2015 20:15:00 title = Animali bestiali
-      Replaces ----- start = 16/08/2015 19:00:00 stop = 16/08/2015 20:00:00 title = Animali bestiali
-      Replaces ----- start = 16/08/2015 20:00:00 stop = 16/08/2015 21:00:00 title = Il regno delle scimmie
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 20:15:00 stop = 16/08/2015 21:05:00 title = Il regno delle scimmie
-      Replaces ----- start = 16/08/2015 20:00:00 stop = 16/08/2015 21:00:00 title = Il regno delle scimmie
-      Replaces ----- start = 16/08/2015 21:00:00 stop = 16/08/2015 22:00:00 title = Il regno delle scimmie
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 21:05:00 stop = 16/08/2015 22:00:00 title = Il regno delle scimmie
-      Replaces ----- start = 16/08/2015 21:00:00 stop = 16/08/2015 22:00:00 title = Il regno delle scimmie
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 22:00:00 stop = 16/08/2015 22:50:00 title = Wild Nilo
-      Replaces ----- start = 16/08/2015 22:00:00 stop = 16/08/2015 23:00:00 title = Wild Nilo
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 22:50:00 stop = 16/08/2015 23:45:00 title = Nella mente del predatore
-      Replaces ----- start = 16/08/2015 22:00:00 stop = 16/08/2015 23:00:00 title = Wild Nilo
-      Replaces ----- start = 16/08/2015 23:00:00 stop = 17/08/2015 00:00:00 title = Nella mente del predatore
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 23:45:00 stop = 17/08/2015 00:35:00 title = Wild Indonesia
-      Replaces ----- start = 16/08/2015 23:00:00 stop = 17/08/2015 00:00:00 title = Nella mente del predatore
-      Replaces ----- start = 17/08/2015 00:00:00 stop = 17/08/2015 01:00:00 title = Wild Indonesia
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 00:35:00 stop = 17/08/2015 01:25:00 title = Wild Indonesia
-      Replaces ----- start = 17/08/2015 00:00:00 stop = 17/08/2015 01:00:00 title = Wild Indonesia
-      Replaces ----- start = 17/08/2015 01:00:00 stop = 17/08/2015 02:00:00 title = Wild Indonesia
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 01:25:00 stop = 17/08/2015 02:15:00 title = Natura segreta
-      Replaces ----- start = 17/08/2015 01:00:00 stop = 17/08/2015 02:00:00 title = Wild Indonesia
-      Replaces ----- start = 17/08/2015 02:00:00 stop = 17/08/2015 03:00:00 title = Natura segreta
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 02:15:00 stop = 17/08/2015 03:05:00 title = Sri Lanka: isola indomabile
-      Replaces ----- start = 17/08/2015 02:00:00 stop = 17/08/2015 03:00:00 title = Natura segreta
-      Replaces ----- start = 17/08/2015 03:00:00 stop = 17/08/2015 03:50:00 title = Sri Lanka: isola indomabile
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 03:05:00 stop = 17/08/2015 03:30:00 title = Wild Investigation
-      Replaces ----- start = 17/08/2015 03:00:00 stop = 17/08/2015 03:50:00 title = Sri Lanka: isola indomabile
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 03:30:00 stop = 17/08/2015 04:25:00 title = Gli ultimi paradisi
-      Replaces ----- start = 17/08/2015 03:00:00 stop = 17/08/2015 03:50:00 title = Sri Lanka: isola indomabile
-      Replaces ----- start = 17/08/2015 03:50:00 stop = 17/08/2015 04:40:00 title = Wild Investigation
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 04:25:00 stop = 17/08/2015 05:15:00 title = Gli ultimi paradisi
-      Replaces ----- start = 17/08/2015 03:50:00 stop = 17/08/2015 04:40:00 title = Wild Investigation
-      Replaces ----- start = 17/08/2015 04:40:00 stop = 17/08/2015 05:30:00 title = Gli ultimi paradisi
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 05:15:00 stop = 17/08/2015 06:05:00 title = Wild Australia
-      Replaces ----- start = 17/08/2015 04:40:00 stop = 17/08/2015 05:30:00 title = Gli ultimi paradisi
-      Replaces ----- start = 17/08/2015 05:30:00 stop = 17/08/2015 06:20:00 title = Gli ultimi paradisi
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 06:05:00 stop = 17/08/2015 07:00:00 title = Animali bestiali
-      Replaces ----- start = 17/08/2015 05:30:00 stop = 17/08/2015 06:20:00 title = Gli ultimi paradisi
-      Replaces ----- start = 17/08/2015 06:20:00 stop = 17/08/2015 07:00:00 title = Wild Australia
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 07:00:00 stop = 17/08/2015 08:05:00 title = Wild Australia
-      Replaces ----- start = 17/08/2015 07:00:00 stop = 17/08/2015 07:50:00 title = Wild Australia
-      Replaces ----- start = 17/08/2015 07:50:00 stop = 17/08/2015 08:40:00 title = Wild Investigation
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 08:05:00 stop = 17/08/2015 08:55:00 title = Wild Scozia
-      Replaces ----- start = 17/08/2015 07:50:00 stop = 17/08/2015 08:40:00 title = Wild Investigation
-      Replaces ----- start = 17/08/2015 08:40:00 stop = 17/08/2015 09:30:00 title = Gli ultimi paradisi
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 08:55:00 stop = 17/08/2015 09:45:00 title = Wild Scozia
-      Replaces ----- start = 17/08/2015 08:40:00 stop = 17/08/2015 09:30:00 title = Gli ultimi paradisi
-      Replaces ----- start = 17/08/2015 09:30:00 stop = 17/08/2015 10:20:00 title = Wild Australia
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 09:45:00 stop = 17/08/2015 10:10:00 title = Wild Investigation
-      Replaces ----- start = 17/08/2015 09:30:00 stop = 17/08/2015 10:20:00 title = Wild Australia
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 10:10:00 stop = 17/08/2015 11:05:00 title = Gli ultimi paradisi
-      Replaces ----- start = 17/08/2015 09:30:00 stop = 17/08/2015 10:20:00 title = Wild Australia
-      Replaces ----- start = 17/08/2015 10:20:00 stop = 17/08/2015 11:15:00 title = Sri Lanka: isola indomabile
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 11:05:00 stop = 17/08/2015 11:55:00 title = Wild Australia
-      Replaces ----- start = 17/08/2015 10:20:00 stop = 17/08/2015 11:15:00 title = Sri Lanka: isola indomabile
-      Replaces ----- start = 17/08/2015 11:15:00 stop = 17/08/2015 12:15:00 title = Alaska estrema
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 11:55:00 stop = 17/08/2015 12:45:00 title = Sri Lanka: isola indomabile
-      Replaces ----- start = 17/08/2015 11:15:00 stop = 17/08/2015 12:15:00 title = Alaska estrema
-      Replaces ----- start = 17/08/2015 12:15:00 stop = 17/08/2015 13:10:00 title = Animali bestiali
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 12:45:00 stop = 17/08/2015 13:35:00 title = Alaska estrema
-      Replaces ----- start = 17/08/2015 12:15:00 stop = 17/08/2015 13:10:00 title = Animali bestiali
-      Replaces ----- start = 17/08/2015 13:10:00 stop = 17/08/2015 14:00:00 title = Il regno delle scimmie
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 13:35:00 stop = 17/08/2015 14:25:00 title = Animali bestiali
-      Replaces ----- start = 17/08/2015 13:10:00 stop = 17/08/2015 14:00:00 title = Il regno delle scimmie
-      Replaces ----- start = 17/08/2015 14:00:00 stop = 17/08/2015 15:00:00 title = Wild Colombia
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 14:25:00 stop = 17/08/2015 15:15:00 title = Il regno delle scimmie
-      Replaces ----- start = 17/08/2015 14:00:00 stop = 17/08/2015 15:00:00 title = Wild Colombia
-      Replaces ----- start = 17/08/2015 15:00:00 stop = 17/08/2015 16:00:00 title = Tanzania: eden letale
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 15:15:00 stop = 17/08/2015 16:05:00 title = Wild Colombia
-      Replaces ----- start = 17/08/2015 15:00:00 stop = 17/08/2015 16:00:00 title = Tanzania: eden letale
-      Replaces ----- start = 17/08/2015 16:00:00 stop = 17/08/2015 17:00:00 title = Il regno delle scimmie
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 16:05:00 stop = 17/08/2015 17:00:00 title = Tanzania: eden letale
-      Replaces ----- start = 17/08/2015 16:00:00 stop = 17/08/2015 17:00:00 title = Il regno delle scimmie
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 17:00:00 stop = 17/08/2015 17:50:00 title = Il regno delle scimmie
-      Replaces ----- start = 17/08/2015 17:00:00 stop = 17/08/2015 18:00:00 title = Wild Colombia
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 17:50:00 stop = 17/08/2015 18:40:00 title = Wild Colombia
-      Replaces ----- start = 17/08/2015 17:00:00 stop = 17/08/2015 18:00:00 title = Wild Colombia
-      Replaces ----- start = 17/08/2015 18:00:00 stop = 17/08/2015 19:00:00 title = Wild Nilo
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 18:40:00 stop = 17/08/2015 19:30:00 title = Wild Nilo
-      Replaces ----- start = 17/08/2015 18:00:00 stop = 17/08/2015 19:00:00 title = Wild Nilo
-      Replaces ----- start = 17/08/2015 19:00:00 stop = 17/08/2015 20:00:00 title = Vendetta animale
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 19:30:00 stop = 17/08/2015 20:20:00 title = Vendetta animale
-      Replaces ----- start = 17/08/2015 19:00:00 stop = 17/08/2015 20:00:00 title = Vendetta animale
-      Replaces ----- start = 17/08/2015 20:00:00 stop = 17/08/2015 21:00:00 title = Wild Colombia
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 20:20:00 stop = 17/08/2015 21:15:00 title = Wild Colombia
-      Replaces ----- start = 17/08/2015 20:00:00 stop = 17/08/2015 21:00:00 title = Wild Colombia
-      Replaces ----- start = 17/08/2015 21:00:00 stop = 17/08/2015 22:00:00 title = Assassini insuperabili
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 21:15:00 stop = 17/08/2015 22:05:00 title = Assassini insuperabili
-      Replaces ----- start = 17/08/2015 21:00:00 stop = 17/08/2015 22:00:00 title = Assassini insuperabili
-      Replaces ----- start = 17/08/2015 22:00:00 stop = 17/08/2015 23:00:00 title = Brasile paradiso selvaggio
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 22:05:00 stop = 17/08/2015 23:00:00 title = Wild Brazil
-      Replaces ----- start = 17/08/2015 22:00:00 stop = 17/08/2015 23:00:00 title = Brasile paradiso selvaggio
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 23:00:00 stop = 17/08/2015 23:50:00 title = Squalomania: Gli animali piu' pericolosi
-      Replaces ----- start = 17/08/2015 23:00:00 stop = 18/08/2015 00:00:00 title = Squalomania: Wild Tabu'
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/08/2015 23:50:00 stop = 18/08/2015 00:40:00 title = Squalomania: Squali: branco killer
-      Replaces ----- start = 17/08/2015 23:00:00 stop = 18/08/2015 00:00:00 title = Squalomania: Wild Tabu'
 
    Summary for update of Geo wild +1
-     missing shows added       0
-     changed shows updated     80
-     new shows added           0
-     unchanged shows inspected 8
+     no changes, no update necessary !
+     unchanged shows inspected 88
      total after update        88
-     elapstime / updated show  2.00 seconds
-
 
 channel History HD site -- GUIDATV.SKY.IT -- update mode incremental
 
@@ -2598,18 +960,21 @@ channel FOX SPORT 2 HD site -- GUIDATV.SKY.IT -- update mode incremental
 
 channel Sport 1 HD site -- GUIDATV.SKY.IT -- update mode incremental
    epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 00:40:00 stop = 15/08/2015 06:00:00 title = Tennis: ATP Montreal  (diretta)
-      Replaces ----- start = 15/08/2015 00:30:00 stop = 15/08/2015 04:30:00 title = Tennis: ATP Montreal  (diretta)
-      Replaces ----- start = 15/08/2015 04:30:00 stop = 15/08/2015 05:30:00 title = MotoGP Gara: GP Francia
-      Replaces ----- start = 15/08/2015 05:30:00 stop = 15/08/2015 06:00:00 title = History Remix Derby della Mole-Anni 80
+      show with ---- start = 15/08/2015 00:40:00 stop = 15/08/2015 08:00:00 title = Tennis: ATP Montreal  (diretta)
+      Replaces ----- start = 15/08/2015 00:40:00 stop = 15/08/2015 06:00:00 title = Tennis: ATP Montreal  (diretta)
+      Replaces ----- start = 15/08/2015 06:00:00 stop = 15/08/2015 07:55:00 title = Inter
+      Replaces ----- start = 15/08/2015 07:55:00 stop = 15/08/2015 08:55:00 title = Rugby: Sudafrica
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 15/08/2015 08:00:00 stop = 15/08/2015 08:55:00 title = Rugby: Sudafrica
+      Replaces ----- start = 15/08/2015 07:55:00 stop = 15/08/2015 08:55:00 title = Rugby: Sudafrica
 
    Summary for update of Sport 1 HD
      missing shows added       0
-     changed shows updated     1
+     changed shows updated     2
      new shows added           0
-     unchanged shows inspected 70
-     total after update        71
-     elapstime / updated show  2.57 seconds
+     unchanged shows inspected 68
+     total after update        70
+     elapstime / updated show  2.05 seconds
 
 
 channel Sport 2 HD site -- GUIDATV.SKY.IT -- update mode incremental
@@ -2622,13 +987,9 @@ channel Sport 2 HD site -- GUIDATV.SKY.IT -- update mode incremental
 channel Sport 3 HD site -- GUIDATV.SKY.IT -- update mode incremental
 
    Summary for update of Sport 3 HD
-     missing shows added       0
-     changed shows updated     0
-     new shows added           1
-     unchanged shows inspected 60
+     no changes, no update necessary !
+     unchanged shows inspected 61
      total after update        61
-     elapstime / updated show  2.05 seconds
-
 
 channel Eurosport 1 HD site -- GUIDATV.SKY.IT -- update mode incremental
 
@@ -2949,15 +1310,10 @@ channel Sky Sport F1 UK site -- UK-SKY.COM -- update mode incremental
 
    Summary for update of Sky Sport F1 UK
      no changes, no update necessary !
-     unchanged shows inspected 64
+     unchanged shows inspected 56
      total after update        70
 
 channel UK: SKY SPORT 1 site -- UK-SKY.COM -- update mode incremental
-   suspicious      title in index page  = Live FL72:Burnley v Birmingham
-      differs from title in showdetails = FL72:Burnley v Birmingham
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 12:00:00 stop = 15/08/2015 14:45:00 title = FL72:Burnley v Birmingham
-      Replaces ----- start = 15/08/2015 12:00:00 stop = 15/08/2015 14:45:00 title = FL72:Burnley v Birmingham
    suspicious      title in index page  = Live Intl Rugby Union: IRE v SCO
       differs from title in showdetails = Intl Rugby Union: IRE v SCO
    epg correction :  CHANGED show corrected,
@@ -2986,11 +1342,11 @@ channel UK: SKY SPORT 1 site -- UK-SKY.COM -- update mode incremental
 
    Summary for update of UK: SKY SPORT 1
      missing shows added       0
-     changed shows updated     6
+     changed shows updated     5
      new shows added           0
-     unchanged shows inspected 53
+     unchanged shows inspected 49
      total after update        70
-     elapstime / updated show  1.38 seconds
+     elapstime / updated show  1.67 seconds
 
 
 channel UK: SKY SPORT 2 site -- UK-SKY.COM -- update mode incremental
@@ -3019,20 +1375,12 @@ channel UK: SKY SPORT 2 site -- UK-SKY.COM -- update mode incremental
      missing shows added       0
      changed shows updated     4
      new shows added           0
-     unchanged shows inspected 55
+     unchanged shows inspected 42
      total after update        74
      elapstime / updated show  1.26 seconds
 
 
 channel UK: SKY SPORT 3 site -- UK-SKY.COM -- update mode incremental
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 07:00:00 stop = 15/08/2015 08:00:00 title = ATP Masters Highligts
-      Replaces ----- start = 15/08/2015 07:00:00 stop = 15/08/2015 08:00:00 title = Tennis Highlights: Murray v Tsonga
-   suspicious      title in index page  = Live Rugby Championship
-      differs from title in showdetails = Rugby Championship
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 15/08/2015 08:00:00 stop = 15/08/2015 11:00:00 title = Rugby Championship
-      Replaces ----- start = 15/08/2015 08:00:00 stop = 15/08/2015 11:00:00 title = Rugby Championship
    suspicious      title in index page  = Live Super 8s Qualifiers
       differs from title in showdetails = Super 8s Qualifiers
    epg correction :  CHANGED show corrected,
@@ -3061,11 +1409,11 @@ channel UK: SKY SPORT 3 site -- UK-SKY.COM -- update mode incremental
 
    Summary for update of UK: SKY SPORT 3
      missing shows added       0
-     changed shows updated     7
+     changed shows updated     5
      new shows added           0
-     unchanged shows inspected 73
+     unchanged shows inspected 66
      total after update        87
-     elapstime / updated show  1.32 seconds
+     elapstime / updated show  1.24 seconds
 
 
 channel UK: SKY SPORT 4 site -- UK-SKY.COM -- update mode incremental
@@ -3074,10 +1422,10 @@ channel UK: SKY SPORT 4 site -- UK-SKY.COM -- update mode incremental
    epg correction :  CHANGED show corrected,
       show with ---- start = 15/08/2015 16:00:00 stop = 16/08/2015 00:00:00 title = PGA Championship
       Replaces ----- start = 15/08/2015 16:00:00 stop = 16/08/2015 00:00:00 title = PGA Championship
-   suspicious      title in index page  = Live Tennis- Montreal Masters
-      differs from title in showdetails = Tennis- Montreal Masters
+   suspicious      title in index page  = Live Semi-Final Murray v Nishikori
+      differs from title in showdetails = Semi-Final Murray v Nishikori
    epg correction :  CHANGED show corrected,
-      show with ---- start = 16/08/2015 01:00:00 stop = 16/08/2015 03:00:00 title = Tennis- Montreal Masters
+      show with ---- start = 16/08/2015 01:00:00 stop = 16/08/2015 03:00:00 title = Semi-Final Murray v Nishikori
       Replaces ----- start = 16/08/2015 01:00:00 stop = 16/08/2015 03:00:00 title = Tennis- Montreal Masters
    suspicious      title in index page  = Live Netball World Cup
       differs from title in showdetails = Netball World Cup
@@ -3109,9 +1457,9 @@ channel UK: SKY SPORT 4 site -- UK-SKY.COM -- update mode incremental
      missing shows added       0
      changed shows updated     7
      new shows added           0
-     unchanged shows inspected 42
+     unchanged shows inspected 36
      total after update        58
-     elapstime / updated show  1.32 seconds
+     elapstime / updated show  1.23 seconds
 
 
 channel Sky Bundesliga DE HD site -- TVTODAY.DE -- update mode incremental
@@ -3138,7 +1486,7 @@ channel Sky Sport 2 DE HD site -- TVTODAY.DE -- update mode incremental
      unchanged shows inspected 12
      total after update        16
 
-15989 shows in 177 channels
-478 updated shows
-1 new shows added
-job finished at 15/08/2015 08:38:52 done in 2268 seconds
+15988 shows in 177 channels
+45 updated shows
+0 new shows added
+job finished at 15/08/2015 16:23:56 done in 1373 seconds
