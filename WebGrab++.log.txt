@@ -1,6 +1,6 @@
 ﻿WebGrab+Plus/w MDB & REX Postprocess -- version 1.54.6/0.01 -- Jan van Straaten
 -------------------------------------------------------------------------------
-job started at 16/09/2015 14:56:56
+job started at 16/09/2015 16:01:06
 
 
 reading config file: /home/stefano/git/epg/WebGrab++.config.xml
@@ -15,7 +15,7 @@ found: /home/stefano/git/epg/uk-sky.com.ini -- Revision 4
 timezone=UTC+00:00 mapped with timezone_id "Atlantic/Canary"
 found: /home/stefano/git/epg/tvtoday.de.ini -- Revision 12
 
-running on Unix 3.19.0.28
+running on Unix 3.14.32.6
 
 xmltv input file - /home/stefano/git/epg/guide.xml - found
 0 superfluous shows removed
@@ -44,33 +44,11 @@ channel RAI 3 HD site -- GUIDATV.SKY.IT -- update mode incremental
      total after update        142
 
 channel Rai 4 site -- GUIDATV.SKY.IT -- update mode incremental
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/09/2015 06:30:00 stop = 16/09/2015 07:45:00 title = Doctor Who
-      Replaces ----- start = 16/09/2015 06:30:00 stop = 16/09/2015 07:45:00 title = Doctor Who (2005)
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 16/09/2015 16:45:00 stop = 16/09/2015 17:40:00 title = Doctor Who
-      Replaces ----- start = 16/09/2015 16:45:00 stop = 16/09/2015 17:40:00 title = Doctor Who (2005)
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 07:10:00 stop = 17/09/2015 08:00:00 title = Doctor Who
-      Replaces ----- start = 17/09/2015 07:10:00 stop = 17/09/2015 08:00:00 title = Doctor Who (2005)
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 16:40:00 stop = 17/09/2015 17:30:00 title = Doctor Who
-      Replaces ----- start = 17/09/2015 16:40:00 stop = 17/09/2015 17:30:00 title = Doctor Who (2005)
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 07:10:00 stop = 18/09/2015 08:00:00 title = Doctor Who
-      Replaces ----- start = 18/09/2015 07:10:00 stop = 18/09/2015 08:00:00 title = Doctor Who (2005)
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 16:40:00 stop = 18/09/2015 17:35:00 title = Doctor Who
-      Replaces ----- start = 18/09/2015 16:40:00 stop = 18/09/2015 17:35:00 title = Doctor Who (2005)
 
    Summary for update of Rai 4
-     missing shows added       0
-     changed shows updated     6
-     new shows added           0
-     unchanged shows inspected 83
+     no changes, no update necessary !
+     unchanged shows inspected 89
      total after update        89
-     elapstime / updated show  0,38 seconds
-
 
 channel RAI 5 site -- GUIDATV.SKY.IT -- update mode incremental
 
@@ -143,13 +121,13 @@ channel Rete 4 HD site -- MEDIASET.IT -- update mode incremental
      new shows added           0
      unchanged shows inspected 40
      total after update        56
-     elapstime / updated show  0,30 seconds
+     elapstime / updated show  0.62 seconds
 
 
 channel Italia 2 site -- MEDIASET.IT -- update mode incremental
 unable to update channel Italia 2
 
-System.ArgumentOutOfRangeException: startIndex + length cannot exceed length of string.
+System.ArgumentOutOfRangeException: startIndex + length > this.length
 Parameter name: length
   at System.String.Substring (Int32 startIndex, Int32 length) [0x00000] in <filename unknown>:0 
   at WebGrab.Scrub.Cleanup (System.String element, System.String style, System.String[] vals) [0x00000] in <filename unknown>:0 
@@ -160,11 +138,27 @@ Parameter name: length
   at WebGrab.Program.Main (System.String[] args) [0x00000] in <filename unknown>:0 
 
 channel Mediaset Extra site -- MEDIASET.IT -- update mode incremental
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 17/09/2015 14:40:00 stop = 17/09/2015 17:05:00 title = ZELIG
+      Replaces ----- start = 17/09/2015 14:40:00 stop = 17/09/2015 17:30:00 title = ZELIG
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 17/09/2015 17:05:00 stop = 17/09/2015 17:30:00 title = SCHERZI A PARTE - SNACK
+      Replaces ----- start = 17/09/2015 14:40:00 stop = 17/09/2015 17:30:00 title = ZELIG
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 18/09/2015 14:40:00 stop = 18/09/2015 17:05:00 title = ZELIG
+      Replaces ----- start = 18/09/2015 14:40:00 stop = 18/09/2015 17:30:00 title = ZELIG
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 18/09/2015 17:05:00 stop = 18/09/2015 17:30:00 title = SCHERZI A PARTE - SNACK
+      Replaces ----- start = 18/09/2015 14:40:00 stop = 18/09/2015 17:30:00 title = ZELIG
 
    Summary for update of Mediaset Extra
-     no changes, no update necessary !
-     unchanged shows inspected 62
-     total after update        70
+     missing shows added       0
+     changed shows updated     4
+     new shows added           0
+     unchanged shows inspected 60
+     total after update        72
+     elapstime / updated show  0.53 seconds
+
 
 channel La 5 site -- MEDIASET.IT -- update mode incremental
 
@@ -174,11 +168,19 @@ channel La 5 site -- MEDIASET.IT -- update mode incremental
      total after update        89
 
 channel Iris site -- MEDIASET.IT -- update mode incremental
+   epg correction :  CHANGED show corrected,
+      show with ---- start = 17/09/2015 05:01:00 stop = 17/09/2015 06:47:00 title = LADRI DI FUTURO
+      Replaces ----- start = 17/09/2015 05:01:00 stop = 17/09/2015 06:26:00 title = LADRI DI FUTURO
+      Replaces ----- start = 17/09/2015 06:26:00 stop = 17/09/2015 06:47:00 title = TELEVENDITA MEDIA SHOPPING
 
    Summary for update of Iris
-     no changes, no update necessary !
-     unchanged shows inspected 43
-     total after update        47
+     missing shows added       0
+     changed shows updated     1
+     new shows added           0
+     unchanged shows inspected 41
+     total after update        46
+     elapstime / updated show  0.49 seconds
+
 
 channel Top Crime site -- MEDIASET.IT -- update mode incremental
 
@@ -289,199 +291,11 @@ channel Disney Junior site -- GUIDATV.SKY.IT -- update mode incremental
      total after update        279
 
 channel Dea Kids site -- GUIDATV.SKY.IT -- update mode incremental
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 06:00:00 stop = 18/09/2015 06:15:00 title = Viky Tv
-      Replaces ----- start = 18/09/2015 06:00:00 stop = 18/09/2015 06:10:00 title = Viky Tv
-      Replaces ----- start = 18/09/2015 06:10:00 stop = 18/09/2015 06:35:00 title = Magica Doremi
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 06:15:00 stop = 18/09/2015 06:40:00 title = Magica Doremi
-      Replaces ----- start = 18/09/2015 06:10:00 stop = 18/09/2015 06:35:00 title = Magica Doremi
-      Replaces ----- start = 18/09/2015 06:35:00 stop = 18/09/2015 07:00:00 title = Pippi Calzelunghe
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 06:40:00 stop = 18/09/2015 07:10:00 title = Pippi Calzelunghe
-      Replaces ----- start = 18/09/2015 06:35:00 stop = 18/09/2015 07:00:00 title = Pippi Calzelunghe
-      Replaces ----- start = 18/09/2015 07:00:00 stop = 18/09/2015 07:30:00 title = Tutti pazzi per Re Julien
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 07:10:00 stop = 18/09/2015 07:35:00 title = Tutti pazzi per Re Julien
-      Replaces ----- start = 18/09/2015 07:00:00 stop = 18/09/2015 07:30:00 title = Tutti pazzi per Re Julien
-      Replaces ----- start = 18/09/2015 07:30:00 stop = 18/09/2015 07:55:00 title = Tutti pazzi per Re Julien
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 07:35:00 stop = 18/09/2015 08:00:00 title = Tutti pazzi per Re Julien
-      Replaces ----- start = 18/09/2015 07:30:00 stop = 18/09/2015 07:55:00 title = Tutti pazzi per Re Julien
-      Replaces ----- start = 18/09/2015 07:55:00 stop = 18/09/2015 08:20:00 title = Geronimo Stilton
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 08:00:00 stop = 18/09/2015 08:25:00 title = Geronimo Stilton
-      Replaces ----- start = 18/09/2015 07:55:00 stop = 18/09/2015 08:20:00 title = Geronimo Stilton
-      Replaces ----- start = 18/09/2015 08:20:00 stop = 18/09/2015 08:45:00 title = Geronimo Stilton
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 08:25:00 stop = 18/09/2015 08:55:00 title = Geronimo Stilton
-      Replaces ----- start = 18/09/2015 08:20:00 stop = 18/09/2015 08:45:00 title = Geronimo Stilton
-      Replaces ----- start = 18/09/2015 08:45:00 stop = 18/09/2015 08:50:00 title = Oggy e i Maledetti Scarafaggi
-      Replaces ----- start = 18/09/2015 08:50:00 stop = 18/09/2015 08:55:00 title = Oggy e i Maledetti Scarafaggi
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 08:55:00 stop = 18/09/2015 09:05:00 title = Oggy e i Maledetti Scarafaggi
-      Replaces ----- start = 18/09/2015 08:55:00 stop = 18/09/2015 09:15:00 title = Oggy e i Maledetti Scarafaggi
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 09:05:00 stop = 18/09/2015 09:10:00 title = Oggy e i Maledetti Scarafaggi
-      Replaces ----- start = 18/09/2015 08:55:00 stop = 18/09/2015 09:15:00 title = Oggy e i Maledetti Scarafaggi
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 09:10:00 stop = 18/09/2015 09:20:00 title = Oggy e i Maledetti Scarafaggi
-      Replaces ----- start = 18/09/2015 08:55:00 stop = 18/09/2015 09:15:00 title = Oggy e i Maledetti Scarafaggi
-      Replaces ----- start = 18/09/2015 09:15:00 stop = 18/09/2015 09:20:00 title = Oggy e i Maledetti Scarafaggi
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 09:20:00 stop = 18/09/2015 09:30:00 title = Oggy e i Maledetti Scarafaggi
-      Replaces ----- start = 18/09/2015 09:20:00 stop = 18/09/2015 09:25:00 title = Oggy e i Maledetti Scarafaggi
-      Replaces ----- start = 18/09/2015 09:25:00 stop = 18/09/2015 09:45:00 title = Oggy e i Maledetti Scarafaggi
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 09:30:00 stop = 18/09/2015 09:40:00 title = Oggy e i Maledetti Scarafaggi
-      Replaces ----- start = 18/09/2015 09:25:00 stop = 18/09/2015 09:45:00 title = Oggy e i Maledetti Scarafaggi
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 09:40:00 stop = 18/09/2015 09:45:00 title = Oggy e i Maledetti Scarafaggi
-      Replaces ----- start = 18/09/2015 09:25:00 stop = 18/09/2015 09:45:00 title = Oggy e i Maledetti Scarafaggi
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 09:45:00 stop = 18/09/2015 09:55:00 title = Oggy e i Maledetti Scarafaggi
-      Replaces ----- start = 18/09/2015 09:45:00 stop = 18/09/2015 09:50:00 title = Oggy e i Maledetti Scarafaggi
-      Replaces ----- start = 18/09/2015 09:50:00 stop = 18/09/2015 09:55:00 title = Oggy e i Maledetti Scarafaggi
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 09:55:00 stop = 18/09/2015 10:00:00 title = Oggy e i Maledetti Scarafaggi
-      Replaces ----- start = 18/09/2015 09:55:00 stop = 18/09/2015 10:15:00 title = Oggy e i Maledetti Scarafaggi
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 10:00:00 stop = 18/09/2015 10:15:00 title = Oggy e i Maledetti Scarafaggi
-      Replaces ----- start = 18/09/2015 09:55:00 stop = 18/09/2015 10:15:00 title = Oggy e i Maledetti Scarafaggi
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 10:40:00 stop = 18/09/2015 11:05:00 title = Turbo Fast
-      Replaces ----- start = 18/09/2015 10:40:00 stop = 18/09/2015 10:55:00 title = Turbo Fast
-      Replaces ----- start = 18/09/2015 10:55:00 stop = 18/09/2015 11:10:00 title = Turbo Fast
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 11:05:00 stop = 18/09/2015 11:30:00 title = Turbo Fast
-      Replaces ----- start = 18/09/2015 10:55:00 stop = 18/09/2015 11:10:00 title = Turbo Fast
-      Replaces ----- start = 18/09/2015 11:10:00 stop = 18/09/2015 11:25:00 title = Mamma, Jamie ha i tentacoli!
-      Replaces ----- start = 18/09/2015 11:25:00 stop = 18/09/2015 11:40:00 title = Mamma, Jamie ha i tentacoli!
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 11:30:00 stop = 18/09/2015 11:40:00 title = Mamma, Jamie ha i tentacoli!
-      Replaces ----- start = 18/09/2015 11:25:00 stop = 18/09/2015 11:40:00 title = Mamma, Jamie ha i tentacoli!
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 11:40:00 stop = 18/09/2015 11:55:00 title = Mamma, Jamie ha i tentacoli!
-      Replaces ----- start = 18/09/2015 11:40:00 stop = 18/09/2015 12:10:00 title = Pippi Calzelunghe
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 11:55:00 stop = 18/09/2015 12:25:00 title = Pippi Calzelunghe
-      Replaces ----- start = 18/09/2015 11:40:00 stop = 18/09/2015 12:10:00 title = Pippi Calzelunghe
-      Replaces ----- start = 18/09/2015 12:10:00 stop = 18/09/2015 12:40:00 title = Pippi Calzelunghe
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 12:25:00 stop = 18/09/2015 13:00:00 title = Pippi Calzelunghe
-      Replaces ----- start = 18/09/2015 12:10:00 stop = 18/09/2015 12:40:00 title = Pippi Calzelunghe
-      Replaces ----- start = 18/09/2015 12:40:00 stop = 18/09/2015 13:00:00 title = Pippi Calzelunghe
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 13:50:00 stop = 18/09/2015 14:15:00 title = Tutti pazzi per Re Julien
-      Replaces ----- start = 18/09/2015 13:50:00 stop = 18/09/2015 14:20:00 title = Tutti pazzi per Re Julien
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 14:15:00 stop = 18/09/2015 14:40:00 title = Tutti pazzi per Re Julien
-      Replaces ----- start = 18/09/2015 13:50:00 stop = 18/09/2015 14:20:00 title = Tutti pazzi per Re Julien
-      Replaces ----- start = 18/09/2015 14:20:00 stop = 18/09/2015 14:50:00 title = Tutti pazzi per Re Julien
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 14:40:00 stop = 18/09/2015 15:05:00 title = Turbo Fast
-      Replaces ----- start = 18/09/2015 14:20:00 stop = 18/09/2015 14:50:00 title = Tutti pazzi per Re Julien
-      Replaces ----- start = 18/09/2015 14:50:00 stop = 18/09/2015 15:15:00 title = Turbo Fast
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 15:05:00 stop = 18/09/2015 15:35:00 title = Turbo Fast
-      Replaces ----- start = 18/09/2015 14:50:00 stop = 18/09/2015 15:15:00 title = Turbo Fast
-      Replaces ----- start = 18/09/2015 15:15:00 stop = 18/09/2015 15:55:00 title = Turbo Fast
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 15:35:00 stop = 18/09/2015 15:55:00 title = Le nuove avventure di Peter Pan
-      Replaces ----- start = 18/09/2015 15:15:00 stop = 18/09/2015 15:55:00 title = Turbo Fast
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 15:55:00 stop = 18/09/2015 16:10:00 title = Robin Hood alla conquista di Sherwood
-      Replaces ----- start = 18/09/2015 15:55:00 stop = 18/09/2015 16:20:00 title = Le nuove avventure di Peter Pan
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 16:10:00 stop = 18/09/2015 16:25:00 title = Robin Hood alla conquista di Sherwood
-      Replaces ----- start = 18/09/2015 15:55:00 stop = 18/09/2015 16:20:00 title = Le nuove avventure di Peter Pan
-      Replaces ----- start = 18/09/2015 16:20:00 stop = 18/09/2015 16:45:00 title = Winx club
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 16:25:00 stop = 18/09/2015 16:50:00 title = Winx club
-      Replaces ----- start = 18/09/2015 16:20:00 stop = 18/09/2015 16:45:00 title = Winx club
-      Replaces ----- start = 18/09/2015 16:45:00 stop = 18/09/2015 17:05:00 title = Winx club
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 16:50:00 stop = 18/09/2015 17:15:00 title = Winx club
-      Replaces ----- start = 18/09/2015 16:45:00 stop = 18/09/2015 17:05:00 title = Winx club
-      Replaces ----- start = 18/09/2015 17:05:00 stop = 18/09/2015 17:30:00 title = Lolirock
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 17:15:00 stop = 18/09/2015 17:40:00 title = Lolirock
-      Replaces ----- start = 18/09/2015 17:05:00 stop = 18/09/2015 17:30:00 title = Lolirock
-      Replaces ----- start = 18/09/2015 17:30:00 stop = 18/09/2015 17:45:00 title = Mamma, Jamie ha i tentacoli!
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 17:40:00 stop = 18/09/2015 17:55:00 title = Mamma, Jamie ha i tentacoli!
-      Replaces ----- start = 18/09/2015 17:30:00 stop = 18/09/2015 17:45:00 title = Mamma, Jamie ha i tentacoli!
-      Replaces ----- start = 18/09/2015 17:45:00 stop = 18/09/2015 18:00:00 title = Mamma, Jamie ha i tentacoli!
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 17:55:00 stop = 18/09/2015 18:10:00 title = Mamma, Jamie ha i tentacoli!
-      Replaces ----- start = 18/09/2015 17:45:00 stop = 18/09/2015 18:00:00 title = Mamma, Jamie ha i tentacoli!
-      Replaces ----- start = 18/09/2015 18:00:00 stop = 18/09/2015 18:30:00 title = Tutti pazzi per Re Julien
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 18:10:00 stop = 18/09/2015 18:35:00 title = Tutti pazzi per Re Julien
-      Replaces ----- start = 18/09/2015 18:00:00 stop = 18/09/2015 18:30:00 title = Tutti pazzi per Re Julien
-      Replaces ----- start = 18/09/2015 18:30:00 stop = 18/09/2015 19:00:00 title = Turbo Fast
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 18:35:00 stop = 18/09/2015 19:00:00 title = Turbo Fast
-      Replaces ----- start = 18/09/2015 18:30:00 stop = 18/09/2015 19:00:00 title = Turbo Fast
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 19:00:00 stop = 18/09/2015 19:25:00 title = Geronimo Stilton
-      Replaces ----- start = 18/09/2015 19:00:00 stop = 18/09/2015 19:30:00 title = Geronimo Stilton
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 19:25:00 stop = 18/09/2015 19:50:00 title = Geronimo Stilton
-      Replaces ----- start = 18/09/2015 19:00:00 stop = 18/09/2015 19:30:00 title = Geronimo Stilton
-      Replaces ----- start = 18/09/2015 19:30:00 stop = 18/09/2015 19:50:00 title = Geronimo Stilton
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 19:55:00 stop = 18/09/2015 20:20:00 title = Tutti pazzi per Re Julien
-      Replaces ----- start = 18/09/2015 19:55:00 stop = 18/09/2015 20:25:00 title = Tutti pazzi per Re Julien
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 20:20:00 stop = 18/09/2015 20:45:00 title = Tutti pazzi per Re Julien
-      Replaces ----- start = 18/09/2015 19:55:00 stop = 18/09/2015 20:25:00 title = Tutti pazzi per Re Julien
-      Replaces ----- start = 18/09/2015 20:25:00 stop = 18/09/2015 20:45:00 title = Tutti pazzi per Re Julien
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 20:45:00 stop = 18/09/2015 21:15:00 title = X Makers
-      Replaces ----- start = 18/09/2015 20:45:00 stop = 18/09/2015 21:05:00 title = X Makers
-      Replaces ----- start = 18/09/2015 21:05:00 stop = 18/09/2015 21:30:00 title = Winx club
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 21:15:00 stop = 18/09/2015 21:40:00 title = Winx club
-      Replaces ----- start = 18/09/2015 21:05:00 stop = 18/09/2015 21:30:00 title = Winx club
-      Replaces ----- start = 18/09/2015 21:30:00 stop = 18/09/2015 21:55:00 title = Winx club
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 21:40:00 stop = 18/09/2015 22:05:00 title = Winx club
-      Replaces ----- start = 18/09/2015 21:30:00 stop = 18/09/2015 21:55:00 title = Winx club
-      Replaces ----- start = 18/09/2015 21:55:00 stop = 18/09/2015 22:20:00 title = Winx club
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 22:05:00 stop = 18/09/2015 22:30:00 title = Winx club
-      Replaces ----- start = 18/09/2015 21:55:00 stop = 18/09/2015 22:20:00 title = Winx club
-      Replaces ----- start = 18/09/2015 22:20:00 stop = 18/09/2015 22:25:00 title = I Dalton
-      Replaces ----- start = 18/09/2015 22:25:00 stop = 18/09/2015 22:30:00 title = I Dalton
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 22:30:00 stop = 18/09/2015 22:35:00 title = I Dalton
-      Replaces ----- start = 18/09/2015 22:30:00 stop = 18/09/2015 22:45:00 title = I Dalton
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 22:35:00 stop = 18/09/2015 22:45:00 title = I Dalton
-      Replaces ----- start = 18/09/2015 22:30:00 stop = 18/09/2015 22:45:00 title = I Dalton
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 22:50:00 stop = 18/09/2015 23:00:00 title = I Dalton
-      Replaces ----- start = 18/09/2015 22:50:00 stop = 18/09/2015 22:55:00 title = I Dalton
-      Replaces ----- start = 18/09/2015 22:55:00 stop = 18/09/2015 23:15:00 title = I Dalton
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 23:00:00 stop = 18/09/2015 23:05:00 title = I Dalton
-      Replaces ----- start = 18/09/2015 22:55:00 stop = 18/09/2015 23:15:00 title = I Dalton
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 23:05:00 stop = 18/09/2015 23:15:00 title = I Dalton
-      Replaces ----- start = 18/09/2015 22:55:00 stop = 18/09/2015 23:15:00 title = I Dalton
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 23:40:00 stop = 19/09/2015 00:10:00 title = Pippi Calzelunghe
-      Replaces ----- start = 18/09/2015 23:40:00 stop = 19/09/2015 00:05:00 title = Pippi Calzelunghe
 
    Summary for update of Dea Kids
-     missing shows added       0
-     changed shows updated     50
-     new shows added           0
-     unchanged shows inspected 168
+     no changes, no update necessary !
+     unchanged shows inspected 218
      total after update        218
-     elapstime / updated show  0,41 seconds
-
 
 channel Dea Juonior site -- GUIDATV.SKY.IT -- update mode incremental
 
@@ -512,154 +326,11 @@ channel Manga site -- GUIDATV.SKY.IT -- update mode incremental
      total after update        158
 
 channel k2 site -- GUIDATV.SKY.IT -- update mode incremental
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 05:35:00 stop = 17/09/2015 06:00:00 title = Rekkit Rabbit
-      Replaces ----- start = 17/09/2015 05:35:00 stop = 17/09/2015 07:05:00 title = Rekkit Rabbit
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 06:00:00 stop = 17/09/2015 06:20:00 title = Oggy e i Maledetti Scarafaggi
-      Replaces ----- start = 17/09/2015 05:35:00 stop = 17/09/2015 07:05:00 title = Rekkit Rabbit
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 06:20:00 stop = 17/09/2015 06:40:00 title = Oggy e i Maledetti Scarafaggi
-      Replaces ----- start = 17/09/2015 05:35:00 stop = 17/09/2015 07:05:00 title = Rekkit Rabbit
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 06:40:00 stop = 17/09/2015 07:05:00 title = Oggy e i Maledetti Scarafaggi
-      Replaces ----- start = 17/09/2015 05:35:00 stop = 17/09/2015 07:05:00 title = Rekkit Rabbit
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 10:50:00 stop = 17/09/2015 11:10:00 title = I Dalton
-      Replaces ----- start = 17/09/2015 10:50:00 stop = 17/09/2015 11:15:00 title = I Dalton
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 11:10:00 stop = 17/09/2015 11:35:00 title = I Dalton
-      Replaces ----- start = 17/09/2015 10:50:00 stop = 17/09/2015 11:15:00 title = I Dalton
-      Replaces ----- start = 17/09/2015 11:15:00 stop = 17/09/2015 11:40:00 title = I Dalton
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 11:35:00 stop = 17/09/2015 12:00:00 title = Looped
-      Replaces ----- start = 17/09/2015 11:15:00 stop = 17/09/2015 11:40:00 title = I Dalton
-      Replaces ----- start = 17/09/2015 11:40:00 stop = 17/09/2015 12:00:00 title = Looped
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 14:30:00 stop = 17/09/2015 14:50:00 title = Oggy e i Maledetti Scarafaggi
-      Replaces ----- start = 17/09/2015 14:30:00 stop = 17/09/2015 14:55:00 title = Oggy e i Maledetti Scarafaggi
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 14:50:00 stop = 17/09/2015 15:15:00 title = Oggy e i Maledetti Scarafaggi
-      Replaces ----- start = 17/09/2015 14:30:00 stop = 17/09/2015 14:55:00 title = Oggy e i Maledetti Scarafaggi
-      Replaces ----- start = 17/09/2015 14:55:00 stop = 17/09/2015 15:20:00 title = Oggy e i Maledetti Scarafaggi
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 15:15:00 stop = 17/09/2015 15:40:00 title = Oggy e i Maledetti Scarafaggi
-      Replaces ----- start = 17/09/2015 14:55:00 stop = 17/09/2015 15:20:00 title = Oggy e i Maledetti Scarafaggi
-      Replaces ----- start = 17/09/2015 15:20:00 stop = 17/09/2015 15:45:00 title = Oggy e i Maledetti Scarafaggi
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 15:40:00 stop = 17/09/2015 16:05:00 title = Pokemon XY
-      Replaces ----- start = 17/09/2015 15:20:00 stop = 17/09/2015 15:45:00 title = Oggy e i Maledetti Scarafaggi
-      Replaces ----- start = 17/09/2015 15:45:00 stop = 17/09/2015 16:10:00 title = Pokemon XY
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 16:05:00 stop = 17/09/2015 16:35:00 title = Yu-Gi-Oh! Arc-V
-      Replaces ----- start = 17/09/2015 15:45:00 stop = 17/09/2015 16:10:00 title = Pokemon XY
-      Replaces ----- start = 17/09/2015 16:10:00 stop = 17/09/2015 16:35:00 title = Yu-Gi-Oh! Arc-V
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 16:35:00 stop = 17/09/2015 16:55:00 title = I Dalton
-      Replaces ----- start = 17/09/2015 16:35:00 stop = 17/09/2015 17:00:00 title = I Dalton
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 16:55:00 stop = 17/09/2015 17:20:00 title = I Dalton
-      Replaces ----- start = 17/09/2015 16:35:00 stop = 17/09/2015 17:00:00 title = I Dalton
-      Replaces ----- start = 17/09/2015 17:00:00 stop = 17/09/2015 17:25:00 title = I Dalton
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 17:20:00 stop = 17/09/2015 17:50:00 title = I Dalton
-      Replaces ----- start = 17/09/2015 17:00:00 stop = 17/09/2015 17:25:00 title = I Dalton
-      Replaces ----- start = 17/09/2015 17:25:00 stop = 17/09/2015 17:50:00 title = I Dalton
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 18:40:00 stop = 17/09/2015 19:00:00 title = Kick Chiapposky
-      Replaces ----- start = 17/09/2015 18:40:00 stop = 17/09/2015 19:05:00 title = Kick Chiapposky
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 19:00:00 stop = 17/09/2015 19:30:00 title = Alvinnn!!! e i Chipmunks
-      Replaces ----- start = 17/09/2015 18:40:00 stop = 17/09/2015 19:05:00 title = Kick Chiapposky
-      Replaces ----- start = 17/09/2015 19:05:00 stop = 17/09/2015 19:30:00 title = Alvinnn!!! e i Chipmunks
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 19:55:00 stop = 17/09/2015 20:25:00 title = The Drakers
-      Replaces ----- start = 17/09/2015 19:55:00 stop = 17/09/2015 20:20:00 title = The Drakers
-      Replaces ----- start = 17/09/2015 20:20:00 stop = 17/09/2015 20:45:00 title = I Dalton
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 20:25:00 stop = 17/09/2015 20:50:00 title = I Dalton
-      Replaces ----- start = 17/09/2015 20:20:00 stop = 17/09/2015 20:45:00 title = I Dalton
-      Replaces ----- start = 17/09/2015 20:45:00 stop = 17/09/2015 21:10:00 title = I Dalton
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 20:50:00 stop = 17/09/2015 21:10:00 title = I Dalton
-      Replaces ----- start = 17/09/2015 20:45:00 stop = 17/09/2015 21:10:00 title = I Dalton
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 22:00:00 stop = 17/09/2015 23:00:00 title = Troy
-      Replaces ----- start = 17/09/2015 22:00:00 stop = 17/09/2015 22:50:00 title = Troy
-      Replaces ----- start = 17/09/2015 22:50:00 stop = 17/09/2015 23:40:00 title = Le Avventure di Jeff Corwin
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 23:00:00 stop = 17/09/2015 23:55:00 title = Le Avventure di Jeff Corwin
-      Replaces ----- start = 17/09/2015 22:50:00 stop = 17/09/2015 23:40:00 title = Le Avventure di Jeff Corwin
-      Replaces ----- start = 17/09/2015 23:40:00 stop = 18/09/2015 00:30:00 title = Dynamo: magie impossibili
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 23:55:00 stop = 18/09/2015 00:40:00 title = Dynamo: magie impossibili
-      Replaces ----- start = 17/09/2015 23:40:00 stop = 18/09/2015 00:30:00 title = Dynamo: magie impossibili
-      Replaces ----- start = 18/09/2015 00:30:00 stop = 18/09/2015 01:00:00 title = Come e' fatto
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 00:40:00 stop = 18/09/2015 01:10:00 title = Come e' fatto
-      Replaces ----- start = 18/09/2015 00:30:00 stop = 18/09/2015 01:00:00 title = Come e' fatto
-      Replaces ----- start = 18/09/2015 01:00:00 stop = 18/09/2015 01:20:00 title = Rekkit Rabbit
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 01:10:00 stop = 18/09/2015 01:30:00 title = Rekkit Rabbit
-      Replaces ----- start = 18/09/2015 01:00:00 stop = 18/09/2015 01:20:00 title = Rekkit Rabbit
-      Replaces ----- start = 18/09/2015 01:20:00 stop = 18/09/2015 01:40:00 title = Rekkit Rabbit
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 01:30:00 stop = 18/09/2015 01:55:00 title = Rekkit Rabbit
-      Replaces ----- start = 18/09/2015 01:20:00 stop = 18/09/2015 01:40:00 title = Rekkit Rabbit
-      Replaces ----- start = 18/09/2015 01:40:00 stop = 18/09/2015 02:00:00 title = Dofus
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 01:55:00 stop = 18/09/2015 02:20:00 title = Dofus
-      Replaces ----- start = 18/09/2015 01:40:00 stop = 18/09/2015 02:00:00 title = Dofus
-      Replaces ----- start = 18/09/2015 02:00:00 stop = 18/09/2015 02:20:00 title = Dofus
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 02:20:00 stop = 18/09/2015 02:40:00 title = Dofus
-      Replaces ----- start = 18/09/2015 02:20:00 stop = 18/09/2015 02:40:00 title = Strange Hill High: scuola da paura
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 02:40:00 stop = 18/09/2015 03:05:00 title = Strange Hill High: scuola da paura
-      Replaces ----- start = 18/09/2015 02:40:00 stop = 18/09/2015 03:00:00 title = Strange Hill High: scuola da paura
-      Replaces ----- start = 18/09/2015 03:00:00 stop = 18/09/2015 03:20:00 title = Rekkit Rabbit
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 03:05:00 stop = 18/09/2015 03:15:00 title = Rekkit Rabbit
-      Replaces ----- start = 18/09/2015 03:00:00 stop = 18/09/2015 03:20:00 title = Rekkit Rabbit
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 03:15:00 stop = 18/09/2015 03:40:00 title = Rekkit Rabbit
-      Replaces ----- start = 18/09/2015 03:00:00 stop = 18/09/2015 03:20:00 title = Rekkit Rabbit
-      Replaces ----- start = 18/09/2015 03:20:00 stop = 18/09/2015 03:40:00 title = Rekkit Rabbit
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 03:40:00 stop = 18/09/2015 04:05:00 title = Dofus
-      Replaces ----- start = 18/09/2015 03:40:00 stop = 18/09/2015 04:00:00 title = Dofus
-      Replaces ----- start = 18/09/2015 04:00:00 stop = 18/09/2015 04:20:00 title = Dofus
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 04:05:00 stop = 18/09/2015 04:30:00 title = Dofus
-      Replaces ----- start = 18/09/2015 04:00:00 stop = 18/09/2015 04:20:00 title = Dofus
-      Replaces ----- start = 18/09/2015 04:20:00 stop = 18/09/2015 04:40:00 title = Strange Hill High: scuola da paura
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 04:30:00 stop = 18/09/2015 04:50:00 title = Strange Hill High: scuola da paura
-      Replaces ----- start = 18/09/2015 04:20:00 stop = 18/09/2015 04:40:00 title = Strange Hill High: scuola da paura
-      Replaces ----- start = 18/09/2015 04:40:00 stop = 18/09/2015 05:00:00 title = Strange Hill High: scuola da paura
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 04:50:00 stop = 18/09/2015 05:10:00 title = Strange Hill High: scuola da paura
-      Replaces ----- start = 18/09/2015 04:40:00 stop = 18/09/2015 05:00:00 title = Strange Hill High: scuola da paura
-      Replaces ----- start = 18/09/2015 05:00:00 stop = 18/09/2015 05:25:00 title = Rekkit Rabbit
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 05:10:00 stop = 18/09/2015 05:35:00 title = Rekkit Rabbit
-      Replaces ----- start = 18/09/2015 05:00:00 stop = 18/09/2015 05:25:00 title = Rekkit Rabbit
-      Replaces ----- start = 18/09/2015 05:25:00 stop = 18/09/2015 06:00:00 title = Rekkit Rabbit
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 05:35:00 stop = 18/09/2015 07:05:00 title = Rekkit Rabbit
-      Replaces ----- start = 18/09/2015 05:25:00 stop = 18/09/2015 06:00:00 title = Rekkit Rabbit
-      Replaces ----- start = 18/09/2015 06:00:00 stop = 18/09/2015 06:20:00 title = Oggy e i Maledetti Scarafaggi
-      Replaces ----- start = 18/09/2015 06:20:00 stop = 18/09/2015 06:40:00 title = Oggy e i Maledetti Scarafaggi
-      Replaces ----- start = 18/09/2015 06:40:00 stop = 18/09/2015 07:05:00 title = Oggy e i Maledetti Scarafaggi
 
    Summary for update of k2
-     missing shows added       0
-     changed shows updated     37
-     new shows added           0
-     unchanged shows inspected 126
+     no changes, no update necessary !
+     unchanged shows inspected 163
      total after update        163
-     elapstime / updated show  0,42 seconds
-
 
 channel Boomerang site -- GUIDATV.SKY.IT -- update mode incremental
 
@@ -1054,328 +725,18 @@ channel Sky Atlantic + 1 site -- GUIDATV.SKY.IT -- update mode incremental
      total after update        61
 
 channel Fox  HD site -- GUIDATV.SKY.IT -- update mode incremental
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 06:00:00 stop = 17/09/2015 06:55:00 title = The Chicago Code
-      Replaces ----- start = 17/09/2015 06:00:00 stop = 17/09/2015 06:20:00 title = La vita secondo Jim
-      Replaces ----- start = 17/09/2015 06:20:00 stop = 17/09/2015 07:10:00 title = The Chicago Code
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 06:55:00 stop = 17/09/2015 07:50:00 title = Sleepy Hollow
-      Replaces ----- start = 17/09/2015 06:20:00 stop = 17/09/2015 07:10:00 title = The Chicago Code
-      Replaces ----- start = 17/09/2015 07:10:00 stop = 17/09/2015 08:05:00 title = Sleepy Hollow
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 07:50:00 stop = 17/09/2015 08:40:00 title = Teen Wolf
-      Replaces ----- start = 17/09/2015 07:10:00 stop = 17/09/2015 08:05:00 title = Sleepy Hollow
-      Replaces ----- start = 17/09/2015 08:05:00 stop = 17/09/2015 08:55:00 title = Teen Wolf
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 08:40:00 stop = 17/09/2015 09:05:00 title = La vita secondo Jim
-      Replaces ----- start = 17/09/2015 08:05:00 stop = 17/09/2015 08:55:00 title = Teen Wolf
-      Replaces ----- start = 17/09/2015 08:55:00 stop = 17/09/2015 09:25:00 title = La vita secondo Jim
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 09:05:00 stop = 17/09/2015 09:35:00 title = La vita secondo Jim
-      Replaces ----- start = 17/09/2015 08:55:00 stop = 17/09/2015 09:25:00 title = La vita secondo Jim
-      Replaces ----- start = 17/09/2015 09:25:00 stop = 17/09/2015 09:50:00 title = La vita secondo Jim
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 09:35:00 stop = 17/09/2015 10:00:00 title = The Big Bang Theory
-      Replaces ----- start = 17/09/2015 09:25:00 stop = 17/09/2015 09:50:00 title = La vita secondo Jim
-      Replaces ----- start = 17/09/2015 09:50:00 stop = 17/09/2015 10:20:00 title = The Big Bang Theory
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 10:00:00 stop = 17/09/2015 10:30:00 title = 2 Broke Girls
-      Replaces ----- start = 17/09/2015 09:50:00 stop = 17/09/2015 10:20:00 title = The Big Bang Theory
-      Replaces ----- start = 17/09/2015 10:20:00 stop = 17/09/2015 10:45:00 title = 2 Broke Girls
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 10:30:00 stop = 17/09/2015 10:55:00 title = I Simpson
-      Replaces ----- start = 17/09/2015 10:20:00 stop = 17/09/2015 10:45:00 title = 2 Broke Girls
-      Replaces ----- start = 17/09/2015 10:45:00 stop = 17/09/2015 11:15:00 title = I Simpson
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 10:55:00 stop = 17/09/2015 11:25:00 title = I Simpson
-      Replaces ----- start = 17/09/2015 10:45:00 stop = 17/09/2015 11:15:00 title = I Simpson
-      Replaces ----- start = 17/09/2015 11:15:00 stop = 17/09/2015 11:40:00 title = I Simpson
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 11:25:00 stop = 17/09/2015 11:50:00 title = I Simpson
-      Replaces ----- start = 17/09/2015 11:15:00 stop = 17/09/2015 11:40:00 title = I Simpson
-      Replaces ----- start = 17/09/2015 11:40:00 stop = 17/09/2015 12:10:00 title = I Simpson
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 11:50:00 stop = 17/09/2015 12:20:00 title = Friends
-      Replaces ----- start = 17/09/2015 11:40:00 stop = 17/09/2015 12:10:00 title = I Simpson
-      Replaces ----- start = 17/09/2015 12:10:00 stop = 17/09/2015 12:35:00 title = Friends
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 12:20:00 stop = 17/09/2015 12:45:00 title = Friends
-      Replaces ----- start = 17/09/2015 12:10:00 stop = 17/09/2015 12:35:00 title = Friends
-      Replaces ----- start = 17/09/2015 12:35:00 stop = 17/09/2015 13:05:00 title = Friends
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 12:45:00 stop = 17/09/2015 13:40:00 title = Bones
-      Replaces ----- start = 17/09/2015 12:35:00 stop = 17/09/2015 13:05:00 title = Friends
-      Replaces ----- start = 17/09/2015 13:05:00 stop = 17/09/2015 14:00:00 title = Bones
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 13:40:00 stop = 17/09/2015 14:05:00 title = The Big Bang Theory
-      Replaces ----- start = 17/09/2015 13:05:00 stop = 17/09/2015 14:00:00 title = Bones
-      Replaces ----- start = 17/09/2015 14:00:00 stop = 17/09/2015 14:25:00 title = The Big Bang Theory
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 14:05:00 stop = 17/09/2015 14:35:00 title = 2 Broke Girls
-      Replaces ----- start = 17/09/2015 14:00:00 stop = 17/09/2015 14:25:00 title = The Big Bang Theory
-      Replaces ----- start = 17/09/2015 14:25:00 stop = 17/09/2015 14:50:00 title = 2 Broke Girls
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 14:35:00 stop = 17/09/2015 15:00:00 title = I Simpson
-      Replaces ----- start = 17/09/2015 14:25:00 stop = 17/09/2015 14:50:00 title = 2 Broke Girls
-      Replaces ----- start = 17/09/2015 14:50:00 stop = 17/09/2015 15:15:00 title = I Simpson
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 15:00:00 stop = 17/09/2015 15:30:00 title = I Simpson
-      Replaces ----- start = 17/09/2015 14:50:00 stop = 17/09/2015 15:15:00 title = I Simpson
-      Replaces ----- start = 17/09/2015 15:15:00 stop = 17/09/2015 15:45:00 title = I Simpson
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 15:30:00 stop = 17/09/2015 15:55:00 title = I Simpson
-      Replaces ----- start = 17/09/2015 15:15:00 stop = 17/09/2015 15:45:00 title = I Simpson
-      Replaces ----- start = 17/09/2015 15:45:00 stop = 17/09/2015 16:10:00 title = I Simpson
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 15:55:00 stop = 17/09/2015 16:20:00 title = La vita secondo Jim
-      Replaces ----- start = 17/09/2015 15:45:00 stop = 17/09/2015 16:10:00 title = I Simpson
-      Replaces ----- start = 17/09/2015 16:10:00 stop = 17/09/2015 16:40:00 title = La vita secondo Jim
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 16:20:00 stop = 17/09/2015 16:50:00 title = La vita secondo Jim
-      Replaces ----- start = 17/09/2015 16:10:00 stop = 17/09/2015 16:40:00 title = La vita secondo Jim
-      Replaces ----- start = 17/09/2015 16:40:00 stop = 17/09/2015 17:05:00 title = La vita secondo Jim
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 16:50:00 stop = 17/09/2015 17:15:00 title = Friends
-      Replaces ----- start = 17/09/2015 16:40:00 stop = 17/09/2015 17:05:00 title = La vita secondo Jim
-      Replaces ----- start = 17/09/2015 17:05:00 stop = 17/09/2015 17:35:00 title = Friends
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 17:15:00 stop = 17/09/2015 17:45:00 title = Friends
-      Replaces ----- start = 17/09/2015 17:05:00 stop = 17/09/2015 17:35:00 title = Friends
-      Replaces ----- start = 17/09/2015 17:35:00 stop = 17/09/2015 18:00:00 title = Friends
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 17:45:00 stop = 17/09/2015 18:15:00 title = Friends
-      Replaces ----- start = 17/09/2015 17:35:00 stop = 17/09/2015 18:00:00 title = Friends
-      Replaces ----- start = 17/09/2015 18:00:00 stop = 17/09/2015 18:30:00 title = Friends
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 18:15:00 stop = 17/09/2015 18:45:00 title = Friends
-      Replaces ----- start = 17/09/2015 18:00:00 stop = 17/09/2015 18:30:00 title = Friends
-      Replaces ----- start = 17/09/2015 18:30:00 stop = 17/09/2015 19:00:00 title = Friends
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 18:45:00 stop = 17/09/2015 19:10:00 title = I Simpson
-      Replaces ----- start = 17/09/2015 18:30:00 stop = 17/09/2015 19:00:00 title = Friends
-      Replaces ----- start = 17/09/2015 19:00:00 stop = 17/09/2015 19:20:00 title = I Simpson
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 19:10:00 stop = 17/09/2015 19:35:00 title = I Simpson
-      Replaces ----- start = 17/09/2015 19:00:00 stop = 17/09/2015 19:20:00 title = I Simpson
-      Replaces ----- start = 17/09/2015 19:20:00 stop = 17/09/2015 19:45:00 title = I Simpson
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 19:35:00 stop = 17/09/2015 20:00:00 title = I Simpson
-      Replaces ----- start = 17/09/2015 19:20:00 stop = 17/09/2015 19:45:00 title = I Simpson
-      Replaces ----- start = 17/09/2015 19:45:00 stop = 17/09/2015 20:10:00 title = I Simpson
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 20:00:00 stop = 17/09/2015 20:30:00 title = The Big Bang Theory
-      Replaces ----- start = 17/09/2015 19:45:00 stop = 17/09/2015 20:10:00 title = I Simpson
-      Replaces ----- start = 17/09/2015 20:10:00 stop = 17/09/2015 20:35:00 title = The Big Bang Theory
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 20:30:00 stop = 17/09/2015 21:00:00 title = 2 Broke Girls
-      Replaces ----- start = 17/09/2015 20:10:00 stop = 17/09/2015 20:35:00 title = The Big Bang Theory
-      Replaces ----- start = 17/09/2015 20:35:00 stop = 17/09/2015 21:00:00 title = 2 Broke Girls
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 22:45:00 stop = 17/09/2015 23:50:00 title = Cumbia Ninja
-      Replaces ----- start = 17/09/2015 22:45:00 stop = 17/09/2015 23:35:00 title = Cumbia Ninja
-      Replaces ----- start = 17/09/2015 23:35:00 stop = 18/09/2015 00:00:00 title = The Big Bang Theory
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 23:50:00 stop = 18/09/2015 00:15:00 title = The Big Bang Theory
-      Replaces ----- start = 17/09/2015 23:35:00 stop = 18/09/2015 00:00:00 title = The Big Bang Theory
-      Replaces ----- start = 18/09/2015 00:00:00 stop = 18/09/2015 00:30:00 title = 2 Broke Girls
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 00:15:00 stop = 18/09/2015 00:45:00 title = 2 Broke Girls
-      Replaces ----- start = 18/09/2015 00:00:00 stop = 18/09/2015 00:30:00 title = 2 Broke Girls
-      Replaces ----- start = 18/09/2015 00:30:00 stop = 18/09/2015 01:20:00 title = Bones
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 00:45:00 stop = 18/09/2015 01:40:00 title = Bones
-      Replaces ----- start = 18/09/2015 00:30:00 stop = 18/09/2015 01:20:00 title = Bones
-      Replaces ----- start = 18/09/2015 01:20:00 stop = 18/09/2015 02:10:00 title = Bones
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 01:40:00 stop = 18/09/2015 02:35:00 title = Bones
-      Replaces ----- start = 18/09/2015 01:20:00 stop = 18/09/2015 02:10:00 title = Bones
-      Replaces ----- start = 18/09/2015 02:10:00 stop = 18/09/2015 03:00:00 title = The Walking Dead
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 02:35:00 stop = 18/09/2015 03:30:00 title = The Walking Dead
-      Replaces ----- start = 18/09/2015 02:10:00 stop = 18/09/2015 03:00:00 title = The Walking Dead
-      Replaces ----- start = 18/09/2015 03:00:00 stop = 18/09/2015 03:50:00 title = Wayward Pines Ep.2
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 03:30:00 stop = 18/09/2015 04:20:00 title = Wayward Pines Ep.2
-      Replaces ----- start = 18/09/2015 03:00:00 stop = 18/09/2015 03:50:00 title = Wayward Pines Ep.2
-      Replaces ----- start = 18/09/2015 03:50:00 stop = 18/09/2015 04:45:00 title = Teen Wolf
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 04:20:00 stop = 18/09/2015 05:10:00 title = Teen Wolf
-      Replaces ----- start = 18/09/2015 03:50:00 stop = 18/09/2015 04:45:00 title = Teen Wolf
-      Replaces ----- start = 18/09/2015 04:45:00 stop = 18/09/2015 06:00:00 title = The Guard
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 05:10:00 stop = 18/09/2015 06:00:00 title = The Guard
-      Replaces ----- start = 18/09/2015 04:45:00 stop = 18/09/2015 06:00:00 title = The Guard
 
    Summary for update of Fox  HD
-     missing shows added       0
-     changed shows updated     38
-     new shows added           0
-     unchanged shows inspected 85
+     no changes, no update necessary !
+     unchanged shows inspected 123
      total after update        123
-     elapstime / updated show  0,44 seconds
-
 
 channel FOX +1 site -- GUIDATV.SKY.IT -- update mode incremental
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 07:00:00 stop = 17/09/2015 07:55:00 title = The Chicago Code
-      Replaces ----- start = 17/09/2015 07:00:00 stop = 17/09/2015 07:20:00 title = La vita secondo Jim
-      Replaces ----- start = 17/09/2015 07:20:00 stop = 17/09/2015 08:10:00 title = The Chicago Code
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 07:55:00 stop = 17/09/2015 08:50:00 title = Sleepy Hollow
-      Replaces ----- start = 17/09/2015 07:20:00 stop = 17/09/2015 08:10:00 title = The Chicago Code
-      Replaces ----- start = 17/09/2015 08:10:00 stop = 17/09/2015 09:05:00 title = Sleepy Hollow
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 08:50:00 stop = 17/09/2015 09:40:00 title = Teen Wolf
-      Replaces ----- start = 17/09/2015 08:10:00 stop = 17/09/2015 09:05:00 title = Sleepy Hollow
-      Replaces ----- start = 17/09/2015 09:05:00 stop = 17/09/2015 09:55:00 title = Teen Wolf
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 09:40:00 stop = 17/09/2015 10:05:00 title = La vita secondo Jim
-      Replaces ----- start = 17/09/2015 09:05:00 stop = 17/09/2015 09:55:00 title = Teen Wolf
-      Replaces ----- start = 17/09/2015 09:55:00 stop = 17/09/2015 10:25:00 title = La vita secondo Jim
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 10:05:00 stop = 17/09/2015 10:35:00 title = La vita secondo Jim
-      Replaces ----- start = 17/09/2015 09:55:00 stop = 17/09/2015 10:25:00 title = La vita secondo Jim
-      Replaces ----- start = 17/09/2015 10:25:00 stop = 17/09/2015 10:50:00 title = La vita secondo Jim
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 10:35:00 stop = 17/09/2015 11:00:00 title = The Big Bang Theory
-      Replaces ----- start = 17/09/2015 10:25:00 stop = 17/09/2015 10:50:00 title = La vita secondo Jim
-      Replaces ----- start = 17/09/2015 10:50:00 stop = 17/09/2015 11:20:00 title = The Big Bang Theory
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 11:00:00 stop = 17/09/2015 11:30:00 title = 2 Broke Girls
-      Replaces ----- start = 17/09/2015 10:50:00 stop = 17/09/2015 11:20:00 title = The Big Bang Theory
-      Replaces ----- start = 17/09/2015 11:20:00 stop = 17/09/2015 11:45:00 title = 2 Broke Girls
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 11:30:00 stop = 17/09/2015 11:55:00 title = I Simpson
-      Replaces ----- start = 17/09/2015 11:20:00 stop = 17/09/2015 11:45:00 title = 2 Broke Girls
-      Replaces ----- start = 17/09/2015 11:45:00 stop = 17/09/2015 12:15:00 title = I Simpson
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 11:55:00 stop = 17/09/2015 12:25:00 title = I Simpson
-      Replaces ----- start = 17/09/2015 11:45:00 stop = 17/09/2015 12:15:00 title = I Simpson
-      Replaces ----- start = 17/09/2015 12:15:00 stop = 17/09/2015 12:40:00 title = I Simpson
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 12:25:00 stop = 17/09/2015 12:50:00 title = I Simpson
-      Replaces ----- start = 17/09/2015 12:15:00 stop = 17/09/2015 12:40:00 title = I Simpson
-      Replaces ----- start = 17/09/2015 12:40:00 stop = 17/09/2015 13:10:00 title = I Simpson
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 12:50:00 stop = 17/09/2015 13:20:00 title = Friends
-      Replaces ----- start = 17/09/2015 12:40:00 stop = 17/09/2015 13:10:00 title = I Simpson
-      Replaces ----- start = 17/09/2015 13:10:00 stop = 17/09/2015 13:35:00 title = Friends
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 13:20:00 stop = 17/09/2015 13:45:00 title = Friends
-      Replaces ----- start = 17/09/2015 13:10:00 stop = 17/09/2015 13:35:00 title = Friends
-      Replaces ----- start = 17/09/2015 13:35:00 stop = 17/09/2015 14:05:00 title = Friends
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 13:45:00 stop = 17/09/2015 14:40:00 title = Bones
-      Replaces ----- start = 17/09/2015 13:35:00 stop = 17/09/2015 14:05:00 title = Friends
-      Replaces ----- start = 17/09/2015 14:05:00 stop = 17/09/2015 15:00:00 title = Bones
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 14:40:00 stop = 17/09/2015 15:05:00 title = The Big Bang Theory
-      Replaces ----- start = 17/09/2015 14:05:00 stop = 17/09/2015 15:00:00 title = Bones
-      Replaces ----- start = 17/09/2015 15:00:00 stop = 17/09/2015 15:25:00 title = The Big Bang Theory
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 15:05:00 stop = 17/09/2015 15:35:00 title = 2 Broke Girls
-      Replaces ----- start = 17/09/2015 15:00:00 stop = 17/09/2015 15:25:00 title = The Big Bang Theory
-      Replaces ----- start = 17/09/2015 15:25:00 stop = 17/09/2015 15:50:00 title = 2 Broke Girls
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 15:35:00 stop = 17/09/2015 16:00:00 title = I Simpson
-      Replaces ----- start = 17/09/2015 15:25:00 stop = 17/09/2015 15:50:00 title = 2 Broke Girls
-      Replaces ----- start = 17/09/2015 15:50:00 stop = 17/09/2015 16:15:00 title = I Simpson
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 16:00:00 stop = 17/09/2015 16:30:00 title = I Simpson
-      Replaces ----- start = 17/09/2015 15:50:00 stop = 17/09/2015 16:15:00 title = I Simpson
-      Replaces ----- start = 17/09/2015 16:15:00 stop = 17/09/2015 16:45:00 title = I Simpson
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 16:30:00 stop = 17/09/2015 16:55:00 title = I Simpson
-      Replaces ----- start = 17/09/2015 16:15:00 stop = 17/09/2015 16:45:00 title = I Simpson
-      Replaces ----- start = 17/09/2015 16:45:00 stop = 17/09/2015 17:10:00 title = I Simpson
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 16:55:00 stop = 17/09/2015 17:20:00 title = La vita secondo Jim
-      Replaces ----- start = 17/09/2015 16:45:00 stop = 17/09/2015 17:10:00 title = I Simpson
-      Replaces ----- start = 17/09/2015 17:10:00 stop = 17/09/2015 17:40:00 title = La vita secondo Jim
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 17:20:00 stop = 17/09/2015 17:50:00 title = La vita secondo Jim
-      Replaces ----- start = 17/09/2015 17:10:00 stop = 17/09/2015 17:40:00 title = La vita secondo Jim
-      Replaces ----- start = 17/09/2015 17:40:00 stop = 17/09/2015 18:05:00 title = La vita secondo Jim
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 17:50:00 stop = 17/09/2015 18:15:00 title = Friends
-      Replaces ----- start = 17/09/2015 17:40:00 stop = 17/09/2015 18:05:00 title = La vita secondo Jim
-      Replaces ----- start = 17/09/2015 18:05:00 stop = 17/09/2015 18:35:00 title = Friends
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 18:15:00 stop = 17/09/2015 18:45:00 title = Friends
-      Replaces ----- start = 17/09/2015 18:05:00 stop = 17/09/2015 18:35:00 title = Friends
-      Replaces ----- start = 17/09/2015 18:35:00 stop = 17/09/2015 19:00:00 title = Friends
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 18:45:00 stop = 17/09/2015 19:15:00 title = Friends
-      Replaces ----- start = 17/09/2015 18:35:00 stop = 17/09/2015 19:00:00 title = Friends
-      Replaces ----- start = 17/09/2015 19:00:00 stop = 17/09/2015 19:30:00 title = Friends
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 19:15:00 stop = 17/09/2015 19:45:00 title = Friends
-      Replaces ----- start = 17/09/2015 19:00:00 stop = 17/09/2015 19:30:00 title = Friends
-      Replaces ----- start = 17/09/2015 19:30:00 stop = 17/09/2015 20:00:00 title = Friends
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 19:45:00 stop = 17/09/2015 20:10:00 title = I Simpson
-      Replaces ----- start = 17/09/2015 19:30:00 stop = 17/09/2015 20:00:00 title = Friends
-      Replaces ----- start = 17/09/2015 20:00:00 stop = 17/09/2015 20:20:00 title = I Simpson
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 20:10:00 stop = 17/09/2015 20:35:00 title = I Simpson
-      Replaces ----- start = 17/09/2015 20:00:00 stop = 17/09/2015 20:20:00 title = I Simpson
-      Replaces ----- start = 17/09/2015 20:20:00 stop = 17/09/2015 20:45:00 title = I Simpson
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 20:35:00 stop = 17/09/2015 21:00:00 title = I Simpson
-      Replaces ----- start = 17/09/2015 20:20:00 stop = 17/09/2015 20:45:00 title = I Simpson
-      Replaces ----- start = 17/09/2015 20:45:00 stop = 17/09/2015 21:10:00 title = I Simpson
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 21:00:00 stop = 17/09/2015 21:30:00 title = The Big Bang Theory
-      Replaces ----- start = 17/09/2015 20:45:00 stop = 17/09/2015 21:10:00 title = I Simpson
-      Replaces ----- start = 17/09/2015 21:10:00 stop = 17/09/2015 21:35:00 title = The Big Bang Theory
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 21:30:00 stop = 17/09/2015 22:00:00 title = 2 Broke Girls
-      Replaces ----- start = 17/09/2015 21:10:00 stop = 17/09/2015 21:35:00 title = The Big Bang Theory
-      Replaces ----- start = 17/09/2015 21:35:00 stop = 17/09/2015 22:00:00 title = 2 Broke Girls
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 23:45:00 stop = 18/09/2015 00:50:00 title = Cumbia Ninja
-      Replaces ----- start = 17/09/2015 23:45:00 stop = 18/09/2015 00:35:00 title = Cumbia Ninja
-      Replaces ----- start = 18/09/2015 00:35:00 stop = 18/09/2015 01:00:00 title = The Big Bang Theory
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 00:50:00 stop = 18/09/2015 01:15:00 title = The Big Bang Theory
-      Replaces ----- start = 18/09/2015 00:35:00 stop = 18/09/2015 01:00:00 title = The Big Bang Theory
-      Replaces ----- start = 18/09/2015 01:00:00 stop = 18/09/2015 01:30:00 title = 2 Broke Girls
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 01:15:00 stop = 18/09/2015 01:45:00 title = 2 Broke Girls
-      Replaces ----- start = 18/09/2015 01:00:00 stop = 18/09/2015 01:30:00 title = 2 Broke Girls
-      Replaces ----- start = 18/09/2015 01:30:00 stop = 18/09/2015 02:20:00 title = Bones
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 01:45:00 stop = 18/09/2015 02:40:00 title = Bones
-      Replaces ----- start = 18/09/2015 01:30:00 stop = 18/09/2015 02:20:00 title = Bones
-      Replaces ----- start = 18/09/2015 02:20:00 stop = 18/09/2015 03:10:00 title = Bones
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 02:40:00 stop = 18/09/2015 03:35:00 title = Bones
-      Replaces ----- start = 18/09/2015 02:20:00 stop = 18/09/2015 03:10:00 title = Bones
-      Replaces ----- start = 18/09/2015 03:10:00 stop = 18/09/2015 04:00:00 title = The Walking Dead
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 03:35:00 stop = 18/09/2015 04:30:00 title = The Walking Dead
-      Replaces ----- start = 18/09/2015 03:10:00 stop = 18/09/2015 04:00:00 title = The Walking Dead
-      Replaces ----- start = 18/09/2015 04:00:00 stop = 18/09/2015 04:50:00 title = Wayward Pines Ep.2
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 04:30:00 stop = 18/09/2015 05:20:00 title = Wayward Pines Ep.2
-      Replaces ----- start = 18/09/2015 04:00:00 stop = 18/09/2015 04:50:00 title = Wayward Pines Ep.2
-      Replaces ----- start = 18/09/2015 04:50:00 stop = 18/09/2015 05:45:00 title = Teen Wolf
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 05:20:00 stop = 18/09/2015 06:10:00 title = Teen Wolf
-      Replaces ----- start = 18/09/2015 04:50:00 stop = 18/09/2015 05:45:00 title = Teen Wolf
-      Replaces ----- start = 18/09/2015 05:45:00 stop = 18/09/2015 07:00:00 title = The Guard
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 06:10:00 stop = 18/09/2015 07:00:00 title = The Guard
-      Replaces ----- start = 18/09/2015 05:45:00 stop = 18/09/2015 07:00:00 title = The Guard
 
    Summary for update of FOX +1
-     missing shows added       0
-     changed shows updated     38
-     new shows added           0
-     unchanged shows inspected 86
+     no changes, no update necessary !
+     unchanged shows inspected 124
      total after update        124
-     elapstime / updated show  0,44 seconds
-
 
 channel Fox life HD site -- GUIDATV.SKY.IT -- update mode incremental
 
@@ -1392,242 +753,18 @@ channel FOX LIFE +1 site -- GUIDATV.SKY.IT -- update mode incremental
      total after update        86
 
 channel Fox Crime HD site -- GUIDATV.SKY.IT -- update mode incremental
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 06:00:00 stop = 17/09/2015 06:45:00 title = The Glades
-      Replaces ----- start = 17/09/2015 06:00:00 stop = 17/09/2015 06:40:00 title = The Glades
-      Replaces ----- start = 17/09/2015 06:40:00 stop = 17/09/2015 07:35:00 title = The Americans
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 06:45:00 stop = 17/09/2015 07:35:00 title = The Americans
-      Replaces ----- start = 17/09/2015 06:40:00 stop = 17/09/2015 07:35:00 title = The Americans
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 09:20:00 stop = 17/09/2015 10:15:00 title = NCIS
-      Replaces ----- start = 17/09/2015 09:20:00 stop = 17/09/2015 10:10:00 title = NCIS
-      Replaces ----- start = 17/09/2015 10:10:00 stop = 17/09/2015 11:00:00 title = NCIS
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 10:15:00 stop = 17/09/2015 11:05:00 title = NCIS
-      Replaces ----- start = 17/09/2015 10:10:00 stop = 17/09/2015 11:00:00 title = NCIS
-      Replaces ----- start = 17/09/2015 11:00:00 stop = 17/09/2015 11:55:00 title = Elementary
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 11:05:00 stop = 17/09/2015 12:00:00 title = Elementary
-      Replaces ----- start = 17/09/2015 11:00:00 stop = 17/09/2015 11:55:00 title = Elementary
-      Replaces ----- start = 17/09/2015 11:55:00 stop = 17/09/2015 12:55:00 title = Elementary
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 12:00:00 stop = 17/09/2015 12:55:00 title = Elementary
-      Replaces ----- start = 17/09/2015 11:55:00 stop = 17/09/2015 12:55:00 title = Elementary
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 12:55:00 stop = 17/09/2015 13:50:00 title = The Americans
-      Replaces ----- start = 17/09/2015 12:55:00 stop = 17/09/2015 14:00:00 title = The Americans
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 13:50:00 stop = 17/09/2015 14:45:00 title = The Following
-      Replaces ----- start = 17/09/2015 12:55:00 stop = 17/09/2015 14:00:00 title = The Americans
-      Replaces ----- start = 17/09/2015 14:00:00 stop = 17/09/2015 14:50:00 title = The Following
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 14:45:00 stop = 17/09/2015 15:40:00 title = The Glades
-      Replaces ----- start = 17/09/2015 14:00:00 stop = 17/09/2015 14:50:00 title = The Following
-      Replaces ----- start = 17/09/2015 14:50:00 stop = 17/09/2015 15:45:00 title = The Glades
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 15:40:00 stop = 17/09/2015 16:35:00 title = Law & Order svu
-      Replaces ----- start = 17/09/2015 14:50:00 stop = 17/09/2015 15:45:00 title = The Glades
-      Replaces ----- start = 17/09/2015 15:45:00 stop = 17/09/2015 16:35:00 title = Law & Order svu
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 16:35:00 stop = 17/09/2015 17:25:00 title = NCIS
-      Replaces ----- start = 17/09/2015 16:35:00 stop = 17/09/2015 17:30:00 title = NCIS
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 17:25:00 stop = 17/09/2015 18:20:00 title = NCIS
-      Replaces ----- start = 17/09/2015 16:35:00 stop = 17/09/2015 17:30:00 title = NCIS
-      Replaces ----- start = 17/09/2015 17:30:00 stop = 17/09/2015 18:20:00 title = NCIS
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 18:20:00 stop = 17/09/2015 19:10:00 title = NCIS
-      Replaces ----- start = 17/09/2015 18:20:00 stop = 17/09/2015 19:15:00 title = NCIS
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 19:10:00 stop = 17/09/2015 20:10:00 title = Elementary
-      Replaces ----- start = 17/09/2015 18:20:00 stop = 17/09/2015 19:15:00 title = NCIS
-      Replaces ----- start = 17/09/2015 19:15:00 stop = 17/09/2015 20:05:00 title = Elementary
-      Replaces ----- start = 17/09/2015 20:05:00 stop = 17/09/2015 21:00:00 title = Elementary
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 20:10:00 stop = 17/09/2015 21:00:00 title = Elementary
-      Replaces ----- start = 17/09/2015 20:05:00 stop = 17/09/2015 21:00:00 title = Elementary
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 21:00:00 stop = 17/09/2015 22:05:00 title = Leo Mattei
-      Replaces ----- start = 17/09/2015 21:00:00 stop = 17/09/2015 21:55:00 title = Leo Mattei
-      Replaces ----- start = 17/09/2015 21:55:00 stop = 17/09/2015 22:50:00 title = Leo Mattei
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 22:05:00 stop = 17/09/2015 23:05:00 title = Leo Mattei
-      Replaces ----- start = 17/09/2015 21:55:00 stop = 17/09/2015 22:50:00 title = Leo Mattei
-      Replaces ----- start = 17/09/2015 22:50:00 stop = 17/09/2015 23:45:00 title = NCIS
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 23:05:00 stop = 18/09/2015 00:00:00 title = NCIS
-      Replaces ----- start = 17/09/2015 22:50:00 stop = 17/09/2015 23:45:00 title = NCIS
-      Replaces ----- start = 17/09/2015 23:45:00 stop = 18/09/2015 00:40:00 title = NCIS
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 00:00:00 stop = 18/09/2015 00:55:00 title = NCIS
-      Replaces ----- start = 17/09/2015 23:45:00 stop = 18/09/2015 00:40:00 title = NCIS
-      Replaces ----- start = 18/09/2015 00:40:00 stop = 18/09/2015 01:35:00 title = CSI
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 00:55:00 stop = 18/09/2015 01:50:00 title = CSI
-      Replaces ----- start = 18/09/2015 00:40:00 stop = 18/09/2015 01:35:00 title = CSI
-      Replaces ----- start = 18/09/2015 01:35:00 stop = 18/09/2015 02:30:00 title = Elementary
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 01:50:00 stop = 18/09/2015 02:45:00 title = Elementary
-      Replaces ----- start = 18/09/2015 01:35:00 stop = 18/09/2015 02:30:00 title = Elementary
-      Replaces ----- start = 18/09/2015 02:30:00 stop = 18/09/2015 03:20:00 title = Elementary
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 02:45:00 stop = 18/09/2015 03:35:00 title = Elementary
-      Replaces ----- start = 18/09/2015 02:30:00 stop = 18/09/2015 03:20:00 title = Elementary
-      Replaces ----- start = 18/09/2015 03:20:00 stop = 18/09/2015 04:15:00 title = CSI
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 03:35:00 stop = 18/09/2015 04:25:00 title = CSI
-      Replaces ----- start = 18/09/2015 03:20:00 stop = 18/09/2015 04:15:00 title = CSI
-      Replaces ----- start = 18/09/2015 04:15:00 stop = 18/09/2015 05:05:00 title = CSI
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 04:25:00 stop = 18/09/2015 05:15:00 title = CSI
-      Replaces ----- start = 18/09/2015 04:15:00 stop = 18/09/2015 05:05:00 title = CSI
-      Replaces ----- start = 18/09/2015 05:05:00 stop = 18/09/2015 05:55:00 title = The Guardian
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 05:15:00 stop = 18/09/2015 06:10:00 title = The Guardian
-      Replaces ----- start = 18/09/2015 05:05:00 stop = 18/09/2015 05:55:00 title = The Guardian
-      Replaces ----- start = 18/09/2015 05:55:00 stop = 18/09/2015 06:40:00 title = The Glades
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 06:10:00 stop = 18/09/2015 07:05:00 title = The Americans
-      Replaces ----- start = 18/09/2015 05:55:00 stop = 18/09/2015 06:40:00 title = The Glades
-      Replaces ----- start = 18/09/2015 06:40:00 stop = 18/09/2015 07:35:00 title = The Americans
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 07:05:00 stop = 18/09/2015 08:00:00 title = Law & Order svu
-      Replaces ----- start = 18/09/2015 06:40:00 stop = 18/09/2015 07:35:00 title = The Americans
-      Replaces ----- start = 18/09/2015 07:35:00 stop = 18/09/2015 08:30:00 title = Law & Order svu
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 08:00:00 stop = 18/09/2015 09:05:00 title = Delitti in Paradiso
-      Replaces ----- start = 18/09/2015 07:35:00 stop = 18/09/2015 08:30:00 title = Law & Order svu
-      Replaces ----- start = 18/09/2015 08:30:00 stop = 18/09/2015 09:20:00 title = Delitti in Paradiso
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 09:05:00 stop = 18/09/2015 10:00:00 title = NCIS
-      Replaces ----- start = 18/09/2015 08:30:00 stop = 18/09/2015 09:20:00 title = Delitti in Paradiso
-      Replaces ----- start = 18/09/2015 09:20:00 stop = 18/09/2015 10:10:00 title = NCIS
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 10:00:00 stop = 18/09/2015 10:55:00 title = NCIS
-      Replaces ----- start = 18/09/2015 09:20:00 stop = 18/09/2015 10:10:00 title = NCIS
-      Replaces ----- start = 18/09/2015 10:10:00 stop = 18/09/2015 11:00:00 title = NCIS
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 10:55:00 stop = 18/09/2015 11:50:00 title = Elementary
-      Replaces ----- start = 18/09/2015 10:10:00 stop = 18/09/2015 11:00:00 title = NCIS
-      Replaces ----- start = 18/09/2015 11:00:00 stop = 18/09/2015 11:55:00 title = Elementary
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 11:50:00 stop = 18/09/2015 12:45:00 title = Elementary
-      Replaces ----- start = 18/09/2015 11:00:00 stop = 18/09/2015 11:55:00 title = Elementary
-      Replaces ----- start = 18/09/2015 11:55:00 stop = 18/09/2015 12:55:00 title = Elementary
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 12:45:00 stop = 18/09/2015 13:45:00 title = The Americans
-      Replaces ----- start = 18/09/2015 11:55:00 stop = 18/09/2015 12:55:00 title = Elementary
-      Replaces ----- start = 18/09/2015 12:55:00 stop = 18/09/2015 14:00:00 title = The Americans
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 13:45:00 stop = 18/09/2015 14:40:00 title = The Following
-      Replaces ----- start = 18/09/2015 12:55:00 stop = 18/09/2015 14:00:00 title = The Americans
-      Replaces ----- start = 18/09/2015 14:00:00 stop = 18/09/2015 14:50:00 title = The Following
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 14:40:00 stop = 18/09/2015 15:35:00 title = The Glades
-      Replaces ----- start = 18/09/2015 14:00:00 stop = 18/09/2015 14:50:00 title = The Following
-      Replaces ----- start = 18/09/2015 14:50:00 stop = 18/09/2015 15:45:00 title = The Glades
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 15:35:00 stop = 18/09/2015 16:30:00 title = CSI
-      Replaces ----- start = 18/09/2015 14:50:00 stop = 18/09/2015 15:45:00 title = The Glades
-      Replaces ----- start = 18/09/2015 15:45:00 stop = 18/09/2015 16:35:00 title = CSI
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 16:30:00 stop = 18/09/2015 17:25:00 title = CSI
-      Replaces ----- start = 18/09/2015 15:45:00 stop = 18/09/2015 16:35:00 title = CSI
-      Replaces ----- start = 18/09/2015 16:35:00 stop = 18/09/2015 17:30:00 title = CSI
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 17:25:00 stop = 18/09/2015 18:20:00 title = NCIS
-      Replaces ----- start = 18/09/2015 16:35:00 stop = 18/09/2015 17:30:00 title = CSI
-      Replaces ----- start = 18/09/2015 17:30:00 stop = 18/09/2015 18:20:00 title = NCIS
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 19:15:00 stop = 18/09/2015 20:10:00 title = Elementary
-      Replaces ----- start = 18/09/2015 19:15:00 stop = 18/09/2015 20:05:00 title = Elementary
-      Replaces ----- start = 18/09/2015 20:05:00 stop = 18/09/2015 21:00:00 title = Elementary
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 20:10:00 stop = 18/09/2015 21:00:00 title = Elementary
-      Replaces ----- start = 18/09/2015 20:05:00 stop = 18/09/2015 21:00:00 title = Elementary
 
    Summary for update of Fox Crime HD
-     missing shows added       0
-     changed shows updated     40
-     new shows added           0
-     unchanged shows inspected 40
+     no changes, no update necessary !
+     unchanged shows inspected 80
      total after update        80
-     elapstime / updated show  0,44 seconds
-
 
 channel FOX CRIME +1 site -- GUIDATV.SKY.IT -- update mode incremental
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 06:15:00 stop = 18/09/2015 07:10:00 title = The Guardian
-      Replaces ----- start = 18/09/2015 06:15:00 stop = 18/09/2015 07:40:00 title = The Guardian
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 07:10:00 stop = 18/09/2015 08:05:00 title = The Americans
-      Replaces ----- start = 18/09/2015 06:15:00 stop = 18/09/2015 07:40:00 title = The Guardian
-      Replaces ----- start = 18/09/2015 07:40:00 stop = 18/09/2015 08:35:00 title = The Americans
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 08:05:00 stop = 18/09/2015 09:00:00 title = Law & Order svu
-      Replaces ----- start = 18/09/2015 07:40:00 stop = 18/09/2015 08:35:00 title = The Americans
-      Replaces ----- start = 18/09/2015 08:35:00 stop = 18/09/2015 09:30:00 title = Law & Order svu
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 09:00:00 stop = 18/09/2015 10:05:00 title = Delitti in Paradiso
-      Replaces ----- start = 18/09/2015 08:35:00 stop = 18/09/2015 09:30:00 title = Law & Order svu
-      Replaces ----- start = 18/09/2015 09:30:00 stop = 18/09/2015 10:20:00 title = Delitti in Paradiso
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 10:05:00 stop = 18/09/2015 11:00:00 title = NCIS
-      Replaces ----- start = 18/09/2015 09:30:00 stop = 18/09/2015 10:20:00 title = Delitti in Paradiso
-      Replaces ----- start = 18/09/2015 10:20:00 stop = 18/09/2015 11:10:00 title = NCIS
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 11:00:00 stop = 18/09/2015 11:55:00 title = NCIS
-      Replaces ----- start = 18/09/2015 10:20:00 stop = 18/09/2015 11:10:00 title = NCIS
-      Replaces ----- start = 18/09/2015 11:10:00 stop = 18/09/2015 12:00:00 title = NCIS
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 11:55:00 stop = 18/09/2015 12:50:00 title = Elementary
-      Replaces ----- start = 18/09/2015 11:10:00 stop = 18/09/2015 12:00:00 title = NCIS
-      Replaces ----- start = 18/09/2015 12:00:00 stop = 18/09/2015 12:55:00 title = Elementary
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 12:50:00 stop = 18/09/2015 13:45:00 title = Elementary
-      Replaces ----- start = 18/09/2015 12:00:00 stop = 18/09/2015 12:55:00 title = Elementary
-      Replaces ----- start = 18/09/2015 12:55:00 stop = 18/09/2015 13:55:00 title = Elementary
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 13:45:00 stop = 18/09/2015 14:45:00 title = The Americans
-      Replaces ----- start = 18/09/2015 12:55:00 stop = 18/09/2015 13:55:00 title = Elementary
-      Replaces ----- start = 18/09/2015 13:55:00 stop = 18/09/2015 15:00:00 title = The Americans
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 14:45:00 stop = 18/09/2015 15:40:00 title = The Following
-      Replaces ----- start = 18/09/2015 13:55:00 stop = 18/09/2015 15:00:00 title = The Americans
-      Replaces ----- start = 18/09/2015 15:00:00 stop = 18/09/2015 15:50:00 title = The Following
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 15:40:00 stop = 18/09/2015 16:35:00 title = The Glades
-      Replaces ----- start = 18/09/2015 15:00:00 stop = 18/09/2015 15:50:00 title = The Following
-      Replaces ----- start = 18/09/2015 15:50:00 stop = 18/09/2015 16:45:00 title = The Glades
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 16:35:00 stop = 18/09/2015 17:30:00 title = CSI
-      Replaces ----- start = 18/09/2015 15:50:00 stop = 18/09/2015 16:45:00 title = The Glades
-      Replaces ----- start = 18/09/2015 16:45:00 stop = 18/09/2015 17:35:00 title = CSI
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 17:30:00 stop = 18/09/2015 18:25:00 title = CSI
-      Replaces ----- start = 18/09/2015 16:45:00 stop = 18/09/2015 17:35:00 title = CSI
-      Replaces ----- start = 18/09/2015 17:35:00 stop = 18/09/2015 18:30:00 title = CSI
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 18:25:00 stop = 18/09/2015 19:20:00 title = NCIS
-      Replaces ----- start = 18/09/2015 17:35:00 stop = 18/09/2015 18:30:00 title = CSI
-      Replaces ----- start = 18/09/2015 18:30:00 stop = 18/09/2015 19:20:00 title = NCIS
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 20:15:00 stop = 18/09/2015 21:10:00 title = Elementary
-      Replaces ----- start = 18/09/2015 20:15:00 stop = 18/09/2015 21:05:00 title = Elementary
-      Replaces ----- start = 18/09/2015 21:05:00 stop = 18/09/2015 22:00:00 title = Elementary
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 21:10:00 stop = 18/09/2015 22:00:00 title = Elementary
-      Replaces ----- start = 18/09/2015 21:05:00 stop = 18/09/2015 22:00:00 title = Elementary
 
    Summary for update of FOX CRIME +1
-     missing shows added       0
-     changed shows updated     16
-     new shows added           0
-     unchanged shows inspected 64
+     no changes, no update necessary !
+     unchanged shows inspected 80
      total after update        80
-     elapstime / updated show  0,46 seconds
-
 
 channel Fox crime + 2 site -- GUIDATV.SKY.IT -- update mode incremental
 
@@ -1710,173 +847,11 @@ channel Real time HD site -- GUIDATV.SKY.IT -- update mode incremental
      total after update        107
 
 channel Gambero Rosso HD site -- GUIDATV.SKY.IT -- update mode incremental
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 05:35:00 stop = 17/09/2015 06:00:00 title = Dolcemente
-      Replaces ----- start = 17/09/2015 05:35:00 stop = 17/09/2015 06:30:00 title = Dolcemente
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 06:00:00 stop = 17/09/2015 06:30:00 title = Vito con i suoi
-      Replaces ----- start = 17/09/2015 05:35:00 stop = 17/09/2015 06:30:00 title = Dolcemente
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 07:00:00 stop = 17/09/2015 07:25:00 title = Jamie in 30 minuti
-      Replaces ----- start = 17/09/2015 07:00:00 stop = 17/09/2015 07:30:00 title = Jamie in 30 minuti
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 07:25:00 stop = 17/09/2015 08:00:00 title = Nigella Kitchen
-      Replaces ----- start = 17/09/2015 07:00:00 stop = 17/09/2015 07:30:00 title = Jamie in 30 minuti
-      Replaces ----- start = 17/09/2015 07:30:00 stop = 17/09/2015 08:00:00 title = Nigella
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 08:00:00 stop = 17/09/2015 08:25:00 title = Serial Griller
-      Replaces ----- start = 17/09/2015 08:00:00 stop = 17/09/2015 08:30:00 title = Serial Griller
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 08:25:00 stop = 17/09/2015 08:55:00 title = Gol finger
-      Replaces ----- start = 17/09/2015 08:00:00 stop = 17/09/2015 08:30:00 title = Serial Griller
-      Replaces ----- start = 17/09/2015 08:30:00 stop = 17/09/2015 09:00:00 title = Gol finger
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 08:55:00 stop = 17/09/2015 09:35:00 title = Max cucina l'Italia
-      Replaces ----- start = 17/09/2015 08:30:00 stop = 17/09/2015 09:00:00 title = Gol finger
-      Replaces ----- start = 17/09/2015 09:00:00 stop = 17/09/2015 09:30:00 title = I panini li fa Max
-      Replaces ----- start = 17/09/2015 09:30:00 stop = 17/09/2015 10:00:00 title = Il gusto di Igles
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 09:35:00 stop = 17/09/2015 10:00:00 title = Il gusto di Igles
-      Replaces ----- start = 17/09/2015 09:30:00 stop = 17/09/2015 10:00:00 title = Il gusto di Igles
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 11:30:00 stop = 17/09/2015 11:55:00 title = Ciao sono Hiro
-      Replaces ----- start = 17/09/2015 11:30:00 stop = 17/09/2015 12:00:00 title = Ciao sono Hiro
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 11:55:00 stop = 17/09/2015 12:20:00 title = Vito con i suoi
-      Replaces ----- start = 17/09/2015 11:30:00 stop = 17/09/2015 12:00:00 title = Ciao sono Hiro
-      Replaces ----- start = 17/09/2015 12:00:00 stop = 17/09/2015 12:30:00 title = Vito con i suoi
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 12:20:00 stop = 17/09/2015 12:55:00 title = Vito con i suoi
-      Replaces ----- start = 17/09/2015 12:00:00 stop = 17/09/2015 12:30:00 title = Vito con i suoi
-      Replaces ----- start = 17/09/2015 12:30:00 stop = 17/09/2015 13:00:00 title = Vito con i suoi
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 12:55:00 stop = 17/09/2015 13:30:00 title = Giorgione: orto e cucina
-      Replaces ----- start = 17/09/2015 12:30:00 stop = 17/09/2015 13:00:00 title = Vito con i suoi
-      Replaces ----- start = 17/09/2015 13:00:00 stop = 17/09/2015 13:30:00 title = Giorgione: orto e cucina
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 13:30:00 stop = 17/09/2015 13:55:00 title = Max cucina l'Italia
-      Replaces ----- start = 17/09/2015 13:30:00 stop = 17/09/2015 14:00:00 title = I panini li fa Max
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 13:55:00 stop = 17/09/2015 14:25:00 title = Dolci di casa
-      Replaces ----- start = 17/09/2015 13:30:00 stop = 17/09/2015 14:00:00 title = I panini li fa Max
-      Replaces ----- start = 17/09/2015 14:00:00 stop = 17/09/2015 14:30:00 title = Dolci di casa
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 14:25:00 stop = 17/09/2015 14:50:00 title = Io, me e Simone
-      Replaces ----- start = 17/09/2015 14:00:00 stop = 17/09/2015 14:30:00 title = Dolci di casa
-      Replaces ----- start = 17/09/2015 14:30:00 stop = 17/09/2015 15:00:00 title = Io, me e Simone
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 14:50:00 stop = 17/09/2015 15:25:00 title = Brooklyn Man
-      Replaces ----- start = 17/09/2015 14:30:00 stop = 17/09/2015 15:00:00 title = Io, me e Simone
-      Replaces ----- start = 17/09/2015 15:00:00 stop = 17/09/2015 15:30:00 title = Brooklyn Man
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 15:25:00 stop = 17/09/2015 15:55:00 title = Il gusto di Igles
-      Replaces ----- start = 17/09/2015 15:00:00 stop = 17/09/2015 15:30:00 title = Brooklyn Man
-      Replaces ----- start = 17/09/2015 15:30:00 stop = 17/09/2015 16:00:00 title = Il gusto di Igles
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 15:55:00 stop = 17/09/2015 16:25:00 title = Jamie in 30 minuti
-      Replaces ----- start = 17/09/2015 15:30:00 stop = 17/09/2015 16:00:00 title = Il gusto di Igles
-      Replaces ----- start = 17/09/2015 16:00:00 stop = 17/09/2015 16:30:00 title = Jamie in 30 minuti
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 16:25:00 stop = 17/09/2015 16:55:00 title = Nigella Kitchen
-      Replaces ----- start = 17/09/2015 16:00:00 stop = 17/09/2015 16:30:00 title = Jamie in 30 minuti
-      Replaces ----- start = 17/09/2015 16:30:00 stop = 17/09/2015 17:00:00 title = Nigella
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 16:55:00 stop = 17/09/2015 17:25:00 title = Il mago del barbecue
-      Replaces ----- start = 17/09/2015 16:30:00 stop = 17/09/2015 17:00:00 title = Nigella
-      Replaces ----- start = 17/09/2015 17:00:00 stop = 17/09/2015 17:30:00 title = Il mago del barbecue
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 17:25:00 stop = 17/09/2015 17:50:00 title = Serial Griller
-      Replaces ----- start = 17/09/2015 17:00:00 stop = 17/09/2015 17:30:00 title = Il mago del barbecue
-      Replaces ----- start = 17/09/2015 17:30:00 stop = 17/09/2015 18:00:00 title = Serial Griller
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 17:50:00 stop = 17/09/2015 18:20:00 title = Dolcemente con...
-      Replaces ----- start = 17/09/2015 17:30:00 stop = 17/09/2015 18:00:00 title = Serial Griller
-      Replaces ----- start = 17/09/2015 18:00:00 stop = 17/09/2015 18:30:00 title = Dolcemente
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 18:20:00 stop = 17/09/2015 18:55:00 title = Gol finger
-      Replaces ----- start = 17/09/2015 18:00:00 stop = 17/09/2015 18:30:00 title = Dolcemente
-      Replaces ----- start = 17/09/2015 18:30:00 stop = 17/09/2015 19:00:00 title = Gol finger
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 18:55:00 stop = 17/09/2015 19:25:00 title = Io, me e Simone
-      Replaces ----- start = 17/09/2015 18:30:00 stop = 17/09/2015 19:00:00 title = Gol finger
-      Replaces ----- start = 17/09/2015 19:00:00 stop = 17/09/2015 19:30:00 title = Io, me e Simone
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 19:25:00 stop = 17/09/2015 20:00:00 title = Max cucina l'Italia
-      Replaces ----- start = 17/09/2015 19:00:00 stop = 17/09/2015 19:30:00 title = Io, me e Simone
-      Replaces ----- start = 17/09/2015 19:30:00 stop = 17/09/2015 20:00:00 title = I panini li fa Max
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 20:30:00 stop = 17/09/2015 21:05:00 title = Nigella Kitchen
-      Replaces ----- start = 17/09/2015 20:30:00 stop = 17/09/2015 21:00:00 title = Nigella
-      Replaces ----- start = 17/09/2015 21:00:00 stop = 17/09/2015 21:30:00 title = Jamie in 30 minuti
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 21:05:00 stop = 17/09/2015 21:30:00 title = Jamie in 30 minuti
-      Replaces ----- start = 17/09/2015 21:00:00 stop = 17/09/2015 21:30:00 title = Jamie in 30 minuti
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 22:00:00 stop = 17/09/2015 22:35:00 title = Vito con i suoi
-      Replaces ----- start = 17/09/2015 22:00:00 stop = 17/09/2015 22:30:00 title = Vito con i suoi
-      Replaces ----- start = 17/09/2015 22:30:00 stop = 17/09/2015 23:00:00 title = Ciao sono Hiro
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 22:35:00 stop = 17/09/2015 23:05:00 title = Ciao sono Hiro
-      Replaces ----- start = 17/09/2015 22:30:00 stop = 17/09/2015 23:00:00 title = Ciao sono Hiro
-      Replaces ----- start = 17/09/2015 23:00:00 stop = 17/09/2015 23:30:00 title = Il gusto di Igles
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 23:05:00 stop = 17/09/2015 23:35:00 title = Il gusto di Igles
-      Replaces ----- start = 17/09/2015 23:00:00 stop = 17/09/2015 23:30:00 title = Il gusto di Igles
-      Replaces ----- start = 17/09/2015 23:30:00 stop = 18/09/2015 00:00:00 title = Brooklyn Man
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 23:35:00 stop = 18/09/2015 00:10:00 title = Brooklyn Man
-      Replaces ----- start = 17/09/2015 23:30:00 stop = 18/09/2015 00:00:00 title = Brooklyn Man
-      Replaces ----- start = 18/09/2015 00:00:00 stop = 18/09/2015 00:30:00 title = Gol finger
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 00:10:00 stop = 18/09/2015 00:40:00 title = Gol finger
-      Replaces ----- start = 18/09/2015 00:00:00 stop = 18/09/2015 00:30:00 title = Gol finger
-      Replaces ----- start = 18/09/2015 00:30:00 stop = 18/09/2015 01:00:00 title = Il mago del barbecue
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 00:40:00 stop = 18/09/2015 01:10:00 title = Il mago del barbecue
-      Replaces ----- start = 18/09/2015 00:30:00 stop = 18/09/2015 01:00:00 title = Il mago del barbecue
-      Replaces ----- start = 18/09/2015 01:00:00 stop = 18/09/2015 01:30:00 title = Giorgione: orto e cucina
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 01:10:00 stop = 18/09/2015 01:40:00 title = Giorgione: orto e cucina
-      Replaces ----- start = 18/09/2015 01:00:00 stop = 18/09/2015 01:30:00 title = Giorgione: orto e cucina
-      Replaces ----- start = 18/09/2015 01:30:00 stop = 18/09/2015 02:00:00 title = Vito con i suoi
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 01:40:00 stop = 18/09/2015 02:10:00 title = Vito con i suoi
-      Replaces ----- start = 18/09/2015 01:30:00 stop = 18/09/2015 02:00:00 title = Vito con i suoi
-      Replaces ----- start = 18/09/2015 02:00:00 stop = 18/09/2015 02:30:00 title = Vito con i suoi
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 02:10:00 stop = 18/09/2015 02:40:00 title = Vito con i suoi
-      Replaces ----- start = 18/09/2015 02:00:00 stop = 18/09/2015 02:30:00 title = Vito con i suoi
-      Replaces ----- start = 18/09/2015 02:30:00 stop = 18/09/2015 03:00:00 title = Le ricette di Laura Ravaioli
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 02:40:00 stop = 18/09/2015 03:10:00 title = Le ricette di Laura Ravaioli
-      Replaces ----- start = 18/09/2015 02:30:00 stop = 18/09/2015 03:00:00 title = Le ricette di Laura Ravaioli
-      Replaces ----- start = 18/09/2015 03:00:00 stop = 18/09/2015 03:30:00 title = Ciao sono Hiro
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 03:10:00 stop = 18/09/2015 03:35:00 title = Ciao sono Hiro
-      Replaces ----- start = 18/09/2015 03:00:00 stop = 18/09/2015 03:30:00 title = Ciao sono Hiro
-      Replaces ----- start = 18/09/2015 03:30:00 stop = 18/09/2015 04:00:00 title = Il gusto di Igles
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 03:35:00 stop = 18/09/2015 04:05:00 title = Il gusto di Igles
-      Replaces ----- start = 18/09/2015 03:30:00 stop = 18/09/2015 04:00:00 title = Il gusto di Igles
-      Replaces ----- start = 18/09/2015 04:00:00 stop = 18/09/2015 04:30:00 title = Max cucina l'Italia
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 04:05:00 stop = 18/09/2015 04:30:00 title = Max cucina l'Italia
-      Replaces ----- start = 18/09/2015 04:00:00 stop = 18/09/2015 04:30:00 title = Max cucina l'Italia
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 05:30:00 stop = 18/09/2015 05:55:00 title = Dolci di casa
-      Replaces ----- start = 18/09/2015 05:30:00 stop = 18/09/2015 06:30:00 title = Dolcemente con...
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 05:55:00 stop = 18/09/2015 06:30:00 title = Bar d'Italia 2015
-      Replaces ----- start = 18/09/2015 05:30:00 stop = 18/09/2015 06:30:00 title = Dolcemente con...
 
    Summary for update of Gambero Rosso HD
-     missing shows added       0
-     changed shows updated     42
-     new shows added           0
-     unchanged shows inspected 96
+     no changes, no update necessary !
+     unchanged shows inspected 138
      total after update        138
-     elapstime / updated show  0,49 seconds
-
 
 channel Lei site -- GUIDATV.SKY.IT -- update mode incremental
 
@@ -1991,108 +966,11 @@ channel Discovery Scy HD site -- GUIDATV.SKY.IT -- update mode incremental
      total after update        104
 
 channel CI Crime+Inv HD site -- GUIDATV.SKY.IT -- update mode incremental
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 05:05:00 stop = 17/09/2015 06:05:00 title = Stalker: attrazione fatale
-      Replaces ----- start = 17/09/2015 05:05:00 stop = 17/09/2015 06:50:00 title = Stalker: attrazione fatale
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 06:05:00 stop = 17/09/2015 06:40:00 title = Se muori mi fai ricco
-      Replaces ----- start = 17/09/2015 05:05:00 stop = 17/09/2015 06:50:00 title = Stalker: attrazione fatale
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 06:40:00 stop = 17/09/2015 07:40:00 title = Le vite degli altri
-      Replaces ----- start = 17/09/2015 05:05:00 stop = 17/09/2015 06:50:00 title = Stalker: attrazione fatale
-      Replaces ----- start = 17/09/2015 06:50:00 stop = 17/09/2015 07:40:00 title = Cold Case
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 07:40:00 stop = 17/09/2015 08:40:00 title = Delitti
-      Replaces ----- start = 17/09/2015 07:40:00 stop = 17/09/2015 08:30:00 title = Le vite degli altri
-      Replaces ----- start = 17/09/2015 08:30:00 stop = 17/09/2015 09:20:00 title = Delitti
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 08:40:00 stop = 17/09/2015 09:40:00 title = Finche' moglie non ci separi
-      Replaces ----- start = 17/09/2015 08:30:00 stop = 17/09/2015 09:20:00 title = Delitti
-      Replaces ----- start = 17/09/2015 09:20:00 stop = 17/09/2015 10:10:00 title = Finche' moglie non ci separi
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 09:40:00 stop = 17/09/2015 10:35:00 title = C'e' un diavolo in me
-      Replaces ----- start = 17/09/2015 09:20:00 stop = 17/09/2015 10:10:00 title = Finche' moglie non ci separi
-      Replaces ----- start = 17/09/2015 10:10:00 stop = 17/09/2015 11:05:00 title = C'e' un diavolo in me
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 10:35:00 stop = 17/09/2015 11:25:00 title = Caro amico ti uccido
-      Replaces ----- start = 17/09/2015 10:10:00 stop = 17/09/2015 11:05:00 title = C'e' un diavolo in me
-      Replaces ----- start = 17/09/2015 11:05:00 stop = 17/09/2015 11:55:00 title = Caro amico ti uccido
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 11:25:00 stop = 17/09/2015 12:20:00 title = Giovani, carini, assassini!
-      Replaces ----- start = 17/09/2015 11:05:00 stop = 17/09/2015 11:55:00 title = Caro amico ti uccido
-      Replaces ----- start = 17/09/2015 11:55:00 stop = 17/09/2015 12:50:00 title = Giovani, carini, assassini!
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 12:20:00 stop = 17/09/2015 13:15:00 title = Scomparsi nel nulla
-      Replaces ----- start = 17/09/2015 11:55:00 stop = 17/09/2015 12:50:00 title = Giovani, carini, assassini!
-      Replaces ----- start = 17/09/2015 12:50:00 stop = 17/09/2015 13:45:00 title = Scomparsi nel nulla
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 13:15:00 stop = 17/09/2015 14:10:00 title = Giovani, carini, assassini!
-      Replaces ----- start = 17/09/2015 12:50:00 stop = 17/09/2015 13:45:00 title = Scomparsi nel nulla
-      Replaces ----- start = 17/09/2015 13:45:00 stop = 17/09/2015 14:40:00 title = Giovani, carini, assassini!
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 14:10:00 stop = 17/09/2015 15:00:00 title = C'e' un diavolo in me
-      Replaces ----- start = 17/09/2015 13:45:00 stop = 17/09/2015 14:40:00 title = Giovani, carini, assassini!
-      Replaces ----- start = 17/09/2015 14:40:00 stop = 17/09/2015 15:35:00 title = C'e' un diavolo in me
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 15:00:00 stop = 17/09/2015 15:55:00 title = Caro amico ti uccido
-      Replaces ----- start = 17/09/2015 14:40:00 stop = 17/09/2015 15:35:00 title = C'e' un diavolo in me
-      Replaces ----- start = 17/09/2015 15:35:00 stop = 17/09/2015 16:30:00 title = Caro amico ti uccido
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 15:55:00 stop = 17/09/2015 16:50:00 title = Giovani, carini, assassini!
-      Replaces ----- start = 17/09/2015 15:35:00 stop = 17/09/2015 16:30:00 title = Caro amico ti uccido
-      Replaces ----- start = 17/09/2015 16:30:00 stop = 17/09/2015 17:25:00 title = Giovani, carini, assassini!
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 16:50:00 stop = 17/09/2015 17:50:00 title = Stalker: attrazione fatale
-      Replaces ----- start = 17/09/2015 16:30:00 stop = 17/09/2015 17:25:00 title = Giovani, carini, assassini!
-      Replaces ----- start = 17/09/2015 17:25:00 stop = 17/09/2015 18:20:00 title = Stalker: attrazione fatale
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 17:50:00 stop = 17/09/2015 18:50:00 title = Profondo nero di Carlo Lucarelli
-      Replaces ----- start = 17/09/2015 17:25:00 stop = 17/09/2015 18:20:00 title = Stalker: attrazione fatale
-      Replaces ----- start = 17/09/2015 18:20:00 stop = 17/09/2015 19:15:00 title = Profondo nero di Carlo Lucarelli
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 18:50:00 stop = 17/09/2015 19:50:00 title = Un posticino da paura
-      Replaces ----- start = 17/09/2015 18:20:00 stop = 17/09/2015 19:15:00 title = Profondo nero di Carlo Lucarelli
-      Replaces ----- start = 17/09/2015 19:15:00 stop = 17/09/2015 20:10:00 title = Un posticino da paura
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 19:50:00 stop = 17/09/2015 20:40:00 title = Maledetto il posto in cui ti ho incontrato
-      Replaces ----- start = 17/09/2015 19:15:00 stop = 17/09/2015 20:10:00 title = Un posticino da paura
-      Replaces ----- start = 17/09/2015 20:10:00 stop = 17/09/2015 21:05:00 title = Maledetto il posto in cui ti ho incontrato
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 20:40:00 stop = 17/09/2015 21:55:00 title = Incapaci di intendere e di volere
-      Replaces ----- start = 17/09/2015 20:10:00 stop = 17/09/2015 21:05:00 title = Maledetto il posto in cui ti ho incontrato
-      Replaces ----- start = 17/09/2015 21:05:00 stop = 17/09/2015 22:00:00 title = Incapaci di intendere e di volere
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 17/09/2015 21:55:00 stop = 17/09/2015 22:55:00 title = Intervention
-      Replaces ----- start = 17/09/2015 21:05:00 stop = 17/09/2015 22:00:00 title = Incapaci di intendere e di volere
-      Replaces ----- start = 17/09/2015 22:00:00 stop = 17/09/2015 22:55:00 title = Intervention
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 01:40:00 stop = 18/09/2015 02:50:00 title = Incapaci di intendere e di volere
-      Replaces ----- start = 18/09/2015 01:40:00 stop = 18/09/2015 02:35:00 title = Incapaci di intendere e di volere
-      Replaces ----- start = 18/09/2015 02:35:00 stop = 18/09/2015 03:25:00 title = Intervention
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 02:50:00 stop = 18/09/2015 03:45:00 title = Intervention
-      Replaces ----- start = 18/09/2015 02:35:00 stop = 18/09/2015 03:25:00 title = Intervention
-      Replaces ----- start = 18/09/2015 03:25:00 stop = 18/09/2015 04:15:00 title = Giovani a rischio
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 03:45:00 stop = 18/09/2015 04:35:00 title = Giovani a rischio
-      Replaces ----- start = 18/09/2015 03:25:00 stop = 18/09/2015 04:15:00 title = Giovani a rischio
-      Replaces ----- start = 18/09/2015 04:15:00 stop = 18/09/2015 05:05:00 title = Delitti
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 04:35:00 stop = 18/09/2015 05:30:00 title = Delitti
-      Replaces ----- start = 18/09/2015 04:15:00 stop = 18/09/2015 05:05:00 title = Delitti
-      Replaces ----- start = 18/09/2015 05:05:00 stop = 18/09/2015 06:50:00 title = Stalker: attrazione fatale
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 05:30:00 stop = 18/09/2015 06:50:00 title = Se muori mi fai ricco
-      Replaces ----- start = 18/09/2015 05:05:00 stop = 18/09/2015 06:50:00 title = Stalker: attrazione fatale
 
    Summary for update of CI Crime+Inv HD
-     missing shows added       0
-     changed shows updated     24
-     new shows added           0
-     unchanged shows inspected 54
+     no changes, no update necessary !
+     unchanged shows inspected 78
      total after update        78
-     elapstime / updated show  0,48 seconds
-
 
 channel DiscoveryT&L HD site -- GUIDATV.SKY.IT -- update mode incremental
 
@@ -2144,24 +1022,11 @@ channel Sky Sport 24 HD site -- GUIDATV.SKY.IT -- update mode incremental
      total after update        147
 
 channel Sport Plus HD site -- GUIDATV.SKY.IT -- update mode incremental
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 18:30:00 stop = 18/09/2015 19:00:00 title = Speciale Rugby World Cup Italia
-      Replaces ----- start = 18/09/2015 18:30:00 stop = 18/09/2015 19:30:00 title = Rugby World Cup 2015 Preview Show
-   epg correction :  CHANGED show corrected,
-      show with ---- start = 18/09/2015 19:00:00 stop = 18/09/2015 21:00:00 title = NCAA: Clemson
-      Replaces ----- start = 18/09/2015 18:30:00 stop = 18/09/2015 19:30:00 title = Rugby World Cup 2015 Preview Show
-      Replaces ----- start = 18/09/2015 19:30:00 stop = 18/09/2015 20:00:00 title = I Signori del Calcio: Cairo
-      Replaces ----- start = 18/09/2015 20:00:00 stop = 18/09/2015 20:30:00 title = Fiorentina
-      Replaces ----- start = 18/09/2015 20:30:00 stop = 18/09/2015 21:00:00 title = Napoli
 
    Summary for update of Sport Plus HD
-     missing shows added       0
-     changed shows updated     2
-     new shows added           0
-     unchanged shows inspected 70
+     no changes, no update necessary !
+     unchanged shows inspected 72
      total after update        72
-     elapstime / updated show  0,55 seconds
-
 
 channel FOX SPORT HD site -- GUIDATV.SKY.IT -- update mode incremental
 
@@ -2542,9 +1407,9 @@ channel Sky Sport F1 UK site -- UK-SKY.COM -- update mode incremental
      missing shows added       0
      changed shows updated     4
      new shows added           0
-     unchanged shows inspected 71
+     unchanged shows inspected 69
      total after update        88
-     elapstime / updated show  0,41 seconds
+     elapstime / updated show  1.49 seconds
 
 
 channel UK: SKY SPORT 1 site -- UK-SKY.COM -- update mode incremental
@@ -2578,9 +1443,9 @@ channel UK: SKY SPORT 1 site -- UK-SKY.COM -- update mode incremental
      missing shows added       0
      changed shows updated     5
      new shows added           0
-     unchanged shows inspected 48
+     unchanged shows inspected 47
      total after update        71
-     elapstime / updated show  0,48 seconds
+     elapstime / updated show  1.84 seconds
 
 
 channel UK: SKY SPORT 2 site -- UK-SKY.COM -- update mode incremental
@@ -2621,7 +1486,7 @@ channel UK: SKY SPORT 2 site -- UK-SKY.COM -- update mode incremental
      new shows added           0
      unchanged shows inspected 71
      total after update        93
-     elapstime / updated show  0,42 seconds
+     elapstime / updated show  1.40 seconds
 
 
 channel UK: SKY SPORT 3 site -- UK-SKY.COM -- update mode incremental
@@ -2635,9 +1500,9 @@ channel UK: SKY SPORT 3 site -- UK-SKY.COM -- update mode incremental
      missing shows added       0
      changed shows updated     1
      new shows added           0
-     unchanged shows inspected 74
+     unchanged shows inspected 71
      total after update        93
-     elapstime / updated show  0,39 seconds
+     elapstime / updated show  1.21 seconds
 
 
 channel UK: SKY SPORT 4 site -- UK-SKY.COM -- update mode incremental
@@ -2671,9 +1536,9 @@ channel UK: SKY SPORT 4 site -- UK-SKY.COM -- update mode incremental
      missing shows added       0
      changed shows updated     5
      new shows added           0
-     unchanged shows inspected 41
+     unchanged shows inspected 40
      total after update        59
-     elapstime / updated show  0,44 seconds
+     elapstime / updated show  1.39 seconds
 
 
 channel Sky Bundesliga DE HD site -- TVTODAY.DE -- update mode incremental
@@ -2699,7 +1564,7 @@ channel Sky Sport 2 DE HD site -- TVTODAY.DE -- update mode incremental
      unchanged shows inspected 41
      total after update        43
 
-14922 shows in 185 channels
-323 updated shows
+14923 shows in 185 channels
+35 updated shows
 1 new shows added
-job finished at 16/09/2015 15:04:37 done in 460 seconds
+job finished at 16/09/2015 16:21:05 done in 1198 seconds
