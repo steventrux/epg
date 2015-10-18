@@ -1,6 +1,6 @@
 ﻿[  Debug ] WebGrab+Plus/w MDB & REX Postprocess -- version 1.1.1/55.27 -- Jan van Straaten 
 [  Debug ] --------------------------------------------------------------------------------
-[  Debug ] job started at 18/10/2015 09:18:14
+[  Debug ] job started at 18/10/2015 16:01:07
 [  Debug ] 
 [  Debug ] reading config file: /home/stefano/git/epg/WebGrab++.config.xml
 [  Debug ] loading timezone data
@@ -11,9 +11,9 @@
 [  Debug ] found: /home/stefano/git/epg/mediasetpremium.it.ini -- Revision 0
 [  Debug ] found: /home/stefano/git/epg/tvtoday.de.ini -- Revision 12
 [  Debug ] 
-[  Debug ] running  on: Unix 3.19.0.30
-[  Debug ] environment: 4.0.30319.17020
-[  Debug ] mono version: 3.2.8 (Debian 3.2.8+dfsg-4ubuntu4)
+[  Debug ] running  on: Unix 3.14.32.6
+[  Debug ] environment: 4.0.30319.1
+[  Debug ] mono version: 2.10.8.1 (Debian 2.10.8.1-1ubuntu2.3)
 [  Debug ] xmltv input file - /home/stefano/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
 [  Debug ] removed 2 overlapping shows in Mediaset Extra starting after 18/10/2015 06:50:00
@@ -63,7 +63,7 @@
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Mediaset Italia 2) site -- MEDIASET.IT -- mode incremental
 [  Debug ]    skipped 
-[  Info  ] 0,21 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Mediaset Extra) site -- MEDIASET.IT -- mode incremental
 [  Error ] error downloading page: Invalid URI: The hostname could not be parsed. (5sec)
@@ -107,11 +107,11 @@
 [  Debug ]    skipped show without a title at 20/10/2015 07:20:00
 [  Debug ]    skipped show without a title at 20/10/2015 07:20:00
 [  Debug ]    skipped show without a title at 20/10/2015 07:20:00
-[  Info  ] 0,13 sec/update
+[  Info  ] 0.33 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=laeffe) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
-[  Info  ] 0,23 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=La 5) site -- MEDIASET.IT -- mode incremental
 [  Debug ]    skipped 
@@ -152,7 +152,7 @@
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Deejay TV) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
-[  Info  ] 0,46 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Cielo HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
@@ -232,7 +232,7 @@
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Premium Disney Junior) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    skipped 
-[  Info  ] 0,08 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Rai Gulp) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
@@ -248,7 +248,7 @@
 [  Info  ]       show with ---- start = 18/10/2015 07:45:00 stop = 18/10/2015 07:55:00 title = SEGNI PARTICOLARI '12 - (KE), 3 - SEGNI PARTICOLARI '12 - (KE)
 [  Info  ]       Replaces ----- start = 18/10/2015 07:45:00 stop = 18/10/2015 07:55:00 title = SEGNI PARTICOLARI '12 - (KE), 3 - SEGNI PARTICOLARI '12 - (KE)
 [  Debug ]    skipped 
-[  Info  ] 0,26 sec/update
+[  Info  ] 0.42 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Premium Cinema +24) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Info  ]    epg correction : 
@@ -256,7 +256,7 @@
 [  Info  ]       show with ---- start = 19/10/2015 07:45:00 stop = 19/10/2015 07:55:00 title = SEGNI PARTICOLARI '12 - (KE), 3 - SEGNI PARTICOLARI '12 - (KE)
 [  Info  ]       Replaces ----- start = 19/10/2015 07:45:00 stop = 19/10/2015 07:55:00 title = SEGNI PARTICOLARI '12 - (KE), 3 - SEGNI PARTICOLARI '12 - (KE)
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0,33 sec/update
+[  Info  ] 0.43 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Premium Cinema 2 HD) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    suspicious      title in index page  = INSIDE EMOTION
@@ -278,73 +278,159 @@
 [  Info  ]       show with ---- start = 19/10/2015 20:51:00 stop = 19/10/2015 22:21:00 title = THE WEDDING DATE
 [  Info  ]       Replaces ----- start = 19/10/2015 20:51:00 stop = 19/10/2015 22:21:00 title = THE WEDDING DATE
 [  Debug ]    skipped 
-[  Info  ] 0,24 sec/update
+[  Info  ] 0.53 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Premium Cinema 2  +24) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    suspicious      title in index page  = INSIDE EMOTION
 [  Debug ]       differs from title in showdetails = EM 120 - CLINT EASTWOOD .....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/10/2015 00:53:00 stop = 20/10/2015 00:59:00 title = EM 120 - CLINT EASTWOOD  - INSIDE EMOTION
+[  Info  ]       Replaces ----- start = 20/10/2015 00:53:00 stop = 20/10/2015 00:59:00 title = EM 120 - CLINT EASTWOOD  - INSIDE EMOTION
 [  Debug ]    suspicious      title in index page  = THE WEDDING DATE -L'AMORE HA IL SUO PREZZO
 [  Debug ]       differs from title in showdetails = THE WEDDING DATE
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/10/2015 20:51:00 stop = 20/10/2015 22:21:00 title = THE WEDDING DATE
+[  Info  ]       Replaces ----- start = 20/10/2015 20:51:00 stop = 20/10/2015 22:21:00 title = THE WEDDING DATE
 [  Debug ]    skipped 
-[  Info  ] 0,21 sec/update
+[  Info  ] 0.45 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Premium Cinema Energy) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    skipped 
-[  Info  ] 0,28 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Premium Cinema Emotion) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    suspicious      title in index page  = FULL EMOTION
-[  Debug ]       differs from title in showdetails = HEREAFTER - FULL EMOTI.....
-[  Debug ]    suspicious      title in index page  = FULL EMOTION
 [  Debug ]       differs from title in showdetails = EM - 75 GIOCO DI BIMBA.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/10/2015 04:30:00 stop = 20/10/2015 04:36:00 title = EM - 75 GIOCO DI BIMBA  - INSIDE EMOTION
+[  Info  ]       Replaces ----- start = 20/10/2015 04:30:00 stop = 20/10/2015 04:36:00 title = EM - 75 GIOCO DI BIMBA  - INSIDE EMOTION
 [  Debug ]    skipped 
-[  Info  ] 0,22 sec/update
+[  Info  ] 0.48 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Premium Cinema Comedy) site -- MEDIASETPREMIUM.IT -- mode incremental
-[  Debug ]    suspicious      title in index page  = PREMIUM MAGAZINE
-[  Debug ]       differs from title in showdetails = EPISODIO 2 -  18/10 - PREM.....
-[  Debug ]    suspicious      title in index page  = COMEDY COLLEGE
-[  Debug ]       differs from title in showdetails = FAUSTO BRIZZI - COMEDY C.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/10/2015 22:54:00 stop = 21/10/2015 00:35:00 title = Tower Heist - Colpo Ad Alto Livello
+[  Info  ]       Replaces ----- start = 20/10/2015 22:54:00 stop = 21/10/2015 00:35:00 title = Tower Heist - Colpo Ad Alto Livello
 [  Debug ]    skipped 
-[  Info  ] 0,22 sec/update
+[  Info  ] 0.45 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Premium Studio Universal) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    suspicious      title in index page  = CINECHAT - KEVIN COSTNER
 [  Debug ]       differs from title in showdetails = KEVIN COSTNER - CINECHAT - (KS-KR)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/10/2015 11:35:00 stop = 18/10/2015 11:50:00 title = KEVIN COSTNER - CINECHAT - (KS-KR)
+[  Info  ]       Replaces ----- start = 18/10/2015 11:35:00 stop = 18/10/2015 11:50:00 title = KEVIN COSTNER - CINECHAT - (KS-KR)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 18/10/2015 18:35:00 stop = 18/10/2015 18:40:00 title = ORIGINAL TRAILER (?)
+[  Info  ]       Replaces ----- start = 18/10/2015 18:35:00 stop = 18/10/2015 18:40:00 title = ORIGINAL TRAILER (?)
 [  Debug ]    suspicious      title in index page  = CINECHAT - TIM BURTON
 [  Debug ]       differs from title in showdetails = TIM BURTON - CINECHAT - (KS-KR)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/10/2015 21:30:00 stop = 18/10/2015 21:45:00 title = TIM BURTON - CINECHAT - (KS-KR)
+[  Info  ]       Replaces ----- start = 18/10/2015 21:30:00 stop = 18/10/2015 21:45:00 title = TIM BURTON - CINECHAT - (KS-KR)
 [  Debug ]    suspicious      title in index page  = CINECHAT - SIDNEY LUMET
 [  Debug ]       differs from title in showdetails = SIDNEY LUMET - CINECHAT - (KS-KR)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/10/2015 03:40:00 stop = 19/10/2015 04:00:00 title = SIDNEY LUMET - CINECHAT - (KS-KR)
+[  Info  ]       Replaces ----- start = 19/10/2015 03:40:00 stop = 19/10/2015 04:00:00 title = SIDNEY LUMET - CINECHAT - (KS-KR)
 [  Debug ]    suspicious      title in index page  = IL DORMIGLIONE
 [  Debug ]       differs from title in showdetails = DORMIGLIONE (DORMI ANCOR.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/10/2015 04:00:00 stop = 19/10/2015 05:30:00 title = DORMIGLIONE (DORMI ANCORA, MIKE!) (IL) - 
+[  Info  ]       Replaces ----- start = 19/10/2015 04:00:00 stop = 19/10/2015 05:30:00 title = DORMIGLIONE (DORMI ANCORA, MIKE!) (IL) - 
 [  Debug ]    suspicious      title in index page  = IL KENTUCKIANO
 [  Debug ]       differs from title in showdetails = IL VAGABONDO DELLE FRONT.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/10/2015 08:05:00 stop = 19/10/2015 09:50:00 title = IL VAGABONDO DELLE FRONTIERE/IL KENTUCKIANO 
+[  Info  ]       Replaces ----- start = 19/10/2015 08:05:00 stop = 19/10/2015 09:50:00 title = IL VAGABONDO DELLE FRONTIERE/IL KENTUCKIANO 
 [  Debug ]    suspicious      title in index page  = GIGI
 [  Debug ]       differs from title in showdetails = GIGI (DI V. MI.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/10/2015 09:50:00 stop = 19/10/2015 11:50:00 title = GIGI (DI V. MINNELLI) - 
+[  Info  ]       Replaces ----- start = 19/10/2015 09:50:00 stop = 19/10/2015 11:50:00 title = GIGI (DI V. MINNELLI) - 
 [  Debug ]    suspicious      title in index page  = FOCUS - MARS ATTACK
 [  Debug ]       differs from title in showdetails = 1997: FUGA DA NEW YORK - FOCU.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/10/2015 11:50:00 stop = 19/10/2015 11:55:00 title = 1997: FUGA DA NEW YORK - FOCUS (INTERVISTE)
+[  Info  ]       Replaces ----- start = 19/10/2015 11:50:00 stop = 19/10/2015 11:55:00 title = 1997: FUGA DA NEW YORK - FOCUS (INTERVISTE)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 19/10/2015 18:30:00 stop = 19/10/2015 18:40:00 title = ORIGINAL TRAILER (?)
+[  Info  ]       Replaces ----- start = 19/10/2015 18:30:00 stop = 19/10/2015 18:40:00 title = ORIGINAL TRAILER (?)
 [  Debug ]    suspicious      title in index page  = CINECHAT - KEVIN COSTNER
 [  Debug ]       differs from title in showdetails = KEVIN COSTNER - CINECHAT - (KS-KR)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/10/2015 21:00:00 stop = 19/10/2015 21:20:00 title = KEVIN COSTNER - CINECHAT - (KS-KR)
+[  Info  ]       Replaces ----- start = 19/10/2015 21:00:00 stop = 19/10/2015 21:20:00 title = KEVIN COSTNER - CINECHAT - (KS-KR)
 [  Debug ]    suspicious      title in index page  = CINECHAT - TIM BURTON
 [  Debug ]       differs from title in showdetails = TIM BURTON - CINECHAT - (KS-KR)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/10/2015 00:25:00 stop = 20/10/2015 00:40:00 title = TIM BURTON - CINECHAT - (KS-KR)
+[  Info  ]       Replaces ----- start = 20/10/2015 00:25:00 stop = 20/10/2015 00:40:00 title = TIM BURTON - CINECHAT - (KS-KR)
 [  Debug ]    suspicious      title in index page  = CINECHAT - JOHN CARPENTER
 [  Debug ]       differs from title in showdetails = JOHN CARPENTER - CINECHAT - (KS-KR)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/10/2015 03:50:00 stop = 20/10/2015 04:00:00 title = JOHN CARPENTER - CINECHAT - (KS-KR)
+[  Info  ]       Replaces ----- start = 20/10/2015 03:50:00 stop = 20/10/2015 04:00:00 title = JOHN CARPENTER - CINECHAT - (KS-KR)
 [  Debug ]    suspicious      title in index page  = GIGI
 [  Debug ]       differs from title in showdetails = GIGI (DI V. MI.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/10/2015 04:00:00 stop = 20/10/2015 06:00:00 title = GIGI (DI V. MINNELLI) - 
+[  Info  ]       Replaces ----- start = 20/10/2015 04:00:00 stop = 20/10/2015 06:00:00 title = GIGI (DI V. MINNELLI) - 
 [  Debug ]    suspicious      title in index page  = CINECHAT - JONATHAN DEMME
 [  Debug ]       differs from title in showdetails = JONATHAN DEMME - CINECHAT - (KS-KR)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/10/2015 06:00:00 stop = 20/10/2015 06:15:00 title = JONATHAN DEMME - CINECHAT - (KS-KR)
+[  Info  ]       Replaces ----- start = 20/10/2015 06:00:00 stop = 20/10/2015 06:15:00 title = JONATHAN DEMME - CINECHAT - (KS-KR)
 [  Debug ]    suspicious      title in index page  = INSIDE ACTORS STUDIO - MATTHEW MCCONAUGHY
 [  Debug ]       differs from title in showdetails = HALLE BARRY - INSIDE THE ACTORS STUDIO
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/10/2015 07:50:00 stop = 20/10/2015 08:35:00 title = HALLE BARRY - INSIDE THE ACTORS STUDIO
+[  Info  ]       Replaces ----- start = 20/10/2015 07:50:00 stop = 20/10/2015 08:35:00 title = HALLE BARRY - INSIDE THE ACTORS STUDIO
 [  Debug ]    suspicious      title in index page  = FOCUS - BATMAN
 [  Debug ]       differs from title in showdetails = BATMAN - FOCUS (INTERVIS.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/10/2015 13:50:00 stop = 20/10/2015 14:01:00 title = BATMAN - FOCUS (INTERVISTE)
+[  Info  ]       Replaces ----- start = 20/10/2015 13:50:00 stop = 20/10/2015 14:01:00 title = BATMAN - FOCUS (INTERVISTE)
 [  Debug ]    suspicious      title in index page  = INSIDE ACTORS STUDIO - AMY ADAMS
 [  Debug ]       differs from title in showdetails = JODIE FOSTER - INSIDE THE ACTORS STUDIO
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/10/2015 18:25:00 stop = 20/10/2015 19:15:00 title = JODIE FOSTER - INSIDE THE ACTORS STUDIO
+[  Info  ]       Replaces ----- start = 20/10/2015 18:25:00 stop = 20/10/2015 19:15:00 title = JODIE FOSTER - INSIDE THE ACTORS STUDIO
 [  Debug ]    suspicious      title in index page  = CINECHAT - TIM BURTON
 [  Debug ]       differs from title in showdetails = TIM BURTON - CINECHAT - (KS-KR)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/10/2015 19:15:00 stop = 20/10/2015 19:26:00 title = TIM BURTON - CINECHAT - (KS-KR)
+[  Info  ]       Replaces ----- start = 20/10/2015 19:15:00 stop = 20/10/2015 19:26:00 title = TIM BURTON - CINECHAT - (KS-KR)
 [  Debug ]    suspicious      title in index page  = FOCUS - CHUCK NORRIS
 [  Debug ]       differs from title in showdetails = VIETNAM (VIDEO 19 P.HARDCASTLE.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/10/2015 21:25:00 stop = 20/10/2015 21:31:00 title = VIETNAM (VIDEO 19 P.HARDCASTLE) - FOCUS (INTERVISTE)
+[  Info  ]       Replaces ----- start = 20/10/2015 21:25:00 stop = 20/10/2015 21:31:00 title = VIETNAM (VIDEO 19 P.HARDCASTLE) - FOCUS (INTERVISTE)
 [  Debug ]    skipped 
-[  Info  ] 0,20 sec/update
+[  Info  ] 0.44 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Premium Action HD) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    suspicious      title in index page  = THE MUSKETEERS I
@@ -486,7 +572,7 @@
 [  Info  ]       show with ---- start = 20/10/2015 20:04:00 stop = 20/10/2015 20:54:00 title = L' ELICOTTERO - CHICAGO FIRE III - PRIMA TV
 [  Info  ]       Replaces ----- start = 20/10/2015 20:04:00 stop = 20/10/2015 20:54:00 title = L' ELICOTTERO - CHICAGO FIRE III - PRIMA TV
 [  Debug ]    skipped 
-[  Info  ] 0,28 sec/update
+[  Info  ] 0.53 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Premium Action +24) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    suspicious      title in index page  = CHICAGO FIRE III
@@ -634,157 +720,251 @@
 [  Info  ]       show with ---- start = 20/10/2015 21:42:00 stop = 20/10/2015 22:30:00 title = SOLUZIONE A SORPRESA - CHICAGO FIRE III
 [  Info  ]       Replaces ----- start = 20/10/2015 21:42:00 stop = 20/10/2015 22:30:00 title = SOLUZIONE A SORPRESA - CHICAGO FIRE III
 [  Debug ]    skipped 
-[  Info  ] 0,21 sec/update
+[  Info  ] 0.49 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Premium Crime HD) site -- MEDIASETPREMIUM.IT -- mode incremental
-[  Debug ]    suspicious      title in index page  = THE CLOSER II
-[  Debug ]       differs from title in showdetails = SANGUE BLU - THE CLOSER.....
-[  Debug ]    suspicious      title in index page  = THE CLOSER II
-[  Debug ]       differs from title in showdetails = DOVERE DI MADRE - THE C.....
-[  Debug ]    suspicious      title in index page  = THE CLOSER II
-[  Debug ]       differs from title in showdetails = PASSO FALSO - THE CLOSE.....
-[  Debug ]    suspicious      title in index page  = THE MENTALIST V
-[  Debug ]       differs from title in showdetails = FAIDA ROSSA - THE MENTALI.....
-[  Debug ]    suspicious      title in index page  = THE MENTALIST V
-[  Debug ]       differs from title in showdetails = ALBA ROSSA - THE MENTALIS.....
-[  Debug ]    suspicious      title in index page  = THE MENTALIST V
-[  Debug ]       differs from title in showdetails = ROSSO D'INVIDIA - THE MEN.....
 [  Debug ]    suspicious      title in index page  = SPECIAL VICTIMS UNIT XV
 [  Debug ]       differs from title in showdetails = SOTTO COPERTURA - LAW & ORDER: UN.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/10/2015 09:29:00 stop = 18/10/2015 10:20:00 title = SOTTO COPERTURA - LAW & ORDER: UNITA' SPECIALE XV
+[  Info  ]       Replaces ----- start = 18/10/2015 09:29:00 stop = 18/10/2015 10:20:00 title = SOTTO COPERTURA - LAW & ORDER: UNITA' SPECIALE XV
 [  Debug ]    suspicious      title in index page  = SPECIAL VICTIMS UNIT XV
 [  Debug ]       differs from title in showdetails = CRIMINE D'ONORE - LAW & ORDER: UN.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/10/2015 10:20:00 stop = 18/10/2015 11:11:00 title = CRIMINE D'ONORE - LAW & ORDER: UNITA' SPECIALE XV
+[  Info  ]       Replaces ----- start = 18/10/2015 10:20:00 stop = 18/10/2015 11:11:00 title = CRIMINE D'ONORE - LAW & ORDER: UNITA' SPECIALE XV
 [  Debug ]    suspicious      title in index page  = 100 CODE
 [  Debug ]       differs from title in showdetails = ADE E PERSEFONE - .....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/10/2015 11:11:00 stop = 18/10/2015 12:04:00 title = ADE E PERSEFONE - 100 CODE
+[  Info  ]       Replaces ----- start = 18/10/2015 11:11:00 stop = 18/10/2015 12:04:00 title = ADE E PERSEFONE - 100 CODE
 [  Debug ]    suspicious      title in index page  = 100 CODE
 [  Debug ]       differs from title in showdetails = IL NOSTRO UOMO - 1.....
-[  Debug ]    suspicious      title in index page  = THE CLOSER II
-[  Debug ]       differs from title in showdetails = DULCIS IN FUNDO - THE C.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/10/2015 12:04:00 stop = 18/10/2015 12:55:00 title = IL NOSTRO UOMO - 100 CODE
+[  Info  ]       Replaces ----- start = 18/10/2015 12:04:00 stop = 18/10/2015 12:55:00 title = IL NOSTRO UOMO - 100 CODE
 [  Debug ]    suspicious      title in index page  = THE CLOSER II
 [  Debug ]       differs from title in showdetails = PROTEGGERE E SERVIRE - .....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/10/2015 13:44:00 stop = 18/10/2015 14:55:00 title = PROTEGGERE E SERVIRE - THE CLOSER II
+[  Info  ]       Replaces ----- start = 18/10/2015 13:44:00 stop = 18/10/2015 14:55:00 title = PROTEGGERE E SERVIRE - THE CLOSER II
 [  Debug ]    suspicious      title in index page  = MOTIVE III
 [  Debug ]       differs from title in showdetails = OMICIDI A CATENA - M.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/10/2015 14:55:00 stop = 18/10/2015 15:47:00 title = OMICIDI A CATENA - MOTIVE III - PRIMA TV
+[  Info  ]       Replaces ----- start = 18/10/2015 14:55:00 stop = 18/10/2015 15:47:00 title = OMICIDI A CATENA - MOTIVE III - PRIMA TV
 [  Debug ]    suspicious      title in index page  = MOTIVE III
 [  Debug ]       differs from title in showdetails = LA RIVINCITA DI FRAM.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/10/2015 15:47:00 stop = 18/10/2015 16:38:00 title = LA RIVINCITA DI FRAMPTON - MOTIVE III - PRIMA TV
+[  Info  ]       Replaces ----- start = 18/10/2015 15:47:00 stop = 18/10/2015 16:38:00 title = LA RIVINCITA DI FRAMPTON - MOTIVE III - PRIMA TV
 [  Debug ]    suspicious      title in index page  = THE MENTALIST V
 [  Debug ]       differs from title in showdetails = INCHIESTE ROSSO SANGUE - .....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/10/2015 16:38:00 stop = 18/10/2015 17:29:00 title = INCHIESTE ROSSO SANGUE - THE MENTALIST V
+[  Info  ]       Replaces ----- start = 18/10/2015 16:38:00 stop = 18/10/2015 17:29:00 title = INCHIESTE ROSSO SANGUE - THE MENTALIST V
 [  Debug ]    suspicious      title in index page  = THE MENTALIST V
 [  Debug ]       differs from title in showdetails = VELE ROSSE AL TRAMONTO - .....
-[  Debug ]    suspicious      title in index page  = COLD CASE - DELITTI IRRISOLTI V
-[  Debug ]       differs from title in showdetails = I FIGLI DELL'ODIO - COLD CASE-DELITTI IRR.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/10/2015 17:29:00 stop = 18/10/2015 18:20:00 title = VELE ROSSE AL TRAMONTO - THE MENTALIST V
+[  Info  ]       Replaces ----- start = 18/10/2015 17:29:00 stop = 18/10/2015 18:20:00 title = VELE ROSSE AL TRAMONTO - THE MENTALIST V
 [  Debug ]    suspicious      title in index page  = FOREVER I
 [  Debug ]       differs from title in showdetails = GUARDA PRIMA DI SAL.....
-[  Debug ]    suspicious      title in index page  = PERSON OF INTEREST II
-[  Debug ]       differs from title in showdetails = MOMENTO CRITICO - PERSON OF INT.....
-[  Debug ]    suspicious      title in index page  = THE FOLLOWING III
-[  Debug ]       differs from title in showdetails = CARNE E SANGUE - THE FOLLOW.....
-[  Debug ]    suspicious      title in index page  = MURDER IN THE FIRST II
-[  Debug ]       differs from title in showdetails = INSOSPETTABILE - MURDER IN THE F.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/10/2015 19:15:00 stop = 18/10/2015 20:06:00 title = GUARDA PRIMA DI SALTARE - FOREVER I - PRIMA TV
+[  Info  ]       Replaces ----- start = 18/10/2015 19:15:00 stop = 18/10/2015 20:06:00 title = GUARDA PRIMA DI SALTARE - FOREVER I - PRIMA TV
 [  Debug ]    suspicious      title in index page  = CRIME MAGAZINE
 [  Debug ]       differs from title in showdetails = SVEZIA DARK - 100 CODE  .....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/10/2015 23:29:00 stop = 18/10/2015 23:43:00 title = SVEZIA DARK - 100 CODE  - CRIME MAGAZINE
+[  Info  ]       Replaces ----- start = 18/10/2015 23:29:00 stop = 18/10/2015 23:43:00 title = SVEZIA DARK - 100 CODE  - CRIME MAGAZINE
 [  Debug ]    suspicious      title in index page  = FOREVER I
 [  Debug ]       differs from title in showdetails = GUARDA PRIMA DI SAL.....
-[  Debug ]    suspicious      title in index page  = PERSON OF INTEREST II
-[  Debug ]       differs from title in showdetails = MOMENTO CRITICO - PERSON OF INT.....
-[  Debug ]    suspicious      title in index page  = THE FOLLOWING III
-[  Debug ]       differs from title in showdetails = CARNE E SANGUE - THE FOLLOW.....
-[  Debug ]    suspicious      title in index page  = COLD CASE - DELITTI IRRISOLTI V
-[  Debug ]       differs from title in showdetails = I FIGLI DELL'ODIO - COLD CASE-DELITTI IRR.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/10/2015 00:35:00 stop = 19/10/2015 01:27:00 title = GUARDA PRIMA DI SALTARE - FOREVER I - PRIMA TV
+[  Info  ]       Replaces ----- start = 19/10/2015 00:35:00 stop = 19/10/2015 01:27:00 title = GUARDA PRIMA DI SALTARE - FOREVER I - PRIMA TV
 [  Debug ]    suspicious      title in index page  = LAW & ORDER: UNITA' SPECIALE XIII
 [  Debug ]       differs from title in showdetails = DIETRO LA MASCHERA - LAW & ORDER: UNITA' SP.....
-[  Debug ]    suspicious      title in index page  = LAW & ORDER: UNITA' SPECIALE XIII
-[  Debug ]       differs from title in showdetails = STRANA BELLEZZA - LAW & ORDER: UNITA' SPECI.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/10/2015 04:30:00 stop = 19/10/2015 05:18:00 title = DIETRO LA MASCHERA - LAW & ORDER: UNITA' SPECIALE XIII
+[  Info  ]       Replaces ----- start = 19/10/2015 04:30:00 stop = 19/10/2015 05:18:00 title = DIETRO LA MASCHERA - LAW & ORDER: UNITA' SPECIALE XIII
 [  Debug ]    suspicious      title in index page  = PREMIUM ANTEPRIMA
 [  Debug ]       differs from title in showdetails = EPISODIO 2 -  18/10 - PREMI.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/10/2015 06:00:00 stop = 19/10/2015 06:23:00 title = EPISODIO 2 -  18/10 - PREMIUM MAGAZINE
+[  Info  ]       Replaces ----- start = 19/10/2015 06:00:00 stop = 19/10/2015 06:23:00 title = EPISODIO 2 -  18/10 - PREMIUM MAGAZINE
 [  Debug ]    suspicious      title in index page  = THE MENTALIST V
 [  Debug ]       differs from title in showdetails = INCHIESTE ROSSO SANGUE - .....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/10/2015 06:23:00 stop = 19/10/2015 07:13:00 title = INCHIESTE ROSSO SANGUE - THE MENTALIST V
+[  Info  ]       Replaces ----- start = 19/10/2015 06:23:00 stop = 19/10/2015 07:13:00 title = INCHIESTE ROSSO SANGUE - THE MENTALIST V
 [  Debug ]    suspicious      title in index page  = THE MENTALIST V
 [  Debug ]       differs from title in showdetails = VELE ROSSE AL TRAMONTO - .....
-[  Debug ]    suspicious      title in index page  = THE CLOSER II
-[  Debug ]       differs from title in showdetails = DULCIS IN FUNDO - THE C.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/10/2015 07:13:00 stop = 19/10/2015 08:01:00 title = VELE ROSSE AL TRAMONTO - THE MENTALIST V
+[  Info  ]       Replaces ----- start = 19/10/2015 07:13:00 stop = 19/10/2015 08:01:00 title = VELE ROSSE AL TRAMONTO - THE MENTALIST V
 [  Debug ]    suspicious      title in index page  = THE CLOSER II
 [  Debug ]       differs from title in showdetails = PROTEGGERE E SERVIRE - .....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/10/2015 08:53:00 stop = 19/10/2015 09:46:00 title = PROTEGGERE E SERVIRE - THE CLOSER II
+[  Info  ]       Replaces ----- start = 19/10/2015 08:53:00 stop = 19/10/2015 09:46:00 title = PROTEGGERE E SERVIRE - THE CLOSER II
 [  Debug ]    suspicious      title in index page  = SPECIAL VICTIMS UNIT XIV
 [  Debug ]       differs from title in showdetails = SOTTO ACCUSA - LAW & ORDER: UNITA'.....
-[  Debug ]    suspicious      title in index page  = MEMPHIS BEAT II
-[  Debug ]       differs from title in showdetails = SCOMPARSA - MEMPHIS BEAT .....
-[  Debug ]    suspicious      title in index page  = MEMPHIS BEAT II
-[  Debug ]       differs from title in showdetails = PICCOLA SORPRESA - MEMPHI.....
-[  Debug ]    suspicious      title in index page  = SENZA TRACCIA V
-[  Debug ]       differs from title in showdetails = DIMENTICATO - SENZA TRACC.....
-[  Debug ]    suspicious      title in index page  = THE MENTALIST V
-[  Debug ]       differs from title in showdetails = BOLIDE ROSSO - THE MENTAL.....
-[  Debug ]    suspicious      title in index page  = THE MENTALIST V
-[  Debug ]       differs from title in showdetails = PANAMA ROSSO - THE MENTAL.....
-[  Debug ]    suspicious      title in index page  = THE CLOSER II
-[  Debug ]       differs from title in showdetails = FUORI FUOCO - THE CLOSE.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/10/2015 10:38:00 stop = 19/10/2015 11:18:00 title = SOTTO ACCUSA - LAW & ORDER: UNITA' SPECIALE XIV
+[  Info  ]       Replaces ----- start = 19/10/2015 10:38:00 stop = 19/10/2015 11:18:00 title = SOTTO ACCUSA - LAW & ORDER: UNITA' SPECIALE XIV
 [  Debug ]    suspicious      title in index page  = THE CLOSER II
 [  Debug ]       differs from title in showdetails = OMICIDIO A LUCI ROSSE -.....
-[  Debug ]    suspicious      title in index page  = COLD CASE - DELITTI IRRISOLTI V
-[  Debug ]       differs from title in showdetails = IL MONDO DEL SILENZIO - COLD CASE-DELITTI.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/10/2015 17:32:00 stop = 19/10/2015 18:21:00 title = OMICIDIO A LUCI ROSSE - THE CLOSER II
+[  Info  ]       Replaces ----- start = 19/10/2015 17:32:00 stop = 19/10/2015 18:21:00 title = OMICIDIO A LUCI ROSSE - THE CLOSER II
 [  Debug ]    suspicious      title in index page  = THE FOLLOWING III
 [  Debug ]       differs from title in showdetails = IL PRESCELTO - THE FOLLOWIN.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/10/2015 19:14:00 stop = 19/10/2015 20:06:00 title = IL PRESCELTO - THE FOLLOWING III - PRIMA TV
+[  Info  ]       Replaces ----- start = 19/10/2015 19:14:00 stop = 19/10/2015 20:06:00 title = IL PRESCELTO - THE FOLLOWING III - PRIMA TV
 [  Debug ]    suspicious      title in index page  = THE FOLLOWING III
 [  Debug ]       differs from title in showdetails = ETERNAMENTE - THE FOLLOWING.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/10/2015 20:06:00 stop = 19/10/2015 21:00:00 title = ETERNAMENTE - THE FOLLOWING III - PRIMA TV
+[  Info  ]       Replaces ----- start = 19/10/2015 20:06:00 stop = 19/10/2015 21:00:00 title = ETERNAMENTE - THE FOLLOWING III - PRIMA TV
 [  Debug ]    suspicious      title in index page  = 100 CODE
 [  Debug ]       differs from title in showdetails = ADE E PERSEFONE - .....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/10/2015 21:00:00 stop = 19/10/2015 21:55:00 title = ADE E PERSEFONE - 100 CODE
+[  Info  ]       Replaces ----- start = 19/10/2015 21:00:00 stop = 19/10/2015 21:55:00 title = ADE E PERSEFONE - 100 CODE
 [  Debug ]    suspicious      title in index page  = 100 CODE
 [  Debug ]       differs from title in showdetails = IL NOSTRO UOMO - 1.....
-[  Debug ]    suspicious      title in index page  = SENZA TRACCIA V
-[  Debug ]       differs from title in showdetails = PRONTO INTERVENTO - SENZA.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/10/2015 21:55:00 stop = 19/10/2015 22:36:00 title = IL NOSTRO UOMO - 100 CODE
+[  Info  ]       Replaces ----- start = 19/10/2015 21:55:00 stop = 19/10/2015 22:36:00 title = IL NOSTRO UOMO - 100 CODE
 [  Debug ]    suspicious      title in index page  = THE FOLLOWING III
 [  Debug ]       differs from title in showdetails = IL PRESCELTO - THE FOLLOWIN.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/10/2015 00:30:00 stop = 20/10/2015 01:25:00 title = IL PRESCELTO - THE FOLLOWING III - PRIMA TV
+[  Info  ]       Replaces ----- start = 20/10/2015 00:30:00 stop = 20/10/2015 01:25:00 title = IL PRESCELTO - THE FOLLOWING III - PRIMA TV
 [  Debug ]    suspicious      title in index page  = THE FOLLOWING III
 [  Debug ]       differs from title in showdetails = ETERNAMENTE - THE FOLLOWING.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/10/2015 01:25:00 stop = 20/10/2015 02:09:00 title = ETERNAMENTE - THE FOLLOWING III - PRIMA TV
+[  Info  ]       Replaces ----- start = 20/10/2015 01:25:00 stop = 20/10/2015 02:09:00 title = ETERNAMENTE - THE FOLLOWING III - PRIMA TV
 [  Debug ]    suspicious      title in index page  = 100 CODE
 [  Debug ]       differs from title in showdetails = ADE E PERSEFONE - .....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/10/2015 02:09:00 stop = 20/10/2015 02:55:00 title = ADE E PERSEFONE - 100 CODE
+[  Info  ]       Replaces ----- start = 20/10/2015 02:09:00 stop = 20/10/2015 02:55:00 title = ADE E PERSEFONE - 100 CODE
 [  Debug ]    suspicious      title in index page  = 100 CODE
 [  Debug ]       differs from title in showdetails = IL NOSTRO UOMO - 1.....
-[  Debug ]    suspicious      title in index page  = COLD CASE - DELITTI IRRISOLTI V
-[  Debug ]       differs from title in showdetails = IL MONDO DEL SILENZIO - COLD CASE-DELITTI.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/10/2015 02:55:00 stop = 20/10/2015 03:45:00 title = IL NOSTRO UOMO - 100 CODE
+[  Info  ]       Replaces ----- start = 20/10/2015 02:55:00 stop = 20/10/2015 03:45:00 title = IL NOSTRO UOMO - 100 CODE
 [  Debug ]    suspicious      title in index page  = SPECIAL VICTIMS UNIT XIV
 [  Debug ]       differs from title in showdetails = SOTTO ACCUSA - LAW & ORDER: UNITA'.....
-[  Debug ]    suspicious      title in index page  = THE MENTALIST V
-[  Debug ]       differs from title in showdetails = BOLIDE ROSSO - THE MENTAL.....
-[  Debug ]    suspicious      title in index page  = THE MENTALIST V
-[  Debug ]       differs from title in showdetails = PANAMA ROSSO - THE MENTAL.....
-[  Debug ]    suspicious      title in index page  = THE CLOSER II
-[  Debug ]       differs from title in showdetails = FUORI FUOCO - THE CLOSE.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/10/2015 05:22:00 stop = 20/10/2015 06:04:00 title = SOTTO ACCUSA - LAW & ORDER: UNITA' SPECIALE XIV
+[  Info  ]       Replaces ----- start = 20/10/2015 05:22:00 stop = 20/10/2015 06:04:00 title = SOTTO ACCUSA - LAW & ORDER: UNITA' SPECIALE XIV
 [  Debug ]    suspicious      title in index page  = THE CLOSER II
 [  Debug ]       differs from title in showdetails = OMICIDIO A LUCI ROSSE -.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/10/2015 08:52:00 stop = 20/10/2015 09:45:00 title = OMICIDIO A LUCI ROSSE - THE CLOSER II
+[  Info  ]       Replaces ----- start = 20/10/2015 08:52:00 stop = 20/10/2015 09:45:00 title = OMICIDIO A LUCI ROSSE - THE CLOSER II
 [  Debug ]    suspicious      title in index page  = SPECIAL VICTIMS UNIT XIV
 [  Debug ]       differs from title in showdetails = AL DI SOPRA DI OGNI SOSPETTO - LAW.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/10/2015 09:45:00 stop = 20/10/2015 10:36:00 title = AL DI SOPRA DI OGNI SOSPETTO - LAW & ORDER: UNITA' SPECIALE XIV
+[  Info  ]       Replaces ----- start = 20/10/2015 09:45:00 stop = 20/10/2015 10:36:00 title = AL DI SOPRA DI OGNI SOSPETTO - LAW & ORDER: UNITA' SPECIALE XIV
 [  Debug ]    suspicious      title in index page  = SPECIAL VICTIMS UNIT XIV
 [  Debug ]       differs from title in showdetails = GIOCHI VIOLENTI - LAW & ORDER: UNI.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/10/2015 10:36:00 stop = 20/10/2015 11:18:00 title = GIOCHI VIOLENTI - LAW & ORDER: UNITA' SPECIALE XIV
+[  Info  ]       Replaces ----- start = 20/10/2015 10:36:00 stop = 20/10/2015 11:18:00 title = GIOCHI VIOLENTI - LAW & ORDER: UNITA' SPECIALE XIV
 [  Debug ]    suspicious      title in index page  = CRIMING
 [  Debug ]       differs from title in showdetails = MURDER IN THE FIR.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/10/2015 11:18:00 stop = 20/10/2015 11:30:00 title = MURDER IN THE FIRST  - CRIMING
+[  Info  ]       Replaces ----- start = 20/10/2015 11:18:00 stop = 20/10/2015 11:30:00 title = MURDER IN THE FIRST  - CRIMING
 [  Debug ]    suspicious      title in index page  = MEMPHIS BEAT II
 [  Debug ]       differs from title in showdetails = IL PESO DEI RICORDI - MEM.....
-[  Debug ]    suspicious      title in index page  = MEMPHIS BEAT II
-[  Debug ]       differs from title in showdetails = IN CATTIVE ACQUE - MEMPHI.....
-[  Debug ]    suspicious      title in index page  = SENZA TRACCIA V
-[  Debug ]       differs from title in showdetails = PRONTO INTERVENTO - SENZA.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/10/2015 11:30:00 stop = 20/10/2015 12:17:00 title = IL PESO DEI RICORDI - MEMPHIS BEAT II
+[  Info  ]       Replaces ----- start = 20/10/2015 11:30:00 stop = 20/10/2015 12:17:00 title = IL PESO DEI RICORDI - MEMPHIS BEAT II
 [  Debug ]    suspicious      title in index page  = THE MENTALIST V
 [  Debug ]       differs from title in showdetails = LA COLLANA DI RUBINI ROSS.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/10/2015 14:56:00 stop = 20/10/2015 15:47:00 title = LA COLLANA DI RUBINI ROSSI - THE MENTALIST V
+[  Info  ]       Replaces ----- start = 20/10/2015 14:56:00 stop = 20/10/2015 15:47:00 title = LA COLLANA DI RUBINI ROSSI - THE MENTALIST V
 [  Debug ]    suspicious      title in index page  = THE MENTALIST V
 [  Debug ]       differs from title in showdetails = PICCOLA CORVETTE ROSSA - .....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/10/2015 15:47:00 stop = 20/10/2015 16:38:00 title = PICCOLA CORVETTE ROSSA - THE MENTALIST V
+[  Info  ]       Replaces ----- start = 20/10/2015 15:47:00 stop = 20/10/2015 16:38:00 title = PICCOLA CORVETTE ROSSA - THE MENTALIST V
 [  Debug ]    suspicious      title in index page  = THE CLOSER II
 [  Debug ]       differs from title in showdetails = SPARIZIONE INGIUSTIFICA.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/10/2015 16:38:00 stop = 20/10/2015 17:32:00 title = SPARIZIONE INGIUSTIFICATA - THE CLOSER II
+[  Info  ]       Replaces ----- start = 20/10/2015 16:38:00 stop = 20/10/2015 17:32:00 title = SPARIZIONE INGIUSTIFICATA - THE CLOSER II
 [  Debug ]    suspicious      title in index page  = THE CLOSER II
 [  Debug ]       differs from title in showdetails = CHI HA SBAGLIATO? - THE.....
-[  Debug ]    suspicious      title in index page  = COLD CASE - DELITTI IRRISOLTI V
-[  Debug ]       differs from title in showdetails = IL COLLEZIONISTA - COLD CASE-DELITTI IRRI.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/10/2015 17:32:00 stop = 20/10/2015 18:23:00 title = CHI HA SBAGLIATO? - THE CLOSER II
+[  Info  ]       Replaces ----- start = 20/10/2015 17:32:00 stop = 20/10/2015 18:23:00 title = CHI HA SBAGLIATO? - THE CLOSER II
 [  Debug ]    suspicious      title in index page  = 100 CODE
 [  Debug ]       differs from title in showdetails = NELLA TANA DEL CON.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/10/2015 19:14:00 stop = 20/10/2015 20:07:00 title = NELLA TANA DEL CONIGLIO - 100 CODE - PRIMA TV
+[  Info  ]       Replaces ----- start = 20/10/2015 19:14:00 stop = 20/10/2015 20:07:00 title = NELLA TANA DEL CONIGLIO - 100 CODE - PRIMA TV
 [  Debug ]    suspicious      title in index page  = 100 CODE
 [  Debug ]       differs from title in showdetails = IL MIO UNICO AMICO.....
-[  Debug ]    suspicious      title in index page  = MURDER IN THE FIRST II
-[  Debug ]       differs from title in showdetails = MURDER IN THE FIRST II 9 - MURDE.....
-[  Debug ]    suspicious      title in index page  = MURDER IN THE FIRST II
-[  Debug ]       differs from title in showdetails = MURDER IN THE FIRST II 10 - MURD.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/10/2015 20:07:00 stop = 20/10/2015 21:03:00 title = IL MIO UNICO AMICO - 100 CODE - PRIMA TV
+[  Info  ]       Replaces ----- start = 20/10/2015 20:07:00 stop = 20/10/2015 21:03:00 title = IL MIO UNICO AMICO - 100 CODE - PRIMA TV
 [  Debug ]    suspicious      title in index page  = SENZA TRACCIA V
 [  Debug ]       differs from title in showdetails = IL GIOCO DEL DESTINO - SE.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/10/2015 22:50:00 stop = 20/10/2015 23:40:00 title = IL GIOCO DEL DESTINO - SENZA TRACCIA V
+[  Info  ]       Replaces ----- start = 20/10/2015 22:50:00 stop = 20/10/2015 23:40:00 title = IL GIOCO DEL DESTINO - SENZA TRACCIA V
 [  Debug ]    skipped 
-[  Info  ] 0,16 sec/update
+[  Info  ] 0.51 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Premium Crime +24) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    suspicious      title in index page  = THE CLOSER I
@@ -998,7 +1178,7 @@
 [  Info  ]       show with ---- start = 20/10/2015 21:55:00 stop = 20/10/2015 22:36:00 title = IL NOSTRO UOMO - 100 CODE
 [  Info  ]       Replaces ----- start = 20/10/2015 21:55:00 stop = 20/10/2015 22:36:00 title = IL NOSTRO UOMO - 100 CODE
 [  Debug ]    skipped 
-[  Info  ] 0,20 sec/update
+[  Info  ] 0.53 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Premium Joy) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    suspicious      title in index page  = FRIENDS IV
@@ -1514,7 +1694,7 @@
 [  Info  ]       show with ---- start = 20/10/2015 23:31:00 stop = 21/10/2015 00:18:00 title = CHUCK VS. LO ZOOM - CHUCK V
 [  Info  ]       Replaces ----- start = 20/10/2015 23:31:00 stop = 21/10/2015 00:18:00 title = CHUCK VS. LO ZOOM - CHUCK V
 [  Debug ]    skipped 
-[  Info  ] 0,20 sec/update
+[  Info  ] 0.55 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Premium Stories) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    suspicious      title in index page  = CHANTE! II
@@ -1848,7 +2028,7 @@
 [  Info  ]       show with ---- start = 20/10/2015 21:50:00 stop = 20/10/2015 21:58:00 title = TRUSSARDI 2 - X-STYLE
 [  Info  ]       Replaces ----- start = 20/10/2015 21:50:00 stop = 20/10/2015 21:58:00 title = TRUSSARDI 2 - X-STYLE
 [  Debug ]    skipped 
-[  Info  ] 0,30 sec/update
+[  Info  ] 0.56 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Premium Sport HD) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Info  ]    epg correction : 
@@ -1966,43 +2146,139 @@
 [  Info  ]       show with ---- start = 20/10/2015 08:00:00 stop = 20/10/2015 08:55:00 title = PUNTATA 10 - 20/10 - HIGHLIGHTS CAMPIONATO FRANCESE -'16
 [  Info  ]       Replaces ----- start = 20/10/2015 08:00:00 stop = 20/10/2015 08:55:00 title = PUNTATA 10 - 20/10 - HIGHLIGHTS CAMPIONATO FRANCESE -'16
 [  Debug ]    skipped 
-[  Info  ] 0,20 sec/update
+[  Info  ] 0.52 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Premium Calcio) site -- MEDIASETPREMIUM.IT -- mode incremental
-[  Debug ]    suspicious      title in index page  = MAGAZINE CHAMPIONS LEAGUE
-[  Debug ]       differs from title in showdetails = VENERDI 16/10 - MAGAZINE CHAMPIONS .....
-[  Debug ]    suspicious      title in index page  = GREAT GOALS OF EUROPEAN FOOTBALL
-[  Debug ]       differs from title in showdetails = EPISODIO 3 - GIOVEDI 8/10 - GREAT GOALS OF.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/10/2015 04:00:00 stop = 18/10/2015 04:10:00 title = CUORE BIANCONERO 4/10 - CUORE TIFOSO  
+[  Info  ]       Replaces ----- start = 18/10/2015 04:00:00 stop = 18/10/2015 04:10:00 title = CUORE BIANCONERO 4/10 - CUORE TIFOSO  
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/10/2015 06:01:00 stop = 18/10/2015 07:59:00 title = TORINO - MILAN - CAMPIONATO DI CALCIO SERIE A 2015/16 (MILAN)
+[  Info  ]       Replaces ----- start = 18/10/2015 06:01:00 stop = 18/10/2015 07:59:00 title = TORINO - MILAN - CAMPIONATO DI CALCIO SERIE A 2015/16 (MILAN)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/10/2015 07:59:00 stop = 18/10/2015 09:55:00 title = ROMA - EMPOLI - CAMPIONATO DI CALCIO SERIE A 2015/16 (ROMA)
+[  Info  ]       Replaces ----- start = 18/10/2015 07:59:00 stop = 18/10/2015 09:55:00 title = ROMA - EMPOLI - CAMPIONATO DI CALCIO SERIE A 2015/16 (ROMA)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/10/2015 12:12:00 stop = 18/10/2015 14:59:00 title = NAPOLI - FIORENTINA - CAMPIONATO DI CALCIO SERIE A 2015/16 (NAPOLI)
+[  Info  ]       Replaces ----- start = 18/10/2015 12:12:00 stop = 18/10/2015 14:59:00 title = NAPOLI - FIORENTINA - CAMPIONATO DI CALCIO SERIE A 2015/16 (NAPOLI)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/10/2015 17:53:00 stop = 18/10/2015 18:24:00 title = SCARNECCHIA - L' ALTRA PARTITA -
+[  Info  ]       Replaces ----- start = 18/10/2015 17:53:00 stop = 18/10/2015 18:24:00 title = SCARNECCHIA - L' ALTRA PARTITA -
 [  Debug ]    suspicious      title in index page  = HIGHLIGHTS SERIE A
 [  Debug ]       differs from title in showdetails = OTTAVA GIORNATA 18/10 - HIGH.....
-[  Debug ]    suspicious      title in index page  = PREMIUM MAGAZINE
-[  Debug ]       differs from title in showdetails = EPISODIO 2 -  18/10 - PREM.....
-[  Debug ]    suspicious      title in index page  = MASTER OF EUROPEAN FOOTBALL
-[  Debug ]       differs from title in showdetails = EPISODIO 5 - 15/10 - MASTER OF EUROPE.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/10/2015 18:24:00 stop = 18/10/2015 18:36:00 title = OTTAVA GIORNATA 18/10 - HIGHLIGHTS SERIE A 10M -'16
+[  Info  ]       Replaces ----- start = 18/10/2015 18:24:00 stop = 18/10/2015 18:36:00 title = OTTAVA GIORNATA 18/10 - HIGHLIGHTS SERIE A 10M -'16
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/10/2015 18:36:00 stop = 18/10/2015 20:41:00 title = INTER - JUVENTUS - CAMPIONATO DI CALCIO SERIE A 2015/16 (INTER) - SPIDER CAM
+[  Info  ]       Replaces ----- start = 18/10/2015 18:36:00 stop = 18/10/2015 20:41:00 title = INTER - JUVENTUS - CAMPIONATO DI CALCIO SERIE A 2015/16 (INTER) - SPIDER CAM
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/10/2015 21:00:00 stop = 18/10/2015 22:57:00 title = INTER - JUVENTUS - CAMPIONATO DI CALCIO SERIE A 2015/16 (INTER)
+[  Info  ]       Replaces ----- start = 18/10/2015 21:00:00 stop = 18/10/2015 22:57:00 title = INTER - JUVENTUS - CAMPIONATO DI CALCIO SERIE A 2015/16 (INTER)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/10/2015 23:27:00 stop = 19/10/2015 01:15:00 title = SASSUOLO - LAZIO - CAMPIONATO DI CALCIO SERIE A 2015/16 (LAZIO)
+[  Info  ]       Replaces ----- start = 18/10/2015 23:27:00 stop = 19/10/2015 01:15:00 title = SASSUOLO - LAZIO - CAMPIONATO DI CALCIO SERIE A 2015/16 (LAZIO)
 [  Debug ]    suspicious      title in index page  = HIGHLIGHTS SERIE A
 [  Debug ]       differs from title in showdetails = OTTAVA GIORNATA 18/10 - HIGH.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/10/2015 01:15:00 stop = 19/10/2015 01:46:00 title = OTTAVA GIORNATA 18/10 - HIGHLIGHTS SERIE A 25M -'16
+[  Info  ]       Replaces ----- start = 19/10/2015 01:15:00 stop = 19/10/2015 01:46:00 title = OTTAVA GIORNATA 18/10 - HIGHLIGHTS SERIE A 25M -'16
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/10/2015 01:46:00 stop = 19/10/2015 03:34:00 title = GENOA - CHIEVO - CAMPIONATO DI CALCIO SERIE A 2015/16 (GENOA)
+[  Info  ]       Replaces ----- start = 19/10/2015 01:46:00 stop = 19/10/2015 03:34:00 title = GENOA - CHIEVO - CAMPIONATO DI CALCIO SERIE A 2015/16 (GENOA)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/10/2015 04:01:00 stop = 19/10/2015 05:55:00 title = TORINO - MILAN - CAMPIONATO DI CALCIO SERIE A 2015/16 (MILAN)
+[  Info  ]       Replaces ----- start = 19/10/2015 04:01:00 stop = 19/10/2015 05:55:00 title = TORINO - MILAN - CAMPIONATO DI CALCIO SERIE A 2015/16 (MILAN)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/10/2015 05:55:00 stop = 19/10/2015 07:52:00 title = NAPOLI - FIORENTINA - CAMPIONATO DI CALCIO SERIE A 2015/16 (NAPOLI)
+[  Info  ]       Replaces ----- start = 19/10/2015 05:55:00 stop = 19/10/2015 07:52:00 title = NAPOLI - FIORENTINA - CAMPIONATO DI CALCIO SERIE A 2015/16 (NAPOLI)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/10/2015 07:52:00 stop = 19/10/2015 09:50:00 title = INTER - JUVENTUS - CAMPIONATO DI CALCIO SERIE A 2015/16 (INTER)
+[  Info  ]       Replaces ----- start = 19/10/2015 07:52:00 stop = 19/10/2015 09:50:00 title = INTER - JUVENTUS - CAMPIONATO DI CALCIO SERIE A 2015/16 (INTER)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/10/2015 09:50:00 stop = 19/10/2015 11:47:00 title = SASSUOLO - LAZIO - CAMPIONATO DI CALCIO SERIE A 2015/16 (LAZIO)
+[  Info  ]       Replaces ----- start = 19/10/2015 09:50:00 stop = 19/10/2015 11:47:00 title = SASSUOLO - LAZIO - CAMPIONATO DI CALCIO SERIE A 2015/16 (LAZIO)
 [  Debug ]    suspicious      title in index page  = LIGUE 1 2015/16
 [  Debug ]       differs from title in showdetails = BASTIA - PARIS SG 17/10 -.....
-[  Debug ]    suspicious      title in index page  = SERIE A REVIEW
-[  Debug ]       differs from title in showdetails = LUNEDI 19/10 - SERIE A R.....
-[  Debug ]    suspicious      title in index page  = MASTER OF EUROPEAN FOOTBALL
-[  Debug ]       differs from title in showdetails = EPISODIO 5 - 15/10 - MASTER OF EUROPE.....
-[  Debug ]    suspicious      title in index page  = MAGAZINE CHAMPIONS LEAGUE
-[  Debug ]       differs from title in showdetails = VENERDI 16/10 - MAGAZINE CHAMPIONS .....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/10/2015 11:47:00 stop = 19/10/2015 13:45:00 title = BASTIA - PARIS SG 17/10 - LIGUE 1 2015/16
+[  Info  ]       Replaces ----- start = 19/10/2015 11:47:00 stop = 19/10/2015 13:45:00 title = BASTIA - PARIS SG 17/10 - LIGUE 1 2015/16
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/10/2015 13:45:00 stop = 19/10/2015 13:53:00 title = CUORE ROSSONERO 17/10 - CUORE TIFOSO  
+[  Info  ]       Replaces ----- start = 19/10/2015 13:45:00 stop = 19/10/2015 13:53:00 title = CUORE ROSSONERO 17/10 - CUORE TIFOSO  
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/10/2015 18:59:00 stop = 19/10/2015 20:55:00 title = INTER - JUVENTUS - CAMPIONATO DI CALCIO SERIE A 2015/16 (INTER)
+[  Info  ]       Replaces ----- start = 19/10/2015 18:59:00 stop = 19/10/2015 20:55:00 title = INTER - JUVENTUS - CAMPIONATO DI CALCIO SERIE A 2015/16 (INTER)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/10/2015 20:55:00 stop = 19/10/2015 22:52:00 title = NAPOLI - FIORENTINA - CAMPIONATO DI CALCIO SERIE A 2015/16 (NAPOLI)
+[  Info  ]       Replaces ----- start = 19/10/2015 20:55:00 stop = 19/10/2015 22:52:00 title = NAPOLI - FIORENTINA - CAMPIONATO DI CALCIO SERIE A 2015/16 (NAPOLI)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/10/2015 23:22:00 stop = 20/10/2015 01:12:00 title = ROMA - EMPOLI - CAMPIONATO DI CALCIO SERIE A 2015/16 (ROMA)
+[  Info  ]       Replaces ----- start = 19/10/2015 23:22:00 stop = 20/10/2015 01:12:00 title = ROMA - EMPOLI - CAMPIONATO DI CALCIO SERIE A 2015/16 (ROMA)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/10/2015 01:40:00 stop = 20/10/2015 03:29:00 title = GENOA - CHIEVO - CAMPIONATO DI CALCIO SERIE A 2015/16 (GENOA)
+[  Info  ]       Replaces ----- start = 20/10/2015 01:40:00 stop = 20/10/2015 03:29:00 title = GENOA - CHIEVO - CAMPIONATO DI CALCIO SERIE A 2015/16 (GENOA)
 [  Debug ]    suspicious      title in index page  = HIGHLIGHTS SERIE A
 [  Debug ]       differs from title in showdetails = OTTAVA GIORNATA 18/10 - HIGH.....
-[  Debug ]    suspicious      title in index page  = MAGAZINE CHAMPIONS LEAGUE
-[  Debug ]       differs from title in showdetails = VENERDI 16/10 - MAGAZINE CHAMPIONS .....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/10/2015 03:29:00 stop = 20/10/2015 04:01:00 title = OTTAVA GIORNATA 18/10 - HIGHLIGHTS SERIE A 25M -'16
+[  Info  ]       Replaces ----- start = 20/10/2015 03:29:00 stop = 20/10/2015 04:01:00 title = OTTAVA GIORNATA 18/10 - HIGHLIGHTS SERIE A 25M -'16
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/10/2015 07:52:00 stop = 20/10/2015 09:50:00 title = ROMA - EMPOLI - CAMPIONATO DI CALCIO SERIE A 2015/16 (ROMA)
+[  Info  ]       Replaces ----- start = 20/10/2015 07:52:00 stop = 20/10/2015 09:50:00 title = ROMA - EMPOLI - CAMPIONATO DI CALCIO SERIE A 2015/16 (ROMA)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/10/2015 11:47:00 stop = 20/10/2015 13:43:00 title = TORINO - MILAN - CAMPIONATO DI CALCIO SERIE A 2015/16 (MILAN)
+[  Info  ]       Replaces ----- start = 20/10/2015 11:47:00 stop = 20/10/2015 13:43:00 title = TORINO - MILAN - CAMPIONATO DI CALCIO SERIE A 2015/16 (MILAN)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/10/2015 16:24:00 stop = 20/10/2015 18:17:00 title = INTER - JUVENTUS - CAMPIONATO DI CALCIO SERIE A 2015/16 (INTER)
+[  Info  ]       Replaces ----- start = 20/10/2015 16:24:00 stop = 20/10/2015 18:17:00 title = INTER - JUVENTUS - CAMPIONATO DI CALCIO SERIE A 2015/16 (INTER)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/10/2015 18:17:00 stop = 20/10/2015 18:36:00 title = CUORE TIFOSO 18/10 - CUORE TIFOSO   EDITATO
+[  Info  ]       Replaces ----- start = 20/10/2015 18:17:00 stop = 20/10/2015 18:36:00 title = CUORE TIFOSO 18/10 - CUORE TIFOSO   EDITATO
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/10/2015 18:36:00 stop = 20/10/2015 20:43:00 title = DIRETTA CHAMPIONS LEAGUE MARTEDI' 20/10 H. 20.45 - DIRETTA CHAMPIONS LEAGUE 2015/16
+[  Info  ]       Replaces ----- start = 20/10/2015 18:36:00 stop = 20/10/2015 20:43:00 title = DIRETTA CHAMPIONS LEAGUE MARTEDI' 20/10 H. 20.45 - DIRETTA CHAMPIONS LEAGUE 2015/16
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/10/2015 22:42:00 stop = 20/10/2015 23:09:00 title = MARADONA - STORIE DI CALCIOMERCATO
+[  Info  ]       Replaces ----- start = 20/10/2015 22:42:00 stop = 20/10/2015 23:09:00 title = MARADONA - STORIE DI CALCIOMERCATO
 [  Debug ]    skipped 
-[  Info  ] 0,17 sec/update
+[  Info  ] 0.48 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Premium Eurosport) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    skipped 
-[  Info  ] 0,07 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Premium Eurosport 2) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    skipped 
-[  Info  ] 0,07 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Discovery World) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    skipped 
@@ -2026,11 +2302,11 @@
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Premium Discovery World) site -- MEDIASET.IT -- mode incremental
 [  Debug ]    skipped 
-[  Info  ] 0,17 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Premium BBC knwolegend) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    skipped 
-[  Info  ] 0,09 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Cinema 1 HD -720p) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    suspicious      title in index page  = Guardiani della Galassia
@@ -2038,7 +2314,7 @@
 [  Debug ]    suspicious      title in index page  = Lo Hobbit - La battaglia delle cinque armate
 [  Debug ]       differs from title in showdetails = Lo Hobbit. La battaglia delle cinque armate (The Hobbi.....
 [  Debug ]    skipped 
-[  Info  ] 0,32 sec/update
+[  Info  ] 1.12 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Cinema 1 HD  -1080i) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    suspicious      title in index page  = Guardiani della Galassia
@@ -2046,7 +2322,7 @@
 [  Debug ]    suspicious      title in index page  = Lo Hobbit - La battaglia delle cinque armate
 [  Debug ]       differs from title in showdetails = Lo Hobbit. La battaglia delle cinque armate (The Hobbi.....
 [  Debug ]    skipped 
-[  Info  ] 0,24 sec/update
+[  Info  ] 1.08 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Cinema +1 HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    suspicious      title in index page  = Guardiani della Galassia
@@ -2054,7 +2330,7 @@
 [  Debug ]    suspicious      title in index page  = Lo Hobbit - La battaglia delle cinque armate
 [  Debug ]       differs from title in showdetails = Lo Hobbit. La battaglia delle cinque armate (The Hobbi.....
 [  Debug ]    skipped 
-[  Info  ] 0,25 sec/update
+[  Info  ] 1.08 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Cinema +24 HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
@@ -2068,13 +2344,13 @@
 [  Debug ]    suspicious      title in index page  = Dragon Trainer 2
 [  Debug ]       differs from title in showdetails = How to Train Your Dragon 2
 [  Debug ]    skipped 
-[  Info  ] 0,30 sec/update
+[  Info  ] 1.15 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY Cinema Family HD +1) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    suspicious      title in index page  = Dragon Trainer 2
 [  Debug ]       differs from title in showdetails = How to Train Your Dragon 2
 [  Debug ]    skipped 
-[  Info  ] 0,28 sec/update
+[  Info  ] 1.13 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Cinema Passion HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
@@ -2088,13 +2364,13 @@
 [  Debug ]    suspicious      title in index page  = Pompei
 [  Debug ]       differs from title in showdetails = Pompeii
 [  Debug ]    skipped 
-[  Info  ] 0,31 sec/update
+[  Info  ] 1.14 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Cinema Max +1 HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    suspicious      title in index page  = Pompei
 [  Debug ]       differs from title in showdetails = Pompeii
 [  Debug ]    skipped 
-[  Info  ] 0,66 sec/update
+[  Info  ] 1.13 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Cinema Cult HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
@@ -2108,7 +2384,7 @@
 [  Debug ]    suspicious      title in index page  = Justin e i cavalieri valorosi
 [  Debug ]       differs from title in showdetails = Justin and the Knights of Valour
 [  Debug ]    skipped 
-[  Info  ] 0,32 sec/update
+[  Info  ] 1.15 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Uno HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
@@ -2204,11 +2480,11 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=TgCom24) site -- MEDIASET.IT -- mode incremental
-[  Info  ] 0,17 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Euronews) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
-[  Info  ] 0,31 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky TG 24) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
@@ -2348,7 +2624,7 @@
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Formula 1 HD  -1080i) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
-[  Info  ] 0,28 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Moto GP HD -720p) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
@@ -2356,7 +2632,7 @@
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Moto GP HD - 1080i) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
-[  Info  ] 0,44 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Super Tennis HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
@@ -2428,35 +2704,35 @@
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Calcio 1 HD  -1080i) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0,38 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Calcio 2 HD -1080i) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0,69 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Calcio 3 HD -1080i) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0,84 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Calcio 4  HD -1080i) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0,76 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Calcio 5  HD -1080i) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0,55 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Calcio 6 HD -1080i) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 1,14 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Calcio 7 HD -1080i) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0,58 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Calcio 8 HD  -1080i) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0,57 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Primafila 1 HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
@@ -2518,7 +2794,7 @@
 [  Debug ]    suspicious      title in index page  = La risposta e' nelle stelle
 [  Debug ]       differs from title in showdetails = La risposta è nelle stelle (The Longe.....
 [  Debug ]    skipped 
-[  Info  ] 0,49 sec/update
+[  Info  ] 1.34 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Primafila 13 HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    suspicious      title in index page  = La risposta e' nelle stelle
@@ -2531,12 +2807,14 @@
 [  Debug ]       differs from title in showdetails = La risposta è nelle stelle (The Longe.....
 [  Debug ]    suspicious      title in index page  = La risposta e' nelle stelle
 [  Debug ]       differs from title in showdetails = La risposta è nelle stelle (The Longe.....
+[  Warn  ] error downloading page: Error getting response stream (ReadDone2): ReceiveFailure
+[  Warn  ] pausing 1 of 4 times for 5 seconds before re-try.
 [  Debug ]    suspicious      title in index page  = La risposta e' nelle stelle
 [  Debug ]       differs from title in showdetails = La risposta è nelle stelle (The Longe.....
 [  Debug ]    suspicious      title in index page  = La risposta e' nelle stelle
 [  Debug ]       differs from title in showdetails = La risposta è nelle stelle (The Longe.....
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0,45 sec/update
+[  Info  ] 2.06 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Primafila 14) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
@@ -2568,12 +2846,12 @@
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky-DE  Sport 1 HD) site -- TVTODAY.DE -- mode incremental
 [  Debug ]    skipped 
-[  Info  ] 0,41 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Debug ] 17050 shows in 191 channels
-[  Debug ] 281 updated shows
-[  Debug ] 1617 new shows added
+[  Debug ] 374 updated shows
+[  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[  Info  ] job finished at 18/10/2015 09:41:18 done in 1383 seconds
+[  Info  ] job finished at 18/10/2015 16:42:08 done in 2460 seconds
 [  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
