@@ -1,6 +1,6 @@
 ﻿[  Debug ] WebGrab+Plus/w MDB & REX Postprocess -- version 1.1.1/55.27 -- Jan van Straaten 
 [  Debug ] --------------------------------------------------------------------------------
-[  Debug ] job started at 24/10/2015 19:11:37
+[  Debug ] job started at 24/10/2015 20:46:00
 [  Debug ] 
 [  Debug ] reading config file: /home/stefano/git/epg/WebGrab++.config.xml
 [  Debug ] loading timezone data
@@ -16,9 +16,9 @@
 [  Debug ] mono version: 3.2.8 (Debian 3.2.8+dfsg-4ubuntu4)
 [  Debug ] xmltv input file - /home/stefano/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
-[  Debug ] removed a show that is not in time increasing order in Premium Cartoon Network starting after 25/10/2015 22:00:00
-[  Debug ] removed 2 overlapping shows in Premium Disney Junior starting after 25/10/2015 22:05:00
-[  Debug ] removed a show that is not in time increasing order in Premium Action HD starting after 26/10/2015 04:22:00
+[  Debug ] removed 4 overlapping shows in Premium Cartoon Network starting after 26/10/2015 03:56:00
+[  Debug ] removed a show that is not in time increasing order in Premium Disney Junior starting after 25/10/2015 21:55:00
+[  Debug ] removed 2 overlapping shows in Premium Action HD starting after 26/10/2015 03:25:00
 [  Debug ] removed 3 overlapping shows in Premium Crime HD starting after 26/10/2015 03:19:00
 [  Debug ] removed 3 overlapping shows in Premium Crime +24 starting after 26/10/2015 03:41:00
 [  Debug ] removed a show that is not in time increasing order in Premium Joy starting after 25/10/2015 21:58:00
@@ -28,7 +28,7 @@
 [  Debug ] removed 2 overlapping shows in Bbc Knowledge starting after 26/10/2015 03:15:00
 [  Debug ] removed 2 overlapping shows in Premium BBC knwolegend starting after 26/10/2015 03:15:00
 [  Info  ] 
-[  Info  ] update requested for - 202 - out of - 202 - channels for 3 day(s)
+[  Info  ] update requested for - 203 - out of - 203 - channels for 3 day(s)
 [  Info  ] update mode - set per individual channel
 [  Info  ] 
 [  Info  ] 
@@ -93,7 +93,7 @@
 [  Debug ] time-offset change for all shows after starttime 20151024065500 +0200
 [  Debug ] starting with show : THE MIDDLE V at local time 24/10/2015 06:55
 [  Debug ]    skipped 
-[  Info  ] 0,20 sec/update
+[  Info  ] 0,18 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Rete 4 HD) site -- MEDIASET.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -157,7 +157,7 @@
 [  Error ] error downloading page: Invalid URI: The hostname could not be parsed. (20sec)
 [  Error ] retry 4 of 4 times
 [  Debug ]    skipped show without a title at 26/10/2015 11:12:00
-[  Info  ] 0,10 sec/update
+[  Info  ] 0,11 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=laeffe) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -196,14 +196,14 @@
 [  Debug ] time-offset change for all shows after stoptime 20151025060000 +0100
 [  Debug ] starting with show : Repliche continuate at local time 25/10/2015 06:00
 [  Debug ]    skipped 
-[  Info  ] 0,05 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Rsi La Due) site -- HORIZON.TV.CH -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20151024231500 +0200
 [  Debug ] starting with show : Sportsera at local time 24/10/2015 23:15
 [  Debug ]    skipped 
-[  Info  ] 0,05 sec/update
+[  Info  ] 0,06 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=La 7) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -356,32 +356,49 @@
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
+[  Info  ] channel (xmltv_id=Nick Junior) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20151024000000 +0200
+[  Debug ] starting with show : Wanda e l'alieno at local time 24/10/2015 00:00
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 25/10/2015 03:15:00 and stop at 25/10/2015 03:25:00
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 25/10/2015 03:25:00 and stop at 25/10/2015 03:30:00
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 25/10/2015 03:30:00 and stop at 25/10/2015 03:40:00
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 25/10/2015 03:40:00 and stop at 25/10/2015 03:45:00
+[  Debug ]    skipped 
+[  Info  ] 0,29 sec/update
+[  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Manga) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024001000 +0200
-[  Debug ] starting with show : Le Chevalier D'Eon at local time 24/10/2015 00:10
+[  Debug ] time-offset change for all shows after stoptime 20151025030000 +0100
+[  Debug ] starting with show : Magic Kaito 1412 (SUB) at local time 25/10/2015 03:00
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 25/10/2015 03:00:00 and stop at 25/10/2015 03:25:00
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 25/10/2015 03:25:00 and stop at 25/10/2015 03:55:00
+[  Warn  ] error downloading page: Error getting response stream (ReadDone2): ReceiveFailure
+[  Warn  ] pausing 1 of 4 times for 5 seconds before re-try.
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,43 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=K2) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025030500 +0100
-[  Debug ] starting with show : Dofus - I tesori di Kerubim at local time 25/10/2015 03:05
+[  Debug ] time-offset change for all shows after starttime 20151024003500 +0200
+[  Debug ] starting with show : Come e' fatto at local time 24/10/2015 00:35
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 25/10/2015 03:05:00 and stop at 25/10/2015 03:30:00
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 25/10/2015 03:30:00 and stop at 25/10/2015 03:55:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,41 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Boomerang) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024000600 +0200
-[  Debug ] starting with show : The garfield Show at local time 24/10/2015 00:06
+[  Debug ] time-offset change for all shows after stoptime 20151025030000 +0100
+[  Debug ] starting with show : Simsalagrimm at local time 25/10/2015 03:00
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 25/10/2015 03:00:00 and stop at 25/10/2015 03:11:00
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
@@ -391,32 +408,32 @@
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 25/10/2015 03:36:00 and stop at 25/10/2015 03:50:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,34 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Baby TV) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025030000 +0100
-[  Debug ] starting with show : Luna e Stelle at local time 25/10/2015 03:00
+[  Debug ] time-offset change for all shows after starttime 20151024000000 +0200
+[  Debug ] starting with show : Notti da sogno at local time 24/10/2015 00:00
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 25/10/2015 03:00:00 and stop at 25/10/2015 03:30:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,35 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=DeAKids) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024000000 +0200
-[  Debug ] starting with show : Mozart a modo mio at local time 24/10/2015 00:00
+[  Debug ] time-offset change for all shows after stoptime 20151025030000 +0100
+[  Debug ] starting with show : Mozart a modo mio at local time 25/10/2015 03:00
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 25/10/2015 03:00:00 and stop at 25/10/2015 03:20:00
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 25/10/2015 03:20:00 and stop at 25/10/2015 03:45:00
 [  Debug ]    skipped 
-[  Info  ] 0,30 sec/update
+[  Info  ] 0,41 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Disney Junior) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025030000 +0100
-[  Debug ] starting with show : I pigianimali at local time 25/10/2015 03:00
+[  Debug ] time-offset change for all shows after starttime 20151024000000 +0200
+[  Debug ] starting with show : Mouk at local time 24/10/2015 00:00
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 25/10/2015 03:00:00 and stop at 25/10/2015 03:20:00
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
@@ -426,7 +443,7 @@
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 25/10/2015 03:45:00 and stop at 25/10/2015 03:55:00
 [  Debug ]    skipped 
-[  Info  ] 0,25 sec/update
+[  Info  ] 0,33 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Jim Jam) site -- GUIDATV.SKY.IT -- mode incremental
 [  Error ] no index page data received from Jim Jam
@@ -452,32 +469,32 @@
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Frisbee) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024002000 +0200
-[  Debug ] starting with show : La bottega dei cupcake at local time 24/10/2015 00:20
+[  Debug ] time-offset change for all shows after stoptime 20151025031500 +0100
+[  Debug ] starting with show : Sabrina at local time 25/10/2015 03:15
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 25/10/2015 03:15:00 and stop at 25/10/2015 03:40:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,36 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Super) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025031000 +0100
-[  Debug ] starting with show : The Band at local time 25/10/2015 03:10
+[  Debug ] time-offset change for all shows after starttime 20151024000000 +0200
+[  Debug ] starting with show : Camilla Store at local time 24/10/2015 00:00
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 25/10/2015 03:10:00 and stop at 25/10/2015 03:40:00
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 25/10/2015 03:40:00 and stop at 25/10/2015 03:55:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,34 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Cartoonito) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024000000 +0200
-[  Debug ] starting with show : L'armadio di Chloe' at local time 24/10/2015 00:00
+[  Debug ] time-offset change for all shows after stoptime 20151025030000 +0100
+[  Debug ] starting with show : L'armadio di Chloe' at local time 25/10/2015 03:00
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 25/10/2015 03:00:00 and stop at 25/10/2015 03:30:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,41 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Premium Cartoon Network) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    skipped show longer than 15 hour(s) at 25/10/2015 02:55:00 title I FANTASTICI QUATTRO
@@ -487,7 +504,7 @@
 [  Debug ]    skipped negative show time! at 25/10/2015 04:46:00
 [  Debug ]    skipped negative show time! at 25/10/2015 21:45:00
 [  Debug ]    skipped negative show time! at 25/10/2015 21:45:00
-[  Info  ] 0,10 sec/update
+[  Info  ] 0,14 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Premium Disney Junior) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -497,12 +514,12 @@
 [  Debug ]    skipped negative show time! at 25/10/2015 04:40:00
 [  Debug ]    skipped negative show time! at 25/10/2015 21:55:00
 [  Debug ]    skipped negative show time! at 25/10/2015 21:55:00
-[  Info  ] 0,07 sec/update
+[  Info  ] 0,09 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Rai Gulp) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025030500 +0100
-[  Debug ] starting with show : Spooksville at local time 25/10/2015 03:05
+[  Debug ] time-offset change for all shows after starttime 20151024002000 +0200
+[  Debug ] starting with show : Gulp odeon 2015/2016 at local time 24/10/2015 00:20
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 25/10/2015 03:05:00 and stop at 25/10/2015 03:30:00
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
@@ -510,32 +527,34 @@
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 25/10/2015 03:40:00 and stop at 25/10/2015 03:50:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,33 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Rai YoYo) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024000000 +0200
-[  Debug ] starting with show : Il piccolo regno di Ben e Holly at local time 24/10/2015 00:00
+[  Debug ] time-offset change for all shows after stoptime 20151025041000 +0100
+[  Debug ] starting with show : Le nuove avventure della Pimpa at local time 25/10/2015 04:10
+[  Warn  ] error downloading page: Error getting response stream (ReadDone2): ReceiveFailure
+[  Warn  ] pausing 1 of 4 times for 5 seconds before re-try.
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,40 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Premium Cinema HD) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    skipped show longer than 15 hour(s) at 25/10/2015 01:26:00 title 40 GIORNI E 40 NOTTI
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20151026040700 +0100
 [  Debug ] starting with show : CRAZY, STUPID, LOVE at local time 26/10/2015 04:07
+[  Debug ]    skipped negative show time! at 25/10/2015 05:15:00
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 26/10/2015 04:07:00 stop = 26/10/2015 06:00:00 title = Crazy, Stupid, Love
-[  Info  ]       Replaces ----- start = 26/10/2015 03:39:00 stop = 26/10/2015 05:30:00 title = Quasi Amici - Intouchables
-[  Info  ]       Replaces ----- start = 26/10/2015 05:30:00 stop = 26/10/2015 07:01:00 title = UNA MAGICA NOTTE D'ESTATE - 
+[  Info  ]       show with ---- start = 26/10/2015 03:39:00 stop = 26/10/2015 05:30:00 title = Quasi Amici - Intouchables
+[  Info  ]       Replaces ----- start = 26/10/2015 04:07:00 stop = 26/10/2015 06:00:00 title = Crazy, Stupid, Love
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 26/10/2015 06:00:00 stop = 26/10/2015 06:15:00 title = LA LEGGE DI GODWIN - 
-[  Info  ]       Replaces ----- start = 26/10/2015 05:30:00 stop = 26/10/2015 07:01:00 title = UNA MAGICA NOTTE D'ESTATE - 
+[  Info  ]       show with ---- start = 26/10/2015 05:30:00 stop = 26/10/2015 07:01:00 title = UNA MAGICA NOTTE D'ESTATE - 
+[  Info  ]       Replaces ----- start = 26/10/2015 04:07:00 stop = 26/10/2015 06:00:00 title = Crazy, Stupid, Love
+[  Info  ]       Replaces ----- start = 26/10/2015 06:00:00 stop = 26/10/2015 06:15:00 title = LA LEGGE DI GODWIN - 
 [  Debug ]    skipped negative show time! at 25/10/2015 05:15:00
-[  Debug ]    skipped negative show time! at 25/10/2015 05:15:00
-[  Info  ] 0,21 sec/update
+[  Info  ] 0,24 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Premium Cinema +24) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -575,7 +594,7 @@
 [  Info  ]       show with ---- start = 24/10/2015 11:57:00 stop = 24/10/2015 13:24:00 title = THE WEDDING DATE
 [  Info  ]       Replaces ----- start = 24/10/2015 11:57:00 stop = 24/10/2015 13:24:00 title = THE WEDDING DATE
 [  Debug ]    skipped 
-[  Info  ] 0,20 sec/update
+[  Info  ] 0,22 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Premium Cinema Energy) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    skipped show longer than 15 hour(s) at 25/10/2015 00:30:00 title EL DORADO - LA CITTA' PERDUTA
@@ -595,7 +614,7 @@
 [  Info  ]       Replaces ----- start = 24/10/2015 04:30:00 stop = 24/10/2015 04:39:00 title = FULL EMOTION NOTTING HILL  "GIARDINO" - FULL EMOTION
 [  Debug ]    skipped show longer than 15 hour(s) at 25/10/2015 01:01:00 title RAGTIME
 [  Debug ]    skipped 
-[  Info  ] 0,19 sec/update
+[  Info  ] 0,76 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Premium Cinema Comedy) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    skipped show longer than 15 hour(s) at 25/10/2015 02:04:00 title BABY MAMA
@@ -665,7 +684,7 @@
 [  Info  ]       show with ---- start = 26/10/2015 23:10:00 stop = 26/10/2015 23:25:00 title = RIBALTAMENTO DI CAMPO - LOW BUDGET
 [  Info  ]       Replaces ----- start = 26/10/2015 22:10:00 stop = 26/10/2015 22:25:00 title = RIBALTAMENTO DI CAMPO - LOW BUDGET
 [  Debug ]    skipped 
-[  Info  ] 0,19 sec/update
+[  Info  ] 0,33 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Premium Action HD) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    suspicious      title in index page  = THE MUSKETEERS II
@@ -727,10 +746,9 @@
 [  Debug ]    suspicious      title in index page  = THE 100 II
 [  Debug ]       differs from title in showdetails = A LUNGO IN UN ABISSO.....
 [  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 26/10/2015 04:22:00 stop = 26/10/2015 05:06:00 title = A LUNGO IN UN ABISSO - THE 100 II - PRIMA TV
-[  Info  ]       Replaces ----- start = 26/10/2015 03:25:00 stop = 26/10/2015 05:00:00 title = SESSO, BUGIE E VIDEOTAPE - THE TRANSPORTER: THE SERIES II
-[  Info  ]       Replaces ----- start = 26/10/2015 05:00:00 stop = 26/10/2015 05:48:00 title = PILLOLE MIRACOLOSE - HAMBURG DISTRETTO 21 IX
+[  Info  ]       Added before - start = 26/10/2015 05:48:00 stop = 26/10/2015 06:34:00 title = SOLUZIONI ESTREME - DO NO HARM
 [  Debug ]    skipped negative show time! at 25/10/2015 04:06:00
 [  Debug ]    suspicious      title in index page  = THE MUSKETEERS II
 [  Debug ]       differs from title in showdetails = ATTRAVERSO UNO SPECCHIO OSC.....
@@ -766,13 +784,13 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 25/10/2015 21:08:00 stop = 25/10/2015 22:03:00 title = L' ESPLOSIONE - THE TRANSPORTER: THE SERIES II
 [  Info  ]       Replaces ----- start = 25/10/2015 21:08:00 stop = 25/10/2015 22:03:00 title = L' ESPLOSIONE - THE TRANSPORTER: THE SERIES II
-[  Debug ]    suspicious      title in index page  = CONSTANTINE I
-[  Debug ]       differs from title in showdetails = UN ANGELO CADUTO - CONS.....
+[  Debug ]    skipped negative show time! at 25/10/2015 21:53:00
+[  Debug ]    suspicious      title in index page  = DO NO HARM
+[  Debug ]       differs from title in showdetails = MORTO E SEPOLTO   - .....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 25/10/2015 22:03:00 stop = 25/10/2015 22:53:00 title = UN ANGELO CADUTO - CONSTANTINE I
-[  Info  ]       Replaces ----- start = 25/10/2015 22:41:00 stop = 25/10/2015 23:31:00 title = MORTO E SEPOLTO   - DO NO HARM
-[  Debug ]    skipped negative show time! at 25/10/2015 21:53:00
+[  Info  ]       show with ---- start = 25/10/2015 22:41:00 stop = 25/10/2015 23:31:00 title = MORTO E SEPOLTO   - DO NO HARM
+[  Info  ]       Replaces ----- start = 25/10/2015 22:03:00 stop = 25/10/2015 22:53:00 title = UN ANGELO CADUTO - CONSTANTINE I
 [  Debug ]    suspicious      title in index page  = DO NO HARM
 [  Debug ]       differs from title in showdetails = IL BARATTOLO DEI BIS.....
 [  Info  ]    epg correction : 
@@ -794,9 +812,15 @@
 [  Debug ]    suspicious      title in index page  = THE TRANSPORTER - THE SERIES II
 [  Debug ]       differs from title in showdetails = SESSO, BUGIE E VIDEOTAPE - THE TRANSPORTE.....
 [  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 26/10/2015 03:25:00 stop = 26/10/2015 05:00:00 title = SESSO, BUGIE E VIDEOTAPE - THE TRANSPORTER: THE SERIES II
-[  Info  ]       Replaces ----- start = 26/10/2015 03:25:00 stop = 26/10/2015 05:00:00 title = SESSO, BUGIE E VIDEOTAPE - THE TRANSPORTER: THE SERIES II
+[  Info  ]       Added before - start = 26/10/2015 05:48:00 stop = 26/10/2015 06:34:00 title = SOLUZIONI ESTREME - DO NO HARM
+[  Debug ]    suspicious      title in index page  = HAMBURG DISTRETTO 21 IX
+[  Debug ]       differs from title in showdetails = PILLOLE MIRACOLOSE - HAMBURG DIST.....
+[  Info  ]    epg correction : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 26/10/2015 05:00:00 stop = 26/10/2015 05:48:00 title = PILLOLE MIRACOLOSE - HAMBURG DISTRETTO 21 IX
+[  Info  ]       Added before - start = 26/10/2015 05:48:00 stop = 26/10/2015 06:34:00 title = SOLUZIONI ESTREME - DO NO HARM
 [  Debug ]    suspicious      title in index page  = DO NO HARM
 [  Debug ]       differs from title in showdetails = SOLUZIONI ESTREME - .....
 [  Info  ]    epg correction : 
@@ -834,7 +858,7 @@
 [  Info  ]       show with ---- start = 26/10/2015 22:44:00 stop = 26/10/2015 22:50:00 title = LE AUTO DELLE STAR    - X-STYLE MOTORI
 [  Info  ]       Replaces ----- start = 26/10/2015 22:44:00 stop = 26/10/2015 22:50:00 title = LE AUTO DELLE STAR    - X-STYLE MOTORI
 [  Debug ]    skipped negative show time! at 25/10/2015 21:53:00
-[  Info  ] 0,19 sec/update
+[  Info  ] 0,29 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Premium Action +24) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -916,7 +940,7 @@
 [  Info  ]       Replaces ----- start = 25/10/2015 01:44:00 stop = 25/10/2015 02:26:00 title = ALLERGIA AI GATTI - DO NO HARM
 [  Debug ]    skipped show longer than 15 hour(s) at 25/10/2015 02:26:00 title SMALLVILLE V
 [  Debug ]    skipped 
-[  Info  ] 0,18 sec/update
+[  Info  ] 0,21 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Premium Crime HD) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    suspicious      title in index page  = THE CLOSER II
@@ -996,33 +1020,21 @@
 [  Info  ]       show with ---- start = 26/10/2015 05:30:00 stop = 26/10/2015 06:18:00 title = LINEA DI CONFINE - THE CLOSER II
 [  Info  ]       Replaces ----- start = 26/10/2015 05:30:00 stop = 26/10/2015 06:17:00 title = UNA REPUTAZIONE IMPECCABILE - LAW & ORDER: UNITA' SPECIALE XIV
 [  Info  ]       Replaces ----- start = 26/10/2015 06:17:00 stop = 26/10/2015 07:08:00 title = SOGNI RINVIATI - LAW & ORDER: UNITA' SPECIALE XIV
+[  Info  ]       Replaces ----- start = 26/10/2015 05:30:00 stop = 26/10/2015 06:18:00 title = LINEA DI CONFINE - THE CLOSER II
 [  Debug ]    suspicious      title in index page  = THE CLOSER II
 [  Debug ]       differs from title in showdetails = ATTO DI CORAGGIO - THE .....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 06:18:00 stop = 26/10/2015 07:09:00 title = ATTO DI CORAGGIO - THE CLOSER II
 [  Info  ]       Replaces ----- start = 26/10/2015 06:17:00 stop = 26/10/2015 07:08:00 title = SOGNI RINVIATI - LAW & ORDER: UNITA' SPECIALE XIV
-[  Info  ]       Replaces ----- start = 26/10/2015 07:08:00 stop = 26/10/2015 07:59:00 title = ROSSO, BIANCO E BLU - THE MENTALIST V
-[  Debug ]    suspicious      title in index page  = THE CLOSER II
-[  Debug ]       differs from title in showdetails = SOPRA LE RIGHE - THE CL.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 26/10/2015 07:09:00 stop = 26/10/2015 08:03:00 title = SOPRA LE RIGHE - THE CLOSER II
-[  Info  ]       Replaces ----- start = 26/10/2015 07:08:00 stop = 26/10/2015 07:59:00 title = ROSSO, BIANCO E BLU - THE MENTALIST V
-[  Info  ]       Replaces ----- start = 26/10/2015 07:59:00 stop = 26/10/2015 09:02:00 title = DIETRO IL SIPARIO ROSSO - THE MENTALIST V
+[  Info  ]       Replaces ----- start = 26/10/2015 06:18:00 stop = 26/10/2015 07:09:00 title = ATTO DI CORAGGIO - THE CLOSER II
 [  Debug ]    suspicious      title in index page  = THE MENTALIST V
 [  Debug ]       differs from title in showdetails = DENTI E ARTIGLI ROSSI - T.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 08:03:00 stop = 26/10/2015 08:48:00 title = DENTI E ARTIGLI ROSSI - THE MENTALIST V
 [  Info  ]       Replaces ----- start = 26/10/2015 07:59:00 stop = 26/10/2015 09:02:00 title = DIETRO IL SIPARIO ROSSO - THE MENTALIST V
-[  Debug ]    suspicious      title in index page  = THE MENTALIST V
-[  Debug ]       differs from title in showdetails = SMALTO ROSSO - THE MENTAL.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 26/10/2015 08:48:00 stop = 26/10/2015 09:38:00 title = SMALTO ROSSO - THE MENTALIST V
-[  Info  ]       Replaces ----- start = 26/10/2015 07:59:00 stop = 26/10/2015 09:02:00 title = DIETRO IL SIPARIO ROSSO - THE MENTALIST V
-[  Info  ]       Replaces ----- start = 26/10/2015 09:02:00 stop = 26/10/2015 09:54:00 title = SERVIRE IL RE - I PARTE - THE CLOSER II
+[  Info  ]       Replaces ----- start = 26/10/2015 08:03:00 stop = 26/10/2015 08:48:00 title = DENTI E ARTIGLI ROSSI - THE MENTALIST V
 [  Debug ]    suspicious      title in index page  = THE MENTALIST V
 [  Debug ]       differs from title in showdetails = LA RAGAZZA DAL VESTITO RO.....
 [  Info  ]    epg correction : 
@@ -1030,6 +1042,7 @@
 [  Info  ]       show with ---- start = 26/10/2015 09:38:00 stop = 26/10/2015 10:29:00 title = LA RAGAZZA DAL VESTITO ROSSO SANGUE - THE MENTALIST V
 [  Info  ]       Replaces ----- start = 26/10/2015 09:02:00 stop = 26/10/2015 09:54:00 title = SERVIRE IL RE - I PARTE - THE CLOSER II
 [  Info  ]       Replaces ----- start = 26/10/2015 09:54:00 stop = 26/10/2015 10:48:00 title = SERVIRE IL RE - II PARTE - THE CLOSER II
+[  Info  ]       Replaces ----- start = 26/10/2015 09:38:00 stop = 26/10/2015 10:29:00 title = LA RAGAZZA DAL VESTITO ROSSO SANGUE - THE MENTALIST V
 [  Debug ]    suspicious      title in index page  = SPECIAL VICTIMS UNIT XV
 [  Debug ]       differs from title in showdetails = INFANZIA VIOLATA - LAW & ORDER: U.....
 [  Info  ]    epg correction : 
@@ -1037,6 +1050,7 @@
 [  Info  ]       show with ---- start = 26/10/2015 10:29:00 stop = 26/10/2015 11:19:00 title = INFANZIA VIOLATA - LAW & ORDER: UNITA' SPECIALE XV
 [  Info  ]       Replaces ----- start = 26/10/2015 09:54:00 stop = 26/10/2015 10:48:00 title = SERVIRE IL RE - II PARTE - THE CLOSER II
 [  Info  ]       Replaces ----- start = 26/10/2015 10:48:00 stop = 26/10/2015 11:38:00 title = FINO A PROVA CONTRARIA - LAW & ORDER: UNITA' SPECIALE XIV
+[  Info  ]       Replaces ----- start = 26/10/2015 10:29:00 stop = 26/10/2015 11:19:00 title = INFANZIA VIOLATA - LAW & ORDER: UNITA' SPECIALE XV
 [  Debug ]    suspicious      title in index page  = SPECIAL VICTIMS UNIT XV
 [  Debug ]       differs from title in showdetails = L' OSSESSIONE DELLA BESTIA - LAW .....
 [  Info  ]    epg correction : 
@@ -1044,46 +1058,35 @@
 [  Info  ]       show with ---- start = 26/10/2015 11:19:00 stop = 26/10/2015 11:59:00 title = L' OSSESSIONE DELLA BESTIA - LAW & ORDER: UNITA' SPECIALE XV
 [  Info  ]       Replaces ----- start = 26/10/2015 10:48:00 stop = 26/10/2015 11:38:00 title = FINO A PROVA CONTRARIA - LAW & ORDER: UNITA' SPECIALE XIV
 [  Info  ]       Replaces ----- start = 26/10/2015 11:38:00 stop = 26/10/2015 12:29:00 title = LA TRAPPOLA - LAW & ORDER: UNITA' SPECIALE XIV
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 26/10/2015 11:59:00 stop = 26/10/2015 12:10:00 title = STALKER - CRIMING
-[  Info  ]       Replaces ----- start = 26/10/2015 11:38:00 stop = 26/10/2015 12:29:00 title = LA TRAPPOLA - LAW & ORDER: UNITA' SPECIALE XIV
+[  Info  ]       Replaces ----- start = 26/10/2015 11:19:00 stop = 26/10/2015 11:59:00 title = L' OSSESSIONE DELLA BESTIA - LAW & ORDER: UNITA' SPECIALE XV
 [  Debug ]    suspicious      title in index page  = 100 CODE
 [  Debug ]       differs from title in showdetails = NELLA TANA DEL CON.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 12:10:00 stop = 26/10/2015 13:03:00 title = NELLA TANA DEL CONIGLIO - 100 CODE
 [  Info  ]       Replaces ----- start = 26/10/2015 11:38:00 stop = 26/10/2015 12:29:00 title = LA TRAPPOLA - LAW & ORDER: UNITA' SPECIALE XIV
-[  Info  ]       Replaces ----- start = 26/10/2015 12:29:00 stop = 26/10/2015 13:16:00 title = MAESTRO DI VITA - THE FORGOTTEN
+[  Info  ]       Replaces ----- start = 26/10/2015 12:10:00 stop = 26/10/2015 13:03:00 title = NELLA TANA DEL CONIGLIO - 100 CODE
 [  Debug ]    suspicious      title in index page  = 100 CODE
 [  Debug ]       differs from title in showdetails = IL MIO UNICO AMICO.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 13:03:00 stop = 26/10/2015 13:54:00 title = IL MIO UNICO AMICO - 100 CODE
-[  Info  ]       Replaces ----- start = 26/10/2015 12:29:00 stop = 26/10/2015 13:16:00 title = MAESTRO DI VITA - THE FORGOTTEN
 [  Info  ]       Replaces ----- start = 26/10/2015 13:16:00 stop = 26/10/2015 14:03:00 title = SCONOSCIUTA PARACADUTATA - THE FORGOTTEN
+[  Info  ]       Replaces ----- start = 26/10/2015 13:03:00 stop = 26/10/2015 13:54:00 title = IL MIO UNICO AMICO - 100 CODE
 [  Debug ]    suspicious      title in index page  = THE CLOSER II
 [  Debug ]       differs from title in showdetails = SERVIRE IL RE - I PARTE.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 13:54:00 stop = 26/10/2015 14:43:00 title = SERVIRE IL RE - I PARTE - THE CLOSER II
 [  Info  ]       Replaces ----- start = 26/10/2015 13:16:00 stop = 26/10/2015 14:03:00 title = SCONOSCIUTA PARACADUTATA - THE FORGOTTEN
-[  Info  ]       Replaces ----- start = 26/10/2015 14:03:00 stop = 26/10/2015 14:54:00 title = SVANIRE - SENZA TRACCIA V
+[  Info  ]       Replaces ----- start = 26/10/2015 13:54:00 stop = 26/10/2015 14:43:00 title = SERVIRE IL RE - I PARTE - THE CLOSER II
 [  Debug ]    suspicious      title in index page  = THE CLOSER II
 [  Debug ]       differs from title in showdetails = SERVIRE IL RE - II PART.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 14:43:00 stop = 26/10/2015 15:55:00 title = SERVIRE IL RE - II PARTE - THE CLOSER II
-[  Info  ]       Replaces ----- start = 26/10/2015 14:03:00 stop = 26/10/2015 14:54:00 title = SVANIRE - SENZA TRACCIA V
-[  Info  ]       Replaces ----- start = 26/10/2015 14:54:00 stop = 26/10/2015 15:40:00 title = IL VOLO DEL DESTINO - SENZA TRACCIA V
 [  Info  ]       Replaces ----- start = 26/10/2015 15:40:00 stop = 26/10/2015 16:31:00 title = UN PASSATO DAI ROSSI CONTORNI - THE MENTALIST V
-[  Debug ]    suspicious      title in index page  = MOTIVE III
-[  Debug ]       differs from title in showdetails = MOTIVE III, 12 - MOT.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 26/10/2015 15:55:00 stop = 26/10/2015 16:46:00 title = MOTIVE III, 12 - MOTIVE III
-[  Info  ]       Replaces ----- start = 26/10/2015 15:40:00 stop = 26/10/2015 16:31:00 title = UN PASSATO DAI ROSSI CONTORNI - THE MENTALIST V
-[  Info  ]       Replaces ----- start = 26/10/2015 16:31:00 stop = 26/10/2015 17:23:00 title = DOLCETTI DI VELLUTO ROSSO - THE MENTALIST V
+[  Info  ]       Replaces ----- start = 26/10/2015 14:43:00 stop = 26/10/2015 15:55:00 title = SERVIRE IL RE - II PARTE - THE CLOSER II
 [  Debug ]    suspicious      title in index page  = MOTIVE III
 [  Debug ]       differs from title in showdetails = MARIA - MOTIVE III -.....
 [  Info  ]    epg correction : 
@@ -1091,40 +1094,20 @@
 [  Info  ]       show with ---- start = 26/10/2015 16:46:00 stop = 26/10/2015 17:38:00 title = MARIA - MOTIVE III - PRIMA TV
 [  Info  ]       Replaces ----- start = 26/10/2015 16:31:00 stop = 26/10/2015 17:23:00 title = DOLCETTI DI VELLUTO ROSSO - THE MENTALIST V
 [  Info  ]       Replaces ----- start = 26/10/2015 17:23:00 stop = 26/10/2015 18:30:00 title = MASSACRO DI FAMIGLIA - THE CLOSER III
-[  Debug ]    suspicious      title in index page  = THE MENTALIST V
-[  Debug ]       differs from title in showdetails = ROSSO, BIANCO E BLU - THE.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 26/10/2015 17:38:00 stop = 26/10/2015 18:31:00 title = ROSSO, BIANCO E BLU - THE MENTALIST V
-[  Info  ]       Replaces ----- start = 26/10/2015 17:23:00 stop = 26/10/2015 18:30:00 title = MASSACRO DI FAMIGLIA - THE CLOSER III
-[  Info  ]       Replaces ----- start = 26/10/2015 18:30:00 stop = 26/10/2015 19:21:00 title = FORTI DUBBI - THE CLOSER III
+[  Info  ]       Replaces ----- start = 26/10/2015 16:46:00 stop = 26/10/2015 17:38:00 title = MARIA - MOTIVE III - PRIMA TV
 [  Debug ]    suspicious      title in index page  = THE MENTALIST V
 [  Debug ]       differs from title in showdetails = DIETRO IL SIPARIO ROSSO -.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 18:31:00 stop = 26/10/2015 19:21:00 title = DIETRO IL SIPARIO ROSSO - THE MENTALIST V
-[  Info  ]       Replaces ----- start = 26/10/2015 18:30:00 stop = 26/10/2015 19:21:00 title = FORTI DUBBI - THE CLOSER III
-[  Debug ]    suspicious      title in index page  = COLD CASE - DELITTI IRRISOLTI VI
-[  Debug ]       differs from title in showdetails = UNA INSEGNANTE SPECIALE - COLD CASE-DELITT.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 26/10/2015 19:21:00 stop = 26/10/2015 20:15:00 title = UNA INSEGNANTE SPECIALE - COLD CASE-DELITTI IRRISOLTI VI
-[  Info  ]       Replaces ----- start = 26/10/2015 19:21:00 stop = 26/10/2015 20:14:00 title = LE SCUOLE DELLA LIBERTA' - COLD CASE-DELITTI IRRISOLTI VI
-[  Info  ]       Replaces ----- start = 26/10/2015 20:14:00 stop = 26/10/2015 21:06:00 title = DEMONI - THE FOLLOWING III - PRIMA TV
+[  Info  ]       Replaces ----- start = 26/10/2015 18:31:00 stop = 26/10/2015 19:21:00 title = DIETRO IL SIPARIO ROSSO - THE MENTALIST V
 [  Debug ]    suspicious      title in index page  = FOREVER I
 [  Debug ]       differs from title in showdetails = LA FONTE DELLA GIOV.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 20:15:00 stop = 26/10/2015 21:06:00 title = LA FONTE DELLA GIOVINEZZA - FOREVER I - PRIMA TV
 [  Info  ]       Replaces ----- start = 26/10/2015 20:14:00 stop = 26/10/2015 21:06:00 title = DEMONI - THE FOLLOWING III - PRIMA TV
-[  Debug ]    suspicious      title in index page  = PERSON OF INTEREST II
-[  Debug ]       differs from title in showdetails = FINO ALLA MORTE - PERSON OF INT.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 26/10/2015 21:06:00 stop = 26/10/2015 22:17:00 title = FINO ALLA MORTE - PERSON OF INTEREST II
-[  Info  ]       Replaces ----- start = 26/10/2015 21:06:00 stop = 26/10/2015 21:48:00 title = AL LIMITE - THE FOLLOWING III - PRIMA TV
-[  Info  ]       Replaces ----- start = 26/10/2015 21:48:00 stop = 26/10/2015 22:12:00 title = INTERVISTA GIANRICO CAROFIGLIO - CRIME MAGAZINE
-[  Info  ]       Replaces ----- start = 26/10/2015 22:12:00 stop = 26/10/2015 23:06:00 title = NELLA TANA DEL CONIGLIO - 100 CODE
+[  Info  ]       Replaces ----- start = 26/10/2015 20:15:00 stop = 26/10/2015 21:06:00 title = LA FONTE DELLA GIOVINEZZA - FOREVER I - PRIMA TV
 [  Debug ]    skipped negative show time! at 25/10/2015 21:17:00
 [  Debug ]    suspicious      title in index page  = THE FOLLOWING III
 [  Debug ]       differs from title in showdetails = IL PRESCELTO - THE FOLLOWIN.....
@@ -1138,86 +1121,152 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 05:30:00 stop = 26/10/2015 06:17:00 title = UNA REPUTAZIONE IMPECCABILE - LAW & ORDER: UNITA' SPECIALE XIV
 [  Info  ]       Replaces ----- start = 26/10/2015 05:30:00 stop = 26/10/2015 06:17:00 title = UNA REPUTAZIONE IMPECCABILE - LAW & ORDER: UNITA' SPECIALE XIV
+[  Info  ]       Replaces ----- start = 26/10/2015 05:30:00 stop = 26/10/2015 06:18:00 title = LINEA DI CONFINE - THE CLOSER II
 [  Debug ]    suspicious      title in index page  = SPECIAL VICTIMS UNIT XIV
 [  Debug ]       differs from title in showdetails = SOGNI RINVIATI - LAW & ORDER: UNIT.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 06:17:00 stop = 26/10/2015 07:08:00 title = SOGNI RINVIATI - LAW & ORDER: UNITA' SPECIALE XIV
 [  Info  ]       Replaces ----- start = 26/10/2015 06:17:00 stop = 26/10/2015 07:08:00 title = SOGNI RINVIATI - LAW & ORDER: UNITA' SPECIALE XIV
+[  Info  ]       Replaces ----- start = 26/10/2015 05:30:00 stop = 26/10/2015 06:18:00 title = LINEA DI CONFINE - THE CLOSER II
+[  Info  ]       Replaces ----- start = 26/10/2015 06:18:00 stop = 26/10/2015 07:09:00 title = ATTO DI CORAGGIO - THE CLOSER II
+[  Debug ]    suspicious      title in index page  = THE MENTALIST V
+[  Debug ]       differs from title in showdetails = ROSSO, BIANCO E BLU - THE.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 26/10/2015 07:08:00 stop = 26/10/2015 07:59:00 title = ROSSO, BIANCO E BLU - THE MENTALIST V
+[  Info  ]       Replaces ----- start = 26/10/2015 06:18:00 stop = 26/10/2015 07:09:00 title = ATTO DI CORAGGIO - THE CLOSER II
+[  Info  ]       Replaces ----- start = 26/10/2015 07:09:00 stop = 26/10/2015 08:03:00 title = SOPRA LE RIGHE - THE CLOSER II
 [  Debug ]    suspicious      title in index page  = THE MENTALIST V
 [  Debug ]       differs from title in showdetails = DIETRO IL SIPARIO ROSSO -.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 07:59:00 stop = 26/10/2015 09:02:00 title = DIETRO IL SIPARIO ROSSO - THE MENTALIST V
 [  Info  ]       Replaces ----- start = 26/10/2015 07:59:00 stop = 26/10/2015 09:02:00 title = DIETRO IL SIPARIO ROSSO - THE MENTALIST V
+[  Info  ]       Replaces ----- start = 26/10/2015 07:09:00 stop = 26/10/2015 08:03:00 title = SOPRA LE RIGHE - THE CLOSER II
+[  Info  ]       Replaces ----- start = 26/10/2015 08:03:00 stop = 26/10/2015 08:48:00 title = DENTI E ARTIGLI ROSSI - THE MENTALIST V
+[  Info  ]       Replaces ----- start = 26/10/2015 08:48:00 stop = 26/10/2015 09:38:00 title = SMALTO ROSSO - THE MENTALIST V
 [  Debug ]    suspicious      title in index page  = THE CLOSER II
 [  Debug ]       differs from title in showdetails = SERVIRE IL RE - I PARTE.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 09:02:00 stop = 26/10/2015 09:54:00 title = SERVIRE IL RE - I PARTE - THE CLOSER II
 [  Info  ]       Replaces ----- start = 26/10/2015 09:02:00 stop = 26/10/2015 09:54:00 title = SERVIRE IL RE - I PARTE - THE CLOSER II
+[  Info  ]       Replaces ----- start = 26/10/2015 08:48:00 stop = 26/10/2015 09:38:00 title = SMALTO ROSSO - THE MENTALIST V
+[  Info  ]       Replaces ----- start = 26/10/2015 09:38:00 stop = 26/10/2015 10:29:00 title = LA RAGAZZA DAL VESTITO ROSSO SANGUE - THE MENTALIST V
 [  Debug ]    suspicious      title in index page  = THE CLOSER II
 [  Debug ]       differs from title in showdetails = SERVIRE IL RE - II PART.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 09:54:00 stop = 26/10/2015 10:48:00 title = SERVIRE IL RE - II PARTE - THE CLOSER II
 [  Info  ]       Replaces ----- start = 26/10/2015 09:54:00 stop = 26/10/2015 10:48:00 title = SERVIRE IL RE - II PARTE - THE CLOSER II
+[  Info  ]       Replaces ----- start = 26/10/2015 09:38:00 stop = 26/10/2015 10:29:00 title = LA RAGAZZA DAL VESTITO ROSSO SANGUE - THE MENTALIST V
+[  Info  ]       Replaces ----- start = 26/10/2015 10:29:00 stop = 26/10/2015 11:19:00 title = INFANZIA VIOLATA - LAW & ORDER: UNITA' SPECIALE XV
 [  Debug ]    suspicious      title in index page  = SPECIAL VICTIMS UNIT XIV
 [  Debug ]       differs from title in showdetails = FINO A PROVA CONTRARIA - LAW & ORD.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 10:48:00 stop = 26/10/2015 11:38:00 title = FINO A PROVA CONTRARIA - LAW & ORDER: UNITA' SPECIALE XIV
 [  Info  ]       Replaces ----- start = 26/10/2015 10:48:00 stop = 26/10/2015 11:38:00 title = FINO A PROVA CONTRARIA - LAW & ORDER: UNITA' SPECIALE XIV
+[  Info  ]       Replaces ----- start = 26/10/2015 10:29:00 stop = 26/10/2015 11:19:00 title = INFANZIA VIOLATA - LAW & ORDER: UNITA' SPECIALE XV
+[  Info  ]       Replaces ----- start = 26/10/2015 11:19:00 stop = 26/10/2015 11:59:00 title = L' OSSESSIONE DELLA BESTIA - LAW & ORDER: UNITA' SPECIALE XV
 [  Debug ]    suspicious      title in index page  = SPECIAL VICTIMS UNIT XIV
 [  Debug ]       differs from title in showdetails = LA TRAPPOLA - LAW & ORDER: UNITA' .....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 11:38:00 stop = 26/10/2015 12:29:00 title = LA TRAPPOLA - LAW & ORDER: UNITA' SPECIALE XIV
 [  Info  ]       Replaces ----- start = 26/10/2015 11:38:00 stop = 26/10/2015 12:29:00 title = LA TRAPPOLA - LAW & ORDER: UNITA' SPECIALE XIV
+[  Info  ]       Replaces ----- start = 26/10/2015 11:19:00 stop = 26/10/2015 11:59:00 title = L' OSSESSIONE DELLA BESTIA - LAW & ORDER: UNITA' SPECIALE XV
+[  Info  ]       Replaces ----- start = 26/10/2015 11:59:00 stop = 26/10/2015 12:10:00 title = STALKER - CRIMING
+[  Info  ]       Replaces ----- start = 26/10/2015 12:10:00 stop = 26/10/2015 13:03:00 title = NELLA TANA DEL CONIGLIO - 100 CODE
+[  Debug ]    suspicious      title in index page  = THE FORGOTTEN
+[  Debug ]       differs from title in showdetails = MAESTRO DI VITA - THE F.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 26/10/2015 12:29:00 stop = 26/10/2015 13:16:00 title = MAESTRO DI VITA - THE FORGOTTEN
+[  Info  ]       Replaces ----- start = 26/10/2015 12:10:00 stop = 26/10/2015 13:03:00 title = NELLA TANA DEL CONIGLIO - 100 CODE
+[  Info  ]       Replaces ----- start = 26/10/2015 13:03:00 stop = 26/10/2015 13:54:00 title = IL MIO UNICO AMICO - 100 CODE
 [  Debug ]    suspicious      title in index page  = THE FORGOTTEN
 [  Debug ]       differs from title in showdetails = SCONOSCIUTA PARACADUTAT.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 13:16:00 stop = 26/10/2015 14:03:00 title = SCONOSCIUTA PARACADUTATA - THE FORGOTTEN
 [  Info  ]       Replaces ----- start = 26/10/2015 13:16:00 stop = 26/10/2015 14:03:00 title = SCONOSCIUTA PARACADUTATA - THE FORGOTTEN
+[  Info  ]       Replaces ----- start = 26/10/2015 13:03:00 stop = 26/10/2015 13:54:00 title = IL MIO UNICO AMICO - 100 CODE
+[  Info  ]       Replaces ----- start = 26/10/2015 13:54:00 stop = 26/10/2015 14:43:00 title = SERVIRE IL RE - I PARTE - THE CLOSER II
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 26/10/2015 14:03:00 stop = 26/10/2015 14:54:00 title = SVANIRE - SENZA TRACCIA V
+[  Info  ]       Replaces ----- start = 26/10/2015 13:54:00 stop = 26/10/2015 14:43:00 title = SERVIRE IL RE - I PARTE - THE CLOSER II
+[  Info  ]       Replaces ----- start = 26/10/2015 14:43:00 stop = 26/10/2015 15:55:00 title = SERVIRE IL RE - II PARTE - THE CLOSER II
+[  Debug ]    suspicious      title in index page  = SENZA TRACCIA V
+[  Debug ]       differs from title in showdetails = IL VOLO DEL DESTINO - SEN.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 26/10/2015 14:54:00 stop = 26/10/2015 15:40:00 title = IL VOLO DEL DESTINO - SENZA TRACCIA V
+[  Info  ]       Replaces ----- start = 26/10/2015 14:43:00 stop = 26/10/2015 15:55:00 title = SERVIRE IL RE - II PARTE - THE CLOSER II
 [  Debug ]    suspicious      title in index page  = THE MENTALIST V
 [  Debug ]       differs from title in showdetails = UN PASSATO DAI ROSSI CONT.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 15:40:00 stop = 26/10/2015 16:31:00 title = UN PASSATO DAI ROSSI CONTORNI - THE MENTALIST V
 [  Info  ]       Replaces ----- start = 26/10/2015 15:40:00 stop = 26/10/2015 16:31:00 title = UN PASSATO DAI ROSSI CONTORNI - THE MENTALIST V
+[  Info  ]       Replaces ----- start = 26/10/2015 14:43:00 stop = 26/10/2015 15:55:00 title = SERVIRE IL RE - II PARTE - THE CLOSER II
+[  Info  ]       Replaces ----- start = 26/10/2015 15:55:00 stop = 26/10/2015 16:46:00 title = MOTIVE III, 12 - MOTIVE III
 [  Debug ]    suspicious      title in index page  = THE MENTALIST V
 [  Debug ]       differs from title in showdetails = DOLCETTI DI VELLUTO ROSSO.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 16:31:00 stop = 26/10/2015 17:23:00 title = DOLCETTI DI VELLUTO ROSSO - THE MENTALIST V
 [  Info  ]       Replaces ----- start = 26/10/2015 16:31:00 stop = 26/10/2015 17:23:00 title = DOLCETTI DI VELLUTO ROSSO - THE MENTALIST V
+[  Info  ]       Replaces ----- start = 26/10/2015 15:55:00 stop = 26/10/2015 16:46:00 title = MOTIVE III, 12 - MOTIVE III
+[  Info  ]       Replaces ----- start = 26/10/2015 16:46:00 stop = 26/10/2015 17:38:00 title = MARIA - MOTIVE III - PRIMA TV
 [  Debug ]    suspicious      title in index page  = THE CLOSER III
 [  Debug ]       differs from title in showdetails = MASSACRO DI FAMIGLIA - T.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 17:23:00 stop = 26/10/2015 18:30:00 title = MASSACRO DI FAMIGLIA - THE CLOSER III
 [  Info  ]       Replaces ----- start = 26/10/2015 17:23:00 stop = 26/10/2015 18:30:00 title = MASSACRO DI FAMIGLIA - THE CLOSER III
+[  Info  ]       Replaces ----- start = 26/10/2015 16:46:00 stop = 26/10/2015 17:38:00 title = MARIA - MOTIVE III - PRIMA TV
+[  Info  ]       Replaces ----- start = 26/10/2015 17:38:00 stop = 26/10/2015 18:31:00 title = ROSSO, BIANCO E BLU - THE MENTALIST V
+[  Debug ]    suspicious      title in index page  = THE CLOSER III
+[  Debug ]       differs from title in showdetails = FORTI DUBBI - THE CLOSER.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 26/10/2015 18:30:00 stop = 26/10/2015 19:21:00 title = FORTI DUBBI - THE CLOSER III
+[  Info  ]       Replaces ----- start = 26/10/2015 17:38:00 stop = 26/10/2015 18:31:00 title = ROSSO, BIANCO E BLU - THE MENTALIST V
+[  Info  ]       Replaces ----- start = 26/10/2015 18:31:00 stop = 26/10/2015 19:21:00 title = DIETRO IL SIPARIO ROSSO - THE MENTALIST V
+[  Debug ]    suspicious      title in index page  = COLD CASE - DELITTI IRRISOLTI VI
+[  Debug ]       differs from title in showdetails = LE SCUOLE DELLA LIBERTA' - COLD CASE-DELIT.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 26/10/2015 19:21:00 stop = 26/10/2015 20:14:00 title = LE SCUOLE DELLA LIBERTA' - COLD CASE-DELITTI IRRISOLTI VI
+[  Info  ]       Replaces ----- start = 26/10/2015 19:21:00 stop = 26/10/2015 20:15:00 title = UNA INSEGNANTE SPECIALE - COLD CASE-DELITTI IRRISOLTI VI
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 20:14:00 stop = 26/10/2015 21:06:00 title = DEMONI - THE FOLLOWING III - PRIMA TV
 [  Info  ]       Replaces ----- start = 26/10/2015 20:14:00 stop = 26/10/2015 21:06:00 title = DEMONI - THE FOLLOWING III - PRIMA TV
+[  Info  ]       Replaces ----- start = 26/10/2015 19:21:00 stop = 26/10/2015 20:15:00 title = UNA INSEGNANTE SPECIALE - COLD CASE-DELITTI IRRISOLTI VI
+[  Info  ]       Replaces ----- start = 26/10/2015 20:15:00 stop = 26/10/2015 21:06:00 title = LA FONTE DELLA GIOVINEZZA - FOREVER I - PRIMA TV
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 21:06:00 stop = 26/10/2015 21:48:00 title = AL LIMITE - THE FOLLOWING III - PRIMA TV
 [  Info  ]       Replaces ----- start = 26/10/2015 21:06:00 stop = 26/10/2015 21:48:00 title = AL LIMITE - THE FOLLOWING III - PRIMA TV
+[  Info  ]       Replaces ----- start = 26/10/2015 21:06:00 stop = 26/10/2015 22:17:00 title = FINO ALLA MORTE - PERSON OF INTEREST II
 [  Debug ]    suspicious      title in index page  = CRIME MAGAZINE
 [  Debug ]       differs from title in showdetails = INTERVISTA GIANRICO CARO.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 21:48:00 stop = 26/10/2015 22:12:00 title = INTERVISTA GIANRICO CAROFIGLIO - CRIME MAGAZINE
 [  Info  ]       Replaces ----- start = 26/10/2015 21:48:00 stop = 26/10/2015 22:12:00 title = INTERVISTA GIANRICO CAROFIGLIO - CRIME MAGAZINE
+[  Info  ]       Replaces ----- start = 26/10/2015 21:06:00 stop = 26/10/2015 22:17:00 title = FINO ALLA MORTE - PERSON OF INTEREST II
 [  Debug ]    suspicious      title in index page  = 100 CODE
 [  Debug ]       differs from title in showdetails = NELLA TANA DEL CON.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 22:12:00 stop = 26/10/2015 23:06:00 title = NELLA TANA DEL CONIGLIO - 100 CODE
 [  Info  ]       Replaces ----- start = 26/10/2015 22:12:00 stop = 26/10/2015 23:06:00 title = NELLA TANA DEL CONIGLIO - 100 CODE
+[  Info  ]       Replaces ----- start = 26/10/2015 21:06:00 stop = 26/10/2015 22:17:00 title = FINO ALLA MORTE - PERSON OF INTEREST II
 [  Debug ]    suspicious      title in index page  = 100 CODE
 [  Debug ]       differs from title in showdetails = IL MIO UNICO AMICO.....
 [  Info  ]    epg correction : 
@@ -1225,7 +1274,7 @@
 [  Info  ]       show with ---- start = 26/10/2015 23:06:00 stop = 27/10/2015 00:00:00 title = IL MIO UNICO AMICO - 100 CODE
 [  Info  ]       Replaces ----- start = 26/10/2015 23:06:00 stop = 27/10/2015 00:00:00 title = IL MIO UNICO AMICO - 100 CODE
 [  Debug ]    skipped negative show time! at 25/10/2015 21:17:00
-[  Info  ] 0,24 sec/update
+[  Info  ] 0,25 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Premium Crime +24) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -1334,6 +1383,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 05:30:00 stop = 26/10/2015 06:09:00 title = OMICIDIO A LUCI ROSSE - THE CLOSER II
 [  Info  ]       Replaces ----- start = 26/10/2015 04:30:00 stop = 26/10/2015 05:18:00 title = LINEA DI CONFINE - THE CLOSER II
+[  Info  ]       Replaces ----- start = 26/10/2015 04:30:00 stop = 26/10/2015 05:09:00 title = OMICIDIO A LUCI ROSSE - THE CLOSER II
 [  Debug ]    suspicious      title in index page  = THE CLOSER II
 [  Debug ]       differs from title in showdetails = SPARIZIONE INGIUSTIFICA.....
 [  Info  ]    epg correction : 
@@ -1341,55 +1391,15 @@
 [  Info  ]       show with ---- start = 26/10/2015 06:09:00 stop = 26/10/2015 07:03:00 title = SPARIZIONE INGIUSTIFICATA - THE CLOSER II
 [  Info  ]       Replaces ----- start = 26/10/2015 04:30:00 stop = 26/10/2015 05:18:00 title = LINEA DI CONFINE - THE CLOSER II
 [  Info  ]       Replaces ----- start = 26/10/2015 05:18:00 stop = 26/10/2015 06:09:00 title = ATTO DI CORAGGIO - THE CLOSER II
-[  Debug ]    suspicious      title in index page  = THE MENTALIST V
-[  Debug ]       differs from title in showdetails = BOLIDE ROSSO - THE MENTAL.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 26/10/2015 07:03:00 stop = 26/10/2015 07:51:00 title = BOLIDE ROSSO - THE MENTALIST V
-[  Info  ]       Replaces ----- start = 26/10/2015 05:18:00 stop = 26/10/2015 06:09:00 title = ATTO DI CORAGGIO - THE CLOSER II
-[  Info  ]       Replaces ----- start = 26/10/2015 06:09:00 stop = 26/10/2015 07:03:00 title = SOPRA LE RIGHE - THE CLOSER II
-[  Debug ]    suspicious      title in index page  = THE MENTALIST V
-[  Debug ]       differs from title in showdetails = PANAMA ROSSO - THE MENTAL.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 26/10/2015 07:51:00 stop = 26/10/2015 08:42:00 title = PANAMA ROSSO - THE MENTALIST V
-[  Info  ]       Replaces ----- start = 26/10/2015 06:09:00 stop = 26/10/2015 07:03:00 title = SOPRA LE RIGHE - THE CLOSER II
-[  Info  ]       Replaces ----- start = 26/10/2015 07:03:00 stop = 26/10/2015 07:48:00 title = DENTI E ARTIGLI ROSSI - THE MENTALIST V
+[  Info  ]       Replaces ----- start = 26/10/2015 05:09:00 stop = 26/10/2015 06:03:00 title = SPARIZIONE INGIUSTIFICATA - THE CLOSER II
 [  Debug ]    suspicious      title in index page  = THE MENTALIST V
 [  Debug ]       differs from title in showdetails = LA COLLANA DI RUBINI ROSS.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 08:42:00 stop = 26/10/2015 09:48:00 title = LA COLLANA DI RUBINI ROSSI - THE MENTALIST V
 [  Info  ]       Replaces ----- start = 26/10/2015 07:03:00 stop = 26/10/2015 07:48:00 title = DENTI E ARTIGLI ROSSI - THE MENTALIST V
-[  Info  ]       Replaces ----- start = 26/10/2015 07:48:00 stop = 26/10/2015 08:38:00 title = SMALTO ROSSO - THE MENTALIST V
 [  Info  ]       Replaces ----- start = 26/10/2015 08:38:00 stop = 26/10/2015 09:29:00 title = LA RAGAZZA DAL VESTITO ROSSO SANGUE - THE MENTALIST V
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 26/10/2015 09:48:00 stop = 26/10/2015 10:40:00 title = LA CACCIA - THE FOLLOWING III
-[  Info  ]       Replaces ----- start = 26/10/2015 08:38:00 stop = 26/10/2015 09:29:00 title = LA RAGAZZA DAL VESTITO ROSSO SANGUE - THE MENTALIST V
-[  Info  ]       Replaces ----- start = 26/10/2015 09:29:00 stop = 26/10/2015 10:19:00 title = INFANZIA VIOLATA - LAW & ORDER: UNITA' SPECIALE XV
-[  Debug ]    suspicious      title in index page  = THE FOLLOWING III
-[  Debug ]       differs from title in showdetails = CARNE E SANGUE - THE FOLLOW.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 26/10/2015 10:40:00 stop = 26/10/2015 11:32:00 title = CARNE E SANGUE - THE FOLLOWING III
-[  Info  ]       Replaces ----- start = 26/10/2015 09:29:00 stop = 26/10/2015 10:19:00 title = INFANZIA VIOLATA - LAW & ORDER: UNITA' SPECIALE XV
-[  Info  ]       Replaces ----- start = 26/10/2015 10:19:00 stop = 26/10/2015 10:59:00 title = L' OSSESSIONE DELLA BESTIA - LAW & ORDER: UNITA' SPECIALE XV
-[  Debug ]    suspicious      title in index page  = MURDER IN THE FIRST II
-[  Debug ]       differs from title in showdetails = L' ATTESA - MURDER IN THE FIRST .....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 26/10/2015 11:32:00 stop = 26/10/2015 12:21:00 title = L' ATTESA - MURDER IN THE FIRST II
-[  Info  ]       Replaces ----- start = 26/10/2015 10:19:00 stop = 26/10/2015 10:59:00 title = L' OSSESSIONE DELLA BESTIA - LAW & ORDER: UNITA' SPECIALE XV
-[  Info  ]       Replaces ----- start = 26/10/2015 10:59:00 stop = 26/10/2015 11:10:00 title = STALKER - CRIMING
-[  Info  ]       Replaces ----- start = 26/10/2015 11:10:00 stop = 26/10/2015 12:03:00 title = NELLA TANA DEL CONIGLIO - 100 CODE
-[  Debug ]    suspicious      title in index page  = MURDER IN THE FIRST II
-[  Debug ]       differs from title in showdetails = NUMERO TRENTANOVE - MURDER IN TH.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 26/10/2015 12:21:00 stop = 26/10/2015 13:10:00 title = NUMERO TRENTANOVE - MURDER IN THE FIRST II
-[  Info  ]       Replaces ----- start = 26/10/2015 11:10:00 stop = 26/10/2015 12:03:00 title = NELLA TANA DEL CONIGLIO - 100 CODE
-[  Info  ]       Replaces ----- start = 26/10/2015 12:03:00 stop = 26/10/2015 12:54:00 title = IL MIO UNICO AMICO - 100 CODE
+[  Info  ]       Replaces ----- start = 26/10/2015 07:42:00 stop = 26/10/2015 08:48:00 title = LA COLLANA DI RUBINI ROSSI - THE MENTALIST V
 [  Debug ]    suspicious      title in index page  = THE CLOSER II
 [  Debug ]       differs from title in showdetails = CHI HA SBAGLIATO? - THE.....
 [  Info  ]    epg correction : 
@@ -1397,75 +1407,34 @@
 [  Info  ]       show with ---- start = 26/10/2015 13:10:00 stop = 26/10/2015 14:04:00 title = CHI HA SBAGLIATO? - THE CLOSER II
 [  Info  ]       Replaces ----- start = 26/10/2015 12:03:00 stop = 26/10/2015 12:54:00 title = IL MIO UNICO AMICO - 100 CODE
 [  Info  ]       Replaces ----- start = 26/10/2015 12:54:00 stop = 26/10/2015 13:43:00 title = SERVIRE IL RE - I PARTE - THE CLOSER II
-[  Debug ]    suspicious      title in index page  = THE CLOSER II
-[  Debug ]       differs from title in showdetails = L' ALTRA DONNA - THE CL.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 26/10/2015 14:04:00 stop = 26/10/2015 14:57:00 title = L' ALTRA DONNA - THE CLOSER II
-[  Info  ]       Replaces ----- start = 26/10/2015 12:54:00 stop = 26/10/2015 13:43:00 title = SERVIRE IL RE - I PARTE - THE CLOSER II
-[  Info  ]       Replaces ----- start = 26/10/2015 13:43:00 stop = 26/10/2015 14:55:00 title = SERVIRE IL RE - II PARTE - THE CLOSER II
-[  Debug ]    suspicious      title in index page  = THE FOLLOWING III
-[  Debug ]       differs from title in showdetails = IL PRESCELTO - THE FOLLOWIN.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 26/10/2015 14:57:00 stop = 26/10/2015 15:49:00 title = IL PRESCELTO - THE FOLLOWING III
-[  Info  ]       Replaces ----- start = 26/10/2015 13:43:00 stop = 26/10/2015 14:55:00 title = SERVIRE IL RE - II PARTE - THE CLOSER II
-[  Debug ]    suspicious      title in index page  = THE FOLLOWING III
-[  Debug ]       differs from title in showdetails = ETERNAMENTE - THE FOLLOWING.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 26/10/2015 15:49:00 stop = 26/10/2015 16:41:00 title = ETERNAMENTE - THE FOLLOWING III
-[  Info  ]       Replaces ----- start = 26/10/2015 13:43:00 stop = 26/10/2015 14:55:00 title = SERVIRE IL RE - II PARTE - THE CLOSER II
-[  Info  ]       Replaces ----- start = 26/10/2015 14:55:00 stop = 26/10/2015 15:46:00 title = MOTIVE III, 12 - MOTIVE III
+[  Info  ]       Replaces ----- start = 26/10/2015 12:10:00 stop = 26/10/2015 13:04:00 title = CHI HA SBAGLIATO? - THE CLOSER II
 [  Debug ]    suspicious      title in index page  = THE MENTALIST V
 [  Debug ]       differs from title in showdetails = PICCOLA CORVETTE ROSSA - .....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 16:41:00 stop = 26/10/2015 17:31:00 title = PICCOLA CORVETTE ROSSA - THE MENTALIST V
-[  Info  ]       Replaces ----- start = 26/10/2015 14:55:00 stop = 26/10/2015 15:46:00 title = MOTIVE III, 12 - MOTIVE III
 [  Info  ]       Replaces ----- start = 26/10/2015 15:46:00 stop = 26/10/2015 16:38:00 title = MARIA - MOTIVE III - PRIMA TV
-[  Debug ]    suspicious      title in index page  = THE MENTALIST V
-[  Debug ]       differs from title in showdetails = IL FIENILE ROSSO - THE ME.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 26/10/2015 17:31:00 stop = 26/10/2015 18:21:00 title = IL FIENILE ROSSO - THE MENTALIST V
-[  Info  ]       Replaces ----- start = 26/10/2015 15:46:00 stop = 26/10/2015 16:38:00 title = MARIA - MOTIVE III - PRIMA TV
-[  Info  ]       Replaces ----- start = 26/10/2015 16:38:00 stop = 26/10/2015 17:31:00 title = ROSSO, BIANCO E BLU - THE MENTALIST V
-[  Debug ]    suspicious      title in index page  = COLD CASE - DELITTI IRRISOLTI VI
-[  Debug ]       differs from title in showdetails = GIORNI DI GLORIA - COLD CASE-DELITTI IRRIS.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 26/10/2015 18:21:00 stop = 26/10/2015 19:15:00 title = GIORNI DI GLORIA - COLD CASE-DELITTI IRRISOLTI VI
-[  Info  ]       Replaces ----- start = 26/10/2015 16:38:00 stop = 26/10/2015 17:31:00 title = ROSSO, BIANCO E BLU - THE MENTALIST V
-[  Info  ]       Replaces ----- start = 26/10/2015 17:31:00 stop = 26/10/2015 18:21:00 title = DIETRO IL SIPARIO ROSSO - THE MENTALIST V
+[  Info  ]       Replaces ----- start = 26/10/2015 15:41:00 stop = 26/10/2015 16:31:00 title = PICCOLA CORVETTE ROSSA - THE MENTALIST V
 [  Debug ]    suspicious      title in index page  = MOTIVE III
 [  Debug ]       differs from title in showdetails = MARIA - MOTIVE III -.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 19:15:00 stop = 26/10/2015 20:06:00 title = MARIA - MOTIVE III - PRIMA TV
 [  Info  ]       Replaces ----- start = 26/10/2015 17:31:00 stop = 26/10/2015 18:21:00 title = DIETRO IL SIPARIO ROSSO - THE MENTALIST V
-[  Info  ]       Replaces ----- start = 26/10/2015 18:21:00 stop = 26/10/2015 19:15:00 title = UNA INSEGNANTE SPECIALE - COLD CASE-DELITTI IRRISOLTI VI
+[  Info  ]       Replaces ----- start = 26/10/2015 18:15:00 stop = 26/10/2015 19:06:00 title = MARIA - MOTIVE III - PRIMA TV
 [  Debug ]    suspicious      title in index page  = FOREVER I
 [  Debug ]       differs from title in showdetails = UNA LUNGA STORIA - .....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 20:06:00 stop = 26/10/2015 21:10:00 title = UNA LUNGA STORIA - FOREVER I
-[  Info  ]       Replaces ----- start = 26/10/2015 18:21:00 stop = 26/10/2015 19:15:00 title = UNA INSEGNANTE SPECIALE - COLD CASE-DELITTI IRRISOLTI VI
 [  Info  ]       Replaces ----- start = 26/10/2015 19:15:00 stop = 26/10/2015 20:06:00 title = LA FONTE DELLA GIOVINEZZA - FOREVER I - PRIMA TV
-[  Info  ]       Replaces ----- start = 26/10/2015 20:06:00 stop = 26/10/2015 21:17:00 title = FINO ALLA MORTE - PERSON OF INTEREST II
+[  Info  ]       Replaces ----- start = 26/10/2015 19:06:00 stop = 26/10/2015 20:10:00 title = UNA LUNGA STORIA - FOREVER I
 [  Debug ]    suspicious      title in index page  = FOREVER I
 [  Debug ]       differs from title in showdetails = GUARDA PRIMA DI SAL.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 21:10:00 stop = 26/10/2015 22:04:00 title = GUARDA PRIMA DI SALTARE - FOREVER I
-[  Info  ]       Replaces ----- start = 26/10/2015 20:06:00 stop = 26/10/2015 21:17:00 title = FINO ALLA MORTE - PERSON OF INTEREST II
-[  Debug ]    suspicious      title in index page  = PERSON OF INTEREST II
-[  Debug ]       differs from title in showdetails = MOMENTO CRITICO - PERSON OF INT.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 26/10/2015 22:04:00 stop = 26/10/2015 22:57:00 title = MOMENTO CRITICO - PERSON OF INTEREST II
-[  Info  ]       Replaces ----- start = 26/10/2015 20:06:00 stop = 26/10/2015 21:17:00 title = FINO ALLA MORTE - PERSON OF INTEREST II
-[  Info  ]       Replaces ----- start = 26/10/2015 21:17:00 stop = 26/10/2015 22:10:00 title = IL PRESCELTO - THE FOLLOWING III
+[  Info  ]       Replaces ----- start = 26/10/2015 20:10:00 stop = 26/10/2015 21:04:00 title = GUARDA PRIMA DI SALTARE - FOREVER I
 [  Debug ]    skipped negative show time! at 25/10/2015 21:57:00
 [  Debug ]    suspicious      title in index page  = MOTIVE III
 [  Debug ]       differs from title in showdetails = MARIA - MOTIVE III -.....
@@ -1491,80 +1460,158 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 05:30:00 stop = 26/10/2015 06:18:00 title = LINEA DI CONFINE - THE CLOSER II
 [  Info  ]       Replaces ----- start = 26/10/2015 04:30:00 stop = 26/10/2015 05:18:00 title = LINEA DI CONFINE - THE CLOSER II
+[  Info  ]       Replaces ----- start = 26/10/2015 04:30:00 stop = 26/10/2015 05:09:00 title = OMICIDIO A LUCI ROSSE - THE CLOSER II
+[  Info  ]       Replaces ----- start = 26/10/2015 05:09:00 stop = 26/10/2015 06:03:00 title = SPARIZIONE INGIUSTIFICATA - THE CLOSER II
 [  Debug ]    suspicious      title in index page  = THE CLOSER II
 [  Debug ]       differs from title in showdetails = ATTO DI CORAGGIO - THE .....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 06:18:00 stop = 26/10/2015 07:09:00 title = ATTO DI CORAGGIO - THE CLOSER II
 [  Info  ]       Replaces ----- start = 26/10/2015 05:18:00 stop = 26/10/2015 06:09:00 title = ATTO DI CORAGGIO - THE CLOSER II
+[  Info  ]       Replaces ----- start = 26/10/2015 05:09:00 stop = 26/10/2015 06:03:00 title = SPARIZIONE INGIUSTIFICATA - THE CLOSER II
+[  Info  ]       Replaces ----- start = 26/10/2015 06:03:00 stop = 26/10/2015 06:51:00 title = BOLIDE ROSSO - THE MENTALIST V
+[  Debug ]    suspicious      title in index page  = THE CLOSER II
+[  Debug ]       differs from title in showdetails = SOPRA LE RIGHE - THE CL.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 26/10/2015 07:09:00 stop = 26/10/2015 08:03:00 title = SOPRA LE RIGHE - THE CLOSER II
+[  Info  ]       Replaces ----- start = 26/10/2015 06:03:00 stop = 26/10/2015 06:51:00 title = BOLIDE ROSSO - THE MENTALIST V
+[  Info  ]       Replaces ----- start = 26/10/2015 06:51:00 stop = 26/10/2015 07:42:00 title = PANAMA ROSSO - THE MENTALIST V
 [  Debug ]    suspicious      title in index page  = THE MENTALIST V
 [  Debug ]       differs from title in showdetails = DENTI E ARTIGLI ROSSI - T.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 08:03:00 stop = 26/10/2015 08:48:00 title = DENTI E ARTIGLI ROSSI - THE MENTALIST V
 [  Info  ]       Replaces ----- start = 26/10/2015 07:03:00 stop = 26/10/2015 07:48:00 title = DENTI E ARTIGLI ROSSI - THE MENTALIST V
+[  Info  ]       Replaces ----- start = 26/10/2015 06:51:00 stop = 26/10/2015 07:42:00 title = PANAMA ROSSO - THE MENTALIST V
+[  Info  ]       Replaces ----- start = 26/10/2015 07:42:00 stop = 26/10/2015 08:48:00 title = LA COLLANA DI RUBINI ROSSI - THE MENTALIST V
+[  Debug ]    suspicious      title in index page  = THE MENTALIST V
+[  Debug ]       differs from title in showdetails = SMALTO ROSSO - THE MENTAL.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 26/10/2015 08:48:00 stop = 26/10/2015 09:38:00 title = SMALTO ROSSO - THE MENTALIST V
+[  Info  ]       Replaces ----- start = 26/10/2015 07:42:00 stop = 26/10/2015 08:48:00 title = LA COLLANA DI RUBINI ROSSI - THE MENTALIST V
 [  Debug ]    suspicious      title in index page  = THE MENTALIST V
 [  Debug ]       differs from title in showdetails = LA RAGAZZA DAL VESTITO RO.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 09:38:00 stop = 26/10/2015 10:29:00 title = LA RAGAZZA DAL VESTITO ROSSO SANGUE - THE MENTALIST V
 [  Info  ]       Replaces ----- start = 26/10/2015 08:38:00 stop = 26/10/2015 09:29:00 title = LA RAGAZZA DAL VESTITO ROSSO SANGUE - THE MENTALIST V
+[  Info  ]       Replaces ----- start = 26/10/2015 07:42:00 stop = 26/10/2015 08:48:00 title = LA COLLANA DI RUBINI ROSSI - THE MENTALIST V
+[  Info  ]       Replaces ----- start = 26/10/2015 08:48:00 stop = 26/10/2015 09:40:00 title = LA CACCIA - THE FOLLOWING III
 [  Debug ]    suspicious      title in index page  = SPECIAL VICTIMS UNIT XV
 [  Debug ]       differs from title in showdetails = INFANZIA VIOLATA - LAW & ORDER: U.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 10:29:00 stop = 26/10/2015 11:19:00 title = INFANZIA VIOLATA - LAW & ORDER: UNITA' SPECIALE XV
 [  Info  ]       Replaces ----- start = 26/10/2015 09:29:00 stop = 26/10/2015 10:19:00 title = INFANZIA VIOLATA - LAW & ORDER: UNITA' SPECIALE XV
+[  Info  ]       Replaces ----- start = 26/10/2015 08:48:00 stop = 26/10/2015 09:40:00 title = LA CACCIA - THE FOLLOWING III
+[  Info  ]       Replaces ----- start = 26/10/2015 09:40:00 stop = 26/10/2015 10:32:00 title = CARNE E SANGUE - THE FOLLOWING III
 [  Debug ]    suspicious      title in index page  = SPECIAL VICTIMS UNIT XV
 [  Debug ]       differs from title in showdetails = L' OSSESSIONE DELLA BESTIA - LAW .....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 11:19:00 stop = 26/10/2015 11:59:00 title = L' OSSESSIONE DELLA BESTIA - LAW & ORDER: UNITA' SPECIALE XV
 [  Info  ]       Replaces ----- start = 26/10/2015 10:19:00 stop = 26/10/2015 10:59:00 title = L' OSSESSIONE DELLA BESTIA - LAW & ORDER: UNITA' SPECIALE XV
+[  Info  ]       Replaces ----- start = 26/10/2015 09:40:00 stop = 26/10/2015 10:32:00 title = CARNE E SANGUE - THE FOLLOWING III
+[  Info  ]       Replaces ----- start = 26/10/2015 10:32:00 stop = 26/10/2015 11:21:00 title = L' ATTESA - MURDER IN THE FIRST II
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 26/10/2015 11:59:00 stop = 26/10/2015 12:10:00 title = STALKER - CRIMING
+[  Info  ]       Replaces ----- start = 26/10/2015 10:32:00 stop = 26/10/2015 11:21:00 title = L' ATTESA - MURDER IN THE FIRST II
 [  Debug ]    suspicious      title in index page  = 100 CODE
 [  Debug ]       differs from title in showdetails = NELLA TANA DEL CON.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 12:10:00 stop = 26/10/2015 13:03:00 title = NELLA TANA DEL CONIGLIO - 100 CODE
 [  Info  ]       Replaces ----- start = 26/10/2015 11:10:00 stop = 26/10/2015 12:03:00 title = NELLA TANA DEL CONIGLIO - 100 CODE
+[  Info  ]       Replaces ----- start = 26/10/2015 10:32:00 stop = 26/10/2015 11:21:00 title = L' ATTESA - MURDER IN THE FIRST II
+[  Info  ]       Replaces ----- start = 26/10/2015 11:21:00 stop = 26/10/2015 12:10:00 title = NUMERO TRENTANOVE - MURDER IN THE FIRST II
 [  Debug ]    suspicious      title in index page  = 100 CODE
 [  Debug ]       differs from title in showdetails = IL MIO UNICO AMICO.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 13:03:00 stop = 26/10/2015 13:54:00 title = IL MIO UNICO AMICO - 100 CODE
 [  Info  ]       Replaces ----- start = 26/10/2015 12:03:00 stop = 26/10/2015 12:54:00 title = IL MIO UNICO AMICO - 100 CODE
+[  Info  ]       Replaces ----- start = 26/10/2015 11:21:00 stop = 26/10/2015 12:10:00 title = NUMERO TRENTANOVE - MURDER IN THE FIRST II
+[  Info  ]       Replaces ----- start = 26/10/2015 12:10:00 stop = 26/10/2015 13:04:00 title = CHI HA SBAGLIATO? - THE CLOSER II
 [  Debug ]    suspicious      title in index page  = THE CLOSER II
 [  Debug ]       differs from title in showdetails = SERVIRE IL RE - I PARTE.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 13:54:00 stop = 26/10/2015 14:43:00 title = SERVIRE IL RE - I PARTE - THE CLOSER II
 [  Info  ]       Replaces ----- start = 26/10/2015 12:54:00 stop = 26/10/2015 13:43:00 title = SERVIRE IL RE - I PARTE - THE CLOSER II
+[  Info  ]       Replaces ----- start = 26/10/2015 12:10:00 stop = 26/10/2015 13:04:00 title = CHI HA SBAGLIATO? - THE CLOSER II
+[  Info  ]       Replaces ----- start = 26/10/2015 13:04:00 stop = 26/10/2015 13:57:00 title = L' ALTRA DONNA - THE CLOSER II
 [  Debug ]    suspicious      title in index page  = THE CLOSER II
 [  Debug ]       differs from title in showdetails = SERVIRE IL RE - II PART.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 14:43:00 stop = 26/10/2015 15:55:00 title = SERVIRE IL RE - II PARTE - THE CLOSER II
 [  Info  ]       Replaces ----- start = 26/10/2015 13:43:00 stop = 26/10/2015 14:55:00 title = SERVIRE IL RE - II PARTE - THE CLOSER II
+[  Info  ]       Replaces ----- start = 26/10/2015 13:04:00 stop = 26/10/2015 13:57:00 title = L' ALTRA DONNA - THE CLOSER II
+[  Info  ]       Replaces ----- start = 26/10/2015 13:57:00 stop = 26/10/2015 14:49:00 title = IL PRESCELTO - THE FOLLOWING III
+[  Info  ]       Replaces ----- start = 26/10/2015 14:49:00 stop = 26/10/2015 15:41:00 title = ETERNAMENTE - THE FOLLOWING III
+[  Debug ]    suspicious      title in index page  = MOTIVE III
+[  Debug ]       differs from title in showdetails = MOTIVE III, 12 - MOT.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 26/10/2015 15:55:00 stop = 26/10/2015 16:46:00 title = MOTIVE III, 12 - MOTIVE III
+[  Info  ]       Replaces ----- start = 26/10/2015 14:49:00 stop = 26/10/2015 15:41:00 title = ETERNAMENTE - THE FOLLOWING III
+[  Info  ]       Replaces ----- start = 26/10/2015 15:41:00 stop = 26/10/2015 16:31:00 title = PICCOLA CORVETTE ROSSA - THE MENTALIST V
 [  Debug ]    suspicious      title in index page  = MOTIVE III
 [  Debug ]       differs from title in showdetails = MARIA - MOTIVE III -.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 16:46:00 stop = 26/10/2015 17:38:00 title = MARIA - MOTIVE III - PRIMA TV
 [  Info  ]       Replaces ----- start = 26/10/2015 15:46:00 stop = 26/10/2015 16:38:00 title = MARIA - MOTIVE III - PRIMA TV
+[  Info  ]       Replaces ----- start = 26/10/2015 15:41:00 stop = 26/10/2015 16:31:00 title = PICCOLA CORVETTE ROSSA - THE MENTALIST V
+[  Info  ]       Replaces ----- start = 26/10/2015 16:31:00 stop = 26/10/2015 17:21:00 title = IL FIENILE ROSSO - THE MENTALIST V
+[  Debug ]    suspicious      title in index page  = THE MENTALIST V
+[  Debug ]       differs from title in showdetails = ROSSO, BIANCO E BLU - THE.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 26/10/2015 17:38:00 stop = 26/10/2015 18:31:00 title = ROSSO, BIANCO E BLU - THE MENTALIST V
+[  Info  ]       Replaces ----- start = 26/10/2015 16:31:00 stop = 26/10/2015 17:21:00 title = IL FIENILE ROSSO - THE MENTALIST V
+[  Info  ]       Replaces ----- start = 26/10/2015 17:21:00 stop = 26/10/2015 18:15:00 title = GIORNI DI GLORIA - COLD CASE-DELITTI IRRISOLTI VI
 [  Debug ]    suspicious      title in index page  = THE MENTALIST V
 [  Debug ]       differs from title in showdetails = DIETRO IL SIPARIO ROSSO -.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 18:31:00 stop = 26/10/2015 19:21:00 title = DIETRO IL SIPARIO ROSSO - THE MENTALIST V
 [  Info  ]       Replaces ----- start = 26/10/2015 17:31:00 stop = 26/10/2015 18:21:00 title = DIETRO IL SIPARIO ROSSO - THE MENTALIST V
+[  Info  ]       Replaces ----- start = 26/10/2015 17:21:00 stop = 26/10/2015 18:15:00 title = GIORNI DI GLORIA - COLD CASE-DELITTI IRRISOLTI VI
+[  Info  ]       Replaces ----- start = 26/10/2015 18:15:00 stop = 26/10/2015 19:06:00 title = MARIA - MOTIVE III - PRIMA TV
+[  Debug ]    suspicious      title in index page  = COLD CASE - DELITTI IRRISOLTI VI
+[  Debug ]       differs from title in showdetails = UNA INSEGNANTE SPECIALE - COLD CASE-DELITT.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 26/10/2015 19:21:00 stop = 26/10/2015 20:15:00 title = UNA INSEGNANTE SPECIALE - COLD CASE-DELITTI IRRISOLTI VI
+[  Info  ]       Replaces ----- start = 26/10/2015 18:15:00 stop = 26/10/2015 19:06:00 title = MARIA - MOTIVE III - PRIMA TV
+[  Info  ]       Replaces ----- start = 26/10/2015 19:06:00 stop = 26/10/2015 20:10:00 title = UNA LUNGA STORIA - FOREVER I
 [  Debug ]    suspicious      title in index page  = FOREVER I
 [  Debug ]       differs from title in showdetails = LA FONTE DELLA GIOV.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 20:15:00 stop = 26/10/2015 21:06:00 title = LA FONTE DELLA GIOVINEZZA - FOREVER I - PRIMA TV
 [  Info  ]       Replaces ----- start = 26/10/2015 19:15:00 stop = 26/10/2015 20:06:00 title = LA FONTE DELLA GIOVINEZZA - FOREVER I - PRIMA TV
+[  Info  ]       Replaces ----- start = 26/10/2015 19:06:00 stop = 26/10/2015 20:10:00 title = UNA LUNGA STORIA - FOREVER I
+[  Debug ]    suspicious      title in index page  = PERSON OF INTEREST II
+[  Debug ]       differs from title in showdetails = FINO ALLA MORTE - PERSON OF INT.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 26/10/2015 21:06:00 stop = 26/10/2015 22:17:00 title = FINO ALLA MORTE - PERSON OF INTEREST II
+[  Info  ]       Replaces ----- start = 26/10/2015 19:06:00 stop = 26/10/2015 20:10:00 title = UNA LUNGA STORIA - FOREVER I
+[  Info  ]       Replaces ----- start = 26/10/2015 20:10:00 stop = 26/10/2015 21:04:00 title = GUARDA PRIMA DI SALTARE - FOREVER I
+[  Info  ]       Replaces ----- start = 26/10/2015 21:04:00 stop = 26/10/2015 21:57:00 title = MOMENTO CRITICO - PERSON OF INTEREST II
+[  Debug ]    suspicious      title in index page  = THE FOLLOWING III
+[  Debug ]       differs from title in showdetails = IL PRESCELTO - THE FOLLOWIN.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 26/10/2015 22:17:00 stop = 26/10/2015 23:10:00 title = IL PRESCELTO - THE FOLLOWING III
+[  Info  ]       Replaces ----- start = 26/10/2015 21:04:00 stop = 26/10/2015 21:57:00 title = MOMENTO CRITICO - PERSON OF INTEREST II
 [  Debug ]    skipped negative show time! at 25/10/2015 21:57:00
-[  Info  ] 0,19 sec/update
+[  Info  ] 0,27 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Premium Joy) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    suspicious      title in index page  = FRIENDS IV
@@ -1811,6 +1858,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 04:19:00 stop = 26/10/2015 05:00:00 title = LADRA D'IDENTITA' - PSYCH VII
 [  Info  ]       Replaces ----- start = 26/10/2015 03:42:00 stop = 26/10/2015 05:08:00 title = E IL GATTO GRASSO - 2 BROKE GIRLS IV - PRIMA TV
+[  Info  ]       Replaces ----- start = 26/10/2015 04:19:00 stop = 26/10/2015 05:00:00 title = LADRA D'IDENTITA' - PSYCH VII
 [  Debug ]    suspicious      title in index page  = PSYCH VII
 [  Debug ]       differs from title in showdetails = CANDIDATO A SORPRES.....
 [  Info  ]    epg correction : 
@@ -1819,6 +1867,7 @@
 [  Info  ]       Replaces ----- start = 26/10/2015 03:42:00 stop = 26/10/2015 05:08:00 title = E IL GATTO GRASSO - 2 BROKE GIRLS IV - PRIMA TV
 [  Info  ]       Replaces ----- start = 26/10/2015 05:08:00 stop = 26/10/2015 05:30:00 title = REGALO DI NOZZE - FRIENDS IV
 [  Info  ]       Replaces ----- start = 26/10/2015 05:30:00 stop = 26/10/2015 05:56:00 title = LA SCOMMESSA - FRIENDS IV
+[  Info  ]       Replaces ----- start = 26/10/2015 05:00:00 stop = 26/10/2015 05:46:00 title = CANDIDATO A SORPRESA - PSYCH VII
 [  Debug ]    skipped negative show time! at 25/10/2015 04:46:00
 [  Debug ]    suspicious      title in index page  = FRIENDS IV
 [  Debug ]       differs from title in showdetails = REGALO DI NOZZE - FR.....
@@ -1982,13 +2031,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 25/10/2015 21:58:00 stop = 25/10/2015 22:25:00 title = E IL SALDO SOTTO ZERO - 2 BROKE GIRLS IV - PRIMA TV
 [  Info  ]       Replaces ----- start = 25/10/2015 22:16:00 stop = 25/10/2015 22:41:00 title = LA RICONVERSIONE DEL BETA TEST - BIG BANG THEORY V
-[  Debug ]    suspicious      title in index page  = BIG BANG THEORY V
-[  Debug ]       differs from title in showdetails = LA MANOVRA DEL DIADEMA - BI.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 25/10/2015 22:25:00 stop = 25/10/2015 22:48:00 title = LA MANOVRA DEL DIADEMA - BIG BANG THEORY V
-[  Info  ]       Replaces ----- start = 25/10/2015 22:16:00 stop = 25/10/2015 22:41:00 title = LA RICONVERSIONE DEL BETA TEST - BIG BANG THEORY V
-[  Info  ]       Replaces ----- start = 25/10/2015 22:41:00 stop = 25/10/2015 23:03:00 title = LA CONTRATTUALIZZAZIONE DELL'AMICIZIA - BIG BANG THEORY V
 [  Debug ]    skipped negative show time! at 25/10/2015 21:48:00
 [  Debug ]    suspicious      title in index page  = BIG BANG THEORY V
 [  Debug ]       differs from title in showdetails = LA RICONVERSIONE DEL BETA T.....
@@ -1996,12 +2038,14 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 25/10/2015 22:16:00 stop = 25/10/2015 22:41:00 title = LA RICONVERSIONE DEL BETA TEST - BIG BANG THEORY V
 [  Info  ]       Replaces ----- start = 25/10/2015 22:16:00 stop = 25/10/2015 22:41:00 title = LA RICONVERSIONE DEL BETA TEST - BIG BANG THEORY V
+[  Info  ]       Replaces ----- start = 25/10/2015 22:25:00 stop = 25/10/2015 22:48:00 title = LA MANOVRA DEL DIADEMA - BIG BANG THEORY V
 [  Debug ]    suspicious      title in index page  = BIG BANG THEORY V
 [  Debug ]       differs from title in showdetails = LA CONTRATTUALIZZAZIONE DEL.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 25/10/2015 22:41:00 stop = 25/10/2015 23:03:00 title = LA CONTRATTUALIZZAZIONE DELL'AMICIZIA - BIG BANG THEORY V
 [  Info  ]       Replaces ----- start = 25/10/2015 22:41:00 stop = 25/10/2015 23:03:00 title = LA CONTRATTUALIZZAZIONE DELL'AMICIZIA - BIG BANG THEORY V
+[  Info  ]       Replaces ----- start = 25/10/2015 22:25:00 stop = 25/10/2015 22:48:00 title = LA MANOVRA DEL DIADEMA - BIG BANG THEORY V
 [  Debug ]    suspicious      title in index page  = BIG BANG THEORY V
 [  Debug ]       differs from title in showdetails = L' IMPOSIZIONE DELLA VACANZ.....
 [  Info  ]    epg correction : 
@@ -2056,18 +2100,22 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 03:42:00 stop = 26/10/2015 05:08:00 title = E IL GATTO GRASSO - 2 BROKE GIRLS IV - PRIMA TV
 [  Info  ]       Replaces ----- start = 26/10/2015 03:42:00 stop = 26/10/2015 05:08:00 title = E IL GATTO GRASSO - 2 BROKE GIRLS IV - PRIMA TV
+[  Info  ]       Replaces ----- start = 26/10/2015 04:19:00 stop = 26/10/2015 05:00:00 title = LADRA D'IDENTITA' - PSYCH VII
+[  Info  ]       Replaces ----- start = 26/10/2015 05:00:00 stop = 26/10/2015 05:46:00 title = CANDIDATO A SORPRESA - PSYCH VII
 [  Debug ]    suspicious      title in index page  = FRIENDS IV
 [  Debug ]       differs from title in showdetails = REGALO DI NOZZE - FR.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 05:08:00 stop = 26/10/2015 05:30:00 title = REGALO DI NOZZE - FRIENDS IV
 [  Info  ]       Replaces ----- start = 26/10/2015 05:08:00 stop = 26/10/2015 05:30:00 title = REGALO DI NOZZE - FRIENDS IV
+[  Info  ]       Replaces ----- start = 26/10/2015 05:00:00 stop = 26/10/2015 05:46:00 title = CANDIDATO A SORPRESA - PSYCH VII
 [  Debug ]    suspicious      title in index page  = FRIENDS IV
 [  Debug ]       differs from title in showdetails = LA SCOMMESSA - FRIEN.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 05:30:00 stop = 26/10/2015 05:56:00 title = LA SCOMMESSA - FRIENDS IV
 [  Info  ]       Replaces ----- start = 26/10/2015 05:30:00 stop = 26/10/2015 05:56:00 title = LA SCOMMESSA - FRIENDS IV
+[  Info  ]       Replaces ----- start = 26/10/2015 05:00:00 stop = 26/10/2015 05:46:00 title = CANDIDATO A SORPRESA - PSYCH VII
 [  Debug ]    suspicious      title in index page  = HUSTLE-I SIGNORI DELLA TRUFFA IV
 [  Debug ]       differs from title in showdetails = NON C'E' DUE SENZA TRE - HUSTLE - I SIGNOR.....
 [  Info  ]    epg correction : 
@@ -2147,7 +2195,7 @@
 [  Info  ]       show with ---- start = 26/10/2015 23:18:00 stop = 26/10/2015 23:41:00 title = NOTTE D'AMORE - NOTTE DI SESSO - MIKE & MOLLY I
 [  Info  ]       Replaces ----- start = 26/10/2015 23:18:00 stop = 26/10/2015 23:41:00 title = NOTTE D'AMORE - NOTTE DI SESSO - MIKE & MOLLY I
 [  Debug ]    skipped negative show time! at 25/10/2015 21:48:00
-[  Info  ] 0,19 sec/update
+[  Info  ] 0,21 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Premium Stories) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -2280,26 +2328,13 @@
 [  Info  ]       show with ---- start = 25/10/2015 01:59:00 stop = 25/10/2015 02:40:00 title = L' INIZIO DELLA FINE - ROYAL PAINS VI
 [  Info  ]       Replaces ----- start = 25/10/2015 01:59:00 stop = 25/10/2015 02:40:00 title = L' INIZIO DELLA FINE - ROYAL PAINS VI
 [  Debug ]    skipped show longer than 15 hour(s) at 25/10/2015 02:40:00 title ROYAL PAINS VI
-[  Debug ]    suspicious      title in index page  = THE MYSTERIES OF LAURA I
-[  Debug ]       differs from title in showdetails = TIENI LA BOCCA CHIUSA - THE MYSTER.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 26/10/2015 04:24:00 stop = 26/10/2015 05:04:00 title = TIENI LA BOCCA CHIUSA - THE MYSTERIES OF LAURA I - PRIMA TV
-[  Info  ]       Replaces ----- start = 26/10/2015 02:42:00 stop = 26/10/2015 04:05:00 title = LA MACCHINA NUOVA - ROYAL PAINS VI
-[  Debug ]    suspicious      title in index page  = THE MYSTERIES OF LAURA I
-[  Debug ]       differs from title in showdetails = UNA FESTA SORPRENDENTE - THE MYSTE.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 26/10/2015 05:04:00 stop = 26/10/2015 05:44:00 title = UNA FESTA SORPRENDENTE - THE MYSTERIES OF LAURA I - PRIMA TV
-[  Info  ]       Replaces ----- start = 26/10/2015 02:42:00 stop = 26/10/2015 04:05:00 title = LA MACCHINA NUOVA - ROYAL PAINS VI
-[  Info  ]       Replaces ----- start = 26/10/2015 04:05:00 stop = 26/10/2015 04:30:00 title = STIMOLI - CHANTE! II
-[  Info  ]       Replaces ----- start = 26/10/2015 04:30:00 stop = 26/10/2015 05:23:00 title = IL GIORNO DELLE ELEZIONI - PARENTHOOD V (NEW)
 [  Debug ]    suspicious      title in index page  = CHANTE! II
 [  Debug ]       differs from title in showdetails = IL PREZZO DELLA GLOR.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 05:44:00 stop = 26/10/2015 06:05:00 title = IL PREZZO DELLA GLORIA - CHANTE! II
 [  Info  ]       Replaces ----- start = 26/10/2015 04:30:00 stop = 26/10/2015 05:23:00 title = IL GIORNO DELLE ELEZIONI - PARENTHOOD V (NEW)
+[  Info  ]       Replaces ----- start = 26/10/2015 04:44:00 stop = 26/10/2015 05:05:00 title = IL PREZZO DELLA GLORIA - CHANTE! II
 [  Debug ]    skipped negative show time! at 25/10/2015 05:05:00
 [  Debug ]    suspicious      title in index page  = SUITS II
 [  Debug ]       differs from title in showdetails = PUNTO DI ROTTURA -.....
@@ -2410,12 +2445,20 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 03:42:00 stop = 26/10/2015 05:05:00 title = LA MACCHINA NUOVA - ROYAL PAINS VI
 [  Info  ]       Replaces ----- start = 26/10/2015 02:42:00 stop = 26/10/2015 04:05:00 title = LA MACCHINA NUOVA - ROYAL PAINS VI
+[  Info  ]       Replaces ----- start = 26/10/2015 03:24:00 stop = 26/10/2015 04:04:00 title = TIENI LA BOCCA CHIUSA - THE MYSTERIES OF LAURA I - PRIMA TV
+[  Info  ]       Replaces ----- start = 26/10/2015 04:04:00 stop = 26/10/2015 04:44:00 title = UNA FESTA SORPRENDENTE - THE MYSTERIES OF LAURA I - PRIMA TV
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 26/10/2015 05:05:00 stop = 26/10/2015 05:30:00 title = STIMOLI - CHANTE! II
+[  Info  ]       Replaces ----- start = 26/10/2015 04:04:00 stop = 26/10/2015 04:44:00 title = UNA FESTA SORPRENDENTE - THE MYSTERIES OF LAURA I - PRIMA TV
 [  Debug ]    suspicious      title in index page  = PARENTHOOD V
 [  Debug ]       differs from title in showdetails = IL GIORNO DELLE ELEZIO.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 05:30:00 stop = 26/10/2015 06:23:00 title = IL GIORNO DELLE ELEZIONI - PARENTHOOD V (NEW)
 [  Info  ]       Replaces ----- start = 26/10/2015 04:30:00 stop = 26/10/2015 05:23:00 title = IL GIORNO DELLE ELEZIONI - PARENTHOOD V (NEW)
+[  Info  ]       Replaces ----- start = 26/10/2015 04:04:00 stop = 26/10/2015 04:44:00 title = UNA FESTA SORPRENDENTE - THE MYSTERIES OF LAURA I - PRIMA TV
+[  Info  ]       Replaces ----- start = 26/10/2015 04:44:00 stop = 26/10/2015 05:05:00 title = IL PREZZO DELLA GLORIA - CHANTE! II
 [  Debug ]    suspicious      title in index page  = PARENTHOOD V
 [  Debug ]       differs from title in showdetails = MANCANO SOLO GLI ABBRA.....
 [  Info  ]    epg correction : 
@@ -2489,7 +2532,7 @@
 [  Info  ]       show with ---- start = 26/10/2015 22:47:00 stop = 26/10/2015 22:55:00 title = SHISEIDO 2 - X-STYLE
 [  Info  ]       Replaces ----- start = 26/10/2015 21:47:00 stop = 26/10/2015 21:55:00 title = SHISEIDO 2 - X-STYLE
 [  Debug ]    skipped negative show time! at 25/10/2015 21:46:00
-[  Info  ] 0,18 sec/update
+[  Info  ] 0,26 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Premium Sport HD) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    suspicious      title in index page  = STORIE DI CALCIOMERCATO - PAOLO ROSSI
@@ -2531,20 +2574,20 @@
 [  Info  ]    epg correction : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 26/10/2015 04:00:00 stop = 26/10/2015 04:30:00 title = IACCHETTI - PASSIONE CALCIO
-[  Info  ]       Added before - start = 26/10/2015 05:00:00 stop = 26/10/2015 05:28:00 title = 25/10 H. 24.00 - PREMIUM SPORT NEWS
+[  Info  ]       Added before - start = 26/10/2015 05:28:00 stop = 26/10/2015 06:00:00 title = NONA GIORNATA 25/10 - HIGHLIGHTS SERIE A 25M -'16
 [  Debug ]    suspicious      title in index page  = PREMIUM SPORT NEWS
 [  Debug ]       differs from title in showdetails = 24/10 H. 24.00 - PREMIUM SPO.....
 [  Info  ]    epg correction : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 26/10/2015 04:30:00 stop = 26/10/2015 05:00:00 title = 24/10 H. 24.00 - PREMIUM SPORT NEWS
-[  Info  ]       Added before - start = 26/10/2015 05:00:00 stop = 26/10/2015 05:28:00 title = 25/10 H. 24.00 - PREMIUM SPORT NEWS
+[  Info  ]       Added before - start = 26/10/2015 05:28:00 stop = 26/10/2015 06:00:00 title = NONA GIORNATA 25/10 - HIGHLIGHTS SERIE A 25M -'16
 [  Debug ]    suspicious      title in index page  = LE CASE DEI CAMPIONI - FIORENTINA
 [  Debug ]       differs from title in showdetails = FIORENTINA - LE CASE DEI CAMPIONI  
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 05:00:00 stop = 26/10/2015 05:30:00 title = FIORENTINA - LE CASE DEI CAMPIONI  
-[  Info  ]       Replaces ----- start = 26/10/2015 05:00:00 stop = 26/10/2015 05:28:00 title = 25/10 H. 24.00 - PREMIUM SPORT NEWS
 [  Info  ]       Replaces ----- start = 26/10/2015 05:28:00 stop = 26/10/2015 06:00:00 title = NONA GIORNATA 25/10 - HIGHLIGHTS SERIE A 25M -'16
+[  Info  ]       Replaces ----- start = 26/10/2015 05:00:00 stop = 26/10/2015 05:30:00 title = FIORENTINA - LE CASE DEI CAMPIONI  
 [  Debug ]    skipped negative show time! at 25/10/2015 04:30:00
 [  Debug ]    suspicious      title in index page  = PASSIONE CALCIO MORATTI
 [  Debug ]       differs from title in showdetails = MORATTI - PASSIONE CALCIO
@@ -2591,13 +2634,20 @@
 [  Info  ]    epg correction : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 26/10/2015 01:24:00 stop = 26/10/2015 05:00:00 title = CAROLINA PANTHERS - PHILADELPHIA EAGLES 25/10 - NFL 2015
-[  Info  ]       Added before - start = 26/10/2015 05:00:00 stop = 26/10/2015 05:28:00 title = 25/10 H. 24.00 - PREMIUM SPORT NEWS
+[  Info  ]       Added before - start = 26/10/2015 05:28:00 stop = 26/10/2015 06:00:00 title = NONA GIORNATA 25/10 - HIGHLIGHTS SERIE A 25M -'16
+[  Debug ]    suspicious      title in index page  = PREMIUM SPORT NEWS
+[  Debug ]       differs from title in showdetails = 25/10 H. 24.00 - PREMIUM SPO.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 26/10/2015 05:00:00 stop = 26/10/2015 05:28:00 title = 25/10 H. 24.00 - PREMIUM SPORT NEWS
+[  Info  ]       Replaces ----- start = 26/10/2015 05:00:00 stop = 26/10/2015 05:30:00 title = FIORENTINA - LE CASE DEI CAMPIONI  
 [  Debug ]    suspicious      title in index page  = HIGHLIGHTS SERIE A - NONA GIORNATA
 [  Debug ]       differs from title in showdetails = NONA GIORNATA 25/10 - HIGHLIGHTS SERIE A 25M.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 05:28:00 stop = 26/10/2015 06:00:00 title = NONA GIORNATA 25/10 - HIGHLIGHTS SERIE A 25M -'16
 [  Info  ]       Replaces ----- start = 26/10/2015 05:28:00 stop = 26/10/2015 06:00:00 title = NONA GIORNATA 25/10 - HIGHLIGHTS SERIE A 25M -'16
+[  Info  ]       Replaces ----- start = 26/10/2015 05:00:00 stop = 26/10/2015 05:30:00 title = FIORENTINA - LE CASE DEI CAMPIONI  
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 06:00:00 stop = 26/10/2015 06:30:00 title = 26/10 H.7.00 - PREMIUM SPORT EDICOLA
@@ -2657,7 +2707,7 @@
 [  Info  ]       show with ---- start = 26/10/2015 21:00:00 stop = 26/10/2015 21:30:00 title = EPISODIO 8 - LUNEDI 26/10 - PREMIUM MONDAY
 [  Info  ]       Replaces ----- start = 26/10/2015 21:00:00 stop = 26/10/2015 21:30:00 title = EPISODIO 8 - LUNEDI 26/10 - PREMIUM MONDAY
 [  Debug ]    skipped negative show time! at 25/10/2015 04:30:00
-[  Info  ] 0,18 sec/update
+[  Info  ] 0,22 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Premium Calcio) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -2680,10 +2730,6 @@
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 26/10/2015 04:19:00 stop = 26/10/2015 04:44:00 title = BAGGIO - STORIE DI CALCIOMERCATO
 [  Info  ]       Added before - start = 26/10/2015 04:00:00 stop = 26/10/2015 05:55:00 title = CHIEVO - NAPOLI - CAMPIONATO DI CALCIO SERIE A 2015/16 (NAPOLI)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 26/10/2015 04:44:00 stop = 26/10/2015 05:01:00 title = HIGHLIGHTS MERCOLEDI 21/10 - HIGHLIGHTS CHAMPIONS LEAGUE 25M 
-[  Info  ]       Replaces ----- start = 26/10/2015 04:00:00 stop = 26/10/2015 05:55:00 title = CHIEVO - NAPOLI - CAMPIONATO DI CALCIO SERIE A 2015/16 (NAPOLI)
 [  Debug ]    skipped negative show time! at 25/10/2015 04:01:00
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
@@ -2716,13 +2762,14 @@
 [  Info  ]       show with ---- start = 26/10/2015 02:13:00 stop = 26/10/2015 02:44:00 title = NONA GIORNATA 25/10 - HIGHLIGHTS SERIE A 25M -'16
 [  Info  ]       Replaces ----- start = 26/10/2015 01:13:00 stop = 26/10/2015 01:44:00 title = NONA GIORNATA 25/10 - HIGHLIGHTS SERIE A 25M -'16
 [  Info  ]    epg correction : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 02:44:00 stop = 26/10/2015 05:00:00 title = LAZIO - TORINO - CAMPIONATO DI CALCIO SERIE A 2015/16 (LAZIO)
-[  Info  ]       Added before - start = 26/10/2015 04:00:00 stop = 26/10/2015 05:55:00 title = CHIEVO - NAPOLI - CAMPIONATO DI CALCIO SERIE A 2015/16 (NAPOLI)
+[  Info  ]       Replaces ----- start = 26/10/2015 03:44:00 stop = 26/10/2015 04:01:00 title = HIGHLIGHTS MERCOLEDI 21/10 - HIGHLIGHTS CHAMPIONS LEAGUE 25M 
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 05:00:00 stop = 26/10/2015 06:55:00 title = CHIEVO - NAPOLI - CAMPIONATO DI CALCIO SERIE A 2015/16 (NAPOLI)
 [  Info  ]       Replaces ----- start = 26/10/2015 04:00:00 stop = 26/10/2015 05:55:00 title = CHIEVO - NAPOLI - CAMPIONATO DI CALCIO SERIE A 2015/16 (NAPOLI)
+[  Info  ]       Replaces ----- start = 26/10/2015 03:44:00 stop = 26/10/2015 04:01:00 title = HIGHLIGHTS MERCOLEDI 21/10 - HIGHLIGHTS CHAMPIONS LEAGUE 25M 
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/10/2015 06:55:00 stop = 26/10/2015 08:52:00 title = LAZIO - TORINO - CAMPIONATO DI CALCIO SERIE A 2015/16 (LAZIO)
@@ -2744,7 +2791,7 @@
 [  Info  ]       show with ---- start = 26/10/2015 21:55:00 stop = 26/10/2015 23:52:00 title = CHIEVO - NAPOLI - CAMPIONATO DI CALCIO SERIE A 2015/16 (NAPOLI)
 [  Info  ]       Replaces ----- start = 26/10/2015 20:55:00 stop = 26/10/2015 22:52:00 title = CHIEVO - NAPOLI - CAMPIONATO DI CALCIO SERIE A 2015/16 (NAPOLI)
 [  Debug ]    skipped negative show time! at 25/10/2015 04:01:00
-[  Info  ] 0,18 sec/update
+[  Info  ] 0,21 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Premium Eurosport) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    skipped show longer than 15 hour(s) at 25/10/2015 02:30:00 title CICLISMO: REVOLUTION SERIES
@@ -2789,7 +2836,7 @@
 [  Debug ]    skipped negative show time! at 25/10/2015 05:30:00
 [  Debug ]    skipped negative show time! at 25/10/2015 21:55:00
 [  Debug ]    skipped negative show time! at 25/10/2015 21:55:00
-[  Info  ] 0,11 sec/update
+[  Info  ] 0,12 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Premium Cinema) site -- MEDIASET.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -2822,17 +2869,6 @@
 [  Info  ] 0,08 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Cinema 1 HD -720p) site -- GUIDATV.SKY.IT -- mode incremental
-[  Debug ]    suspicious      title in index page  = Tutto puo' cambiare
-[  Debug ]       differs from title in showdetails = Tutto può cambiare (Begin Aga.....
-[  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025040000 +0100
-[  Debug ] starting with show : Anime nere at local time 25/10/2015 04:00
-[  Debug ]    suspicious      title in index page  = Quel momento imbarazzante
-[  Debug ]       differs from title in showdetails = That Awkward Moment
-[  Debug ]    skipped 
-[  Info  ] 0,38 sec/update
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Sky Cinema 1 HD  -1080i) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20151024003000 +0200
 [  Debug ] starting with show : Giustizieri da strapazzo in Louisiana at local time 24/10/2015 00:30
@@ -2841,261 +2877,272 @@
 [  Debug ]    suspicious      title in index page  = Quel momento imbarazzante
 [  Debug ]       differs from title in showdetails = That Awkward Moment
 [  Debug ]    skipped 
-[  Info  ] 1,31 sec/update
+[  Info  ] 0,57 sec/update
+[  Debug ] 
+[  Info  ] channel (xmltv_id=Sky Cinema 1 HD  -1080i) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ]    suspicious      title in index page  = Tutto puo' cambiare
+[  Debug ]       differs from title in showdetails = Tutto può cambiare (Begin Aga.....
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20151025040000 +0100
+[  Debug ] starting with show : Anime nere at local time 25/10/2015 04:00
+[  Debug ]    suspicious      title in index page  = Quel momento imbarazzante
+[  Debug ]       differs from title in showdetails = That Awkward Moment
+[  Debug ]    skipped 
+[  Info  ] 0,52 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Cinema +1 HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20151024000000 +0200
+[  Debug ] starting with show : Soap Opera at local time 24/10/2015 00:00
 [  Debug ]    suspicious      title in index page  = Tutto puo' cambiare
 [  Debug ]       differs from title in showdetails = Tutto può cambiare (Begin Aga.....
-[  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025031000 +0100
-[  Debug ] starting with show : Comportamenti molto...cattivi at local time 25/10/2015 03:10
 [  Debug ]    suspicious      title in index page  = Quel momento imbarazzante
 [  Debug ]       differs from title in showdetails = That Awkward Moment
 [  Debug ]    skipped 
-[  Info  ] 0,30 sec/update
+[  Info  ] 0,50 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Cinema +24 HD) site -- GUIDATV.SKY.IT -- mode incremental
-[  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024011000 +0200
-[  Debug ] starting with show : Duets: Bisio & Giallini - Speciale at local time 24/10/2015 01:10
 [  Debug ]    suspicious      title in index page  = Tutto puo' cambiare
 [  Debug ]       differs from title in showdetails = Tutto può cambiare (Begin Aga.....
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20151025042500 +0100
+[  Debug ] starting with show : Il mio amico Nanuk at local time 25/10/2015 04:25
 [  Debug ]    suspicious      title in index page  = Tutto puo' cambiare
 [  Debug ]       differs from title in showdetails = Tutto può cambiare (Begin Aga.....
 [  Debug ]    suspicious      title in index page  = Quel momento imbarazzante
 [  Debug ]       differs from title in showdetails = That Awkward Moment
 [  Debug ]    skipped 
-[  Info  ] 0,47 sec/update
+[  Info  ] 0,73 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Cinema Hits HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025045000 +0100
-[  Debug ] starting with show : Al servizio segreto di Sua Maesta' at local time 25/10/2015 04:50
+[  Debug ] time-offset change for all shows after starttime 20151024015000 +0200
+[  Debug ] starting with show : Agente 007, Mai dire mai at local time 24/10/2015 01:50
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,42 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Cinema Family HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024002500 +0200
-[  Debug ] starting with show : Neverland - Un sogno per la vita at local time 24/10/2015 00:25
+[  Debug ] time-offset change for all shows after stoptime 20151025031000 +0100
+[  Debug ] starting with show : Ella Enchanted - Il magico mondo di Ella at local time 25/10/2015 03:10
 [  Debug ]    suspicious      title in index page  = Dragon Trainer 2
 [  Debug ]       differs from title in showdetails = How to Train Your Dragon 2
 [  Debug ]    suspicious      title in index page  = Dragon Trainer 2
 [  Debug ]       differs from title in showdetails = How to Train Your Dragon 2
 [  Debug ]    skipped 
-[  Info  ] 0,84 sec/update
+[  Info  ] 0,41 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY Cinema Family HD +1) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025033000 +0100
-[  Debug ] starting with show : Coach Carter at local time 25/10/2015 03:30
+[  Debug ] time-offset change for all shows after starttime 20151024012500 +0200
+[  Debug ] starting with show : Neverland - Un sogno per la vita at local time 24/10/2015 01:25
 [  Debug ]    suspicious      title in index page  = Dragon Trainer 2
 [  Debug ]       differs from title in showdetails = How to Train Your Dragon 2
 [  Debug ]    suspicious      title in index page  = Dragon Trainer 2
 [  Debug ]       differs from title in showdetails = How to Train Your Dragon 2
 [  Debug ]    skipped 
-[  Info  ] 0,34 sec/update
+[  Info  ] 0,43 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Cinema Passion HD) site -- GUIDATV.SKY.IT -- mode incremental
-[  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024002000 +0200
-[  Debug ] starting with show : The Butler - Un maggiordomo alla Casa Bianca at local time 24/10/2015 00:20
 [  Debug ]    suspicious      title in index page  = The Butler - Un maggiordomo alla Casa Bianca
 [  Debug ]       differs from title in showdetails = The Butler
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20151025030000 +0100
+[  Debug ] starting with show : Imogene - Le disavventure di una newyorkese at local time 25/10/2015 03:00
 [  Debug ]    skipped 
-[  Info  ] 0,39 sec/update
+[  Info  ] 0,42 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Cinema Comedy HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025041500 +0100
-[  Debug ] starting with show : The To Do List - L'estate prima del college at local time 25/10/2015 04:15
+[  Debug ] time-offset change for all shows after starttime 20151024002000 +0200
+[  Debug ] starting with show : Dove vai se il vizietto non ce l'hai? at local time 24/10/2015 00:20
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,32 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Cinema Max HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024015000 +0200
-[  Debug ] starting with show : Disturbia at local time 24/10/2015 01:50
+[  Debug ] time-offset change for all shows after stoptime 20151025045000 +0100
+[  Debug ] starting with show : Terminator Salvation at local time 25/10/2015 04:50
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,51 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Cinema Max +1 HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025035500 +0100
-[  Debug ] starting with show : Le verita' nascoste at local time 25/10/2015 03:55
+[  Debug ] time-offset change for all shows after starttime 20151024005000 +0200
+[  Debug ] starting with show : Liberaci Dal Male at local time 24/10/2015 00:50
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,48 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Cinema Cult HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024002500 +0200
-[  Debug ] starting with show : Duets: Argentero & Bova - Speciale at local time 24/10/2015 00:25
+[  Debug ] time-offset change for all shows after stoptime 20151025035000 +0100
+[  Debug ] starting with show : Coriolanus at local time 25/10/2015 03:50
 [  Debug ]    suspicious      title in index page  = Grand Budapest Hotel
 [  Debug ]       differs from title in showdetails = The Grand Budapest Hotel
 [  Debug ]    suspicious      title in index page  = Grand Budapest Hotel
 [  Debug ]       differs from title in showdetails = The Grand Budapest Hotel
 [  Debug ]    skipped 
-[  Info  ] 0,37 sec/update
+[  Info  ] 0,33 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Cinema Classic HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025033500 +0100
-[  Debug ] starting with show : 3 sul divano at local time 25/10/2015 03:35
+[  Debug ] time-offset change for all shows after starttime 20151024005000 +0200
+[  Debug ] starting with show : Souvenir d'Italie at local time 24/10/2015 00:50
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,40 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky 3D) site -- GUIDATV.SKY.IT -- mode incremental
-[  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024002500 +0200
-[  Debug ] starting with show : Sharks 3D at local time 24/10/2015 00:25
 [  Debug ]    suspicious      title in index page  = Pompei
 [  Debug ]       differs from title in showdetails = Pompeii
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20151025060000 +0100
+[  Debug ] starting with show : A ottobre su Sky 3D at local time 25/10/2015 06:00
 [  Debug ]    suspicious      title in index page  = Pompei
 [  Debug ]       differs from title in showdetails = Pompeii
 [  Debug ]    skipped 
-[  Info  ] 0,54 sec/update
+[  Info  ] 0,34 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Uno HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025031500 +0100
-[  Debug ] starting with show : Naked Vegas - Nudi e dipinti at local time 25/10/2015 03:15
+[  Debug ] time-offset change for all shows after starttime 20151024002500 +0200
+[  Debug ] starting with show : X Factor daily at local time 24/10/2015 00:25
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,40 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Uno +1 HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024003500 +0200
-[  Debug ] starting with show : Fake Off - Balli spaziali at local time 24/10/2015 00:35
+[  Debug ] time-offset change for all shows after stoptime 20151025032000 +0100
+[  Debug ] starting with show : Ink Master: tatuaggi in gara at local time 25/10/2015 03:20
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 25/10/2015 03:20:00 and stop at 25/10/2015 03:30:00
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 25/10/2015 03:30:00 and stop at 25/10/2015 03:45:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,41 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Atlantic HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025031500 +0100
-[  Debug ] starting with show : I Soprano at local time 25/10/2015 03:15
+[  Debug ] time-offset change for all shows after starttime 20151024005000 +0200
+[  Debug ] starting with show : Band of Brothers at local time 24/10/2015 00:50
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,46 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY Atlantic +1 HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024000500 +0200
-[  Debug ] starting with show : The Newsroom at local time 24/10/2015 00:05
+[  Debug ] time-offset change for all shows after stoptime 20151025032500 +0100
+[  Debug ] starting with show : I Soprano at local time 25/10/2015 03:25
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,39 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Fox HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025030500 +0100
-[  Debug ] starting with show : Tyrant at local time 25/10/2015 03:05
+[  Debug ] time-offset change for all shows after starttime 20151024004000 +0200
+[  Debug ] starting with show : Modern Family at local time 24/10/2015 00:40
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 25/10/2015 03:05:00 and stop at 25/10/2015 03:55:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,37 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Fox +1 HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024004500 +0200
-[  Debug ] starting with show : Agents of S.H.I.E.L.D. at local time 24/10/2015 00:45
+[  Debug ] time-offset change for all shows after stoptime 20151025031000 +0100
+[  Debug ] starting with show : Tyrant at local time 25/10/2015 03:10
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,55 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Fox Life HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025033500 +0100
-[  Debug ] starting with show : My Kitchen Rules UK at local time 25/10/2015 03:35
+[  Debug ] time-offset change for all shows after starttime 20151024003000 +0200
+[  Debug ] starting with show : Grey's Anatomy at local time 24/10/2015 00:30
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,35 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Fox Life +1 HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024002500 +0200
-[  Debug ] starting with show : Il contadino cerca moglie at local time 24/10/2015 00:25
+[  Debug ] time-offset change for all shows after stoptime 20151025035000 +0100
+[  Debug ] starting with show : Cucine da incubo at local time 25/10/2015 03:50
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,31 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Fox Crime HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025030500 +0100
-[  Debug ] starting with show : NCIS at local time 25/10/2015 03:05
+[  Debug ] time-offset change for all shows after starttime 20151024004000 +0200
+[  Debug ] starting with show : Bones at local time 24/10/2015 00:40
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 25/10/2015 03:05:00 and stop at 25/10/2015 03:55:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,32 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Fox Crime +1 HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024004500 +0200
-[  Debug ] starting with show : NCIS at local time 24/10/2015 00:45
+[  Debug ] time-offset change for all shows after stoptime 20151025032000 +0100
+[  Debug ] starting with show : NCIS at local time 25/10/2015 03:20
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,46 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Fox Crime +2 HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025033500 +0100
-[  Debug ] starting with show : NCIS at local time 25/10/2015 03:35
+[  Debug ] time-offset change for all shows after starttime 20151024005000 +0200
+[  Debug ] starting with show : NCIS at local time 24/10/2015 00:50
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,46 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Fox Comedy) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024000500 +0200
-[  Debug ] starting with show : Friends at local time 24/10/2015 00:05
+[  Debug ] time-offset change for all shows after stoptime 20151025031500 +0100
+[  Debug ] starting with show : Boris at local time 25/10/2015 03:15
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 25/10/2015 03:15:00 and stop at 25/10/2015 03:40:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,31 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Fox Animation HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025032000 +0100
-[  Debug ] starting with show : Bob's Burgers at local time 25/10/2015 03:20
+[  Debug ] time-offset change for all shows after starttime 20151024002500 +0200
+[  Debug ] starting with show : I Simpson at local time 24/10/2015 00:25
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 25/10/2015 03:20:00 and stop at 25/10/2015 03:45:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,37 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Lei) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024001500 +0200
-[  Debug ] starting with show : Piccole donne: Los Angeles at local time 24/10/2015 00:15
+[  Debug ] time-offset change for all shows after stoptime 20151025032500 +0100
+[  Debug ] starting with show : Accumulatori seriali at local time 25/10/2015 03:25
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,28 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Axn HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025033000 +0100
-[  Debug ] starting with show : Rush Unita' Speciale at local time 25/10/2015 03:30
+[  Debug ] time-offset change for all shows after starttime 20151024000000 +0200
+[  Debug ] starting with show : Sexcetera at local time 24/10/2015 00:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,28 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Axn +1 HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024000000 +0200
-[  Debug ] starting with show : Sexcetera at local time 24/10/2015 00:00
+[  Debug ] time-offset change for all shows after stoptime 20151025031500 +0100
+[  Debug ] starting with show : Porno Valley at local time 25/10/2015 03:15
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 25/10/2015 03:15:00 and stop at 25/10/2015 03:40:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,28 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Axn Sci-Fi) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025030000 +0100
-[  Debug ] starting with show : Streghe at local time 25/10/2015 03:00
+[  Debug ] time-offset change for all shows after starttime 20151024003000 +0200
+[  Debug ] starting with show : Star Trek Voyager at local time 24/10/2015 00:30
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 25/10/2015 03:00:00 and stop at 25/10/2015 03:50:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,38 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Giallo) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024010500 +0200
-[  Debug ] starting with show : Disappeared at local time 24/10/2015 01:05
+[  Debug ] time-offset change for all shows after stoptime 20151025031500 +0100
+[  Debug ] starting with show : Wolff, un poliziotto a Berlino at local time 25/10/2015 03:15
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,41 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Horror) site -- GUIDATV.SKY.IT -- mode incremental
 [  Error ] no index page data received from Sky Horror
@@ -3104,40 +3151,42 @@
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Comedy Central) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20151024014000 +0200
+[  Debug ] starting with show : Stand Up Comedy at local time 24/10/2015 01:40
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 25/10/2015 03:10:00 and stop at 25/10/2015 03:40:00
+[  Warn  ] error downloading page: Error getting response stream (ReadDone2): ReceiveFailure
+[  Warn  ] pausing 1 of 4 times for 5 seconds before re-try.
+[  Debug ]    skipped 
+[  Info  ] 0,41 sec/update
+[  Debug ] 
+[  Info  ] channel (xmltv_id=Comedy central +1) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20151025031000 +0100
 [  Debug ] starting with show : CCN Best of at local time 25/10/2015 03:10
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 25/10/2015 03:10:00 and stop at 25/10/2015 03:40:00
 [  Debug ]    skipped 
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Comedy central +1) site -- GUIDATV.SKY.IT -- mode incremental
-[  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024000000 +0200
-[  Debug ] starting with show : South Park at local time 24/10/2015 00:00
-[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
-      unvalid start at 25/10/2015 03:10:00 and stop at 25/10/2015 03:40:00
-[  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,31 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Animal Planet) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025030000 +0100
-[  Debug ] starting with show : Bad Dog at local time 25/10/2015 03:00
+[  Debug ] time-offset change for all shows after starttime 20151024000500 +0200
+[  Debug ] starting with show : Animali spietati at local time 24/10/2015 00:05
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,31 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Real Time HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024002000 +0200
-[  Debug ] starting with show : Malattie misteriose at local time 24/10/2015 00:20
+[  Debug ] time-offset change for all shows after stoptime 20151025033000 +0100
+[  Debug ] starting with show : Paint Your Life at local time 25/10/2015 03:30
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,35 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Gambero Rosso HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025030000 +0100
-[  Debug ] starting with show : Gambero Rosso World Tour at local time 25/10/2015 03:00
+[  Debug ] time-offset change for all shows after starttime 20151024001000 +0200
+[  Debug ] starting with show : Gol finger at local time 24/10/2015 00:10
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 25/10/2015 03:00:00 and stop at 25/10/2015 03:25:00
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
@@ -3145,14 +3194,14 @@
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 25/10/2015 03:45:00 and stop at 25/10/2015 03:55:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,44 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PokerItalia24) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024000000 +0200
-[  Debug ] starting with show : Aussie Millions at local time 24/10/2015 00:00
+[  Debug ] time-offset change for all shows after stoptime 20151025034000 +0100
+[  Debug ] starting with show : High Stakes Poker IV at local time 25/10/2015 03:40
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,38 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=TgCom24) site -- MEDIASET.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -3162,31 +3211,31 @@
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Euronews) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025030000 +0100
-[  Debug ] starting with show : Evening News at local time 25/10/2015 03:00
+[  Debug ] time-offset change for all shows after starttime 20151024000000 +0200
+[  Debug ] starting with show : Evening News at local time 24/10/2015 00:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,44 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky TG 24) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024000000 +0200
-[  Debug ] starting with show : Il TG di mezzanotte at local time 24/10/2015 00:00
+[  Debug ] time-offset change for all shows after stoptime 20151025030000 +0100
+[  Debug ] starting with show : TG24 Edicola at local time 25/10/2015 03:00
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 25/10/2015 03:00:00 and stop at 25/10/2015 03:30:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,40 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Meteo 24) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025040000 +0100
-[  Debug ] starting with show : Sky Meteo24 at local time 25/10/2015 04:00
+[  Debug ] time-offset change for all shows after starttime 20151024000000 +0200
+[  Debug ] starting with show : Sky Meteo24 at local time 24/10/2015 00:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,41 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Rai News 24) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024000000 +0200
-[  Debug ] starting with show : News Meteo Traffico at local time 24/10/2015 00:00
+[  Debug ] time-offset change for all shows after stoptime 20151025030000 +0100
+[  Debug ] starting with show : Italia, istruzioni per l'uso at local time 25/10/2015 03:00
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 25/10/2015 03:00:00 and stop at 25/10/2015 03:10:00
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
@@ -3196,672 +3245,676 @@
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 25/10/2015 03:30:00 and stop at 25/10/2015 03:40:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,43 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Discovery HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025032000 +0100
-[  Debug ] starting with show : Auto da rockstar at local time 25/10/2015 03:20
+[  Debug ] time-offset change for all shows after starttime 20151024001000 +0200
+[  Debug ] starting with show : Affari a tutti i costi at local time 24/10/2015 00:10
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,47 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY Discovery +1 HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024004000 +0200
-[  Debug ] starting with show : Affari a tutti i costi at local time 24/10/2015 00:40
+[  Debug ] time-offset change for all shows after stoptime 20151025032500 +0100
+[  Debug ] starting with show : Tesori tra i ghiacci at local time 25/10/2015 03:25
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,45 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky National Geographic HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025033000 +0100
-[  Debug ] starting with show : I maghi del garage at local time 25/10/2015 03:30
+[  Debug ] time-offset change for all shows after starttime 20151024004000 +0200
+[  Debug ] starting with show : Muoviti o muori at local time 24/10/2015 00:40
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 25/10/2015 03:30:00 and stop at 25/10/2015 03:55:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,43 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky National Geographic +1 HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024004500 +0200
-[  Debug ] starting with show : L'impero della droga at local time 24/10/2015 00:45
+[  Debug ] time-offset change for all shows after stoptime 20151025034000 +0100
+[  Debug ] starting with show : I meccanici del pianeta at local time 25/10/2015 03:40
+[  Warn  ] error downloading page: Error getting response stream (ReadDone2): ReceiveFailure
+[  Warn  ] pausing 1 of 4 times for 5 seconds before re-try.
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,55 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky NatGeo People HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025030000 +0100
-[  Debug ] starting with show : Cucine da sogno at local time 25/10/2015 03:00
+[  Debug ] time-offset change for all shows after starttime 20151024000000 +0200
+[  Debug ] starting with show : La mia vecchia nuova casa at local time 24/10/2015 00:00
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 25/10/2015 03:00:00 and stop at 25/10/2015 03:55:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,44 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Nat Geo Wild HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024003000 +0200
-[  Debug ] starting with show : Animal Top Secrets at local time 24/10/2015 00:30
+[  Debug ] time-offset change for all shows after stoptime 20151025034500 +0100
+[  Debug ] starting with show : Alaska estrema at local time 25/10/2015 03:45
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,43 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky History HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025031500 +0100
-[  Debug ] starting with show : Villa Romana fai da te at local time 25/10/2015 03:15
+[  Debug ] time-offset change for all shows after starttime 20151024002000 +0200
+[  Debug ] starting with show : Affari di famiglia at local time 24/10/2015 00:20
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,54 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky History +1) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024000000 +0200
-[  Debug ] starting with show : I segreti del successo - 1^TV at local time 24/10/2015 00:00
+[  Debug ] time-offset change for all shows after stoptime 20151025032000 +0100
+[  Debug ] starting with show : Villa Romana fai da te at local time 25/10/2015 03:20
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,46 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Discovery Science HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025030000 +0100
-[  Debug ] starting with show : Morgan Freeman Science Show at local time 25/10/2015 03:00
+[  Debug ] time-offset change for all shows after starttime 20151024005000 +0200
+[  Debug ] starting with show : Cose da non credere at local time 24/10/2015 00:50
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,40 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky CI Crime+Inv HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024004500 +0200
-[  Debug ] starting with show : The Wolfpack - Segregati in casa at local time 24/10/2015 00:45
+[  Debug ] time-offset change for all shows after stoptime 20151025032000 +0100
+[  Debug ] starting with show : Ho paura di mio figlio at local time 25/10/2015 03:20
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,40 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Discovery T&L) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025030000 +0100
-[  Debug ] starting with show : Chi cerca trova at local time 25/10/2015 03:00
+[  Debug ] time-offset change for all shows after starttime 20151024000000 +0200
+[  Debug ] starting with show : La mia nuova casa sull'albero at local time 24/10/2015 00:00
+[  Warn  ] error downloading page: Error getting response stream (ReadDone2): ReceiveFailure
+[  Warn  ] pausing 1 of 4 times for 5 seconds before re-try.
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,50 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Arte HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024001500 +0200
-[  Debug ] starting with show : Pink Floyd - A Technicolor Dream at local time 24/10/2015 00:15
+[  Debug ] time-offset change for all shows after stoptime 20151025033000 +0100
+[  Debug ] starting with show : Rolling Stones-Shine a Light at local time 25/10/2015 03:30
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,39 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=DMAX) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025030000 +0100
-[  Debug ] starting with show : American Chopper at local time 25/10/2015 03:00
+[  Debug ] time-offset change for all shows after starttime 20151024001500 +0200
+[  Debug ] starting with show : Video del tubo at local time 24/10/2015 00:15
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 25/10/2015 03:00:00 and stop at 25/10/2015 03:15:00
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 25/10/2015 03:15:00 and stop at 25/10/2015 03:30:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,49 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Explora HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024010500 +0200
-[  Debug ] starting with show : Qualcosa e' andato storto? at local time 24/10/2015 01:05
+[  Debug ] time-offset change for all shows after stoptime 20151025033000 +0100
+[  Debug ] starting with show : Rewind - La vera storia della Germania at local time 25/10/2015 03:30
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,36 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Pesca e Caccia) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025031500 +0100
-[  Debug ] starting with show : Walter e i segreti della traina at local time 25/10/2015 03:15
+[  Debug ] time-offset change for all shows after starttime 20151024000000 +0200
+[  Debug ] starting with show : Pesca con le esche naturali 2015 at local time 24/10/2015 00:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,44 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky PESCA e Caccia.) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024000000 +0200
-[  Debug ] starting with show : Full Action: A caccia dove ci porta il vento 6 at local time 24/10/2015 00:00
+[  Debug ] time-offset change for all shows after stoptime 20151025030000 +0100
+[  Debug ] starting with show : Enciclopedia della caccia in palude at local time 25/10/2015 03:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,47 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Sport 24 HD  -720p) site -- GUIDATV.SKY.IT -- mode incremental
-[  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025030000 +0100
-[  Debug ] starting with show : Night Line at local time 25/10/2015 03:00
-[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
-      unvalid start at 25/10/2015 03:00:00 and stop at 25/10/2015 03:30:00
-[  Debug ]    skipped 
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Sky Sport 24 HD  -1080i) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20151024000000 +0200
 [  Debug ] starting with show : Night Line at local time 24/10/2015 00:00
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 25/10/2015 03:00:00 and stop at 25/10/2015 03:30:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,35 sec/update
+[  Debug ] 
+[  Info  ] channel (xmltv_id=Sky Sport 24 HD  -1080i) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20151025030000 +0100
+[  Debug ] starting with show : Night Line at local time 25/10/2015 03:00
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 25/10/2015 03:00:00 and stop at 25/10/2015 03:30:00
+[  Debug ]    skipped 
+[  Info  ] 0,32 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Sport Plus HD  -720p) site -- GUIDATV.SKY.IT -- mode incremental
-[  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025031500 +0100
-[  Debug ] starting with show : Ingolstadt - H. Berlino at local time 25/10/2015 03:15
-[  Debug ]    skipped 
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Sky Sport Plus HD  -1080i) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20151024003000 +0200
 [  Debug ] starting with show : Lazio - Rosenborg at local time 24/10/2015 00:30
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,47 sec/update
+[  Debug ] 
+[  Info  ] channel (xmltv_id=Sky Sport Plus HD  -1080i) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20151025031500 +0100
+[  Debug ] starting with show : Ingolstadt - H. Berlino at local time 25/10/2015 03:15
+[  Debug ]    skipped 
+[  Info  ] 0,48 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Fox Sport HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025040000 +0100
-[  Debug ] starting with show : MLB: Kansas City - Toronto  (diretta) at local time 25/10/2015 04:00
+[  Debug ] time-offset change for all shows after starttime 20151024011000 +0200
+[  Debug ] starting with show : UFC Unleashed at local time 24/10/2015 01:10
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,43 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Sport 1 HD  -720p) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20151025041000 +0100
+[  Debug ] starting with show : Warm Up: GP Malesia  (diretta) at local time 25/10/2015 04:10
+[  Debug ]    skipped 
+[  Info  ] 0,33 sec/update
+[  Debug ] 
+[  Info  ] channel (xmltv_id=Sky Sport 1 HD  -1080i) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20151024000000 +0200
 [  Debug ] starting with show : I Signori del Calcio: Candela at local time 24/10/2015 00:00
 [  Debug ]    skipped 
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Sky Sport 1 HD  -1080i) site -- GUIDATV.SKY.IT -- mode incremental
-[  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025031500 +0100
-[  Debug ] starting with show : Warm Up: GP Malesia  (diretta) at local time 25/10/2015 03:15
-[  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,45 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Sport 2 HD  -720p) site -- GUIDATV.SKY.IT -- mode incremental
-[  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024001500 +0200
-[  Debug ] starting with show : Quarto Tempo Rugby World Cup 2015 at local time 24/10/2015 00:15
-[  Debug ]    skipped 
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Sky Sport 2 HD  -1080i) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20151025034500 +0100
 [  Debug ] starting with show : NCAA: UCLA - California at local time 25/10/2015 03:45
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,35 sec/update
+[  Debug ] 
+[  Info  ] channel (xmltv_id=Sky Sport 2 HD  -1080i) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20151024001500 +0200
+[  Debug ] starting with show : Quarto Tempo Rugby World Cup 2015 at local time 24/10/2015 00:15
+[  Debug ]    skipped 
+[  Info  ] 0,42 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Sport 3 HD  -720p) site -- GUIDATV.SKY.IT -- mode incremental
-[  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024010500 +0200
-[  Debug ] starting with show : Rugby: Irlanda - Argentina at local time 24/10/2015 01:05
-[  Debug ]    skipped 
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Sky Sport 3 HD  -1080i) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20151025030000 +0100
 [  Debug ] starting with show : Midtjylland - Napoli at local time 25/10/2015 03:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,40 sec/update
+[  Debug ] 
+[  Info  ] channel (xmltv_id=Sky Sport 3 HD  -1080i) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20151024010500 +0200
+[  Debug ] starting with show : Rugby: Irlanda - Argentina at local time 24/10/2015 01:05
+[  Debug ]    skipped 
+[  Info  ] 0,34 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Eurosport HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024004500 +0200
-[  Debug ] starting with show : Calcio: Croazia - Nigeria U17  (live) at local time 24/10/2015 00:45
+[  Debug ] time-offset change for all shows after stoptime 20151025030000 +0100
+[  Debug ] starting with show : Strongest Man: Giants Live at local time 25/10/2015 03:00
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 25/10/2015 03:00:00 and stop at 25/10/2015 03:45:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,37 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Eurosport 2 HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025030000 +0100
-[  Debug ] starting with show : Calcio: Germania - Messico U17 at local time 25/10/2015 03:00
+[  Debug ] time-offset change for all shows after starttime 20151024000000 +0200
+[  Debug ] starting with show : Calcio: Guinea - Brasile U17 at local time 24/10/2015 00:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,35 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sportitalia) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024000000 +0200
-[  Debug ] starting with show : IPED at local time 24/10/2015 00:00
+[  Debug ] time-offset change for all shows after stoptime 20151025062000 +0100
+[  Debug ] starting with show : Sportitalia News at local time 25/10/2015 06:20
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,35 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Formula 1 HD -720p) site -- GUIDATV.SKY.IT -- mode incremental
-[  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025035000 +0100
-[  Debug ] starting with show : F1 Qualifiche: GP Stati Uniti at local time 25/10/2015 03:50
-[  Debug ]    skipped 
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Sky Formula 1 HD  -1080i) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20151024000000 +0200
 [  Debug ] starting with show : Paddock Live Show  (diretta) at local time 24/10/2015 00:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,44 sec/update
+[  Debug ] 
+[  Info  ] channel (xmltv_id=Sky Formula 1 HD  -1080i) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20151025035000 +0100
+[  Debug ] starting with show : F1 Qualifiche: GP Stati Uniti at local time 25/10/2015 03:50
+[  Debug ]    skipped 
+[  Info  ] 0,58 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Moto GP HD -720p) site -- GUIDATV.SKY.IT -- mode incremental
-[  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025031500 +0100
-[  Debug ] starting with show : Warm Up: GP Malesia  (diretta) at local time 25/10/2015 03:15
-[  Debug ]    skipped 
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Sky Moto GP HD - 1080i) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20151024000500 +0200
 [  Debug ] starting with show : Paddock Live Show at local time 24/10/2015 00:05
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,40 sec/update
+[  Debug ] 
+[  Info  ] channel (xmltv_id=Sky Moto GP HD - 1080i) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20151025041000 +0100
+[  Debug ] starting with show : Warm Up: GP Malesia  (diretta) at local time 25/10/2015 04:10
+[  Debug ]    skipped 
+[  Info  ] 0,41 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Super Tennis HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025043000 +0100
-[  Debug ] starting with show : ATP 500 Vienna at local time 25/10/2015 04:30
+[  Debug ] time-offset change for all shows after starttime 20151024000000 +0200
+[  Debug ] starting with show : ATP 500 Vienna at local time 24/10/2015 00:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,29 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Supercalcio HD -720p) site -- GUIDATV.SKY.IT -- mode incremental
-[  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024000000 +0200
-[  Debug ] starting with show : Inter - Juventus at local time 24/10/2015 00:00
-[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
-      unvalid start at 25/10/2015 03:15:00 and stop at 25/10/2015 03:45:00
-[  Debug ]    skipped 
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Sky Supercalcio HD  -1080i) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20151025031500 +0100
 [  Debug ] starting with show : Goal Deejay at local time 25/10/2015 03:15
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 25/10/2015 03:15:00 and stop at 25/10/2015 03:45:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,37 sec/update
+[  Debug ] 
+[  Info  ] channel (xmltv_id=Sky Supercalcio HD  -1080i) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20151024000000 +0200
+[  Debug ] starting with show : Inter - Juventus at local time 24/10/2015 00:00
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 25/10/2015 03:15:00 and stop at 25/10/2015 03:45:00
+[  Debug ]    skipped 
+[  Info  ] 0,61 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Milan Channel) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024003000 +0200
-[  Debug ] starting with show : Milan News Sera at local time 24/10/2015 00:30
+[  Debug ] time-offset change for all shows after stoptime 20151025033000 +0100
+[  Debug ] starting with show : Milanello Live at local time 25/10/2015 03:30
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 25/10/2015 03:30:00 and stop at 25/10/2015 03:45:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,64 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Juve Channel) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025031200 +0100
-[  Debug ] starting with show : Press conference Allegri at local time 25/10/2015 03:12
+[  Debug ] time-offset change for all shows after starttime 20151024000000 +0200
+[  Debug ] starting with show : Youth League Juventus Monchengladbach at local time 24/10/2015 00:00
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 25/10/2015 03:12:00 and stop at 25/10/2015 03:26:00
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 25/10/2015 03:26:00 and stop at 25/10/2015 03:53:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,53 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Inter Channel) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024000000 +0200
-[  Debug ] starting with show : Inter News replica at local time 24/10/2015 00:00
+[  Debug ] time-offset change for all shows after stoptime 20151025031500 +0100
+[  Debug ] starting with show : Livematch Campionato Post at local time 25/10/2015 03:15
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 25/10/2015 03:15:00 and stop at 25/10/2015 03:45:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,47 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Roma Channel) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025030000 +0100
-[  Debug ] starting with show : Trigoria Night Show (replica) at local time 25/10/2015 03:00
+[  Debug ] time-offset change for all shows after starttime 20151024000000 +0200
+[  Debug ] starting with show : Into training at local time 24/10/2015 00:00
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 25/10/2015 03:00:00 and stop at 25/10/2015 03:15:00
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 25/10/2015 03:15:00 and stop at 25/10/2015 03:45:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,43 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Lazio Style Channel) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024000000 +0200
-[  Debug ] starting with show : Tg SS Lazio at local time 24/10/2015 00:00
+[  Debug ] time-offset change for all shows after stoptime 20151025040000 +0100
+[  Debug ] starting with show : UEL 2015/16 Lazio-Rosenborg at local time 25/10/2015 04:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,42 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=AutoMoto TV) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025030500 +0100
-[  Debug ] starting with show : Auto News - speciale Subaru at local time 25/10/2015 03:05
+[  Debug ] time-offset change for all shows after starttime 20151024001000 +0200
+[  Debug ] starting with show : Auto News - speciale Subaru at local time 24/10/2015 00:10
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 25/10/2015 03:05:00 and stop at 25/10/2015 03:30:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,51 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Bike Channel) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024000000 +0200
-[  Debug ] starting with show : Italian Cycling School at local time 24/10/2015 00:00
+[  Debug ] time-offset change for all shows after stoptime 20151025041500 +0100
+[  Debug ] starting with show : Lance Armstrong - la caduta di un mito at local time 25/10/2015 04:15
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,33 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky Calcio 1 HD  -720p) site -- GUIDATV.SKY.IT -- mode incremental
-[  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025060000 +0100
-[  Debug ] starting with show : Sampdoria - Verona 25/10 at local time 25/10/2015 06:00
-[  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Sky Calcio 2 HD  -720p) site -- GUIDATV.SKY.IT -- mode incremental
-[  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024060000 +0200
-[  Debug ] starting with show : Cagliari - Trapani 24/10 at local time 24/10/2015 06:00
-[  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Sky Calcio 3 HD  -720p) site -- GUIDATV.SKY.IT -- mode incremental
-[  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025060000 +0100
-[  Debug ] starting with show : Udinese - Frosinone 25/10 at local time 25/10/2015 06:00
-[  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Sky Calcio 4 HD -720p) site -- GUIDATV.SKY.IT -- mode incremental
-[  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024060000 +0200
-[  Debug ] starting with show : Livorno - Modena 24/10 at local time 24/10/2015 06:00
-[  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Sky Calcio 5 HD -720p) site -- GUIDATV.SKY.IT -- mode incremental
-[  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025060000 +0100
-[  Debug ] starting with show : Sky Calcio at local time 25/10/2015 06:00
-[  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Sky Calcio 6 HD -720p) site -- GUIDATV.SKY.IT -- mode incremental
-[  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024060000 +0200
-[  Debug ] starting with show : Ascoli - Crotone 24/10 at local time 24/10/2015 06:00
-[  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Sky Calcio 7 HD  -720p) site -- GUIDATV.SKY.IT -- mode incremental
-[  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025060000 +0100
-[  Debug ] starting with show : Lentigione - Parma 25/10 at local time 25/10/2015 06:00
-[  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Sky Calcio 8 HD  -720p) site -- GUIDATV.SKY.IT -- mode incremental
-[  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024060000 +0200
-[  Debug ] starting with show : Brescia - Lanciano 24/10 at local time 24/10/2015 06:00
-[  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Sky Calcio 9) site -- GUIDATV.SKY.IT -- mode incremental
-[  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025060000 +0100
-[  Debug ] starting with show : Sky Calcio at local time 25/10/2015 06:00
-[  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Sky Calcio 10) site -- GUIDATV.SKY.IT -- mode incremental
-[  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024060000 +0200
-[  Debug ] starting with show : Como - Latina 24/10 at local time 24/10/2015 06:00
-[  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Sky Calcio 11) site -- GUIDATV.SKY.IT -- mode incremental
-[  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025060000 +0100
-[  Debug ] starting with show : Sky Calcio at local time 25/10/2015 06:00
-[  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Sky Calcio 12) site -- GUIDATV.SKY.IT -- mode incremental
-[  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024060000 +0200
-[  Debug ] starting with show : Aspettando WWE - Hell In A Cell at local time 24/10/2015 06:00
-[  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Sky Calcio 13) site -- GUIDATV.SKY.IT -- mode incremental
-[  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025060000 +0100
-[  Debug ] starting with show : Sky Calcio at local time 25/10/2015 06:00
-[  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Sky Calcio 1 HD  -1080i) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20151024060000 +0200
 [  Debug ] starting with show : Empoli - Genoa 24/10 at local time 24/10/2015 06:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[  Info  ] 0,51 sec/update
 [  Debug ] 
-[  Info  ] channel (xmltv_id=Sky Calcio 2 HD -1080i) site -- GUIDATV.SKY.IT -- mode incremental
+[  Info  ] channel (xmltv_id=Sky Calcio 2 HD  -720p) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20151025060000 +0100
 [  Debug ] starting with show : Milan - Sassuolo 25/10 at local time 25/10/2015 06:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[  Info  ] 0,64 sec/update
 [  Debug ] 
-[  Info  ] channel (xmltv_id=Sky Calcio 3 HD -1080i) site -- GUIDATV.SKY.IT -- mode incremental
+[  Info  ] channel (xmltv_id=Sky Calcio 3 HD  -720p) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20151024060000 +0200
 [  Debug ] starting with show : Salernitana - Cesena 24/10 at local time 24/10/2015 06:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[  Info  ] 0,50 sec/update
 [  Debug ] 
-[  Info  ] channel (xmltv_id=Sky Calcio 4  HD -1080i) site -- GUIDATV.SKY.IT -- mode incremental
+[  Info  ] channel (xmltv_id=Sky Calcio 4 HD -720p) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20151025060000 +0100
 [  Debug ] starting with show : Sky Calcio at local time 25/10/2015 06:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[  Info  ] 0,59 sec/update
 [  Debug ] 
-[  Info  ] channel (xmltv_id=Sky Calcio 5  HD -1080i) site -- GUIDATV.SKY.IT -- mode incremental
+[  Info  ] channel (xmltv_id=Sky Calcio 5 HD -720p) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20151024060000 +0200
 [  Debug ] starting with show : Bari - Entella 24/10 at local time 24/10/2015 06:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[  Info  ] 0,57 sec/update
 [  Debug ] 
-[  Info  ] channel (xmltv_id=Sky Calcio 6 HD -1080i) site -- GUIDATV.SKY.IT -- mode incremental
+[  Info  ] channel (xmltv_id=Sky Calcio 6 HD -720p) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20151025060000 +0100
 [  Debug ] starting with show : Borussia D. - Augsburg 25/10 at local time 25/10/2015 06:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[  Info  ] 0,64 sec/update
 [  Debug ] 
-[  Info  ] channel (xmltv_id=Sky Calcio 7 HD -1080i) site -- GUIDATV.SKY.IT -- mode incremental
+[  Info  ] channel (xmltv_id=Sky Calcio 7 HD  -720p) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20151024060000 +0200
 [  Debug ] starting with show : Spezia - Avellino 24/10 at local time 24/10/2015 06:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[  Info  ] 0,53 sec/update
 [  Debug ] 
-[  Info  ] channel (xmltv_id=Sky Calcio 8 HD  -1080i) site -- GUIDATV.SKY.IT -- mode incremental
+[  Info  ] channel (xmltv_id=Sky Calcio 8 HD  -720p) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20151025060000 +0100
 [  Debug ] starting with show : Sky Calcio at local time 25/10/2015 06:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[  Info  ] 0,48 sec/update
+[  Debug ] 
+[  Info  ] channel (xmltv_id=Sky Calcio 9) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20151024060000 +0200
+[  Debug ] starting with show : Ternana - Perugia 24/10 at local time 24/10/2015 06:00
+[  Debug ]    skipped  : last show, no next startime to use as stop
+[  Info  ] 0,82 sec/update
+[  Debug ] 
+[  Info  ] channel (xmltv_id=Sky Calcio 10) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20151025060000 +0100
+[  Debug ] starting with show : Sky Calcio at local time 25/10/2015 06:00
+[  Debug ]    skipped  : last show, no next startime to use as stop
+[  Info  ] 0,69 sec/update
+[  Debug ] 
+[  Info  ] channel (xmltv_id=Sky Calcio 11) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20151024060000 +0200
+[  Debug ] starting with show : Diretta Gol Bundesliga 24/10 at local time 24/10/2015 06:00
+[  Debug ]    skipped  : last show, no next startime to use as stop
+[  Info  ] 0,96 sec/update
+[  Debug ] 
+[  Info  ] channel (xmltv_id=Sky Calcio 12) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20151025060000 +0100
+[  Debug ] starting with show : Aspettando WWE - Hell In A Cell at local time 25/10/2015 06:00
+[  Debug ]    skipped  : last show, no next startime to use as stop
+[  Info  ] 0,45 sec/update
+[  Debug ] 
+[  Info  ] channel (xmltv_id=Sky Calcio 13) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20151024060000 +0200
+[  Debug ] starting with show : Sky Calcio at local time 24/10/2015 06:00
+[  Debug ]    skipped  : last show, no next startime to use as stop
+[  Info  ] 0,55 sec/update
+[  Debug ] 
+[  Info  ] channel (xmltv_id=Sky Calcio 1 HD  -1080i) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20151025060000 +0100
+[  Debug ] starting with show : Sampdoria - Verona 25/10 at local time 25/10/2015 06:00
+[  Debug ]    skipped  : last show, no next startime to use as stop
+[  Info  ] 0,55 sec/update
+[  Debug ] 
+[  Info  ] channel (xmltv_id=Sky Calcio 2 HD -1080i) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20151024060000 +0200
+[  Debug ] starting with show : Cagliari - Trapani 24/10 at local time 24/10/2015 06:00
+[  Debug ]    skipped  : last show, no next startime to use as stop
+[  Info  ] 0,47 sec/update
+[  Debug ] 
+[  Info  ] channel (xmltv_id=Sky Calcio 3 HD -1080i) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20151025060000 +0100
+[  Debug ] starting with show : Udinese - Frosinone 25/10 at local time 25/10/2015 06:00
+[  Debug ]    skipped  : last show, no next startime to use as stop
+[  Info  ] 0,63 sec/update
+[  Debug ] 
+[  Info  ] channel (xmltv_id=Sky Calcio 4  HD -1080i) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20151024060000 +0200
+[  Debug ] starting with show : Livorno - Modena 24/10 at local time 24/10/2015 06:00
+[  Debug ]    skipped  : last show, no next startime to use as stop
+[  Info  ] 0,55 sec/update
+[  Debug ] 
+[  Info  ] channel (xmltv_id=Sky Calcio 5  HD -1080i) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20151025060000 +0100
+[  Debug ] starting with show : Sky Calcio at local time 25/10/2015 06:00
+[  Debug ]    skipped  : last show, no next startime to use as stop
+[  Info  ] 0,47 sec/update
+[  Debug ] 
+[  Info  ] channel (xmltv_id=Sky Calcio 6 HD -1080i) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20151024060000 +0200
+[  Debug ] starting with show : Ascoli - Crotone 24/10 at local time 24/10/2015 06:00
+[  Debug ]    skipped  : last show, no next startime to use as stop
+[  Info  ] 0,63 sec/update
+[  Debug ] 
+[  Info  ] channel (xmltv_id=Sky Calcio 7 HD -1080i) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20151025060000 +0100
+[  Debug ] starting with show : Lentigione - Parma 25/10 at local time 25/10/2015 06:00
+[  Debug ]    skipped  : last show, no next startime to use as stop
+[  Info  ] 0,47 sec/update
+[  Debug ] 
+[  Info  ] channel (xmltv_id=Sky Calcio 8 HD  -1080i) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20151024060000 +0200
+[  Debug ] starting with show : Brescia - Lanciano 24/10 at local time 24/10/2015 06:00
+[  Debug ]    skipped  : last show, no next startime to use as stop
+[  Info  ] 0,48 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Primafila 1 HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024013000 +0200
-[  Debug ] starting with show : Jurassic World at local time 24/10/2015 01:30
+[  Debug ] time-offset change for all shows after stoptime 20151025031000 +0100
+[  Debug ] starting with show : Fine programmazione at local time 25/10/2015 03:10
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,36 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Primafila 2) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025031000 +0100
-[  Debug ] starting with show : Fine programmazione at local time 25/10/2015 03:10
+[  Debug ] time-offset change for all shows after starttime 20151024010000 +0200
+[  Debug ] starting with show : Jurassic World at local time 24/10/2015 01:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,33 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Primafila 3 HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024003000 +0200
-[  Debug ] starting with show : Se Dio vuole at local time 24/10/2015 00:30
+[  Debug ] time-offset change for all shows after stoptime 20151025031000 +0100
+[  Debug ] starting with show : Fine programmazione at local time 25/10/2015 03:10
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,47 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Primafila 4) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025031000 +0100
-[  Debug ] starting with show : Fine programmazione at local time 25/10/2015 03:10
-[  Debug ]    skipped 
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Primafila 5 HD) site -- GUIDATV.SKY.IT -- mode incremental
-[  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024020000 +0200
-[  Debug ] starting with show : Tomorrowland - Il mondo di domani at local time 24/10/2015 02:00
-[  Debug ]    skipped 
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Primafila 6) site -- GUIDATV.SKY.IT -- mode incremental
-[  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025031000 +0100
-[  Debug ] starting with show : Fine programmazione at local time 25/10/2015 03:10
-[  Debug ]    skipped 
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Primafila 7 HD) site -- GUIDATV.SKY.IT -- mode incremental
-[  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024010000 +0200
-[  Debug ] starting with show : Chi e' senza colpa at local time 24/10/2015 01:00
-[  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Primafila 8) site -- GUIDATV.SKY.IT -- mode incremental
-[  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025031000 +0100
-[  Debug ] starting with show : Fine programmazione at local time 25/10/2015 03:10
-[  Debug ]    skipped 
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Primafila 9 HD) site -- GUIDATV.SKY.IT -- mode incremental
-[  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20151024000000 +0200
-[  Debug ] starting with show : Insidious 3 - L'inizio at local time 24/10/2015 00:00
-[  Debug ]    skipped 
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Primafila 10) site -- GUIDATV.SKY.IT -- mode incremental
-[  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025031000 +0100
-[  Debug ] starting with show : Fine programmazione at local time 25/10/2015 03:10
-[  Debug ]    skipped 
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Primafila 11 HD) site -- GUIDATV.SKY.IT -- mode incremental
-[  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024004500 +0200
-[  Debug ] starting with show : Film per Adulti  (premi 'i') at local time 24/10/2015 00:45
-[  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Primafila 12) site -- GUIDATV.SKY.IT -- mode incremental
-[  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025031000 +0100
-[  Debug ] starting with show : Fine programmazione at local time 25/10/2015 03:10
-[  Debug ]    skipped 
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Primafila 13 HD) site -- GUIDATV.SKY.IT -- mode incremental
-[  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024002000 +0200
-[  Debug ] starting with show : Film per Adulti  (premi 'i') at local time 24/10/2015 00:20
-[  Debug ]    skipped 
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Primafila 14) site -- GUIDATV.SKY.IT -- mode incremental
-[  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025031000 +0100
-[  Debug ] starting with show : Fine programmazione at local time 25/10/2015 03:10
-[  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Primafila 15) site -- GUIDATV.SKY.IT -- mode incremental
-[  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024003000 +0200
-[  Debug ] starting with show : Film per Adulti  (premi 'i') at local time 24/10/2015 00:30
-[  Debug ]    skipped 
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Primafila 16) site -- GUIDATV.SKY.IT -- mode incremental
-[  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025031000 +0100
-[  Debug ] starting with show : Fine programmazione at local time 25/10/2015 03:10
-[  Debug ]    skipped 
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Primafila 17) site -- GUIDATV.SKY.IT -- mode incremental
-[  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024024500 +0200
-[  Debug ] starting with show : Film per Adulti  (premi 'i') at local time 24/10/2015 02:45
-[  Debug ]    suspicious      title in index page  = La risposta e' nelle stelle
-[  Debug ]       differs from title in showdetails = La risposta è nelle stelle (The Longe.....
-[  Debug ]    suspicious      title in index page  = La risposta e' nelle stelle
-[  Debug ]       differs from title in showdetails = La risposta è nelle stelle (The Longe.....
-[  Debug ]    suspicious      title in index page  = La risposta e' nelle stelle
-[  Debug ]       differs from title in showdetails = La risposta è nelle stelle (The Longe.....
-[  Debug ]    suspicious      title in index page  = La risposta e' nelle stelle
-[  Debug ]       differs from title in showdetails = La risposta è nelle stelle (The Longe.....
-[  Debug ]    suspicious      title in index page  = La risposta e' nelle stelle
-[  Debug ]       differs from title in showdetails = La risposta è nelle stelle (The Longe.....
-[  Debug ]    suspicious      title in index page  = La risposta e' nelle stelle
-[  Debug ]       differs from title in showdetails = La risposta è nelle stelle (The Longe.....
-[  Debug ]    suspicious      title in index page  = La risposta e' nelle stelle
-[  Debug ]       differs from title in showdetails = La risposta è nelle stelle (The Longe.....
-[  Debug ]    suspicious      title in index page  = La risposta e' nelle stelle
-[  Debug ]       differs from title in showdetails = La risposta è nelle stelle (The Longe.....
-[  Debug ]    suspicious      title in index page  = La risposta e' nelle stelle
-[  Debug ]       differs from title in showdetails = La risposta è nelle stelle (The Longe.....
-[  Debug ]    suspicious      title in index page  = La risposta e' nelle stelle
-[  Debug ]       differs from title in showdetails = La risposta è nelle stelle (The Longe.....
-[  Debug ]    suspicious      title in index page  = La risposta e' nelle stelle
-[  Debug ]       differs from title in showdetails = La risposta è nelle stelle (The Longe.....
-[  Debug ]    suspicious      title in index page  = La risposta e' nelle stelle
-[  Debug ]       differs from title in showdetails = La risposta è nelle stelle (The Longe.....
-[  Debug ]    suspicious      title in index page  = La risposta e' nelle stelle
-[  Debug ]       differs from title in showdetails = La risposta è nelle stelle (The Longe.....
-[  Debug ]    suspicious      title in index page  = La risposta e' nelle stelle
-[  Debug ]       differs from title in showdetails = La risposta è nelle stelle (The Longe.....
-[  Debug ]    suspicious      title in index page  = La risposta e' nelle stelle
-[  Debug ]       differs from title in showdetails = La risposta è nelle stelle (The Longe.....
-[  Debug ]    suspicious      title in index page  = La risposta e' nelle stelle
-[  Debug ]       differs from title in showdetails = La risposta è nelle stelle (The Longe.....
-[  Debug ]    suspicious      title in index page  = La risposta e' nelle stelle
-[  Debug ]       differs from title in showdetails = La risposta è nelle stelle (The Longe.....
-[  Debug ]    suspicious      title in index page  = La risposta e' nelle stelle
-[  Debug ]       differs from title in showdetails = La risposta è nelle stelle (The Longe.....
-[  Debug ]    suspicious      title in index page  = La risposta e' nelle stelle
-[  Debug ]       differs from title in showdetails = La risposta è nelle stelle (The Longe.....
+[  Debug ] starting with show : Se Dio vuole at local time 24/10/2015 00:00
 [  Debug ]    skipped 
 [  Info  ] 0,42 sec/update
 [  Debug ] 
-[  Info  ] channel (xmltv_id=Primafila 18) site -- GUIDATV.SKY.IT -- mode incremental
+[  Info  ] channel (xmltv_id=Primafila 5 HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20151025031000 +0100
 [  Debug ] starting with show : Fine programmazione at local time 25/10/2015 03:10
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,40 sec/update
+[  Debug ] 
+[  Info  ] channel (xmltv_id=Primafila 6) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20151024000000 +0200
+[  Debug ] starting with show : Tomorrowland - Il mondo di domani at local time 24/10/2015 00:00
+[  Debug ]    skipped 
+[  Info  ] 0,37 sec/update
+[  Debug ] 
+[  Info  ] channel (xmltv_id=Primafila 7 HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20151025031000 +0100
+[  Debug ] starting with show : Fine programmazione at local time 25/10/2015 03:10
+[  Debug ]    skipped  : last show, no next startime to use as stop
+[  Info  ] 0,61 sec/update
+[  Debug ] 
+[  Info  ] channel (xmltv_id=Primafila 8) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20151024013000 +0200
+[  Debug ] starting with show : Chi e' senza colpa at local time 24/10/2015 01:30
+[  Debug ]    skipped 
+[  Info  ] 0,45 sec/update
+[  Debug ] 
+[  Info  ] channel (xmltv_id=Primafila 9 HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20151025031000 +0100
+[  Debug ] starting with show : Fine programmazione at local time 25/10/2015 03:10
+[  Debug ]    skipped 
+[  Info  ] 0,59 sec/update
+[  Debug ] 
+[  Info  ] channel (xmltv_id=Primafila 10) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20151024004500 +0200
+[  Debug ] starting with show : Film per Adulti  (premi 'i') at local time 24/10/2015 00:45
+[  Debug ]    skipped 
+[  Info  ] 0,34 sec/update
+[  Debug ] 
+[  Info  ] channel (xmltv_id=Primafila 11 HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20151025031000 +0100
+[  Debug ] starting with show : Fine programmazione at local time 25/10/2015 03:10
+[  Debug ]    skipped  : last show, no next startime to use as stop
+[  Info  ] 0,46 sec/update
+[  Debug ] 
+[  Info  ] channel (xmltv_id=Primafila 12) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20151024011000 +0200
+[  Debug ] starting with show : Film per Adulti  (premi 'i') at local time 24/10/2015 01:10
+[  Debug ]    skipped 
+[  Info  ] 0,43 sec/update
+[  Debug ] 
+[  Info  ] channel (xmltv_id=Primafila 13 HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20151025031000 +0100
+[  Debug ] starting with show : Fine programmazione at local time 25/10/2015 03:10
+[  Debug ]    skipped 
+[  Info  ] 0,33 sec/update
+[  Debug ] 
+[  Info  ] channel (xmltv_id=Primafila 14) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20151024014500 +0200
+[  Debug ] starting with show : Film per Adulti  (premi 'i') at local time 24/10/2015 01:45
+[  Debug ]    skipped  : last show, no next startime to use as stop
+[  Info  ] 0,34 sec/update
+[  Debug ] 
+[  Info  ] channel (xmltv_id=Primafila 15) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20151025031000 +0100
+[  Debug ] starting with show : Fine programmazione at local time 25/10/2015 03:10
+[  Debug ]    skipped 
+[  Info  ] 0,34 sec/update
+[  Debug ] 
+[  Info  ] channel (xmltv_id=Primafila 16) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20151024004500 +0200
+[  Debug ] starting with show : Film per Adulti  (premi 'i') at local time 24/10/2015 00:45
+[  Debug ]    skipped 
+[  Info  ] 0,35 sec/update
+[  Debug ] 
+[  Info  ] channel (xmltv_id=Primafila 17) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ]    suspicious      title in index page  = La risposta e' nelle stelle
+[  Debug ]       differs from title in showdetails = La risposta è nelle stelle (The Longe.....
+[  Debug ]    suspicious      title in index page  = La risposta e' nelle stelle
+[  Debug ]       differs from title in showdetails = La risposta è nelle stelle (The Longe.....
+[  Debug ]    suspicious      title in index page  = La risposta e' nelle stelle
+[  Debug ]       differs from title in showdetails = La risposta è nelle stelle (The Longe.....
+[  Debug ]    suspicious      title in index page  = La risposta e' nelle stelle
+[  Debug ]       differs from title in showdetails = La risposta è nelle stelle (The Longe.....
+[  Debug ]    suspicious      title in index page  = La risposta e' nelle stelle
+[  Debug ]       differs from title in showdetails = La risposta è nelle stelle (The Longe.....
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20151025031000 +0100
+[  Debug ] starting with show : Fine programmazione at local time 25/10/2015 03:10
+[  Debug ]    suspicious      title in index page  = La risposta e' nelle stelle
+[  Debug ]       differs from title in showdetails = La risposta è nelle stelle (The Longe.....
+[  Debug ]    suspicious      title in index page  = La risposta e' nelle stelle
+[  Debug ]       differs from title in showdetails = La risposta è nelle stelle (The Longe.....
+[  Debug ]    suspicious      title in index page  = La risposta e' nelle stelle
+[  Debug ]       differs from title in showdetails = La risposta è nelle stelle (The Longe.....
+[  Debug ]    suspicious      title in index page  = La risposta e' nelle stelle
+[  Debug ]       differs from title in showdetails = La risposta è nelle stelle (The Longe.....
+[  Debug ]    suspicious      title in index page  = La risposta e' nelle stelle
+[  Debug ]       differs from title in showdetails = La risposta è nelle stelle (The Longe.....
+[  Debug ]    suspicious      title in index page  = La risposta e' nelle stelle
+[  Debug ]       differs from title in showdetails = La risposta è nelle stelle (The Longe.....
+[  Debug ]    suspicious      title in index page  = La risposta e' nelle stelle
+[  Debug ]       differs from title in showdetails = La risposta è nelle stelle (The Longe.....
+[  Debug ]    suspicious      title in index page  = La risposta e' nelle stelle
+[  Debug ]       differs from title in showdetails = La risposta è nelle stelle (The Longe.....
+[  Debug ]    suspicious      title in index page  = La risposta e' nelle stelle
+[  Debug ]       differs from title in showdetails = La risposta è nelle stelle (The Longe.....
+[  Debug ]    suspicious      title in index page  = La risposta e' nelle stelle
+[  Debug ]       differs from title in showdetails = La risposta è nelle stelle (The Longe.....
+[  Debug ]    suspicious      title in index page  = La risposta e' nelle stelle
+[  Debug ]       differs from title in showdetails = La risposta è nelle stelle (The Longe.....
+[  Debug ]    suspicious      title in index page  = La risposta e' nelle stelle
+[  Debug ]       differs from title in showdetails = La risposta è nelle stelle (The Longe.....
+[  Debug ]    suspicious      title in index page  = La risposta e' nelle stelle
+[  Debug ]       differs from title in showdetails = La risposta è nelle stelle (The Longe.....
+[  Debug ]    suspicious      title in index page  = La risposta e' nelle stelle
+[  Debug ]       differs from title in showdetails = La risposta è nelle stelle (The Longe.....
+[  Debug ]    skipped 
+[  Info  ] 0,50 sec/update
+[  Debug ] 
+[  Info  ] channel (xmltv_id=Primafila 18) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20151024012500 +0200
+[  Debug ] starting with show : Film per Adulti  (premi 'i') at local time 24/10/2015 01:25
+[  Debug ]    skipped 
+[  Info  ] 0,48 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Primafila 19) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151024005000 +0200
-[  Debug ] starting with show : Film per Adulti  (premi 'i') at local time 24/10/2015 00:50
+[  Debug ] time-offset change for all shows after stoptime 20151025031000 +0100
+[  Debug ] starting with show : Fine programmazione at local time 25/10/2015 03:10
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,49 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Radio Italia) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025050000 +0100
-[  Debug ] starting with show : La notte con Radio Italia at local time 25/10/2015 05:00
+[  Debug ] time-offset change for all shows after starttime 20151024000000 +0200
+[  Debug ] starting with show : La classifica italiana at local time 24/10/2015 00:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0,30 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sky-DE  Sport 1 HD) site -- TVTODAY.DE -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -3870,10 +3923,10 @@
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
-[  Debug ] 17435 shows in 202 channels
-[  Debug ] 430 updated shows
-[  Debug ] 442 new shows added
+[  Debug ] 17621 shows in 203 channels
+[  Debug ] 7563 updated shows
+[  Debug ] 223 new shows added
 [  Info  ] 
 [  Info  ] 
-[  Info  ] job finished at 24/10/2015 19:30:16 done in 1118 seconds
+[  Info  ] job finished at 24/10/2015 21:55:23 done in 4163 seconds
 [  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
