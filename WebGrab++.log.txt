@@ -1,6 +1,6 @@
 ﻿[  Debug ] WebGrab+Plus/w MDB & REX Postprocess -- version 1.1.1/55.27 -- Jan van Straaten 
 [  Debug ] --------------------------------------------------------------------------------
-[  Debug ] job started at 10/12/2015 08:01:03
+[  Debug ] job started at 10/12/2015 16:01:03
 [  Debug ] 
 [  Debug ] reading config file: /home/stefano/git/epg/WebGrab++.config.xml
 [  Debug ] loading timezone data
@@ -38,7 +38,7 @@
 [  Debug ] 
 [  Info  ] channel (xmltv_id=RETE 4 HD) site -- MEDIASET.IT -- mode incremental
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.56 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=CANALE 5 HD) site -- MEDIASET.IT -- mode incremental
 [  Debug ]    skipped 
@@ -46,19 +46,19 @@
 [  Debug ] 
 [  Info  ] channel (xmltv_id=ITALIA 1 HD) site -- MEDIASET.IT -- mode incremental
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.36 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=RSI LA1 HD) site -- HORIZON.TV.CH -- mode incremental
 [  Debug ]    skipped 
-[  Info  ] 0.17 sec/update
+[  Info  ] 0.19 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=RSI LA2 HD) site -- HORIZON.TV.CH -- mode incremental
 [  Debug ]    skipped 
-[  Info  ] 0.24 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=LA 5) site -- MEDIASET.IT -- mode incremental
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.54 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=LA 7) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
@@ -80,17 +80,17 @@
 [  Debug ]    suspicious      title in index page  = Exodus - Dei e re
 [  Debug ]       differs from title in showdetails = Exodus. Gods and Kings
 [  Debug ]    skipped 
-[  Info  ] 0.96 sec/update
+[  Info  ] 1.00 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY CINEMA +1 HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    suspicious      title in index page  = Exodus - Dei e re
 [  Debug ]       differs from title in showdetails = Exodus. Gods and Kings
 [  Debug ]    skipped 
-[  Info  ] 1.51 sec/update
+[  Info  ] 1.03 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY CINEMA +24 HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.77 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY CINEMA CHRISTMAS HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
@@ -118,7 +118,7 @@
 [  Debug ]    suspicious      title in index page  = Pompei
 [  Debug ]       differs from title in showdetails = Pompeii
 [  Debug ]    skipped 
-[  Info  ] 0.92 sec/update
+[  Info  ] 0.87 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY CINEMA MAX +1 HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    suspicious      title in index page  = Pompei
@@ -126,7 +126,7 @@
 [  Debug ]    suspicious      title in index page  = Pompei
 [  Debug ]       differs from title in showdetails = Pompeii
 [  Debug ]    skipped 
-[  Info  ] 0.85 sec/update
+[  Info  ] 0.90 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY CINEMA CULT HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    suspicious      title in index page  = The Butler - Un maggiordomo alla Casa Bianca
@@ -136,7 +136,7 @@
 [  Debug ]    suspicious      title in index page  = American Hustle - L'apparenza inganna
 [  Debug ]       differs from title in showdetails = American Hustle
 [  Debug ]    skipped 
-[  Info  ] 0.88 sec/update
+[  Info  ] 0.89 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY CINEMA CLASSICS HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
@@ -144,7 +144,7 @@
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY COMEDY CENTRAL) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
-[  Info  ] 1.00 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY TG 24) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
@@ -156,7 +156,7 @@
 [  Debug ]    suspicious      title in index page  = Exodus - Dei e re
 [  Debug ]       differs from title in showdetails = Exodus. Gods and Kings
 [  Debug ]    skipped 
-[  Info  ] 0.86 sec/update
+[  Info  ] 0.94 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY UNO HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
@@ -172,19 +172,21 @@
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY ATLANTIC HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
-[  Info  ] 1.02 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY ATLANTIC HD +1) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
-[  Info  ] 0.96 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=FOX HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Warn  ] error downloading page: Error getting response stream (ReadDone2): ReceiveFailure
+[  Warn  ] pausing 1 of 4 times for 5 seconds before re-try.
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 1.22 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=FOX +1) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 1.07 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=FOX LIFE HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
@@ -196,19 +198,19 @@
 [  Debug ] 
 [  Info  ] channel (xmltv_id=FOX CRIME HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 1.05 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=FOX CRIME +1 HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 1.04 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=FOX COMEDY HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 1.04 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=FOX ANIMATION HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 1.03 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=LEI) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
@@ -216,11 +218,11 @@
 [  Debug ] 
 [  Info  ] channel (xmltv_id=CI CRIME + INV  HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 1.01 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=POKER ITALIA 24) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 1.00 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY AXN HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
@@ -249,7 +251,7 @@
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SUPER TENNIS HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 1.04 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=EUROSPORT 1HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
@@ -257,7 +259,7 @@
 [  Debug ] 
 [  Info  ] channel (xmltv_id=EUROSPORT 2HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
-[  Info  ] 1.08 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY SPORT 24 HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
@@ -281,7 +283,7 @@
 [  Debug ] 
 [  Info  ] channel (xmltv_id=FOX Sport HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
-[  Info  ] 0.95 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY SUPERCALCIO HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
@@ -345,7 +347,7 @@
 [  Debug ] 
 [  Info  ] channel (xmltv_id=INTER CHANNEL) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.99 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=ROMA CHANNEL) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
@@ -377,19 +379,19 @@
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY EXPLORA HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 1.07 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=NATGEO WILD HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
-[  Info  ] 1.11 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=NATIONAL GEO  HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
-[  Info  ] 1.07 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=NATIONALGEO +1) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
-[  Info  ] 1.06 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=NATIONAL GEO POPLE HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
@@ -401,7 +403,7 @@
 [  Debug ] 
 [  Info  ] channel (xmltv_id=HISTORY +1 HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
-[  Info  ] 1.14 sec/update
+[  Info  ] 1.16 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY FOCUS) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
@@ -409,7 +411,7 @@
 [  Debug ] 
 [  Info  ] channel (xmltv_id=DMAX) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 1.10 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=REAL TIME HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
@@ -433,7 +435,7 @@
 [  Debug ] 
 [  Info  ] channel (xmltv_id=GAMBERO ROSSO HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 1.10 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=CARTOON NETWORK) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
@@ -461,15 +463,17 @@
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY NICKELODEON) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 1.19 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY BOOMERANG) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY DEA JUNIOR) site -- GUIDATV.SKY.IT -- mode incremental
+[  Warn  ] error downloading page: Error getting response stream (ReadDone2): ReceiveFailure
+[  Warn  ] pausing 1 of 4 times for 5 seconds before re-try.
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 1.27 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY DEAKIDS) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
@@ -486,7 +490,7 @@
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SUPER) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 1.21 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=MAN-GA) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
@@ -498,7 +502,7 @@
 [  Debug ] 
 [  Info  ] channel (xmltv_id=K2) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 1.24 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=MTV) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
@@ -520,7 +524,7 @@
 [  Info  ]       show with ---- start = 10/12/2015 13:20:00 stop = 10/12/2015 13:54:00 title = PREMIUM CINEMA SHOW - DE SICA-ABATANTUONO (29/03) - RED CARPET
 [  Info  ]       Replaces ----- start = 10/12/2015 13:20:00 stop = 10/12/2015 13:54:00 title = PREMIUM CINEMA SHOW - DE SICA-ABATANTUONO (29/03) - RED CARPET
 [  Debug ]    skipped 
-[  Info  ] 0.48 sec/update
+[  Info  ] 0.49 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM CINEMA 2 HD) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    skipped 
@@ -555,50 +559,8 @@
 [  Info  ] 0.47 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM COMEDY) site -- MEDIASETPREMIUM.IT -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 12/12/2015 06:03:00 stop = 12/12/2015 06:29:00 title = UN CHIEN DE MA CHIENNE - 
-[  Info  ]       Replaces ----- start = 12/12/2015 06:03:00 stop = 12/12/2015 06:15:00 title = UN CHIEN DE MA CHIENNE - 
-[  Info  ]       Replaces ----- start = 12/12/2015 06:15:00 stop = 12/12/2015 06:32:00 title = DELICACY - 
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 12/12/2015 06:29:00 stop = 12/12/2015 08:28:00 title = OCCHIO MALOCCHIO PREZZEMOLO E FINOCCHIO  
-[  Info  ]       Replaces ----- start = 12/12/2015 06:15:00 stop = 12/12/2015 06:32:00 title = DELICACY - 
-[  Info  ]       Replaces ----- start = 12/12/2015 06:32:00 stop = 12/12/2015 08:28:00 title = OCCHIO MALOCCHIO PREZZEMOLO E FINOCCHIO  
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 12/12/2015 11:36:00 stop = 12/12/2015 13:02:00 title = Superhero - Il Più Dotato Fra I Supereroi
-[  Info  ]       Replaces ----- start = 12/12/2015 11:36:00 stop = 12/12/2015 13:08:00 title = Superhero - Il Più Dotato Fra I Supereroi
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 12/12/2015 13:02:00 stop = 12/12/2015 14:44:00 title = La Peggior Settimana Della Mia Vita
-[  Info  ]       Replaces ----- start = 12/12/2015 11:36:00 stop = 12/12/2015 13:08:00 title = Superhero - Il Più Dotato Fra I Supereroi
-[  Info  ]       Replaces ----- start = 12/12/2015 13:08:00 stop = 12/12/2015 14:47:00 title = La Peggior Settimana Della Mia Vita
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 12/12/2015 14:44:00 stop = 12/12/2015 16:26:00 title = La Matassa
-[  Info  ]       Replaces ----- start = 12/12/2015 13:08:00 stop = 12/12/2015 14:47:00 title = La Peggior Settimana Della Mia Vita
-[  Info  ]       Replaces ----- start = 12/12/2015 14:47:00 stop = 12/12/2015 16:26:00 title = La Matassa
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 12/12/2015 16:26:00 stop = 12/12/2015 18:14:00 title = Se Sei Così Ti Dico Sì
-[  Info  ]       Replaces ----- start = 12/12/2015 16:26:00 stop = 12/12/2015 18:17:00 title = Se Sei Così Ti Dico Sì
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 12/12/2015 18:14:00 stop = 12/12/2015 20:15:00 title = Tutti Pazzi Per L'Oro
-[  Info  ]       Replaces ----- start = 12/12/2015 16:26:00 stop = 12/12/2015 18:17:00 title = Se Sei Così Ti Dico Sì
-[  Info  ]       Replaces ----- start = 12/12/2015 18:17:00 stop = 12/12/2015 20:15:00 title = Tutti Pazzi Per L'Oro
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 12/12/2015 20:15:00 stop = 12/12/2015 22:10:00 title = Mi Fido Di Te
-[  Info  ]       Replaces ----- start = 12/12/2015 20:15:00 stop = 12/12/2015 22:17:00 title = Mi Fido Di Te
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 12/12/2015 22:10:00 stop = 13/12/2015 00:06:00 title = Olè
-[  Info  ]       Replaces ----- start = 12/12/2015 20:15:00 stop = 12/12/2015 22:17:00 title = Mi Fido Di Te
-[  Info  ]       Replaces ----- start = 12/12/2015 22:17:00 stop = 13/12/2015 00:09:00 title = Olè
 [  Debug ]    skipped 
-[  Info  ] 0.70 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM STUDIO UNIVERSAL) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    suspicious      title in index page  = INSIDE ACTORS STUDIO - AMY ADAMS
@@ -668,7 +630,7 @@
 [  Info  ]       show with ---- start = 12/12/2015 19:30:00 stop = 12/12/2015 19:40:00 title = ORIGINAL TRAILER (?)
 [  Info  ]       Replaces ----- start = 12/12/2015 19:30:00 stop = 12/12/2015 19:40:00 title = ORIGINAL TRAILER (?)
 [  Debug ]    skipped 
-[  Info  ] 0.49 sec/update
+[  Info  ] 0.50 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM ACTION HD) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    suspicious      title in index page  = THE MUSKETEERS II
@@ -924,7 +886,7 @@
 [  Info  ]       show with ---- start = 12/12/2015 19:24:00 stop = 12/12/2015 20:15:00 title = PER IL BENE ALTRUI - ARROW II
 [  Info  ]       Replaces ----- start = 12/12/2015 19:24:00 stop = 12/12/2015 20:15:00 title = PER IL BENE ALTRUI - ARROW II
 [  Debug ]    skipped 
-[  Info  ] 0.56 sec/update
+[  Info  ] 0.59 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM ACTION +24) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    suspicious      title in index page  = THE MUSKETEERS II
@@ -1186,7 +1148,7 @@
 [  Info  ]       show with ---- start = 12/12/2015 23:41:00 stop = 13/12/2015 00:32:00 title = CUORI SOLITARI - GRIMM I
 [  Info  ]       Replaces ----- start = 12/12/2015 23:41:00 stop = 13/12/2015 00:32:00 title = CUORI SOLITARI - GRIMM I
 [  Debug ]    skipped 
-[  Info  ] 0.56 sec/update
+[  Info  ] 0.58 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM CRIME HD) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    suspicious      title in index page  = RIZZOLI & ISLES IV
@@ -1388,7 +1350,7 @@
 [  Info  ]       show with ---- start = 12/12/2015 23:43:00 stop = 13/12/2015 00:33:00 title = ADE E PERSEFONE - 100 CODE
 [  Info  ]       Replaces ----- start = 12/12/2015 23:43:00 stop = 13/12/2015 00:33:00 title = ADE E PERSEFONE - 100 CODE
 [  Debug ]    skipped 
-[  Info  ] 0.57 sec/update
+[  Info  ] 0.59 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM CRIME +24) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    suspicious      title in index page  = RIZZOLI & ISLES IV
@@ -1596,7 +1558,7 @@
 [  Info  ]       show with ---- start = 12/12/2015 22:45:00 stop = 12/12/2015 23:37:00 title = SEGRETI E BUGIE - STALKER I
 [  Info  ]       Replaces ----- start = 12/12/2015 22:45:00 stop = 12/12/2015 23:37:00 title = SEGRETI E BUGIE - STALKER I
 [  Debug ]    skipped 
-[  Info  ] 0.60 sec/update
+[  Info  ] 0.55 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM JOY) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    suspicious      title in index page  = FRIENDS VI
@@ -1980,13 +1942,13 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 12/12/2015 09:46:00 stop = 12/12/2015 10:12:00 title = IL GEMELLO DI BRAD - BABY DADDY III
-[  Info  ]       Replaces ----- start = 12/12/2015 09:46:00 stop = 12/12/2015 10:12:00 title = IL GEMELLO DI BRAD - BABY DADDY III - PRIMA TV
+[  Info  ]       Replaces ----- start = 12/12/2015 09:46:00 stop = 12/12/2015 10:12:00 title = IL GEMELLO DI BRAD - BABY DADDY III
 [  Debug ]    suspicious      title in index page  = BABY DADDY III
 [  Debug ]       differs from title in showdetails = STORIE D'AMORE AL TELEFO.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 12/12/2015 10:12:00 stop = 12/12/2015 10:43:00 title = STORIE D'AMORE AL TELEFONO - BABY DADDY III
-[  Info  ]       Replaces ----- start = 12/12/2015 10:12:00 stop = 12/12/2015 10:43:00 title = STORIE D'AMORE AL TELEFONO - BABY DADDY III - PRIMA TV
+[  Info  ]       Replaces ----- start = 12/12/2015 10:12:00 stop = 12/12/2015 10:43:00 title = STORIE D'AMORE AL TELEFONO - BABY DADDY III
 [  Debug ]    suspicious      title in index page  = HART OF DIXIE II
 [  Debug ]       differs from title in showdetails = INFRANGERE LE REGOLE - HAR.....
 [  Info  ]    epg correction : 
@@ -2074,7 +2036,7 @@
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM TOP CRIME) site -- MEDIASET.IT -- mode incremental
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.68 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM STORIES) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    suspicious      title in index page  = ROYAL PAINS III
@@ -2324,7 +2286,7 @@
 [  Info  ]       show with ---- start = 12/12/2015 23:43:00 stop = 13/12/2015 00:34:00 title = VERSO LA VERITA' - SATISFACTION (NEW) I
 [  Info  ]       Replaces ----- start = 12/12/2015 23:43:00 stop = 13/12/2015 00:34:00 title = VERSO LA VERITA' - SATISFACTION (NEW) I
 [  Debug ]    skipped 
-[  Info  ] 0.58 sec/update
+[  Info  ] 0.60 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM BBC) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    skipped 
@@ -2388,29 +2350,16 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 10/12/2015 15:53:00 stop = 10/12/2015 16:00:00 title = CUORE BIANCONERO 6/12 - CUORE TIFOSO  
 [  Info  ]       Replaces ----- start = 10/12/2015 15:53:00 stop = 10/12/2015 16:00:00 title = CUORE BIANCONERO 6/12 - CUORE TIFOSO  
-[  Debug ]    suspicious      title in index page  = MASTER OF EUROPEAN FOOTBALL
-[  Debug ]       differs from title in showdetails = EPISODIO 5 - 15/10 - MASTER OF EUROPE.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 10/12/2015 19:30:00 stop = 10/12/2015 20:00:00 title = EPISODIO 5 - 15/10 - MASTER OF EUROPEAN FOOTBALL
-[  Info  ]       Replaces ----- start = 10/12/2015 19:30:00 stop = 10/12/2015 20:00:00 title = EPISODIO 1 -  10/12 - SOS FAMILY BUSINESS 
 [  Debug ]    suspicious      title in index page  = PASSIONE CALCIO - PRANDELLI
 [  Debug ]       differs from title in showdetails = PRANDELLI - PASSIONE CALCIO
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 10/12/2015 22:00:00 stop = 10/12/2015 22:30:00 title = PRANDELLI - PASSIONE CALCIO
 [  Info  ]       Replaces ----- start = 10/12/2015 22:00:00 stop = 10/12/2015 22:30:00 title = PRANDELLI - PASSIONE CALCIO
-[  Debug ]    suspicious      title in index page  = PREMIUM CHAMPIONS LEAGUE
-[  Debug ]       differs from title in showdetails = EPISODIO 6 - GIOVEDI 10/12 - PREMI.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 10/12/2015 23:30:00 stop = 11/12/2015 00:53:00 title = EPISODIO 6 - GIOVEDI 10/12 - PREMIUM CHAMPIONS LEAGUE 
-[  Info  ]       Replaces ----- start = 10/12/2015 23:30:00 stop = 11/12/2015 00:51:00 title = EPISODIO 6 - GIOVEDI 10/12 - PREMIUM CHAMPIONS LEAGUE 
-[  Info  ]       Replaces ----- start = 11/12/2015 00:51:00 stop = 11/12/2015 01:19:00 title = NFL GAMEDAY - 9/12 - NFL GAMEDAY
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 11/12/2015 00:53:00 stop = 11/12/2015 01:19:00 title = NFL GAMEDAY - 9/12 - NFL GAMEDAY
-[  Info  ]       Replaces ----- start = 11/12/2015 00:51:00 stop = 11/12/2015 01:19:00 title = NFL GAMEDAY - 9/12 - NFL GAMEDAY
+[  Info  ]       Replaces ----- start = 11/12/2015 00:53:00 stop = 11/12/2015 01:19:00 title = NFL GAMEDAY - 9/12 - NFL GAMEDAY
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 11/12/2015 04:52:00 stop = 11/12/2015 05:00:00 title = CUORE ROSSONERO 6/12 - CUORE TIFOSO  
@@ -2458,7 +2407,7 @@
 [  Info  ]       show with ---- start = 12/12/2015 19:00:00 stop = 12/12/2015 23:00:00 title = UDINESE - INTER - CAMPIONATO DI CALCIO SERIE A 2015/16 (INTER)
 [  Info  ]       Replaces ----- start = 12/12/2015 19:00:00 stop = 12/12/2015 23:00:00 title = UDINESE - INTER - CAMPIONATO DI CALCIO SERIE A 2015/16 (INTER)
 [  Debug ]    skipped 
-[  Info  ] 0.58 sec/update
+[  Info  ] 0.68 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM CALCIO) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Info  ]    epg correction : 
@@ -2470,11 +2419,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 10/12/2015 19:23:00 stop = 10/12/2015 19:29:00 title = EPISODIO 7 - FILLER - CHE CALCIO DICI
-[  Info  ]       Replaces ----- start = 10/12/2015 19:23:00 stop = 10/12/2015 19:59:00 title = HIGHLIGHTS MARTEDI 8/12 - HIGHLIGHTS CHAMPIONS LEAGUE 25M 
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 10/12/2015 19:29:00 stop = 10/12/2015 19:59:00 title = SOS FAMILY BUSINESS  - SOS FAMILY BUSINESS 
-[  Info  ]       Replaces ----- start = 10/12/2015 19:23:00 stop = 10/12/2015 19:59:00 title = HIGHLIGHTS MARTEDI 8/12 - HIGHLIGHTS CHAMPIONS LEAGUE 25M 
+[  Info  ]       Replaces ----- start = 10/12/2015 19:23:00 stop = 10/12/2015 19:29:00 title = EPISODIO 7 - FILLER - CHE CALCIO DICI
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 10/12/2015 23:05:00 stop = 10/12/2015 23:31:00 title = FUSER - L' ALTRA PARTITA -
@@ -2540,12 +2485,12 @@
 [  Info  ]       show with ---- start = 12/12/2015 21:52:00 stop = 12/12/2015 23:45:00 title = UDINESE - INTER - CAMPIONATO DI CALCIO SERIE A 2015/16 (INTER)
 [  Info  ]       Replaces ----- start = 12/12/2015 21:52:00 stop = 12/12/2015 23:45:00 title = UDINESE - INTER - CAMPIONATO DI CALCIO SERIE A 2015/16 (INTER)
 [  Debug ]    skipped 
-[  Info  ] 0.54 sec/update
+[  Info  ] 0.55 sec/update
 [  Debug ] 
-[  Debug ] 12900 shows in 138 channels
-[  Debug ] 588 updated shows
-[  Debug ] 12 new shows added
+[  Debug ] 12922 shows in 138 channels
+[  Debug ] 1013 updated shows
+[  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[  Info  ] job finished at 10/12/2015 08:39:12 done in 2289 seconds
+[  Info  ] job finished at 10/12/2015 16:47:25 done in 2781 seconds
 [  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
