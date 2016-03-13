@@ -1,6 +1,6 @@
 ﻿[  Debug ] WebGrab+Plus/w MDB & REX Postprocess -- version 1.1.1/55.27 -- Jan van Straaten 
 [  Debug ] --------------------------------------------------------------------------------
-[  Debug ] job started at 13/03/2016 08:01:03
+[  Debug ] job started at 13/03/2016 16:01:04
 [  Debug ] 
 [  Debug ] reading config file: /home/stefano/git/epg/WebGrab++.config.xml
 [  Debug ] loading timezone data
@@ -14,7 +14,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+01:00	(no DST in effect)
 [  Debug ] 	next DST dates  :	27/03/2016 02:00 (local)
 [  Debug ] 	                :	30/10/2016 03:00 (local)
-[  Debug ] 	local time now  :	13/03/2016 08:01:05
+[  Debug ] 	local time now  :	13/03/2016 16:01:07
 [  Debug ] found: /home/stefano/git/epg/video.gazzetta.it.ini -- Revision 0
 [  Debug ] 
 [  Debug ] running  on: Unix 3.14.32.6
@@ -55,11 +55,11 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=RSI LA1 HD) site -- HORIZON.TV.CH -- mode incremental
-[  Info  ] 0.16 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=RSI LA2 HD) site -- HORIZON.TV.CH -- mode incremental
 [  Debug ]    skipped 
-[  Info  ] 0.17 sec/update
+[  Info  ] 0.30 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=LA 5) site -- MEDIASET.IT -- mode incremental
 [  Error ] error downloading page: Invalid URI: The hostname could not be parsed. (5sec)
@@ -72,8 +72,6 @@
 [  Error ] retry 4 of 4 times
 [  Debug ]    skipped show without a title at 14/03/2016 06:00:00
 [  Debug ]    skipped show without a title at 14/03/2016 06:00:00
-[  Debug ] multiple entry of a show at 20160315060000 +0100
-[  Debug ] multiple entry of a show at 20160315060000 +0100
 [  Error ] error downloading page: Invalid URI: The hostname could not be parsed. (5sec)
 [  Error ] retry 1 of 4 times
 [  Error ] error downloading page: Invalid URI: The hostname could not be parsed. (10sec)
@@ -84,7 +82,7 @@
 [  Error ] retry 4 of 4 times
 [  Debug ]    skipped show without a title at 14/03/2016 06:00:00
 [  Debug ]    skipped show without a title at 14/03/2016 06:00:00
-[  Info  ] 0.53 sec/update
+[  Info  ] 0.59 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=LA 7) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
@@ -113,13 +111,13 @@
 [  Debug ]    suspicious      title in index page  = Exodus - Dei e re
 [  Debug ]       differs from title in showdetails = Exodus. Gods and Kings
 [  Debug ]    skipped 
-[  Info  ] 0.91 sec/update
+[  Info  ] 1.27 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY CINEMA HITS HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    suspicious      title in index page  = Pompei
 [  Debug ]       differs from title in showdetails = Pompeii
 [  Debug ]    skipped 
-[  Info  ] 0.89 sec/update
+[  Info  ] 1.31 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY CINEMA FAMILY HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
@@ -525,24 +523,8 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM CINEMA 2 HD) site -- MEDIASETPREMIUM.IT -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 15/03/2016 17:43:00 stop = 15/03/2016 19:34:00 title = UN' ARIDA STAGIONE BIANCA - 
-[  Info  ]       Replaces ----- start = 15/03/2016 17:43:00 stop = 16/03/2016 01:20:00 title = UN' ARIDA STAGIONE BIANCA - 
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 15/03/2016 19:34:00 stop = 15/03/2016 21:15:00 title = IL TIFOSO, L'ARBITRO E IL CALCIATORE - 
-[  Info  ]       Replaces ----- start = 15/03/2016 17:43:00 stop = 16/03/2016 01:20:00 title = UN' ARIDA STAGIONE BIANCA - 
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 15/03/2016 21:15:00 stop = 15/03/2016 23:18:00 title = I Tre Giorni Del Condor
-[  Info  ]       Replaces ----- start = 15/03/2016 17:43:00 stop = 16/03/2016 01:20:00 title = UN' ARIDA STAGIONE BIANCA - 
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 15/03/2016 23:18:00 stop = 16/03/2016 01:20:00 title = LO SQUALO 2
-[  Info  ]       Replaces ----- start = 15/03/2016 17:43:00 stop = 16/03/2016 01:20:00 title = UN' ARIDA STAGIONE BIANCA - 
 [  Debug ]    skipped 
-[  Info  ] 0.65 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM CINEMA 2 +24) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    skipped 
@@ -562,7 +544,7 @@
 [  Info  ]       show with ---- start = 15/03/2016 18:08:00 stop = 15/03/2016 19:35:00 title = FINAL DESTINATION 4
 [  Info  ]       Replaces ----- start = 15/03/2016 18:08:00 stop = 15/03/2016 19:35:00 title = FINAL DESTINATION 4
 [  Debug ]    skipped 
-[  Info  ] 0.47 sec/update
+[  Info  ] 0.75 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM EMOTION) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    suspicious      title in index page  = FULL EMOTION
@@ -582,7 +564,7 @@
 [  Info  ]       show with ---- start = 15/03/2016 06:30:00 stop = 15/03/2016 06:39:00 title = FULL EMOTION NEL NOME DEL PADRE - FULL EMOTION
 [  Info  ]       Replaces ----- start = 15/03/2016 06:30:00 stop = 15/03/2016 06:39:00 title = FULL EMOTION NEL NOME DEL PADRE - FULL EMOTION
 [  Debug ]    skipped 
-[  Info  ] 0.46 sec/update
+[  Info  ] 0.78 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM COMEDY) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    suspicious      title in index page  = A CENA CON...
@@ -592,7 +574,7 @@
 [  Info  ]       show with ---- start = 15/03/2016 04:15:00 stop = 15/03/2016 04:43:00 title =  PIERLUIGI FAVINO - INVITO A CENA CON...
 [  Info  ]       Replaces ----- start = 15/03/2016 04:15:00 stop = 15/03/2016 04:43:00 title =  PIERLUIGI FAVINO - INVITO A CENA CON...
 [  Debug ]    skipped 
-[  Info  ] 0.47 sec/update
+[  Info  ] 0.87 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM STUDIO UNIVERSAL) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    suspicious      title in index page  = CINECHAT - DAVID LYNCH
@@ -680,7 +662,7 @@
 [  Info  ]       show with ---- start = 15/03/2016 20:40:00 stop = 15/03/2016 21:15:00 title = MERYL STREEP - CLOSE UP
 [  Info  ]       Replaces ----- start = 15/03/2016 20:40:00 stop = 15/03/2016 21:15:00 title = MERYL STREEP - CLOSE UP
 [  Debug ]    skipped 
-[  Info  ] 0.55 sec/update
+[  Info  ] 0.88 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM ACTION HD) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    suspicious      title in index page  = ALCATRAZ I
@@ -906,14 +888,9 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 15/03/2016 18:46:00 stop = 15/03/2016 23:45:00 title = COMBATTI O MUORI - GRIMM I
-[  Info  ]       Replaces ----- start = 15/03/2016 18:46:00 stop = 15/03/2016 19:35:00 title = COMBATTI O MUORI - GRIMM I
-[  Info  ]       Replaces ----- start = 15/03/2016 19:35:00 stop = 15/03/2016 20:24:00 title = IN UN'ALTRA VITA - AMERICAN ODYSSEY
-[  Info  ]       Replaces ----- start = 15/03/2016 20:24:00 stop = 15/03/2016 21:15:00 title = RITORNO AL MONDO REALE - AMERICAN ODYSSEY
-[  Info  ]       Replaces ----- start = 15/03/2016 21:15:00 stop = 15/03/2016 22:04:00 title = SORELLE - CHICAGO FIRE III
-[  Info  ]       Replaces ----- start = 15/03/2016 22:04:00 stop = 15/03/2016 22:54:00 title = PARADISO - CHICAGO FIRE III
-[  Info  ]       Replaces ----- start = 15/03/2016 22:54:00 stop = 15/03/2016 23:45:00 title = GOTHAM II, 5 - GOTHAM II
+[  Info  ]       Replaces ----- start = 15/03/2016 18:46:00 stop = 15/03/2016 23:45:00 title = COMBATTI O MUORI - GRIMM I
 [  Debug ]    skipped 
-[  Info  ] 0.56 sec/update
+[  Info  ] 0.82 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM ACTION +24) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    suspicious      title in index page  = CONSTANTINE I
@@ -1141,7 +1118,7 @@
 [  Info  ]       show with ---- start = 15/03/2016 18:47:00 stop = 15/03/2016 19:34:00 title = SEDUZIONE AL VELENO - GRIMM I
 [  Info  ]       Replaces ----- start = 15/03/2016 18:47:00 stop = 15/03/2016 19:34:00 title = SEDUZIONE AL VELENO - GRIMM I
 [  Debug ]    skipped 
-[  Info  ] 0.56 sec/update
+[  Info  ] 0.88 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM CRIME HD) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    suspicious      title in index page  = THE CLOSER V
@@ -1155,7 +1132,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 13/03/2016 14:06:00 stop = 13/03/2016 14:53:00 title = CONSEGUENZE INATTESE - CHICAGO P.D. III
-[  Info  ]       Replaces ----- start = 13/03/2016 14:06:00 stop = 13/03/2016 14:53:00 title = CHICAGO PD III, 5 - CHICAGO P.D. III - PRIMA TV
+[  Info  ]       Replaces ----- start = 13/03/2016 14:06:00 stop = 13/03/2016 14:53:00 title = CONSEGUENZE INATTESE - CHICAGO P.D. III
 [  Debug ]    suspicious      title in index page  = SPECIAL VICTIMS UNIT XIV
 [  Debug ]       differs from title in showdetails = LA TRAPPOLA - LAW & ORDER: UNITA' .....
 [  Info  ]    epg correction : 
@@ -1234,12 +1211,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 14/03/2016 21:15:00 stop = 14/03/2016 22:06:00 title = EFFETTI PERSONALI - MAJOR CRIMES IV - PRIMA TV
 [  Info  ]       Replaces ----- start = 14/03/2016 21:15:00 stop = 14/03/2016 22:06:00 title = EFFETTI PERSONALI - MAJOR CRIMES IV - PRIMA TV
-[  Debug ]    suspicious      title in index page  = RIZZOLI & ISLES VI
-[  Debug ]       differs from title in showdetails = RIZZOLI & ISLES VI, 6 - RIZZ.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 14/03/2016 22:06:00 stop = 14/03/2016 23:02:00 title = RIZZOLI & ISLES VI, 6 - RIZZOLI & ISLES VI
-[  Info  ]       Replaces ----- start = 14/03/2016 22:06:00 stop = 14/03/2016 23:02:00 title = L' ASSASSINO SENZA VOLTO - RIZZOLI & ISLES VI
 [  Debug ]    suspicious      title in index page  = SPECIAL VICTIMS UNIT XIV
 [  Debug ]       differs from title in showdetails = LA TRAPPOLA - LAW & ORDER: UNITA' .....
 [  Info  ]    epg correction : 
@@ -1264,12 +1235,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 15/03/2016 02:46:00 stop = 15/03/2016 03:38:00 title = EFFETTI PERSONALI - MAJOR CRIMES IV - PRIMA TV
 [  Info  ]       Replaces ----- start = 15/03/2016 02:46:00 stop = 15/03/2016 03:38:00 title = EFFETTI PERSONALI - MAJOR CRIMES IV - PRIMA TV
-[  Debug ]    suspicious      title in index page  = RIZZOLI & ISLES VI
-[  Debug ]       differs from title in showdetails = RIZZOLI & ISLES VI, 6 - RIZZ.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 15/03/2016 03:38:00 stop = 15/03/2016 04:24:00 title = RIZZOLI & ISLES VI, 6 - RIZZOLI & ISLES VI
-[  Info  ]       Replaces ----- start = 15/03/2016 03:38:00 stop = 15/03/2016 04:24:00 title = L' ASSASSINO SENZA VOLTO - RIZZOLI & ISLES VI
 [  Debug ]    suspicious      title in index page  = SPECIAL VICTIMS UNIT XIV
 [  Debug ]       differs from title in showdetails = LA TRAPPOLA - LAW & ORDER: UNITA' .....
 [  Info  ]    epg correction : 
@@ -1313,7 +1278,7 @@
 [  Info  ]       show with ---- start = 15/03/2016 23:53:00 stop = 16/03/2016 00:45:00 title = ALTO RISCHIO - IRONSIDE I (NEW)
 [  Info  ]       Replaces ----- start = 15/03/2016 23:53:00 stop = 16/03/2016 00:45:00 title = ALTO RISCHIO - IRONSIDE I (NEW)
 [  Debug ]    skipped 
-[  Info  ] 0.59 sec/update
+[  Info  ] 0.88 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM CRIME +24) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Info  ]    epg correction : 
@@ -1332,12 +1297,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 13/03/2016 15:44:00 stop = 13/03/2016 16:37:00 title = L' ULTIMA MORTE DI HENRY MORGAN - FOREVER I
 [  Info  ]       Replaces ----- start = 13/03/2016 15:44:00 stop = 13/03/2016 16:37:00 title = L' ULTIMA MORTE DI HENRY MORGAN - FOREVER I
-[  Debug ]    suspicious      title in index page  = RIZZOLI & ISLES VI
-[  Debug ]       differs from title in showdetails = RIZZOLI & ISLES VI, 6 - RIZZ.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 13/03/2016 17:30:00 stop = 13/03/2016 18:23:00 title = RIZZOLI & ISLES VI, 6 - RIZZOLI & ISLES VI
-[  Info  ]       Replaces ----- start = 13/03/2016 17:30:00 stop = 13/03/2016 18:23:00 title = L' ASSASSINO SENZA VOLTO - RIZZOLI & ISLES VI
 [  Debug ]    suspicious      title in index page  = DEXTER II
 [  Debug ]       differs from title in showdetails = IL VENDICATORE OSCU.....
 [  Info  ]    epg correction : 
@@ -1413,7 +1372,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 14/03/2016 14:06:00 stop = 14/03/2016 14:53:00 title = CONSEGUENZE INATTESE - CHICAGO P.D. III
-[  Info  ]       Replaces ----- start = 14/03/2016 14:06:00 stop = 14/03/2016 14:53:00 title = CHICAGO PD III, 5 - CHICAGO P.D. III - PRIMA TV
+[  Info  ]       Replaces ----- start = 14/03/2016 14:06:00 stop = 14/03/2016 14:53:00 title = CONSEGUENZE INATTESE - CHICAGO P.D. III
 [  Debug ]    suspicious      title in index page  = SPECIAL VICTIMS UNIT XIV
 [  Debug ]       differs from title in showdetails = LA TRAPPOLA - LAW & ORDER: UNITA' .....
 [  Info  ]    epg correction : 
@@ -1492,12 +1451,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 15/03/2016 21:15:00 stop = 15/03/2016 22:06:00 title = EFFETTI PERSONALI - MAJOR CRIMES IV - PRIMA TV
 [  Info  ]       Replaces ----- start = 15/03/2016 21:15:00 stop = 15/03/2016 22:06:00 title = EFFETTI PERSONALI - MAJOR CRIMES IV - PRIMA TV
-[  Debug ]    suspicious      title in index page  = RIZZOLI & ISLES VI
-[  Debug ]       differs from title in showdetails = RIZZOLI & ISLES VI, 6 - RIZZ.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 15/03/2016 22:06:00 stop = 15/03/2016 23:02:00 title = RIZZOLI & ISLES VI, 6 - RIZZOLI & ISLES VI
-[  Info  ]       Replaces ----- start = 15/03/2016 22:06:00 stop = 15/03/2016 23:02:00 title = L' ASSASSINO SENZA VOLTO - RIZZOLI & ISLES VI
 [  Debug ]    suspicious      title in index page  = SPECIAL VICTIMS UNIT XIV
 [  Debug ]       differs from title in showdetails = LA TRAPPOLA - LAW & ORDER: UNITA' .....
 [  Info  ]    epg correction : 
@@ -1511,7 +1464,7 @@
 [  Info  ]       show with ---- start = 15/03/2016 23:54:00 stop = 16/03/2016 00:47:00 title = VITE PARALLELE - LAW & ORDER: UNITA' SPECIALE XIV
 [  Info  ]       Replaces ----- start = 15/03/2016 23:54:00 stop = 16/03/2016 00:47:00 title = VITE PARALLELE - LAW & ORDER: UNITA' SPECIALE XIV
 [  Debug ]    skipped 
-[  Info  ] 0.58 sec/update
+[  Info  ] 0.91 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM JOY) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    suspicious      title in index page  = FRIENDS IX
@@ -2117,7 +2070,7 @@
 [  Info  ]       show with ---- start = 15/03/2016 23:51:00 stop = 16/03/2016 00:15:00 title = COCKTAIL E PUNTURE DI VESPE - MIKE & MOLLY V
 [  Info  ]       Replaces ----- start = 15/03/2016 23:51:00 stop = 16/03/2016 00:15:00 title = COCKTAIL E PUNTURE DI VESPE - MIKE & MOLLY V
 [  Debug ]    skipped 
-[  Info  ] 0.59 sec/update
+[  Info  ] 0.91 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM MYA) site -- MEDIASET.IT -- mode incremental
 [  Debug ]    skipped 
@@ -2128,10 +2081,6 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM STORIES) site -- MEDIASETPREMIUM.IT -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 13/03/2016 15:27:00 stop = 13/03/2016 16:15:00 title = IL BUG - MR. ROBOT
-[  Info  ]       Replaces ----- start = 13/03/2016 15:27:00 stop = 13/03/2016 16:15:00 title = IL BUG - MR. ROBOT - PRIMA TV
 [  Debug ]    suspicious      title in index page  = ONE TREE HILL IV
 [  Debug ]       differs from title in showdetails = CUORI CHE SI APRONO E CUOR.....
 [  Info  ]    epg correction : 
@@ -2297,7 +2246,7 @@
 [  Info  ]       show with ---- start = 15/03/2016 23:59:00 stop = 16/03/2016 00:51:00 title = VERSO LA CONFESSIONE - SATISFACTION (NEW) I
 [  Info  ]       Replaces ----- start = 15/03/2016 23:59:00 stop = 16/03/2016 00:51:00 title = VERSO LA CONFESSIONE - SATISFACTION (NEW) I
 [  Debug ]    skipped 
-[  Info  ] 0.63 sec/update
+[  Info  ] 0.90 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM BBC) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Error ] no index page data received from PREMIUM BBC
@@ -2495,7 +2444,7 @@
 [  Info  ]       show with ---- start = 15/03/2016 11:30:00 stop = 15/03/2016 13:00:00 title = EPISODIO 22 - LUNEDI 14/03 - PREMIUM MONDAY
 [  Info  ]       Replaces ----- start = 15/03/2016 11:30:00 stop = 15/03/2016 13:00:00 title = EPISODIO 22 - LUNEDI 14/03 - PREMIUM MONDAY
 [  Debug ]    skipped 
-[  Info  ] 0.61 sec/update
+[  Info  ] 0.95 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM CALCIO) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    suspicious      title in index page  = LIGUE 1 2015/16
@@ -2595,12 +2544,12 @@
 [  Info  ]       show with ---- start = 15/03/2016 20:30:00 stop = 15/03/2016 20:35:00 title = EPISODIO 16 - FILLER - CHE CALCIO DICI
 [  Info  ]       Replaces ----- start = 15/03/2016 20:30:00 stop = 15/03/2016 20:35:00 title = EPISODIO 16 - FILLER - CHE CALCIO DICI
 [  Debug ]    skipped 
-[  Info  ] 0.62 sec/update
+[  Info  ] 0.94 sec/update
 [  Debug ] 
 [  Debug ] 12577 shows in 138 channels
-[  Debug ] 355 updated shows
-[  Debug ] 2 new shows added
+[  Debug ] 346 updated shows
+[  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[  Info  ] job finished at 13/03/2016 08:28:08 done in 1625 seconds
+[  Info  ] job finished at 13/03/2016 16:40:48 done in 2384 seconds
 [  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
