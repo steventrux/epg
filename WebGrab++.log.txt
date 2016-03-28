@@ -1,6 +1,6 @@
 ﻿[  Debug ] WebGrab+Plus/w MDB & REX Postprocess -- version 1.1.1/55.27 -- Jan van Straaten 
 [  Debug ] --------------------------------------------------------------------------------
-[  Debug ] job started at 28/03/2016 08:01:04
+[  Debug ] job started at 28/03/2016 16:01:04
 [  Debug ] 
 [  Debug ] reading config file: /home/stefano/git/epg/WebGrab++.config.xml
 [  Debug ] loading timezone data
@@ -14,7 +14,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+02:00	(DST in effect)
 [  Debug ] 	next DST dates  :	30/10/2016 03:00 (local)
 [  Debug ] 	                :	26/03/2017 02:00 (local)
-[  Debug ] 	local time now  :	28/03/2016 08:01:07
+[  Debug ] 	local time now  :	28/03/2016 16:01:08
 [  Debug ] found: /home/stefano/git/epg/video.gazzetta.it.ini -- Revision 0
 [  Debug ] 
 [  Debug ] running  on: Unix 3.14.32.6
@@ -22,7 +22,6 @@
 [  Debug ] mono version: 2.10.8.1 (Debian 2.10.8.1-1ubuntu2.3)
 [  Debug ] xmltv input file - /home/stefano/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
-[  Debug ] removed a show that is not in time increasing order in PREMIUM JOY starting after 28/03/2016 02:28:00
 [  Info  ] 
 [  Info  ] update requested for - 138 - out of - 138 - channels for 3 day(s)
 [  Info  ] update mode - set per individual channel
@@ -56,11 +55,12 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=RSI LA1 HD) site -- HORIZON.TV.CH -- mode incremental
-[  Info  ] 0.27 sec/update
+[  Debug ]    skipped 
+[  Info  ] 0.28 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=RSI LA2 HD) site -- HORIZON.TV.CH -- mode incremental
 [  Debug ]    skipped 
-[  Info  ] 0.28 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=LA 5) site -- MEDIASET.IT -- mode incremental
 [  Debug ]   skipped show starting before the actual show at03/01/0001 00:00
@@ -74,8 +74,6 @@
 [  Error ] error downloading page: Invalid URI: The hostname could not be parsed. (20sec)
 [  Error ] retry 4 of 4 times
 [  Debug ]    skipped show without a title at 28/03/2016 06:00:00
-[  Debug ] multiple entry of a show at 20160330060000 +0200
-[  Debug ] multiple entry of a show at 20160330060000 +0200
 [  Error ] error downloading page: Invalid URI: The hostname could not be parsed. (5sec)
 [  Error ] retry 1 of 4 times
 [  Error ] error downloading page: Invalid URI: The hostname could not be parsed. (10sec)
@@ -86,7 +84,7 @@
 [  Error ] retry 4 of 4 times
 [  Debug ]    skipped show without a title at 29/03/2016 06:00:00
 [  Debug ]    skipped show without a title at 29/03/2016 06:00:00
-[  Info  ] 0.77 sec/update
+[  Info  ] 0.41 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=LA 7) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
@@ -115,7 +113,7 @@
 [  Debug ]    suspicious      title in index page  = Guardiani della Galassia
 [  Debug ]       differs from title in showdetails = Guardians of the Galaxy
 [  Debug ]    skipped 
-[  Info  ] 1.48 sec/update
+[  Info  ] 1.42 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY CINEMA HITS HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
@@ -143,7 +141,7 @@
 [  Debug ]    suspicious      title in index page  = Pride and Glory - Il prezzo dell'onore
 [  Debug ]       differs from title in showdetails = Il prezzo dell'onore (Pride and Glory)
 [  Debug ]    skipped 
-[  Info  ] 1.67 sec/update
+[  Info  ] 1.32 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY CINEMA MAX +1 HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    suspicious      title in index page  = Pride and Glory - Il prezzo dell'onore
@@ -151,7 +149,7 @@
 [  Debug ]    suspicious      title in index page  = Pride and Glory - Il prezzo dell'onore
 [  Debug ]       differs from title in showdetails = Il prezzo dell'onore (Pride and Glory)
 [  Debug ]    skipped 
-[  Info  ] 1.60 sec/update
+[  Info  ] 1.29 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY CINEMA CULT HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
@@ -281,7 +279,7 @@
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY SPORT 1 HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
-[  Info  ] 1.57 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY SPORT 2 HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
@@ -289,11 +287,11 @@
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY SPORT 3 HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
-[  Info  ] 1.57 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY SPORT PLUS HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
-[  Info  ] 1.55 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=FOX Sport HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    skipped 
@@ -532,7 +530,7 @@
 [  Info  ]       show with ---- start = 29/03/2016 18:16:00 stop = 29/03/2016 18:33:00 title = EXTRA - TUTTA COLPA DELLA MUSICA - RED CARPET
 [  Info  ]       Replaces ----- start = 29/03/2016 18:16:00 stop = 29/03/2016 18:33:00 title = EXTRA - TUTTA COLPA DELLA MUSICA - RED CARPET
 [  Debug ]    skipped 
-[  Info  ] 0.76 sec/update
+[  Info  ] 0.78 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM CINEMA +24) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    suspicious      title in index page  = RED CARPET
@@ -542,7 +540,7 @@
 [  Info  ]       show with ---- start = 30/03/2016 18:16:00 stop = 30/03/2016 18:33:00 title = EXTRA - TUTTA COLPA DELLA MUSICA - RED CARPET
 [  Info  ]       Replaces ----- start = 30/03/2016 18:16:00 stop = 30/03/2016 18:33:00 title = EXTRA - TUTTA COLPA DELLA MUSICA - RED CARPET
 [  Debug ]    skipped 
-[  Info  ] 0.72 sec/update
+[  Info  ] 0.82 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM CINEMA 2 HD) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    skipped 
@@ -558,7 +556,7 @@
 [  Info  ]       show with ---- start = 29/03/2016 01:54:00 stop = 29/03/2016 03:37:00 title = Tower Heist - Colpo Ad Alto Livello
 [  Info  ]       Replaces ----- start = 29/03/2016 01:54:00 stop = 29/03/2016 03:37:00 title = Tower Heist - Colpo Ad Alto Livello
 [  Debug ]    skipped 
-[  Info  ] 0.94 sec/update
+[  Info  ] 0.78 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM ENERGY) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    suspicious      title in index page  = PALADIN: DAWN OF THE DRAGON SLAYER
@@ -580,7 +578,7 @@
 [  Info  ]       show with ---- start = 29/03/2016 03:53:00 stop = 29/03/2016 05:30:00 title = DRAGON HUNTER - IL CACCIATORE DI DRAGHI
 [  Info  ]       Replaces ----- start = 29/03/2016 03:53:00 stop = 29/03/2016 05:30:00 title = DRAGON HUNTER - IL CACCIATORE DI DRAGHI
 [  Debug ]    skipped 
-[  Info  ] 0.79 sec/update
+[  Info  ] 0.77 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM EMOTION) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Info  ]    epg correction : 
@@ -592,7 +590,7 @@
 [  Info  ]       show with ---- start = 29/03/2016 05:30:00 stop = 29/03/2016 05:39:00 title = FULL EMOTION LA MIGLIORE OFFERTA - FULL EMOTION
 [  Info  ]       Replaces ----- start = 29/03/2016 05:30:00 stop = 29/03/2016 05:39:00 title = FULL EMOTION LA MIGLIORE OFFERTA - FULL EMOTION
 [  Debug ]    skipped 
-[  Info  ] 1.00 sec/update
+[  Info  ] 0.83 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM COMEDY) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    suspicious      title in index page  = A CENA CON...
@@ -620,7 +618,7 @@
 [  Info  ]       show with ---- start = 30/03/2016 16:37:00 stop = 30/03/2016 18:16:00 title = La Formula Della Felicità
 [  Info  ]       Replaces ----- start = 30/03/2016 16:37:00 stop = 30/03/2016 18:16:00 title = La Formula Della Felicità
 [  Debug ]    skipped 
-[  Info  ] 0.81 sec/update
+[  Info  ] 0.78 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM STUDIO UNIVERSAL) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    suspicious      title in index page  = CINECHAT - MERYL STREEP
@@ -708,7 +706,7 @@
 [  Info  ]       show with ---- start = 30/03/2016 19:40:00 stop = 30/03/2016 20:15:00 title = BRYAN SINGER - HOLLYWOOD'S BEST FILM DIRECTORS
 [  Info  ]       Replaces ----- start = 30/03/2016 19:40:00 stop = 30/03/2016 20:15:00 title = BRYAN SINGER - HOLLYWOOD'S BEST FILM DIRECTORS
 [  Debug ]    skipped 
-[  Info  ] 0.88 sec/update
+[  Info  ] 0.84 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM ACTION HD) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    suspicious      title in index page  = NIKITA III
@@ -970,7 +968,7 @@
 [  Info  ]       show with ---- start = 30/03/2016 23:40:00 stop = 31/03/2016 00:30:00 title = NON POTREI MAI AMARE IN QUEL MODO - THE VAMPIRE DIARIES VI
 [  Info  ]       Replaces ----- start = 30/03/2016 23:40:00 stop = 31/03/2016 00:30:00 title = NON POTREI MAI AMARE IN QUEL MODO - THE VAMPIRE DIARIES VI
 [  Debug ]    skipped 
-[  Info  ] 0.92 sec/update
+[  Info  ] 0.89 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM ACTION +24) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    suspicious      title in index page  = THE MUSKETEERS II
@@ -1220,7 +1218,7 @@
 [  Info  ]       show with ---- start = 30/03/2016 21:04:00 stop = 30/03/2016 21:53:00 title = INCONDIZIONATAMENTE - CHICAGO FIRE III
 [  Info  ]       Replaces ----- start = 30/03/2016 21:04:00 stop = 30/03/2016 21:53:00 title = INCONDIZIONATAMENTE - CHICAGO FIRE III
 [  Debug ]    skipped 
-[  Info  ] 0.95 sec/update
+[  Info  ] 0.94 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM CRIME HD) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    suspicious      title in index page  = THE CLOSER VII
@@ -1434,7 +1432,7 @@
 [  Info  ]       show with ---- start = 30/03/2016 21:06:00 stop = 30/03/2016 21:58:00 title = INFERNO SU DUE RUOTE - IRONSIDE I (NEW)
 [  Info  ]       Replaces ----- start = 30/03/2016 21:06:00 stop = 30/03/2016 21:58:00 title = INFERNO SU DUE RUOTE - IRONSIDE I (NEW)
 [  Debug ]    skipped 
-[  Info  ] 0.97 sec/update
+[  Info  ] 0.90 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM CRIME +24) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    suspicious      title in index page  = THE CLOSER VI
@@ -1443,18 +1441,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 28/03/2016 09:49:00 stop = 28/03/2016 10:39:00 title = RICHIESTA D'AIUTO - THE CLOSER VI
 [  Info  ]       Replaces ----- start = 28/03/2016 09:49:00 stop = 28/03/2016 10:39:00 title = RICHIESTA D'AIUTO - THE CLOSER VI
-[  Debug ]    suspicious      title in index page  = CHICAGO P.D. III
-[  Debug ]       differs from title in showdetails = CHICAGO PD III, 6 - CHICAG.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 28/03/2016 12:20:00 stop = 28/03/2016 13:10:00 title = CHICAGO PD III, 6 - CHICAGO P.D. III
-[  Info  ]       Replaces ----- start = 28/03/2016 12:20:00 stop = 28/03/2016 13:10:00 title = MISSIONI IMMAGINARIE - CHICAGO P.D. III
-[  Debug ]    suspicious      title in index page  = CHICAGO P.D. III
-[  Debug ]       differs from title in showdetails = CHICAGO PD III, 7 - CHICAG.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 28/03/2016 13:10:00 stop = 28/03/2016 13:56:00 title = CHICAGO PD III, 7 - CHICAGO P.D. III
-[  Info  ]       Replaces ----- start = 28/03/2016 13:10:00 stop = 28/03/2016 13:56:00 title = UN RAGAZZINO MORTO UN TACCUINO E TANTI DUBBI - CHICAGO P.D. III
 [  Debug ]    suspicious      title in index page  = SPECIAL VICTIMS UNIT XIV
 [  Debug ]       differs from title in showdetails = AMBIZIONI FATALI - LAW & ORDER: UN.....
 [  Info  ]    epg correction : 
@@ -1618,7 +1604,7 @@
 [  Info  ]       show with ---- start = 30/03/2016 23:38:00 stop = 31/03/2016 00:30:00 title = VITTIME E CARNEFICI - LAW & ORDER: UNITA' SPECIALE II
 [  Info  ]       Replaces ----- start = 30/03/2016 23:38:00 stop = 31/03/2016 00:30:00 title = VITTIME E CARNEFICI - LAW & ORDER: UNITA' SPECIALE II
 [  Debug ]    skipped 
-[  Info  ] 0.89 sec/update
+[  Info  ] 0.92 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM JOY) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    suspicious      title in index page  = FRIENDS X
@@ -2090,7 +2076,7 @@
 [  Info  ]       show with ---- start = 30/03/2016 22:50:00 stop = 30/03/2016 23:16:00 title = UNA BUONA AZIONE - MOM I
 [  Info  ]       Replaces ----- start = 30/03/2016 22:50:00 stop = 30/03/2016 23:16:00 title = UNA BUONA AZIONE - MOM I
 [  Debug ]    skipped 
-[  Info  ] 0.98 sec/update
+[  Info  ] 0.90 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM MYA) site -- MEDIASET.IT -- mode incremental
 [  Debug ]    skipped 
@@ -2256,13 +2242,13 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 29/03/2016 20:15:00 stop = 29/03/2016 21:05:00 title = PER COLPA DELLA VOCE - ROYAL PAINS VII
-[  Info  ]       Replaces ----- start = 29/03/2016 20:15:00 stop = 29/03/2016 21:05:00 title = PER COLPA DELLA VOCE - ROYAL PAINS VII - PRIMA TV
+[  Info  ]       Replaces ----- start = 29/03/2016 20:15:00 stop = 29/03/2016 21:05:00 title = PER COLPA DELLA VOCE - ROYAL PAINS VII
 [  Debug ]    suspicious      title in index page  = CHASING LIFE II
 [  Debug ]       differs from title in showdetails = UNA BOTTIGLIA DI SEGRETI .....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 29/03/2016 21:05:00 stop = 29/03/2016 21:58:00 title = UNA BOTTIGLIA DI SEGRETI - CHASING LIFE II
-[  Info  ]       Replaces ----- start = 29/03/2016 21:05:00 stop = 29/03/2016 21:58:00 title = UNA BOTTIGLIA DI SEGRETI - CHASING LIFE II - PRIMA TV
+[  Info  ]       Replaces ----- start = 29/03/2016 21:05:00 stop = 29/03/2016 21:58:00 title = UNA BOTTIGLIA DI SEGRETI - CHASING LIFE II
 [  Debug ]    suspicious      title in index page  = SUITS V
 [  Debug ]       differs from title in showdetails = SUITS V, 10 - SUI.....
 [  Info  ]    epg correction : 
@@ -2292,13 +2278,13 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/03/2016 01:29:00 stop = 30/03/2016 02:18:00 title = PER COLPA DELLA VOCE - ROYAL PAINS VII
-[  Info  ]       Replaces ----- start = 30/03/2016 01:29:00 stop = 30/03/2016 02:18:00 title = PER COLPA DELLA VOCE - ROYAL PAINS VII - PRIMA TV
+[  Info  ]       Replaces ----- start = 30/03/2016 01:29:00 stop = 30/03/2016 02:18:00 title = PER COLPA DELLA VOCE - ROYAL PAINS VII
 [  Debug ]    suspicious      title in index page  = CHASING LIFE II
 [  Debug ]       differs from title in showdetails = UNA BOTTIGLIA DI SEGRETI .....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/03/2016 02:18:00 stop = 30/03/2016 02:59:00 title = UNA BOTTIGLIA DI SEGRETI - CHASING LIFE II
-[  Info  ]       Replaces ----- start = 30/03/2016 02:18:00 stop = 30/03/2016 02:59:00 title = UNA BOTTIGLIA DI SEGRETI - CHASING LIFE II - PRIMA TV
+[  Info  ]       Replaces ----- start = 30/03/2016 02:18:00 stop = 30/03/2016 02:59:00 title = UNA BOTTIGLIA DI SEGRETI - CHASING LIFE II
 [  Debug ]    suspicious      title in index page  = CHANTE! II
 [  Debug ]       differs from title in showdetails = APPUNTAMENTO MANCATO.....
 [  Info  ]    epg correction : 
@@ -2340,13 +2326,13 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/03/2016 12:57:00 stop = 30/03/2016 13:48:00 title = PER COLPA DELLA VOCE - ROYAL PAINS VII
-[  Info  ]       Replaces ----- start = 30/03/2016 12:57:00 stop = 30/03/2016 13:48:00 title = PER COLPA DELLA VOCE - ROYAL PAINS VII - PRIMA TV
+[  Info  ]       Replaces ----- start = 30/03/2016 12:57:00 stop = 30/03/2016 13:48:00 title = PER COLPA DELLA VOCE - ROYAL PAINS VII
 [  Debug ]    suspicious      title in index page  = CHASING LIFE II
 [  Debug ]       differs from title in showdetails = UNA BOTTIGLIA DI SEGRETI .....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/03/2016 13:48:00 stop = 30/03/2016 15:00:00 title = UNA BOTTIGLIA DI SEGRETI - CHASING LIFE II
-[  Info  ]       Replaces ----- start = 30/03/2016 13:48:00 stop = 30/03/2016 15:00:00 title = UNA BOTTIGLIA DI SEGRETI - CHASING LIFE II - PRIMA TV
+[  Info  ]       Replaces ----- start = 30/03/2016 13:48:00 stop = 30/03/2016 15:00:00 title = UNA BOTTIGLIA DI SEGRETI - CHASING LIFE II
 [  Debug ]    suspicious      title in index page  = SMASH II
 [  Debug ]       differs from title in showdetails = LA PROVA GENERALE .....
 [  Info  ]    epg correction : 
@@ -2396,7 +2382,7 @@
 [  Info  ]       show with ---- start = 30/03/2016 23:46:00 stop = 31/03/2016 00:37:00 title = LA PROFEZIA DI SANTA CHIARA - CULT
 [  Info  ]       Replaces ----- start = 30/03/2016 23:46:00 stop = 31/03/2016 00:37:00 title = LA PROFEZIA DI SANTA CHIARA - CULT
 [  Debug ]    skipped 
-[  Info  ] 0.98 sec/update
+[  Info  ] 1.00 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM BBC) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Error ] no index page data received from PREMIUM BBC
@@ -2533,10 +2519,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/03/2016 08:30:00 stop = 30/03/2016 09:00:00 title = 30/03 H.8.30 - PREMIUM SPORT EDICOLA
 [  Info  ]       Replaces ----- start = 30/03/2016 08:30:00 stop = 30/03/2016 09:00:00 title = 30/03 H.8.30 - PREMIUM SPORT EDICOLA
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 30/03/2016 12:52:00 stop = 30/03/2016 13:00:00 title = X-STYLE MOTORI SUV GINEVRA            - X-STYLE MOTORI SUV GINEVRA   
-[  Info  ]       Replaces ----- start = 30/03/2016 12:52:00 stop = 30/03/2016 13:00:00 title = SUV GINEVRA                    - X-STYLE MOTORI
 [  Debug ]    suspicious      title in index page  = SPECIALE PREMIUM SPORT ACCADEMIA DELLA PORTA
 [  Debug ]       differs from title in showdetails = ACCADEMIA DELLA PORTA  24/03 - SPECIALE PREMIUM SPORT
 [  Info  ]    epg correction : 
@@ -2554,7 +2536,7 @@
 [  Info  ]       show with ---- start = 30/03/2016 23:30:00 stop = 31/03/2016 00:30:00 title = PUNTATA 31 - 22/03 - HIGHLIGHTS CAMPIONATO FRANCESE -'16
 [  Info  ]       Replaces ----- start = 30/03/2016 23:30:00 stop = 31/03/2016 00:30:00 title = PUNTATA 31 - 22/03 - HIGHLIGHTS CAMPIONATO FRANCESE -'16
 [  Debug ]    skipped 
-[  Info  ] 0.94 sec/update
+[  Info  ] 1.09 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM CALCIO) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Info  ]    epg correction : 
@@ -2650,12 +2632,12 @@
 [  Info  ]       show with ---- start = 30/03/2016 20:00:00 stop = 30/03/2016 21:53:00 title = LAZIO - ROMA  - CAMPIONATO DI CALCIO SERIE A 2010-2011 (LAZIO)
 [  Info  ]       Replaces ----- start = 30/03/2016 20:00:00 stop = 30/03/2016 21:53:00 title = LAZIO - ROMA  - CAMPIONATO DI CALCIO SERIE A 2010-2011 (LAZIO)
 [  Debug ]    skipped 
-[  Info  ] 1.01 sec/update
+[  Info  ] 0.98 sec/update
 [  Debug ] 
-[  Debug ] 12831 shows in 138 channels
-[  Debug ] 391 updated shows
-[  Debug ] 12 new shows added
+[  Debug ] 12834 shows in 138 channels
+[  Debug ] 360 updated shows
+[  Debug ] 3 new shows added
 [  Info  ] 
 [  Info  ] 
-[  Info  ] job finished at 28/03/2016 08:42:15 done in 2470 seconds
+[  Info  ] job finished at 28/03/2016 16:42:01 done in 2457 seconds
 [  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
