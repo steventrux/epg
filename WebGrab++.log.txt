@@ -1,6 +1,6 @@
 ﻿[  Debug ] WebGrab+Plus/w MDB & REX Postprocess -- version 1.1.1/55.27 -- Jan van Straaten 
 [  Debug ] --------------------------------------------------------------------------------
-[  Debug ] job started at 27/10/2016 18:01:03
+[  Debug ] job started at 28/10/2016 06:01:02
 [  Debug ] 
 [  Debug ] reading config file: /home/stefano/git/epg/WebGrab++.config.xml
 [  Debug ] loading timezone data
@@ -14,14 +14,14 @@
 [  Debug ] 	UTC Offset now  :	UTC+02:00	(DST in effect)
 [  Debug ] 	next DST dates  :	30/10/2016 03:00 (local)
 [  Debug ] 	                :	26/03/2017 02:00 (local)
-[  Debug ] 	local time now  :	27/10/2016 18:01:05
+[  Debug ] 	local time now  :	28/10/2016 06:01:04
 [  Debug ] found: /home/stefano/git/epg/video.gazzetta.it.ini -- Revision 0
 [  Debug ] 
 [  Debug ] running  on: Unix 3.14.32.6
 [  Debug ] environment: 4.0.30319.1
 [  Debug ] mono version: 2.10.8.1 (Debian 2.10.8.1-1ubuntu2.3)
 [  Debug ] xmltv input file - /home/stefano/git/epg/guide.xml - found
-[  Debug ] 0 superfluous shows removed
+[  Debug ] 4182 superfluous shows removed
 [  Info  ] 
 [  Info  ] update requested for - 138 - out of - 138 - channels for 3 day(s)
 [  Info  ] update mode - set per individual channel
@@ -31,47 +31,69 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=RAI 1 HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030030500 +0100
+[  Debug ] starting with show : The master at local time 30/10/2016 03:05
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.84 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=RAI 2 HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028002000 +0200
+[  Debug ] starting with show : Le regole del delitto perfetto at local time 28/10/2016 00:20
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.85 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=RAI 3 HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030030000 +0100
+[  Debug ] starting with show : Teza at local time 30/10/2016 03:00
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:00:00 and stop at 30/10/2016 03:40:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.88 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=RETE 4 HD) site -- MEDIASET.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030033700 +0100
+[  Debug ] starting with show : \" VAI CON LA SIGLA \" at local time 30/10/2016 03:37
 [  Debug ]    skipped 
-[  Info  ] 0.44 sec/update
+[  Info  ] 0.26 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=CANALE 5 HD) site -- MEDIASET.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028060000 +0200
+[  Debug ] starting with show : PRIMA PAGINA TG5 at local time 28/10/2016 06:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.22 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=ITALIA 1 HD) site -- MEDIASET.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030032100 +0100
+[  Debug ] starting with show : COVERT AFFAIRS II at local time 30/10/2016 03:21
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:21:00 and stop at 30/10/2016 03:35:00
 [  Debug ]    skipped 
-[  Info  ] 0.41 sec/update
+[  Info  ] 0.25 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=RSI LA1 HD) site -- HORIZON.TV.CH -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030060000 +0100
+[  Debug ] starting with show : Repliche continuate at local time 30/10/2016 06:00
 [  Debug ]    skipped 
-[  Info  ] 0.20 sec/update
+[  Info  ] 0.12 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=RSI LA2 HD) site -- HORIZON.TV.CH -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028095000 +0200
+[  Debug ] starting with show : Via col venti at local time 28/10/2016 09:50
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=LA 5) site -- MEDIASET.IT -- mode incremental
-[  Error ] error downloading page: Invalid URI: The hostname could not be parsed. (5sec)
-[  Error ] retry 1 of 4 times
-[  Error ] error downloading page: Invalid URI: The hostname could not be parsed. (10sec)
-[  Error ] retry 2 of 4 times
-[  Error ] error downloading page: Invalid URI: The hostname could not be parsed. (15sec)
-[  Error ] retry 3 of 4 times
-[  Error ] error downloading page: Invalid URI: The hostname could not be parsed. (20sec)
-[  Error ] retry 4 of 4 times
-[  Debug ]    skipped show without a title at 27/10/2016 10:10:00
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028060000 +0200
+[  Debug ] starting with show : TELEVENDITA MEDIA SHOPPING at local time 28/10/2016 06:00
 [  Error ] error downloading page: Invalid URI: The hostname could not be parsed. (5sec)
 [  Error ] retry 1 of 4 times
 [  Error ] error downloading page: Invalid URI: The hostname could not be parsed. (10sec)
@@ -81,171 +103,331 @@
 [  Error ] error downloading page: Invalid URI: The hostname could not be parsed. (20sec)
 [  Error ] retry 4 of 4 times
 [  Debug ]    skipped show without a title at 28/10/2016 10:10:00
-[  Debug ]    skipped 
-[  Info  ] 0.27 sec/update
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:35:00 and stop at 30/10/2016 03:55:00
+[  Error ] error downloading page: Invalid URI: The hostname could not be parsed. (5sec)
+[  Error ] retry 1 of 4 times
+[  Error ] error downloading page: Invalid URI: The hostname could not be parsed. (10sec)
+[  Error ] retry 2 of 4 times
+[  Error ] error downloading page: Invalid URI: The hostname could not be parsed. (15sec)
+[  Error ] retry 3 of 4 times
+[  Error ] error downloading page: Invalid URI: The hostname could not be parsed. (20sec)
+[  Error ] retry 4 of 4 times
+[  Debug ]    suspicious      title in index page  = UNA VITA IV
+[  Debug ]       differs from title in showdetails = UNA VITA IV (?)
+[  Debug ]    skipped show without a title at 30/10/2016 06:53:00
+[  Debug ]    skipped show without a title at 30/10/2016 06:53:00
+[  Debug ]    skipped show without a title at 30/10/2016 06:53:00
+[  Debug ]    skipped show without a title at 30/10/2016 06:53:00
+[  Debug ]    skipped show without a title at 30/10/2016 06:53:00
+[  Debug ]    skipped show without a title at 30/10/2016 06:53:00
+[  Info  ] 0.21 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=LA 7) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028000000 +0200
+[  Debug ] starting with show : Tg La7 at local time 28/10/2016 00:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.86 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=LA 7D) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030031000 +0100
+[  Debug ] starting with show : The Dr. Oz Show at local time 30/10/2016 03:10
 [  Debug ]    skipped 
-[  Info  ] 1.12 sec/update
+[  Info  ] 0.81 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=TGCOM 24) site -- MEDIASET.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20161030060000 +0100
 [  Debug ] starting with show : NEWS DELLA NOTTE at local time 30/10/2016 06:00
-[  Info  ] 
+[  Info  ] 0.20 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=BOING) site -- MEDIASET.IT -- mode incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20161027060500 +0200
-[  Debug ] starting with show : The Garfield Show at local time 27/10/2016 06:05
+[  Debug ] time-offset change for all shows after starttime 20161028060500 +0200
+[  Debug ] starting with show : The Garfield Show at local time 28/10/2016 06:05
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:15:00 and stop at 30/10/2016 03:35:00
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:35:00 and stop at 30/10/2016 03:46:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.21 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY CINEMA 1 HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028000000 +0200
+[  Debug ] starting with show : Southpaw - L'ultima sfida at local time 28/10/2016 00:00
 [  Debug ]    suspicious      title in index page  = Southpaw - L'ultima sfida
 [  Debug ]       differs from title in showdetails = Southpaw
+[  Debug ]    suspicious      title in index page  = La quinta onda
+[  Debug ]       differs from title in showdetails = The 5th Wave
+[  Debug ]    suspicious      title in index page  = La quinta onda
+[  Debug ]       differs from title in showdetails = The 5th Wave
 [  Debug ]    skipped 
-[  Info  ] 0.95 sec/update
+[  Info  ] 0.92 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY CINEMA +1 HD) site -- GUIDATV.SKY.IT -- mode incremental
 [  Debug ]    suspicious      title in index page  = Southpaw - L'ultima sfida
 [  Debug ]       differs from title in showdetails = Southpaw
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030031500 +0100
+[  Debug ] starting with show : La quinta onda at local time 30/10/2016 03:15
+[  Debug ]    suspicious      title in index page  = La quinta onda
+[  Debug ]       differs from title in showdetails = The 5th Wave
+[  Debug ]    suspicious      title in index page  = La quinta onda
+[  Debug ]       differs from title in showdetails = The 5th Wave
 [  Debug ]    skipped 
-[  Info  ] 1.32 sec/update
+[  Info  ] 0.90 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY CINEMA +24 HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028004500 +0200
+[  Debug ] starting with show : Calvario at local time 28/10/2016 00:45
 [  Debug ]    suspicious      title in index page  = Southpaw - L'ultima sfida
 [  Debug ]       differs from title in showdetails = Southpaw
 [  Debug ]    skipped 
-[  Info  ] 1.32 sec/update
+[  Info  ] 0.87 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY CINEMA HITS HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030031000 +0100
+[  Debug ] starting with show : Grace - Posseduta at local time 30/10/2016 03:10
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 1.04 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY CINEMA FAMILY HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028005000 +0200
+[  Debug ] starting with show : Piuma - Speciale at local time 28/10/2016 00:50
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.96 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY CINEMA FAMILY +1) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030032000 +0100
+[  Debug ] starting with show : Le avventure di Sammy at local time 30/10/2016 03:20
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.86 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY CINEMA PASSION) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028002000 +0200
+[  Debug ] starting with show : Piuma - Speciale at local time 28/10/2016 00:20
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.94 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY CINEMA COMEDY HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030041000 +0100
+[  Debug ] starting with show : Jackass 3 at local time 30/10/2016 04:10
+[  Debug ]    suspicious      title in index page  = Jackass 3
+[  Debug ]       differs from title in showdetails = Jackass 3D
+[  Debug ]    suspicious      title in index page  = 2 single a nozze
+[  Debug ]       differs from title in showdetails = Wedding Crashers
 [  Debug ]    skipped 
-[  Info  ] 1.17 sec/update
+[  Info  ] 1.03 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY CINEMA MAX HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028004500 +0200
+[  Debug ] starting with show : Caccia a Ottobre Rosso at local time 28/10/2016 00:45
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.93 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY CINEMA MAX +1 HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030032000 +0100
+[  Debug ] starting with show : The Signal at local time 30/10/2016 03:20
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.95 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY CINEMA CULT HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028003000 +0200
+[  Debug ] starting with show : Mia madre at local time 28/10/2016 00:30
+[  Debug ]    suspicious      title in index page  = Lettere Di Uno Sconosciuto
+[  Debug ]       differs from title in showdetails = Coming Home
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.93 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY CINEMA CLASSICS HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030030500 +0100
+[  Debug ] starting with show : Chato at local time 30/10/2016 03:05
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:05:00 and stop at 30/10/2016 03:45:00
 [  Debug ]    skipped 
-[  Info  ] 0.97 sec/update
+[  Info  ] 0.88 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY COMEDY CENTRAL) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028002000 +0200
+[  Debug ] starting with show : Sex & the City at local time 28/10/2016 00:20
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:15:00 and stop at 30/10/2016 03:40:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.90 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY TG 24) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030030000 +0100
+[  Debug ] starting with show : TG24 Edicola at local time 30/10/2016 03:00
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:00:00 and stop at 30/10/2016 03:30:00
+[  Debug ]    skipped 
+[  Info  ] 0.79 sec/update
+[  Debug ] 
+[  Info  ] channel (xmltv_id=SKY 3D HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028003500 +0200
+[  Debug ] starting with show : A ottobre su Sky 3D at local time 28/10/2016 00:35
 [  Debug ]    skipped 
 [  Info  ] 0.87 sec/update
 [  Debug ] 
-[  Info  ] channel (xmltv_id=SKY 3D HD) site -- GUIDATV.SKY.IT -- mode incremental
-[  Warn  ] error downloading page: The request timed out
-[  Warn  ] pausing 1 of 4 times for 5 seconds before re-try.
-[  Warn  ] error downloading page: The request timed out
-[  Warn  ] pausing 2 of 4 times for 10 seconds before re-try.
-[  Debug ]    skipped 
-[  Info  ] 
-[  Debug ] 
 [  Info  ] channel (xmltv_id=SKY UNO HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030033000 +0100
+[  Debug ] starting with show : Scandali a Hollywood at local time 30/10/2016 03:30
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.85 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY UNO +1) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028010500 +0200
+[  Debug ] starting with show : Xtra Factor at local time 28/10/2016 01:05
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.84 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY CLASSICA HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030031000 +0100
+[  Debug ] starting with show : Haendel - Concerto per organo op.4 n.1 at local time 30/10/2016 03:10
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:10:00 and stop at 30/10/2016 03:30:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.84 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY ATLANTIC HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028000500 +0200
+[  Debug ] starting with show : The Young Pope at local time 28/10/2016 00:05
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.89 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY ATLANTIC HD +1) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030030000 +0100
+[  Debug ] starting with show : Californication at local time 30/10/2016 03:00
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:00:00 and stop at 30/10/2016 03:30:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.88 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=FOX HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028000500 +0200
+[  Debug ] starting with show : 2 Broke Girls at local time 28/10/2016 00:05
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:00:00 and stop at 30/10/2016 03:30:00
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:30:00 and stop at 30/10/2016 03:55:00
 [  Debug ]    skipped 
-[  Info  ] 1.01 sec/update
+[  Info  ] 0.84 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=FOX +1) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030031000 +0100
+[  Debug ] starting with show : The Big Bang Theory at local time 30/10/2016 03:10
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:10:00 and stop at 30/10/2016 03:30:00
 [  Debug ]    skipped 
-[  Info  ] 1.01 sec/update
+[  Info  ] 0.84 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=FOX LIFE HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028004000 +0200
+[  Debug ] starting with show : Castle at local time 28/10/2016 00:40
 [  Debug ]    skipped 
-[  Info  ] 1.02 sec/update
+[  Info  ] 0.76 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=FOX LIFE +1) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030032500 +0100
+[  Debug ] starting with show : Grey's Anatomy at local time 30/10/2016 03:25
 [  Debug ]    skipped 
-[  Info  ] 1.01 sec/update
+[  Info  ] 0.82 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=FOX CRIME HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028004500 +0200
+[  Debug ] starting with show : Candice Renoir at local time 28/10/2016 00:45
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.78 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=FOX CRIME +1 HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030033000 +0100
+[  Debug ] starting with show : Bones at local time 30/10/2016 03:30
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.79 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=FOX COMEDY HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028000500 +0200
+[  Debug ] starting with show : I Jefferson at local time 28/10/2016 00:05
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:25:00 and stop at 30/10/2016 03:55:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.89 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=FOX ANIMATION HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030031500 +0100
+[  Debug ] starting with show : Bob's Burgers at local time 30/10/2016 03:15
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:15:00 and stop at 30/10/2016 03:35:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.78 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=LEI) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028004500 +0200
+[  Debug ] starting with show : A un passo dalla morte at local time 28/10/2016 00:45
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.84 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=CI CRIME + INV  HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030034000 +0100
+[  Debug ] starting with show : Lady Killer at local time 30/10/2016 03:40
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.91 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=POKER ITALIA 24) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028001000 +0200
+[  Debug ] starting with show : Alpha 8 II at local time 28/10/2016 00:10
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.83 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY AXN HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030033000 +0100
+[  Debug ] starting with show : Rush Unita' Speciale at local time 30/10/2016 03:30
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.79 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY AXN +1) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028000000 +0200
+[  Debug ] starting with show : Power at local time 28/10/2016 00:00
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:15:00 and stop at 30/10/2016 03:35:00
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:35:00 and stop at 30/10/2016 03:40:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.79 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY HORROR CHANNEL) site -- GUIDATV.SKY.IT -- mode incremental
 [  Error ] no index page data received from SKY HORROR CHANNEL
@@ -253,12 +435,20 @@
 [  Info  ] existing guide data restored!
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY F1 HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030030000 +0100
+[  Debug ] starting with show : F1 Qualifiche: GP Messico at local time 30/10/2016 03:00
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:00:00 and stop at 30/10/2016 03:30:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.82 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY SPORT MOTOGP) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028000000 +0200
+[  Debug ] starting with show : Paddock Live Show at local time 28/10/2016 00:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.85 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY BIKE CHANNEL) site -- GUIDATV.SKY.IT -- mode incremental
 [  Error ] no index page data received from SKY BIKE CHANNEL
@@ -266,240 +456,482 @@
 [  Info  ] existing guide data restored!
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SUPER TENNIS HD) site -- GUIDATV.SKY.IT -- mode incremental
-[  Debug ]    skipped 
-[  Info  ] 
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030030000 +0100
+[  Debug ] starting with show : ATP 500 Basilea at local time 30/10/2016 03:00
+[  Debug ]    skipped  : last show, no next startime to use as stop
+[  Info  ] 0.75 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=EUROSPORT 1HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028013000 +0200
+[  Debug ] starting with show : Calcio: Major League Soccer  (live) at local time 28/10/2016 01:30
 [  Debug ]    skipped 
-[  Info  ] 0.92 sec/update
+[  Info  ] 0.84 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=EUROSPORT 2HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030030000 +0100
+[  Debug ] starting with show : Snooker: Torneo internazionale at local time 30/10/2016 03:00
 [  Debug ]    skipped 
-[  Info  ] 0.97 sec/update
+[  Info  ] 0.75 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY SPORT 24 HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028000000 +0200
+[  Debug ] starting with show : Night Line at local time 28/10/2016 00:00
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:00:00 and stop at 30/10/2016 03:30:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.77 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY SPORT 1 HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030041500 +0100
+[  Debug ] starting with show : Warm Up: GP Malesia  (diretta) at local time 30/10/2016 04:15
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.83 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY SPORT 2 HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028010000 +0200
+[  Debug ] starting with show : Icarus Plus at local time 28/10/2016 01:00
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:15:00 and stop at 30/10/2016 03:30:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.86 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY SPORT 3 HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030040000 +0100
+[  Debug ] starting with show : NCAA: Florida State - Clemson  (diretta) at local time 30/10/2016 04:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.82 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY SPORT PLUS HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028000000 +0200
+[  Debug ] starting with show : Icarus at local time 28/10/2016 00:00
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:00:00 and stop at 30/10/2016 03:30:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.96 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=FOX Sport HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030040000 +0100
+[  Debug ] starting with show : MLB: Chicago Cubs - Cleveland  (diretta) at local time 30/10/2016 04:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.81 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY SUPERCALCIO HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028000000 +0200
+[  Debug ] starting with show : Europa League Remix at local time 28/10/2016 00:00
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:00:00 and stop at 30/10/2016 03:30:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.90 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY CALCIO 1 HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030060000 +0100
+[  Debug ] starting with show : Atalanta - Genoa 30/10 at local time 30/10/2016 06:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.73 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY CALCIO 2 HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028060000 +0200
+[  Debug ] starting with show : Frosinone - Cesena 29/10 at local time 28/10/2016 06:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[  Info  ] 0.76 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY CALCIO 3 HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030060000 +0100
+[  Debug ] starting with show : Lazio - Sassuolo 30/10 at local time 30/10/2016 06:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[  Info  ] 0.71 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY CALCIO 4 HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028060000 +0200
+[  Debug ] starting with show : Bari - Pro Vercelli 29/10 at local time 28/10/2016 06:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[  Info  ] 0.70 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY CALCIO 5 HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030060000 +0100
+[  Debug ] starting with show : Sky Calcio at local time 30/10/2016 06:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[  Info  ] 0.70 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY CALCIO 6 HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028060000 +0200
+[  Debug ] starting with show : Ternana - Novara 29/10 at local time 28/10/2016 06:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[  Info  ] 0.70 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY CALCIO 7 HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030060000 +0100
+[  Debug ] starting with show : Sky Calcio at local time 30/10/2016 06:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[  Info  ] 0.70 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY CALCIO 8 HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028060000 +0200
+[  Debug ] starting with show : Benevento - Spezia 29/10 at local time 28/10/2016 06:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[  Info  ] 0.70 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY CALCIO 9 HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030060000 +0100
+[  Debug ] starting with show : Sky Calcio at local time 30/10/2016 06:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[  Info  ] 0.70 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY CALCIO 10 HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028060000 +0200
+[  Debug ] starting with show : Sky Calcio at local time 28/10/2016 06:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[  Info  ] 0.71 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY CALCIO 11 HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030060000 +0100
+[  Debug ] starting with show : Sky Calcio at local time 30/10/2016 06:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[  Info  ] 0.73 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY CALCIO 12 HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028060000 +0200
+[  Debug ] starting with show : Aspettando WWE - Hell In A Cell at local time 28/10/2016 06:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[  Info  ] 0.71 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=MILAN CHANNEL) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030060000 +0100
+[  Debug ] starting with show : Informazione di servizio at local time 30/10/2016 06:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[  Info  ] 0.70 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=JUVENTUS CHANNEL) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028000000 +0200
+[  Debug ] starting with show : J !??! juventus TV at local time 28/10/2016 00:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.88 sec/update
+[  Info  ] 0.82 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=INTER CHANNEL) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030033000 +0100
+[  Debug ] starting with show : Inter Torino at local time 30/10/2016 03:30
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.77 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=ROMA CHANNEL) site -- GUIDATV.SKY.IT -- mode incremental
-[  Warn  ] error downloading page: Error getting response stream (ReadDone1): ReceiveFailure
-[  Warn  ] pausing 1 of 4 times for 5 seconds before re-try.
-[  Warn  ] error downloading page: The request timed out
-[  Warn  ] pausing 2 of 4 times for 10 seconds before re-try.
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028000000 +0200
+[  Debug ] starting with show : Roma Tv at local time 28/10/2016 00:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[  Info  ] 0.71 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=LAZIO CHANNEL) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030034500 +0100
+[  Debug ] starting with show : Lazio Story - Maestrelli at local time 30/10/2016 03:45
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.84 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY ARTE HD) site -- GUIDATV.SKY.IT -- mode incremental
-[  Debug ]    skipped 
-[  Info  ] 0.85 sec/update
-[  Debug ] 
-[  Info  ] channel (xmltv_id=DISCOVERY HD) site -- GUIDATV.SKY.IT -- mode incremental
-[  Debug ]    skipped 
-[  Info  ] 1.06 sec/update
-[  Debug ] 
-[  Info  ] channel (xmltv_id=DISCOVERY +1 HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028002500 +0200
+[  Debug ] starting with show : Sette meraviglie: Pompei at local time 28/10/2016 00:25
 [  Debug ]    skipped 
 [  Info  ] 1.08 sec/update
 [  Debug ] 
-[  Info  ] channel (xmltv_id=SKY DISCOVERY SCIENCE) site -- GUIDATV.SKY.IT -- mode incremental
+[  Info  ] channel (xmltv_id=DISCOVERY HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030033000 +0100
+[  Debug ] starting with show : Una famiglia fuori dal mondo at local time 30/10/2016 03:30
 [  Debug ]    skipped 
-[  Info  ] 1.12 sec/update
+[  Info  ] 1.16 sec/update
+[  Debug ] 
+[  Info  ] channel (xmltv_id=DISCOVERY +1 HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028005000 +0200
+[  Debug ] starting with show : Bear Grylls: Celebrity Edition at local time 28/10/2016 00:50
+[  Debug ]    skipped 
+[  Info  ] 1.15 sec/update
+[  Debug ] 
+[  Info  ] channel (xmltv_id=SKY DISCOVERY SCIENCE) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030031500 +0100
+[  Debug ] starting with show : Morgan Freeman Science Show at local time 30/10/2016 03:15
+[  Debug ]    skipped 
+[  Info  ] 0.81 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=DISCOVERY TRAVEL HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028000000 +0200
+[  Debug ] starting with show : Grandi Progetti at local time 28/10/2016 00:00
+[  Warn  ] error downloading page: The request timed out
+[  Warn  ] pausing 1 of 4 times for 5 seconds before re-try.
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 1.38 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY EXPLORA HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030031500 +0100
+[  Debug ] starting with show : Rewind - La vera storia della Germania at local time 30/10/2016 03:15
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:15:00 and stop at 30/10/2016 03:40:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.78 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=NATGEO WILD HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028003500 +0200
+[  Debug ] starting with show : I paradisi della Terra: Wild Europa at local time 28/10/2016 00:35
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.93 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=NATIONAL GEO  HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030032000 +0100
+[  Debug ] starting with show : Eroi di guerra at local time 30/10/2016 03:20
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.91 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=NATIONALGEO +1) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028004500 +0200
+[  Debug ] starting with show : Stupidi al quadrato at local time 28/10/2016 00:45
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:05:00 and stop at 30/10/2016 03:35:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.92 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=NATIONAL GEO POPLE HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030033000 +0100
+[  Debug ] starting with show : Case da salvare at local time 30/10/2016 03:30
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.94 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=HISTORY HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028001500 +0200
+[  Debug ] starting with show : Affari di famiglia at local time 28/10/2016 00:15
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.89 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=HISTORY +1 HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030031500 +0100
+[  Debug ] starting with show : Enigmi alieni-Giorgio Edition at local time 30/10/2016 03:15
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.96 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY FOCUS) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028004500 +0200
+[  Debug ] starting with show : Io e i miei parassiti at local time 28/10/2016 00:45
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:10:00 and stop at 30/10/2016 03:35:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 1.33 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=DMAX) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030031000 +0100
+[  Debug ] starting with show : 1000 modi per morire at local time 30/10/2016 03:10
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.98 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=REAL TIME HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028000000 +0200
+[  Debug ] starting with show : Malattie imbarazzanti at local time 28/10/2016 00:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.98 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=CACCIA PESCA) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030032000 +0100
+[  Debug ] starting with show : In mare dalla barca at local time 30/10/2016 03:20
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:20:00 and stop at 30/10/2016 03:50:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 1.00 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=CACCIA PESCA 2) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028000000 +0200
+[  Debug ] starting with show : Vita da canai at local time 28/10/2016 00:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.97 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY CIELO) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030033000 +0100
+[  Debug ] starting with show : I mille volti dell'eros at local time 30/10/2016 03:30
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.95 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY ANIMAL PLANET HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028000500 +0200
+[  Debug ] starting with show : Animali spietati at local time 28/10/2016 00:05
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:00:00 and stop at 30/10/2016 03:50:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.82 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=GAMBERO ROSSO HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030030000 +0100
+[  Debug ] starting with show : Road Show at local time 30/10/2016 03:00
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:00:00 and stop at 30/10/2016 03:30:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.93 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=CARTOON NETWORK) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028000500 +0200
+[  Debug ] starting with show : Robotboy at local time 28/10/2016 00:05
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.85 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY DISNEY XD HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030030000 +0100
+[  Debug ] starting with show : Billy: un amico fantasmico at local time 30/10/2016 03:00
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:00:00 and stop at 30/10/2016 03:15:00
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:15:00 and stop at 30/10/2016 03:25:00
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:25:00 and stop at 30/10/2016 03:35:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.84 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=DISNEY CHANNEL  HD) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028001000 +0200
+[  Debug ] starting with show : Life Bites at local time 28/10/2016 00:10
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:10:00 and stop at 30/10/2016 03:35:00
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:35:00 and stop at 30/10/2016 03:45:00
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:45:00 and stop at 30/10/2016 03:55:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 1.00 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=DISNEY CHANNEL +1) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030030500 +0100
+[  Debug ] starting with show : Doggywood at local time 30/10/2016 03:05
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:05:00 and stop at 30/10/2016 03:25:00
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:25:00 and stop at 30/10/2016 03:45:00
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:45:00 and stop at 30/10/2016 03:55:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 1.00 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=CARTONITO) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028002500 +0200
+[  Debug ] starting with show : L'armadio di Chloe' at local time 28/10/2016 00:25
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:00:00 and stop at 30/10/2016 03:30:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.85 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY BABY TV) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030030000 +0100
+[  Debug ] starting with show : Luna e Stelle at local time 30/10/2016 03:00
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:00:00 and stop at 30/10/2016 03:30:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.85 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY NICKELODEON) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028000500 +0200
+[  Debug ] starting with show : Blake sotto assedio! at local time 28/10/2016 00:05
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:15:00 and stop at 30/10/2016 03:40:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.99 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY BOOMERANG) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030030000 +0100
+[  Debug ] starting with show : Pat & Stan at local time 30/10/2016 03:00
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:00:00 and stop at 30/10/2016 03:11:00
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:11:00 and stop at 30/10/2016 03:25:00
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:25:00 and stop at 30/10/2016 03:36:00
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:36:00 and stop at 30/10/2016 03:50:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.85 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY DEA JUNIOR) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028000500 +0200
+[  Debug ] starting with show : Adriana, Tino e me at local time 28/10/2016 00:05
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:00:00 and stop at 30/10/2016 03:30:00
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:30:00 and stop at 30/10/2016 03:40:00
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:40:00 and stop at 30/10/2016 03:55:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.87 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY DEAKIDS) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030030000 +0100
+[  Debug ] starting with show : Verdi a modo mio at local time 30/10/2016 03:00
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:00:00 and stop at 30/10/2016 03:25:00
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:25:00 and stop at 30/10/2016 03:50:00
 [  Debug ]    skipped 
-[  Info  ] 1.26 sec/update
+[  Info  ] 0.88 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY DISNEY JUNIOR) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028000500 +0200
+[  Debug ] starting with show : Il gatto col cappello at local time 28/10/2016 00:05
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:00:00 and stop at 30/10/2016 03:15:00
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:15:00 and stop at 30/10/2016 03:30:00
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:30:00 and stop at 30/10/2016 03:40:00
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:40:00 and stop at 30/10/2016 03:50:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.87 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SKY JIM JAM) site -- GUIDATV.SKY.IT -- mode incremental
 [  Error ] no index page data received from SKY JIM JAM
@@ -507,38 +939,78 @@
 [  Info  ] existing guide data restored!
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SUPER) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030031500 +0100
+[  Debug ] starting with show : The Band at local time 30/10/2016 03:15
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:15:00 and stop at 30/10/2016 03:35:00
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:35:00 and stop at 30/10/2016 03:50:00
 [  Debug ]    skipped 
-[  Info  ] 1.26 sec/update
+[  Info  ] 0.89 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=MAN-GA) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028001000 +0200
+[  Debug ] starting with show : Il Grande Mazinga at local time 28/10/2016 00:10
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:00:00 and stop at 30/10/2016 03:25:00
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:25:00 and stop at 30/10/2016 03:55:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.86 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=NICK JUNIOR) site -- GUIDATV.SKY.IT -- mode incremental
-[  Warn  ] error downloading page: The request timed out
-[  Warn  ] pausing 1 of 4 times for 5 seconds before re-try.
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030030000 +0100
+[  Debug ] starting with show : Roary l'auto da corsa at local time 30/10/2016 03:00
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:00:00 and stop at 30/10/2016 03:05:00
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:05:00 and stop at 30/10/2016 03:15:00
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:15:00 and stop at 30/10/2016 03:20:00
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:20:00 and stop at 30/10/2016 03:30:00
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:30:00 and stop at 30/10/2016 03:40:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 1.03 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=K2) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028001500 +0200
+[  Debug ] starting with show : Breaking Magic at local time 28/10/2016 00:15
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:05:00 and stop at 30/10/2016 03:25:00
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:25:00 and stop at 30/10/2016 03:45:00
 [  Debug ]    skipped 
-[  Info  ] 1.16 sec/update
+[  Info  ] 0.87 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=MTV) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030031500 +0100
+[  Debug ] starting with show : Cold Blood: nuove verita' at local time 30/10/2016 03:15
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 1.00 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=DEEJAY TV) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028000900 +0200
+[  Debug ] starting with show : Vite al limite at local time 28/10/2016 00:09
 [  Debug ]    skipped 
-[  Info  ] 1.21 sec/update
+[  Info  ] 0.89 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM CINEMA HD) site -- MEDIASETPREMIUM.IT -- mode incremental
+[  Debug ]    skipped show longer than 15 hour(s) at 30/10/2016 02:55:00 title GLI ANNI DEI RICORDI
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.32 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM CINEMA +24) site -- MEDIASETPREMIUM.IT -- mode incremental
+[  Debug ]    skipped show longer than 15 hour(s) at 30/10/2016 02:36:00 title FRANTIC
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.32 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM CINEMA 2 HD) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    suspicious      title in index page  = RUN ALL NIGHT - UNA NOTTE PER SOPRAVVIVERE
@@ -547,28 +1019,24 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 29/10/2016 16:10:00 stop = 29/10/2016 18:40:00 title = Run All Night
 [  Info  ]       Replaces ----- start = 29/10/2016 16:10:00 stop = 29/10/2016 18:40:00 title = Run All Night
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030034300 +0100
+[  Debug ] starting with show : ALWAYS-PER SEMPRE at local time 30/10/2016 03:43
+[  Debug ]    skipped show longer than 15 hour(s) at 30/10/2016 02:43:00 title BORN TO BE WILD
 [  Debug ]    skipped 
-[  Info  ] 0.51 sec/update
+[  Info  ] 0.38 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM CINEMA 2 +24) site -- MEDIASETPREMIUM.IT -- mode incremental
-[  Debug ]    suspicious      title in index page  = PSYCHO II
-[  Debug ]       differs from title in showdetails = PSYCHO II - 
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 05:30:00 stop = 27/10/2016 07:38:00 title = PSYCHO II - 
-[  Info  ]       Replaces ----- start = 27/10/2016 05:30:00 stop = 27/10/2016 07:38:00 title = PSYCHO II - 
-[  Debug ]    suspicious      title in index page  = PSYCHO III
-[  Debug ]       differs from title in showdetails = PSYCHO III - 
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 07:38:00 stop = 27/10/2016 09:07:00 title = PSYCHO III - 
-[  Info  ]       Replaces ----- start = 27/10/2016 07:38:00 stop = 27/10/2016 09:07:00 title = PSYCHO III - 
-[  Debug ]    skipped 
-[  Info  ] 0.45 sec/update
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028053000 +0200
+[  Debug ] starting with show : COME QUANDO FUORI PIOVE (DI B. GABURRO) at local time 28/10/2016 05:30
+[  Debug ]    skipped  : last show, no next startime to use as stop
+[  Info  ] 0.28 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM ENERGY) site -- MEDIASETPREMIUM.IT -- mode incremental
+[  Debug ]    skipped show longer than 15 hour(s) at 30/10/2016 02:02:00 title IL BOUNTY
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.31 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM EMOTION) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Debug ]    suspicious      title in index page  = INSIDE EMOTION
@@ -583,32 +1051,24 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 29/10/2016 05:30:00 stop = 29/10/2016 05:39:00 title = LA RICERCA DELLA FELICITA' - FULL EMOTION
 [  Info  ]       Replaces ----- start = 29/10/2016 05:30:00 stop = 29/10/2016 05:39:00 title = LA RICERCA DELLA FELICITA' - FULL EMOTION
-[  Debug ]    skipped 
-[  Info  ] 0.46 sec/update
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030034200 +0100
+[  Debug ] starting with show : CUORI RIBELLI at local time 30/10/2016 03:42
+[  Debug ]    skipped negative show time! at 30/10/2016 06:03:00
+[  Debug ]    suspicious      title in index page  = FULL EMOTION
+[  Debug ]       differs from title in showdetails = LA RICERCA DELLA FELIC.....
+[  Debug ]    skipped negative show time! at 30/10/2016 06:03:00
+[  Info  ] 0.37 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM COMEDY) site -- MEDIASETPREMIUM.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028053000 +0200
+[  Debug ] starting with show : A CENA CON... at local time 28/10/2016 05:30
+[  Debug ]    skipped show longer than 15 hour(s) at 30/10/2016 02:19:00 title SCOOP (DI W. ALLEN)
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.32 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM STUDIO UNIVERSAL) site -- MEDIASETPREMIUM.IT -- mode incremental
-[  Debug ]    suspicious      title in index page  = VITA DA ANIMALI - DOG DANCE
-[  Debug ]       differs from title in showdetails = DOG DANCE - VITA DA ANIMALI
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 17:50:00 stop = 27/10/2016 17:55:00 title = DOG DANCE - VITA DA ANIMALI
-[  Info  ]       Replaces ----- start = 27/10/2016 17:50:00 stop = 27/10/2016 17:55:00 title = DOG DANCE - VITA DA ANIMALI
-[  Debug ]    suspicious      title in index page  = VITA DA ANIMALI - SPORT CINOFILI
-[  Debug ]       differs from title in showdetails = SPOT CINOFILI - VITA DA ANIMALI
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 19:26:00 stop = 27/10/2016 19:40:00 title = SPOT CINOFILI - VITA DA ANIMALI
-[  Info  ]       Replaces ----- start = 27/10/2016 19:26:00 stop = 27/10/2016 19:40:00 title = SPOT CINOFILI - VITA DA ANIMALI
-[  Debug ]    suspicious      title in index page  = CLOSE UP - VIN DIESEL
-[  Debug ]       differs from title in showdetails = ANGELINA JOLIE - CLOSE UP
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 19:40:00 stop = 27/10/2016 20:15:00 title = ANGELINA JOLIE - CLOSE UP
-[  Info  ]       Replaces ----- start = 27/10/2016 19:40:00 stop = 27/10/2016 20:15:00 title = ANGELINA JOLIE - CLOSE UP
 [  Debug ]    suspicious      title in index page  = CINECHAT - MERYL STREEP
 [  Debug ]       differs from title in showdetails = MERYL STREEP - CINECHAT - (KS-KR)
 [  Info  ]    epg correction : 
@@ -665,60 +1125,11 @@
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 29/10/2016 19:30:00 stop = 29/10/2016 19:40:00 title = ORIGINAL TRAILER (?)
 [  Info  ]       Replaces ----- start = 29/10/2016 19:30:00 stop = 29/10/2016 19:40:00 title = ORIGINAL TRAILER (?)
+[  Debug ]    skipped show longer than 15 hour(s) at 30/10/2016 01:25:00 title DUELLO AL SOLE
 [  Debug ]    skipped 
-[  Info  ] 0.59 sec/update
+[  Info  ] 0.69 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM ACTION HD) site -- MEDIASETPREMIUM.IT -- mode incremental
-[  Debug ]    suspicious      title in index page  = NIKITA I
-[  Debug ]       differs from title in showdetails = KILL JILL - NIKITA.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 10:56:00 stop = 27/10/2016 11:44:00 title = KILL JILL - NIKITA I (NEW)
-[  Info  ]       Replaces ----- start = 27/10/2016 10:56:00 stop = 27/10/2016 11:44:00 title = KILL JILL - NIKITA I (NEW)
-[  Debug ]    suspicious      title in index page  = NIKITA I
-[  Debug ]       differs from title in showdetails = SPORCO TRAFFICO - .....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 14:10:00 stop = 27/10/2016 15:00:00 title = SPORCO TRAFFICO - NIKITA I (NEW)
-[  Info  ]       Replaces ----- start = 27/10/2016 14:10:00 stop = 27/10/2016 15:00:00 title = SPORCO TRAFFICO - NIKITA I (NEW)
-[  Debug ]    suspicious      title in index page  = NIKITA I
-[  Debug ]       differs from title in showdetails = IL CUSTODE - NIKIT.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 17:42:00 stop = 27/10/2016 18:35:00 title = IL CUSTODE - NIKITA I (NEW)
-[  Info  ]       Replaces ----- start = 27/10/2016 17:42:00 stop = 27/10/2016 18:35:00 title = IL CUSTODE - NIKITA I (NEW)
-[  Debug ]    suspicious      title in index page  = CHICAGO FIRE IV
-[  Debug ]       differs from title in showdetails = NON TUTTI LO FAREBBERO - .....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 18:35:00 stop = 27/10/2016 19:24:00 title = NON TUTTI LO FAREBBERO - CHICAGO FIRE IV
-[  Info  ]       Replaces ----- start = 27/10/2016 18:35:00 stop = 27/10/2016 19:24:00 title = NON TUTTI LO FAREBBERO - CHICAGO FIRE IV
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 20:14:00 stop = 27/10/2016 21:03:00 title = LUCIFER, 1 - LUCIFER - PRIMA TV
-[  Info  ]       Replaces ----- start = 27/10/2016 20:14:00 stop = 27/10/2016 21:03:00 title = LUCIFER, 1 - LUCIFER - PRIMA TV
-[  Debug ]    suspicious      title in index page  = GRIMM V
-[  Debug ]       differs from title in showdetails = IDENTITA' GRIMM -.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 21:03:00 stop = 27/10/2016 21:54:00 title = IDENTITA' GRIMM - GRIMM V
-[  Info  ]       Replaces ----- start = 27/10/2016 21:03:00 stop = 27/10/2016 21:54:00 title = IDENTITA' GRIMM - GRIMM V
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 28/10/2016 01:09:00 stop = 28/10/2016 01:57:00 title = LUCIFER, 1 - LUCIFER - PRIMA TV
-[  Info  ]       Replaces ----- start = 28/10/2016 01:09:00 stop = 28/10/2016 01:57:00 title = LUCIFER, 1 - LUCIFER - PRIMA TV
-[  Debug ]    suspicious      title in index page  = GRIMM V
-[  Debug ]       differs from title in showdetails = IDENTITA' GRIMM -.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 28/10/2016 01:57:00 stop = 28/10/2016 02:48:00 title = IDENTITA' GRIMM - GRIMM V
-[  Info  ]       Replaces ----- start = 28/10/2016 01:57:00 stop = 28/10/2016 02:48:00 title = IDENTITA' GRIMM - GRIMM V
-[  Debug ]    suspicious      title in index page  = NIKITA I
-[  Debug ]       differs from title in showdetails = IL CUSTODE - NIKIT.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 28/10/2016 03:33:00 stop = 28/10/2016 04:15:00 title = IL CUSTODE - NIKITA I (NEW)
-[  Info  ]       Replaces ----- start = 28/10/2016 03:33:00 stop = 28/10/2016 04:15:00 title = IL CUSTODE - NIKITA I (NEW)
 [  Debug ]    suspicious      title in index page  = NIKITA I
 [  Debug ]       differs from title in showdetails = KILL JILL - NIKITA.....
 [  Info  ]    epg correction : 
@@ -813,40 +1224,25 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 29/10/2016 15:59:00 stop = 29/10/2016 16:48:00 title = THE LAST KINGDOM , 1 - THE LAST KINGDOM - PRIMA TV
 [  Info  ]       Replaces ----- start = 29/10/2016 15:59:00 stop = 29/10/2016 16:48:00 title = THE LAST KINGDOM , 1 - THE LAST KINGDOM - PRIMA TV
-[  Debug ]    skipped 
-[  Info  ] 0.54 sec/update
-[  Debug ] 
-[  Info  ] channel (xmltv_id=PREMIUM ACTION +24) site -- MEDIASETPREMIUM.IT -- mode incremental
-[  Debug ]    suspicious      title in index page  = NIKITA I
-[  Debug ]       differs from title in showdetails = LA DIVISIONE - NIK.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 07:17:00 stop = 27/10/2016 08:06:00 title = LA DIVISIONE - NIKITA I (NEW)
-[  Info  ]       Replaces ----- start = 27/10/2016 07:17:00 stop = 27/10/2016 08:06:00 title = LA DIVISIONE - NIKITA I (NEW)
 [  Debug ]    suspicious      title in index page  = NIKITA I
 [  Debug ]       differs from title in showdetails = KILL JILL - NIKITA.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 14:34:00 stop = 27/10/2016 15:22:00 title = KILL JILL - NIKITA I (NEW)
-[  Info  ]       Replaces ----- start = 27/10/2016 14:34:00 stop = 27/10/2016 15:22:00 title = KILL JILL - NIKITA I (NEW)
 [  Debug ]    suspicious      title in index page  = NIKITA I
 [  Debug ]       differs from title in showdetails = SPORCO TRAFFICO - .....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 17:50:00 stop = 27/10/2016 18:36:00 title = SPORCO TRAFFICO - NIKITA I (NEW)
-[  Info  ]       Replaces ----- start = 27/10/2016 17:50:00 stop = 27/10/2016 18:36:00 title = SPORCO TRAFFICO - NIKITA I (NEW)
-[  Debug ]    suspicious      title in index page  = CHICAGO FIRE IV
-[  Debug ]       differs from title in showdetails = NON TUTTI LO FAREBBERO - .....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 19:24:00 stop = 27/10/2016 20:14:00 title = NON TUTTI LO FAREBBERO - CHICAGO FIRE IV
-[  Info  ]       Replaces ----- start = 27/10/2016 19:24:00 stop = 27/10/2016 20:14:00 title = NON TUTTI LO FAREBBERO - CHICAGO FIRE IV
 [  Debug ]    suspicious      title in index page  = NIKITA I
-[  Debug ]       differs from title in showdetails = SPORCO TRAFFICO - .....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 28/10/2016 03:21:00 stop = 28/10/2016 04:03:00 title = SPORCO TRAFFICO - NIKITA I (NEW)
-[  Info  ]       Replaces ----- start = 28/10/2016 03:21:00 stop = 28/10/2016 04:03:00 title = SPORCO TRAFFICO - NIKITA I (NEW)
+[  Debug ]       differs from title in showdetails = IL CUSTODE - NIKIT.....
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030033100 +0100
+[  Debug ] starting with show : NIKITA I at local time 30/10/2016 03:31
+[  Debug ]    suspicious      title in index page  = NIKITA I
+[  Debug ]       differs from title in showdetails = RESISTENZA - NIKIT.....
+[  Debug ]    skipped show longer than 15 hour(s) at 30/10/2016 02:31:00 title DC'S LEGENDS OF TOMORROW
+[  Debug ]    skipped 
+[  Info  ] 0.51 sec/update
+[  Debug ] 
+[  Info  ] channel (xmltv_id=PREMIUM ACTION +24) site -- MEDIASETPREMIUM.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028050000 +0200
+[  Debug ] starting with show : SMALLVILLE X at local time 28/10/2016 05:00
 [  Debug ]    suspicious      title in index page  = NIKITA I
 [  Debug ]       differs from title in showdetails = KILL JILL - NIKITA.....
 [  Info  ]    epg correction : 
@@ -937,96 +1333,15 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 29/10/2016 20:14:00 stop = 29/10/2016 21:03:00 title = THE LAST KINGDOM , 1 - THE LAST KINGDOM - PRIMA TV
 [  Info  ]       Replaces ----- start = 29/10/2016 20:14:00 stop = 29/10/2016 21:03:00 title = THE LAST KINGDOM , 1 - THE LAST KINGDOM - PRIMA TV
+[  Debug ]    suspicious      title in index page  = SUPERNATURAL IX
+[  Debug ]       differs from title in showdetails = UNA SCALA PER IL PARADISO.....
+[  Debug ]    suspicious      title in index page  = THE MUSKETEERS I
+[  Debug ]       differs from title in showdetails = AMICI E NEMICI - THE MUSKE.....
+[  Debug ]    skipped show longer than 15 hour(s) at 30/10/2016 02:38:00 title NIKITA I
 [  Debug ]    skipped 
-[  Info  ] 0.57 sec/update
+[  Info  ] 0.48 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM CRIME HD) site -- MEDIASETPREMIUM.IT -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 05:23:00 stop = 27/10/2016 05:30:00 title = CRIME MAGAZINE - COPPIE POLIZIESCHE - CRIME MAGAZINE
-[  Info  ]       Replaces ----- start = 27/10/2016 05:23:00 stop = 27/10/2016 05:30:00 title = CRIME MAGAZINE - COPPIE POLIZIESCHE - CRIME MAGAZINE
-[  Debug ]    suspicious      title in index page  = THE MENTALIST IV
-[  Debug ]       differs from title in showdetails = IL FILO ROSSO VERSO CARMIN.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 06:14:00 stop = 27/10/2016 07:09:00 title = IL FILO ROSSO VERSO CARMINE O'BRIEN - THE MENTALIST IV
-[  Info  ]       Replaces ----- start = 27/10/2016 06:14:00 stop = 27/10/2016 07:09:00 title = IL FILO ROSSO VERSO CARMINE O'BRIEN - THE MENTALIST IV
-[  Debug ]    suspicious      title in index page  = CHICAGO P.D. III
-[  Debug ]       differs from title in showdetails = LA PISTA DELLA CALIBRO 40 .....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 07:09:00 stop = 27/10/2016 07:58:00 title = LA PISTA DELLA CALIBRO 40 - CHICAGO P.D. III
-[  Info  ]       Replaces ----- start = 27/10/2016 07:09:00 stop = 27/10/2016 07:58:00 title = LA PISTA DELLA CALIBRO 40 - CHICAGO P.D. III
-[  Debug ]    suspicious      title in index page  = THE MENTALIST IV
-[  Debug ]       differs from title in showdetails = UNA LUCE ROSSA LAMPEGGIANT.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 10:43:00 stop = 27/10/2016 11:33:00 title = UNA LUCE ROSSA LAMPEGGIANTE - MENTALIST IV (THE)
-[  Info  ]       Replaces ----- start = 27/10/2016 10:43:00 stop = 27/10/2016 11:33:00 title = UNA LUCE ROSSA LAMPEGGIANTE - MENTALIST IV (THE)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 11:33:00 stop = 27/10/2016 12:27:00 title = ABITO ROSSO - MENTALIST IV (THE)
-[  Info  ]       Replaces ----- start = 27/10/2016 11:33:00 stop = 27/10/2016 12:27:00 title = ABITO ROSSO - MENTALIST IV (THE)
-[  Debug ]    suspicious      title in index page  = SPECIAL VICTIMS UNIT XV
-[  Debug ]       differs from title in showdetails = CRIMINE D'ONORE - LAW & ORDER: UN.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 14:20:00 stop = 27/10/2016 15:11:00 title = CRIMINE D'ONORE - LAW & ORDER: UNITA' SPECIALE XV
-[  Info  ]       Replaces ----- start = 27/10/2016 14:20:00 stop = 27/10/2016 15:11:00 title = CRIMINE D'ONORE - LAW & ORDER: UNITA' SPECIALE XV
-[  Debug ]    suspicious      title in index page  = SPECIAL VICTIMS UNIT XV
-[  Debug ]       differs from title in showdetails = INFANZIA VIOLATA - LAW & ORDER: U.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 15:11:00 stop = 27/10/2016 15:58:00 title = INFANZIA VIOLATA - LAW & ORDER: UNITA' SPECIALE XV
-[  Info  ]       Replaces ----- start = 27/10/2016 15:11:00 stop = 27/10/2016 15:58:00 title = INFANZIA VIOLATA - LAW & ORDER: UNITA' SPECIALE XV
-[  Debug ]    suspicious      title in index page  = CHICAGO P.D. III
-[  Debug ]       differs from title in showdetails = UNA STORIA TORBIDA - CHICA.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 15:58:00 stop = 27/10/2016 16:49:00 title = UNA STORIA TORBIDA - CHICAGO P.D. III
-[  Info  ]       Replaces ----- start = 27/10/2016 15:58:00 stop = 27/10/2016 16:49:00 title = UNA STORIA TORBIDA - CHICAGO P.D. III
-[  Debug ]    suspicious      title in index page  = CHICAGO P.D. III
-[  Debug ]       differs from title in showdetails = UNA BAMBINA ABBANDONATA - .....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 16:49:00 stop = 27/10/2016 17:43:00 title = UNA BAMBINA ABBANDONATA - CHICAGO P.D. III
-[  Info  ]       Replaces ----- start = 27/10/2016 16:49:00 stop = 27/10/2016 17:43:00 title = UNA BAMBINA ABBANDONATA - CHICAGO P.D. III
-[  Debug ]    suspicious      title in index page  = FOREVER I
-[  Debug ]       differs from title in showdetails = I SEGRETI RESTANO S.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 19:22:00 stop = 27/10/2016 20:14:00 title = I SEGRETI RESTANO SEPOLTI - FOREVER I
-[  Info  ]       Replaces ----- start = 27/10/2016 19:22:00 stop = 27/10/2016 20:14:00 title = I SEGRETI RESTANO SEPOLTI - FOREVER I
-[  Debug ]    suspicious      title in index page  = MOTIVE IV
-[  Debug ]       differs from title in showdetails = MISCELA TOSSICA - M.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 22:49:00 stop = 27/10/2016 23:46:00 title = MISCELA TOSSICA - MOTIVE IV
-[  Info  ]       Replaces ----- start = 27/10/2016 22:49:00 stop = 27/10/2016 23:46:00 title = MISCELA TOSSICA - MOTIVE IV
-[  Debug ]    suspicious      title in index page  = SPECIAL VICTIMS UNIT XV
-[  Debug ]       differs from title in showdetails = L' OSSESSIONE DELLA BESTIA - LAW .....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 23:46:00 stop = 28/10/2016 00:36:00 title = L' OSSESSIONE DELLA BESTIA - LAW & ORDER: UNITA' SPECIALE XV
-[  Info  ]       Replaces ----- start = 27/10/2016 23:46:00 stop = 28/10/2016 00:36:00 title = L' OSSESSIONE DELLA BESTIA - LAW & ORDER: UNITA' SPECIALE XV
-[  Debug ]    suspicious      title in index page  = SPECIAL VICTIMS UNIT XV
-[  Debug ]       differs from title in showdetails = POST MORTEM BLUES - LAW & ORDER: .....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 28/10/2016 00:36:00 stop = 28/10/2016 01:17:00 title = POST MORTEM BLUES - LAW & ORDER: UNITA' SPECIALE XV
-[  Info  ]       Replaces ----- start = 28/10/2016 00:36:00 stop = 28/10/2016 01:17:00 title = POST MORTEM BLUES - LAW & ORDER: UNITA' SPECIALE XV
-[  Debug ]    suspicious      title in index page  = MOTIVE IV
-[  Debug ]       differs from title in showdetails = MISCELA TOSSICA - M.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 28/10/2016 03:55:00 stop = 28/10/2016 04:40:00 title = MISCELA TOSSICA - MOTIVE IV
-[  Info  ]       Replaces ----- start = 28/10/2016 03:55:00 stop = 28/10/2016 04:40:00 title = MISCELA TOSSICA - MOTIVE IV
-[  Debug ]    suspicious      title in index page  = FOREVER I
-[  Debug ]       differs from title in showdetails = I SEGRETI RESTANO S.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 28/10/2016 04:40:00 stop = 28/10/2016 05:30:00 title = I SEGRETI RESTANO SEPOLTI - FOREVER I
-[  Info  ]       Replaces ----- start = 28/10/2016 04:40:00 stop = 28/10/2016 05:30:00 title = I SEGRETI RESTANO SEPOLTI - FOREVER I
 [  Debug ]    suspicious      title in index page  = THE MENTALIST IV
 [  Debug ]       differs from title in showdetails = UNA LUCE ROSSA LAMPEGGIANT.....
 [  Info  ]    epg correction : 
@@ -1137,11 +1452,10 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 29/10/2016 07:08:00 stop = 29/10/2016 07:59:00 title = SPOGLIATE DI TUTTO - LAW & ORDER: UNITA' SPECIALE I
 [  Info  ]       Replaces ----- start = 29/10/2016 07:08:00 stop = 29/10/2016 07:59:00 title = SPOGLIATE DI TUTTO - LAW & ORDER: UNITA' SPECIALE I
-[  Debug ]    suspicious      title in index page  = CRIMING
-[  Debug ]       differs from title in showdetails = HARLEE SANTOS ( S.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 29/10/2016 09:30:00 stop = 29/10/2016 09:44:00 title = HARLEE SANTOS ( SHADES OF BLUE) - CRIMING
+[  Info  ]       show with ---- start = 29/10/2016 08:48:00 stop = 29/10/2016 09:44:00 title = IL RITARDO - LAW & ORDER: UNITA' SPECIALE I
+[  Info  ]       Replaces ----- start = 29/10/2016 08:48:00 stop = 29/10/2016 09:30:00 title = IL RITARDO - LAW & ORDER: UNITA' SPECIALE I
 [  Info  ]       Replaces ----- start = 29/10/2016 09:30:00 stop = 29/10/2016 09:44:00 title = HARLEE SANTOS ( SHADES OF BLUE) - CRIMING
 [  Debug ]    suspicious      title in index page  = CHICAGO P.D. III
 [  Debug ]       differs from title in showdetails = UN CASO DA RISOLVERE - CHI.....
@@ -1162,10 +1476,10 @@
 [  Info  ]       show with ---- start = 29/10/2016 12:12:00 stop = 29/10/2016 13:06:00 title = UNA STORIA TORBIDA - CHICAGO P.D. III
 [  Info  ]       Replaces ----- start = 29/10/2016 12:12:00 stop = 29/10/2016 13:06:00 title = UNA STORIA TORBIDA - CHICAGO P.D. III
 [  Debug ]    suspicious      title in index page  = MOTIVE IV
-[  Debug ]       differs from title in showdetails = MISCELA TOSSICA - M.....
+[  Debug ]       differs from title in showdetails = MOTIVE IV, 3 - MOTI.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 29/10/2016 13:06:00 stop = 29/10/2016 13:55:00 title = MISCELA TOSSICA - MOTIVE IV
+[  Info  ]       show with ---- start = 29/10/2016 13:06:00 stop = 29/10/2016 13:55:00 title = MOTIVE IV, 3 - MOTIVE IV
 [  Info  ]       Replaces ----- start = 29/10/2016 13:06:00 stop = 29/10/2016 13:55:00 title = MISCELA TOSSICA - MOTIVE IV
 [  Debug ]    suspicious      title in index page  = MURDER IN THE FIRST III
 [  Debug ]       differs from title in showdetails = I BARBIERI DI SIVIGLIA - MURDER I.....
@@ -1177,19 +1491,14 @@
 [  Debug ]       differs from title in showdetails = VITTIME DELLA CELEBRITA' - LAW & ORDER: UNI.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 29/10/2016 16:43:00 stop = 29/10/2016 17:24:00 title = VITTIME DELLA CELEBRITA' - LAW & ORDER: UNITA' SPECIALE XVII
+[  Info  ]       show with ---- start = 29/10/2016 16:43:00 stop = 29/10/2016 17:39:00 title = VITTIME DELLA CELEBRITA' - LAW & ORDER: UNITA' SPECIALE XVII
 [  Info  ]       Replaces ----- start = 29/10/2016 16:43:00 stop = 29/10/2016 17:24:00 title = VITTIME DELLA CELEBRITA' - LAW & ORDER: UNITA' SPECIALE XVII
-[  Debug ]    suspicious      title in index page  = CRIME MAGAZINE
-[  Debug ]       differs from title in showdetails = LO SCONTRO FINALE ( PERS.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 29/10/2016 17:24:00 stop = 29/10/2016 17:39:00 title = LO SCONTRO FINALE ( PERSON OF INTEREST) - CRIME MAGAZINE
 [  Info  ]       Replaces ----- start = 29/10/2016 17:24:00 stop = 29/10/2016 17:39:00 title = LO SCONTRO FINALE ( PERSON OF INTEREST) - CRIME MAGAZINE
 [  Debug ]    suspicious      title in index page  = BLINDSPOT II
-[  Debug ]       differs from title in showdetails = BLINDSPOT II, 5 - BLIN.....
+[  Debug ]       differs from title in showdetails = DIFENDE LA COSTITUZION.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 29/10/2016 18:30:00 stop = 29/10/2016 19:23:00 title = BLINDSPOT II, 5 - BLINDSPOT II - PRIMA TV
+[  Info  ]       show with ---- start = 29/10/2016 18:30:00 stop = 29/10/2016 19:23:00 title = DIFENDE LA COSTITUZIONE - BLINDSPOT II
 [  Info  ]       Replaces ----- start = 29/10/2016 18:30:00 stop = 29/10/2016 19:23:00 title = BLINDSPOT II, 5 - BLINDSPOT II - PRIMA TV
 [  Debug ]    suspicious      title in index page  = FOREVER I
 [  Debug ]       differs from title in showdetails = IL PUNK E' MORTO - .....
@@ -1203,98 +1512,23 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 29/10/2016 21:16:00 stop = 29/10/2016 22:15:00 title = LA PALUDE DELL'ORRORE - DEXTER V
 [  Info  ]       Replaces ----- start = 29/10/2016 21:16:00 stop = 29/10/2016 22:15:00 title = LA PALUDE DELL'ORRORE - DEXTER V
+[  Debug ]    suspicious      title in index page  = CHICAGO P.D. III
+[  Debug ]       differs from title in showdetails = UNA STORIA TORBIDA - CHICA.....
+[  Debug ]    suspicious      title in index page  = CHICAGO P.D. III
+[  Debug ]       differs from title in showdetails = UNA BAMBINA ABBANDONATA - .....
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030032000 +0100
+[  Debug ] starting with show : DEXTER V at local time 30/10/2016 03:20
+[  Debug ]    suspicious      title in index page  = DEXTER V
+[  Debug ]       differs from title in showdetails = COLPA MIA - DEXTER.....
+[  Debug ]    skipped show longer than 15 hour(s) at 30/10/2016 02:20:00 title DEXTER V
 [  Debug ]    skipped 
-[  Info  ] 0.56 sec/update
+[  Info  ] 0.54 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM CRIME +24) site -- MEDIASETPREMIUM.IT -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 05:20:00 stop = 27/10/2016 05:30:00 title = CRIME MAGAZINE - COPPIE POLIZIESCHE - CRIME MAGAZINE
-[  Info  ]       Replaces ----- start = 27/10/2016 05:20:00 stop = 27/10/2016 05:30:00 title = CRIME MAGAZINE - COPPIE POLIZIESCHE - CRIME MAGAZINE
-[  Debug ]    suspicious      title in index page  = THE MENTALIST IV
-[  Debug ]       differs from title in showdetails = L' UOMO DEI PALLONCINI ROS.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 05:30:00 stop = 27/10/2016 06:14:00 title = L' UOMO DEI PALLONCINI ROSSI - THE MENTALIST IV
-[  Info  ]       Replaces ----- start = 27/10/2016 05:30:00 stop = 27/10/2016 06:14:00 title = L' UOMO DEI PALLONCINI ROSSI - THE MENTALIST IV
-[  Debug ]    suspicious      title in index page  = CHICAGO P.D. III
-[  Debug ]       differs from title in showdetails = UN CASO DA RISOLVERE - CHI.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 07:49:00 stop = 27/10/2016 08:30:00 title = UN CASO DA RISOLVERE - CHICAGO P.D. III
-[  Info  ]       Replaces ----- start = 27/10/2016 07:49:00 stop = 27/10/2016 08:30:00 title = UN CASO DA RISOLVERE - CHICAGO P.D. III
-[  Debug ]    suspicious      title in index page  = LAW & ORDER: UNITA' SPECIALE I
-[  Debug ]       differs from title in showdetails = SPOGLIATE DI TUTTO - LAW & ORDER: UNITA'.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 08:54:00 stop = 27/10/2016 09:42:00 title = SPOGLIATE DI TUTTO - LAW & ORDER: UNITA' SPECIALE I
-[  Info  ]       Replaces ----- start = 27/10/2016 08:54:00 stop = 27/10/2016 09:42:00 title = SPOGLIATE DI TUTTO - LAW & ORDER: UNITA' SPECIALE I
-[  Debug ]    suspicious      title in index page  = THE MENTALIST IV
-[  Debug ]       differs from title in showdetails = IL FILO ROSSO VERSO CARMIN.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 11:22:00 stop = 27/10/2016 12:11:00 title = IL FILO ROSSO VERSO CARMINE O'BRIEN - THE MENTALIST IV
-[  Info  ]       Replaces ----- start = 27/10/2016 11:22:00 stop = 27/10/2016 12:11:00 title = IL FILO ROSSO VERSO CARMINE O'BRIEN - THE MENTALIST IV
-[  Debug ]    suspicious      title in index page  = SPECIAL VICTIMS UNIT XV
-[  Debug ]       differs from title in showdetails = PROVA DI CORAGGIO - LAW & ORDER: .....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 14:07:00 stop = 27/10/2016 14:56:00 title = PROVA DI CORAGGIO - LAW & ORDER: UNITA' SPECIALE XV
-[  Info  ]       Replaces ----- start = 27/10/2016 14:07:00 stop = 27/10/2016 14:56:00 title = PROVA DI CORAGGIO - LAW & ORDER: UNITA' SPECIALE XV
-[  Debug ]    suspicious      title in index page  = SPECIAL VICTIMS UNIT XV
-[  Debug ]       differs from title in showdetails = SOTTO COPERTURA - LAW & ORDER: UN.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 14:56:00 stop = 27/10/2016 15:44:00 title = SOTTO COPERTURA - LAW & ORDER: UNITA' SPECIALE XV
-[  Info  ]       Replaces ----- start = 27/10/2016 14:56:00 stop = 27/10/2016 15:44:00 title = SOTTO COPERTURA - LAW & ORDER: UNITA' SPECIALE XV
-[  Debug ]    suspicious      title in index page  = CHICAGO P.D. III
-[  Debug ]       differs from title in showdetails = LA PISTA DELLA CALIBRO 40 .....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 15:44:00 stop = 27/10/2016 16:33:00 title = LA PISTA DELLA CALIBRO 40 - CHICAGO P.D. III
-[  Info  ]       Replaces ----- start = 27/10/2016 15:44:00 stop = 27/10/2016 16:33:00 title = LA PISTA DELLA CALIBRO 40 - CHICAGO P.D. III
-[  Debug ]    suspicious      title in index page  = FOREVER I
-[  Debug ]       differs from title in showdetails = RICORDI OMICIDI - F.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 19:23:00 stop = 27/10/2016 20:14:00 title = RICORDI OMICIDI - FOREVER I
-[  Info  ]       Replaces ----- start = 27/10/2016 19:23:00 stop = 27/10/2016 20:14:00 title = RICORDI OMICIDI - FOREVER I
-[  Debug ]    suspicious      title in index page  = BLINDSPOT II
-[  Debug ]       differs from title in showdetails = BLINDSPOT II, 5 - BLIN.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 20:14:00 stop = 27/10/2016 21:05:00 title = BLINDSPOT II, 5 - BLINDSPOT II - PRIMA TV
-[  Info  ]       Replaces ----- start = 27/10/2016 20:14:00 stop = 27/10/2016 21:05:00 title = BLINDSPOT II, 5 - BLINDSPOT II - PRIMA TV
-[  Debug ]    suspicious      title in index page  = BLINDSPOT II
-[  Debug ]       differs from title in showdetails = BLINDSPOT II , 6  - BL.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 21:05:00 stop = 27/10/2016 21:57:00 title = BLINDSPOT II , 6  - BLINDSPOT II - PRIMA TV
-[  Info  ]       Replaces ----- start = 27/10/2016 21:05:00 stop = 27/10/2016 21:57:00 title = BLINDSPOT II , 6  - BLINDSPOT II - PRIMA TV
-[  Debug ]    suspicious      title in index page  = SPECIAL VICTIMS UNIT XV
-[  Debug ]       differs from title in showdetails = CRIMINE D'ONORE - LAW & ORDER: UN.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 23:44:00 stop = 28/10/2016 00:34:00 title = CRIMINE D'ONORE - LAW & ORDER: UNITA' SPECIALE XV
-[  Info  ]       Replaces ----- start = 27/10/2016 23:44:00 stop = 28/10/2016 00:34:00 title = CRIMINE D'ONORE - LAW & ORDER: UNITA' SPECIALE XV
-[  Debug ]    suspicious      title in index page  = SPECIAL VICTIMS UNIT XV
-[  Debug ]       differs from title in showdetails = INFANZIA VIOLATA - LAW & ORDER: U.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 28/10/2016 00:34:00 stop = 28/10/2016 01:15:00 title = INFANZIA VIOLATA - LAW & ORDER: UNITA' SPECIALE XV
-[  Info  ]       Replaces ----- start = 28/10/2016 00:34:00 stop = 28/10/2016 01:15:00 title = INFANZIA VIOLATA - LAW & ORDER: UNITA' SPECIALE XV
-[  Debug ]    suspicious      title in index page  = BLINDSPOT II
-[  Debug ]       differs from title in showdetails = BLINDSPOT II, 5 - BLIN.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 28/10/2016 02:19:00 stop = 28/10/2016 03:03:00 title = BLINDSPOT II, 5 - BLINDSPOT II - PRIMA TV
-[  Info  ]       Replaces ----- start = 28/10/2016 02:19:00 stop = 28/10/2016 03:03:00 title = BLINDSPOT II, 5 - BLINDSPOT II - PRIMA TV
-[  Debug ]    suspicious      title in index page  = FOREVER I
-[  Debug ]       differs from title in showdetails = RICORDI OMICIDI - F.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 28/10/2016 04:40:00 stop = 28/10/2016 05:23:00 title = RICORDI OMICIDI - FOREVER I
-[  Info  ]       Replaces ----- start = 28/10/2016 04:40:00 stop = 28/10/2016 05:23:00 title = RICORDI OMICIDI - FOREVER I
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028052300 +0200
+[  Debug ] starting with show : CRIME MAGAZINE at local time 28/10/2016 05:23
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 28/10/2016 05:23:00 stop = 28/10/2016 05:30:00 title = CRIME MAGAZINE - COPPIE POLIZIESCHE - CRIME MAGAZINE
@@ -1352,10 +1586,10 @@
 [  Info  ]       show with ---- start = 28/10/2016 19:22:00 stop = 28/10/2016 20:14:00 title = I SEGRETI RESTANO SEPOLTI - FOREVER I
 [  Info  ]       Replaces ----- start = 28/10/2016 19:22:00 stop = 28/10/2016 20:14:00 title = I SEGRETI RESTANO SEPOLTI - FOREVER I
 [  Debug ]    suspicious      title in index page  = MOTIVE IV
-[  Debug ]       differs from title in showdetails = MISCELA TOSSICA - M.....
+[  Debug ]       differs from title in showdetails = MOTIVE IV, 3 - MOTI.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 28/10/2016 22:49:00 stop = 28/10/2016 23:46:00 title = MISCELA TOSSICA - MOTIVE IV
+[  Info  ]       show with ---- start = 28/10/2016 22:49:00 stop = 28/10/2016 23:46:00 title = MOTIVE IV, 3 - MOTIVE IV
 [  Info  ]       Replaces ----- start = 28/10/2016 22:49:00 stop = 28/10/2016 23:46:00 title = MISCELA TOSSICA - MOTIVE IV
 [  Debug ]    suspicious      title in index page  = SPECIAL VICTIMS UNIT XV
 [  Debug ]       differs from title in showdetails = L' OSSESSIONE DELLA BESTIA - LAW .....
@@ -1370,10 +1604,10 @@
 [  Info  ]       show with ---- start = 29/10/2016 00:36:00 stop = 29/10/2016 01:17:00 title = POST MORTEM BLUES - LAW & ORDER: UNITA' SPECIALE XV
 [  Info  ]       Replaces ----- start = 29/10/2016 00:36:00 stop = 29/10/2016 01:17:00 title = POST MORTEM BLUES - LAW & ORDER: UNITA' SPECIALE XV
 [  Debug ]    suspicious      title in index page  = MOTIVE IV
-[  Debug ]       differs from title in showdetails = MISCELA TOSSICA - M.....
+[  Debug ]       differs from title in showdetails = MOTIVE IV, 3 - MOTI.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 29/10/2016 03:55:00 stop = 29/10/2016 04:40:00 title = MISCELA TOSSICA - MOTIVE IV
+[  Info  ]       show with ---- start = 29/10/2016 03:55:00 stop = 29/10/2016 04:40:00 title = MOTIVE IV, 3 - MOTIVE IV
 [  Info  ]       Replaces ----- start = 29/10/2016 03:55:00 stop = 29/10/2016 04:40:00 title = MISCELA TOSSICA - MOTIVE IV
 [  Debug ]    suspicious      title in index page  = FOREVER I
 [  Debug ]       differs from title in showdetails = I SEGRETI RESTANO S.....
@@ -1443,160 +1677,21 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 29/10/2016 20:14:00 stop = 29/10/2016 21:04:00 title = I BARBIERI DI SIVIGLIA - MURDER IN THE FIRST III - PRIMA TV
 [  Info  ]       Replaces ----- start = 29/10/2016 20:14:00 stop = 29/10/2016 21:04:00 title = I BARBIERI DI SIVIGLIA - MURDER IN THE FIRST III - PRIMA TV
+[  Debug ]    suspicious      title in index page  = CRIMING
+[  Debug ]       differs from title in showdetails = HARLEE SANTOS ( S.....
+[  Debug ]    suspicious      title in index page  = SPECIAL VICTIMS UNIT XV
+[  Debug ]       differs from title in showdetails = RAGIONEVOLE DUBBIO - LAW & ORDER:.....
+[  Debug ]    suspicious      title in index page  = SPECIAL VICTIMS UNIT XV
+[  Debug ]       differs from title in showdetails = PENSIERI CRIMINALI - LAW & ORDER:.....
+[  Debug ]    suspicious      title in index page  = MURDER IN THE FIRST III
+[  Debug ]       differs from title in showdetails = I BARBIERI DI SIVIGLIA - MURDER I.....
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:07:00 and stop at 30/10/2016 03:51:00
+[  Debug ]    skipped show longer than 15 hour(s) at 30/10/2016 02:51:00 title THE FOLLOWING III
 [  Debug ]    skipped 
-[  Info  ] 0.57 sec/update
+[  Info  ] 0.49 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM JOY) site -- MEDIASETPREMIUM.IT -- mode incremental
-[  Debug ]    suspicious      title in index page  = SUBURGATORY I
-[  Debug ]       differs from title in showdetails = L' ALLEGRA COMARE DI CH.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 05:09:00 stop = 27/10/2016 05:30:00 title = L' ALLEGRA COMARE DI CHATSWIN - SUBURGATORY I
-[  Info  ]       Replaces ----- start = 27/10/2016 05:09:00 stop = 27/10/2016 05:30:00 title = L' ALLEGRA COMARE DI CHATSWIN - SUBURGATORY I
-[  Debug ]    suspicious      title in index page  = SUBURGATORY I
-[  Debug ]       differs from title in showdetails = NON CHIAMARMI SHIRLEY -.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 05:30:00 stop = 27/10/2016 05:56:00 title = NON CHIAMARMI SHIRLEY - SUBURGATORY I
-[  Info  ]       Replaces ----- start = 27/10/2016 05:30:00 stop = 27/10/2016 05:56:00 title = NON CHIAMARMI SHIRLEY - SUBURGATORY I
-[  Debug ]    suspicious      title in index page  = THE MIDDLE III
-[  Debug ]       differs from title in showdetails = LA SECCHIONA OTTIMISTA -.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 05:56:00 stop = 27/10/2016 06:22:00 title = LA SECCHIONA OTTIMISTA - THE MIDDLE III
-[  Info  ]       Replaces ----- start = 27/10/2016 05:56:00 stop = 27/10/2016 06:22:00 title = LA SECCHIONA OTTIMISTA - THE MIDDLE III
-[  Debug ]    suspicious      title in index page  = THE MIDDLE III
-[  Debug ]       differs from title in showdetails = TUTTA COLPA DI AXL! - TH.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 06:22:00 stop = 27/10/2016 07:01:00 title = TUTTA COLPA DI AXL! - THE MIDDLE III
-[  Info  ]       Replaces ----- start = 27/10/2016 06:22:00 stop = 27/10/2016 07:01:00 title = TUTTA COLPA DI AXL! - THE MIDDLE III
-[  Debug ]    suspicious      title in index page  = DEADBEAT II
-[  Debug ]       differs from title in showdetails = UN FANTASMA IN CUCINA.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 07:29:00 stop = 27/10/2016 07:57:00 title = UN FANTASMA IN CUCINA - DEADBEAT II
-[  Info  ]       Replaces ----- start = 27/10/2016 07:29:00 stop = 27/10/2016 07:57:00 title = UN FANTASMA IN CUCINA - DEADBEAT II
-[  Debug ]    suspicious      title in index page  = PSYCH III
-[  Debug ]       differs from title in showdetails = MISTERO NELL'OCEANO.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 08:43:00 stop = 27/10/2016 09:29:00 title = MISTERO NELL'OCEANO - PSYCH III
-[  Info  ]       Replaces ----- start = 27/10/2016 08:43:00 stop = 27/10/2016 09:29:00 title = MISTERO NELL'OCEANO - PSYCH III
-[  Debug ]    suspicious      title in index page  = BIG BANG THEORY VIII
-[  Debug ]       differs from title in showdetails = LA DETERMINAZIONE DELL'IMPEGNO.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 09:53:00 stop = 27/10/2016 10:18:00 title = LA DETERMINAZIONE DELL'IMPEGNO - BIG BANG THEORY VIII
-[  Info  ]       Replaces ----- start = 27/10/2016 09:53:00 stop = 27/10/2016 10:18:00 title = LA DETERMINAZIONE DELL'IMPEGNO - BIG BANG THEORY VIII
-[  Debug ]    suspicious      title in index page  = 2 BROKE GIRLS III
-[  Debug ]       differs from title in showdetails = E DUE COSE IN UNA - 2 BROKE.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 10:18:00 stop = 27/10/2016 10:44:00 title = E DUE COSE IN UNA - 2 BROKE GIRLS III - PRIMA TV
-[  Info  ]       Replaces ----- start = 27/10/2016 10:18:00 stop = 27/10/2016 10:44:00 title = E DUE COSE IN UNA - 2 BROKE GIRLS III - PRIMA TV
-[  Debug ]    suspicious      title in index page  = NEW GIRL I
-[  Debug ]       differs from title in showdetails = AMORE A PRIMA VISTA .....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 11:35:00 stop = 27/10/2016 12:02:00 title = AMORE A PRIMA VISTA - I PARTE - NEW GIRL I
-[  Info  ]       Replaces ----- start = 27/10/2016 11:35:00 stop = 27/10/2016 12:02:00 title = AMORE A PRIMA VISTA - I PARTE - NEW GIRL I
-[  Debug ]    suspicious      title in index page  = NEW GIRL I
-[  Debug ]       differs from title in showdetails = AMORE A PRIMA VISTA .....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 12:02:00 stop = 27/10/2016 12:30:00 title = AMORE A PRIMA VISTA - II PARTE - NEW GIRL I
-[  Info  ]       Replaces ----- start = 27/10/2016 12:02:00 stop = 27/10/2016 12:30:00 title = AMORE A PRIMA VISTA - II PARTE - NEW GIRL I
-[  Debug ]    suspicious      title in index page  = PSYCH III
-[  Debug ]       differs from title in showdetails = INDAGINE AL BUIO - .....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 14:47:00 stop = 27/10/2016 15:34:00 title = INDAGINE AL BUIO - PSYCH III
-[  Info  ]       Replaces ----- start = 27/10/2016 14:47:00 stop = 27/10/2016 15:34:00 title = INDAGINE AL BUIO - PSYCH III
-[  Debug ]    suspicious      title in index page  = THE MIDDLE III
-[  Debug ]       differs from title in showdetails = IL TEST D'AMMISSIONE - T.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 15:34:00 stop = 27/10/2016 16:01:00 title = IL TEST D'AMMISSIONE - THE MIDDLE III
-[  Info  ]       Replaces ----- start = 27/10/2016 15:34:00 stop = 27/10/2016 16:01:00 title = IL TEST D'AMMISSIONE - THE MIDDLE III
-[  Debug ]    suspicious      title in index page  = THE MIDDLE III
-[  Debug ]       differs from title in showdetails = ACQUA A CATINELLE! - THE.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 16:01:00 stop = 27/10/2016 16:27:00 title = ACQUA A CATINELLE! - THE MIDDLE III
-[  Info  ]       Replaces ----- start = 27/10/2016 16:01:00 stop = 27/10/2016 16:27:00 title = ACQUA A CATINELLE! - THE MIDDLE III
-[  Debug ]    suspicious      title in index page  = DEADBEAT II
-[  Debug ]       differs from title in showdetails = I FANTASMI VOGLIONO S.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 16:27:00 stop = 27/10/2016 16:55:00 title = I FANTASMI VOGLIONO SOLO DIVERTIRSI - DEADBEAT II
-[  Info  ]       Replaces ----- start = 27/10/2016 16:27:00 stop = 27/10/2016 16:55:00 title = I FANTASMI VOGLIONO SOLO DIVERTIRSI - DEADBEAT II
-[  Debug ]    suspicious      title in index page  = DEADBEAT II
-[  Debug ]       differs from title in showdetails = L' ULTIMO BALLO - DEA.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 16:55:00 stop = 27/10/2016 17:23:00 title = L' ULTIMO BALLO - DEADBEAT II
-[  Info  ]       Replaces ----- start = 27/10/2016 16:55:00 stop = 27/10/2016 17:23:00 title = L' ULTIMO BALLO - DEADBEAT II
-[  Debug ]    suspicious      title in index page  = 2 BROKE GIRLS III
-[  Debug ]       differs from title in showdetails = E LE LENZUOLA NUOVE - 2 BRO.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 18:09:00 stop = 27/10/2016 18:34:00 title = E LE LENZUOLA NUOVE - 2 BROKE GIRLS III - PRIMA TV
-[  Info  ]       Replaces ----- start = 27/10/2016 18:09:00 stop = 27/10/2016 18:34:00 title = E LE LENZUOLA NUOVE - 2 BROKE GIRLS III - PRIMA TV
-[  Debug ]    suspicious      title in index page  = THE GOLDBERGS II
-[  Debug ]       differs from title in showdetails = IL BALLO DI DARRYL DAWKINS.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 20:15:00 stop = 27/10/2016 20:41:00 title = IL BALLO DI DARRYL DAWKINS - THE GOLDBERGS II - PRIMA TV
-[  Info  ]       Replaces ----- start = 27/10/2016 20:15:00 stop = 27/10/2016 20:41:00 title = IL BALLO DI DARRYL DAWKINS - THE GOLDBERGS II - PRIMA TV
-[  Debug ]    suspicious      title in index page  = THE GOLDBERGS II
-[  Debug ]       differs from title in showdetails = LA TERRA DEI COWBOYS - THE.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 20:41:00 stop = 27/10/2016 21:08:00 title = LA TERRA DEI COWBOYS - THE GOLDBERGS II - PRIMA TV
-[  Info  ]       Replaces ----- start = 27/10/2016 20:41:00 stop = 27/10/2016 21:08:00 title = LA TERRA DEI COWBOYS - THE GOLDBERGS II - PRIMA TV
-[  Debug ]    suspicious      title in index page  = THE BIG BANG THEORY VII
-[  Debug ]       differs from title in showdetails = L' AMALGAMAZIONE DELL'INCERTEZZA .....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 22:01:00 stop = 27/10/2016 22:23:00 title = L' AMALGAMAZIONE DELL'INCERTEZZA - BIG BANG THEORY VII
-[  Info  ]       Replaces ----- start = 27/10/2016 22:01:00 stop = 27/10/2016 22:23:00 title = L' AMALGAMAZIONE DELL'INCERTEZZA - BIG BANG THEORY VII
-[  Debug ]    suspicious      title in index page  = PSYCH III
-[  Debug ]       differs from title in showdetails = CACCIA AL PIROMANE .....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 23:55:00 stop = 28/10/2016 00:40:00 title = CACCIA AL PIROMANE - PSYCH III
-[  Info  ]       Replaces ----- start = 27/10/2016 23:55:00 stop = 28/10/2016 00:40:00 title = CACCIA AL PIROMANE - PSYCH III
-[  Debug ]    suspicious      title in index page  = THE GOLDBERGS II
-[  Debug ]       differs from title in showdetails = IL BALLO DI DARRYL DAWKINS.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 28/10/2016 01:26:00 stop = 28/10/2016 01:49:00 title = IL BALLO DI DARRYL DAWKINS - THE GOLDBERGS II - PRIMA TV
-[  Info  ]       Replaces ----- start = 28/10/2016 01:26:00 stop = 28/10/2016 01:49:00 title = IL BALLO DI DARRYL DAWKINS - THE GOLDBERGS II - PRIMA TV
-[  Debug ]    suspicious      title in index page  = THE GOLDBERGS II
-[  Debug ]       differs from title in showdetails = LA TERRA DEI COWBOYS - THE.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 28/10/2016 01:49:00 stop = 28/10/2016 02:20:00 title = LA TERRA DEI COWBOYS - THE GOLDBERGS II - PRIMA TV
-[  Info  ]       Replaces ----- start = 28/10/2016 01:49:00 stop = 28/10/2016 02:20:00 title = LA TERRA DEI COWBOYS - THE GOLDBERGS II - PRIMA TV
-[  Debug ]    suspicious      title in index page  = HART OF DIXIE III
-[  Debug ]       differs from title in showdetails = UNA BUONA DOSE DI SFORTUNA .....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 28/10/2016 03:04:00 stop = 28/10/2016 03:47:00 title = UNA BUONA DOSE DI SFORTUNA - HART OF DIXIE III
-[  Info  ]       Replaces ----- start = 28/10/2016 03:04:00 stop = 28/10/2016 03:47:00 title = UNA BUONA DOSE DI SFORTUNA - HART OF DIXIE III
-[  Debug ]    suspicious      title in index page  = PSYCH III
-[  Debug ]       differs from title in showdetails = IL GIOCATORE SCOMPA.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 28/10/2016 03:47:00 stop = 28/10/2016 04:46:00 title = IL GIOCATORE SCOMPARSO - PSYCH III
-[  Info  ]       Replaces ----- start = 28/10/2016 03:47:00 stop = 28/10/2016 04:46:00 title = IL GIOCATORE SCOMPARSO - PSYCH III
-[  Debug ]    suspicious      title in index page  = SUBURGATORY I
-[  Debug ]       differs from title in showdetails = L' ALLEGRA COMARE DI CH.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 28/10/2016 04:46:00 stop = 28/10/2016 05:09:00 title = L' ALLEGRA COMARE DI CHATSWIN - SUBURGATORY I
-[  Info  ]       Replaces ----- start = 28/10/2016 04:46:00 stop = 28/10/2016 05:09:00 title = L' ALLEGRA COMARE DI CHATSWIN - SUBURGATORY I
 [  Debug ]    suspicious      title in index page  = SUBURGATORY I
 [  Debug ]       differs from title in showdetails = NON CHIAMARMI SHIRLEY -.....
 [  Info  ]    epg correction : 
@@ -1799,13 +1894,13 @@
 [  Debug ]       differs from title in showdetails = WEEKEND CON BIRDIE - MIKE.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 29/10/2016 15:34:00 stop = 29/10/2016 16:00:00 title = WEEKEND CON BIRDIE - MIKE & MOLLY VI - PRIMA TV
+[  Info  ]       show with ---- start = 29/10/2016 15:34:00 stop = 29/10/2016 16:00:00 title = WEEKEND CON BIRDIE - MIKE & MOLLY VI
 [  Info  ]       Replaces ----- start = 29/10/2016 15:34:00 stop = 29/10/2016 16:00:00 title = WEEKEND CON BIRDIE - MIKE & MOLLY VI - PRIMA TV
 [  Debug ]    suspicious      title in index page  = MIKE & MOLLY VI
 [  Debug ]       differs from title in showdetails = IL NAUFRAGIO DELLA VINCEN.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 29/10/2016 16:00:00 stop = 29/10/2016 16:26:00 title = IL NAUFRAGIO DELLA VINCENT MORANTO - MIKE & MOLLY VI - PRIMA TV
+[  Info  ]       show with ---- start = 29/10/2016 16:00:00 stop = 29/10/2016 16:26:00 title = IL NAUFRAGIO DELLA VINCENT MORANTO - MIKE & MOLLY VI
 [  Info  ]       Replaces ----- start = 29/10/2016 16:00:00 stop = 29/10/2016 16:26:00 title = IL NAUFRAGIO DELLA VINCENT MORANTO - MIKE & MOLLY VI - PRIMA TV
 [  Debug ]    suspicious      title in index page  = SUPERSTORE
 [  Debug ]       differs from title in showdetails = LA GARA DEI COLORI -.....
@@ -1873,54 +1968,51 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 29/10/2016 23:44:00 stop = 30/10/2016 00:08:00 title = IL VERME SOLITARIO - DEADBEAT I
 [  Info  ]       Replaces ----- start = 29/10/2016 23:44:00 stop = 30/10/2016 00:08:00 title = IL VERME SOLITARIO - DEADBEAT I
+[  Debug ]    suspicious      title in index page  = DEADBEAT I
+[  Debug ]       differs from title in showdetails = HALLOWEEN CON SORPRE.....
+[  Debug ]    suspicious      title in index page  = DEADBEAT I
+[  Debug ]       differs from title in showdetails = LA CASA DEGLI ORRORI.....
+[  Debug ]    suspicious      title in index page  = DEADBEAT I
+[  Debug ]       differs from title in showdetails = REAZIONI A CATENA - .....
+[  Debug ]    suspicious      title in index page  = DEADBEAT I
+[  Debug ]       differs from title in showdetails = LA SFIDA - DEADBEAT .....
+[  Debug ]    suspicious      title in index page  = DEADBEAT I
+[  Debug ]       differs from title in showdetails = IL MOSTRO DELLA METR.....
+[  Debug ]    suspicious      title in index page  = $#*! MY DAD SAYS
+[  Debug ]       differs from title in showdetails = LOTTA ALL'ULTIMO WIFI - MY.....
+[  Debug ]    suspicious      title in index page  = $#*! MY DAD SAYS
+[  Debug ]       differs from title in showdetails = LA VERITA' SU PAPA' E MAMM.....
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030031700 +0100
+[  Debug ] starting with show : THE GOLDBERGS II at local time 30/10/2016 03:17
+[  Debug ]    suspicious      title in index page  = THE GOLDBERGS II
+[  Debug ]       differs from title in showdetails = IL BALLO DI DARRYL DAWKINS.....
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:17:00 and stop at 30/10/2016 03:39:00
+[  Debug ]    skipped show longer than 15 hour(s) at 30/10/2016 02:39:00 title HART OF DIXIE III
 [  Debug ]    skipped 
-[  Info  ] 0.58 sec/update
+[  Info  ] 0.57 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM MYA) site -- MEDIASET.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030031600 +0100
+[  Debug ] starting with show : CHASING LIFE I at local time 30/10/2016 03:16
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 30/10/2016 03:16:00 and stop at 30/10/2016 03:57:00
 [  Debug ]    skipped 
-[  Info  ] 
+[  Info  ] 0.42 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM TOP CRIME) site -- MEDIASET.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028062800 +0200
+[  Debug ] starting with show : DISTRETTO DI POLIZIA 1 at local time 28/10/2016 06:28
 [  Debug ]    skipped 
-[  Info  ] 0.71 sec/update
+[  Info  ] 0.36 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM STORIES) site -- MEDIASETPREMIUM.IT -- mode incremental
-[  Debug ]    suspicious      title in index page  = HARRY'S LAW I
-[  Debug ]       differs from title in showdetails = LE FRAGILI CREATURE - H.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 09:00:00 stop = 27/10/2016 09:56:00 title = LE FRAGILI CREATURE - HARRY'S LAW I
-[  Info  ]       Replaces ----- start = 27/10/2016 09:00:00 stop = 27/10/2016 09:56:00 title = LE FRAGILI CREATURE - HARRY'S LAW I
-[  Debug ]    suspicious      title in index page  = COVERT AFFAIRS II
-[  Debug ]       differs from title in showdetails = ALLA RICERCA DEL MICRODOT -.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 10:47:00 stop = 27/10/2016 11:42:00 title = ALLA RICERCA DEL MICRODOT - COVERT AFFAIRS II
-[  Info  ]       Replaces ----- start = 27/10/2016 10:47:00 stop = 27/10/2016 11:42:00 title = ALLA RICERCA DEL MICRODOT - COVERT AFFAIRS II
-[  Debug ]    suspicious      title in index page  = HARRY'S LAW I
-[  Debug ]       differs from title in showdetails = L' AVVOCATO DELLE CAUSE.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 16:47:00 stop = 27/10/2016 17:39:00 title = L' AVVOCATO DELLE CAUSE PERSE - HARRY'S LAW I
-[  Info  ]       Replaces ----- start = 27/10/2016 16:47:00 stop = 27/10/2016 17:39:00 title = L' AVVOCATO DELLE CAUSE PERSE - HARRY'S LAW I
-[  Debug ]    suspicious      title in index page  = HEARTBEAT
-[  Debug ]       differs from title in showdetails = UN INTERVENTO COMPL.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 21:58:00 stop = 27/10/2016 22:45:00 title = UN INTERVENTO COMPLICATO - HEARTBEAT
-[  Info  ]       Replaces ----- start = 27/10/2016 21:58:00 stop = 27/10/2016 22:45:00 title = UN INTERVENTO COMPLICATO - HEARTBEAT
-[  Debug ]    suspicious      title in index page  = X-STYLE
-[  Debug ]       differs from title in showdetails = MDFF RIVA 1920 - .....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 22:45:00 stop = 27/10/2016 22:52:00 title = MDFF RIVA 1920 - X-STYLE
-[  Info  ]       Replaces ----- start = 27/10/2016 22:45:00 stop = 27/10/2016 22:52:00 title = MDFF RIVA 1920 - X-STYLE
-[  Debug ]    suspicious      title in index page  = DANCE ACADEMY I
-[  Debug ]       differs from title in showdetails = SOGNO DI UNA NOTTE DI MEZ.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 28/10/2016 02:52:00 stop = 28/10/2016 03:17:00 title = SOGNO DI UNA NOTTE DI MEZZA ESTATE - DANCE ACADEMY I
-[  Info  ]       Replaces ----- start = 28/10/2016 02:52:00 stop = 28/10/2016 03:17:00 title = SOGNO DI UNA NOTTE DI MEZZA ESTATE - DANCE ACADEMY I
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028053000 +0200
+[  Debug ] starting with show : DANCE ACADEMY I at local time 28/10/2016 05:30
 [  Debug ]    suspicious      title in index page  = HARRY'S LAW I
 [  Debug ]       differs from title in showdetails = LE FRAGILI CREATURE - H.....
 [  Info  ]    epg correction : 
@@ -2021,8 +2113,17 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 29/10/2016 20:14:00 stop = 29/10/2016 21:06:00 title = AISHA - THE SLAP - PRIMA TV
 [  Info  ]       Replaces ----- start = 29/10/2016 20:14:00 stop = 29/10/2016 21:06:00 title = AISHA - THE SLAP - PRIMA TV
+[  Debug ]    suspicious      title in index page  = CHASING LIFE I
+[  Debug ]       differs from title in showdetails = IN CERCA DI AIUTO - CHAS.....
+[  Debug ]    suspicious      title in index page  = CHASING LIFE I
+[  Debug ]       differs from title in showdetails = AMORE E SUCCO DI CAROTA .....
+[  Debug ]    suspicious      title in index page  = CHASING LIFE I
+[  Debug ]       differs from title in showdetails = NON E' TEMPO DI DORMIRE .....
+[  Debug ]    suspicious      title in index page  = CHASING LIFE I
+[  Debug ]       differs from title in showdetails = LE BUGIE DI FAMIGLIA - C.....
+[  Debug ]    skipped show longer than 15 hour(s) at 30/10/2016 02:42:00 title THE SLAP
 [  Debug ]    skipped 
-[  Info  ] 0.56 sec/update
+[  Info  ] 0.57 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM BBC) site -- MEDIASETPREMIUM.IT -- mode incremental
 [  Error ] no index page data received from PREMIUM BBC
@@ -2045,90 +2146,13 @@
 [  Info  ] existing guide data restored!
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SPORT ITALIA) site -- GUIDATV.SKY.IT -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030060000 +0100
+[  Debug ] starting with show : On Race TV at local time 30/10/2016 06:00
 [  Debug ]    skipped 
-[  Info  ] 1.19 sec/update
+[  Info  ] 0.86 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM SPORT HD) site -- MEDIASETPREMIUM.IT -- mode incremental
-[  Debug ]    suspicious      title in index page  = HIGHLIGHTS SERIE A DECIMA GIORNATA
-[  Debug ]       differs from title in showdetails = DECIMA GIORNATA 26/10 - HIGHLIGHTS SERIE A 3.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 05:59:00 stop = 27/10/2016 06:30:00 title = DECIMA GIORNATA 26/10 - HIGHLIGHTS SERIE A 30M-'17
-[  Info  ]       Replaces ----- start = 27/10/2016 05:59:00 stop = 27/10/2016 06:30:00 title = DECIMA GIORNATA 26/10 - HIGHLIGHTS SERIE A 30M-'17
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 06:30:00 stop = 27/10/2016 06:45:00 title = 27/10 H.7.30 - PREMIUM SPORT EDICOLA
-[  Info  ]       Replaces ----- start = 27/10/2016 06:30:00 stop = 27/10/2016 06:45:00 title = 27/10 H.7.30 - PREMIUM SPORT EDICOLA
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 06:45:00 stop = 27/10/2016 07:15:00 title = 27/10 H.7.45 - PREMIUM SPORT EDICOLA
-[  Info  ]       Replaces ----- start = 27/10/2016 06:45:00 stop = 27/10/2016 07:15:00 title = 27/10 H.7.45 - PREMIUM SPORT EDICOLA
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 07:15:00 stop = 27/10/2016 07:28:00 title = 27/10 H.7.30 - PREMIUM SPORT EDICOLA
-[  Info  ]       Replaces ----- start = 27/10/2016 07:15:00 stop = 27/10/2016 07:28:00 title = 27/10 H.7.30 - PREMIUM SPORT EDICOLA
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 07:28:00 stop = 27/10/2016 08:00:00 title = 27/10 H.8.30 - PREMIUM SPORT EDICOLA
-[  Info  ]       Replaces ----- start = 27/10/2016 07:28:00 stop = 27/10/2016 08:00:00 title = 27/10 H.8.30 - PREMIUM SPORT EDICOLA
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 08:00:00 stop = 27/10/2016 08:30:00 title = 27/10 H.9.00 - PREMIUM SPORT EDICOLA
-[  Info  ]       Replaces ----- start = 27/10/2016 08:00:00 stop = 27/10/2016 08:30:00 title = 27/10 H.9.00 - PREMIUM SPORT EDICOLA
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 08:30:00 stop = 27/10/2016 09:00:00 title = 27/10 H.9.30 - PREMIUM SPORT EDICOLA
-[  Info  ]       Replaces ----- start = 27/10/2016 08:30:00 stop = 27/10/2016 09:00:00 title = 27/10 H.9.30 - PREMIUM SPORT EDICOLA
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 09:00:00 stop = 27/10/2016 09:30:00 title = 27/10 H.10.00 - PREMIUM SPORT EDICOLA
-[  Info  ]       Replaces ----- start = 27/10/2016 09:00:00 stop = 27/10/2016 09:30:00 title = 27/10 H.10.00 - PREMIUM SPORT EDICOLA
-[  Debug ]    suspicious      title in index page  = HIGHLIGHTS SERIE A DECIMA GIORNATA
-[  Debug ]       differs from title in showdetails = DECIMA GIORNATA 26/10 - HIGHLIGHTS SERIE A 3.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 10:00:00 stop = 27/10/2016 10:31:00 title = DECIMA GIORNATA 26/10 - HIGHLIGHTS SERIE A 30M-'17
-[  Info  ]       Replaces ----- start = 27/10/2016 10:00:00 stop = 27/10/2016 10:31:00 title = DECIMA GIORNATA 26/10 - HIGHLIGHTS SERIE A 30M-'17
-[  Debug ]    suspicious      title in index page  = HIGHLIGHTS CAMPIONATO FRANCESE
-[  Debug ]       differs from title in showdetails = PUNTATA 10 - 25/10 - HIGHLIGHTS CAMPIONA.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 10:31:00 stop = 27/10/2016 11:30:00 title = PUNTATA 10 - 25/10 - HIGHLIGHTS CAMPIONATO FRANCESE -'17
-[  Info  ]       Replaces ----- start = 27/10/2016 10:31:00 stop = 27/10/2016 11:30:00 title = PUNTATA 10 - 25/10 - HIGHLIGHTS CAMPIONATO FRANCESE -'17
-[  Debug ]    suspicious      title in index page  = PREMIUM MOMENTS PIRLO: IL MAGO DELLE PUNIZIONI
-[  Debug ]       differs from title in showdetails = PIRLO: IL MAGO DELLE PUNIZIONI (4') - PREMIUM MOMENTS
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 12:49:00 stop = 27/10/2016 12:54:00 title = PIRLO: IL MAGO DELLE PUNIZIONI (4') - PREMIUM MOMENTS
-[  Info  ]       Replaces ----- start = 27/10/2016 12:49:00 stop = 27/10/2016 12:54:00 title = PIRLO: IL MAGO DELLE PUNIZIONI (4') - PREMIUM MOMENTS
-[  Debug ]    suspicious      title in index page  = PREMIUM MOMENTS ZAZA, IL FOLLE DEL GOL
-[  Debug ]       differs from title in showdetails = ZAZA, IL FOLLE DEL GOL   - PREMIUM MOMENTS
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 12:54:00 stop = 27/10/2016 13:00:00 title = ZAZA, IL FOLLE DEL GOL   - PREMIUM MOMENTS
-[  Info  ]       Replaces ----- start = 27/10/2016 12:54:00 stop = 27/10/2016 13:00:00 title = ZAZA, IL FOLLE DEL GOL   - PREMIUM MOMENTS
-[  Debug ]    suspicious      title in index page  = HIGHLIGHTS SERIE A DECIMA GIORNATA
-[  Debug ]       differs from title in showdetails = DECIMA GIORNATA 26/10 - HIGHLIGHTS SERIE A 3.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 14:27:00 stop = 27/10/2016 15:01:00 title = DECIMA GIORNATA 26/10 - HIGHLIGHTS SERIE A 30M-'17
-[  Info  ]       Replaces ----- start = 27/10/2016 14:27:00 stop = 27/10/2016 15:01:00 title = DECIMA GIORNATA 26/10 - HIGHLIGHTS SERIE A 30M-'17
-[  Debug ]    suspicious      title in index page  = PREMIUM MOMENTS LEO MESSI: LA PULCE ATOMICA
-[  Debug ]       differs from title in showdetails = LEO MESSI: LA PULCE ATOMICA (5'30) - PREMIUM MOMENTS
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 15:51:00 stop = 27/10/2016 16:00:00 title = LEO MESSI: LA PULCE ATOMICA (5'30) - PREMIUM MOMENTS
-[  Info  ]       Replaces ----- start = 27/10/2016 15:51:00 stop = 27/10/2016 16:00:00 title = LEO MESSI: LA PULCE ATOMICA (5'30) - PREMIUM MOMENTS
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 18:30:00 stop = 27/10/2016 20:00:00 title = YOUPREMIUM - 27/10 - YOUPREMIUM
-[  Info  ]       Replaces ----- start = 27/10/2016 18:30:00 stop = 27/10/2016 20:00:00 title = YOUPREMIUM - 27/10 - YOUPREMIUM
-[  Debug ]    suspicious      title in index page  = PREMIUM MOMENTS PIRLO: IL MAGO DELLE PUNIZIONI
-[  Debug ]       differs from title in showdetails = PIRLO: IL MAGO DELLE PUNIZIONI (4') - PREMIUM MOMENTS
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 21:51:00 stop = 27/10/2016 22:00:00 title = PIRLO: IL MAGO DELLE PUNIZIONI (4') - PREMIUM MOMENTS
-[  Info  ]       Replaces ----- start = 27/10/2016 21:51:00 stop = 27/10/2016 22:00:00 title = PIRLO: IL MAGO DELLE PUNIZIONI (4') - PREMIUM MOMENTS
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 28/10/2016 06:30:00 stop = 28/10/2016 06:45:00 title = 28/10 H.7.30 - PREMIUM SPORT EDICOLA
@@ -2157,12 +2181,27 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 28/10/2016 09:00:00 stop = 28/10/2016 09:30:00 title = 28/10 H.10.00 - PREMIUM SPORT EDICOLA
 [  Info  ]       Replaces ----- start = 28/10/2016 09:00:00 stop = 28/10/2016 09:30:00 title = 28/10 H.10.00 - PREMIUM SPORT EDICOLA
-[  Debug ]    suspicious      title in index page  = HIGHLIGHTS SERIE A DECIMA GIORNATA
-[  Debug ]       differs from title in showdetails = DECIMA GIORNATA 26/10 - HIGHLIGHTS SERIE A 3.....
+[  Debug ]    suspicious      title in index page  = SERIE A REVIEW
+[  Debug ]       differs from title in showdetails = GIOVEDI 27/10 - SERIE A .....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 28/10/2016 10:59:00 stop = 28/10/2016 11:30:00 title = DECIMA GIORNATA 26/10 - HIGHLIGHTS SERIE A 30M-'17
+[  Info  ]       show with ---- start = 28/10/2016 09:30:00 stop = 28/10/2016 10:27:00 title = GIOVEDI 27/10 - SERIE A REVIEW- 17
+[  Info  ]       Replaces ----- start = 28/10/2016 09:30:00 stop = 28/10/2016 10:30:00 title = GIOVEDI 27/10 - SERIE A REVIEW- 17
+[  Debug ]    suspicious      title in index page  = FUTBOL LATINO
+[  Debug ]       differs from title in showdetails = EPISODIO 1  26/10 - FUT.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 28/10/2016 10:27:00 stop = 28/10/2016 10:55:00 title = EPISODIO 1  26/10 - FUTBOL LATINO-17
+[  Info  ]       Replaces ----- start = 28/10/2016 09:30:00 stop = 28/10/2016 10:30:00 title = GIOVEDI 27/10 - SERIE A REVIEW- 17
+[  Info  ]       Replaces ----- start = 28/10/2016 10:30:00 stop = 28/10/2016 10:59:00 title = EPISODIO 1  26/10 - FUTBOL LATINO-17
+[  Debug ]    suspicious      title in index page  = PREMIUM SPORT NEWS
+[  Debug ]       differs from title in showdetails = 28/10 H. 12.30 - PREMIUM SPO.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 28/10/2016 10:55:00 stop = 28/10/2016 12:15:00 title = 28/10 H. 12.30 - PREMIUM SPORT NEWS
+[  Info  ]       Replaces ----- start = 28/10/2016 10:30:00 stop = 28/10/2016 10:59:00 title = EPISODIO 1  26/10 - FUTBOL LATINO-17
 [  Info  ]       Replaces ----- start = 28/10/2016 10:59:00 stop = 28/10/2016 11:30:00 title = DECIMA GIORNATA 26/10 - HIGHLIGHTS SERIE A 30M-'17
+[  Info  ]       Replaces ----- start = 28/10/2016 11:30:00 stop = 28/10/2016 12:15:00 title = 28/10 H. 12.30 - PREMIUM SPORT NEWS
 [  Debug ]    suspicious      title in index page  = PREMIUM MOMENTS SHEVA: LO ZAR DEL MILAN
 [  Debug ]       differs from title in showdetails = SHEVA: LO ZAR DEL MILAN (5') - PREMIUM MOMENTS
 [  Info  ]    epg correction : 
@@ -2245,68 +2284,34 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 29/10/2016 18:30:00 stop = 29/10/2016 23:00:00 title = JUVENTUS - NAPOLI - CAMPIONATO DI CALCIO SERIE A 16 - 17 (JUVENTUS)
 [  Info  ]       Replaces ----- start = 29/10/2016 18:30:00 stop = 29/10/2016 23:00:00 title = JUVENTUS - NAPOLI - CAMPIONATO DI CALCIO SERIE A 16 - 17 (JUVENTUS)
+[  Debug ]    suspicious      title in index page  = PREMIUM SPORT NEWS
+[  Debug ]       differs from title in showdetails = 29/10 H. 24.00 - PREMIUM SPO.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2016 23:00:00 stop = 29/10/2016 23:29:00 title = 29/10 H. 24.00 - PREMIUM SPORT NEWS
+[  Info  ]       Replaces ----- start = 29/10/2016 23:00:00 stop = 29/10/2016 23:30:00 title = 29/10 H. 24.00 - PREMIUM SPORT NEWS
+[  Debug ]    suspicious      title in index page  = FUTBOL LATINO
+[  Debug ]       differs from title in showdetails = EPISODIO 1  26/10 - FUT.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2016 23:29:00 stop = 29/10/2016 23:54:00 title = EPISODIO 1  26/10 - FUTBOL LATINO-17
+[  Info  ]       Replaces ----- start = 29/10/2016 23:00:00 stop = 29/10/2016 23:30:00 title = 29/10 H. 24.00 - PREMIUM SPORT NEWS
+[  Info  ]       Replaces ----- start = 29/10/2016 23:30:00 stop = 30/10/2016 01:15:00 title = SAINT ETIENNE - MONACO 29/10 - LIGUE 1 - 17
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2016 23:54:00 stop = 30/10/2016 01:56:00 title = ESTUDIANTES - RACING CLUB 30/10 - CAMPIONATO ARGENTINO
+[  Info  ]       Replaces ----- start = 29/10/2016 23:30:00 stop = 30/10/2016 01:15:00 title = SAINT ETIENNE - MONACO 29/10 - LIGUE 1 - 17
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20161030034100 +0100
+[  Debug ] starting with show : JUVENTUS - NAPOLI at local time 30/10/2016 03:41
+[  Debug ]    skipped show longer than 15 hour(s) at 30/10/2016 02:41:00 title PREMIUM SPORT NEWS
 [  Debug ]    skipped 
-[  Info  ] 0.60 sec/update
+[  Info  ] 0.64 sec/update
 [  Debug ] 
 [  Info  ] channel (xmltv_id=PREMIUM CALCIO) site -- MEDIASETPREMIUM.IT -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 05:00:00 stop = 27/10/2016 06:48:00 title = JUVENTUS - SAMPDORIA - CAMPIONATO DI CALCIO SERIE A 16 - 17 (JUVENTUS)
-[  Info  ]       Replaces ----- start = 27/10/2016 05:00:00 stop = 27/10/2016 06:48:00 title = JUVENTUS - SAMPDORIA - CAMPIONATO DI CALCIO SERIE A 16 - 17 (JUVENTUS)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 06:48:00 stop = 27/10/2016 08:39:00 title = FIORENTINA - CROTONE - CAMPIONATO DI CALCIO SERIE A 16 - 17 (FIORENTINA)
-[  Info  ]       Replaces ----- start = 27/10/2016 06:48:00 stop = 27/10/2016 08:39:00 title = FIORENTINA - CROTONE - CAMPIONATO DI CALCIO SERIE A 16 - 17 (FIORENTINA)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 08:39:00 stop = 27/10/2016 10:30:00 title = LAZIO - CAGLIARI -  CAMPIONATO DI CALCIO SERIE A 16 - 17 (LAZIO)
-[  Info  ]       Replaces ----- start = 27/10/2016 08:39:00 stop = 27/10/2016 10:30:00 title = LAZIO - CAGLIARI -  CAMPIONATO DI CALCIO SERIE A 16 - 17 (LAZIO)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 11:30:00 stop = 27/10/2016 13:22:00 title = SASSUOLO - ROMA -  CAMPIONATO DI CALCIO SERIE A 16 - 17 (ROMA)
-[  Info  ]       Replaces ----- start = 27/10/2016 11:30:00 stop = 27/10/2016 13:22:00 title = SASSUOLO - ROMA -  CAMPIONATO DI CALCIO SERIE A 16 - 17 (ROMA)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 13:22:00 stop = 27/10/2016 15:10:00 title = NAPOLI - EMPOLI - CAMPIONATO DI CALCIO SERIE A 16 - 17 (NAPOLI)
-[  Info  ]       Replaces ----- start = 27/10/2016 13:22:00 stop = 27/10/2016 15:10:00 title = NAPOLI - EMPOLI - CAMPIONATO DI CALCIO SERIE A 16 - 17 (NAPOLI)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 15:10:00 stop = 27/10/2016 17:01:00 title = INTER - TORINO - CAMPIONATO DI CALCIO SERIE A 16 -17 (INTER)
-[  Info  ]       Replaces ----- start = 27/10/2016 15:10:00 stop = 27/10/2016 17:01:00 title = INTER - TORINO - CAMPIONATO DI CALCIO SERIE A 16 -17 (INTER)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 17:01:00 stop = 27/10/2016 18:48:00 title = JUVENTUS - SAMPDORIA - CAMPIONATO DI CALCIO SERIE A 16 - 17 (JUVENTUS)
-[  Info  ]       Replaces ----- start = 27/10/2016 17:01:00 stop = 27/10/2016 18:48:00 title = JUVENTUS - SAMPDORIA - CAMPIONATO DI CALCIO SERIE A 16 - 17 (JUVENTUS)
-[  Debug ]    suspicious      title in index page  = HIGHLIGHTS SERIE A DECIMA GIORNATA
-[  Debug ]       differs from title in showdetails = DECIMA GIORNATA 26/10 - HIGHLIGHTS SERIE A 3.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 19:18:00 stop = 27/10/2016 19:53:00 title = DECIMA GIORNATA 26/10 - HIGHLIGHTS SERIE A 30M-'17
-[  Info  ]       Replaces ----- start = 27/10/2016 19:18:00 stop = 27/10/2016 19:53:00 title = DECIMA GIORNATA 26/10 - HIGHLIGHTS SERIE A 30M-'17
-[  Debug ]    suspicious      title in index page  = PREMIUM MOMENTS KAKA': CUORE ROSSONERO
-[  Debug ]       differs from title in showdetails = KAKA': CUORE ROSSONERO (5'45) - PREMIUM MOMENTS
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 19:53:00 stop = 27/10/2016 19:59:00 title = KAKA': CUORE ROSSONERO (5'45) - PREMIUM MOMENTS
-[  Info  ]       Replaces ----- start = 27/10/2016 19:53:00 stop = 27/10/2016 19:59:00 title = KAKA': CUORE ROSSONERO (5'45) - PREMIUM MOMENTS
-[  Debug ]    suspicious      title in index page  = ARSENAL TV
-[  Debug ]       differs from title in showdetails = GIOVEDI 27/10 - ARSE.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 19:59:00 stop = 27/10/2016 23:05:00 title = GIOVEDI 27/10 - ARSENAL CHANNEL -17
-[  Info  ]       Replaces ----- start = 27/10/2016 19:59:00 stop = 27/10/2016 23:05:00 title = GIOVEDI 27/10 - ARSENAL CHANNEL -17
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2016 23:35:00 stop = 28/10/2016 01:20:00 title = NAPOLI - EMPOLI - CAMPIONATO DI CALCIO SERIE A 16 - 17 (NAPOLI)
-[  Info  ]       Replaces ----- start = 27/10/2016 23:35:00 stop = 28/10/2016 01:20:00 title = NAPOLI - EMPOLI - CAMPIONATO DI CALCIO SERIE A 16 - 17 (NAPOLI)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 28/10/2016 01:20:00 stop = 28/10/2016 03:05:00 title = FIORENTINA - CROTONE - CAMPIONATO DI CALCIO SERIE A 16 - 17 (FIORENTINA)
-[  Info  ]       Replaces ----- start = 28/10/2016 01:20:00 stop = 28/10/2016 03:05:00 title = FIORENTINA - CROTONE - CAMPIONATO DI CALCIO SERIE A 16 - 17 (FIORENTINA)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 28/10/2016 03:05:00 stop = 28/10/2016 05:00:00 title = LAZIO - CAGLIARI -  CAMPIONATO DI CALCIO SERIE A 16 - 17 (LAZIO)
-[  Info  ]       Replaces ----- start = 28/10/2016 03:05:00 stop = 28/10/2016 05:00:00 title = LAZIO - CAGLIARI -  CAMPIONATO DI CALCIO SERIE A 16 - 17 (LAZIO)
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20161028050000 +0200
+[  Debug ] starting with show : SASSUOLO - ROMA at local time 28/10/2016 05:00
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 28/10/2016 05:00:00 stop = 28/10/2016 06:47:00 title = SASSUOLO - ROMA -  CAMPIONATO DI CALCIO SERIE A 16 - 17 (ROMA)
@@ -2369,37 +2374,47 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 29/10/2016 16:26:00 stop = 29/10/2016 18:58:00 title = BOLOGNA - FIORENTINA - CAMPIONATO DI CALCIO SERIE A 16 - 17 (FIORENTINA)
 [  Info  ]       Replaces ----- start = 29/10/2016 16:26:00 stop = 29/10/2016 18:58:00 title = BOLOGNA - FIORENTINA - CAMPIONATO DI CALCIO SERIE A 16 - 17 (FIORENTINA)
+[  Debug ]    suspicious      title in index page  = SERIE A EMOTION
+[  Debug ]       differs from title in showdetails = GIOVEDI 20/10 - SERIE A E.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 29/10/2016 18:58:00 stop = 29/10/2016 20:42:00 title = ABERDEEN - CELTIC 29/10 - SCOTTISH PREMIERSHIP - 17
+[  Info  ]       show with ---- start = 29/10/2016 18:58:00 stop = 29/10/2016 19:24:00 title = GIOVEDI 20/10 - SERIE A EMOTION-'17
 [  Info  ]       Replaces ----- start = 29/10/2016 18:58:00 stop = 29/10/2016 20:42:00 title = ABERDEEN - CELTIC 29/10 - SCOTTISH PREMIERSHIP - 17
-[  Debug ]    suspicious      title in index page  = PREMIUM MOMENTS KAKA': CUORE ROSSONERO
-[  Debug ]       differs from title in showdetails = KAKA': CUORE ROSSONERO (5'45) - PREMIUM MOMENTS
+[  Debug ]    suspicious      title in index page  = FUTBOL LATINO
+[  Debug ]       differs from title in showdetails = EPISODIO 1  26/10 - FUT.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 29/10/2016 20:42:00 stop = 29/10/2016 20:49:00 title = KAKA': CUORE ROSSONERO (5'45) - PREMIUM MOMENTS
+[  Info  ]       show with ---- start = 29/10/2016 19:24:00 stop = 29/10/2016 19:54:00 title = EPISODIO 1  26/10 - FUTBOL LATINO-17
+[  Info  ]       Replaces ----- start = 29/10/2016 18:58:00 stop = 29/10/2016 20:42:00 title = ABERDEEN - CELTIC 29/10 - SCOTTISH PREMIERSHIP - 17
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2016 19:54:00 stop = 29/10/2016 21:55:00 title = BOCA JUNIORS - TEMPERLEY 29/10 - CAMPIONATO ARGENTINO
+[  Info  ]       Replaces ----- start = 29/10/2016 18:58:00 stop = 29/10/2016 20:42:00 title = ABERDEEN - CELTIC 29/10 - SCOTTISH PREMIERSHIP - 17
 [  Info  ]       Replaces ----- start = 29/10/2016 20:42:00 stop = 29/10/2016 20:49:00 title = KAKA': CUORE ROSSONERO (5'45) - PREMIUM MOMENTS
-[  Debug ]    suspicious      title in index page  = PREMIUM MOMENTS
-[  Debug ]       differs from title in showdetails = RONALDO: L'UNICO FENOMENO.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 29/10/2016 20:49:00 stop = 29/10/2016 21:02:00 title = RONALDO: L'UNICO FENOMENO (4') - PREMIUM MOMENTS
 [  Info  ]       Replaces ----- start = 29/10/2016 20:49:00 stop = 29/10/2016 21:02:00 title = RONALDO: L'UNICO FENOMENO (4') - PREMIUM MOMENTS
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 29/10/2016 21:02:00 stop = 29/10/2016 21:47:00 title = GP QATAR GARA 1 WSBK                                                 29/10/2016 - CAMPIONATO MONDIALE SUPERBIKE (I1-I2) - (PROVE E GARE)
 [  Info  ]       Replaces ----- start = 29/10/2016 21:02:00 stop = 29/10/2016 21:47:00 title = GP QATAR GARA 1 WSBK                                                 29/10/2016 - CAMPIONATO MONDIALE SUPERBIKE (I1-I2) - (PROVE E GARE)
+[  Info  ]       Replaces ----- start = 29/10/2016 21:47:00 stop = 29/10/2016 23:37:00 title = TOLOSA - LIONE 29/10 - LIGUE 1 - 17
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 29/10/2016 23:37:00 stop = 30/10/2016 01:25:00 title = JUVENTUS - NAPOLI - CAMPIONATO DI CALCIO SERIE A 16 - 17 (JUVENTUS)
+[  Info  ]       show with ---- start = 29/10/2016 21:55:00 stop = 29/10/2016 22:44:00 title = GP QATAR GARA 1 WSBK                                                 29/10/2016 - CAMPIONATO MONDIALE SUPERBIKE (I1-I2) - (PROVE E GARE)
+[  Info  ]       Replaces ----- start = 29/10/2016 21:47:00 stop = 29/10/2016 23:37:00 title = TOLOSA - LIONE 29/10 - LIGUE 1 - 17
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2016 22:44:00 stop = 30/10/2016 00:34:00 title = TOLOSA - LIONE 29/10 - LIGUE 1 - 17
+[  Info  ]       Replaces ----- start = 29/10/2016 21:47:00 stop = 29/10/2016 23:37:00 title = TOLOSA - LIONE 29/10 - LIGUE 1 - 17
 [  Info  ]       Replaces ----- start = 29/10/2016 23:37:00 stop = 30/10/2016 01:25:00 title = JUVENTUS - NAPOLI - CAMPIONATO DI CALCIO SERIE A 16 - 17 (JUVENTUS)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2016 00:34:00 stop = 30/10/2016 02:22:00 title = JUVENTUS - NAPOLI - CAMPIONATO DI CALCIO SERIE A 16 - 17 (JUVENTUS)
+[  Info  ]       Replaces ----- start = 29/10/2016 23:37:00 stop = 30/10/2016 01:25:00 title = JUVENTUS - NAPOLI - CAMPIONATO DI CALCIO SERIE A 16 - 17 (JUVENTUS)
+[  Debug ]    skipped show longer than 15 hour(s) at 30/10/2016 02:22:00 title SAINT ETIENNE - MONACO
 [  Debug ]    skipped 
-[  Info  ] 0.62 sec/update
+[  Info  ] 0.60 sec/update
 [  Debug ] 
-[  Debug ] 12393 shows in 138 channels
-[  Debug ] 930 updated shows
-[  Debug ] 1 new shows added
+[  Debug ] 11855 shows in 138 channels
+[  Debug ] 1764 updated shows
+[  Debug ] 3607 new shows added
 [  Info  ] 
 [  Info  ] 
-[  Info  ] job finished at 27/10/2016 18:40:24 done in 2360 seconds
+[  Info  ] job finished at 28/10/2016 07:38:38 done in 5855 seconds
 [  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
