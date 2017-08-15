@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 15/08/2017 04:01:02
+[        ] Job started at 15/08/2017 08:01:02
 [  Debug ] 
 [  Debug ] Running  on: Unix 4.10.0.32
 [  Debug ] Environment: 4.0.30319.42000
@@ -25,7 +25,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+02:00	(DST in effect)
 [  Debug ] 	next DST dates  :	29/10/2017 03:00 (local)
 [  Debug ] 	                :	25/03/2018 02:00 (local)
-[  Debug ] 	local time now  :	15/08/2017 04:01:02
+[  Debug ] 	local time now  :	15/08/2017 08:01:02
 [  Info  ] found: /home/stefano/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home/stefano/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -242,13 +242,9 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  17/145 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai 5 HD) -- mode Incremental
-[  Info  ] 0.16 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  18/145 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Movie HD) -- mode Incremental
-[Warning ] error downloading page: The request timed out (5sec)
-[Warning ] Retry 1 of 4 times
-[Warning ] error downloading page: Error getting response stream (ReadDone1): ReceiveFailure
-[Warning ] pausing 2 of 4 times for 10 seconds before re-try.
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  19/145 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Giallo) -- mode Incremental
@@ -271,12 +267,12 @@
 [  Info  ] (  22/145 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema 1 HD) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = Camp X Ray
 [  Debug ]       differs from title in showdetails = Camp X-Ray
-[  Info  ] 0.22 sec/update
+[  Info  ] 0.24 sec/update
 [  Debug ] 
 [  Info  ] (  23/145 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema 1 SuperHD) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = Camp X Ray
 [  Debug ]       differs from title in showdetails = Camp X-Ray
-[  Info  ] 0.19 sec/update
+[  Info  ] 0.23 sec/update
 [  Debug ] 
 [  Info  ] (  24/145 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema +1) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = Camp X Ray
@@ -440,7 +436,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  65/145 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport 2 HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.21 sec/update
 [  Debug ] 
 [  Info  ] (  66/145 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport 3 HD) -- mode Incremental
 [  Info  ] 
@@ -639,7 +635,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 123/145 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Nick Junior) -- mode Incremental
-[  Info  ] 0.15 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 124/145 ) GUIDATV.SKY.IT -- chan. (xmltv_id=K2) -- mode Incremental
 [  Info  ] 
@@ -654,7 +650,21 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 128/145 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema 2 +24) -- mode Incremental
-[  Info  ] 
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 17/08/2017 20:15:00 stop = 17/08/2017 21:49:00 title = ADULTERIO ALL'ITALIANA -
+[  Info  ]       Replaces ----- start = 17/08/2017 20:15:00 stop = 17/08/2017 21:51:00 title = ADULTERIO ALL'ITALIANA -
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 17/08/2017 21:49:00 stop = 17/08/2017 23:15:00 title = FLAVIA LA MONACA MUSULMANA -
+[  Info  ]       Replaces ----- start = 17/08/2017 20:15:00 stop = 17/08/2017 21:51:00 title = ADULTERIO ALL'ITALIANA -
+[  Info  ]       Replaces ----- start = 17/08/2017 21:51:00 stop = 17/08/2017 23:20:00 title = FLAVIA LA MONACA MUSULMANA -
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 17/08/2017 23:15:00 stop = 18/08/2017 01:11:00 title = DON CAMILLO MONSIGNORE MA NON TROPPO -
+[  Info  ]       Replaces ----- start = 17/08/2017 21:51:00 stop = 17/08/2017 23:20:00 title = FLAVIA LA MONACA MUSULMANA -
+[  Info  ]       Replaces ----- start = 17/08/2017 23:20:00 stop = 18/08/2017 01:10:00 title = DON CAMILLO MONSIGNORE MA NON TROPPO -
+[  Info  ] 0.13 sec/update
 [  Debug ] 
 [  Info  ] ( 129/145 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Energy) -- mode Incremental
 [  Info  ] 
@@ -678,7 +688,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 17/08/2017 05:30:00 stop = 17/08/2017 05:39:00 title = QUALCOSA DI STRAORDINARIO - FULL EMOTION
 [  Info  ]       Replaces ----- start = 17/08/2017 05:30:00 stop = 17/08/2017 05:39:00 title = QUALCOSA DI STRAORDINARIO - FULL EMOTION
-[  Info  ] 0.08 sec/update
+[  Info  ] 0.10 sec/update
 [  Debug ] 
 [  Info  ] ( 131/145 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Comedy) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = COMEDY EXTRA
@@ -687,7 +697,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 17/08/2017 06:07:00 stop = 17/08/2017 06:44:00 title = SPECIALE COMICITA' ROMANA - COMEDY EXTRA
 [  Info  ]       Replaces ----- start = 17/08/2017 06:07:00 stop = 17/08/2017 06:44:00 title = SPECIALE COMICITA' ROMANA - COMEDY EXTRA
-[  Info  ] 0.11 sec/update
+[  Info  ] 0.09 sec/update
 [  Debug ] 
 [  Info  ] ( 132/145 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Paramount Channel) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = CINECHAT - SIDNEY LUMET
@@ -714,7 +724,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 17/08/2017 15:00:00 stop = 17/08/2017 15:35:00 title = ACCIDENT WAITING TO HAPPEN - PROJECT GREENLIGHT 4
 [  Info  ]       Replaces ----- start = 17/08/2017 15:00:00 stop = 17/08/2017 15:35:00 title = ACCIDENT WAITING TO HAPPEN - PROJECT GREENLIGHT 4
-[  Info  ] 0.10 sec/update
+[  Info  ] 0.11 sec/update
 [  Debug ] 
 [  Info  ] ( 133/145 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action HD) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = THE ORIGINALS II
@@ -951,7 +961,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 17/08/2017 23:32:00 stop = 18/08/2017 00:19:00 title = ABBIAMO UN PASSATO CHE CI LEGA - THE VAMPIRE DIARIES VIII
 [  Info  ]       Replaces ----- start = 17/08/2017 23:32:00 stop = 18/08/2017 00:19:00 title = ABBIAMO UN PASSATO CHE CI LEGA - THE VAMPIRE DIARIES VIII
-[  Info  ] 0.09 sec/update
+[  Info  ] 0.13 sec/update
 [  Debug ] 
 [  Info  ] ( 134/145 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action +24) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = THE ORIGINALS II
@@ -1200,7 +1210,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 17/08/2017 23:24:00 stop = 18/08/2017 00:12:00 title = BOMBA A TEMPO - GOTHAM III
 [  Info  ]       Replaces ----- start = 17/08/2017 23:24:00 stop = 18/08/2017 00:12:00 title = BOMBA A TEMPO - GOTHAM III
-[  Info  ] 0.09 sec/update
+[  Info  ] 0.10 sec/update
 [  Debug ] 
 [  Info  ] ( 135/145 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Crime) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = MAJOR CRIMES II
@@ -1872,7 +1882,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 17/08/2017 23:49:00 stop = 18/08/2017 00:40:00 title = LA SERATA DEI MINI-INCONTRI - PSYCH I
 [  Info  ]       Replaces ----- start = 17/08/2017 23:49:00 stop = 18/08/2017 00:40:00 title = LA SERATA DEI MINI-INCONTRI - PSYCH I
-[  Info  ] 0.09 sec/update
+[  Info  ] 0.10 sec/update
 [  Debug ] 
 [  Info  ] ( 137/145 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Stories) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = GOSSIP GIRL VI
@@ -2169,7 +2179,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 17/08/2017 23:47:00 stop = 18/08/2017 00:33:00 title = PRODUTTORE ESECUTIVO: STEVEN RAE - CULT
 [  Info  ]       Replaces ----- start = 17/08/2017 23:47:00 stop = 18/08/2017 00:33:00 title = PRODUTTORE ESECUTIVO: STEVEN RAE - CULT
-[  Info  ] 0.09 sec/update
+[  Info  ] 0.10 sec/update
 [  Debug ] 
 [  Info  ] ( 138/145 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Sport superHD) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = EDICOLA PREMIUM
@@ -2212,12 +2222,16 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 15/08/2017 11:55:00 stop = 15/08/2017 12:11:00 title = 15/8 H.8.00 - PREMIUM SPORT EDICOLA
 [  Info  ]       Replaces ----- start = 15/08/2017 11:55:00 stop = 15/08/2017 12:11:00 title = 15/8 H.8.00 - PREMIUM SPORT EDICOLA
-[  Debug ]    suspicious      title in index page  = SERIE A EMOTION - PILLOLE JUVE-ROMA 2000-01
-[  Debug ]       differs from title in showdetails = JUVE-ROMA 2000-01 (4') - SERIE A EMOTION - PILLOLE
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 15/08/2017 15:46:00 stop = 15/08/2017 15:51:00 title = JUVE-ROMA 2000-01 (4') - SERIE A EMOTION - PILLOLE
+[  Info  ]       show with ---- start = 15/08/2017 15:46:00 stop = 15/08/2017 15:55:00 title = RONALDO (7') - SERIE A EMOTION - PILLOLE
 [  Info  ]       Replaces ----- start = 15/08/2017 15:46:00 stop = 15/08/2017 15:51:00 title = JUVE-ROMA 2000-01 (4') - SERIE A EMOTION - PILLOLE
+[  Info  ]       Replaces ----- start = 15/08/2017 15:51:00 stop = 15/08/2017 16:00:00 title = RONALDO (7') - SERIE A EMOTION - PILLOLE
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 15/08/2017 15:55:00 stop = 15/08/2017 17:00:00 title = 15/8 H. 18.00 - PREMIUM SPORT NEWS
+[  Info  ]       Replaces ----- start = 15/08/2017 15:51:00 stop = 15/08/2017 16:00:00 title = RONALDO (7') - SERIE A EMOTION - PILLOLE
+[  Info  ]       Replaces ----- start = 15/08/2017 16:00:00 stop = 15/08/2017 17:00:00 title = PUNTATA 2 - 14/08 - HIGHLIGHTS LIGUE 1
 [  Debug ]    suspicious      title in index page  = EDICOLA PREMIUM
 [  Debug ]       differs from title in showdetails = 16/8 H.8.00 - PREMIUM SPO.....
 [  Info  ]    epg correction : 
@@ -2288,9 +2302,9 @@
 [  Info  ]       Replaces ----- start = 17/08/2017 11:55:00 stop = 17/08/2017 12:11:00 title = 17/8 H.8.00 - PREMIUM SPORT EDICOLA
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 17/08/2017 23:30:00 stop = 18/08/2017 00:22:00 title = MILAN / CRAIOVA  - PRELIMINARI EUROPA LEAGUE
+[  Info  ]       show with ---- start = 17/08/2017 23:30:00 stop = 18/08/2017 01:15:00 title = MILAN / SHKENDIJA   - PRELIMINARI EUROPA LEAGUE
 [  Info  ]       Replaces ----- start = 17/08/2017 23:30:00 stop = 18/08/2017 00:22:00 title = MILAN / CRAIOVA  - PRELIMINARI EUROPA LEAGUE
-[  Info  ] 0.09 sec/update
+[  Info  ] 0.11 sec/update
 [  Debug ] 
 [  Info  ] ( 139/145 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Calcio 1) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = SERIE A EMOTION - PILLOLE BATISTUTA
@@ -2367,10 +2381,10 @@
 [  Info  ]       Replaces ----- start = 17/08/2017 23:05:00 stop = 18/08/2017 02:30:00 title = EPISODIO 75  17/08 - BARCA TV
 [  Info  ] 0.11 sec/update
 [  Debug ] 
-[  Debug ] 13088 shows in 145 channels
-[  Debug ] 386 updated shows
-[  Debug ] 5 new shows added
+[  Debug ] 13093 shows in 145 channels
+[  Debug ] 297 updated shows
+[  Debug ] 7 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 15/08/2017 04:07:05 done in 6m 2s
+[        ] Job finished at 15/08/2017 08:06:32 done in 5m 30s
 [  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
