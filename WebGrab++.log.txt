@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 28/10/2017 16:05:02
+[        ] Job started at 28/10/2017 18:05:03
 [  Debug ] 
 [  Debug ] Running  on: Unix 3.13.0.132
 [  Debug ] Environment: 4.0.30319.42000
@@ -30,7 +30,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+02:00	(DST in effect)
 [  Debug ] 	next DST dates  :	29/10/2017 03:00 (local)
 [  Debug ] 	                :	25/03/2018 02:00 (local)
-[  Debug ] 	local time now  :	28/10/2017 16:05:03
+[  Debug ] 	local time now  :	28/10/2017 18:05:03
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -215,7 +215,7 @@
 [  Info  ] Found existing channel (xmltv_id=Paramount Channel) in the config file
 [  Info  ] Found existing channel (xmltv_id=Premium Action HD) in the config file
 [  Debug ] removed a show that is not in time increasing order in Premium Action HD starting after 29/10/2017 23:00:00
-[  Debug ] removed a show that is not in time increasing order in Premium Action HD starting after 30/10/2017 05:19:00
+[  Debug ] removed 2 overlapping shows in Premium Action HD starting after 30/10/2017 04:35:00
 [  Info  ] Found existing channel (xmltv_id=Premium Action +24) in the config file
 [  Info  ] Found existing channel (xmltv_id=Premium Crime) in the config file
 [  Debug ] removed 3 overlapping shows in Premium Crime starting after 30/10/2017 04:30:00
@@ -225,16 +225,17 @@
 [  Debug ] removed a show that is not in time increasing order in Premium Crime starting after 30/10/2017 15:08:00
 [  Debug ] removed a show that is not in time increasing order in Premium Crime starting after 30/10/2017 18:39:00
 [  Debug ] removed 2 overlapping shows in Premium Crime starting after 30/10/2017 20:21:00
-[  Debug ] removed 2 overlapping shows in Premium Crime starting after 30/10/2017 21:14:00
+[  Debug ] removed a show that is not in time increasing order in Premium Crime starting after 30/10/2017 21:14:00
 [  Info  ] Found existing channel (xmltv_id=Premium Joy) in the config file
 [  Debug ] removed a show that is not in time increasing order in Premium Joy starting after 29/10/2017 22:59:00
 [  Debug ] removed a show that is not in time increasing order in Premium Joy starting after 29/10/2017 23:24:00
-[  Debug ] removed 3 overlapping shows in Premium Joy starting after 30/10/2017 04:58:00
+[  Debug ] removed 2 overlapping shows in Premium Joy starting after 30/10/2017 04:58:00
+[  Debug ] removed a show that is not in time increasing order in Premium Joy starting after 30/10/2017 05:43:00
 [  Info  ] Found existing channel (xmltv_id=Premium Stories) in the config file
-[  Debug ] removed 3 overlapping shows in Premium Stories starting after 30/10/2017 04:26:00
+[  Debug ] removed 2 overlapping shows in Premium Stories starting after 30/10/2017 04:26:00
+[  Debug ] removed a show that is not in time increasing order in Premium Stories starting after 30/10/2017 06:15:00
 [  Info  ] Found existing channel (xmltv_id=Premium Sport superHD) in the config file
-[  Debug ] removed 3 overlapping shows in Premium Sport superHD starting after 30/10/2017 04:55:00
-[  Debug ] removed a show that is not in time increasing order in Premium Sport superHD starting after 30/10/2017 05:57:00
+[  Debug ] removed 4 overlapping shows in Premium Sport superHD starting after 30/10/2017 04:55:00
 [  Info  ] Found existing channel (xmltv_id=Premium Sport 2 HD) in the config file
 [  Info  ] Found existing channel (xmltv_id=Premium Calcio 1) in the config file
 [  Info  ] 
@@ -286,7 +287,7 @@
 [  Debug ]       differs from title in showdetails = FLIKKEN - COPPIA IN GIALLO VIII
 [  Debug ]    suspicious      title in index page  = ...CONTINUAVANO A CHIAMARLO TRINITA'
 [  Debug ]       differs from title in showdetails = QUARTO GRADO
-[  Info  ] 0.09 sec/update
+[  Info  ] 0.10 sec/update
 [  Debug ] 
 [  Info  ] (   5/165 ) MEDIASET.IT -- chan. (xmltv_id=Canale 5 HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -308,7 +309,7 @@
       unvalid start at 29/10/2017 03:05:00 and stop at 29/10/2017 03:35:00
 [  Debug ]    suspicious      title in index page  = TELEVENDITA MEDIA SHOPPING
 [  Debug ]       differs from title in showdetails = FINALMENTE SOLI
-[  Info  ] 0.10 sec/update
+[  Info  ] 0.11 sec/update
 [  Debug ] 
 [  Info  ] (   8/165 ) MEDIASET.IT -- chan. (xmltv_id=Italia 2) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -326,8 +327,8 @@
 [  Debug ] 
 [  Info  ] (  10/165 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La2 HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20171028185500 +0200
-[  Debug ] starting with show : Calcio at local time 28/10/2017 18:55
+[  Debug ] time-offset change for all shows after starttime 20171028210500 +0200
+[  Debug ] starting with show : Superalbum at local time 28/10/2017 21:05
 [  Info  ] 0.03 sec/update
 [  Debug ] 
 [  Info  ] (  11/165 ) STASERAINTV.COM -- chan. (xmltv_id=La 5) -- mode Incremental
@@ -1116,6 +1117,8 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 119/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cielo) -- mode Incremental
+[Warning ] error downloading page: Error getting response stream (ReadDone2): ReceiveFailure
+[Warning ] pausing 1 of 4 times for 5 seconds before re-try.
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20171029041500 +0100
 [  Debug ] starting with show : Vixen! at local time 29/10/2017 04:15
@@ -1197,18 +1200,20 @@
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20171028060000 +0200
 [  Debug ] starting with show : Vita Da Giungla Alla Riscossa! at local time 28/10/2017 06:00
+[  Debug ] multiple entry of a show at 20171029021000 +0200
+[  Debug ] multiple entry of a show at 20171029021000 +0200
 [  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 29/10/2017 02:10:00 stop = 29/10/2017 02:10:00 title = La Pimpa 4
-[  Info  ]       Added before - start = 29/10/2017 02:10:00 stop = 29/10/2017 02:15:00 title = La Pimpa Iii
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 29/10/2017 02:10:00 stop = 29/10/2017 02:10:00 title = La Pimpa Iii
-[  Info  ]       Added before - start = 29/10/2017 02:10:00 stop = 29/10/2017 02:15:00 title = La Pimpa Iii
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2017 02:10:00 stop = 29/10/2017 02:15:00 title = La Pimpa Iii
+[  Info  ]       Replaces ----- start = 29/10/2017 02:10:00 stop = 29/10/2017 02:15:00 title = Calimero
+[  Debug ] multiple entry of a show at 20171029022000 +0200
+[  Debug ] multiple entry of a show at 20171029022000 +0200
 [  Info  ]    epg correction : 
 [  Info  ]  MISSING show added,
 [  Info  ]       show with ---- start = 29/10/2017 02:20:00 stop = 29/10/2017 02:20:00 title = La Pimpa Iii
 [  Info  ]       Added before - start = 29/10/2017 02:20:00 stop = 29/10/2017 02:20:00 title = Calimero
+[  Debug ] multiple entry of a show at 20171029024500 +0200
+[  Debug ] multiple entry of a show at 20171029024500 +0200
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 29/10/2017 03:10:00 and stop at 29/10/2017 03:20:00
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
@@ -1219,7 +1224,7 @@
       unvalid start at 29/10/2017 03:40:00 and stop at 29/10/2017 03:45:00
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 29/10/2017 03:45:00 and stop at 29/10/2017 03:55:00
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.12 sec/update
 [  Debug ] 
 [  Info  ] ( 128/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cartoon Network) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -1443,7 +1448,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 03/11/2017 10:20:00 stop = 03/11/2017 12:13:00 title = 7 VOLTE 7 -
 [  Info  ]       Replaces ----- start = 03/11/2017 10:20:00 stop = 03/11/2017 12:13:00 title = 7 VOLTE 7 -
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 149/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema 2 +24) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -1480,7 +1485,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 02/11/2017 17:59:00 stop = 02/11/2017 18:14:00 title = EXTRA - ALEXANDER - RED CARPET
 [  Info  ]       Replaces ----- start = 02/11/2017 17:59:00 stop = 02/11/2017 18:14:00 title = EXTRA - ALEXANDER - RED CARPET
-[  Info  ] 0.16 sec/update
+[  Info  ] 0.20 sec/update
 [  Debug ] 
 [  Info  ] ( 151/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Emotion) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -1513,7 +1518,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 03/11/2017 06:30:00 stop = 03/11/2017 06:39:00 title = STORIA D'INVERNO                               - FULL EMOTION
 [  Info  ]       Replaces ----- start = 03/11/2017 05:30:00 stop = 03/11/2017 05:39:00 title = STORIA D'INVERNO                               - FULL EMOTION
-[  Info  ] 0.17 sec/update
+[  Info  ] 0.20 sec/update
 [  Debug ] 
 [  Info  ] ( 152/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Comedy) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = COMEDY EXTRA
@@ -1531,7 +1536,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 03/11/2017 04:08:00 stop = 03/11/2017 04:38:00 title = PIERLUIGI FAVINO - INVITO A CENA CON...
 [  Info  ]       Replaces ----- start = 03/11/2017 04:08:00 stop = 03/11/2017 04:38:00 title = PIERLUIGI FAVINO - INVITO A CENA CON...
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.24 sec/update
 [  Debug ] 
 [  Info  ] ( 153/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Investigation Discovery) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -1644,7 +1649,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 03/11/2017 19:15:00 stop = 03/11/2017 21:15:00 title = Halloween: The Beginning
 [  Info  ]       Replaces ----- start = 03/11/2017 19:15:00 stop = 03/11/2017 21:15:00 title = Halloween: The Beginning
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.19 sec/update
 [  Debug ] 
 [  Info  ] ( 155/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Paramount Channel) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -1745,7 +1750,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 03/11/2017 19:15:00 stop = 03/11/2017 21:15:00 title = Halloween: The Beginning
 [  Info  ]       Replaces ----- start = 03/11/2017 18:15:00 stop = 03/11/2017 20:15:00 title = Halloween: The Beginning
-[  Info  ] 0.16 sec/update
+[  Info  ] 0.24 sec/update
 [  Debug ] 
 [  Info  ] ( 156/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action HD) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = ARROW V
@@ -1845,10 +1850,9 @@
 [  Debug ]    suspicious      title in index page  = LUCIFER II
 [  Debug ]       differs from title in showdetails = LO SFASCIA FAMIGLIE .....
 [  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 30/10/2017 05:19:00 stop = 30/10/2017 06:39:00 title = LO SFASCIA FAMIGLIE - LUCIFER II - PRIMA TV
-[  Info  ]       Replaces ----- start = 30/10/2017 04:35:00 stop = 30/10/2017 06:00:00 title = RISORGEREMO - THE 100 IV - PRIMA TV
-[  Info  ]       Replaces ----- start = 30/10/2017 06:00:00 stop = 30/10/2017 06:43:00 title = KASHMIR - REVOLUTION I
+[  Info  ]       Added before - start = 30/10/2017 06:43:00 stop = 30/10/2017 07:23:00 title = IL NEMICO DEL MIO NEMICO - THE TOMORROW PEOPLE
 [  Debug ]    skipped negative show time! at 29/10/2017 05:39:00
 [  Debug ]    suspicious      title in index page  = ARROW V
 [  Debug ]       differs from title in showdetails = RELAZIONI PERICOL.....
@@ -1950,9 +1954,13 @@
 [  Debug ]    suspicious      title in index page  = THE 100 IV
 [  Debug ]       differs from title in showdetails = RISORGEREMO - THE 10.....
 [  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 30/10/2017 04:35:00 stop = 30/10/2017 06:00:00 title = RISORGEREMO - THE 100 IV - PRIMA TV
-[  Info  ]       Replaces ----- start = 30/10/2017 04:35:00 stop = 30/10/2017 06:00:00 title = RISORGEREMO - THE 100 IV - PRIMA TV
+[  Info  ]       Added before - start = 30/10/2017 06:43:00 stop = 30/10/2017 07:23:00 title = IL NEMICO DEL MIO NEMICO - THE TOMORROW PEOPLE
+[  Info  ]    epg correction : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 30/10/2017 06:00:00 stop = 30/10/2017 06:43:00 title = KASHMIR - REVOLUTION I
+[  Info  ]       Added before - start = 30/10/2017 06:43:00 stop = 30/10/2017 07:23:00 title = IL NEMICO DEL MIO NEMICO - THE TOMORROW PEOPLE
 [  Debug ]    suspicious      title in index page  = THE 100 IV
 [  Debug ]       differs from title in showdetails = LA POLVERIERA - THE .....
 [  Info  ]    epg correction : 
@@ -2253,7 +2261,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 03/11/2017 23:57:00 stop = 04/11/2017 00:47:00 title = L' AVVOCATO DIFENSORE - LUCIFER II - PRIMA TV
 [  Info  ]       Replaces ----- start = 03/11/2017 23:57:00 stop = 04/11/2017 00:47:00 title = L' AVVOCATO DIFENSORE - LUCIFER II - PRIMA TV
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 157/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action +24) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -2602,16 +2610,57 @@
 [  Info  ]    epg correction : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 30/10/2017 05:36:00 stop = 30/10/2017 06:17:00 title = MAI GIUDICARE - CHICAGO JUSTICE
-[  Info  ]       Added before - start = 30/10/2017 06:30:00 stop = 30/10/2017 07:57:00 title = UNA BRAVO RAGAZZO - IL COMMISSARIO SCHUMANN VIII
+[  Info  ]       Added before - start = 30/10/2017 06:30:00 stop = 30/10/2017 07:18:00 title = ROSSO D'AMORE - THE MENTALIST II
 [  Debug ]    suspicious      title in index page  = SISKA VI
 [  Debug ]       differs from title in showdetails = UN DELITTO AD ARTE.....
 [  Info  ]    epg correction : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 30/10/2017 06:17:00 stop = 30/10/2017 06:30:00 title = UN DELITTO AD ARTE - SISKA VI
-[  Info  ]       Added before - start = 30/10/2017 06:30:00 stop = 30/10/2017 07:57:00 title = UNA BRAVO RAGAZZO - IL COMMISSARIO SCHUMANN VIII
+[  Info  ]       Added before - start = 30/10/2017 06:30:00 stop = 30/10/2017 07:18:00 title = ROSSO D'AMORE - THE MENTALIST II
+[  Debug ]    suspicious      title in index page  = IL COMMISSARIO SCHUMANN VIII
+[  Debug ]       differs from title in showdetails = UNA BRAVO RAGAZZO - IL COMMISSARIO SCH.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 06:30:00 stop = 30/10/2017 07:57:00 title = UNA BRAVO RAGAZZO - IL COMMISSARIO SCHUMANN VIII
+[  Info  ]       Replaces ----- start = 30/10/2017 06:30:00 stop = 30/10/2017 07:18:00 title = ROSSO D'AMORE - THE MENTALIST II
+[  Info  ]       Replaces ----- start = 30/10/2017 07:18:00 stop = 30/10/2017 08:09:00 title = LINEA ROSSA - THE MENTALIST II
+[  Debug ]    suspicious      title in index page  = DISTRETTO DI POLIZIA 1
+[  Debug ]       differs from title in showdetails = LA PAURA - DISTRETTO DI POLIZIA .....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 07:57:00 stop = 30/10/2017 08:59:00 title = LA PAURA - DISTRETTO DI POLIZIA 1
+[  Info  ]       Replaces ----- start = 30/10/2017 07:18:00 stop = 30/10/2017 08:09:00 title = LINEA ROSSA - THE MENTALIST II
+[  Info  ]       Replaces ----- start = 30/10/2017 08:09:00 stop = 30/10/2017 09:00:00 title = LA MIA MIGLIORE AMICA - COLD CASE-DELITTI IRRISOLTI II
+[  Debug ]    suspicious      title in index page  = COLD CASE - DELITTI IRRISOLTI II
+[  Debug ]       differs from title in showdetails = STRANO FRUTTO - COLD CASE-DELITTI IRRISOLT.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 08:59:00 stop = 30/10/2017 09:50:00 title = STRANO FRUTTO - COLD CASE-DELITTI IRRISOLTI II
+[  Info  ]       Replaces ----- start = 30/10/2017 08:09:00 stop = 30/10/2017 09:00:00 title = LA MIA MIGLIORE AMICA - COLD CASE-DELITTI IRRISOLTI II
+[  Info  ]       Replaces ----- start = 30/10/2017 09:00:00 stop = 30/10/2017 10:10:00 title = IL BOSCO - COLD CASE-DELITTI IRRISOLTI II
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 09:50:00 stop = 30/10/2017 10:39:00 title = KENSINGTON - COLD CASE-DELITTI IRRISOLTI II
+[  Info  ]       Replaces ----- start = 30/10/2017 09:00:00 stop = 30/10/2017 10:10:00 title = IL BOSCO - COLD CASE-DELITTI IRRISOLTI II
+[  Info  ]       Replaces ----- start = 30/10/2017 10:10:00 stop = 30/10/2017 10:59:00 title = LA MUMMIA IN CANTINA - RIZZOLI & ISLES V
+[  Debug ]    suspicious      title in index page  = COLD CASE - DELITTI IRRISOLTI II
+[  Debug ]       differs from title in showdetails = UN BAGLIORE NELLA NOTTE - COLD CASE-DELITT.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 10:39:00 stop = 30/10/2017 11:29:00 title = UN BAGLIORE NELLA NOTTE - COLD CASE-DELITTI IRRISOLTI II
+[  Info  ]       Replaces ----- start = 30/10/2017 10:10:00 stop = 30/10/2017 10:59:00 title = LA MUMMIA IN CANTINA - RIZZOLI & ISLES V
+[  Info  ]       Replaces ----- start = 30/10/2017 10:59:00 stop = 30/10/2017 11:47:00 title = CENERI DI UN DELITTO - RIZZOLI & ISLES V
+[  Debug ]    suspicious      title in index page  = COLD CASE - DELITTI IRRISOLTI II
+[  Debug ]       differs from title in showdetails = LA MIA MIGLIORE AMICA - COLD CASE-DELITTI .....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 11:29:00 stop = 30/10/2017 12:19:00 title = LA MIA MIGLIORE AMICA - COLD CASE-DELITTI IRRISOLTI II
+[  Info  ]       Replaces ----- start = 30/10/2017 10:59:00 stop = 30/10/2017 11:47:00 title = CENERI DI UN DELITTO - RIZZOLI & ISLES V
+[  Info  ]       Replaces ----- start = 30/10/2017 11:47:00 stop = 30/10/2017 12:37:00 title = PATTO ROSSO SANGUE - THE MENTALIST II
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/10/2017 12:19:00 stop = 30/10/2017 13:27:00 title = IL BOSCO - COLD CASE-DELITTI IRRISOLTI II
+[  Info  ]       Replaces ----- start = 30/10/2017 11:47:00 stop = 30/10/2017 12:37:00 title = PATTO ROSSO SANGUE - THE MENTALIST II
 [  Info  ]       Replaces ----- start = 30/10/2017 12:37:00 stop = 30/10/2017 13:30:00 title = UNA GARA ROSSO PICCANTE - THE MENTALIST II
 [  Debug ]    suspicious      title in index page  = THE CLOSER III
 [  Debug ]       differs from title in showdetails = FINCHE' MORTE NON CI SEP.....
@@ -2638,23 +2687,57 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/10/2017 16:01:00 stop = 30/10/2017 16:53:00 title = EMOZIONI AMPLIFICATE - LAW & ORDER: UNITA' SPECIALE XVIII
 [  Info  ]       Replaces ----- start = 30/10/2017 15:25:00 stop = 30/10/2017 16:14:00 title = VENDETTA PERSONALE - LAW & ORDER: UNITA' SPECIALE IV
-[  Info  ]       Replaces ----- start = 30/10/2017 16:01:00 stop = 30/10/2017 16:53:00 title = EMOZIONI AMPLIFICATE - LAW & ORDER: UNITA' SPECIALE XVIII
+[  Info  ]       Replaces ----- start = 30/10/2017 16:14:00 stop = 30/10/2017 17:03:00 title = PIETA' - LAW & ORDER: UNITA' SPECIALE IV
+[  Debug ]    suspicious      title in index page  = COLD CASE - DELITTI IRRISOLTI I
+[  Debug ]       differs from title in showdetails = CORSA SENZA FINE - COLD CASE-DELITTI IRRI.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 16:53:00 stop = 30/10/2017 17:44:00 title = CORSA SENZA FINE - COLD CASE-DELITTI IRRISOLTI I
+[  Info  ]       Replaces ----- start = 30/10/2017 16:14:00 stop = 30/10/2017 17:03:00 title = PIETA' - LAW & ORDER: UNITA' SPECIALE IV
+[  Info  ]       Replaces ----- start = 30/10/2017 17:03:00 stop = 30/10/2017 17:54:00 title = UN PADRE PER CLAIRE - COLD CASE-DELITTI IRRISOLTI III
+[  Debug ]    suspicious      title in index page  = COLD CASE - DELITTI IRRISOLTI I
+[  Debug ]       differs from title in showdetails = FOLLIA DI UN AMORE - COLD CASE-DELITTI IR.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 17:44:00 stop = 30/10/2017 18:39:00 title = FOLLIA DI UN AMORE - COLD CASE-DELITTI IRRISOLTI I
+[  Info  ]       Replaces ----- start = 30/10/2017 17:03:00 stop = 30/10/2017 17:54:00 title = UN PADRE PER CLAIRE - COLD CASE-DELITTI IRRISOLTI III
+[  Info  ]       Replaces ----- start = 30/10/2017 17:54:00 stop = 30/10/2017 18:44:00 title = LA PROMESSA - COLD CASE-DELITTI IRRISOLTI III
 [  Debug ]    suspicious      title in index page  = TAKEN I
 [  Debug ]       differs from title in showdetails = UN OROLOGIO SVIZZ.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/10/2017 18:39:00 stop = 30/10/2017 19:28:00 title = UN OROLOGIO SVIZZERO - TAKEN I
+[  Info  ]       Replaces ----- start = 30/10/2017 17:54:00 stop = 30/10/2017 18:44:00 title = LA PROMESSA - COLD CASE-DELITTI IRRISOLTI III
 [  Info  ]       Replaces ----- start = 30/10/2017 18:44:00 stop = 30/10/2017 19:33:00 title = IL CADAVERE NEL GHIACCIO - RIZZOLI & ISLES V
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 19:28:00 stop = 30/10/2017 20:21:00 title = LA SPIA - TAKEN I
+[  Info  ]       Replaces ----- start = 30/10/2017 18:44:00 stop = 30/10/2017 19:33:00 title = IL CADAVERE NEL GHIACCIO - RIZZOLI & ISLES V
+[  Info  ]       Replaces ----- start = 30/10/2017 19:33:00 stop = 30/10/2017 20:21:00 title = L' ONERE DELLA PROVA - RIZZOLI & ISLES V
 [  Debug ]    suspicious      title in index page  = THE CLOSER III
 [  Debug ]       differs from title in showdetails = FRATELLI DI SANGUE - I P.....
 [  Info  ]    epg correction : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 30/10/2017 20:21:00 stop = 30/10/2017 21:14:00 title = FRATELLI DI SANGUE - I PARTE - THE CLOSER III
-[  Info  ]       Added before - start = 30/10/2017 22:06:00 stop = 30/10/2017 22:57:00 title = FUOCO AMICO - CHICAGO JUSTICE
+[  Info  ]       Added before - start = 30/10/2017 21:14:00 stop = 30/10/2017 22:04:00 title = CACCIA AL FANTASMA - SHADES OF BLUE II - PRIMA TV
 [  Info  ]    epg correction : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/10/2017 21:14:00 stop = 30/10/2017 22:06:00 title = STUPRO INTERROTTO - LAW & ORDER: UNITA' SPECIALE XVIII - PRIMA TV
-[  Info  ]       Added before - start = 30/10/2017 22:06:00 stop = 30/10/2017 22:57:00 title = FUOCO AMICO - CHICAGO JUSTICE
+[  Info  ]       Replaces ----- start = 30/10/2017 21:14:00 stop = 30/10/2017 22:04:00 title = CACCIA AL FANTASMA - SHADES OF BLUE II - PRIMA TV
+[  Info  ]       Replaces ----- start = 30/10/2017 22:04:00 stop = 30/10/2017 22:55:00 title = TAPPETO ROSSO - THE MENTALIST III
+[  Debug ]    suspicious      title in index page  = CHICAGO JUSTICE
+[  Debug ]       differs from title in showdetails = FUOCO AMICO - CHICAGO JUS.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 22:06:00 stop = 30/10/2017 22:57:00 title = FUOCO AMICO - CHICAGO JUSTICE
+[  Info  ]       Replaces ----- start = 30/10/2017 22:04:00 stop = 30/10/2017 22:55:00 title = TAPPETO ROSSO - THE MENTALIST III
+[  Info  ]       Replaces ----- start = 30/10/2017 22:55:00 stop = 30/10/2017 23:50:00 title = QUI PRO QUO - TRAINING DAY I
+[  Debug ]    suspicious      title in index page  = SHADES OF BLUE II
+[  Debug ]       differs from title in showdetails = L' OCCHIO DEL CICLONE - SHA.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 22:57:00 stop = 30/10/2017 23:47:00 title = L' OCCHIO DEL CICLONE - SHADES OF BLUE II
+[  Info  ]       Replaces ----- start = 30/10/2017 22:55:00 stop = 30/10/2017 23:50:00 title = QUI PRO QUO - TRAINING DAY I
 [  Debug ]    skipped negative show time! at 29/10/2017 22:47:00
 [  Debug ]    suspicious      title in index page  = DEXTER II
 [  Debug ]       differs from title in showdetails = LA VERITA' TORNA A .....
@@ -2679,50 +2762,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 30/10/2017 04:30:00 stop = 30/10/2017 06:30:00 title = L' OCCHIO DEL CICLONE - SHADES OF BLUE II
-[  Info  ]       Added before - start = 30/10/2017 06:30:00 stop = 30/10/2017 07:57:00 title = UNA BRAVO RAGAZZO - IL COMMISSARIO SCHUMANN VIII
-[  Debug ]    suspicious      title in index page  = THE MENTALIST II
-[  Debug ]       differs from title in showdetails = ROSSO D'AMORE - THE MENTAL.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 30/10/2017 06:30:00 stop = 30/10/2017 07:18:00 title = ROSSO D'AMORE - THE MENTALIST II
-[  Info  ]       Replaces ----- start = 30/10/2017 06:30:00 stop = 30/10/2017 07:57:00 title = UNA BRAVO RAGAZZO - IL COMMISSARIO SCHUMANN VIII
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 30/10/2017 07:18:00 stop = 30/10/2017 08:09:00 title = LINEA ROSSA - THE MENTALIST II
-[  Info  ]       Replaces ----- start = 30/10/2017 06:30:00 stop = 30/10/2017 07:57:00 title = UNA BRAVO RAGAZZO - IL COMMISSARIO SCHUMANN VIII
-[  Info  ]       Replaces ----- start = 30/10/2017 07:57:00 stop = 30/10/2017 08:59:00 title = LA PAURA - DISTRETTO DI POLIZIA 1
-[  Debug ]    suspicious      title in index page  = COLD CASE - DELITTI IRRISOLTI II
-[  Debug ]       differs from title in showdetails = LA MIA MIGLIORE AMICA - COLD CASE-DELITTI .....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 30/10/2017 08:09:00 stop = 30/10/2017 09:00:00 title = LA MIA MIGLIORE AMICA - COLD CASE-DELITTI IRRISOLTI II
-[  Info  ]       Replaces ----- start = 30/10/2017 07:57:00 stop = 30/10/2017 08:59:00 title = LA PAURA - DISTRETTO DI POLIZIA 1
-[  Info  ]       Replaces ----- start = 30/10/2017 08:59:00 stop = 30/10/2017 09:50:00 title = STRANO FRUTTO - COLD CASE-DELITTI IRRISOLTI II
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 30/10/2017 09:00:00 stop = 30/10/2017 10:10:00 title = IL BOSCO - COLD CASE-DELITTI IRRISOLTI II
-[  Info  ]       Replaces ----- start = 30/10/2017 08:59:00 stop = 30/10/2017 09:50:00 title = STRANO FRUTTO - COLD CASE-DELITTI IRRISOLTI II
-[  Info  ]       Replaces ----- start = 30/10/2017 09:50:00 stop = 30/10/2017 10:39:00 title = KENSINGTON - COLD CASE-DELITTI IRRISOLTI II
-[  Debug ]    suspicious      title in index page  = RIZZOLI & ISLES V
-[  Debug ]       differs from title in showdetails = LA MUMMIA IN CANTINA - RIZZ.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 30/10/2017 10:10:00 stop = 30/10/2017 10:59:00 title = LA MUMMIA IN CANTINA - RIZZOLI & ISLES V
-[  Info  ]       Replaces ----- start = 30/10/2017 09:50:00 stop = 30/10/2017 10:39:00 title = KENSINGTON - COLD CASE-DELITTI IRRISOLTI II
-[  Info  ]       Replaces ----- start = 30/10/2017 10:39:00 stop = 30/10/2017 11:29:00 title = UN BAGLIORE NELLA NOTTE - COLD CASE-DELITTI IRRISOLTI II
-[  Debug ]    suspicious      title in index page  = RIZZOLI & ISLES V
-[  Debug ]       differs from title in showdetails = CENERI DI UN DELITTO - RIZZ.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 30/10/2017 10:59:00 stop = 30/10/2017 11:47:00 title = CENERI DI UN DELITTO - RIZZOLI & ISLES V
-[  Info  ]       Replaces ----- start = 30/10/2017 10:39:00 stop = 30/10/2017 11:29:00 title = UN BAGLIORE NELLA NOTTE - COLD CASE-DELITTI IRRISOLTI II
-[  Info  ]       Replaces ----- start = 30/10/2017 11:29:00 stop = 30/10/2017 12:19:00 title = LA MIA MIGLIORE AMICA - COLD CASE-DELITTI IRRISOLTI II
-[  Debug ]    suspicious      title in index page  = THE MENTALIST II
-[  Debug ]       differs from title in showdetails = PATTO ROSSO SANGUE - THE M.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 30/10/2017 11:47:00 stop = 30/10/2017 12:37:00 title = PATTO ROSSO SANGUE - THE MENTALIST II
-[  Info  ]       Replaces ----- start = 30/10/2017 11:29:00 stop = 30/10/2017 12:19:00 title = LA MIA MIGLIORE AMICA - COLD CASE-DELITTI IRRISOLTI II
+[  Info  ]       Added before - start = 30/10/2017 06:30:00 stop = 30/10/2017 07:18:00 title = ROSSO D'AMORE - THE MENTALIST II
 [  Debug ]    suspicious      title in index page  = THE MENTALIST II
 [  Debug ]       differs from title in showdetails = UNA GARA ROSSO PICCANTE - .....
 [  Info  ]    epg correction : 
@@ -2747,61 +2787,24 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/10/2017 15:25:00 stop = 30/10/2017 16:14:00 title = VENDETTA PERSONALE - LAW & ORDER: UNITA' SPECIALE IV
 [  Info  ]       Replaces ----- start = 30/10/2017 15:25:00 stop = 30/10/2017 16:14:00 title = VENDETTA PERSONALE - LAW & ORDER: UNITA' SPECIALE IV
-[  Info  ]       Replaces ----- start = 30/10/2017 16:01:00 stop = 30/10/2017 16:53:00 title = EMOZIONI AMPLIFICATE - LAW & ORDER: UNITA' SPECIALE XVIII
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 30/10/2017 16:14:00 stop = 30/10/2017 17:03:00 title = PIETA' - LAW & ORDER: UNITA' SPECIALE IV
-[  Info  ]       Replaces ----- start = 30/10/2017 16:01:00 stop = 30/10/2017 16:53:00 title = EMOZIONI AMPLIFICATE - LAW & ORDER: UNITA' SPECIALE XVIII
-[  Info  ]       Replaces ----- start = 30/10/2017 16:53:00 stop = 30/10/2017 17:44:00 title = CORSA SENZA FINE - COLD CASE-DELITTI IRRISOLTI I
-[  Debug ]    suspicious      title in index page  = COLD CASE - DELITTI IRRISOLTI III
-[  Debug ]       differs from title in showdetails = UN PADRE PER CLAIRE - COLD CASE-DELITTI IRR.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 30/10/2017 17:03:00 stop = 30/10/2017 17:54:00 title = UN PADRE PER CLAIRE - COLD CASE-DELITTI IRRISOLTI III
-[  Info  ]       Replaces ----- start = 30/10/2017 16:53:00 stop = 30/10/2017 17:44:00 title = CORSA SENZA FINE - COLD CASE-DELITTI IRRISOLTI I
-[  Info  ]       Replaces ----- start = 30/10/2017 17:44:00 stop = 30/10/2017 18:39:00 title = FOLLIA DI UN AMORE - COLD CASE-DELITTI IRRISOLTI I
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 30/10/2017 17:54:00 stop = 30/10/2017 18:44:00 title = LA PROMESSA - COLD CASE-DELITTI IRRISOLTI III
-[  Info  ]       Replaces ----- start = 30/10/2017 17:44:00 stop = 30/10/2017 18:39:00 title = FOLLIA DI UN AMORE - COLD CASE-DELITTI IRRISOLTI I
 [  Debug ]    suspicious      title in index page  = RIZZOLI & ISLES V
 [  Debug ]       differs from title in showdetails = IL CADAVERE NEL GHIACCIO - .....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/10/2017 18:44:00 stop = 30/10/2017 19:33:00 title = IL CADAVERE NEL GHIACCIO - RIZZOLI & ISLES V
 [  Info  ]       Replaces ----- start = 30/10/2017 18:44:00 stop = 30/10/2017 19:33:00 title = IL CADAVERE NEL GHIACCIO - RIZZOLI & ISLES V
-[  Info  ]       Replaces ----- start = 30/10/2017 19:28:00 stop = 30/10/2017 20:21:00 title = LA SPIA - TAKEN I
-[  Debug ]    suspicious      title in index page  = RIZZOLI & ISLES V
-[  Debug ]       differs from title in showdetails = L' ONERE DELLA PROVA - RIZZ.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 30/10/2017 19:33:00 stop = 30/10/2017 20:21:00 title = L' ONERE DELLA PROVA - RIZZOLI & ISLES V
-[  Info  ]       Replaces ----- start = 30/10/2017 19:28:00 stop = 30/10/2017 20:21:00 title = LA SPIA - TAKEN I
 [  Debug ]    suspicious      title in index page  = THE CLOSER III
 [  Debug ]       differs from title in showdetails = FRATELLI DI SANGUE - II .....
 [  Info  ]    epg correction : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 30/10/2017 20:21:00 stop = 30/10/2017 21:14:00 title = FRATELLI DI SANGUE - II PARTE - THE CLOSER III
-[  Info  ]       Added before - start = 30/10/2017 22:06:00 stop = 30/10/2017 22:57:00 title = FUOCO AMICO - CHICAGO JUSTICE
+[  Info  ]       Added before - start = 30/10/2017 21:14:00 stop = 30/10/2017 22:04:00 title = CACCIA AL FANTASMA - SHADES OF BLUE II - PRIMA TV
 [  Debug ]    suspicious      title in index page  = SHADES OF BLUE II
 [  Debug ]       differs from title in showdetails = CACCIA AL FANTASMA - SHADES.....
 [  Info  ]    epg correction : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/10/2017 21:14:00 stop = 30/10/2017 22:04:00 title = CACCIA AL FANTASMA - SHADES OF BLUE II - PRIMA TV
-[  Info  ]       Added before - start = 30/10/2017 22:06:00 stop = 30/10/2017 22:57:00 title = FUOCO AMICO - CHICAGO JUSTICE
-[  Debug ]    suspicious      title in index page  = THE MENTALIST III
-[  Debug ]       differs from title in showdetails = TAPPETO ROSSO - THE MENTALI.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 30/10/2017 22:04:00 stop = 30/10/2017 22:55:00 title = TAPPETO ROSSO - THE MENTALIST III
-[  Info  ]       Replaces ----- start = 30/10/2017 22:06:00 stop = 30/10/2017 22:57:00 title = FUOCO AMICO - CHICAGO JUSTICE
-[  Debug ]    suspicious      title in index page  = TRAINING DAY I
-[  Debug ]       differs from title in showdetails = QUI PRO QUO - TRAINING D.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 30/10/2017 22:55:00 stop = 30/10/2017 23:50:00 title = QUI PRO QUO - TRAINING DAY I
-[  Info  ]       Replaces ----- start = 30/10/2017 22:06:00 stop = 30/10/2017 22:57:00 title = FUOCO AMICO - CHICAGO JUSTICE
-[  Info  ]       Replaces ----- start = 30/10/2017 22:57:00 stop = 30/10/2017 23:47:00 title = L' OCCHIO DEL CICLONE - SHADES OF BLUE II
+[  Info  ]       Replaces ----- start = 30/10/2017 21:14:00 stop = 30/10/2017 22:04:00 title = CACCIA AL FANTASMA - SHADES OF BLUE II - PRIMA TV
 [  Debug ]    suspicious      title in index page  = TAKEN I
 [  Debug ]       differs from title in showdetails = UN OROLOGIO SVIZZ.....
 [  Info  ]    epg correction : 
@@ -3042,7 +3045,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 03/11/2017 22:08:00 stop = 03/11/2017 23:00:00 title = LINEE CONFUSE - TRAINING DAY I - PRIMA TV
 [  Info  ]       Replaces ----- start = 03/11/2017 22:08:00 stop = 03/11/2017 23:00:00 title = LINEE CONFUSE - TRAINING DAY I - PRIMA TV
-[  Info  ] 0.16 sec/update
+[  Info  ] 0.18 sec/update
 [  Debug ] 
 [  Info  ] ( 159/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Joy) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -3226,19 +3229,27 @@
 [  Info  ]    epg correction : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 30/10/2017 05:20:00 stop = 30/10/2017 05:43:00 title = ALTA TENSIONE - BELLI DENTRO II
-[  Info  ]       Added before - start = 30/10/2017 05:12:00 stop = 30/10/2017 05:36:00 title = PARASILVANO - IL MAMMO II
+[  Info  ]       Added before - start = 30/10/2017 05:10:00 stop = 30/10/2017 05:30:00 title = BUON COMPLEANNO , NATE! - SIGNIFICANT MOTHER
 [  Debug ]    suspicious      title in index page  = BELLI DENTRO II
 [  Debug ]       differs from title in showdetails = MISSING CICCIO - BELLI DE.....
 [  Info  ]    epg correction : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/10/2017 05:43:00 stop = 30/10/2017 06:12:00 title = MISSING CICCIO - BELLI DENTRO II
-[  Info  ]       Added before - start = 30/10/2017 05:12:00 stop = 30/10/2017 05:36:00 title = PARASILVANO - IL MAMMO II
+[  Info  ]       Replaces ----- start = 30/10/2017 05:10:00 stop = 30/10/2017 05:30:00 title = BUON COMPLEANNO , NATE! - SIGNIFICANT MOTHER
+[  Debug ]    suspicious      title in index page  = IL MAMMO II
+[  Debug ]       differs from title in showdetails = PARASILVANO - IL MAMM.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 06:12:00 stop = 30/10/2017 06:36:00 title = PARASILVANO - IL MAMMO II
+[  Info  ]       Replaces ----- start = 30/10/2017 05:10:00 stop = 30/10/2017 05:30:00 title = BUON COMPLEANNO , NATE! - SIGNIFICANT MOTHER
+[  Info  ]       Replaces ----- start = 30/10/2017 05:30:00 stop = 30/10/2017 05:54:00 title = DOPPIO MISTO - SIGNIFICANT MOTHER
 [  Debug ]    suspicious      title in index page  = IL MAMMO II
 [  Debug ]       differs from title in showdetails = NON E' TUTTO ORO ... .....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/10/2017 06:36:00 stop = 30/10/2017 07:09:00 title = NON E' TUTTO ORO ... - IL MAMMO II
-[  Info  ]       Replaces ----- start = 30/10/2017 05:36:00 stop = 30/10/2017 06:09:00 title = NON E' TUTTO ORO ... - IL MAMMO II
+[  Info  ]       Replaces ----- start = 30/10/2017 05:30:00 stop = 30/10/2017 05:54:00 title = DOPPIO MISTO - SIGNIFICANT MOTHER
+[  Info  ]       Replaces ----- start = 30/10/2017 05:54:00 stop = 30/10/2017 06:41:00 title = ASTA CON INCANTO - UNA MAMMA PER AMICA III
 [  Debug ]    skipped negative show time! at 29/10/2017 06:09:00
 [  Debug ]    suspicious      title in index page  = I LICEALI
 [  Debug ]       differs from title in showdetails = BENVENUTI NELLA CAP.....
@@ -3425,26 +3436,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 30/10/2017 04:58:00 stop = 30/10/2017 06:10:00 title = SOGNI D'ORO - BELLI DENTRO II
-[  Info  ]       Added before - start = 30/10/2017 05:12:00 stop = 30/10/2017 05:36:00 title = PARASILVANO - IL MAMMO II
-[  Debug ]    suspicious      title in index page  = SIGNIFICANT MOTHER
-[  Debug ]       differs from title in showdetails = BUON COMPLEANNO , NATE! - SI.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 30/10/2017 06:10:00 stop = 30/10/2017 06:30:00 title = BUON COMPLEANNO , NATE! - SIGNIFICANT MOTHER
-[  Info  ]       Replaces ----- start = 30/10/2017 05:12:00 stop = 30/10/2017 05:36:00 title = PARASILVANO - IL MAMMO II
-[  Debug ]    suspicious      title in index page  = SIGNIFICANT MOTHER
-[  Debug ]       differs from title in showdetails = DOPPIO MISTO - SIGNIFICANT M.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 30/10/2017 06:30:00 stop = 30/10/2017 06:54:00 title = DOPPIO MISTO - SIGNIFICANT MOTHER
-[  Info  ]       Replaces ----- start = 30/10/2017 05:12:00 stop = 30/10/2017 05:36:00 title = PARASILVANO - IL MAMMO II
-[  Info  ]       Replaces ----- start = 30/10/2017 05:36:00 stop = 30/10/2017 06:09:00 title = NON E' TUTTO ORO ... - IL MAMMO II
-[  Debug ]    suspicious      title in index page  = UNA MAMMA PER AMICA III
-[  Debug ]       differs from title in showdetails = ASTA CON INCANTO - UNA MAMMA PER .....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 30/10/2017 06:54:00 stop = 30/10/2017 07:41:00 title = ASTA CON INCANTO - UNA MAMMA PER AMICA III
-[  Info  ]       Replaces ----- start = 30/10/2017 05:36:00 stop = 30/10/2017 06:09:00 title = NON E' TUTTO ORO ... - IL MAMMO II
+[  Info  ]       Added before - start = 30/10/2017 05:10:00 stop = 30/10/2017 05:30:00 title = BUON COMPLEANNO , NATE! - SIGNIFICANT MOTHER
 [  Debug ]    suspicious      title in index page  = 2 BROKE GIRLS V
 [  Debug ]       differs from title in showdetails = E LA PALLA DA DEMOLIZIONE.....
 [  Info  ]    epg correction : 
@@ -4415,7 +4407,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 03/11/2017 23:25:00 stop = 03/11/2017 23:51:00 title = IL CATALIZZATORE GUITTESCO - BIG BANG THEORY IV
 [  Info  ]       Replaces ----- start = 03/11/2017 22:25:00 stop = 03/11/2017 22:51:00 title = IL CATALIZZATORE GUITTESCO - BIG BANG THEORY IV
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.19 sec/update
 [  Debug ] 
 [  Info  ] ( 160/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Stories) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = CHASING LIFE I
@@ -4483,13 +4475,13 @@
 [  Info  ]    epg correction : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 30/10/2017 05:34:00 stop = 30/10/2017 06:15:00 title = TEMPO IN PRESTITO - SUITS VI
-[  Info  ]       Added before - start = 30/10/2017 07:10:00 stop = 30/10/2017 07:50:00 title = MISSIONE IN COLOMBIA - COVERT AFFAIRS IV
+[  Info  ]       Added before - start = 30/10/2017 06:30:00 stop = 30/10/2017 07:10:00 title = IL SEGRETO - COVERT AFFAIRS IV
 [  Debug ]    suspicious      title in index page  = FAMOUS IN LOVE I
 [  Debug ]       differs from title in showdetails = SEGRETI E TORTE - FAMOUS I.....
 [  Info  ]    epg correction : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/10/2017 06:15:00 stop = 30/10/2017 06:52:00 title = SEGRETI E TORTE - FAMOUS IN LOVE
-[  Info  ]       Added before - start = 30/10/2017 07:10:00 stop = 30/10/2017 07:50:00 title = MISSIONE IN COLOMBIA - COVERT AFFAIRS IV
+[  Info  ]       Replaces ----- start = 30/10/2017 06:30:00 stop = 30/10/2017 07:10:00 title = IL SEGRETO - COVERT AFFAIRS IV
 [  Debug ]    skipped negative show time! at 29/10/2017 05:52:00
 [  Debug ]    suspicious      title in index page  = SUITS VI
 [  Debug ]       differs from title in showdetails = LA MANO CHE TI NUT.....
@@ -4551,13 +4543,11 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 29/10/2017 19:33:00 stop = 29/10/2017 20:23:00 title = FOLLE AMORE DA COPIONE - FAMOUS IN LOVE
 [  Info  ]       Replaces ----- start = 29/10/2017 19:33:00 stop = 29/10/2017 20:23:00 title = FOLLE AMORE DA COPIONE - FAMOUS IN LOVE
-[  Debug ]    skipped negative show time! at 29/10/2017 22:48:00
-[  Debug ]    suspicious      title in index page  = SATISFACTION (NEW) II
-[  Debug ]       differs from title in showdetails = VERSO LA TRATTATIVA - SATISFACT.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 29/10/2017 23:39:00 stop = 30/10/2017 00:30:00 title = VERSO LA TRATTATIVA - SATISFACTION (NEW) II
-[  Info  ]       Replaces ----- start = 29/10/2017 22:57:00 stop = 29/10/2017 23:48:00 title = SAN VALENTINO - THE MYSTERIES OF LAURA II
+[  Info  ]       show with ---- start = 29/10/2017 22:57:00 stop = 29/10/2017 23:48:00 title = SAN VALENTINO - THE MYSTERIES OF LAURA II
+[  Info  ]       Replaces ----- start = 29/10/2017 23:39:00 stop = 30/10/2017 00:30:00 title = VERSO LA TRATTATIVA - SATISFACTION (NEW) II
+[  Debug ]    skipped negative show time! at 29/10/2017 22:48:00
 [  Debug ]    suspicious      title in index page  = SUITS VI
 [  Debug ]       differs from title in showdetails = LA MANO CHE TI NUT.....
 [  Info  ]    epg correction : 
@@ -4587,13 +4577,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 30/10/2017 04:26:00 stop = 30/10/2017 06:30:00 title = DENTI, NASO, DENTI - SUITS VI
-[  Info  ]       Added before - start = 30/10/2017 07:10:00 stop = 30/10/2017 07:50:00 title = MISSIONE IN COLOMBIA - COVERT AFFAIRS IV
-[  Debug ]    suspicious      title in index page  = COVERT AFFAIRS IV
-[  Debug ]       differs from title in showdetails = IL SEGRETO - COVERT AFFAIRS.....
-[  Info  ]    epg correction : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 30/10/2017 06:30:00 stop = 30/10/2017 07:10:00 title = IL SEGRETO - COVERT AFFAIRS IV
-[  Info  ]       Added before - start = 30/10/2017 07:10:00 stop = 30/10/2017 07:50:00 title = MISSIONE IN COLOMBIA - COVERT AFFAIRS IV
+[  Info  ]       Added before - start = 30/10/2017 06:30:00 stop = 30/10/2017 07:10:00 title = IL SEGRETO - COVERT AFFAIRS IV
 [  Debug ]    suspicious      title in index page  = IMPOSTERS
 [  Debug ]       differs from title in showdetails = IL CODICE MADDIE - .....
 [  Info  ]    epg correction : 
@@ -4756,7 +4740,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 03/11/2017 17:03:00 stop = 03/11/2017 17:51:00 title = ADDIO LOS ANGELES - FAMOUS IN LOVE - PRIMA TV
 [  Info  ]       Replaces ----- start = 03/11/2017 17:03:00 stop = 03/11/2017 17:51:00 title = ADDIO LOS ANGELES - FAMOUS IN LOVE - PRIMA TV
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.19 sec/update
 [  Debug ] 
 [  Info  ] ( 161/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Sport superHD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -4824,26 +4808,19 @@
 [  Info  ]    epg correction : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 30/10/2017 05:03:00 stop = 30/10/2017 05:30:00 title = 28/10 H. 24.00 - PREMIUM SPORT NEWS
-[  Info  ]       Added before - start = 30/10/2017 05:00:00 stop = 30/10/2017 05:30:00 title = 29/10 H. 24.30 - PREMIUM SPORT NEWS
+[  Info  ]       Added before - start = 30/10/2017 05:24:00 stop = 30/10/2017 05:51:00 title = 28/10 H. 24.00 - PREMIUM SPORT NEWS
 [  Debug ]    suspicious      title in index page  = PREMIUM SPORT NEWS
 [  Debug ]       differs from title in showdetails = 28/10 H. 24.00 - PREMIUM SPO.....
 [  Info  ]    epg correction : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 30/10/2017 05:30:00 stop = 30/10/2017 05:57:00 title = 28/10 H. 24.00 - PREMIUM SPORT NEWS
-[  Info  ]       Added before - start = 30/10/2017 05:00:00 stop = 30/10/2017 05:30:00 title = 29/10 H. 24.30 - PREMIUM SPORT NEWS
+[  Info  ]       Added before - start = 30/10/2017 05:24:00 stop = 30/10/2017 05:51:00 title = 28/10 H. 24.00 - PREMIUM SPORT NEWS
 [  Debug ]    suspicious      title in index page  = PREMIUM SPORT NEWS
 [  Debug ]       differs from title in showdetails = 28/10 H. 24.00 - PREMIUM SPO.....
 [  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 30/10/2017 05:57:00 stop = 30/10/2017 06:24:00 title = 28/10 H. 24.00 - PREMIUM SPORT NEWS
-[  Info  ]       Replaces ----- start = 30/10/2017 05:00:00 stop = 30/10/2017 05:30:00 title = 29/10 H. 24.30 - PREMIUM SPORT NEWS
-[  Debug ]    suspicious      title in index page  = PREMIUM SPORT NEWS
-[  Debug ]       differs from title in showdetails = 28/10 H. 24.00 - PREMIUM SPO.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 30/10/2017 06:24:00 stop = 30/10/2017 06:51:00 title = 28/10 H. 24.00 - PREMIUM SPORT NEWS
-[  Info  ]       Replaces ----- start = 30/10/2017 05:00:00 stop = 30/10/2017 05:30:00 title = 29/10 H. 24.30 - PREMIUM SPORT NEWS
-[  Info  ]       Replaces ----- start = 30/10/2017 05:30:00 stop = 30/10/2017 06:00:00 title = 29/10 H. 24.30 - PREMIUM SPORT NEWS
+[  Info  ]       Added before - start = 30/10/2017 05:24:00 stop = 30/10/2017 05:51:00 title = 28/10 H. 24.00 - PREMIUM SPORT NEWS
 [  Debug ]    skipped negative show time! at 29/10/2017 05:51:00
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
@@ -4888,7 +4865,19 @@
 [  Info  ]    epg correction : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 30/10/2017 04:55:00 stop = 30/10/2017 06:00:00 title = 29/10 H. 24.30 - PREMIUM SPORT NEWS
-[  Info  ]       Added before - start = 30/10/2017 05:00:00 stop = 30/10/2017 05:30:00 title = 29/10 H. 24.30 - PREMIUM SPORT NEWS
+[  Info  ]       Added before - start = 30/10/2017 05:24:00 stop = 30/10/2017 05:51:00 title = 28/10 H. 24.00 - PREMIUM SPORT NEWS
+[  Debug ]    suspicious      title in index page  = PREMIUM SPORT NEWS
+[  Debug ]       differs from title in showdetails = 29/10 H. 24.30 - PREMIUM SPO.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 06:00:00 stop = 30/10/2017 06:30:00 title = 29/10 H. 24.30 - PREMIUM SPORT NEWS
+[  Info  ]       Replaces ----- start = 30/10/2017 05:24:00 stop = 30/10/2017 05:51:00 title = 28/10 H. 24.00 - PREMIUM SPORT NEWS
+[  Debug ]    suspicious      title in index page  = PREMIUM SPORT NEWS
+[  Debug ]       differs from title in showdetails = 29/10 H. 24.30 - PREMIUM SPO.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 06:30:00 stop = 30/10/2017 07:00:00 title = 29/10 H. 24.30 - PREMIUM SPORT NEWS
+[  Info  ]       Replaces ----- start = 30/10/2017 05:24:00 stop = 30/10/2017 05:51:00 title = 28/10 H. 24.00 - PREMIUM SPORT NEWS
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/10/2017 07:30:00 stop = 30/10/2017 07:45:00 title = 30/10 H. 7.30 - PREMIUM SPORT EDICOLA
@@ -5165,7 +5154,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 03/11/2017 16:30:00 stop = 03/11/2017 17:00:00 title = VENERDI 3/11 - PREVIEW LIGUE 1 -'18
 [  Info  ]       Replaces ----- start = 03/11/2017 15:30:00 stop = 03/11/2017 16:00:00 title = VENERDI 3/11 - PREVIEW LIGUE 1 -'18
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 162/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Sport 2 HD) -- mode Incremental
 [  Info  ]    epg correction : 
@@ -5452,7 +5441,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 03/11/2017 23:38:00 stop = 04/11/2017 00:30:00 title = GENOA-SAMPDORIA - CAMPIONATO DI CALCIO SERIE A 2012/13 (GENOA)
 [  Info  ]       Replaces ----- start = 03/11/2017 23:38:00 stop = 04/11/2017 00:30:00 title = GENOA-SAMPDORIA - CAMPIONATO DI CALCIO SERIE A 2012/13 (GENOA)
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 163/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Calcio 1) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -5741,10 +5730,10 @@
 [  Info  ]       Replaces ----- start = 03/11/2017 22:38:00 stop = 03/11/2017 23:30:00 title = GENOA-SAMPDORIA - CAMPIONATO DI CALCIO SERIE A 2012/13 (GENOA)
 [  Info  ] 0.15 sec/update
 [  Debug ] 
-[  Debug ] 34915 shows in 165 channels
-[  Debug ] 877 updated shows
-[  Debug ] 5 new shows added
+[  Debug ] 34917 shows in 165 channels
+[  Debug ] 873 updated shows
+[  Debug ] 7 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 28/10/2017 16:20:53 done in 15m 51s
+[        ] Job finished at 28/10/2017 18:21:20 done in 16m 17s
 [  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
