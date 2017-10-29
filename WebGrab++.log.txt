@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 29/10/2017 03:05:03
+[        ] Job started at 29/10/2017 04:05:02
 [  Debug ] 
 [  Debug ] Running  on: Unix 3.13.0.132
 [  Debug ] Environment: 4.0.30319.42000
@@ -27,10 +27,10 @@
 [  Info  ] found: /home30/crazypu/git/epg/rai.it.ini -- Revision 01
 [  Debug ] 	Timezone name   :	Europe/Rome
 [  Debug ] 	Base UTC Offset :	UTC+01:00
-[  Debug ] 	UTC Offset now  :	UTC+02:00	(DST in effect)
-[  Debug ] 	next DST dates  :	29/10/2017 03:00 (local)
-[  Debug ] 	                :	25/03/2018 02:00 (local)
-[  Debug ] 	local time now  :	29/10/2017 02:05:03
+[  Debug ] 	UTC Offset now  :	UTC+01:00	(no DST in effect)
+[  Debug ] 	next DST dates  :	25/03/2018 02:00 (local)
+[  Debug ] 	                :	28/10/2018 03:00 (local)
+[  Debug ] 	local time now  :	29/10/2017 04:05:02
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -215,7 +215,7 @@
 [  Info  ] Found existing channel (xmltv_id=Paramount Channel) in the config file
 [  Info  ] Found existing channel (xmltv_id=Premium Action HD) in the config file
 [  Debug ] removed a show that is not in time increasing order in Premium Action HD starting after 29/10/2017 23:00:00
-[  Debug ] removed a show that is not in time increasing order in Premium Action HD starting after 30/10/2017 05:19:00
+[  Debug ] removed 2 overlapping shows in Premium Action HD starting after 30/10/2017 04:35:00
 [  Info  ] Found existing channel (xmltv_id=Premium Action +24) in the config file
 [  Info  ] Found existing channel (xmltv_id=Premium Crime) in the config file
 [  Debug ] removed 3 overlapping shows in Premium Crime starting after 30/10/2017 04:30:00
@@ -225,18 +225,27 @@
 [  Debug ] removed a show that is not in time increasing order in Premium Crime starting after 30/10/2017 15:08:00
 [  Debug ] removed a show that is not in time increasing order in Premium Crime starting after 30/10/2017 18:39:00
 [  Debug ] removed 2 overlapping shows in Premium Crime starting after 30/10/2017 20:21:00
-[  Debug ] removed 2 overlapping shows in Premium Crime starting after 30/10/2017 21:14:00
+[  Debug ] removed a show that is not in time increasing order in Premium Crime starting after 30/10/2017 21:14:00
 [  Info  ] Found existing channel (xmltv_id=Premium Joy) in the config file
 [  Debug ] removed a show that is not in time increasing order in Premium Joy starting after 29/10/2017 22:59:00
 [  Debug ] removed a show that is not in time increasing order in Premium Joy starting after 29/10/2017 23:24:00
-[  Debug ] removed 3 overlapping shows in Premium Joy starting after 30/10/2017 04:58:00
+[  Debug ] removed 2 overlapping shows in Premium Joy starting after 30/10/2017 04:58:00
+[  Debug ] removed a show that is not in time increasing order in Premium Joy starting after 30/10/2017 05:43:00
 [  Info  ] Found existing channel (xmltv_id=Premium Stories) in the config file
-[  Debug ] removed 3 overlapping shows in Premium Stories starting after 30/10/2017 04:26:00
+[  Debug ] removed 2 overlapping shows in Premium Stories starting after 30/10/2017 04:26:00
+[  Debug ] removed a show that is not in time increasing order in Premium Stories starting after 30/10/2017 06:15:00
 [  Info  ] Found existing channel (xmltv_id=Premium Sport superHD) in the config file
-[  Debug ] removed 4 overlapping shows in Premium Sport superHD starting after 30/10/2017 04:55:00
+[  Debug ] removed 3 overlapping shows in Premium Sport superHD starting after 30/10/2017 04:55:00
+[  Debug ] removed a show that is not in time increasing order in Premium Sport superHD starting after 30/10/2017 05:57:00
 [  Info  ] Found existing channel (xmltv_id=Premium Sport 2 HD) in the config file
 [  Info  ] Found existing channel (xmltv_id=Premium Calcio 1) in the config file
-[  Info  ] time offset change detected for site guidatv.sky.it from: +0100 to: +0200
+[  Info  ] time offset change detected for site guidatv.sky.it from: +0200 to: +0100
+[  Info  ] time offset change detected for site mediaset.it from: +0200 to: +0100
+[  Info  ] time offset change detected for site horizon.tv.ch from: +0200 to: +0100
+[  Info  ] time offset change detected for site staseraintv.com from: +0200 to: +0100
+[  Info  ] time offset change detected for site italiasmart.tv from: +0200 to: +0100
+[  Info  ] time offset change detected for site rai.it from: +0200 to: +0100
+[  Info  ] time offset change detected for site mediasetpremium.it from: +0200 to: +0100
 [  Info  ] 
 [  Info  ] 
 [  Info  ]       i=index  .=same  c=change  g=gab  r=replace  n=new
@@ -249,16 +258,13 @@
 [  Info  ] update requested for - 165 - out of - 165 - channels for 7 day(s)
 [  Debug ] 
 [  Info  ] (   1/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai 1 HD) -- mode Incremental
-[  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20171029060000 +0100
-[  Debug ] starting with show : Rai Parlamento - Punto Europa at local time 29/10/2017 06:00
-[  Info  ] 0.20 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   2/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai 2 HD) -- mode Incremental
-[  Info  ] 0.21 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   3/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai 3 HD) -- mode Incremental
-[  Info  ] 0.20 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   4/165 ) MEDIASET.IT -- chan. (xmltv_id=Rete 4 HD) -- mode Incremental
 [Error   ] Unable to update channel Rete 4 HD
@@ -301,34 +307,28 @@
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] (   4/165 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La1 HD) -- mode Incremental
-[  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20171029060000 +0100
-[  Debug ] starting with show : In volo sulla Svizzera italiana at local time 29/10/2017 06:00
-[  Info  ] 0.04 sec/update
+[  Info  ] 0.08 sec/update
 [  Debug ] 
 [  Info  ] (   5/165 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La2 HD) -- mode Incremental
-[  Info  ] 
-[  Debug ] 
-[  Info  ] (   6/165 ) STASERAINTV.COM -- chan. (xmltv_id=La 5) -- mode Incremental
-[  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20171029060000 +0100
-[  Debug ] starting with show : MEDIA SHOPPING at local time 29/10/2017 06:00
-[  Info  ] 0.08 sec/update
-[  Debug ] 
-[  Info  ] (   7/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=LA7) -- mode Incremental
-[  Info  ] 0.20 sec/update
-[  Debug ] 
-[  Info  ] (   8/165 ) STASERAINTV.COM -- chan. (xmltv_id=LA7 D) -- mode Incremental
-[  Info  ] 0.06 sec/update
-[  Debug ] 
-[  Info  ] (   9/165 ) STASERAINTV.COM -- chan. (xmltv_id=TV 8) -- mode Incremental
 [  Info  ] 0.07 sec/update
 [  Debug ] 
+[  Info  ] (   6/165 ) STASERAINTV.COM -- chan. (xmltv_id=La 5) -- mode Incremental
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (   7/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=LA7) -- mode Incremental
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (   8/165 ) STASERAINTV.COM -- chan. (xmltv_id=LA7 D) -- mode Incremental
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (   9/165 ) STASERAINTV.COM -- chan. (xmltv_id=TV 8) -- mode Incremental
+[  Info  ] 
+[  Debug ] 
 [  Info  ] (  10/165 ) STASERAINTV.COM -- chan. (xmltv_id=Nove HD) -- mode Incremental
-[  Info  ] 0.08 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  11/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Top Crime) -- mode Incremental
-[  Info  ] 0.19 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  12/165 ) MEDIASET.IT -- chan. (xmltv_id=Mediaset Extra) -- mode Incremental
 [Error   ] Unable to update channel Mediaset Extra
@@ -339,7 +339,7 @@
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] (  12/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Storia) -- mode Incremental
-[  Info  ] 0.24 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  13/165 ) MEDIASET.IT -- chan. (xmltv_id=Iris) -- mode Incremental
 [Error   ] Unable to update channel Iris
@@ -356,154 +356,25 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  15/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Premium HD) -- mode Incremental
-[  Info  ] 0.22 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  16/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai 4 HD) -- mode Incremental
-[  Info  ] 0.23 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  17/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai 5 HD) -- mode Incremental
-[  Info  ] 0.23 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  18/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Movie HD) -- mode Incremental
-[  Info  ] 0.23 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  19/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Giallo) -- mode Incremental
-[  Info  ] 0.22 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  20/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=LEI) -- mode Incremental
-[  Info  ] 0.21 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  21/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=LaEffe) -- mode Incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 31/10/2017 06:30:00 stop = 31/10/2017 06:55:00 title = Dalla A a laeffe
-[  Info  ]       Replaces ----- start = 31/10/2017 06:30:00 stop = 31/10/2017 06:50:00 title = Dalla A a laeffe
-[  Info  ]       Replaces ----- start = 31/10/2017 06:50:00 stop = 31/10/2017 07:20:00 title = Lettori - I libri di una vita
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 31/10/2017 06:55:00 stop = 31/10/2017 07:25:00 title = Lettori - I libri di una vita
-[  Info  ]       Replaces ----- start = 31/10/2017 06:50:00 stop = 31/10/2017 07:20:00 title = Lettori - I libri di una vita
-[  Info  ]       Replaces ----- start = 31/10/2017 07:20:00 stop = 31/10/2017 07:50:00 title = Un libro per due
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 31/10/2017 07:55:00 stop = 31/10/2017 08:25:00 title = RED - Dimmi dove vivi
-[  Info  ]       Replaces ----- start = 31/10/2017 07:50:00 stop = 31/10/2017 08:20:00 title = RED - Dimmi dove vivi
-[  Info  ]       Replaces ----- start = 31/10/2017 08:20:00 stop = 31/10/2017 08:55:00 title = RED - Dimmi dove vivi
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 31/10/2017 08:25:00 stop = 31/10/2017 08:55:00 title = RED - Dimmi dove vivi
-[  Info  ]       Replaces ----- start = 31/10/2017 08:20:00 stop = 31/10/2017 08:55:00 title = RED - Dimmi dove vivi
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 31/10/2017 09:55:00 stop = 31/10/2017 10:50:00 title = RED - Racconti dalle citta' di mare
-[  Info  ]       Replaces ----- start = 31/10/2017 09:55:00 stop = 31/10/2017 10:55:00 title = RED - Racconti dalle citta' di mare
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 31/10/2017 10:50:00 stop = 31/10/2017 11:50:00 title = RED - Il cuoco vagabondo
-[  Info  ]       Replaces ----- start = 31/10/2017 09:55:00 stop = 31/10/2017 10:55:00 title = RED - Racconti dalle citta' di mare
-[  Info  ]       Replaces ----- start = 31/10/2017 10:55:00 stop = 31/10/2017 11:55:00 title = RED - Il cuoco vagabondo
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 31/10/2017 11:50:00 stop = 31/10/2017 12:55:00 title = RED - Il cuoco vagabondo
-[  Info  ]       Replaces ----- start = 31/10/2017 10:55:00 stop = 31/10/2017 11:55:00 title = RED - Il cuoco vagabondo
-[  Info  ]       Replaces ----- start = 31/10/2017 11:55:00 stop = 31/10/2017 12:55:00 title = RED - Il cuoco vagabondo
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 31/10/2017 12:55:00 stop = 31/10/2017 13:50:00 title = RED - Chef Sara torna a casa
-[  Info  ]       Replaces ----- start = 31/10/2017 12:55:00 stop = 31/10/2017 13:45:00 title = RED - Chef Sara torna a casa
-[  Info  ]       Replaces ----- start = 31/10/2017 13:45:00 stop = 31/10/2017 14:10:00 title = Lettori - I libri di una vita
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 31/10/2017 13:50:00 stop = 31/10/2017 14:20:00 title = Lettori - I libri di una vita
-[  Info  ]       Replaces ----- start = 31/10/2017 13:45:00 stop = 31/10/2017 14:10:00 title = Lettori - I libri di una vita
-[  Info  ]       Replaces ----- start = 31/10/2017 14:10:00 stop = 31/10/2017 14:40:00 title = Un libro per due
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 31/10/2017 14:50:00 stop = 31/10/2017 15:20:00 title = Lettori - I libri di una vita
-[  Info  ]       Replaces ----- start = 31/10/2017 14:40:00 stop = 31/10/2017 15:10:00 title = Lettori - I libri di una vita
-[  Info  ]       Replaces ----- start = 31/10/2017 15:10:00 stop = 31/10/2017 15:40:00 title = Un libro per due
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 31/10/2017 15:50:00 stop = 31/10/2017 16:20:00 title = RED - Dimmi dove vivi
-[  Info  ]       Replaces ----- start = 31/10/2017 15:40:00 stop = 31/10/2017 16:10:00 title = RED - Dimmi dove vivi
-[  Info  ]       Replaces ----- start = 31/10/2017 16:10:00 stop = 31/10/2017 16:45:00 title = RED - Dimmi dove vivi
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 31/10/2017 16:20:00 stop = 31/10/2017 16:50:00 title = RED - Dimmi dove vivi
-[  Info  ]       Replaces ----- start = 31/10/2017 16:10:00 stop = 31/10/2017 16:45:00 title = RED - Dimmi dove vivi
-[  Info  ]       Replaces ----- start = 31/10/2017 16:45:00 stop = 31/10/2017 17:15:00 title = RED - Un medico On The Road
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 31/10/2017 16:50:00 stop = 31/10/2017 17:20:00 title = RED - Un medico On The Road
-[  Info  ]       Replaces ----- start = 31/10/2017 16:45:00 stop = 31/10/2017 17:15:00 title = RED - Un medico On The Road
-[  Info  ]       Replaces ----- start = 31/10/2017 17:15:00 stop = 31/10/2017 17:45:00 title = RED - Un medico On The Road
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 31/10/2017 17:20:00 stop = 31/10/2017 17:50:00 title = RED - Un medico On The Road
-[  Info  ]       Replaces ----- start = 31/10/2017 17:15:00 stop = 31/10/2017 17:45:00 title = RED - Un medico On The Road
-[  Info  ]       Replaces ----- start = 31/10/2017 17:45:00 stop = 31/10/2017 18:40:00 title = RED - Racconti dalle citta' di mare
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 31/10/2017 17:50:00 stop = 31/10/2017 18:45:00 title = RED - Racconti dalle citta' di mare
-[  Info  ]       Replaces ----- start = 31/10/2017 17:45:00 stop = 31/10/2017 18:40:00 title = RED - Racconti dalle citta' di mare
-[  Info  ]       Replaces ----- start = 31/10/2017 18:40:00 stop = 31/10/2017 19:40:00 title = RED - Il cuoco vagabondo
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 31/10/2017 18:45:00 stop = 31/10/2017 19:45:00 title = RED - Il cuoco vagabondo
-[  Info  ]       Replaces ----- start = 31/10/2017 18:40:00 stop = 31/10/2017 19:40:00 title = RED - Il cuoco vagabondo
-[  Info  ]       Replaces ----- start = 31/10/2017 19:40:00 stop = 31/10/2017 20:40:00 title = RED - Racconti dalle citta' di mare
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 31/10/2017 19:45:00 stop = 31/10/2017 20:40:00 title = RED - Racconti dalle citta' di mare
-[  Info  ]       Replaces ----- start = 31/10/2017 19:40:00 stop = 31/10/2017 20:40:00 title = RED - Racconti dalle citta' di mare
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 31/10/2017 21:10:00 stop = 31/10/2017 22:55:00 title = I colori del crimine - 1^TV
-[  Info  ]       Replaces ----- start = 31/10/2017 21:10:00 stop = 31/10/2017 23:10:00 title = Il tempo dei lupi
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 01/11/2017 00:45:00 stop = 01/11/2017 01:40:00 title = RED - Racconti dalle citta' di mare
-[  Info  ]       Replaces ----- start = 31/10/2017 23:10:00 stop = 01/11/2017 00:55:00 title = I colori del crimine
-[  Info  ]       Replaces ----- start = 01/11/2017 00:55:00 stop = 01/11/2017 02:40:00 title = L'Ispettore Wallander
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 01/11/2017 01:40:00 stop = 01/11/2017 02:35:00 title = RED - Racconti dalle citta' di mare
-[  Info  ]       Replaces ----- start = 01/11/2017 00:55:00 stop = 01/11/2017 02:40:00 title = L'Ispettore Wallander
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 01/11/2017 02:35:00 stop = 01/11/2017 03:05:00 title = Lettori - I libri di una vita
-[  Info  ]       Replaces ----- start = 01/11/2017 00:55:00 stop = 01/11/2017 02:40:00 title = L'Ispettore Wallander
-[  Info  ]       Replaces ----- start = 01/11/2017 02:40:00 stop = 01/11/2017 03:05:00 title = Lettori - I libri di una vita
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 01/11/2017 03:35:00 stop = 01/11/2017 04:05:00 title = Lettori - I libri di una vita
-[  Info  ]       Replaces ----- start = 01/11/2017 03:35:00 stop = 01/11/2017 04:00:00 title = Sconosciuti
-[  Info  ]       Replaces ----- start = 01/11/2017 04:00:00 stop = 01/11/2017 04:25:00 title = Sconosciuti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 01/11/2017 04:05:00 stop = 01/11/2017 04:35:00 title = Sconosciuti
-[  Info  ]       Replaces ----- start = 01/11/2017 04:00:00 stop = 01/11/2017 04:25:00 title = Sconosciuti
-[  Info  ]       Replaces ----- start = 01/11/2017 04:25:00 stop = 01/11/2017 04:50:00 title = Sconosciuti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 01/11/2017 04:35:00 stop = 01/11/2017 05:00:00 title = Sconosciuti
-[  Info  ]       Replaces ----- start = 01/11/2017 04:25:00 stop = 01/11/2017 04:50:00 title = Sconosciuti
-[  Info  ]       Replaces ----- start = 01/11/2017 04:50:00 stop = 01/11/2017 05:10:00 title = Sconosciuti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 01/11/2017 05:00:00 stop = 01/11/2017 05:30:00 title = Sconosciuti
-[  Info  ]       Replaces ----- start = 01/11/2017 04:50:00 stop = 01/11/2017 05:10:00 title = Sconosciuti
-[  Info  ]       Replaces ----- start = 01/11/2017 05:10:00 stop = 01/11/2017 05:35:00 title = Sconosciuti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 01/11/2017 05:30:00 stop = 01/11/2017 05:55:00 title = Sconosciuti
-[  Info  ]       Replaces ----- start = 01/11/2017 05:10:00 stop = 01/11/2017 05:35:00 title = Sconosciuti
-[  Info  ]       Replaces ----- start = 01/11/2017 05:35:00 stop = 01/11/2017 06:00:00 title = Sconosciuti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 01/11/2017 05:55:00 stop = 01/11/2017 06:00:00 title = Effetto notte
-[  Info  ]       Replaces ----- start = 01/11/2017 05:35:00 stop = 01/11/2017 06:00:00 title = Sconosciuti
-[  Info  ] 0.22 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  22/165 ) PROGRAMMI-TV.EU -- chan. (xmltv_id=La3) -- mode Incremental
 [Error   ] no shows in indexpage!
@@ -516,56 +387,56 @@
 
 [  Debug ] 
 [  Info  ] (  23/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema 1 HD) -- mode Incremental
-[  Info  ] 0.23 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  24/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema 1 SuperHD) -- mode Incremental
-[  Info  ] 0.23 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  25/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema +1) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.23 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  26/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema +24 SuperHD) -- mode Incremental
-[  Info  ] 0.24 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  27/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema +24) -- mode Incremental
-[  Info  ] 0.24 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  28/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Hits HD) -- mode Incremental
-[  Info  ] 0.25 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  29/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Hits SuperHD) -- mode Incremental
-[  Info  ] 0.23 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  30/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Family HD) -- mode Incremental
-[  Info  ] 0.23 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  31/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Family SuperHD) -- mode Incremental
-[  Info  ] 0.23 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  32/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Passion HD) -- mode Incremental
-[  Info  ] 0.23 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  33/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Comedy) -- mode Incremental
-[  Info  ] 0.23 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  34/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Classics) -- mode Incremental
-[  Info  ] 0.24 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  35/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Max HD) -- mode Incremental
-[  Info  ] 0.23 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  36/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Max Super hd) -- mode Incremental
-[  Info  ] 0.23 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  37/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Max +1) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  38/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Cult HD) -- mode Incremental
-[  Info  ] 0.24 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  39/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky TG24) -- mode Incremental
-[  Info  ] 0.19 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  40/165 ) PROGRAMMI-TV.EU -- chan. (xmltv_id=TGcom 24) -- mode Incremental
 [Error   ] no shows in indexpage!
@@ -588,49 +459,49 @@
 
 [  Debug ] 
 [  Info  ] (  42/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Uno HD) -- mode Incremental
-[  Info  ] 0.22 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  43/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Uno +1) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  44/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=SKY CLASSICA HD) -- mode Incremental
-[  Info  ] 0.21 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  45/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Atlantic HD) -- mode Incremental
-[  Info  ] 0.23 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  46/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Atlantic +1) -- mode Incremental
-[  Info  ] 0.23 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  47/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox HD) -- mode Incremental
-[  Info  ] 0.21 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  48/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox +1) -- mode Incremental
-[  Info  ] 0.25 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  49/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Life HD) -- mode Incremental
-[  Info  ] 0.23 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  50/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Life +1) -- mode Incremental
-[  Info  ] 0.24 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  51/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Crime HD) -- mode Incremental
-[  Info  ] 0.23 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  52/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Crime +1) -- mode Incremental
-[  Info  ] 0.23 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  53/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Comedy HD) -- mode Incremental
-[  Info  ] 0.23 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  54/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Comedy Central) -- mode Incremental
-[  Info  ] 0.28 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  55/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Fox Animation HD) -- mode Incremental
-[  Info  ] 0.24 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  56/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=CI Crime+Investigation HD) -- mode Incremental
-[  Info  ] 0.21 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  57/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky AXN) -- mode Incremental
 [Error   ] Unable to update channel Sky AXN
@@ -649,130 +520,130 @@
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] (  57/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport F1 HD) -- mode Incremental
-[  Info  ] 0.21 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  58/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport F1 SuperHD) -- mode Incremental
-[  Info  ] 0.22 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  59/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky MotoGP HD) -- mode Incremental
-[  Info  ] 0.21 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  60/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky motoGP superHD) -- mode Incremental
-[  Info  ] 0.22 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  61/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Bike Channel) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.22 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  62/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Eurosport 1) -- mode Incremental
-[  Info  ] 0.22 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  63/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Eurosport 2) -- mode Incremental
-[  Info  ] 0.23 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  64/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport 24 HD) -- mode Incremental
-[  Info  ] 0.20 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  65/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport 24 SuperHD) -- mode Incremental
-[  Info  ] 0.19 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  66/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport 1 HD) -- mode Incremental
-[  Info  ] 0.22 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  67/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport 1 SuperHD) -- mode Incremental
-[  Info  ] 0.22 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  68/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport 2 HD) -- mode Incremental
-[  Info  ] 0.24 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  69/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport 3 HD) -- mode Incremental
-[  Info  ] 0.23 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  70/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Plus HD) -- mode Incremental
-[  Info  ] 0.22 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  71/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Mix) -- mode Incremental
-[  Info  ] 0.22 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  72/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Sports HD) -- mode Incremental
-[  Info  ] 0.22 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  73/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Sports SuperHD) -- mode Incremental
-[  Info  ] 0.22 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  74/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Supercalcio HD) -- mode Incremental
-[  Info  ] 0.21 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  75/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Supercalcio SuperHD) -- mode Incremental
-[  Info  ] 0.22 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  76/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Eurosport 1 Italia) -- mode Incremental
-[  Info  ] 0.23 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  77/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Eurosport 2 Italia) -- mode Incremental
-[  Info  ] 0.23 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  78/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 1 HD) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.22 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  79/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 1 SuperHDD) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.22 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  80/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 2 HD) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.21 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  81/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 3 HD) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.22 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  82/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 4 HD) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.21 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  83/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 5 HD) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.21 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  84/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 6 sd) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.21 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  85/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 7 sd) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.19 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  86/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 8 sd) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.19 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  87/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 9 sd) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.19 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  88/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 10 sd) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.22 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  89/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 11 sd) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.19 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  90/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 12 sd) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.18 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  91/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 13 sd) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.19 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  92/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Super Tennis HD) -- mode Incremental
-[  Info  ] 0.24 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  93/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Milan Channel) -- mode Incremental
-[  Info  ] 0.23 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  94/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Juventus Channel) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
@@ -780,227 +651,1334 @@
 [  Debug ] 
 [  Info  ] (  95/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Inter Channel) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.28 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  96/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Roma Channel) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.22 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  97/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Lazio Style Channel) -- mode Incremental
-[  Info  ] 0.22 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  98/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky arte hd) -- mode Incremental
-[  Info  ] 0.23 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  99/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Discovery Channel HD) -- mode Incremental
-[  Info  ] 0.23 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 100/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Discovery Science) -- mode Incremental
-[  Info  ] 0.21 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 101/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Discovery Travel Living) -- mode Incremental
-[  Info  ] 0.21 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 102/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=NatGeoWild) -- mode Incremental
-[  Info  ] 0.22 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 103/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=National Geographic) -- mode Incremental
-[  Info  ] 0.22 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 104/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=National geo H265) -- mode Incremental
-[  Info  ] 0.23 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 105/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=NatGeoPeople) -- mode Incremental
-[  Info  ] 0.23 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 106/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=History Channel HD) -- mode Incremental
-[  Info  ] 0.23 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 107/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Focus) -- mode Incremental
-[  Info  ] 0.24 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 108/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Dmax) -- mode Incremental
-[  Info  ] 0.24 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 109/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Real Time HD) -- mode Incremental
-[  Info  ] 0.25 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 110/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Caccia e Pesca) -- mode Incremental
-[  Info  ] 0.24 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 111/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Pesca e Caccia) -- mode Incremental
-[  Info  ] 0.25 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 112/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cielo) -- mode Incremental
-[  Info  ] 0.24 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 113/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Animal Planet) -- mode Incremental
-[  Info  ] 0.23 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 114/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Gambero Rosso) -- mode Incremental
-[  Info  ] 0.23 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 115/165 ) ITALIASMART.TV -- chan. (xmltv_id=Alice) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20171029030000 +0100
-[  Debug ] starting with show : Romagna mia at local time 29/10/2017 03:00
+[  Debug ] time-offset change for all shows after starttime 20171029002200 +0200
+[  Debug ] starting with show : Accademia Montersino at local time 29/10/2017 00:22
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2017 00:22:00 stop = 29/10/2017 01:15:00 title = Accademia Montersino
+[  Info  ]       Replaces ----- start = 29/10/2017 01:22:00 stop = 29/10/2017 02:15:00 title = Accademia Montersino
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2017 01:15:00 stop = 29/10/2017 01:45:00 title = Alice club
+[  Info  ]       Replaces ----- start = 29/10/2017 02:15:00 stop = 29/10/2017 02:45:00 title = Alice club
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2017 01:45:00 stop = 29/10/2017 02:10:00 title = Pasta, Love e Fantasia
+[  Info  ]       Replaces ----- start = 29/10/2017 02:45:00 stop = 29/10/2017 03:10:00 title = Pasta, Love e Fantasia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2017 02:10:00 stop = 29/10/2017 02:35:00 title = Amici miei...Bischeri
+[  Info  ]       Replaces ----- start = 29/10/2017 03:10:00 stop = 29/10/2017 03:35:00 title = Amici miei...Bischeri
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2017 02:35:00 stop = 29/10/2017 03:00:00 title = Romagna mia
+[  Info  ]       Replaces ----- start = 29/10/2017 03:35:00 stop = 29/10/2017 03:00:00 title = Romagna mia
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 29/10/2017 03:00:00 and stop at 29/10/2017 03:30:00
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 29/10/2017 03:30:00 and stop at 29/10/2017 03:55:00
-[  Info  ] 
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2017 03:55:00 stop = 29/10/2017 04:20:00 title = Pane amore e fantasia
+[  Info  ]       Replaces ----- start = 29/10/2017 03:55:00 stop = 29/10/2017 04:20:00 title = Pane amore e fantasia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2017 04:20:00 stop = 29/10/2017 04:50:00 title = Raccolto e mangiato
+[  Info  ]       Replaces ----- start = 29/10/2017 04:20:00 stop = 29/10/2017 04:50:00 title = Raccolto e mangiato
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2017 04:50:00 stop = 29/10/2017 05:15:00 title = Dalle malghe al mare
+[  Info  ]       Replaces ----- start = 29/10/2017 04:50:00 stop = 29/10/2017 05:15:00 title = Dalle malghe al mare
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2017 05:15:00 stop = 29/10/2017 05:45:00 title = Risi e Bisi
+[  Info  ]       Replaces ----- start = 29/10/2017 05:15:00 stop = 29/10/2017 05:45:00 title = Risi e Bisi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2017 05:45:00 stop = 29/10/2017 06:10:00 title = Lungo il fiume
+[  Info  ]       Replaces ----- start = 29/10/2017 05:45:00 stop = 29/10/2017 06:10:00 title = Lungo il fiume
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2017 06:10:00 stop = 29/10/2017 06:40:00 title = Il club delle cuoche
+[  Info  ]       Replaces ----- start = 29/10/2017 06:10:00 stop = 29/10/2017 06:40:00 title = Il club delle cuoche
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2017 06:40:00 stop = 29/10/2017 07:05:00 title = Il folletto delle torte
+[  Info  ]       Replaces ----- start = 29/10/2017 06:40:00 stop = 29/10/2017 07:05:00 title = Il folletto delle torte
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2017 07:05:00 stop = 29/10/2017 07:35:00 title = Alice club
+[  Info  ]       Replaces ----- start = 29/10/2017 07:05:00 stop = 29/10/2017 07:35:00 title = Alice club
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2017 07:35:00 stop = 29/10/2017 07:55:00 title = La salute vien mangiando
+[  Info  ]       Replaces ----- start = 29/10/2017 07:35:00 stop = 29/10/2017 07:55:00 title = La salute vien mangiando
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2017 07:55:00 stop = 29/10/2017 08:25:00 title = Casa Alice
+[  Info  ]       Replaces ----- start = 29/10/2017 07:55:00 stop = 29/10/2017 08:25:00 title = Casa Alice
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2017 08:25:00 stop = 29/10/2017 09:00:00 title = Cinquanta sfumature di cioccolato
+[  Info  ]       Replaces ----- start = 29/10/2017 08:25:00 stop = 29/10/2017 09:00:00 title = Cinquanta sfumature di cioccolato
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2017 09:00:00 stop = 29/10/2017 09:30:00 title = Dalle malghe al mare
+[  Info  ]       Replaces ----- start = 29/10/2017 09:00:00 stop = 29/10/2017 09:30:00 title = Dalle malghe al mare
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2017 09:30:00 stop = 29/10/2017 10:00:00 title = Pane amore e fantasia
+[  Info  ]       Replaces ----- start = 29/10/2017 09:30:00 stop = 29/10/2017 10:00:00 title = Pane amore e fantasia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2017 10:00:00 stop = 29/10/2017 10:30:00 title = Il folletto delle torte
+[  Info  ]       Replaces ----- start = 29/10/2017 10:00:00 stop = 29/10/2017 10:30:00 title = Il folletto delle torte
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2017 10:30:00 stop = 29/10/2017 11:05:00 title = Raccolto e mangiato
+[  Info  ]       Replaces ----- start = 29/10/2017 10:30:00 stop = 29/10/2017 11:05:00 title = Raccolto e mangiato
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2017 11:05:00 stop = 29/10/2017 11:20:00 title = Non e mai troppo presto
+[  Info  ]       Replaces ----- start = 29/10/2017 11:05:00 stop = 29/10/2017 11:20:00 title = Non e mai troppo presto
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2017 11:20:00 stop = 29/10/2017 11:55:00 title = Alice club
+[  Info  ]       Replaces ----- start = 29/10/2017 11:20:00 stop = 29/10/2017 11:55:00 title = Alice club
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2017 11:55:00 stop = 29/10/2017 12:25:00 title = Pasta, Love e Fantasia
+[  Info  ]       Replaces ----- start = 29/10/2017 11:55:00 stop = 29/10/2017 12:25:00 title = Pasta, Love e Fantasia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2017 12:25:00 stop = 29/10/2017 12:55:00 title = Amici miei...Bischeri
+[  Info  ]       Replaces ----- start = 29/10/2017 12:25:00 stop = 29/10/2017 12:55:00 title = Amici miei...Bischeri
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2017 12:55:00 stop = 29/10/2017 13:20:00 title = La salute vien mangiando
+[  Info  ]       Replaces ----- start = 29/10/2017 12:55:00 stop = 29/10/2017 13:20:00 title = La salute vien mangiando
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2017 13:20:00 stop = 29/10/2017 13:55:00 title = Casa Alice
+[  Info  ]       Replaces ----- start = 29/10/2017 13:20:00 stop = 29/10/2017 13:55:00 title = Casa Alice
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2017 13:55:00 stop = 29/10/2017 14:25:00 title = Cinquanta sfumature di cioccolato
+[  Info  ]       Replaces ----- start = 29/10/2017 13:55:00 stop = 29/10/2017 14:25:00 title = Cinquanta sfumature di cioccolato
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2017 14:25:00 stop = 29/10/2017 15:00:00 title = Masseria Sciarra
+[  Info  ]       Replaces ----- start = 29/10/2017 14:25:00 stop = 29/10/2017 15:00:00 title = Masseria Sciarra
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2017 15:00:00 stop = 29/10/2017 15:30:00 title = Risi e Bisi
+[  Info  ]       Replaces ----- start = 29/10/2017 15:00:00 stop = 29/10/2017 15:30:00 title = Risi e Bisi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2017 15:30:00 stop = 29/10/2017 16:10:00 title = Lungo il fiume
+[  Info  ]       Replaces ----- start = 29/10/2017 15:30:00 stop = 29/10/2017 16:10:00 title = Lungo il fiume
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2017 16:10:00 stop = 29/10/2017 16:40:00 title = Il club delle cuoche
+[  Info  ]       Replaces ----- start = 29/10/2017 16:10:00 stop = 29/10/2017 16:40:00 title = Il club delle cuoche
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2017 16:40:00 stop = 29/10/2017 17:10:00 title = Romagna mia
+[  Info  ]       Replaces ----- start = 29/10/2017 16:40:00 stop = 29/10/2017 17:10:00 title = Romagna mia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2017 17:10:00 stop = 29/10/2017 17:40:00 title = Raccolto e mangiato
+[  Info  ]       Replaces ----- start = 29/10/2017 17:10:00 stop = 29/10/2017 17:40:00 title = Raccolto e mangiato
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2017 17:40:00 stop = 29/10/2017 18:15:00 title = Pane amore e fantasia
+[  Info  ]       Replaces ----- start = 29/10/2017 17:40:00 stop = 29/10/2017 18:15:00 title = Pane amore e fantasia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2017 18:15:00 stop = 29/10/2017 18:35:00 title = Non e mai troppo presto
+[  Info  ]       Replaces ----- start = 29/10/2017 18:15:00 stop = 29/10/2017 18:35:00 title = Non e mai troppo presto
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2017 18:35:00 stop = 29/10/2017 19:05:00 title = Casa Alice
+[  Info  ]       Replaces ----- start = 29/10/2017 18:35:00 stop = 29/10/2017 19:05:00 title = Casa Alice
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2017 19:05:00 stop = 29/10/2017 19:40:00 title = Cinquanta sfumature di cioccolato
+[  Info  ]       Replaces ----- start = 29/10/2017 19:05:00 stop = 29/10/2017 19:40:00 title = Cinquanta sfumature di cioccolato
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2017 19:40:00 stop = 29/10/2017 20:00:00 title = La salute vien mangiando
+[  Info  ]       Replaces ----- start = 29/10/2017 19:40:00 stop = 29/10/2017 20:00:00 title = La salute vien mangiando
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2017 20:00:00 stop = 29/10/2017 20:35:00 title = Dalle malghe al mare
+[  Info  ]       Replaces ----- start = 29/10/2017 20:00:00 stop = 29/10/2017 20:35:00 title = Dalle malghe al mare
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2017 20:35:00 stop = 29/10/2017 21:10:00 title = Alice club
+[  Info  ]       Replaces ----- start = 29/10/2017 20:35:00 stop = 29/10/2017 21:10:00 title = Alice club
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2017 21:10:00 stop = 29/10/2017 21:50:00 title = Il folletto delle torte
+[  Info  ]       Replaces ----- start = 29/10/2017 21:10:00 stop = 29/10/2017 21:50:00 title = Il folletto delle torte
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2017 21:50:00 stop = 29/10/2017 22:20:00 title = Risi e Bisi
+[  Info  ]       Replaces ----- start = 29/10/2017 21:50:00 stop = 29/10/2017 22:20:00 title = Risi e Bisi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2017 22:20:00 stop = 29/10/2017 22:55:00 title = Lungo il fiume
+[  Info  ]       Replaces ----- start = 29/10/2017 22:20:00 stop = 29/10/2017 22:55:00 title = Lungo il fiume
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2017 22:55:00 stop = 29/10/2017 23:30:00 title = Il club delle cuoche
+[  Info  ]       Replaces ----- start = 29/10/2017 22:55:00 stop = 29/10/2017 23:30:00 title = Il club delle cuoche
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2017 23:30:00 stop = 29/10/2017 23:50:00 title = Non e mai troppo presto
+[  Info  ]       Replaces ----- start = 29/10/2017 23:30:00 stop = 29/10/2017 23:50:00 title = Non e mai troppo presto
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2017 23:50:00 stop = 30/10/2017 00:20:00 title = Sapori di casa (mia)
+[  Info  ]       Replaces ----- start = 29/10/2017 23:50:00 stop = 30/10/2017 00:20:00 title = Sapori di casa (mia)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 00:20:00 stop = 30/10/2017 01:15:00 title = Accademia Montersino
+[  Info  ]       Replaces ----- start = 30/10/2017 00:20:00 stop = 30/10/2017 01:15:00 title = Accademia Montersino
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 01:15:00 stop = 30/10/2017 01:45:00 title = Alice club
+[  Info  ]       Replaces ----- start = 30/10/2017 01:15:00 stop = 30/10/2017 01:45:00 title = Alice club
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 01:45:00 stop = 30/10/2017 02:10:00 title = Pasta, Love e Fantasia
+[  Info  ]       Replaces ----- start = 30/10/2017 01:45:00 stop = 30/10/2017 02:10:00 title = Pasta, Love e Fantasia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 02:10:00 stop = 30/10/2017 02:40:00 title = Amici miei...Bischeri
+[  Info  ]       Replaces ----- start = 30/10/2017 02:10:00 stop = 30/10/2017 02:40:00 title = Amici miei...Bischeri
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 02:40:00 stop = 30/10/2017 03:00:00 title = Romagna mia
+[  Info  ]       Replaces ----- start = 30/10/2017 02:40:00 stop = 30/10/2017 03:00:00 title = Romagna mia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 03:00:00 stop = 30/10/2017 03:25:00 title = Masseria Sciarra
+[  Info  ]       Replaces ----- start = 30/10/2017 03:00:00 stop = 30/10/2017 03:25:00 title = Masseria Sciarra
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 03:25:00 stop = 30/10/2017 03:50:00 title = Sapori di casa (mia)
+[  Info  ]       Replaces ----- start = 30/10/2017 03:25:00 stop = 30/10/2017 03:50:00 title = Sapori di casa (mia)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 03:50:00 stop = 30/10/2017 04:20:00 title = Pane amore e fantasia
+[  Info  ]       Replaces ----- start = 30/10/2017 03:50:00 stop = 30/10/2017 04:20:00 title = Pane amore e fantasia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 04:20:00 stop = 30/10/2017 04:45:00 title = Raccolto e mangiato
+[  Info  ]       Replaces ----- start = 30/10/2017 04:20:00 stop = 30/10/2017 04:45:00 title = Raccolto e mangiato
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 04:45:00 stop = 30/10/2017 05:10:00 title = Dalle malghe al mare
+[  Info  ]       Replaces ----- start = 30/10/2017 04:45:00 stop = 30/10/2017 05:10:00 title = Dalle malghe al mare
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 05:10:00 stop = 30/10/2017 05:40:00 title = Risi e Bisi
+[  Info  ]       Replaces ----- start = 30/10/2017 05:10:00 stop = 30/10/2017 05:40:00 title = Risi e Bisi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 05:40:00 stop = 30/10/2017 06:05:00 title = Lungo il fiume
+[  Info  ]       Replaces ----- start = 30/10/2017 05:40:00 stop = 30/10/2017 06:05:00 title = Lungo il fiume
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 06:05:00 stop = 30/10/2017 06:35:00 title = Il club delle cuoche
+[  Info  ]       Replaces ----- start = 30/10/2017 06:05:00 stop = 30/10/2017 06:35:00 title = Il club delle cuoche
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 06:35:00 stop = 30/10/2017 07:05:00 title = Il folletto delle torte
+[  Info  ]       Replaces ----- start = 30/10/2017 06:35:00 stop = 30/10/2017 07:05:00 title = Il folletto delle torte
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 07:05:00 stop = 30/10/2017 07:35:00 title = Alice club
+[  Info  ]       Replaces ----- start = 30/10/2017 07:05:00 stop = 30/10/2017 07:35:00 title = Alice club
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 07:35:00 stop = 30/10/2017 07:55:00 title = La salute vien mangiando
+[  Info  ]       Replaces ----- start = 30/10/2017 07:35:00 stop = 30/10/2017 07:55:00 title = La salute vien mangiando
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 07:55:00 stop = 30/10/2017 08:30:00 title = Casa Alice
+[  Info  ]       Replaces ----- start = 30/10/2017 07:55:00 stop = 30/10/2017 08:30:00 title = Casa Alice
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 08:30:00 stop = 30/10/2017 09:00:00 title = Casa Alice - Insieme
+[  Info  ]       Replaces ----- start = 30/10/2017 08:30:00 stop = 30/10/2017 09:00:00 title = Casa Alice - Insieme
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 09:00:00 stop = 30/10/2017 09:30:00 title = Dalle malghe al mare
+[  Info  ]       Replaces ----- start = 30/10/2017 09:00:00 stop = 30/10/2017 09:30:00 title = Dalle malghe al mare
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 09:30:00 stop = 30/10/2017 10:00:00 title = Pane amore e fantasia
+[  Info  ]       Replaces ----- start = 30/10/2017 09:30:00 stop = 30/10/2017 10:00:00 title = Pane amore e fantasia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 10:00:00 stop = 30/10/2017 10:40:00 title = Il folletto delle torte
+[  Info  ]       Replaces ----- start = 30/10/2017 10:00:00 stop = 30/10/2017 10:40:00 title = Il folletto delle torte
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 10:40:00 stop = 30/10/2017 11:10:00 title = Raccolto e mangiato
+[  Info  ]       Replaces ----- start = 30/10/2017 10:40:00 stop = 30/10/2017 11:10:00 title = Raccolto e mangiato
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 11:10:00 stop = 30/10/2017 11:30:00 title = Non e mai troppo presto
+[  Info  ]       Replaces ----- start = 30/10/2017 11:10:00 stop = 30/10/2017 11:30:00 title = Non e mai troppo presto
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 11:30:00 stop = 30/10/2017 12:05:00 title = Alice club
+[  Info  ]       Replaces ----- start = 30/10/2017 11:30:00 stop = 30/10/2017 12:05:00 title = Alice club
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 12:05:00 stop = 30/10/2017 12:35:00 title = Pasta, Love e Fantasia
+[  Info  ]       Replaces ----- start = 30/10/2017 12:05:00 stop = 30/10/2017 12:35:00 title = Pasta, Love e Fantasia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 12:35:00 stop = 30/10/2017 13:05:00 title = Amici miei...Bischeri
+[  Info  ]       Replaces ----- start = 30/10/2017 12:35:00 stop = 30/10/2017 13:05:00 title = Amici miei...Bischeri
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 13:05:00 stop = 30/10/2017 13:25:00 title = La salute vien mangiando
+[  Info  ]       Replaces ----- start = 30/10/2017 13:05:00 stop = 30/10/2017 13:25:00 title = La salute vien mangiando
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 13:25:00 stop = 30/10/2017 14:00:00 title = Casa Alice
+[  Info  ]       Replaces ----- start = 30/10/2017 13:25:00 stop = 30/10/2017 14:00:00 title = Casa Alice
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 14:00:00 stop = 30/10/2017 14:30:00 title = Casa Alice - Insieme
+[  Info  ]       Replaces ----- start = 30/10/2017 14:00:00 stop = 30/10/2017 14:30:00 title = Casa Alice - Insieme
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 14:30:00 stop = 30/10/2017 15:05:00 title = Masseria Sciarra
+[  Info  ]       Replaces ----- start = 30/10/2017 14:30:00 stop = 30/10/2017 15:05:00 title = Masseria Sciarra
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 15:05:00 stop = 30/10/2017 15:35:00 title = Risi e Bisi
+[  Info  ]       Replaces ----- start = 30/10/2017 15:05:00 stop = 30/10/2017 15:35:00 title = Risi e Bisi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 15:35:00 stop = 30/10/2017 16:10:00 title = Lungo il fiume
+[  Info  ]       Replaces ----- start = 30/10/2017 15:35:00 stop = 30/10/2017 16:10:00 title = Lungo il fiume
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 16:10:00 stop = 30/10/2017 16:40:00 title = Il club delle cuoche
+[  Info  ]       Replaces ----- start = 30/10/2017 16:10:00 stop = 30/10/2017 16:40:00 title = Il club delle cuoche
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 16:40:00 stop = 30/10/2017 17:15:00 title = Romagna mia
+[  Info  ]       Replaces ----- start = 30/10/2017 16:40:00 stop = 30/10/2017 17:15:00 title = Romagna mia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 17:15:00 stop = 30/10/2017 17:45:00 title = Pane amore e fantasia
+[  Info  ]       Replaces ----- start = 30/10/2017 17:15:00 stop = 30/10/2017 17:45:00 title = Pane amore e fantasia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 17:45:00 stop = 30/10/2017 18:05:00 title = Non e mai troppo presto
+[  Info  ]       Replaces ----- start = 30/10/2017 17:45:00 stop = 30/10/2017 18:05:00 title = Non e mai troppo presto
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 18:05:00 stop = 30/10/2017 18:35:00 title = Il folletto delle torte
+[  Info  ]       Replaces ----- start = 30/10/2017 18:05:00 stop = 30/10/2017 18:35:00 title = Il folletto delle torte
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 18:35:00 stop = 30/10/2017 19:10:00 title = Casa Alice
+[  Info  ]       Replaces ----- start = 30/10/2017 18:35:00 stop = 30/10/2017 19:10:00 title = Casa Alice
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 19:10:00 stop = 30/10/2017 19:40:00 title = Casa Alice - Insieme
+[  Info  ]       Replaces ----- start = 30/10/2017 19:10:00 stop = 30/10/2017 19:40:00 title = Casa Alice - Insieme
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 19:40:00 stop = 30/10/2017 20:15:00 title = Raccolto e mangiato
+[  Info  ]       Replaces ----- start = 30/10/2017 19:40:00 stop = 30/10/2017 20:15:00 title = Raccolto e mangiato
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 20:15:00 stop = 30/10/2017 20:50:00 title = Alice club
+[  Info  ]       Replaces ----- start = 30/10/2017 20:15:00 stop = 30/10/2017 20:50:00 title = Alice club
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 20:50:00 stop = 30/10/2017 21:10:00 title = La salute vien mangiando
+[  Info  ]       Replaces ----- start = 30/10/2017 20:50:00 stop = 30/10/2017 21:10:00 title = La salute vien mangiando
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 21:10:00 stop = 30/10/2017 22:15:00 title = Accademia Montersino
+[  Info  ]       Replaces ----- start = 30/10/2017 21:10:00 stop = 30/10/2017 22:15:00 title = Accademia Montersino
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 22:15:00 stop = 30/10/2017 22:50:00 title = Risi e Bisi
+[  Info  ]       Replaces ----- start = 30/10/2017 22:15:00 stop = 30/10/2017 22:50:00 title = Risi e Bisi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 22:50:00 stop = 30/10/2017 23:20:00 title = Lungo il fiume
+[  Info  ]       Replaces ----- start = 30/10/2017 22:50:00 stop = 30/10/2017 23:20:00 title = Lungo il fiume
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 23:20:00 stop = 30/10/2017 23:45:00 title = Non e mai troppo presto
+[  Info  ]       Replaces ----- start = 30/10/2017 23:20:00 stop = 30/10/2017 23:45:00 title = Non e mai troppo presto
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 23:45:00 stop = 31/10/2017 00:20:00 title = Il club delle cuoche
+[  Info  ]       Replaces ----- start = 30/10/2017 23:45:00 stop = 31/10/2017 00:20:00 title = Il club delle cuoche
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 31/10/2017 00:20:00 stop = 31/10/2017 00:55:00 title = Sapori di casa (mia)
+[  Info  ]       Replaces ----- start = 31/10/2017 00:20:00 stop = 31/10/2017 00:55:00 title = Sapori di casa (mia)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 31/10/2017 00:55:00 stop = 31/10/2017 01:10:00 title = La salute vien mangiando
+[  Info  ]       Replaces ----- start = 31/10/2017 00:55:00 stop = 31/10/2017 01:10:00 title = La salute vien mangiando
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 31/10/2017 01:10:00 stop = 31/10/2017 02:00:00 title = Accademia Montersino
+[  Info  ]       Replaces ----- start = 31/10/2017 01:10:00 stop = 31/10/2017 02:00:00 title = Accademia Montersino
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 31/10/2017 02:00:00 stop = 31/10/2017 02:30:00 title = Pasta, Love e Fantasia
+[  Info  ]       Replaces ----- start = 31/10/2017 02:00:00 stop = 31/10/2017 02:30:00 title = Pasta, Love e Fantasia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 31/10/2017 02:30:00 stop = 31/10/2017 02:55:00 title = Amici miei...Bischeri
+[  Info  ]       Replaces ----- start = 31/10/2017 02:30:00 stop = 31/10/2017 02:55:00 title = Amici miei...Bischeri
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 31/10/2017 02:55:00 stop = 31/10/2017 03:20:00 title = Romagna mia
+[  Info  ]       Replaces ----- start = 31/10/2017 02:55:00 stop = 31/10/2017 03:20:00 title = Romagna mia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 31/10/2017 03:20:00 stop = 31/10/2017 03:45:00 title = Masseria Sciarra
+[  Info  ]       Replaces ----- start = 31/10/2017 03:20:00 stop = 31/10/2017 03:45:00 title = Masseria Sciarra
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 31/10/2017 03:45:00 stop = 31/10/2017 04:15:00 title = Sapori di casa (mia)
+[  Info  ]       Replaces ----- start = 31/10/2017 03:45:00 stop = 31/10/2017 04:15:00 title = Sapori di casa (mia)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 31/10/2017 04:15:00 stop = 31/10/2017 04:40:00 title = Pane amore e fantasia
+[  Info  ]       Replaces ----- start = 31/10/2017 04:15:00 stop = 31/10/2017 04:40:00 title = Pane amore e fantasia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 31/10/2017 04:40:00 stop = 31/10/2017 05:05:00 title = Raccolto e mangiato
+[  Info  ]       Replaces ----- start = 31/10/2017 04:40:00 stop = 31/10/2017 05:05:00 title = Raccolto e mangiato
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 31/10/2017 05:05:00 stop = 31/10/2017 05:30:00 title = Dalle malghe al mare
+[  Info  ]       Replaces ----- start = 31/10/2017 05:05:00 stop = 31/10/2017 05:30:00 title = Dalle malghe al mare
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 31/10/2017 05:30:00 stop = 31/10/2017 06:00:00 title = Risi e Bisi
+[  Info  ]       Replaces ----- start = 31/10/2017 05:30:00 stop = 31/10/2017 06:00:00 title = Risi e Bisi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 31/10/2017 06:00:00 stop = 31/10/2017 06:25:00 title = Lungo il fiume
+[  Info  ]       Replaces ----- start = 31/10/2017 06:00:00 stop = 31/10/2017 06:25:00 title = Lungo il fiume
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 31/10/2017 06:25:00 stop = 31/10/2017 06:50:00 title = Il club delle cuoche
+[  Info  ]       Replaces ----- start = 31/10/2017 06:25:00 stop = 31/10/2017 06:50:00 title = Il club delle cuoche
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 31/10/2017 06:50:00 stop = 31/10/2017 07:15:00 title = Il folletto delle torte
+[  Info  ]       Replaces ----- start = 31/10/2017 06:50:00 stop = 31/10/2017 07:15:00 title = Il folletto delle torte
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 31/10/2017 07:15:00 stop = 31/10/2017 07:45:00 title = Alice club
+[  Info  ]       Replaces ----- start = 31/10/2017 07:15:00 stop = 31/10/2017 07:45:00 title = Alice club
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 31/10/2017 07:45:00 stop = 31/10/2017 08:00:00 title = La salute vien mangiando
+[  Info  ]       Replaces ----- start = 31/10/2017 07:45:00 stop = 31/10/2017 08:00:00 title = La salute vien mangiando
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 31/10/2017 08:00:00 stop = 31/10/2017 08:30:00 title = Casa Alice
+[  Info  ]       Replaces ----- start = 31/10/2017 08:00:00 stop = 31/10/2017 08:30:00 title = Casa Alice
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 31/10/2017 08:30:00 stop = 31/10/2017 09:00:00 title = Casa Alice - Insieme
+[  Info  ]       Replaces ----- start = 31/10/2017 08:30:00 stop = 31/10/2017 09:00:00 title = Casa Alice - Insieme
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 31/10/2017 09:00:00 stop = 31/10/2017 09:30:00 title = Sapori di casa (mia)
+[  Info  ]       Replaces ----- start = 31/10/2017 09:00:00 stop = 31/10/2017 09:30:00 title = Sapori di casa (mia)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 31/10/2017 09:30:00 stop = 31/10/2017 10:00:00 title = Pane amore e fantasia
+[  Info  ]       Replaces ----- start = 31/10/2017 09:30:00 stop = 31/10/2017 10:00:00 title = Pane amore e fantasia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 31/10/2017 10:00:00 stop = 31/10/2017 10:30:00 title = Il folletto delle torte
+[  Info  ]       Replaces ----- start = 31/10/2017 10:00:00 stop = 31/10/2017 10:30:00 title = Il folletto delle torte
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 31/10/2017 10:30:00 stop = 31/10/2017 11:00:00 title = Raccolto e mangiato
+[  Info  ]       Replaces ----- start = 31/10/2017 10:30:00 stop = 31/10/2017 11:00:00 title = Raccolto e mangiato
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 31/10/2017 11:00:00 stop = 31/10/2017 11:15:00 title = Non e mai troppo presto
+[  Info  ]       Replaces ----- start = 31/10/2017 11:00:00 stop = 31/10/2017 11:15:00 title = Non e mai troppo presto
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 31/10/2017 11:15:00 stop = 31/10/2017 11:45:00 title = Alice club
+[  Info  ]       Replaces ----- start = 31/10/2017 11:15:00 stop = 31/10/2017 11:45:00 title = Alice club
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 31/10/2017 11:45:00 stop = 31/10/2017 12:15:00 title = Pasta, Love e Fantasia
+[  Info  ]       Replaces ----- start = 31/10/2017 11:45:00 stop = 31/10/2017 12:15:00 title = Pasta, Love e Fantasia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 31/10/2017 12:15:00 stop = 31/10/2017 12:45:00 title = Amici miei...Bischeri
+[  Info  ]       Replaces ----- start = 31/10/2017 12:15:00 stop = 31/10/2017 12:45:00 title = Amici miei...Bischeri
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 31/10/2017 12:45:00 stop = 31/10/2017 13:00:00 title = La salute vien mangiando
+[  Info  ]       Replaces ----- start = 31/10/2017 12:45:00 stop = 31/10/2017 13:00:00 title = La salute vien mangiando
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 31/10/2017 13:00:00 stop = 31/10/2017 13:30:00 title = Casa Alice
+[  Info  ]       Replaces ----- start = 31/10/2017 13:00:00 stop = 31/10/2017 13:30:00 title = Casa Alice
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 31/10/2017 13:30:00 stop = 31/10/2017 14:05:00 title = Casa Alice - Insieme
+[  Info  ]       Replaces ----- start = 31/10/2017 13:30:00 stop = 31/10/2017 14:05:00 title = Casa Alice - Insieme
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 31/10/2017 14:05:00 stop = 31/10/2017 14:40:00 title = Masseria Sciarra
+[  Info  ]       Replaces ----- start = 31/10/2017 14:05:00 stop = 31/10/2017 14:40:00 title = Masseria Sciarra
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 31/10/2017 14:40:00 stop = 31/10/2017 15:15:00 title = Risi e Bisi
+[  Info  ]       Replaces ----- start = 31/10/2017 14:40:00 stop = 31/10/2017 15:15:00 title = Risi e Bisi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 31/10/2017 15:15:00 stop = 31/10/2017 15:50:00 title = Lungo il fiume
+[  Info  ]       Replaces ----- start = 31/10/2017 15:15:00 stop = 31/10/2017 15:50:00 title = Lungo il fiume
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 31/10/2017 15:50:00 stop = 31/10/2017 16:25:00 title = Il club delle cuoche
+[  Info  ]       Replaces ----- start = 31/10/2017 15:50:00 stop = 31/10/2017 16:25:00 title = Il club delle cuoche
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 31/10/2017 16:25:00 stop = 31/10/2017 17:00:00 title = Romagna mia
+[  Info  ]       Replaces ----- start = 31/10/2017 16:25:00 stop = 31/10/2017 17:00:00 title = Romagna mia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 31/10/2017 17:00:00 stop = 31/10/2017 17:35:00 title = Pane amore e fantasia
+[  Info  ]       Replaces ----- start = 31/10/2017 17:00:00 stop = 31/10/2017 17:35:00 title = Pane amore e fantasia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 31/10/2017 17:35:00 stop = 31/10/2017 17:55:00 title = Non e mai troppo presto
+[  Info  ]       Replaces ----- start = 31/10/2017 17:35:00 stop = 31/10/2017 17:55:00 title = Non e mai troppo presto
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 31/10/2017 17:55:00 stop = 31/10/2017 18:30:00 title = Il folletto delle torte
+[  Info  ]       Replaces ----- start = 31/10/2017 17:55:00 stop = 31/10/2017 18:30:00 title = Il folletto delle torte
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 31/10/2017 18:30:00 stop = 31/10/2017 19:05:00 title = Casa Alice
+[  Info  ]       Replaces ----- start = 31/10/2017 18:30:00 stop = 31/10/2017 19:05:00 title = Casa Alice
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 31/10/2017 19:05:00 stop = 31/10/2017 19:40:00 title = Casa Alice - Insieme
+[  Info  ]       Replaces ----- start = 31/10/2017 19:05:00 stop = 31/10/2017 19:40:00 title = Casa Alice - Insieme
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 31/10/2017 19:40:00 stop = 31/10/2017 20:15:00 title = Raccolto e mangiato
+[  Info  ]       Replaces ----- start = 31/10/2017 19:40:00 stop = 31/10/2017 20:15:00 title = Raccolto e mangiato
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 31/10/2017 20:15:00 stop = 31/10/2017 20:50:00 title = Alice club
+[  Info  ]       Replaces ----- start = 31/10/2017 20:15:00 stop = 31/10/2017 20:50:00 title = Alice club
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 31/10/2017 20:50:00 stop = 31/10/2017 21:10:00 title = La salute vien mangiando
+[  Info  ]       Replaces ----- start = 31/10/2017 20:50:00 stop = 31/10/2017 21:10:00 title = La salute vien mangiando
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 31/10/2017 21:10:00 stop = 31/10/2017 22:15:00 title = Accademia Montersino
+[  Info  ]       Replaces ----- start = 31/10/2017 21:10:00 stop = 31/10/2017 22:15:00 title = Accademia Montersino
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 31/10/2017 22:15:00 stop = 31/10/2017 22:50:00 title = Risi e Bisi
+[  Info  ]       Replaces ----- start = 31/10/2017 22:15:00 stop = 31/10/2017 22:50:00 title = Risi e Bisi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 31/10/2017 22:50:00 stop = 31/10/2017 23:25:00 title = Lungo il fiume
+[  Info  ]       Replaces ----- start = 31/10/2017 22:50:00 stop = 31/10/2017 23:25:00 title = Lungo il fiume
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 31/10/2017 23:25:00 stop = 31/10/2017 23:45:00 title = Non e mai troppo presto
+[  Info  ]       Replaces ----- start = 31/10/2017 23:25:00 stop = 31/10/2017 23:45:00 title = Non e mai troppo presto
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 31/10/2017 23:45:00 stop = 01/11/2017 00:20:00 title = Il club delle cuoche
+[  Info  ]       Replaces ----- start = 31/10/2017 23:45:00 stop = 01/11/2017 00:20:00 title = Il club delle cuoche
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/11/2017 00:20:00 stop = 01/11/2017 00:55:00 title = Sapori di casa (mia)
+[  Info  ]       Replaces ----- start = 01/11/2017 00:20:00 stop = 01/11/2017 00:55:00 title = Sapori di casa (mia)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/11/2017 00:55:00 stop = 01/11/2017 01:10:00 title = La salute vien mangiando
+[  Info  ]       Replaces ----- start = 01/11/2017 00:55:00 stop = 01/11/2017 01:10:00 title = La salute vien mangiando
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/11/2017 01:10:00 stop = 01/11/2017 02:00:00 title = Accademia Montersino
+[  Info  ]       Replaces ----- start = 01/11/2017 01:10:00 stop = 01/11/2017 02:00:00 title = Accademia Montersino
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/11/2017 02:00:00 stop = 01/11/2017 02:30:00 title = Pasta, Love e Fantasia
+[  Info  ]       Replaces ----- start = 01/11/2017 02:00:00 stop = 01/11/2017 02:30:00 title = Pasta, Love e Fantasia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/11/2017 02:30:00 stop = 01/11/2017 02:55:00 title = Amici miei...Bischeri
+[  Info  ]       Replaces ----- start = 01/11/2017 02:30:00 stop = 01/11/2017 02:55:00 title = Amici miei...Bischeri
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/11/2017 02:55:00 stop = 01/11/2017 03:20:00 title = Romagna mia
+[  Info  ]       Replaces ----- start = 01/11/2017 02:55:00 stop = 01/11/2017 03:20:00 title = Romagna mia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/11/2017 03:20:00 stop = 01/11/2017 03:45:00 title = Masseria Sciarra
+[  Info  ]       Replaces ----- start = 01/11/2017 03:20:00 stop = 01/11/2017 03:45:00 title = Masseria Sciarra
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/11/2017 03:45:00 stop = 01/11/2017 04:15:00 title = Sapori di casa (mia)
+[  Info  ]       Replaces ----- start = 01/11/2017 03:45:00 stop = 01/11/2017 04:15:00 title = Sapori di casa (mia)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/11/2017 04:15:00 stop = 01/11/2017 04:40:00 title = Pane amore e fantasia
+[  Info  ]       Replaces ----- start = 01/11/2017 04:15:00 stop = 01/11/2017 04:40:00 title = Pane amore e fantasia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/11/2017 04:40:00 stop = 01/11/2017 05:05:00 title = Raccolto e mangiato
+[  Info  ]       Replaces ----- start = 01/11/2017 04:40:00 stop = 01/11/2017 05:05:00 title = Raccolto e mangiato
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/11/2017 05:05:00 stop = 01/11/2017 05:30:00 title = Sapori di casa (mia)
+[  Info  ]       Replaces ----- start = 01/11/2017 05:05:00 stop = 01/11/2017 05:30:00 title = Sapori di casa (mia)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/11/2017 05:30:00 stop = 01/11/2017 06:00:00 title = Risi e Bisi
+[  Info  ]       Replaces ----- start = 01/11/2017 05:30:00 stop = 01/11/2017 06:00:00 title = Risi e Bisi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/11/2017 06:00:00 stop = 01/11/2017 06:25:00 title = Lungo il fiume
+[  Info  ]       Replaces ----- start = 01/11/2017 06:00:00 stop = 01/11/2017 06:25:00 title = Lungo il fiume
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/11/2017 06:25:00 stop = 01/11/2017 06:50:00 title = Il club delle cuoche
+[  Info  ]       Replaces ----- start = 01/11/2017 06:25:00 stop = 01/11/2017 06:50:00 title = Il club delle cuoche
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/11/2017 06:50:00 stop = 01/11/2017 07:15:00 title = Il folletto delle torte
+[  Info  ]       Replaces ----- start = 01/11/2017 06:50:00 stop = 01/11/2017 07:15:00 title = Il folletto delle torte
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/11/2017 07:15:00 stop = 01/11/2017 07:45:00 title = Alice club
+[  Info  ]       Replaces ----- start = 01/11/2017 07:15:00 stop = 01/11/2017 07:45:00 title = Alice club
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/11/2017 07:45:00 stop = 01/11/2017 08:00:00 title = La salute vien mangiando
+[  Info  ]       Replaces ----- start = 01/11/2017 07:45:00 stop = 01/11/2017 08:00:00 title = La salute vien mangiando
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/11/2017 08:00:00 stop = 01/11/2017 08:30:00 title = Casa Alice
+[  Info  ]       Replaces ----- start = 01/11/2017 08:00:00 stop = 01/11/2017 08:30:00 title = Casa Alice
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/11/2017 08:30:00 stop = 01/11/2017 09:00:00 title = Casa Alice - Insieme
+[  Info  ]       Replaces ----- start = 01/11/2017 08:30:00 stop = 01/11/2017 09:00:00 title = Casa Alice - Insieme
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/11/2017 09:00:00 stop = 01/11/2017 09:30:00 title = Sapori di casa (mia)
+[  Info  ]       Replaces ----- start = 01/11/2017 09:00:00 stop = 01/11/2017 09:30:00 title = Sapori di casa (mia)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/11/2017 09:30:00 stop = 01/11/2017 10:00:00 title = Pane amore e fantasia
+[  Info  ]       Replaces ----- start = 01/11/2017 09:30:00 stop = 01/11/2017 10:00:00 title = Pane amore e fantasia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/11/2017 10:00:00 stop = 01/11/2017 10:30:00 title = Il folletto delle torte
+[  Info  ]       Replaces ----- start = 01/11/2017 10:00:00 stop = 01/11/2017 10:30:00 title = Il folletto delle torte
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/11/2017 10:30:00 stop = 01/11/2017 11:00:00 title = Raccolto e mangiato
+[  Info  ]       Replaces ----- start = 01/11/2017 10:30:00 stop = 01/11/2017 11:00:00 title = Raccolto e mangiato
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/11/2017 11:00:00 stop = 01/11/2017 11:15:00 title = Non e mai troppo presto
+[  Info  ]       Replaces ----- start = 01/11/2017 11:00:00 stop = 01/11/2017 11:15:00 title = Non e mai troppo presto
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/11/2017 11:15:00 stop = 01/11/2017 11:45:00 title = Alice club
+[  Info  ]       Replaces ----- start = 01/11/2017 11:15:00 stop = 01/11/2017 11:45:00 title = Alice club
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/11/2017 11:45:00 stop = 01/11/2017 12:15:00 title = Pasta, Love e Fantasia
+[  Info  ]       Replaces ----- start = 01/11/2017 11:45:00 stop = 01/11/2017 12:15:00 title = Pasta, Love e Fantasia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/11/2017 12:15:00 stop = 01/11/2017 12:45:00 title = Amici miei...Bischeri
+[  Info  ]       Replaces ----- start = 01/11/2017 12:15:00 stop = 01/11/2017 12:45:00 title = Amici miei...Bischeri
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/11/2017 12:45:00 stop = 01/11/2017 13:00:00 title = La salute vien mangiando
+[  Info  ]       Replaces ----- start = 01/11/2017 12:45:00 stop = 01/11/2017 13:00:00 title = La salute vien mangiando
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/11/2017 13:00:00 stop = 01/11/2017 13:30:00 title = Casa Alice
+[  Info  ]       Replaces ----- start = 01/11/2017 13:00:00 stop = 01/11/2017 13:30:00 title = Casa Alice
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/11/2017 13:30:00 stop = 01/11/2017 14:05:00 title = Casa Alice - Insieme
+[  Info  ]       Replaces ----- start = 01/11/2017 13:30:00 stop = 01/11/2017 14:05:00 title = Casa Alice - Insieme
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/11/2017 14:05:00 stop = 01/11/2017 14:40:00 title = Masseria Sciarra
+[  Info  ]       Replaces ----- start = 01/11/2017 14:05:00 stop = 01/11/2017 14:40:00 title = Masseria Sciarra
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/11/2017 14:40:00 stop = 01/11/2017 15:15:00 title = Risi e Bisi
+[  Info  ]       Replaces ----- start = 01/11/2017 14:40:00 stop = 01/11/2017 15:15:00 title = Risi e Bisi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/11/2017 15:15:00 stop = 01/11/2017 15:50:00 title = Lungo il fiume
+[  Info  ]       Replaces ----- start = 01/11/2017 15:15:00 stop = 01/11/2017 15:50:00 title = Lungo il fiume
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/11/2017 15:50:00 stop = 01/11/2017 16:25:00 title = Il club delle cuoche
+[  Info  ]       Replaces ----- start = 01/11/2017 15:50:00 stop = 01/11/2017 16:25:00 title = Il club delle cuoche
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/11/2017 16:25:00 stop = 01/11/2017 17:00:00 title = Romagna mia
+[  Info  ]       Replaces ----- start = 01/11/2017 16:25:00 stop = 01/11/2017 17:00:00 title = Romagna mia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/11/2017 17:00:00 stop = 01/11/2017 17:35:00 title = Pane amore e fantasia
+[  Info  ]       Replaces ----- start = 01/11/2017 17:00:00 stop = 01/11/2017 17:35:00 title = Pane amore e fantasia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/11/2017 17:35:00 stop = 01/11/2017 17:55:00 title = Non e mai troppo presto
+[  Info  ]       Replaces ----- start = 01/11/2017 17:35:00 stop = 01/11/2017 17:55:00 title = Non e mai troppo presto
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/11/2017 17:55:00 stop = 01/11/2017 18:30:00 title = Il folletto delle torte
+[  Info  ]       Replaces ----- start = 01/11/2017 17:55:00 stop = 01/11/2017 18:30:00 title = Il folletto delle torte
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/11/2017 18:30:00 stop = 01/11/2017 19:05:00 title = Casa Alice
+[  Info  ]       Replaces ----- start = 01/11/2017 18:30:00 stop = 01/11/2017 19:05:00 title = Casa Alice
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/11/2017 19:05:00 stop = 01/11/2017 19:40:00 title = Casa Alice - Insieme
+[  Info  ]       Replaces ----- start = 01/11/2017 19:05:00 stop = 01/11/2017 19:40:00 title = Casa Alice - Insieme
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/11/2017 19:40:00 stop = 01/11/2017 20:15:00 title = Raccolto e mangiato
+[  Info  ]       Replaces ----- start = 01/11/2017 19:40:00 stop = 01/11/2017 20:15:00 title = Raccolto e mangiato
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/11/2017 20:15:00 stop = 01/11/2017 20:50:00 title = Alice club
+[  Info  ]       Replaces ----- start = 01/11/2017 20:15:00 stop = 01/11/2017 20:50:00 title = Alice club
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/11/2017 20:50:00 stop = 01/11/2017 21:10:00 title = La salute vien mangiando
+[  Info  ]       Replaces ----- start = 01/11/2017 20:50:00 stop = 01/11/2017 21:10:00 title = La salute vien mangiando
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/11/2017 21:10:00 stop = 01/11/2017 22:15:00 title = Accademia Montersino
+[  Info  ]       Replaces ----- start = 01/11/2017 21:10:00 stop = 01/11/2017 22:15:00 title = Accademia Montersino
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/11/2017 22:15:00 stop = 01/11/2017 22:50:00 title = Risi e Bisi
+[  Info  ]       Replaces ----- start = 01/11/2017 22:15:00 stop = 01/11/2017 22:50:00 title = Risi e Bisi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/11/2017 22:50:00 stop = 01/11/2017 23:25:00 title = Lungo il fiume
+[  Info  ]       Replaces ----- start = 01/11/2017 22:50:00 stop = 01/11/2017 23:25:00 title = Lungo il fiume
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/11/2017 23:25:00 stop = 01/11/2017 23:45:00 title = Non e mai troppo presto
+[  Info  ]       Replaces ----- start = 01/11/2017 23:25:00 stop = 01/11/2017 23:45:00 title = Non e mai troppo presto
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/11/2017 23:45:00 stop = 02/11/2017 00:20:00 title = Il club delle cuoche
+[  Info  ]       Replaces ----- start = 01/11/2017 23:45:00 stop = 02/11/2017 00:20:00 title = Il club delle cuoche
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2017 00:20:00 stop = 02/11/2017 00:55:00 title = Sapori di casa (mia)
+[  Info  ]       Replaces ----- start = 02/11/2017 00:20:00 stop = 02/11/2017 00:55:00 title = Sapori di casa (mia)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2017 00:55:00 stop = 02/11/2017 01:10:00 title = La salute vien mangiando
+[  Info  ]       Replaces ----- start = 02/11/2017 00:55:00 stop = 02/11/2017 01:10:00 title = La salute vien mangiando
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2017 01:10:00 stop = 02/11/2017 02:00:00 title = Accademia Montersino
+[  Info  ]       Replaces ----- start = 02/11/2017 01:10:00 stop = 02/11/2017 02:00:00 title = Accademia Montersino
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2017 02:00:00 stop = 02/11/2017 02:30:00 title = Pasta, Love e Fantasia
+[  Info  ]       Replaces ----- start = 02/11/2017 02:00:00 stop = 02/11/2017 02:30:00 title = Pasta, Love e Fantasia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2017 02:30:00 stop = 02/11/2017 02:55:00 title = Amici miei...Bischeri
+[  Info  ]       Replaces ----- start = 02/11/2017 02:30:00 stop = 02/11/2017 02:55:00 title = Amici miei...Bischeri
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2017 02:55:00 stop = 02/11/2017 03:20:00 title = Romagna mia
+[  Info  ]       Replaces ----- start = 02/11/2017 02:55:00 stop = 02/11/2017 03:20:00 title = Romagna mia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2017 03:20:00 stop = 02/11/2017 03:45:00 title = Masseria Sciarra
+[  Info  ]       Replaces ----- start = 02/11/2017 03:20:00 stop = 02/11/2017 03:45:00 title = Masseria Sciarra
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2017 03:45:00 stop = 02/11/2017 04:15:00 title = Sapori di casa (mia)
+[  Info  ]       Replaces ----- start = 02/11/2017 03:45:00 stop = 02/11/2017 04:15:00 title = Sapori di casa (mia)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2017 04:15:00 stop = 02/11/2017 04:40:00 title = Pane amore e fantasia
+[  Info  ]       Replaces ----- start = 02/11/2017 04:15:00 stop = 02/11/2017 04:40:00 title = Pane amore e fantasia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2017 04:40:00 stop = 02/11/2017 05:05:00 title = Raccolto e mangiato
+[  Info  ]       Replaces ----- start = 02/11/2017 04:40:00 stop = 02/11/2017 05:05:00 title = Raccolto e mangiato
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2017 05:05:00 stop = 02/11/2017 05:30:00 title = Sapori di casa (mia)
+[  Info  ]       Replaces ----- start = 02/11/2017 05:05:00 stop = 02/11/2017 05:30:00 title = Sapori di casa (mia)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2017 05:30:00 stop = 02/11/2017 06:00:00 title = Risi e Bisi
+[  Info  ]       Replaces ----- start = 02/11/2017 05:30:00 stop = 02/11/2017 06:00:00 title = Risi e Bisi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2017 06:00:00 stop = 02/11/2017 06:25:00 title = Lungo il fiume
+[  Info  ]       Replaces ----- start = 02/11/2017 06:00:00 stop = 02/11/2017 06:25:00 title = Lungo il fiume
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2017 06:25:00 stop = 02/11/2017 06:50:00 title = Il club delle cuoche
+[  Info  ]       Replaces ----- start = 02/11/2017 06:25:00 stop = 02/11/2017 06:50:00 title = Il club delle cuoche
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2017 06:50:00 stop = 02/11/2017 07:15:00 title = Il folletto delle torte
+[  Info  ]       Replaces ----- start = 02/11/2017 06:50:00 stop = 02/11/2017 07:15:00 title = Il folletto delle torte
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2017 07:15:00 stop = 02/11/2017 07:45:00 title = Alice club
+[  Info  ]       Replaces ----- start = 02/11/2017 07:15:00 stop = 02/11/2017 07:45:00 title = Alice club
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2017 07:45:00 stop = 02/11/2017 08:00:00 title = La salute vien mangiando
+[  Info  ]       Replaces ----- start = 02/11/2017 07:45:00 stop = 02/11/2017 08:00:00 title = La salute vien mangiando
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2017 08:00:00 stop = 02/11/2017 08:30:00 title = Casa Alice
+[  Info  ]       Replaces ----- start = 02/11/2017 08:00:00 stop = 02/11/2017 08:30:00 title = Casa Alice
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2017 08:30:00 stop = 02/11/2017 09:00:00 title = Casa Alice - Insieme
+[  Info  ]       Replaces ----- start = 02/11/2017 08:30:00 stop = 02/11/2017 09:00:00 title = Casa Alice - Insieme
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2017 09:00:00 stop = 02/11/2017 09:30:00 title = Sapori di casa (mia)
+[  Info  ]       Replaces ----- start = 02/11/2017 09:00:00 stop = 02/11/2017 09:30:00 title = Sapori di casa (mia)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2017 09:30:00 stop = 02/11/2017 10:00:00 title = Pane amore e fantasia
+[  Info  ]       Replaces ----- start = 02/11/2017 09:30:00 stop = 02/11/2017 10:00:00 title = Pane amore e fantasia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2017 10:00:00 stop = 02/11/2017 10:30:00 title = Il folletto delle torte
+[  Info  ]       Replaces ----- start = 02/11/2017 10:00:00 stop = 02/11/2017 10:30:00 title = Il folletto delle torte
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2017 10:30:00 stop = 02/11/2017 11:00:00 title = Raccolto e mangiato
+[  Info  ]       Replaces ----- start = 02/11/2017 10:30:00 stop = 02/11/2017 11:00:00 title = Raccolto e mangiato
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2017 11:00:00 stop = 02/11/2017 11:15:00 title = Non e mai troppo presto
+[  Info  ]       Replaces ----- start = 02/11/2017 11:00:00 stop = 02/11/2017 11:15:00 title = Non e mai troppo presto
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2017 11:15:00 stop = 02/11/2017 11:45:00 title = Alice club
+[  Info  ]       Replaces ----- start = 02/11/2017 11:15:00 stop = 02/11/2017 11:45:00 title = Alice club
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2017 11:45:00 stop = 02/11/2017 12:15:00 title = Pasta, Love e Fantasia
+[  Info  ]       Replaces ----- start = 02/11/2017 11:45:00 stop = 02/11/2017 12:15:00 title = Pasta, Love e Fantasia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2017 12:15:00 stop = 02/11/2017 12:45:00 title = Amici miei...Bischeri
+[  Info  ]       Replaces ----- start = 02/11/2017 12:15:00 stop = 02/11/2017 12:45:00 title = Amici miei...Bischeri
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2017 12:45:00 stop = 02/11/2017 13:00:00 title = La salute vien mangiando
+[  Info  ]       Replaces ----- start = 02/11/2017 12:45:00 stop = 02/11/2017 13:00:00 title = La salute vien mangiando
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2017 13:00:00 stop = 02/11/2017 13:30:00 title = Casa Alice
+[  Info  ]       Replaces ----- start = 02/11/2017 13:00:00 stop = 02/11/2017 13:30:00 title = Casa Alice
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2017 13:30:00 stop = 02/11/2017 14:05:00 title = Casa Alice - Insieme
+[  Info  ]       Replaces ----- start = 02/11/2017 13:30:00 stop = 02/11/2017 14:05:00 title = Casa Alice - Insieme
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2017 14:05:00 stop = 02/11/2017 14:40:00 title = Masseria Sciarra
+[  Info  ]       Replaces ----- start = 02/11/2017 14:05:00 stop = 02/11/2017 14:40:00 title = Masseria Sciarra
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2017 14:40:00 stop = 02/11/2017 15:15:00 title = Risi e Bisi
+[  Info  ]       Replaces ----- start = 02/11/2017 14:40:00 stop = 02/11/2017 15:15:00 title = Risi e Bisi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2017 15:15:00 stop = 02/11/2017 15:50:00 title = Lungo il fiume
+[  Info  ]       Replaces ----- start = 02/11/2017 15:15:00 stop = 02/11/2017 15:50:00 title = Lungo il fiume
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2017 15:50:00 stop = 02/11/2017 16:25:00 title = Il club delle cuoche
+[  Info  ]       Replaces ----- start = 02/11/2017 15:50:00 stop = 02/11/2017 16:25:00 title = Il club delle cuoche
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2017 16:25:00 stop = 02/11/2017 17:00:00 title = Romagna mia
+[  Info  ]       Replaces ----- start = 02/11/2017 16:25:00 stop = 02/11/2017 17:00:00 title = Romagna mia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2017 17:00:00 stop = 02/11/2017 17:35:00 title = Pane amore e fantasia
+[  Info  ]       Replaces ----- start = 02/11/2017 17:00:00 stop = 02/11/2017 17:35:00 title = Pane amore e fantasia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2017 17:35:00 stop = 02/11/2017 17:55:00 title = Non e mai troppo presto
+[  Info  ]       Replaces ----- start = 02/11/2017 17:35:00 stop = 02/11/2017 17:55:00 title = Non e mai troppo presto
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2017 17:55:00 stop = 02/11/2017 18:30:00 title = Il folletto delle torte
+[  Info  ]       Replaces ----- start = 02/11/2017 17:55:00 stop = 02/11/2017 18:30:00 title = Il folletto delle torte
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2017 18:30:00 stop = 02/11/2017 19:05:00 title = Casa Alice
+[  Info  ]       Replaces ----- start = 02/11/2017 18:30:00 stop = 02/11/2017 19:05:00 title = Casa Alice
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2017 19:05:00 stop = 02/11/2017 19:40:00 title = Casa Alice - Insieme
+[  Info  ]       Replaces ----- start = 02/11/2017 19:05:00 stop = 02/11/2017 19:40:00 title = Casa Alice - Insieme
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2017 19:40:00 stop = 02/11/2017 20:15:00 title = Raccolto e mangiato
+[  Info  ]       Replaces ----- start = 02/11/2017 19:40:00 stop = 02/11/2017 20:15:00 title = Raccolto e mangiato
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2017 20:15:00 stop = 02/11/2017 20:50:00 title = Alice club
+[  Info  ]       Replaces ----- start = 02/11/2017 20:15:00 stop = 02/11/2017 20:50:00 title = Alice club
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2017 20:50:00 stop = 02/11/2017 21:10:00 title = La salute vien mangiando
+[  Info  ]       Replaces ----- start = 02/11/2017 20:50:00 stop = 02/11/2017 21:10:00 title = La salute vien mangiando
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2017 21:10:00 stop = 02/11/2017 22:15:00 title = Accademia Montersino
+[  Info  ]       Replaces ----- start = 02/11/2017 21:10:00 stop = 02/11/2017 22:15:00 title = Accademia Montersino
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2017 22:15:00 stop = 02/11/2017 22:50:00 title = Risi e Bisi
+[  Info  ]       Replaces ----- start = 02/11/2017 22:15:00 stop = 02/11/2017 22:50:00 title = Risi e Bisi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2017 22:50:00 stop = 02/11/2017 23:25:00 title = Lungo il fiume
+[  Info  ]       Replaces ----- start = 02/11/2017 22:50:00 stop = 02/11/2017 23:25:00 title = Lungo il fiume
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2017 23:25:00 stop = 02/11/2017 23:45:00 title = Non e mai troppo presto
+[  Info  ]       Replaces ----- start = 02/11/2017 23:25:00 stop = 02/11/2017 23:45:00 title = Non e mai troppo presto
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2017 23:45:00 stop = 03/11/2017 00:20:00 title = Il club delle cuoche
+[  Info  ]       Replaces ----- start = 02/11/2017 23:45:00 stop = 03/11/2017 00:20:00 title = Il club delle cuoche
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2017 00:20:00 stop = 03/11/2017 00:55:00 title = Sapori di casa (mia)
+[  Info  ]       Replaces ----- start = 03/11/2017 00:20:00 stop = 03/11/2017 00:55:00 title = Sapori di casa (mia)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2017 00:55:00 stop = 03/11/2017 01:10:00 title = La salute vien mangiando
+[  Info  ]       Replaces ----- start = 03/11/2017 00:55:00 stop = 03/11/2017 01:10:00 title = La salute vien mangiando
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2017 01:10:00 stop = 03/11/2017 02:00:00 title = Accademia Montersino
+[  Info  ]       Replaces ----- start = 03/11/2017 01:10:00 stop = 03/11/2017 02:00:00 title = Accademia Montersino
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2017 02:00:00 stop = 03/11/2017 02:30:00 title = Pasta, Love e Fantasia
+[  Info  ]       Replaces ----- start = 03/11/2017 02:00:00 stop = 03/11/2017 02:30:00 title = Pasta, Love e Fantasia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2017 02:30:00 stop = 03/11/2017 02:55:00 title = Amici miei...Bischeri
+[  Info  ]       Replaces ----- start = 03/11/2017 02:30:00 stop = 03/11/2017 02:55:00 title = Amici miei...Bischeri
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2017 02:55:00 stop = 03/11/2017 03:20:00 title = Romagna mia
+[  Info  ]       Replaces ----- start = 03/11/2017 02:55:00 stop = 03/11/2017 03:20:00 title = Romagna mia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2017 03:20:00 stop = 03/11/2017 03:45:00 title = Masseria Sciarra
+[  Info  ]       Replaces ----- start = 03/11/2017 03:20:00 stop = 03/11/2017 03:45:00 title = Masseria Sciarra
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2017 03:45:00 stop = 03/11/2017 04:15:00 title = Sapori di casa (mia)
+[  Info  ]       Replaces ----- start = 03/11/2017 03:45:00 stop = 03/11/2017 04:15:00 title = Sapori di casa (mia)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2017 04:15:00 stop = 03/11/2017 04:40:00 title = Pane amore e fantasia
+[  Info  ]       Replaces ----- start = 03/11/2017 04:15:00 stop = 03/11/2017 04:40:00 title = Pane amore e fantasia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2017 04:40:00 stop = 03/11/2017 05:05:00 title = Raccolto e mangiato
+[  Info  ]       Replaces ----- start = 03/11/2017 04:40:00 stop = 03/11/2017 05:05:00 title = Raccolto e mangiato
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2017 05:05:00 stop = 03/11/2017 05:30:00 title = Sapori di casa (mia)
+[  Info  ]       Replaces ----- start = 03/11/2017 05:05:00 stop = 03/11/2017 05:30:00 title = Sapori di casa (mia)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2017 05:30:00 stop = 03/11/2017 06:00:00 title = Risi e Bisi
+[  Info  ]       Replaces ----- start = 03/11/2017 05:30:00 stop = 03/11/2017 06:00:00 title = Risi e Bisi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2017 06:00:00 stop = 03/11/2017 06:25:00 title = Lungo il fiume
+[  Info  ]       Replaces ----- start = 03/11/2017 06:00:00 stop = 03/11/2017 06:25:00 title = Lungo il fiume
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2017 06:25:00 stop = 03/11/2017 06:50:00 title = Il club delle cuoche
+[  Info  ]       Replaces ----- start = 03/11/2017 06:25:00 stop = 03/11/2017 06:50:00 title = Il club delle cuoche
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2017 06:50:00 stop = 03/11/2017 07:15:00 title = Il folletto delle torte
+[  Info  ]       Replaces ----- start = 03/11/2017 06:50:00 stop = 03/11/2017 07:15:00 title = Il folletto delle torte
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2017 07:15:00 stop = 03/11/2017 07:45:00 title = Alice club
+[  Info  ]       Replaces ----- start = 03/11/2017 07:15:00 stop = 03/11/2017 07:45:00 title = Alice club
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2017 07:45:00 stop = 03/11/2017 08:00:00 title = La salute vien mangiando
+[  Info  ]       Replaces ----- start = 03/11/2017 07:45:00 stop = 03/11/2017 08:00:00 title = La salute vien mangiando
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2017 08:00:00 stop = 03/11/2017 08:30:00 title = Casa Alice
+[  Info  ]       Replaces ----- start = 03/11/2017 08:00:00 stop = 03/11/2017 08:30:00 title = Casa Alice
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2017 08:30:00 stop = 03/11/2017 09:00:00 title = Casa Alice - Insieme
+[  Info  ]       Replaces ----- start = 03/11/2017 08:30:00 stop = 03/11/2017 09:00:00 title = Casa Alice - Insieme
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2017 09:00:00 stop = 03/11/2017 09:30:00 title = Sapori di casa (mia)
+[  Info  ]       Replaces ----- start = 03/11/2017 09:00:00 stop = 03/11/2017 09:30:00 title = Sapori di casa (mia)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2017 09:30:00 stop = 03/11/2017 10:00:00 title = Pane amore e fantasia
+[  Info  ]       Replaces ----- start = 03/11/2017 09:30:00 stop = 03/11/2017 10:00:00 title = Pane amore e fantasia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2017 10:00:00 stop = 03/11/2017 10:30:00 title = Il folletto delle torte
+[  Info  ]       Replaces ----- start = 03/11/2017 10:00:00 stop = 03/11/2017 10:30:00 title = Il folletto delle torte
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2017 10:30:00 stop = 03/11/2017 11:00:00 title = Raccolto e mangiato
+[  Info  ]       Replaces ----- start = 03/11/2017 10:30:00 stop = 03/11/2017 11:00:00 title = Raccolto e mangiato
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2017 11:00:00 stop = 03/11/2017 11:15:00 title = Non e mai troppo presto
+[  Info  ]       Replaces ----- start = 03/11/2017 11:00:00 stop = 03/11/2017 11:15:00 title = Non e mai troppo presto
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2017 11:15:00 stop = 03/11/2017 11:45:00 title = Alice club
+[  Info  ]       Replaces ----- start = 03/11/2017 11:15:00 stop = 03/11/2017 11:45:00 title = Alice club
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2017 11:45:00 stop = 03/11/2017 12:15:00 title = Pasta, Love e Fantasia
+[  Info  ]       Replaces ----- start = 03/11/2017 11:45:00 stop = 03/11/2017 12:15:00 title = Pasta, Love e Fantasia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2017 12:15:00 stop = 03/11/2017 12:45:00 title = Amici miei...Bischeri
+[  Info  ]       Replaces ----- start = 03/11/2017 12:15:00 stop = 03/11/2017 12:45:00 title = Amici miei...Bischeri
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2017 12:45:00 stop = 03/11/2017 13:00:00 title = La salute vien mangiando
+[  Info  ]       Replaces ----- start = 03/11/2017 12:45:00 stop = 03/11/2017 13:00:00 title = La salute vien mangiando
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2017 13:00:00 stop = 03/11/2017 13:30:00 title = Casa Alice
+[  Info  ]       Replaces ----- start = 03/11/2017 13:00:00 stop = 03/11/2017 13:30:00 title = Casa Alice
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2017 13:30:00 stop = 03/11/2017 14:05:00 title = Casa Alice - Insieme
+[  Info  ]       Replaces ----- start = 03/11/2017 13:30:00 stop = 03/11/2017 14:05:00 title = Casa Alice - Insieme
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2017 14:05:00 stop = 03/11/2017 14:40:00 title = Masseria Sciarra
+[  Info  ]       Replaces ----- start = 03/11/2017 14:05:00 stop = 03/11/2017 14:40:00 title = Masseria Sciarra
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2017 14:40:00 stop = 03/11/2017 15:15:00 title = Risi e Bisi
+[  Info  ]       Replaces ----- start = 03/11/2017 14:40:00 stop = 03/11/2017 15:15:00 title = Risi e Bisi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2017 15:15:00 stop = 03/11/2017 15:50:00 title = Lungo il fiume
+[  Info  ]       Replaces ----- start = 03/11/2017 15:15:00 stop = 03/11/2017 15:50:00 title = Lungo il fiume
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2017 15:50:00 stop = 03/11/2017 16:25:00 title = Il club delle cuoche
+[  Info  ]       Replaces ----- start = 03/11/2017 15:50:00 stop = 03/11/2017 16:25:00 title = Il club delle cuoche
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2017 16:25:00 stop = 03/11/2017 17:00:00 title = Romagna mia
+[  Info  ]       Replaces ----- start = 03/11/2017 16:25:00 stop = 03/11/2017 17:00:00 title = Romagna mia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2017 17:00:00 stop = 03/11/2017 17:35:00 title = Pane amore e fantasia
+[  Info  ]       Replaces ----- start = 03/11/2017 17:00:00 stop = 03/11/2017 17:35:00 title = Pane amore e fantasia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2017 17:35:00 stop = 03/11/2017 17:55:00 title = Non e mai troppo presto
+[  Info  ]       Replaces ----- start = 03/11/2017 17:35:00 stop = 03/11/2017 17:55:00 title = Non e mai troppo presto
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2017 17:55:00 stop = 03/11/2017 18:30:00 title = Il folletto delle torte
+[  Info  ]       Replaces ----- start = 03/11/2017 17:55:00 stop = 03/11/2017 18:30:00 title = Il folletto delle torte
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2017 18:30:00 stop = 03/11/2017 19:05:00 title = Casa Alice
+[  Info  ]       Replaces ----- start = 03/11/2017 18:30:00 stop = 03/11/2017 19:05:00 title = Casa Alice
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2017 19:05:00 stop = 03/11/2017 19:40:00 title = Casa Alice - Insieme
+[  Info  ]       Replaces ----- start = 03/11/2017 19:05:00 stop = 03/11/2017 19:40:00 title = Casa Alice - Insieme
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2017 19:40:00 stop = 03/11/2017 20:15:00 title = Raccolto e mangiato
+[  Info  ]       Replaces ----- start = 03/11/2017 19:40:00 stop = 03/11/2017 20:15:00 title = Raccolto e mangiato
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2017 20:15:00 stop = 03/11/2017 20:50:00 title = Alice club
+[  Info  ]       Replaces ----- start = 03/11/2017 20:15:00 stop = 03/11/2017 20:50:00 title = Alice club
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2017 20:50:00 stop = 03/11/2017 21:10:00 title = La salute vien mangiando
+[  Info  ]       Replaces ----- start = 03/11/2017 20:50:00 stop = 03/11/2017 21:10:00 title = La salute vien mangiando
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2017 21:10:00 stop = 03/11/2017 22:15:00 title = Accademia Montersino
+[  Info  ]       Replaces ----- start = 03/11/2017 21:10:00 stop = 03/11/2017 22:15:00 title = Accademia Montersino
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2017 22:15:00 stop = 03/11/2017 22:50:00 title = Risi e Bisi
+[  Info  ]       Replaces ----- start = 03/11/2017 22:15:00 stop = 03/11/2017 22:50:00 title = Risi e Bisi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2017 22:50:00 stop = 03/11/2017 23:25:00 title = Lungo il fiume
+[  Info  ]       Replaces ----- start = 03/11/2017 22:50:00 stop = 03/11/2017 23:25:00 title = Lungo il fiume
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2017 23:25:00 stop = 03/11/2017 23:45:00 title = Non e mai troppo presto
+[  Info  ]       Replaces ----- start = 03/11/2017 23:25:00 stop = 03/11/2017 23:45:00 title = Non e mai troppo presto
+[  Info  ] 0.06 sec/update
 [  Info  ]    Summary for update of       Alice
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 284
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     284
+[  Info  ]      new shows added           0
+[  Info  ]      unchanged shows inspected 0
 [  Info  ]      total after update        284
 
+[  Info  ]      elapstime / updated show  0.06 seconds
 [  Debug ] 
 [  Info  ] ( 116/165 ) ITALIASMART.TV -- chan. (xmltv_id=Marcopolo) -- mode Incremental
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2017 01:00:00 stop = 29/10/2017 01:25:00 title = Borghi marini
+[  Info  ]       Replaces ----- start = 29/10/2017 02:00:00 stop = 29/10/2017 02:25:00 title = Borghi marini
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2017 01:25:00 stop = 29/10/2017 01:55:00 title = Week end
+[  Info  ]       Replaces ----- start = 29/10/2017 02:25:00 stop = 29/10/2017 02:55:00 title = Week end
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2017 01:55:00 stop = 29/10/2017 02:10:00 title = Tesori e Meraviglie
+[  Info  ]       Replaces ----- start = 29/10/2017 02:55:00 stop = 29/10/2017 03:10:00 title = Tesori e Meraviglie
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2017 02:10:00 stop = 29/10/2017 02:25:00 title = Tesori e Meraviglie
+[  Info  ]       Replaces ----- start = 29/10/2017 03:10:00 stop = 29/10/2017 03:25:00 title = Tesori e Meraviglie
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2017 02:25:00 stop = 29/10/2017 02:45:00 title = Tesori e Meraviglie
+[  Info  ]       Replaces ----- start = 29/10/2017 03:25:00 stop = 29/10/2017 03:45:00 title = Tesori e Meraviglie
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20171029010000 +0200
-[  Debug ] starting with show : Borghi marini at local time 29/10/2017 01:00
+[  Debug ] time-offset change for all shows after stoptime 20171029030000 +0100
+[  Debug ] starting with show : Tesori e Meraviglie at local time 29/10/2017 03:00
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2017 02:45:00 stop = 29/10/2017 03:00:00 title = Tesori e Meraviglie
+[  Info  ]       Replaces ----- start = 29/10/2017 03:45:00 stop = 29/10/2017 03:00:00 title = Tesori e Meraviglie
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 29/10/2017 03:00:00 and stop at 29/10/2017 03:30:00
-[  Info  ] 
+[  Info  ] 0.06 sec/update
 [  Info  ]    Summary for update of       Marcopolo
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 204
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     6
+[  Info  ]      new shows added           0
+[  Info  ]      unchanged shows inspected 198
 [  Info  ]      total after update        205
 
+[  Info  ]      elapstime / updated show  0.06 seconds
 [  Debug ] 
 [  Info  ] ( 117/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Dove TV) -- mode Incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 31/10/2017 09:00:00 stop = 31/10/2017 09:55:00 title = Chi sceglie la seconda casa?
-[  Info  ]       Replaces ----- start = 31/10/2017 09:00:00 stop = 31/10/2017 09:50:00 title = Vado a vivere in campagna
-[  Info  ]       Replaces ----- start = 31/10/2017 09:50:00 stop = 31/10/2017 10:45:00 title = Prendere o lasciare UK
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 31/10/2017 09:55:00 stop = 31/10/2017 10:45:00 title = Case da sogno nel Mediterraneo
-[  Info  ]       Replaces ----- start = 31/10/2017 09:50:00 stop = 31/10/2017 10:45:00 title = Prendere o lasciare UK
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 31/10/2017 10:45:00 stop = 31/10/2017 11:15:00 title = Vista con stile
-[  Info  ]       Replaces ----- start = 31/10/2017 10:45:00 stop = 31/10/2017 11:45:00 title = Cambio casa (finalmente!)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 31/10/2017 11:15:00 stop = 31/10/2017 11:45:00 title = Vista con stile
-[  Info  ]       Replaces ----- start = 31/10/2017 10:45:00 stop = 31/10/2017 11:45:00 title = Cambio casa (finalmente!)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 31/10/2017 11:45:00 stop = 31/10/2017 12:40:00 title = Case fuori dal comune
-[  Info  ]       Replaces ----- start = 31/10/2017 11:45:00 stop = 31/10/2017 12:10:00 title = Tiny House
-[  Info  ]       Replaces ----- start = 31/10/2017 12:10:00 stop = 31/10/2017 12:40:00 title = Tiny House
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 31/10/2017 12:40:00 stop = 31/10/2017 13:10:00 title = Sapori dal mondo
-[  Info  ]       Replaces ----- start = 31/10/2017 12:40:00 stop = 31/10/2017 13:40:00 title = La seconda casa non si scorda mai
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 31/10/2017 15:00:00 stop = 31/10/2017 15:50:00 title = Vado a vivere in campagna
-[  Info  ]       Replaces ----- start = 31/10/2017 15:00:00 stop = 31/10/2017 15:30:00 title = Assaggi di viaggio
-[  Info  ]       Replaces ----- start = 31/10/2017 15:30:00 stop = 31/10/2017 16:20:00 title = Vado a vivere in campagna
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 31/10/2017 15:50:00 stop = 31/10/2017 16:40:00 title = Vado a vivere in campagna
-[  Info  ]       Replaces ----- start = 31/10/2017 15:30:00 stop = 31/10/2017 16:20:00 title = Vado a vivere in campagna
-[  Info  ]       Replaces ----- start = 31/10/2017 16:20:00 stop = 31/10/2017 17:10:00 title = Grandi progetti: la casa dell'anno
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 31/10/2017 18:10:00 stop = 31/10/2017 19:05:00 title = Grandi Progetti
-[  Info  ]       Replaces ----- start = 31/10/2017 18:10:00 stop = 31/10/2017 19:05:00 title = Affari sul banco
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 31/10/2017 19:05:00 stop = 31/10/2017 20:00:00 title = Italia segreta
-[  Info  ]       Replaces ----- start = 31/10/2017 19:05:00 stop = 31/10/2017 20:00:00 title = Grandi Progetti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 31/10/2017 20:00:00 stop = 31/10/2017 20:55:00 title = Case da sogno nel Mediterraneo
-[  Info  ]       Replaces ----- start = 31/10/2017 20:00:00 stop = 31/10/2017 20:55:00 title = Case fuori dal comune
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 31/10/2017 22:00:00 stop = 31/10/2017 22:50:00 title = Stacco tutto - Una casa sostenibile - 1^TV
-[  Info  ]       Replaces ----- start = 31/10/2017 22:00:00 stop = 31/10/2017 22:55:00 title = Case da sogno nel Mediterraneo
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 31/10/2017 22:50:00 stop = 31/10/2017 23:50:00 title = Vado a vivere in campagna
-[  Info  ]       Replaces ----- start = 31/10/2017 22:00:00 stop = 31/10/2017 22:55:00 title = Case da sogno nel Mediterraneo
-[  Info  ]       Replaces ----- start = 31/10/2017 22:55:00 stop = 31/10/2017 23:50:00 title = Grandi progetti: la casa dell'anno
-[  Info  ] 0.24 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 118/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cielo HD) -- mode Incremental
-[  Info  ] 0.26 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 119/165 ) RAI.IT -- chan. (xmltv_id=Rai Gulp HD) -- mode Incremental
-[  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20171029060500 +0100
-[  Debug ] starting with show : Geronimo Stilton at local time 29/10/2017 06:05
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 120/165 ) RAI.IT -- chan. (xmltv_id=Rai YoYo HD) -- mode Incremental
+[  Debug ] multiple entry of a show at 20171030060000 +0100
+[  Debug ] multiple entry of a show at 20171031060000 +0100
+[  Debug ] multiple entry of a show at 20171101060000 +0100
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 121/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cartoon Network) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 122/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Disney XD) -- mode Incremental
-[  Info  ] 0.25 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 123/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Disney Channel) -- mode Incremental
-[  Info  ] 0.25 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 124/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Disney Channel +1) -- mode Incremental
-[  Info  ] 0.25 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 125/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cartonito) -- mode Incremental
-[  Info  ] 0.25 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 126/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Baby TV) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 127/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Nickelodeon) -- mode Incremental
-[  Info  ] 0.25 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 128/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=DeA Junior) -- mode Incremental
-[  Info  ] 0.24 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 129/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=DeAKids) -- mode Incremental
-[  Info  ] 0.26 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 130/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Teen Nick) -- mode Incremental
-[  Info  ] 0.26 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 131/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Disney Junior) -- mode Incremental
-[  Info  ] 0.25 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 132/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Super !) -- mode Incremental
-[  Info  ] 0.25 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 133/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Boing) -- mode Incremental
-[  Info  ] 0.26 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 134/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Man-Ga) -- mode Incremental
-[  Info  ] 0.22 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 135/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Frisbee) -- mode Incremental
-[  Info  ] 0.28 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 136/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Nick Junior) -- mode Incremental
-[  Info  ] 0.26 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 137/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=K2) -- mode Incremental
-[  Info  ] 0.27 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 138/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Boomerang) -- mode Incremental
-[  Info  ] 0.26 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 139/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema HD) -- mode Incremental
-[  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20171029060200 +0100
-[  Debug ] starting with show : FIGLI DI ANNIBALE at local time 29/10/2017 06:02
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 140/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema +24) -- mode Incremental
+[  Debug ] multiple entry of a show at 20171029063000 +0100
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 141/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema 2) -- mode Incremental
@@ -1022,9 +2000,10 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 04/11/2017 06:30:00 stop = 04/11/2017 06:43:00 title = TUTTA COLPA DI FREUD - ZOOM
 [  Info  ]       Replaces ----- start = 04/11/2017 06:30:00 stop = 04/11/2017 06:43:00 title = TUTTA COLPA DI FREUD - ZOOM
-[  Info  ] 0.31 sec/update
+[  Info  ] 0.21 sec/update
 [  Debug ] 
 [  Info  ] ( 142/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema 2 +24) -- mode Incremental
+[  Debug ] multiple entry of a show at 20171029063000 +0100
 [  Debug ]    suspicious      title in index page  = 7 VOLTE 7
 [  Debug ]       differs from title in showdetails = 7 VOLTE 7 -
 [  Info  ]    epg correction : 
@@ -1037,7 +2016,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 04/11/2017 10:20:00 stop = 04/11/2017 12:13:00 title = 7 VOLTE 7 -
 [  Info  ]       Replaces ----- start = 04/11/2017 10:20:00 stop = 04/11/2017 12:13:00 title = 7 VOLTE 7 -
-[  Info  ] 0.18 sec/update
+[  Info  ] 0.17 sec/update
 [  Debug ] 
 [  Info  ] ( 143/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Energy) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = CAVALLI SELVAGGI (DI R. DUVALL)
@@ -1062,7 +2041,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 04/11/2017 09:34:00 stop = 04/11/2017 11:08:00 title = GRIDLOCK'D - ISTINTI CRIMINALI
 [  Info  ]       Replaces ----- start = 04/11/2017 09:34:00 stop = 04/11/2017 11:08:00 title = GRIDLOCK'D - ISTINTI CRIMINALI
-[  Info  ] 0.16 sec/update
+[  Info  ] 0.18 sec/update
 [  Debug ] 
 [  Info  ] ( 144/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Emotion) -- mode Incremental
 [  Info  ]    epg correction : 
@@ -1097,7 +2076,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 04/11/2017 06:30:00 stop = 04/11/2017 06:39:00 title = STORIA D'INVERNO                               - FULL EMOTION
 [  Info  ]       Replaces ----- start = 04/11/2017 06:30:00 stop = 04/11/2017 06:39:00 title = STORIA D'INVERNO                               - FULL EMOTION
-[  Info  ] 0.16 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 145/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Comedy) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = A CENA CON...
@@ -1112,10 +2091,10 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 04/11/2017 10:43:00 stop = 04/11/2017 12:34:00 title = Così E' La Vita
 [  Info  ]       Replaces ----- start = 04/11/2017 10:43:00 stop = 04/11/2017 12:34:00 title = Così E' La Vita
-[  Info  ] 0.17 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 146/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Investigation Discovery) -- mode Incremental
-[  Debug ]    skipped negative show time! at 29/10/2017 22:40:00
+[  Debug ]    skipped negative show time! at 29/10/2017 23:40:00
 [  Info  ] 0.04 sec/update
 [  Debug ] 
 [  Info  ] ( 147/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Studio Universal) -- mode Incremental
@@ -1205,9 +2184,13 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 04/11/2017 16:40:00 stop = 04/11/2017 18:40:00 title = SCELTA D'AMORE-LA STORIA DI HILARY E VICTOR -
 [  Info  ]       Replaces ----- start = 04/11/2017 16:40:00 stop = 04/11/2017 18:40:00 title = SCELTA D'AMORE-LA STORIA DI HILARY E VICTOR -
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 148/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Paramount Channel) -- mode Incremental
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
+[Warning ] error downloading page: Error getting response stream (ReadDone1): ReceiveFailure
+[Warning ] pausing 2 of 4 times for 10 seconds before re-try.
 [  Debug ]    suspicious      title in index page  = CINECHAT - ETHAN HAWKE
 [  Debug ]       differs from title in showdetails = ETHAN HAWKE - CINECHAT - (KS-KR)
 [  Info  ]    epg correction : 
@@ -1294,17 +2277,16 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 04/11/2017 16:40:00 stop = 04/11/2017 18:40:00 title = SCELTA D'AMORE-LA STORIA DI HILARY E VICTOR -
 [  Info  ]       Replaces ----- start = 04/11/2017 16:40:00 stop = 04/11/2017 18:40:00 title = SCELTA D'AMORE-LA STORIA DI HILARY E VICTOR -
-[  Info  ] 0.16 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 149/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action HD) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = LUCIFER II
 [  Debug ]       differs from title in showdetails = LO SFASCIA FAMIGLIE .....
 [  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 30/10/2017 05:19:00 stop = 30/10/2017 06:39:00 title = LO SFASCIA FAMIGLIE - LUCIFER II - PRIMA TV
-[  Info  ]       Replaces ----- start = 30/10/2017 04:35:00 stop = 30/10/2017 06:00:00 title = RISORGEREMO - THE 100 IV - PRIMA TV
-[  Info  ]       Replaces ----- start = 30/10/2017 06:00:00 stop = 30/10/2017 06:43:00 title = KASHMIR - REVOLUTION I
-[  Debug ]    skipped negative show time! at 29/10/2017 05:39:00
+[  Info  ]       Added before - start = 30/10/2017 06:43:00 stop = 30/10/2017 07:23:00 title = IL NEMICO DEL MIO NEMICO - THE TOMORROW PEOPLE
+[  Debug ]    skipped negative show time! at 29/10/2017 06:39:00
 [  Debug ]    suspicious      title in index page  = ARROW V
 [  Debug ]       differs from title in showdetails = RELAZIONI PERICOL.....
 [  Info  ]    epg correction : 
@@ -1377,7 +2359,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 29/10/2017 23:00:00 stop = 29/10/2017 23:52:00 title = L' UOMO SULLA LUNA - DC'S LEGENDS OF TOMORROW II
 [  Info  ]       Replaces ----- start = 29/10/2017 23:43:00 stop = 30/10/2017 00:33:00 title = RELAZIONI PERICOLOSE - ARROW V
-[  Debug ]    skipped negative show time! at 29/10/2017 22:52:00
+[  Debug ]    skipped negative show time! at 29/10/2017 23:52:00
 [  Debug ]    suspicious      title in index page  = ARROW V
 [  Debug ]       differs from title in showdetails = RELAZIONI PERICOL.....
 [  Info  ]    epg correction : 
@@ -1405,9 +2387,13 @@
 [  Debug ]    suspicious      title in index page  = THE 100 IV
 [  Debug ]       differs from title in showdetails = RISORGEREMO - THE 10.....
 [  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 30/10/2017 04:35:00 stop = 30/10/2017 06:00:00 title = RISORGEREMO - THE 100 IV - PRIMA TV
-[  Info  ]       Replaces ----- start = 30/10/2017 04:35:00 stop = 30/10/2017 06:00:00 title = RISORGEREMO - THE 100 IV - PRIMA TV
+[  Info  ]       Added before - start = 30/10/2017 06:43:00 stop = 30/10/2017 07:23:00 title = IL NEMICO DEL MIO NEMICO - THE TOMORROW PEOPLE
+[  Info  ]    epg correction : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 30/10/2017 06:00:00 stop = 30/10/2017 06:43:00 title = KASHMIR - REVOLUTION I
+[  Info  ]       Added before - start = 30/10/2017 06:43:00 stop = 30/10/2017 07:23:00 title = IL NEMICO DEL MIO NEMICO - THE TOMORROW PEOPLE
 [  Debug ]    suspicious      title in index page  = THE 100 IV
 [  Debug ]       differs from title in showdetails = LA POLVERIERA - THE .....
 [  Info  ]    epg correction : 
@@ -1798,7 +2784,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 04/11/2017 23:05:00 stop = 05/11/2017 00:02:00 title = RISORGEREMO - THE 100 IV - PRIMA TV
 [  Info  ]       Replaces ----- start = 04/11/2017 23:05:00 stop = 05/11/2017 00:02:00 title = RISORGEREMO - THE 100 IV - PRIMA TV
-[  Info  ] 0.16 sec/update
+[  Info  ] 0.13 sec/update
 [  Debug ] 
 [  Info  ] ( 150/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action +24) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = REVOLUTION
@@ -1807,6 +2793,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/10/2017 05:19:00 stop = 30/10/2017 06:00:00 title = LEGAMI CHE UNISCONO - REVOLUTION I
 [  Info  ]       Replaces ----- start = 30/10/2017 05:19:00 stop = 30/10/2017 06:00:00 title = LEGAMI CHE UNISCONO - REVOLUTION I
+[  Debug ] multiple entry of a show at 20171030060000 +0100
 [  Debug ]    suspicious      title in index page  = ARROW V
 [  Debug ]       differs from title in showdetails = RELAZIONI PERICOL.....
 [  Info  ]    epg correction : 
@@ -2107,7 +3094,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 04/11/2017 22:04:00 stop = 04/11/2017 22:56:00 title = FUGGIASCO - GRIMM VI - PRIMA TV
 [  Info  ]       Replaces ----- start = 04/11/2017 22:04:00 stop = 04/11/2017 22:56:00 title = FUGGIASCO - GRIMM VI - PRIMA TV
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 151/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Crime) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = CHICAGO JUSTICE
@@ -2115,16 +3102,57 @@
 [  Info  ]    epg correction : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 30/10/2017 05:36:00 stop = 30/10/2017 06:17:00 title = MAI GIUDICARE - CHICAGO JUSTICE
-[  Info  ]       Added before - start = 30/10/2017 06:30:00 stop = 30/10/2017 07:57:00 title = UNA BRAVO RAGAZZO - IL COMMISSARIO SCHUMANN VIII
+[  Info  ]       Added before - start = 30/10/2017 06:30:00 stop = 30/10/2017 07:18:00 title = ROSSO D'AMORE - THE MENTALIST II
 [  Debug ]    suspicious      title in index page  = SISKA VI
 [  Debug ]       differs from title in showdetails = UN DELITTO AD ARTE.....
 [  Info  ]    epg correction : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 30/10/2017 06:17:00 stop = 30/10/2017 06:30:00 title = UN DELITTO AD ARTE - SISKA VI
-[  Info  ]       Added before - start = 30/10/2017 06:30:00 stop = 30/10/2017 07:57:00 title = UNA BRAVO RAGAZZO - IL COMMISSARIO SCHUMANN VIII
+[  Info  ]       Added before - start = 30/10/2017 06:30:00 stop = 30/10/2017 07:18:00 title = ROSSO D'AMORE - THE MENTALIST II
+[  Debug ]    suspicious      title in index page  = IL COMMISSARIO SCHUMANN VIII
+[  Debug ]       differs from title in showdetails = UNA BRAVO RAGAZZO - IL COMMISSARIO SCH.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 06:30:00 stop = 30/10/2017 07:57:00 title = UNA BRAVO RAGAZZO - IL COMMISSARIO SCHUMANN VIII
+[  Info  ]       Replaces ----- start = 30/10/2017 06:30:00 stop = 30/10/2017 07:18:00 title = ROSSO D'AMORE - THE MENTALIST II
+[  Info  ]       Replaces ----- start = 30/10/2017 07:18:00 stop = 30/10/2017 08:09:00 title = LINEA ROSSA - THE MENTALIST II
+[  Debug ]    suspicious      title in index page  = DISTRETTO DI POLIZIA 1
+[  Debug ]       differs from title in showdetails = LA PAURA - DISTRETTO DI POLIZIA .....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 07:57:00 stop = 30/10/2017 08:59:00 title = LA PAURA - DISTRETTO DI POLIZIA 1
+[  Info  ]       Replaces ----- start = 30/10/2017 07:18:00 stop = 30/10/2017 08:09:00 title = LINEA ROSSA - THE MENTALIST II
+[  Info  ]       Replaces ----- start = 30/10/2017 08:09:00 stop = 30/10/2017 09:00:00 title = LA MIA MIGLIORE AMICA - COLD CASE-DELITTI IRRISOLTI II
+[  Debug ]    suspicious      title in index page  = COLD CASE - DELITTI IRRISOLTI II
+[  Debug ]       differs from title in showdetails = STRANO FRUTTO - COLD CASE-DELITTI IRRISOLT.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 08:59:00 stop = 30/10/2017 09:50:00 title = STRANO FRUTTO - COLD CASE-DELITTI IRRISOLTI II
+[  Info  ]       Replaces ----- start = 30/10/2017 08:09:00 stop = 30/10/2017 09:00:00 title = LA MIA MIGLIORE AMICA - COLD CASE-DELITTI IRRISOLTI II
+[  Info  ]       Replaces ----- start = 30/10/2017 09:00:00 stop = 30/10/2017 10:10:00 title = IL BOSCO - COLD CASE-DELITTI IRRISOLTI II
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 09:50:00 stop = 30/10/2017 10:39:00 title = KENSINGTON - COLD CASE-DELITTI IRRISOLTI II
+[  Info  ]       Replaces ----- start = 30/10/2017 09:00:00 stop = 30/10/2017 10:10:00 title = IL BOSCO - COLD CASE-DELITTI IRRISOLTI II
+[  Info  ]       Replaces ----- start = 30/10/2017 10:10:00 stop = 30/10/2017 10:59:00 title = LA MUMMIA IN CANTINA - RIZZOLI & ISLES V
+[  Debug ]    suspicious      title in index page  = COLD CASE - DELITTI IRRISOLTI II
+[  Debug ]       differs from title in showdetails = UN BAGLIORE NELLA NOTTE - COLD CASE-DELITT.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 10:39:00 stop = 30/10/2017 11:29:00 title = UN BAGLIORE NELLA NOTTE - COLD CASE-DELITTI IRRISOLTI II
+[  Info  ]       Replaces ----- start = 30/10/2017 10:10:00 stop = 30/10/2017 10:59:00 title = LA MUMMIA IN CANTINA - RIZZOLI & ISLES V
+[  Info  ]       Replaces ----- start = 30/10/2017 10:59:00 stop = 30/10/2017 11:47:00 title = CENERI DI UN DELITTO - RIZZOLI & ISLES V
+[  Debug ]    suspicious      title in index page  = COLD CASE - DELITTI IRRISOLTI II
+[  Debug ]       differs from title in showdetails = LA MIA MIGLIORE AMICA - COLD CASE-DELITTI .....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 11:29:00 stop = 30/10/2017 12:19:00 title = LA MIA MIGLIORE AMICA - COLD CASE-DELITTI IRRISOLTI II
+[  Info  ]       Replaces ----- start = 30/10/2017 10:59:00 stop = 30/10/2017 11:47:00 title = CENERI DI UN DELITTO - RIZZOLI & ISLES V
+[  Info  ]       Replaces ----- start = 30/10/2017 11:47:00 stop = 30/10/2017 12:37:00 title = PATTO ROSSO SANGUE - THE MENTALIST II
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/10/2017 12:19:00 stop = 30/10/2017 13:27:00 title = IL BOSCO - COLD CASE-DELITTI IRRISOLTI II
+[  Info  ]       Replaces ----- start = 30/10/2017 11:47:00 stop = 30/10/2017 12:37:00 title = PATTO ROSSO SANGUE - THE MENTALIST II
 [  Info  ]       Replaces ----- start = 30/10/2017 12:37:00 stop = 30/10/2017 13:30:00 title = UNA GARA ROSSO PICCANTE - THE MENTALIST II
 [  Debug ]    suspicious      title in index page  = THE CLOSER III
 [  Debug ]       differs from title in showdetails = FINCHE' MORTE NON CI SEP.....
@@ -2151,24 +3179,58 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/10/2017 16:01:00 stop = 30/10/2017 16:53:00 title = EMOZIONI AMPLIFICATE - LAW & ORDER: UNITA' SPECIALE XVIII
 [  Info  ]       Replaces ----- start = 30/10/2017 15:25:00 stop = 30/10/2017 16:14:00 title = VENDETTA PERSONALE - LAW & ORDER: UNITA' SPECIALE IV
-[  Info  ]       Replaces ----- start = 30/10/2017 16:01:00 stop = 30/10/2017 16:53:00 title = EMOZIONI AMPLIFICATE - LAW & ORDER: UNITA' SPECIALE XVIII
+[  Info  ]       Replaces ----- start = 30/10/2017 16:14:00 stop = 30/10/2017 17:03:00 title = PIETA' - LAW & ORDER: UNITA' SPECIALE IV
+[  Debug ]    suspicious      title in index page  = COLD CASE - DELITTI IRRISOLTI I
+[  Debug ]       differs from title in showdetails = CORSA SENZA FINE - COLD CASE-DELITTI IRRI.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 16:53:00 stop = 30/10/2017 17:44:00 title = CORSA SENZA FINE - COLD CASE-DELITTI IRRISOLTI I
+[  Info  ]       Replaces ----- start = 30/10/2017 16:14:00 stop = 30/10/2017 17:03:00 title = PIETA' - LAW & ORDER: UNITA' SPECIALE IV
+[  Info  ]       Replaces ----- start = 30/10/2017 17:03:00 stop = 30/10/2017 17:54:00 title = UN PADRE PER CLAIRE - COLD CASE-DELITTI IRRISOLTI III
+[  Debug ]    suspicious      title in index page  = COLD CASE - DELITTI IRRISOLTI I
+[  Debug ]       differs from title in showdetails = FOLLIA DI UN AMORE - COLD CASE-DELITTI IR.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 17:44:00 stop = 30/10/2017 18:39:00 title = FOLLIA DI UN AMORE - COLD CASE-DELITTI IRRISOLTI I
+[  Info  ]       Replaces ----- start = 30/10/2017 17:03:00 stop = 30/10/2017 17:54:00 title = UN PADRE PER CLAIRE - COLD CASE-DELITTI IRRISOLTI III
+[  Info  ]       Replaces ----- start = 30/10/2017 17:54:00 stop = 30/10/2017 18:44:00 title = LA PROMESSA - COLD CASE-DELITTI IRRISOLTI III
 [  Debug ]    suspicious      title in index page  = TAKEN I
 [  Debug ]       differs from title in showdetails = UN OROLOGIO SVIZZ.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/10/2017 18:39:00 stop = 30/10/2017 19:28:00 title = UN OROLOGIO SVIZZERO - TAKEN I
+[  Info  ]       Replaces ----- start = 30/10/2017 17:54:00 stop = 30/10/2017 18:44:00 title = LA PROMESSA - COLD CASE-DELITTI IRRISOLTI III
 [  Info  ]       Replaces ----- start = 30/10/2017 18:44:00 stop = 30/10/2017 19:33:00 title = IL CADAVERE NEL GHIACCIO - RIZZOLI & ISLES V
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 19:28:00 stop = 30/10/2017 20:21:00 title = LA SPIA - TAKEN I
+[  Info  ]       Replaces ----- start = 30/10/2017 18:44:00 stop = 30/10/2017 19:33:00 title = IL CADAVERE NEL GHIACCIO - RIZZOLI & ISLES V
+[  Info  ]       Replaces ----- start = 30/10/2017 19:33:00 stop = 30/10/2017 20:21:00 title = L' ONERE DELLA PROVA - RIZZOLI & ISLES V
 [  Debug ]    suspicious      title in index page  = THE CLOSER III
 [  Debug ]       differs from title in showdetails = FRATELLI DI SANGUE - I P.....
 [  Info  ]    epg correction : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 30/10/2017 20:21:00 stop = 30/10/2017 21:14:00 title = FRATELLI DI SANGUE - I PARTE - THE CLOSER III
-[  Info  ]       Added before - start = 30/10/2017 22:06:00 stop = 30/10/2017 22:57:00 title = FUOCO AMICO - CHICAGO JUSTICE
+[  Info  ]       Added before - start = 30/10/2017 21:14:00 stop = 30/10/2017 22:04:00 title = CACCIA AL FANTASMA - SHADES OF BLUE II - PRIMA TV
 [  Info  ]    epg correction : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/10/2017 21:14:00 stop = 30/10/2017 22:06:00 title = STUPRO INTERROTTO - LAW & ORDER: UNITA' SPECIALE XVIII - PRIMA TV
-[  Info  ]       Added before - start = 30/10/2017 22:06:00 stop = 30/10/2017 22:57:00 title = FUOCO AMICO - CHICAGO JUSTICE
-[  Debug ]    skipped negative show time! at 29/10/2017 22:47:00
+[  Info  ]       Replaces ----- start = 30/10/2017 21:14:00 stop = 30/10/2017 22:04:00 title = CACCIA AL FANTASMA - SHADES OF BLUE II - PRIMA TV
+[  Info  ]       Replaces ----- start = 30/10/2017 22:04:00 stop = 30/10/2017 22:55:00 title = TAPPETO ROSSO - THE MENTALIST III
+[  Debug ]    suspicious      title in index page  = CHICAGO JUSTICE
+[  Debug ]       differs from title in showdetails = FUOCO AMICO - CHICAGO JUS.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 22:06:00 stop = 30/10/2017 22:57:00 title = FUOCO AMICO - CHICAGO JUSTICE
+[  Info  ]       Replaces ----- start = 30/10/2017 22:04:00 stop = 30/10/2017 22:55:00 title = TAPPETO ROSSO - THE MENTALIST III
+[  Info  ]       Replaces ----- start = 30/10/2017 22:55:00 stop = 30/10/2017 23:50:00 title = QUI PRO QUO - TRAINING DAY I
+[  Debug ]    suspicious      title in index page  = SHADES OF BLUE II
+[  Debug ]       differs from title in showdetails = L' OCCHIO DEL CICLONE - SHA.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 22:57:00 stop = 30/10/2017 23:47:00 title = L' OCCHIO DEL CICLONE - SHADES OF BLUE II
+[  Info  ]       Replaces ----- start = 30/10/2017 22:55:00 stop = 30/10/2017 23:50:00 title = QUI PRO QUO - TRAINING DAY I
+[  Debug ]    skipped negative show time! at 29/10/2017 23:47:00
 [  Debug ]    suspicious      title in index page  = DEXTER II
 [  Debug ]       differs from title in showdetails = LA VERITA' TORNA A .....
 [  Info  ]    epg correction : 
@@ -2192,50 +3254,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 30/10/2017 04:30:00 stop = 30/10/2017 06:30:00 title = L' OCCHIO DEL CICLONE - SHADES OF BLUE II
-[  Info  ]       Added before - start = 30/10/2017 06:30:00 stop = 30/10/2017 07:57:00 title = UNA BRAVO RAGAZZO - IL COMMISSARIO SCHUMANN VIII
-[  Debug ]    suspicious      title in index page  = THE MENTALIST II
-[  Debug ]       differs from title in showdetails = ROSSO D'AMORE - THE MENTAL.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 30/10/2017 06:30:00 stop = 30/10/2017 07:18:00 title = ROSSO D'AMORE - THE MENTALIST II
-[  Info  ]       Replaces ----- start = 30/10/2017 06:30:00 stop = 30/10/2017 07:57:00 title = UNA BRAVO RAGAZZO - IL COMMISSARIO SCHUMANN VIII
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 30/10/2017 07:18:00 stop = 30/10/2017 08:09:00 title = LINEA ROSSA - THE MENTALIST II
-[  Info  ]       Replaces ----- start = 30/10/2017 06:30:00 stop = 30/10/2017 07:57:00 title = UNA BRAVO RAGAZZO - IL COMMISSARIO SCHUMANN VIII
-[  Info  ]       Replaces ----- start = 30/10/2017 07:57:00 stop = 30/10/2017 08:59:00 title = LA PAURA - DISTRETTO DI POLIZIA 1
-[  Debug ]    suspicious      title in index page  = COLD CASE - DELITTI IRRISOLTI II
-[  Debug ]       differs from title in showdetails = LA MIA MIGLIORE AMICA - COLD CASE-DELITTI .....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 30/10/2017 08:09:00 stop = 30/10/2017 09:00:00 title = LA MIA MIGLIORE AMICA - COLD CASE-DELITTI IRRISOLTI II
-[  Info  ]       Replaces ----- start = 30/10/2017 07:57:00 stop = 30/10/2017 08:59:00 title = LA PAURA - DISTRETTO DI POLIZIA 1
-[  Info  ]       Replaces ----- start = 30/10/2017 08:59:00 stop = 30/10/2017 09:50:00 title = STRANO FRUTTO - COLD CASE-DELITTI IRRISOLTI II
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 30/10/2017 09:00:00 stop = 30/10/2017 10:10:00 title = IL BOSCO - COLD CASE-DELITTI IRRISOLTI II
-[  Info  ]       Replaces ----- start = 30/10/2017 08:59:00 stop = 30/10/2017 09:50:00 title = STRANO FRUTTO - COLD CASE-DELITTI IRRISOLTI II
-[  Info  ]       Replaces ----- start = 30/10/2017 09:50:00 stop = 30/10/2017 10:39:00 title = KENSINGTON - COLD CASE-DELITTI IRRISOLTI II
-[  Debug ]    suspicious      title in index page  = RIZZOLI & ISLES V
-[  Debug ]       differs from title in showdetails = LA MUMMIA IN CANTINA - RIZZ.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 30/10/2017 10:10:00 stop = 30/10/2017 10:59:00 title = LA MUMMIA IN CANTINA - RIZZOLI & ISLES V
-[  Info  ]       Replaces ----- start = 30/10/2017 09:50:00 stop = 30/10/2017 10:39:00 title = KENSINGTON - COLD CASE-DELITTI IRRISOLTI II
-[  Info  ]       Replaces ----- start = 30/10/2017 10:39:00 stop = 30/10/2017 11:29:00 title = UN BAGLIORE NELLA NOTTE - COLD CASE-DELITTI IRRISOLTI II
-[  Debug ]    suspicious      title in index page  = RIZZOLI & ISLES V
-[  Debug ]       differs from title in showdetails = CENERI DI UN DELITTO - RIZZ.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 30/10/2017 10:59:00 stop = 30/10/2017 11:47:00 title = CENERI DI UN DELITTO - RIZZOLI & ISLES V
-[  Info  ]       Replaces ----- start = 30/10/2017 10:39:00 stop = 30/10/2017 11:29:00 title = UN BAGLIORE NELLA NOTTE - COLD CASE-DELITTI IRRISOLTI II
-[  Info  ]       Replaces ----- start = 30/10/2017 11:29:00 stop = 30/10/2017 12:19:00 title = LA MIA MIGLIORE AMICA - COLD CASE-DELITTI IRRISOLTI II
-[  Debug ]    suspicious      title in index page  = THE MENTALIST II
-[  Debug ]       differs from title in showdetails = PATTO ROSSO SANGUE - THE M.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 30/10/2017 11:47:00 stop = 30/10/2017 12:37:00 title = PATTO ROSSO SANGUE - THE MENTALIST II
-[  Info  ]       Replaces ----- start = 30/10/2017 11:29:00 stop = 30/10/2017 12:19:00 title = LA MIA MIGLIORE AMICA - COLD CASE-DELITTI IRRISOLTI II
+[  Info  ]       Added before - start = 30/10/2017 06:30:00 stop = 30/10/2017 07:18:00 title = ROSSO D'AMORE - THE MENTALIST II
 [  Debug ]    suspicious      title in index page  = THE MENTALIST II
 [  Debug ]       differs from title in showdetails = UNA GARA ROSSO PICCANTE - .....
 [  Info  ]    epg correction : 
@@ -2260,61 +3279,24 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/10/2017 15:25:00 stop = 30/10/2017 16:14:00 title = VENDETTA PERSONALE - LAW & ORDER: UNITA' SPECIALE IV
 [  Info  ]       Replaces ----- start = 30/10/2017 15:25:00 stop = 30/10/2017 16:14:00 title = VENDETTA PERSONALE - LAW & ORDER: UNITA' SPECIALE IV
-[  Info  ]       Replaces ----- start = 30/10/2017 16:01:00 stop = 30/10/2017 16:53:00 title = EMOZIONI AMPLIFICATE - LAW & ORDER: UNITA' SPECIALE XVIII
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 30/10/2017 16:14:00 stop = 30/10/2017 17:03:00 title = PIETA' - LAW & ORDER: UNITA' SPECIALE IV
-[  Info  ]       Replaces ----- start = 30/10/2017 16:01:00 stop = 30/10/2017 16:53:00 title = EMOZIONI AMPLIFICATE - LAW & ORDER: UNITA' SPECIALE XVIII
-[  Info  ]       Replaces ----- start = 30/10/2017 16:53:00 stop = 30/10/2017 17:44:00 title = CORSA SENZA FINE - COLD CASE-DELITTI IRRISOLTI I
-[  Debug ]    suspicious      title in index page  = COLD CASE - DELITTI IRRISOLTI III
-[  Debug ]       differs from title in showdetails = UN PADRE PER CLAIRE - COLD CASE-DELITTI IRR.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 30/10/2017 17:03:00 stop = 30/10/2017 17:54:00 title = UN PADRE PER CLAIRE - COLD CASE-DELITTI IRRISOLTI III
-[  Info  ]       Replaces ----- start = 30/10/2017 16:53:00 stop = 30/10/2017 17:44:00 title = CORSA SENZA FINE - COLD CASE-DELITTI IRRISOLTI I
-[  Info  ]       Replaces ----- start = 30/10/2017 17:44:00 stop = 30/10/2017 18:39:00 title = FOLLIA DI UN AMORE - COLD CASE-DELITTI IRRISOLTI I
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 30/10/2017 17:54:00 stop = 30/10/2017 18:44:00 title = LA PROMESSA - COLD CASE-DELITTI IRRISOLTI III
-[  Info  ]       Replaces ----- start = 30/10/2017 17:44:00 stop = 30/10/2017 18:39:00 title = FOLLIA DI UN AMORE - COLD CASE-DELITTI IRRISOLTI I
 [  Debug ]    suspicious      title in index page  = RIZZOLI & ISLES V
 [  Debug ]       differs from title in showdetails = IL CADAVERE NEL GHIACCIO - .....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/10/2017 18:44:00 stop = 30/10/2017 19:33:00 title = IL CADAVERE NEL GHIACCIO - RIZZOLI & ISLES V
 [  Info  ]       Replaces ----- start = 30/10/2017 18:44:00 stop = 30/10/2017 19:33:00 title = IL CADAVERE NEL GHIACCIO - RIZZOLI & ISLES V
-[  Info  ]       Replaces ----- start = 30/10/2017 19:28:00 stop = 30/10/2017 20:21:00 title = LA SPIA - TAKEN I
-[  Debug ]    suspicious      title in index page  = RIZZOLI & ISLES V
-[  Debug ]       differs from title in showdetails = L' ONERE DELLA PROVA - RIZZ.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 30/10/2017 19:33:00 stop = 30/10/2017 20:21:00 title = L' ONERE DELLA PROVA - RIZZOLI & ISLES V
-[  Info  ]       Replaces ----- start = 30/10/2017 19:28:00 stop = 30/10/2017 20:21:00 title = LA SPIA - TAKEN I
 [  Debug ]    suspicious      title in index page  = THE CLOSER III
 [  Debug ]       differs from title in showdetails = FRATELLI DI SANGUE - II .....
 [  Info  ]    epg correction : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 30/10/2017 20:21:00 stop = 30/10/2017 21:14:00 title = FRATELLI DI SANGUE - II PARTE - THE CLOSER III
-[  Info  ]       Added before - start = 30/10/2017 22:06:00 stop = 30/10/2017 22:57:00 title = FUOCO AMICO - CHICAGO JUSTICE
+[  Info  ]       Added before - start = 30/10/2017 21:14:00 stop = 30/10/2017 22:04:00 title = CACCIA AL FANTASMA - SHADES OF BLUE II - PRIMA TV
 [  Debug ]    suspicious      title in index page  = SHADES OF BLUE II
 [  Debug ]       differs from title in showdetails = CACCIA AL FANTASMA - SHADES.....
 [  Info  ]    epg correction : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/10/2017 21:14:00 stop = 30/10/2017 22:04:00 title = CACCIA AL FANTASMA - SHADES OF BLUE II - PRIMA TV
-[  Info  ]       Added before - start = 30/10/2017 22:06:00 stop = 30/10/2017 22:57:00 title = FUOCO AMICO - CHICAGO JUSTICE
-[  Debug ]    suspicious      title in index page  = THE MENTALIST III
-[  Debug ]       differs from title in showdetails = TAPPETO ROSSO - THE MENTALI.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 30/10/2017 22:04:00 stop = 30/10/2017 22:55:00 title = TAPPETO ROSSO - THE MENTALIST III
-[  Info  ]       Replaces ----- start = 30/10/2017 22:06:00 stop = 30/10/2017 22:57:00 title = FUOCO AMICO - CHICAGO JUSTICE
-[  Debug ]    suspicious      title in index page  = TRAINING DAY I
-[  Debug ]       differs from title in showdetails = QUI PRO QUO - TRAINING D.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 30/10/2017 22:55:00 stop = 30/10/2017 23:50:00 title = QUI PRO QUO - TRAINING DAY I
-[  Info  ]       Replaces ----- start = 30/10/2017 22:06:00 stop = 30/10/2017 22:57:00 title = FUOCO AMICO - CHICAGO JUSTICE
-[  Info  ]       Replaces ----- start = 30/10/2017 22:57:00 stop = 30/10/2017 23:47:00 title = L' OCCHIO DEL CICLONE - SHADES OF BLUE II
+[  Info  ]       Replaces ----- start = 30/10/2017 21:14:00 stop = 30/10/2017 22:04:00 title = CACCIA AL FANTASMA - SHADES OF BLUE II - PRIMA TV
 [  Debug ]    suspicious      title in index page  = TAKEN I
 [  Debug ]       differs from title in showdetails = UN OROLOGIO SVIZZ.....
 [  Info  ]    epg correction : 
@@ -2605,7 +3587,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 04/11/2017 23:00:00 stop = 04/11/2017 23:53:00 title = STUPRO INTERROTTO - LAW & ORDER: UNITA' SPECIALE XVIII - PRIMA TV
 [  Info  ]       Replaces ----- start = 04/11/2017 23:00:00 stop = 04/11/2017 23:53:00 title = STUPRO INTERROTTO - LAW & ORDER: UNITA' SPECIALE XVIII - PRIMA TV
-[  Info  ] 0.21 sec/update
+[  Info  ] 0.20 sec/update
 [  Debug ] 
 [  Info  ] ( 152/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Joy) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = BELLI DENTRO II
@@ -2613,20 +3595,28 @@
 [  Info  ]    epg correction : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 30/10/2017 05:20:00 stop = 30/10/2017 05:43:00 title = ALTA TENSIONE - BELLI DENTRO II
-[  Info  ]       Added before - start = 30/10/2017 06:12:00 stop = 30/10/2017 06:36:00 title = PARASILVANO - IL MAMMO II
+[  Info  ]       Added before - start = 30/10/2017 06:10:00 stop = 30/10/2017 06:30:00 title = BUON COMPLEANNO , NATE! - SIGNIFICANT MOTHER
 [  Debug ]    suspicious      title in index page  = BELLI DENTRO II
 [  Debug ]       differs from title in showdetails = MISSING CICCIO - BELLI DE.....
 [  Info  ]    epg correction : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/10/2017 05:43:00 stop = 30/10/2017 06:12:00 title = MISSING CICCIO - BELLI DENTRO II
-[  Info  ]       Added before - start = 30/10/2017 06:12:00 stop = 30/10/2017 06:36:00 title = PARASILVANO - IL MAMMO II
+[  Info  ]       Replaces ----- start = 30/10/2017 06:10:00 stop = 30/10/2017 06:30:00 title = BUON COMPLEANNO , NATE! - SIGNIFICANT MOTHER
+[  Debug ]    suspicious      title in index page  = IL MAMMO II
+[  Debug ]       differs from title in showdetails = PARASILVANO - IL MAMM.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 06:12:00 stop = 30/10/2017 06:36:00 title = PARASILVANO - IL MAMMO II
+[  Info  ]       Replaces ----- start = 30/10/2017 06:10:00 stop = 30/10/2017 06:30:00 title = BUON COMPLEANNO , NATE! - SIGNIFICANT MOTHER
+[  Info  ]       Replaces ----- start = 30/10/2017 06:30:00 stop = 30/10/2017 06:54:00 title = DOPPIO MISTO - SIGNIFICANT MOTHER
 [  Debug ]    suspicious      title in index page  = IL MAMMO II
 [  Debug ]       differs from title in showdetails = NON E' TUTTO ORO ... .....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/10/2017 06:36:00 stop = 30/10/2017 07:09:00 title = NON E' TUTTO ORO ... - IL MAMMO II
-[  Info  ]       Replaces ----- start = 30/10/2017 06:36:00 stop = 30/10/2017 07:09:00 title = NON E' TUTTO ORO ... - IL MAMMO II
-[  Debug ]    skipped negative show time! at 29/10/2017 06:09:00
+[  Info  ]       Replaces ----- start = 30/10/2017 06:30:00 stop = 30/10/2017 06:54:00 title = DOPPIO MISTO - SIGNIFICANT MOTHER
+[  Info  ]       Replaces ----- start = 30/10/2017 06:54:00 stop = 30/10/2017 07:41:00 title = ASTA CON INCANTO - UNA MAMMA PER AMICA III
+[  Debug ]    skipped negative show time! at 29/10/2017 07:09:00
 [  Debug ]    suspicious      title in index page  = I LICEALI
 [  Debug ]       differs from title in showdetails = BENVENUTI NELLA CAP.....
 [  Info  ]    epg correction : 
@@ -2758,7 +3748,7 @@
 [  Info  ]       show with ---- start = 29/10/2017 23:24:00 stop = 29/10/2017 23:46:00 title = LA SCAPPATELLA - MIKE & MOLLY V
 [  Info  ]       Replaces ----- start = 29/10/2017 23:08:00 stop = 29/10/2017 23:27:00 title = L' ULTIMA TENTAZIONE DI MIKE - MIKE & MOLLY V
 [  Info  ]       Replaces ----- start = 29/10/2017 23:27:00 stop = 29/10/2017 23:46:00 title = DIFFICOLTA' ECONOMICHE - MIKE & MOLLY V
-[  Debug ]    skipped negative show time! at 29/10/2017 22:46:00
+[  Debug ]    skipped negative show time! at 29/10/2017 23:46:00
 [  Debug ]    suspicious      title in index page  = MIKE & MOLLY V
 [  Debug ]       differs from title in showdetails = L' ULTIMA TENTAZIONE DI .....
 [  Info  ]    epg correction : 
@@ -2812,26 +3802,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 30/10/2017 04:58:00 stop = 30/10/2017 06:10:00 title = SOGNI D'ORO - BELLI DENTRO II
-[  Info  ]       Added before - start = 30/10/2017 06:12:00 stop = 30/10/2017 06:36:00 title = PARASILVANO - IL MAMMO II
-[  Debug ]    suspicious      title in index page  = SIGNIFICANT MOTHER
-[  Debug ]       differs from title in showdetails = BUON COMPLEANNO , NATE! - SI.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 30/10/2017 06:10:00 stop = 30/10/2017 06:30:00 title = BUON COMPLEANNO , NATE! - SIGNIFICANT MOTHER
-[  Info  ]       Replaces ----- start = 30/10/2017 06:12:00 stop = 30/10/2017 06:36:00 title = PARASILVANO - IL MAMMO II
-[  Debug ]    suspicious      title in index page  = SIGNIFICANT MOTHER
-[  Debug ]       differs from title in showdetails = DOPPIO MISTO - SIGNIFICANT M.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 30/10/2017 06:30:00 stop = 30/10/2017 06:54:00 title = DOPPIO MISTO - SIGNIFICANT MOTHER
-[  Info  ]       Replaces ----- start = 30/10/2017 06:12:00 stop = 30/10/2017 06:36:00 title = PARASILVANO - IL MAMMO II
-[  Info  ]       Replaces ----- start = 30/10/2017 06:36:00 stop = 30/10/2017 07:09:00 title = NON E' TUTTO ORO ... - IL MAMMO II
-[  Debug ]    suspicious      title in index page  = UNA MAMMA PER AMICA III
-[  Debug ]       differs from title in showdetails = ASTA CON INCANTO - UNA MAMMA PER .....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 30/10/2017 06:54:00 stop = 30/10/2017 07:41:00 title = ASTA CON INCANTO - UNA MAMMA PER AMICA III
-[  Info  ]       Replaces ----- start = 30/10/2017 06:36:00 stop = 30/10/2017 07:09:00 title = NON E' TUTTO ORO ... - IL MAMMO II
+[  Info  ]       Added before - start = 30/10/2017 06:10:00 stop = 30/10/2017 06:30:00 title = BUON COMPLEANNO , NATE! - SIGNIFICANT MOTHER
 [  Debug ]    suspicious      title in index page  = 2 BROKE GIRLS V
 [  Debug ]       differs from title in showdetails = E LA PALLA DA DEMOLIZIONE.....
 [  Info  ]    epg correction : 
@@ -3998,7 +4969,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 04/11/2017 23:47:00 stop = 05/11/2017 00:10:00 title = LA GUERRA DELLE TORTE - MIKE & MOLLY V
 [  Info  ]       Replaces ----- start = 04/11/2017 23:47:00 stop = 05/11/2017 00:10:00 title = LA GUERRA DELLE TORTE - MIKE & MOLLY V
-[  Info  ] 0.18 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 153/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Stories) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = SUITS VI
@@ -4006,14 +4977,14 @@
 [  Info  ]    epg correction : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 30/10/2017 05:34:00 stop = 30/10/2017 06:15:00 title = TEMPO IN PRESTITO - SUITS VI
-[  Info  ]       Added before - start = 30/10/2017 07:10:00 stop = 30/10/2017 07:50:00 title = MISSIONE IN COLOMBIA - COVERT AFFAIRS IV
+[  Info  ]       Added before - start = 30/10/2017 06:30:00 stop = 30/10/2017 07:10:00 title = IL SEGRETO - COVERT AFFAIRS IV
 [  Debug ]    suspicious      title in index page  = FAMOUS IN LOVE I
 [  Debug ]       differs from title in showdetails = SEGRETI E TORTE - FAMOUS I.....
 [  Info  ]    epg correction : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/10/2017 06:15:00 stop = 30/10/2017 06:52:00 title = SEGRETI E TORTE - FAMOUS IN LOVE
-[  Info  ]       Added before - start = 30/10/2017 07:10:00 stop = 30/10/2017 07:50:00 title = MISSIONE IN COLOMBIA - COVERT AFFAIRS IV
-[  Debug ]    skipped negative show time! at 29/10/2017 05:52:00
+[  Info  ]       Replaces ----- start = 30/10/2017 06:30:00 stop = 30/10/2017 07:10:00 title = IL SEGRETO - COVERT AFFAIRS IV
+[  Debug ]    skipped negative show time! at 29/10/2017 06:52:00
 [  Debug ]    suspicious      title in index page  = SUITS VI
 [  Debug ]       differs from title in showdetails = LA MANO CHE TI NUT.....
 [  Info  ]    epg correction : 
@@ -4074,13 +5045,11 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 29/10/2017 19:33:00 stop = 29/10/2017 20:23:00 title = FOLLE AMORE DA COPIONE - FAMOUS IN LOVE
 [  Info  ]       Replaces ----- start = 29/10/2017 19:33:00 stop = 29/10/2017 20:23:00 title = FOLLE AMORE DA COPIONE - FAMOUS IN LOVE
-[  Debug ]    skipped negative show time! at 29/10/2017 22:48:00
-[  Debug ]    suspicious      title in index page  = SATISFACTION (NEW) II
-[  Debug ]       differs from title in showdetails = VERSO LA TRATTATIVA - SATISFACT.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 29/10/2017 23:39:00 stop = 30/10/2017 00:30:00 title = VERSO LA TRATTATIVA - SATISFACTION (NEW) II
-[  Info  ]       Replaces ----- start = 29/10/2017 22:57:00 stop = 29/10/2017 23:48:00 title = SAN VALENTINO - THE MYSTERIES OF LAURA II
+[  Info  ]       show with ---- start = 29/10/2017 22:57:00 stop = 29/10/2017 23:48:00 title = SAN VALENTINO - THE MYSTERIES OF LAURA II
+[  Info  ]       Replaces ----- start = 29/10/2017 23:39:00 stop = 30/10/2017 00:30:00 title = VERSO LA TRATTATIVA - SATISFACTION (NEW) II
+[  Debug ]    skipped negative show time! at 29/10/2017 23:48:00
 [  Debug ]    suspicious      title in index page  = SUITS VI
 [  Debug ]       differs from title in showdetails = LA MANO CHE TI NUT.....
 [  Info  ]    epg correction : 
@@ -4110,13 +5079,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 30/10/2017 04:26:00 stop = 30/10/2017 06:30:00 title = DENTI, NASO, DENTI - SUITS VI
-[  Info  ]       Added before - start = 30/10/2017 07:10:00 stop = 30/10/2017 07:50:00 title = MISSIONE IN COLOMBIA - COVERT AFFAIRS IV
-[  Debug ]    suspicious      title in index page  = COVERT AFFAIRS IV
-[  Debug ]       differs from title in showdetails = IL SEGRETO - COVERT AFFAIRS.....
-[  Info  ]    epg correction : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 30/10/2017 06:30:00 stop = 30/10/2017 07:10:00 title = IL SEGRETO - COVERT AFFAIRS IV
-[  Info  ]       Added before - start = 30/10/2017 07:10:00 stop = 30/10/2017 07:50:00 title = MISSIONE IN COLOMBIA - COVERT AFFAIRS IV
+[  Info  ]       Added before - start = 30/10/2017 06:30:00 stop = 30/10/2017 07:10:00 title = IL SEGRETO - COVERT AFFAIRS IV
 [  Debug ]    suspicious      title in index page  = IMPOSTERS
 [  Debug ]       differs from title in showdetails = IL CODICE MADDIE - .....
 [  Info  ]    epg correction : 
@@ -4333,7 +5296,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 04/11/2017 22:03:00 stop = 04/11/2017 22:53:00 title = ADDIO LOS ANGELES - FAMOUS IN LOVE - PRIMA TV
 [  Info  ]       Replaces ----- start = 04/11/2017 22:03:00 stop = 04/11/2017 22:53:00 title = ADDIO LOS ANGELES - FAMOUS IN LOVE - PRIMA TV
-[  Info  ] 0.17 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 154/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Sport superHD) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = PREMIUM SPORT NEWS
@@ -4341,20 +5304,27 @@
 [  Info  ]    epg correction : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 30/10/2017 05:03:00 stop = 30/10/2017 05:30:00 title = 28/10 H. 24.00 - PREMIUM SPORT NEWS
-[  Info  ]       Added before - start = 30/10/2017 06:24:00 stop = 30/10/2017 06:51:00 title = 28/10 H. 24.00 - PREMIUM SPORT NEWS
+[  Info  ]       Added before - start = 30/10/2017 06:00:00 stop = 30/10/2017 06:30:00 title = 29/10 H. 24.30 - PREMIUM SPORT NEWS
 [  Debug ]    suspicious      title in index page  = PREMIUM SPORT NEWS
 [  Debug ]       differs from title in showdetails = 28/10 H. 24.00 - PREMIUM SPO.....
 [  Info  ]    epg correction : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 30/10/2017 05:30:00 stop = 30/10/2017 05:57:00 title = 28/10 H. 24.00 - PREMIUM SPORT NEWS
-[  Info  ]       Added before - start = 30/10/2017 06:24:00 stop = 30/10/2017 06:51:00 title = 28/10 H. 24.00 - PREMIUM SPORT NEWS
+[  Info  ]       Added before - start = 30/10/2017 06:00:00 stop = 30/10/2017 06:30:00 title = 29/10 H. 24.30 - PREMIUM SPORT NEWS
 [  Debug ]    suspicious      title in index page  = PREMIUM SPORT NEWS
 [  Debug ]       differs from title in showdetails = 28/10 H. 24.00 - PREMIUM SPO.....
 [  Info  ]    epg correction : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/10/2017 05:57:00 stop = 30/10/2017 06:24:00 title = 28/10 H. 24.00 - PREMIUM SPORT NEWS
-[  Info  ]       Added before - start = 30/10/2017 06:24:00 stop = 30/10/2017 06:51:00 title = 28/10 H. 24.00 - PREMIUM SPORT NEWS
-[  Debug ]    skipped negative show time! at 29/10/2017 05:51:00
+[  Info  ]       Replaces ----- start = 30/10/2017 06:00:00 stop = 30/10/2017 06:30:00 title = 29/10 H. 24.30 - PREMIUM SPORT NEWS
+[  Debug ]    suspicious      title in index page  = PREMIUM SPORT NEWS
+[  Debug ]       differs from title in showdetails = 28/10 H. 24.00 - PREMIUM SPO.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/10/2017 06:24:00 stop = 30/10/2017 06:51:00 title = 28/10 H. 24.00 - PREMIUM SPORT NEWS
+[  Info  ]       Replaces ----- start = 30/10/2017 06:00:00 stop = 30/10/2017 06:30:00 title = 29/10 H. 24.30 - PREMIUM SPORT NEWS
+[  Info  ]       Replaces ----- start = 30/10/2017 06:30:00 stop = 30/10/2017 07:00:00 title = 29/10 H. 24.30 - PREMIUM SPORT NEWS
+[  Debug ]    skipped negative show time! at 29/10/2017 06:51:00
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 29/10/2017 08:00:00 stop = 29/10/2017 08:15:00 title = 29/10 H. 8.00 - PREMIUM SPORT EDICOLA
@@ -4398,19 +5368,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 30/10/2017 04:55:00 stop = 30/10/2017 06:00:00 title = 29/10 H. 24.30 - PREMIUM SPORT NEWS
-[  Info  ]       Added before - start = 30/10/2017 06:24:00 stop = 30/10/2017 06:51:00 title = 28/10 H. 24.00 - PREMIUM SPORT NEWS
-[  Debug ]    suspicious      title in index page  = PREMIUM SPORT NEWS
-[  Debug ]       differs from title in showdetails = 29/10 H. 24.30 - PREMIUM SPO.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 30/10/2017 06:00:00 stop = 30/10/2017 06:30:00 title = 29/10 H. 24.30 - PREMIUM SPORT NEWS
-[  Info  ]       Replaces ----- start = 30/10/2017 06:24:00 stop = 30/10/2017 06:51:00 title = 28/10 H. 24.00 - PREMIUM SPORT NEWS
-[  Debug ]    suspicious      title in index page  = PREMIUM SPORT NEWS
-[  Debug ]       differs from title in showdetails = 29/10 H. 24.30 - PREMIUM SPO.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 30/10/2017 06:30:00 stop = 30/10/2017 07:00:00 title = 29/10 H. 24.30 - PREMIUM SPORT NEWS
-[  Info  ]       Replaces ----- start = 30/10/2017 06:24:00 stop = 30/10/2017 06:51:00 title = 28/10 H. 24.00 - PREMIUM SPORT NEWS
+[  Info  ]       Added before - start = 30/10/2017 06:00:00 stop = 30/10/2017 06:30:00 title = 29/10 H. 24.30 - PREMIUM SPORT NEWS
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/10/2017 07:30:00 stop = 30/10/2017 07:45:00 title = 30/10 H. 7.30 - PREMIUM SPORT EDICOLA
@@ -4745,7 +5703,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 04/11/2017 19:30:00 stop = 04/11/2017 23:50:00 title = GENOA - SAMPDORIA - CAMPIONATO DI CALCIO SERIE A-'18 (GENOA)
 [  Info  ]       Replaces ----- start = 04/11/2017 19:30:00 stop = 04/11/2017 23:50:00 title = GENOA - SAMPDORIA - CAMPIONATO DI CALCIO SERIE A-'18 (GENOA)
-[  Info  ] 0.20 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 155/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Sport 2 HD) -- mode Incremental
 [Error   ] Unable to update channel Premium Sport 2 HD
@@ -4763,10 +5721,10 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Debug ] 34472 shows in 165 channels
-[  Debug ] 17483 updated shows
+[  Debug ] 34463 shows in 165 channels
+[  Debug ] 1173 updated shows
 [  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 29/10/2017 04:29:36 done in 1h 24m 33s
+[        ] Job finished at 29/10/2017 04:23:50 done in 18m 48s
 [  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
