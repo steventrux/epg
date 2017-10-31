@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 31/10/2017 08:05:02
+[        ] Job started at 31/10/2017 10:05:02
 [  Debug ] 
 [  Debug ] Running  on: Unix 3.13.0.132
 [  Debug ] Environment: 4.0.30319.42000
@@ -30,7 +30,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+01:00	(no DST in effect)
 [  Debug ] 	next DST dates  :	25/03/2018 02:00 (local)
 [  Debug ] 	                :	28/10/2018 03:00 (local)
-[  Debug ] 	local time now  :	31/10/2017 08:05:03
+[  Debug ] 	local time now  :	31/10/2017 10:05:02
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -458,7 +458,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  70/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Eurosport 2) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.20 sec/update
 [  Debug ] 
 [  Info  ] (  71/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport 24 HD) -- mode Incremental
 [  Info  ] 
@@ -500,7 +500,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  84/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Eurosport 2 Italia) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.19 sec/update
 [  Debug ] 
 [  Info  ] (  85/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 1 HD) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
@@ -605,6 +605,8 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 113/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=History Channel HD) -- mode Incremental
+[Warning ] error downloading page: Error getting response stream (ReadDone2): ReceiveFailure
+[Warning ] pausing 1 of 4 times for 5 seconds before re-try.
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 114/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Focus) -- mode Incremental
@@ -617,6 +619,8 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 117/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Caccia e Pesca) -- mode Incremental
+[Warning ] error downloading page: Error getting response stream (ReadDone2): ReceiveFailure
+[Warning ] pausing 1 of 4 times for 5 seconds before re-try.
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 118/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Pesca e Caccia) -- mode Incremental
@@ -654,7 +658,46 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 126/165 ) RAI.IT -- chan. (xmltv_id=Rai Gulp HD) -- mode Incremental
-[  Info  ] 
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/11/2017 23:05:00 stop = 01/11/2017 23:30:00 title = Wolfblood
+[  Info  ]       Replaces ----- start = 01/11/2017 22:45:00 stop = 01/11/2017 23:10:00 title = World Of Winx
+[  Info  ]       Replaces ----- start = 01/11/2017 23:10:00 stop = 01/11/2017 23:35:00 title = Wolfblood
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/11/2017 23:30:00 stop = 02/11/2017 00:00:00 title = Wolfblood
+[  Info  ]       Replaces ----- start = 01/11/2017 23:10:00 stop = 01/11/2017 23:35:00 title = Wolfblood
+[  Info  ]       Replaces ----- start = 01/11/2017 23:35:00 stop = 02/11/2017 00:00:00 title = Wolfblood
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2017 23:35:00 stop = 03/11/2017 00:25:00 title = Wolfblood
+[  Info  ]       Replaces ----- start = 02/11/2017 23:35:00 stop = 03/11/2017 00:00:00 title = Wolfblood
+[  Info  ]       Replaces ----- start = 03/11/2017 00:00:00 stop = 03/11/2017 00:25:00 title = Galis Summer Camp
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2017 01:45:00 stop = 03/11/2017 02:05:00 title = Monster Allergy
+[  Info  ]       Replaces ----- start = 03/11/2017 01:45:00 stop = 03/11/2017 02:10:00 title = Monster Allergy
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2017 02:05:00 stop = 03/11/2017 02:30:00 title = Code Lyoko
+[  Info  ]       Replaces ----- start = 03/11/2017 01:45:00 stop = 03/11/2017 02:10:00 title = Monster Allergy
+[  Info  ]       Replaces ----- start = 03/11/2017 02:10:00 stop = 03/11/2017 02:35:00 title = Code Lyoko
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2017 02:55:00 stop = 03/11/2017 03:20:00 title = Farhat
+[  Info  ]       Replaces ----- start = 03/11/2017 02:35:00 stop = 03/11/2017 03:00:00 title = Barbarossa
+[  Info  ]       Replaces ----- start = 03/11/2017 03:00:00 stop = 03/11/2017 03:25:00 title = Farhat
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2017 03:20:00 stop = 03/11/2017 03:45:00 title = L'ultimo Dei Mohicani
+[  Info  ]       Replaces ----- start = 03/11/2017 03:00:00 stop = 03/11/2017 03:25:00 title = Farhat
+[  Info  ]       Replaces ----- start = 03/11/2017 03:25:00 stop = 03/11/2017 03:50:00 title = L'ultimo Dei Mohicani
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2017 03:45:00 stop = 03/11/2017 04:00:00 title = Gino Il Pollo
+[  Info  ]       Replaces ----- start = 03/11/2017 03:25:00 stop = 03/11/2017 03:50:00 title = L'ultimo Dei Mohicani
+[  Info  ]       Replaces ----- start = 03/11/2017 03:50:00 stop = 03/11/2017 04:00:00 title = Gino Il Pollo
+[  Info  ] 0.17 sec/update
 [  Debug ] 
 [  Info  ] ( 127/165 ) RAI.IT -- chan. (xmltv_id=Rai YoYo HD) -- mode Incremental
 [  Info  ] 
@@ -739,7 +782,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 04/11/2017 06:30:00 stop = 04/11/2017 06:43:00 title = TUTTA COLPA DI FREUD - ZOOM
 [  Info  ]       Replaces ----- start = 04/11/2017 06:30:00 stop = 04/11/2017 06:43:00 title = TUTTA COLPA DI FREUD - ZOOM
-[  Info  ] 0.16 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 149/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema 2 +24) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = 7 VOLTE 7
@@ -760,7 +803,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 05/11/2017 06:32:00 stop = 05/11/2017 06:43:00 title = TUTTA COLPA DI FREUD - ZOOM
 [  Info  ]       Replaces ----- start = 05/11/2017 06:32:00 stop = 05/11/2017 06:43:00 title = TUTTA COLPA DI FREUD - ZOOM
-[  Info  ] 0.29 sec/update
+[  Info  ] 0.12 sec/update
 [  Debug ] 
 [  Info  ] ( 150/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Energy) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = CAVALLI SELVAGGI (DI R. DUVALL)
@@ -791,7 +834,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 06/11/2017 02:10:00 stop = 06/11/2017 04:31:00 title = Wolfhound - Un Eroe In Lotta Per La Libertà
 [  Info  ]       Replaces ----- start = 06/11/2017 02:10:00 stop = 06/11/2017 04:31:00 title = Wolfhound - Un Eroe In Lotta Per La Libertà
-[  Info  ] 0.21 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 151/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Emotion) -- mode Incremental
 [  Info  ]    forced update : 
@@ -830,7 +873,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 06/11/2017 06:30:00 stop = 06/11/2017 06:46:00 title = PROVA A INCASTRARMI - FULL EMOTION (KO)
 [  Info  ]       Replaces ----- start = 06/11/2017 06:30:00 stop = 06/11/2017 06:46:00 title = PROVA A INCASTRARMI - FULL EMOTION (KO)
-[  Info  ] 0.16 sec/update
+[  Info  ] 0.13 sec/update
 [  Debug ] 
 [  Info  ] ( 152/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Comedy) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = A CENA CON...
@@ -869,7 +912,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 06/11/2017 07:12:00 stop = 06/11/2017 07:33:00 title = SPECIALE COPPIE COMICHE - COMEDY EXTRA
 [  Info  ]       Replaces ----- start = 06/11/2017 07:12:00 stop = 06/11/2017 07:33:00 title = SPECIALE COPPIE COMICHE - COMEDY EXTRA
-[  Info  ] 0.19 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 153/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Investigation Discovery) -- mode Incremental
 [  Info  ] 
@@ -997,7 +1040,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 06/11/2017 16:20:00 stop = 06/11/2017 16:55:00 title = GUN TO YOU HEAD  - PROJECT GREENLIGHT 4
 [  Info  ]       Replaces ----- start = 06/11/2017 16:20:00 stop = 06/11/2017 16:55:00 title = GUN TO YOU HEAD  - PROJECT GREENLIGHT 4
-[  Info  ] 0.16 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 155/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Paramount Channel) -- mode Incremental
 [  Info  ]    epg correction : 
@@ -1122,7 +1165,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 06/11/2017 16:20:00 stop = 06/11/2017 16:55:00 title = GUN TO YOU HEAD  - PROJECT GREENLIGHT 4
 [  Info  ]       Replaces ----- start = 06/11/2017 16:20:00 stop = 06/11/2017 16:55:00 title = GUN TO YOU HEAD  - PROJECT GREENLIGHT 4
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 156/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action HD) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = REVOLUTION
@@ -1671,7 +1714,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 06/11/2017 22:14:00 stop = 06/11/2017 23:06:00 title = LA MINACCIA - THE ORIGINALS IV - PRIMA TV
 [  Info  ]       Replaces ----- start = 06/11/2017 22:14:00 stop = 06/11/2017 23:06:00 title = LA MINACCIA - THE ORIGINALS IV - PRIMA TV
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.13 sec/update
 [  Debug ] 
 [  Info  ] ( 157/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action +24) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = THE 100 IV
@@ -2160,7 +2203,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 06/11/2017 22:10:00 stop = 06/11/2017 23:02:00 title = THE LAST SHIP IV , 7 - THE LAST SHIP IV - PRIMA TV
 [  Info  ]       Replaces ----- start = 06/11/2017 22:10:00 stop = 06/11/2017 23:02:00 title = THE LAST SHIP IV , 7 - THE LAST SHIP IV - PRIMA TV
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 158/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Crime) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = THE MENTALIST II
@@ -3119,7 +3162,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 02/11/2017 22:42:00 stop = 02/11/2017 23:17:00 title = IL VAN DELL'ANNO! - POWERLESS
-[  Info  ]       Replaces ----- start = 02/11/2017 22:42:00 stop = 02/11/2017 23:17:00 title = IL VAN DELL'ANNO! - POWERLESS - PRIMA TV
+[  Info  ]       Replaces ----- start = 02/11/2017 22:42:00 stop = 02/11/2017 23:17:00 title = IL VAN DELL'ANNO! - POWERLESS
 [  Debug ]    suspicious      title in index page  = BIG BANG THEORY IV
 [  Debug ]       differs from title in showdetails = L' UTILIZZO DEI PANTALONI DA.....
 [  Info  ]    epg correction : 
@@ -3161,7 +3204,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 03/11/2017 04:05:00 stop = 03/11/2017 04:33:00 title = IL VAN DELL'ANNO! - POWERLESS
-[  Info  ]       Replaces ----- start = 03/11/2017 04:05:00 stop = 03/11/2017 04:33:00 title = IL VAN DELL'ANNO! - POWERLESS - PRIMA TV
+[  Info  ]       Replaces ----- start = 03/11/2017 04:05:00 stop = 03/11/2017 04:33:00 title = IL VAN DELL'ANNO! - POWERLESS
 [  Debug ]    suspicious      title in index page  = BELLI DENTRO II
 [  Debug ]       differs from title in showdetails = L' ORGOGLIO DI MARIANO - .....
 [  Info  ]    epg correction : 
@@ -3483,7 +3526,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 04/11/2017 18:09:00 stop = 04/11/2017 18:39:00 title = IL VAN DELL'ANNO! - POWERLESS
-[  Info  ]       Replaces ----- start = 04/11/2017 18:09:00 stop = 04/11/2017 18:39:00 title = IL VAN DELL'ANNO! - POWERLESS - PRIMA TV
+[  Info  ]       Replaces ----- start = 04/11/2017 18:09:00 stop = 04/11/2017 18:39:00 title = IL VAN DELL'ANNO! - POWERLESS
 [  Debug ]    suspicious      title in index page  = BABY DADDY VI
 [  Debug ]       differs from title in showdetails = ALLA RICERCA DI ELLE - .....
 [  Info  ]    epg correction : 
@@ -3934,7 +3977,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 06/11/2017 23:39:00 stop = 07/11/2017 00:04:00 title = LA DERIVAZIONE DEL BRINDISI - BIG BANG THEORY IV
 [  Info  ]       Replaces ----- start = 06/11/2017 23:39:00 stop = 07/11/2017 00:04:00 title = LA DERIVAZIONE DEL BRINDISI - BIG BANG THEORY IV
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 160/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Stories) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = IMPOSTERS
@@ -4261,7 +4304,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 06/11/2017 23:50:00 stop = 07/11/2017 00:39:00 title = PROBLEMI DI COSCIENZA - CHICAGO MED II
 [  Info  ]       Replaces ----- start = 06/11/2017 23:50:00 stop = 07/11/2017 00:39:00 title = PROBLEMI DI COSCIENZA - CHICAGO MED II
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 161/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Sport superHD) -- mode Incremental
 [  Info  ]    epg correction : 
@@ -4422,10 +4465,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 02/11/2017 19:30:00 stop = 02/11/2017 21:00:00 title = YOUPREMIUM - 2/11 - YOUPREMIUM
 [  Info  ]       Replaces ----- start = 02/11/2017 19:30:00 stop = 02/11/2017 21:00:00 title = YOUPREMIUM - 2/11 - YOUPREMIUM
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 02/11/2017 21:00:00 stop = 02/11/2017 21:30:00 title = HIGUAIN 100 - SPECIALI PREMIUM SPORT 2017
-[  Info  ]       Replaces ----- start = 02/11/2017 21:00:00 stop = 02/11/2017 21:30:00 title = SPECIALI PREMIUM SPORT HIGUAIN 100 (?)
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 03/11/2017 07:30:00 stop = 03/11/2017 07:45:00 title = 3/11 H. 7.30 - PREMIUM SPORT EDICOLA
@@ -4474,10 +4513,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 03/11/2017 13:00:00 stop = 03/11/2017 13:15:00 title = 3/11 H. 7.30 - PREMIUM SPORT EDICOLA
 [  Info  ]       Replaces ----- start = 03/11/2017 13:00:00 stop = 03/11/2017 13:15:00 title = 3/11 H. 7.30 - PREMIUM SPORT EDICOLA
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 03/11/2017 15:00:00 stop = 03/11/2017 15:30:00 title = HIGUAIN 100 - SPECIALI PREMIUM SPORT 2017
-[  Info  ]       Replaces ----- start = 03/11/2017 15:00:00 stop = 03/11/2017 15:30:00 title = SPECIALI PREMIUM SPORT HIGUAIN 100 (?)
 [  Debug ]    suspicious      title in index page  = FOOTBRAZIL
 [  Debug ]       differs from title in showdetails = EPISODIO 38 - 2/11 -.....
 [  Info  ]    epg correction : 
@@ -4652,7 +4687,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 06/11/2017 22:50:00 stop = 06/11/2017 23:00:00 title = BECKHAM  (5'29) - SERIE A EMOTION - 18 - PILLOLE
 [  Info  ]       Replaces ----- start = 06/11/2017 22:50:00 stop = 06/11/2017 23:00:00 title = BECKHAM  (5'29) - SERIE A EMOTION - 18 - PILLOLE
-[  Info  ] 0.17 sec/update
+[  Info  ] 0.18 sec/update
 [  Debug ] 
 [  Info  ] ( 162/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Sport 2 HD) -- mode Incremental
 [  Info  ]    epg correction : 
@@ -4719,10 +4754,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 02/11/2017 19:00:00 stop = 02/11/2017 19:30:00 title = NFL GAMEDAY - 31/10 - NFL GAMEDAY
 [  Info  ]       Replaces ----- start = 02/11/2017 19:00:00 stop = 02/11/2017 19:30:00 title = NFL GAMEDAY - 31/10 - NFL GAMEDAY
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 03/11/2017 00:26:00 stop = 03/11/2017 00:52:00 title = HIGUAIN 100 - SPECIALI PREMIUM SPORT 2017
-[  Info  ]       Replaces ----- start = 03/11/2017 00:26:00 stop = 03/11/2017 00:52:00 title = SPECIALI PREMIUM SPORT HIGUAIN 100 (?)
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 03/11/2017 00:52:00 stop = 03/11/2017 01:19:00 title = NFL GAMEDAY - 31/10 - NFL GAMEDAY
@@ -4733,18 +4764,10 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 03/11/2017 05:00:00 stop = 03/11/2017 05:30:00 title = DODICESIMA GIORNATA - DOMENICA 29/10 - HIGHLIGHTS SERIE B -'18
 [  Info  ]       Replaces ----- start = 03/11/2017 05:00:00 stop = 03/11/2017 05:30:00 title = DODICESIMA GIORNATA - DOMENICA 29/10 - HIGHLIGHTS SERIE B -'18
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 03/11/2017 12:45:00 stop = 03/11/2017 13:15:00 title = HIGUAIN 100 - SPECIALI PREMIUM SPORT 2017
-[  Info  ]       Replaces ----- start = 03/11/2017 12:45:00 stop = 03/11/2017 13:15:00 title = SPECIALI PREMIUM SPORT HIGUAIN 100 (?)
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 03/11/2017 15:30:00 stop = 03/11/2017 15:59:00 title = NFL GAMEDAY - 31/10 - NFL GAMEDAY
 [  Info  ]       Replaces ----- start = 03/11/2017 15:30:00 stop = 03/11/2017 15:59:00 title = NFL GAMEDAY - 31/10 - NFL GAMEDAY
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 03/11/2017 18:31:00 stop = 03/11/2017 19:00:00 title = HIGUAIN 100 - SPECIALI PREMIUM SPORT 2017
-[  Info  ]       Replaces ----- start = 03/11/2017 18:31:00 stop = 03/11/2017 19:00:00 title = SPECIALI PREMIUM SPORT HIGUAIN 100 (?)
 [  Debug ]    suspicious      title in index page  = HIGHLIGHTS SERIE B
 [  Debug ]       differs from title in showdetails = DODICESIMA GIORNATA - DOMENI.....
 [  Info  ]    epg correction : 
@@ -4783,10 +4806,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 05/11/2017 05:30:00 stop = 05/11/2017 06:00:00 title = TREDICESIMA GIORNATA 4/11 - HIGHLIGHTS SERIE B -'18
 [  Info  ]       Replaces ----- start = 05/11/2017 05:30:00 stop = 05/11/2017 06:00:00 title = TREDICESIMA GIORNATA 4/11 - HIGHLIGHTS SERIE B -'18
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 05/11/2017 06:00:00 stop = 05/11/2017 06:28:00 title = HIGUAIN 100 - SPECIALI PREMIUM SPORT 2017
-[  Info  ]       Replaces ----- start = 05/11/2017 06:00:00 stop = 05/11/2017 06:28:00 title = SPECIALI PREMIUM SPORT HIGUAIN 100 (?)
 [  Debug ]    suspicious      title in index page  = FOOTBRAZIL
 [  Debug ]       differs from title in showdetails = EPISODIO 38 - 2/11 -.....
 [  Info  ]    epg correction : 
@@ -4926,10 +4945,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 02/11/2017 19:00:00 stop = 02/11/2017 19:30:00 title = NFL GAMEDAY - 31/10 - NFL GAMEDAY
 [  Info  ]       Replaces ----- start = 02/11/2017 19:00:00 stop = 02/11/2017 19:30:00 title = NFL GAMEDAY - 31/10 - NFL GAMEDAY
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 03/11/2017 00:26:00 stop = 03/11/2017 00:52:00 title = HIGUAIN 100 - SPECIALI PREMIUM SPORT 2017
-[  Info  ]       Replaces ----- start = 03/11/2017 00:26:00 stop = 03/11/2017 00:52:00 title = SPECIALI PREMIUM SPORT HIGUAIN 100 (?)
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 03/11/2017 00:52:00 stop = 03/11/2017 01:19:00 title = NFL GAMEDAY - 31/10 - NFL GAMEDAY
@@ -4940,18 +4955,10 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 03/11/2017 05:00:00 stop = 03/11/2017 05:30:00 title = DODICESIMA GIORNATA - DOMENICA 29/10 - HIGHLIGHTS SERIE B -'18
 [  Info  ]       Replaces ----- start = 03/11/2017 05:00:00 stop = 03/11/2017 05:30:00 title = DODICESIMA GIORNATA - DOMENICA 29/10 - HIGHLIGHTS SERIE B -'18
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 03/11/2017 12:45:00 stop = 03/11/2017 13:15:00 title = HIGUAIN 100 - SPECIALI PREMIUM SPORT 2017
-[  Info  ]       Replaces ----- start = 03/11/2017 12:45:00 stop = 03/11/2017 13:15:00 title = SPECIALI PREMIUM SPORT HIGUAIN 100 (?)
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 03/11/2017 15:30:00 stop = 03/11/2017 15:59:00 title = NFL GAMEDAY - 31/10 - NFL GAMEDAY
 [  Info  ]       Replaces ----- start = 03/11/2017 15:30:00 stop = 03/11/2017 15:59:00 title = NFL GAMEDAY - 31/10 - NFL GAMEDAY
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 03/11/2017 18:31:00 stop = 03/11/2017 19:00:00 title = HIGUAIN 100 - SPECIALI PREMIUM SPORT 2017
-[  Info  ]       Replaces ----- start = 03/11/2017 18:31:00 stop = 03/11/2017 19:00:00 title = SPECIALI PREMIUM SPORT HIGUAIN 100 (?)
 [  Debug ]    suspicious      title in index page  = HIGHLIGHTS SERIE B
 [  Debug ]       differs from title in showdetails = DODICESIMA GIORNATA - DOMENI.....
 [  Info  ]    epg correction : 
@@ -4990,10 +4997,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 05/11/2017 05:30:00 stop = 05/11/2017 06:00:00 title = TREDICESIMA GIORNATA 4/11 - HIGHLIGHTS SERIE B -'18
 [  Info  ]       Replaces ----- start = 05/11/2017 05:30:00 stop = 05/11/2017 06:00:00 title = TREDICESIMA GIORNATA 4/11 - HIGHLIGHTS SERIE B -'18
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 05/11/2017 06:00:00 stop = 05/11/2017 06:28:00 title = HIGUAIN 100 - SPECIALI PREMIUM SPORT 2017
-[  Info  ]       Replaces ----- start = 05/11/2017 06:00:00 stop = 05/11/2017 06:28:00 title = SPECIALI PREMIUM SPORT HIGUAIN 100 (?)
 [  Debug ]    suspicious      title in index page  = FOOTBRAZIL
 [  Debug ]       differs from title in showdetails = EPISODIO 38 - 2/11 -.....
 [  Info  ]    epg correction : 
@@ -5066,12 +5069,12 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 06/11/2017 20:48:00 stop = 06/11/2017 21:00:00 title = GOL COLLECTION CRESPO (4'12) - SERIE A EMOTION - 18 - PILLOLE
 [  Info  ]       Replaces ----- start = 06/11/2017 20:48:00 stop = 06/11/2017 21:00:00 title = GOL COLLECTION CRESPO (4'12) - SERIE A EMOTION - 18 - PILLOLE
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
-[  Debug ] 34458 shows in 165 channels
-[  Debug ] 760 updated shows
-[  Debug ] 8 new shows added
+[  Debug ] 34468 shows in 165 channels
+[  Debug ] 811 updated shows
+[  Debug ] 5 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 31/10/2017 08:21:56 done in 16m 53s
+[        ] Job finished at 31/10/2017 10:22:17 done in 17m 14s
 [  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
