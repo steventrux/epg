@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 02/11/2017 10:05:02
+[        ] Job started at 02/11/2017 12:05:02
 [  Debug ] 
 [  Debug ] Running  on: Unix 3.13.0.132
 [  Debug ] Environment: 4.0.30319.42000
@@ -30,7 +30,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+01:00	(no DST in effect)
 [  Debug ] 	next DST dates  :	25/03/2018 02:00 (local)
 [  Debug ] 	                :	28/10/2018 03:00 (local)
-[  Debug ] 	local time now  :	02/11/2017 10:05:02
+[  Debug ] 	local time now  :	02/11/2017 12:05:03
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -220,7 +220,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   4/165 ) MEDIASET.IT -- chan. (xmltv_id=Rete 4 HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] (   5/165 ) MEDIASET.IT -- chan. (xmltv_id=Canale 5 HD) -- mode Incremental
 [  Info  ] 
@@ -229,13 +229,13 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   7/165 ) MEDIASET.IT -- chan. (xmltv_id=Italia 1 HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] (   8/165 ) MEDIASET.IT -- chan. (xmltv_id=Italia 2) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   9/165 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La1 HD) -- mode Incremental
-[  Info  ] 0.04 sec/update
+[  Info  ] 0.03 sec/update
 [  Debug ] 
 [  Info  ] (  10/165 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La2 HD) -- mode Incremental
 [  Info  ] 0.03 sec/update
@@ -471,6 +471,8 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  75/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport 2 HD) -- mode Incremental
+[Warning ] error downloading page: Error getting response stream (ReadDone2): ReceiveFailure
+[Warning ] pausing 1 of 4 times for 5 seconds before re-try.
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  76/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport 3 HD) -- mode Incremental
@@ -611,8 +613,6 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 116/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Real Time HD) -- mode Incremental
-[Warning ] error downloading page: Error getting response stream (ReadDone2): ReceiveFailure
-[Warning ] pausing 1 of 4 times for 5 seconds before re-try.
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 117/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Caccia e Pesca) -- mode Incremental
@@ -703,11 +703,9 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 142/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Frisbee) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.26 sec/update
 [  Debug ] 
 [  Info  ] ( 143/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Nick Junior) -- mode Incremental
-[Warning ] error downloading page: The request timed out (5sec)
-[Warning ] Retry 1 of 4 times
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 144/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=K2) -- mode Incremental
@@ -725,14 +723,14 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 08/11/2017 05:07:00 stop = 08/11/2017 06:30:00 title = Spy Kids 4: E' Tempo Di Eroi
 [  Info  ]       Replaces ----- start = 08/11/2017 05:07:00 stop = 08/11/2017 06:30:00 title = Spy Kids 4: E' Tempo Di Eroi
-[  Info  ] 0.67 sec/update
+[  Info  ] 0.61 sec/update
 [  Debug ] 
 [  Info  ] ( 147/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema +24) -- mode Incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 08/11/2017 08:18:00 stop = 08/11/2017 09:51:00 title = Spy Kids 4: E' Tempo Di Eroi
 [  Info  ]       Replaces ----- start = 08/11/2017 08:18:00 stop = 08/11/2017 09:51:00 title = Spy Kids 4: E' Tempo Di Eroi
-[  Info  ] 0.60 sec/update
+[  Info  ] 0.73 sec/update
 [  Debug ] 
 [  Info  ] ( 148/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema 2) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = 7 VOLTE 7
@@ -753,7 +751,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 04/11/2017 06:30:00 stop = 04/11/2017 06:43:00 title = TUTTA COLPA DI FREUD - ZOOM
 [  Info  ]       Replaces ----- start = 04/11/2017 06:30:00 stop = 04/11/2017 06:43:00 title = TUTTA COLPA DI FREUD - ZOOM
-[  Info  ] 0.17 sec/update
+[  Info  ] 0.20 sec/update
 [  Debug ] 
 [  Info  ] ( 149/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema 2 +24) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = 7 VOLTE 7
@@ -774,7 +772,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 05/11/2017 06:32:00 stop = 05/11/2017 06:43:00 title = TUTTA COLPA DI FREUD - ZOOM
 [  Info  ]       Replaces ----- start = 05/11/2017 06:32:00 stop = 05/11/2017 06:43:00 title = TUTTA COLPA DI FREUD - ZOOM
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 150/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Energy) -- mode Incremental
 [  Info  ]    epg correction : 
@@ -801,7 +799,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 08/11/2017 17:35:00 stop = 08/11/2017 19:23:00 title = La Cosa (di Matthijs van Heijningen Jr.)
 [  Info  ]       Replaces ----- start = 08/11/2017 17:35:00 stop = 08/11/2017 19:23:00 title = La Cosa (di Matthijs van Heijningen Jr.)
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 151/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Emotion) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = FULL EMOTION
@@ -875,7 +873,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 08/11/2017 19:31:00 stop = 08/11/2017 21:15:00 title = Ride Along - Poliziotto In Prova
 [  Info  ]       Replaces ----- start = 08/11/2017 19:31:00 stop = 08/11/2017 21:15:00 title = Ride Along - Poliziotto In Prova
-[  Info  ] 0.19 sec/update
+[  Info  ] 0.18 sec/update
 [  Debug ] 
 [  Info  ] ( 153/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Investigation Discovery) -- mode Incremental
 [  Info  ] 
@@ -1001,7 +999,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 08/11/2017 15:35:00 stop = 08/11/2017 17:15:00 title = Score - La Musica Nei Film
 [  Info  ]       Replaces ----- start = 08/11/2017 15:35:00 stop = 08/11/2017 17:15:00 title = Score - La Musica Nei Film
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.24 sec/update
 [  Debug ] 
 [  Info  ] ( 155/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Paramount Channel) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = SYDNEY
@@ -1124,7 +1122,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 08/11/2017 15:35:00 stop = 08/11/2017 17:15:00 title = Score - La Musica Nei Film
 [  Info  ]       Replaces ----- start = 08/11/2017 15:35:00 stop = 08/11/2017 17:15:00 title = Score - La Musica Nei Film
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 156/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action HD) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = UNDERCOVER I
@@ -1673,7 +1671,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 08/11/2017 23:58:00 stop = 09/11/2017 00:50:00 title = FUGGIASCO - GRIMM VI - PRIMA TV
 [  Info  ]       Replaces ----- start = 08/11/2017 23:58:00 stop = 09/11/2017 00:50:00 title = FUGGIASCO - GRIMM VI - PRIMA TV
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 157/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action +24) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = REVOLUTION
@@ -2216,7 +2214,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 08/11/2017 23:58:00 stop = 09/11/2017 01:12:00 title = L' AVVOCATO DIFENSORE - LUCIFER II
 [  Info  ]       Replaces ----- start = 08/11/2017 23:58:00 stop = 09/11/2017 01:12:00 title = L' AVVOCATO DIFENSORE - LUCIFER II
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 158/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Crime) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = THE MENTALIST II
@@ -2571,7 +2569,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 08/11/2017 22:03:00 stop = 08/11/2017 22:57:00 title = STUPRO INTERROTTO - LAW & ORDER: UNITA' SPECIALE XVIII - PRIMA TV
 [  Info  ]       Replaces ----- start = 08/11/2017 22:03:00 stop = 08/11/2017 22:57:00 title = STUPRO INTERROTTO - LAW & ORDER: UNITA' SPECIALE XVIII - PRIMA TV
-[  Info  ] 0.16 sec/update
+[  Info  ] 0.20 sec/update
 [  Debug ] 
 [  Info  ] ( 159/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Joy) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = 2 BROKE GIRLS V
@@ -3826,7 +3824,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 08/11/2017 23:47:00 stop = 09/11/2017 00:10:00 title = L' EREDITA' - MOM II
 [  Info  ]       Replaces ----- start = 08/11/2017 23:47:00 stop = 09/11/2017 00:10:00 title = L' EREDITA' - MOM II
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.18 sec/update
 [  Debug ] 
 [  Info  ] ( 160/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Stories) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = IMPOSTERS
@@ -4606,7 +4604,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 08/11/2017 19:30:00 stop = 08/11/2017 21:00:00 title = YOUPREMIUM - 8/11 - YOUPREMIUM
 [  Info  ]       Replaces ----- start = 08/11/2017 19:30:00 stop = 08/11/2017 21:00:00 title = YOUPREMIUM - 8/11 - YOUPREMIUM
-[  Info  ] 0.16 sec/update
+[  Info  ] 0.19 sec/update
 [  Debug ] 
 [  Info  ] ( 162/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Sport 2 HD) -- mode Incremental
 [  Info  ]    epg correction : 
@@ -4833,7 +4831,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 08/11/2017 23:49:00 stop = 08/11/2017 23:54:00 title = KOVACEVIC (4'09) - SERIE A EMOTION - 18 - PILLOLE
 [  Info  ]       Replaces ----- start = 08/11/2017 23:49:00 stop = 08/11/2017 23:54:00 title = KOVACEVIC (4'09) - SERIE A EMOTION - 18 - PILLOLE
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 163/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Calcio 1) -- mode Incremental
 [  Info  ]    epg correction : 
@@ -5060,12 +5058,12 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 08/11/2017 23:49:00 stop = 08/11/2017 23:54:00 title = KOVACEVIC (4'09) - SERIE A EMOTION - 18 - PILLOLE
 [  Info  ]       Replaces ----- start = 08/11/2017 23:49:00 stop = 08/11/2017 23:54:00 title = KOVACEVIC (4'09) - SERIE A EMOTION - 18 - PILLOLE
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
-[  Debug ] 34705 shows in 165 channels
-[  Debug ] 763 updated shows
-[  Debug ] 5 new shows added
+[  Debug ] 34701 shows in 165 channels
+[  Debug ] 1043 updated shows
+[  Debug ] 8 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 02/11/2017 10:22:03 done in 17m 1s
+[        ] Job finished at 02/11/2017 12:23:57 done in 18m 54s
 [  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
