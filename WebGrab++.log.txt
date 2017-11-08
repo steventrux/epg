@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 08/11/2017 06:05:02
+[        ] Job started at 08/11/2017 08:05:02
 [  Debug ] 
 [  Debug ] Running  on: Unix 3.13.0.132
 [  Debug ] Environment: 4.0.30319.42000
@@ -30,7 +30,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+01:00	(no DST in effect)
 [  Debug ] 	next DST dates  :	25/03/2018 02:00 (local)
 [  Debug ] 	                :	28/10/2018 03:00 (local)
-[  Debug ] 	local time now  :	08/11/2017 06:05:02
+[  Debug ] 	local time now  :	08/11/2017 08:05:03
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -220,19 +220,19 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   4/165 ) MEDIASET.IT -- chan. (xmltv_id=Rete 4 HD) -- mode Incremental
-[  Info  ] 0.08 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   5/165 ) MEDIASET.IT -- chan. (xmltv_id=Canale 5 HD) -- mode Incremental
-[  Info  ] 0.08 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   6/165 ) MEDIASET.IT -- chan. (xmltv_id=Canale 5 HD H265) -- mode Incremental
-[  Info  ] 0.09 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   7/165 ) MEDIASET.IT -- chan. (xmltv_id=Italia 1 HD) -- mode Incremental
-[  Info  ] 0.08 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   8/165 ) MEDIASET.IT -- chan. (xmltv_id=Italia 2) -- mode Incremental
-[  Info  ] 0.09 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   9/165 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La1 HD) -- mode Incremental
 [  Info  ] 0.03 sec/update
@@ -259,14 +259,14 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  17/165 ) MEDIASET.IT -- chan. (xmltv_id=Mediaset Extra) -- mode Incremental
-[  Info  ] 0.08 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  18/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Storia) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  19/165 ) MEDIASET.IT -- chan. (xmltv_id=Iris) -- mode Incremental
-[  Info  ] 0.09 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  20/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Sport 1 HD) -- mode Incremental
 [  Info  ] 
@@ -383,8 +383,6 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  51/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=SKY CLASSICA HD) -- mode Incremental
-[Warning ] error downloading page: Error getting response stream (ReadDone2): ReceiveFailure
-[Warning ] pausing 1 of 4 times for 5 seconds before re-try.
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  52/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Atlantic HD) -- mode Incremental
@@ -449,6 +447,8 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  67/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky motoGP superHD) -- mode Incremental
+[Warning ] error downloading page: Error getting response stream (ReadDone2): ReceiveFailure
+[Warning ] pausing 1 of 4 times for 5 seconds before re-try.
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  68/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Bike Channel) -- mode Incremental
@@ -614,6 +614,8 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 116/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Real Time HD) -- mode Incremental
+[Warning ] error downloading page: Error getting response stream (ReadDone2): ReceiveFailure
+[Warning ] pausing 1 of 4 times for 5 seconds before re-try.
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 117/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Caccia e Pesca) -- mode Incremental
@@ -716,15 +718,11 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 146/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema HD) -- mode Incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 09/11/2017 17:01:00 stop = 09/11/2017 19:17:00 title = Warrior
-[  Info  ]       Replaces ----- start = 09/11/2017 17:01:00 stop = 09/11/2017 19:34:00 title = Warrior
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 09/11/2017 19:17:00 stop = 09/11/2017 19:34:00 title = IL CONTROLUCE (?)
-[  Info  ]       Replaces ----- start = 09/11/2017 17:01:00 stop = 09/11/2017 19:34:00 title = Warrior
-[  Info  ] 0.17 sec/update
+[  Info  ]       Replaces ----- start = 09/11/2017 19:17:00 stop = 09/11/2017 19:34:00 title = IL CONTROLUCE (?)
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 147/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema +24) -- mode Incremental
 [  Info  ]    epg correction : 
@@ -735,7 +733,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 09/11/2017 05:07:00 stop = 09/11/2017 06:30:00 title = Spy Kids 4: E' Tempo Di Eroi
 [  Info  ]       Replaces ----- start = 09/11/2017 05:07:00 stop = 09/11/2017 06:30:00 title = Spy Kids 4: E' Tempo Di Eroi
-[  Info  ] 0.65 sec/update
+[  Info  ] 0.63 sec/update
 [  Debug ] 
 [  Info  ] ( 148/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema 2) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = I PROTAGONISTI
@@ -756,7 +754,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 14/11/2017 06:30:00 stop = 14/11/2017 06:37:00 title = COME TI SPACCIO LA FAMIGLIA - ZOOM
 [  Info  ]       Replaces ----- start = 14/11/2017 06:30:00 stop = 14/11/2017 06:37:00 title = COME TI SPACCIO LA FAMIGLIA - ZOOM
-[  Info  ] 0.17 sec/update
+[  Info  ] 0.19 sec/update
 [  Debug ] 
 [  Info  ] ( 149/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema 2 +24) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = I PROTAGONISTI
@@ -771,18 +769,13 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 14/11/2017 06:32:00 stop = 14/11/2017 06:42:00 title = CHE COSA ASPETTARSI QUANDO DI ASPETTA - ZOOM
 [  Info  ]       Replaces ----- start = 14/11/2017 06:32:00 stop = 14/11/2017 06:42:00 title = CHE COSA ASPETTARSI QUANDO DI ASPETTA - ZOOM
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.17 sec/update
 [  Debug ] 
 [  Info  ] ( 150/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Energy) -- mode Incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 08/11/2017 17:35:00 stop = 08/11/2017 19:23:00 title = La Cosa (di Matthijs van Heijningen Jr.)
 [  Info  ]       Replaces ----- start = 08/11/2017 17:35:00 stop = 08/11/2017 19:23:00 title = La Cosa (di Matthijs van Heijningen Jr.)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 10/11/2017 06:30:00 stop = 10/11/2017 08:10:00 title = IL TEMPO DEI CANI PAZZI -
-[  Info  ]       Replaces ----- start = 10/11/2017 06:30:00 stop = 10/11/2017 06:46:00 title = BATMAN V SUPERMAN - DAWN OF JUSTICE - CRAZY FOR ENERGY
-[  Info  ]       Replaces ----- start = 10/11/2017 06:46:00 stop = 10/11/2017 08:10:00 title = IL TEMPO DEI CANI PAZZI -
 [  Debug ]    suspicious      title in index page  = CRAZY FOR ENERGY
 [  Debug ]       differs from title in showdetails = BATMAN V SUPERMAN - DAWN O.....
 [  Info  ]    epg correction : 
@@ -828,7 +821,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 13/11/2017 06:30:00 stop = 13/11/2017 06:41:00 title = MARTINE MONTEIL: CACCIA AL KILLER - FULL EMOTION
 [  Info  ]       Replaces ----- start = 13/11/2017 06:30:00 stop = 13/11/2017 06:41:00 title = MARTINE MONTEIL: CACCIA AL KILLER - FULL EMOTION
-[  Info  ] 0.12 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 152/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Comedy) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = COMEDY EXTRA
@@ -871,7 +864,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 14/11/2017 13:04:00 stop = 14/11/2017 14:36:00 title = Rush Hour 2 - Colpo Grosso Al Drago Rosso
 [  Info  ]       Replaces ----- start = 14/11/2017 13:04:00 stop = 14/11/2017 14:36:00 title = Rush Hour 2 - Colpo Grosso Al Drago Rosso
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.19 sec/update
 [  Debug ] 
 [  Info  ] ( 153/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Investigation Discovery) -- mode Incremental
 [  Info  ] 
@@ -983,7 +976,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 14/11/2017 12:10:00 stop = 14/11/2017 12:45:00 title = DULY NOTED - PROJECT GREENLIGHT 4
 [  Info  ]       Replaces ----- start = 14/11/2017 12:10:00 stop = 14/11/2017 12:45:00 title = DULY NOTED - PROJECT GREENLIGHT 4
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.17 sec/update
 [  Debug ] 
 [  Info  ] ( 155/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Paramount Channel) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = CINECHAT - ETHAN HAWKE
@@ -1092,7 +1085,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 14/11/2017 12:10:00 stop = 14/11/2017 12:45:00 title = DULY NOTED - PROJECT GREENLIGHT 4
 [  Info  ]       Replaces ----- start = 14/11/2017 12:10:00 stop = 14/11/2017 12:45:00 title = DULY NOTED - PROJECT GREENLIGHT 4
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 156/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action HD) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = UNDERCOVER I
@@ -1348,23 +1341,17 @@
 [  Info  ]       show with ---- start = 11/11/2017 18:41:00 stop = 11/11/2017 19:31:00 title = LA RIVINCITA DI UHTRED - THE LAST KINGDOM II - PRIMA TV
 [  Info  ]       Replaces ----- start = 11/11/2017 18:41:00 stop = 11/11/2017 19:31:00 title = LA RIVINCITA DI UHTRED - THE LAST KINGDOM II - PRIMA TV
 [  Debug ]    suspicious      title in index page  = THE FLASH III
-[  Debug ]       differs from title in showdetails = INTOCCABILE - THE FLASH.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 11/11/2017 19:31:00 stop = 11/11/2017 19:57:00 title = INTOCCABILE - THE FLASH III
-[  Info  ]       Replaces ----- start = 11/11/2017 19:31:00 stop = 11/11/2017 20:22:00 title = ATTACCO A CENTRAL CITY - THE FLASH III
-[  Debug ]    suspicious      title in index page  = THE FLASH III
 [  Debug ]       differs from title in showdetails = ATTACCO A GORILLA CITY .....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 11/11/2017 19:57:00 stop = 11/11/2017 20:22:00 title = ATTACCO A GORILLA CITY - THE FLASH III
-[  Info  ]       Replaces ----- start = 11/11/2017 19:31:00 stop = 11/11/2017 20:22:00 title = ATTACCO A CENTRAL CITY - THE FLASH III
+[  Info  ]       Replaces ----- start = 11/11/2017 19:57:00 stop = 11/11/2017 20:22:00 title = ATTACCO A GORILLA CITY - THE FLASH III
 [  Debug ]    suspicious      title in index page  = THE FLASH III
 [  Debug ]       differs from title in showdetails = ATTACCO A CENTRAL CITY .....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 11/11/2017 20:22:00 stop = 11/11/2017 21:15:00 title = ATTACCO A CENTRAL CITY - THE FLASH III
-[  Info  ]       Replaces ----- start = 11/11/2017 20:22:00 stop = 11/11/2017 21:15:00 title = LA COLLERA DI SAVITAR - THE FLASH III
+[  Info  ]       Replaces ----- start = 11/11/2017 20:22:00 stop = 11/11/2017 21:15:00 title = ATTACCO A CENTRAL CITY - THE FLASH III
 [  Debug ]    suspicious      title in index page  = LUCIFER II
 [  Debug ]       differs from title in showdetails = UN BEL GIORNO PER MO.....
 [  Info  ]    epg correction : 
@@ -1430,13 +1417,13 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 12/11/2017 18:40:00 stop = 12/11/2017 19:05:00 title = LA COLLERA DI SAVITAR - THE FLASH III
-[  Info  ]       Replaces ----- start = 12/11/2017 18:40:00 stop = 12/11/2017 19:31:00 title = DENTRO LA FORZA DELLA VELOCITA' - THE FLASH III
+[  Info  ]       Replaces ----- start = 12/11/2017 18:40:00 stop = 12/11/2017 19:05:00 title = LA COLLERA DI SAVITAR - THE FLASH III
 [  Debug ]    suspicious      title in index page  = THE FLASH III
 [  Debug ]       differs from title in showdetails = DENTRO LA FORZA DELLA V.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 12/11/2017 19:05:00 stop = 12/11/2017 19:31:00 title = DENTRO LA FORZA DELLA VELOCITA' - THE FLASH III
-[  Info  ]       Replaces ----- start = 12/11/2017 18:40:00 stop = 12/11/2017 19:31:00 title = DENTRO LA FORZA DELLA VELOCITA' - THE FLASH III
+[  Info  ]       Replaces ----- start = 12/11/2017 19:05:00 stop = 12/11/2017 19:31:00 title = DENTRO LA FORZA DELLA VELOCITA' - THE FLASH III
 [  Debug ]    suspicious      title in index page  = THE 100 IV
 [  Debug ]       differs from title in showdetails = IL COMPLESSO DI DIO .....
 [  Info  ]    epg correction : 
@@ -1611,7 +1598,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 14/11/2017 23:58:00 stop = 15/11/2017 00:50:00 title = LE MANIGLIE DELL'AMORE - LUCIFER II
 [  Info  ]       Replaces ----- start = 14/11/2017 23:58:00 stop = 15/11/2017 00:50:00 title = LE MANIGLIE DELL'AMORE - LUCIFER II
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 157/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action +24) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = UNDERCOVER I
@@ -1739,13 +1726,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 10/11/2017 06:00:00 stop = 10/11/2017 06:25:00 title = IL GIORNO PIU' LUNGO - REVOLUTION I
-[  Info  ]       Replaces ----- start = 10/11/2017 06:00:00 stop = 10/11/2017 06:47:00 title = IL GIORNO PIU' LUNGO - REVOLUTION I
-[  Debug ]    suspicious      title in index page  = REVOLUTION
-[  Debug ]       differs from title in showdetails = L' INDIZIO - REVOLUT.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 10/11/2017 06:25:00 stop = 10/11/2017 06:47:00 title = L' INDIZIO - REVOLUTION I
-[  Info  ]       Replaces ----- start = 10/11/2017 06:00:00 stop = 10/11/2017 06:47:00 title = IL GIORNO PIU' LUNGO - REVOLUTION I
+[  Info  ]       Replaces ----- start = 10/11/2017 06:00:00 stop = 10/11/2017 06:25:00 title = IL GIORNO PIU' LUNGO - REVOLUTION I
 [  Debug ]    suspicious      title in index page  = UNDERCOVER II
 [  Debug ]       differs from title in showdetails = DIVIDE ET IMPERA - UNDE.....
 [  Info  ]    epg correction : 
@@ -1921,23 +1902,17 @@
 [  Info  ]       show with ---- start = 12/11/2017 18:41:00 stop = 12/11/2017 19:31:00 title = LA RIVINCITA DI UHTRED - THE LAST KINGDOM II - PRIMA TV
 [  Info  ]       Replaces ----- start = 12/11/2017 18:41:00 stop = 12/11/2017 19:31:00 title = LA RIVINCITA DI UHTRED - THE LAST KINGDOM II - PRIMA TV
 [  Debug ]    suspicious      title in index page  = THE FLASH III
-[  Debug ]       differs from title in showdetails = INTOCCABILE - THE FLASH.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 12/11/2017 19:31:00 stop = 12/11/2017 19:57:00 title = INTOCCABILE - THE FLASH III
-[  Info  ]       Replaces ----- start = 12/11/2017 19:31:00 stop = 12/11/2017 20:22:00 title = ATTACCO A CENTRAL CITY - THE FLASH III
-[  Debug ]    suspicious      title in index page  = THE FLASH III
 [  Debug ]       differs from title in showdetails = ATTACCO A GORILLA CITY .....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 12/11/2017 19:57:00 stop = 12/11/2017 20:22:00 title = ATTACCO A GORILLA CITY - THE FLASH III
-[  Info  ]       Replaces ----- start = 12/11/2017 19:31:00 stop = 12/11/2017 20:22:00 title = ATTACCO A CENTRAL CITY - THE FLASH III
+[  Info  ]       Replaces ----- start = 12/11/2017 19:57:00 stop = 12/11/2017 20:22:00 title = ATTACCO A GORILLA CITY - THE FLASH III
 [  Debug ]    suspicious      title in index page  = THE FLASH III
 [  Debug ]       differs from title in showdetails = ATTACCO A CENTRAL CITY .....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 12/11/2017 20:22:00 stop = 12/11/2017 21:15:00 title = ATTACCO A CENTRAL CITY - THE FLASH III
-[  Info  ]       Replaces ----- start = 12/11/2017 20:22:00 stop = 12/11/2017 21:15:00 title = LA COLLERA DI SAVITAR - THE FLASH III
+[  Info  ]       Replaces ----- start = 12/11/2017 20:22:00 stop = 12/11/2017 21:15:00 title = ATTACCO A CENTRAL CITY - THE FLASH III
 [  Debug ]    suspicious      title in index page  = LUCIFER II
 [  Debug ]       differs from title in showdetails = UN BEL GIORNO PER MO.....
 [  Info  ]    epg correction : 
@@ -2094,7 +2069,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 14/11/2017 22:11:00 stop = 14/11/2017 23:04:00 title = NESSUNA PIETA' - THE ORIGINALS IV - PRIMA TV
 [  Info  ]       Replaces ----- start = 14/11/2017 22:11:00 stop = 14/11/2017 23:04:00 title = NESSUNA PIETA' - THE ORIGINALS IV - PRIMA TV
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 158/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Crime) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = RIZZOLI & ISLES VI
@@ -2467,7 +2442,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 14/11/2017 23:56:00 stop = 15/11/2017 00:48:00 title = UNA CARRIERA SPEZZATA - LAW & ORDER: UNITA' SPECIALE XVIII
 [  Info  ]       Replaces ----- start = 14/11/2017 23:56:00 stop = 15/11/2017 00:48:00 title = UNA CARRIERA SPEZZATA - LAW & ORDER: UNITA' SPECIALE XVIII
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.17 sec/update
 [  Debug ] 
 [  Info  ] ( 159/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Joy) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = THE MIDDLE VII
@@ -3824,7 +3799,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 14/11/2017 23:48:00 stop = 15/11/2017 00:10:00 title = CHIEDI E TI SARA' DATO - MOM II
 [  Info  ]       Replaces ----- start = 14/11/2017 23:48:00 stop = 15/11/2017 00:10:00 title = CHIEDI E TI SARA' DATO - MOM II
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 160/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Stories) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = GOSSIP GIRL VI
@@ -4331,7 +4306,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 14/11/2017 23:47:00 stop = 15/11/2017 00:39:00 title = SCUOTERE LE FRONDE - SUITS VI
 [  Info  ]       Replaces ----- start = 14/11/2017 23:47:00 stop = 15/11/2017 00:39:00 title = SCUOTERE LE FRONDE - SUITS VI
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.17 sec/update
 [  Debug ] 
 [  Info  ] ( 161/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Sport superHD) -- mode Incremental
 [  Info  ]    epg correction : 
@@ -4449,18 +4424,17 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 09/11/2017 19:30:00 stop = 09/11/2017 21:30:00 title = YOUPREMIUM - 9/11 - YOUPREMIUM
-[  Info  ]       Replaces ----- start = 09/11/2017 19:30:00 stop = 09/11/2017 21:00:00 title = YOUPREMIUM - 9/11 - YOUPREMIUM
-[  Info  ]       Replaces ----- start = 09/11/2017 21:00:00 stop = 09/11/2017 21:30:00 title = MAGO QUANTO CI MANCHI - SPECIALI PREMIUM SPORT 2017
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
+[  Info  ]       Replaces ----- start = 09/11/2017 19:30:00 stop = 09/11/2017 21:30:00 title = YOUPREMIUM - 9/11 - YOUPREMIUM
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 09/11/2017 21:30:00 stop = 09/11/2017 22:00:00 title = AMICHEVOLI - SINTESI ATLETICO PARANAENSE - CORINTHIANS (?)
-[  Info  ]       Replaces ----- start = 09/11/2017 21:30:00 stop = 09/11/2017 22:00:00 title = HIGUAIN 100 - SPECIALI PREMIUM SPORT 2017
+[  Info  ]       Replaces ----- start = 09/11/2017 21:30:00 stop = 09/11/2017 22:00:00 title = AMICHEVOLI - SINTESI ATLETICO PARANAENSE - CORINTHIANS (?)
 [  Debug ]    suspicious      title in index page  = SPECIALI PREMIUM SPORT MAGO QUANTO CI MANCHI
 [  Debug ]       differs from title in showdetails = MAGO QUANTO CI MANCHI - SPECIALI PREMIUM SPORT 2017
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 09/11/2017 22:00:00 stop = 09/11/2017 22:30:00 title = MAGO QUANTO CI MANCHI - SPECIALI PREMIUM SPORT 2017
-[  Info  ]       Replaces ----- start = 09/11/2017 22:00:00 stop = 09/11/2017 22:30:00 title = GULLIT - PREMIUM LEGENDS
+[  Info  ]       Replaces ----- start = 09/11/2017 22:00:00 stop = 09/11/2017 22:30:00 title = MAGO QUANTO CI MANCHI - SPECIALI PREMIUM SPORT 2017
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 10/11/2017 07:30:00 stop = 10/11/2017 07:45:00 title = 10/11 H. 7.30 - PREMIUM SPORT EDICOLA
@@ -4593,21 +4567,10 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 11/11/2017 17:30:00 stop = 11/11/2017 18:00:00 title = MAGO QUANTO CI MANCHI - SPECIALI PREMIUM SPORT 2017
 [  Info  ]       Replaces ----- start = 11/11/2017 17:30:00 stop = 11/11/2017 18:00:00 title = MAGO QUANTO CI MANCHI - SPECIALI PREMIUM SPORT 2017
-[  Debug ]    suspicious      title in index page  = PREMIUM SPORT NEWS
-[  Debug ]       differs from title in showdetails = 11/11 H. 20.30 - PREMIUM SPO.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 11/11/2017 20:30:00 stop = 11/11/2017 21:00:00 title = 11/11 H. 20.30 - PREMIUM SPORT NEWS
-[  Info  ]       Replaces ----- start = 11/11/2017 20:30:00 stop = 11/11/2017 20:56:00 title = 11/11 H. 20.30 - PREMIUM SPORT NEWS
-[  Info  ]       Replaces ----- start = 11/11/2017 20:56:00 stop = 11/11/2017 23:30:00 title = DEL PIERO - PREMIUM LEGENDS
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 11/11/2017 21:00:00 stop = 11/11/2017 21:24:00 title = PREMIUM SPORT NEWS (?)
-[  Info  ]       Replaces ----- start = 11/11/2017 20:56:00 stop = 11/11/2017 23:30:00 title = DEL PIERO - PREMIUM LEGENDS
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 11/11/2017 21:24:00 stop = 11/11/2017 23:30:00 title = SPAGNA - COSTARICA 11/11 - AMICHEVOLI
-[  Info  ]       Replaces ----- start = 11/11/2017 20:56:00 stop = 11/11/2017 23:30:00 title = DEL PIERO - PREMIUM LEGENDS
+[  Info  ]       Replaces ----- start = 11/11/2017 21:00:00 stop = 11/11/2017 21:24:00 title = PREMIUM SPORT NEWS (?)
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 12/11/2017 08:00:00 stop = 12/11/2017 08:15:00 title = 12/11 H. 8.00 - PREMIUM SPORT EDICOLA
@@ -4648,10 +4611,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 12/11/2017 13:00:00 stop = 12/11/2017 13:15:00 title = 12/11 H. 8.00 - PREMIUM SPORT EDICOLA
 [  Info  ]       Replaces ----- start = 12/11/2017 13:00:00 stop = 12/11/2017 13:15:00 title = 12/11 H. 8.00 - PREMIUM SPORT EDICOLA
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 12/11/2017 17:30:00 stop = 12/11/2017 18:00:00 title = HIGUAIN 100 - SPECIALI PREMIUM SPORT 2017
-[  Info  ]       Replaces ----- start = 12/11/2017 17:30:00 stop = 12/11/2017 18:00:00 title = DEL PIERO - PREMIUM LEGENDS
 [  Debug ]    suspicious      title in index page  = PREMIUM LEGENDS PIRLO
 [  Debug ]       differs from title in showdetails = SHEVCHENKO - PREMIUM LEGENDS
 [  Info  ]    epg correction : 
@@ -4663,7 +4622,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 12/11/2017 22:30:00 stop = 12/11/2017 23:00:00 title = DEL PIERO - PREMIUM LEGENDS
-[  Info  ]       Replaces ----- start = 12/11/2017 22:30:00 stop = 12/11/2017 23:00:00 title = MAGO QUANTO CI MANCHI - SPECIALI PREMIUM SPORT 2017
+[  Info  ]       Replaces ----- start = 12/11/2017 22:30:00 stop = 12/11/2017 23:00:00 title = DEL PIERO - PREMIUM LEGENDS
 [  Debug ]    suspicious      title in index page  = HIGHLIGHTS SERIE B
 [  Debug ]       differs from title in showdetails = QUATTORDICESIMA GIORNATA - D.....
 [  Info  ]    epg correction : 
@@ -4801,16 +4760,12 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 14/11/2017 16:54:00 stop = 14/11/2017 17:00:00 title = LAZIO-INTER 2001-02 (5'03) - SERIE A EMOTION - 18 - PILLOLE
-[  Info  ]       Replaces ----- start = 14/11/2017 16:54:00 stop = 14/11/2017 17:00:00 title = LAZIO-MILAN 2014-15 (5'12) - SERIE A EMOTION - 18 - PILLOLE
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
+[  Info  ]       Replaces ----- start = 14/11/2017 16:54:00 stop = 14/11/2017 17:00:00 title = LAZIO-INTER 2001-02 (5'03) - SERIE A EMOTION - 18 - PILLOLE
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 14/11/2017 19:30:00 stop = 14/11/2017 20:39:00 title = YOUPREMIUM (?)
-[  Info  ]       Replaces ----- start = 14/11/2017 19:30:00 stop = 14/11/2017 22:45:00 title = YOUPREMIUM - 13/11 - YOUPREMIUM
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 14/11/2017 20:39:00 stop = 14/11/2017 22:45:00 title = AUSTRIA - URUGUAY 14/11 - AMICHEVOLI
-[  Info  ]       Replaces ----- start = 14/11/2017 19:30:00 stop = 14/11/2017 22:45:00 title = YOUPREMIUM - 13/11 - YOUPREMIUM
-[  Info  ] 0.14 sec/update
+[  Info  ]       Replaces ----- start = 14/11/2017 19:30:00 stop = 14/11/2017 20:39:00 title = YOUPREMIUM (?)
+[  Info  ] 0.18 sec/update
 [  Debug ] 
 [  Info  ] ( 162/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Sport 2 HD) -- mode Incremental
 [  Info  ]    epg correction : 
@@ -5085,7 +5040,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 14/11/2017 19:30:00 stop = 14/11/2017 20:00:00 title = QUATTORDICESIMA GIORNATA - DOMENICA 12/11 - HIGHLIGHTS SERIE B -'18
 [  Info  ]       Replaces ----- start = 14/11/2017 19:30:00 stop = 14/11/2017 20:00:00 title = QUATTORDICESIMA GIORNATA - DOMENICA 12/11 - HIGHLIGHTS SERIE B -'18
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.18 sec/update
 [  Debug ] 
 [  Info  ] ( 163/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Calcio 1) -- mode Incremental
 [  Info  ]    epg correction : 
@@ -5360,12 +5315,12 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 14/11/2017 19:30:00 stop = 14/11/2017 20:00:00 title = QUATTORDICESIMA GIORNATA - DOMENICA 12/11 - HIGHLIGHTS SERIE B -'18
 [  Info  ]       Replaces ----- start = 14/11/2017 19:30:00 stop = 14/11/2017 20:00:00 title = QUATTORDICESIMA GIORNATA - DOMENICA 12/11 - HIGHLIGHTS SERIE B -'18
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
-[  Debug ] 34629 shows in 165 channels
-[  Debug ] 823 updated shows
-[  Debug ] 233 new shows added
+[  Debug ] 34638 shows in 165 channels
+[  Debug ] 814 updated shows
+[  Debug ] 9 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 08/11/2017 06:22:07 done in 17m 4s
+[        ] Job finished at 08/11/2017 08:22:38 done in 17m 35s
 [  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
