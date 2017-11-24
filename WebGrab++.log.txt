@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 24/11/2017 10:05:02
+[        ] Job started at 24/11/2017 12:05:02
 [  Debug ] 
 [  Debug ] Running  on: Unix 3.13.0.132
 [  Debug ] Environment: 4.0.30319.42000
@@ -30,7 +30,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+01:00	(no DST in effect)
 [  Debug ] 	next DST dates  :	25/03/2018 02:00 (local)
 [  Debug ] 	                :	28/10/2018 03:00 (local)
-[  Debug ] 	local time now  :	24/11/2017 10:05:03
+[  Debug ] 	local time now  :	24/11/2017 12:05:03
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -217,6 +217,8 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   3/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai 3 HD) -- mode Incremental
+[Warning ] error downloading page: Error getting response stream (ReadDone2): ReceiveFailure
+[Warning ] pausing 1 of 4 times for 5 seconds before re-try.
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   4/165 ) MEDIASET.IT -- chan. (xmltv_id=Rete 4 HD) -- mode Incremental
@@ -229,16 +231,16 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   7/165 ) MEDIASET.IT -- chan. (xmltv_id=Italia 1 HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.11 sec/update
 [  Debug ] 
 [  Info  ] (   8/165 ) MEDIASET.IT -- chan. (xmltv_id=Italia 2) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   9/165 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La1 HD) -- mode Incremental
-[  Info  ] 0.04 sec/update
+[  Info  ] 0.03 sec/update
 [  Debug ] 
 [  Info  ] (  10/165 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La2 HD) -- mode Incremental
-[  Info  ] 0.04 sec/update
+[  Info  ] 0.03 sec/update
 [  Debug ] 
 [  Info  ] (  11/165 ) STASERAINTV.COM -- chan. (xmltv_id=La 5) -- mode Incremental
 [  Info  ] 
@@ -263,7 +265,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  18/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Storia) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.20 sec/update
 [  Debug ] 
 [  Info  ] (  19/165 ) MEDIASET.IT -- chan. (xmltv_id=Iris) -- mode Incremental
 [  Info  ] 
@@ -312,6 +314,11 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  32/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema +1) -- mode Incremental
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
+[Warning ] error downloading page: Error: SendFailure (Cannot access a disposed object.
+Object name: 'System.Net.Sockets.NetworkStream'.)
+[Warning ] pausing 2 of 4 times for 10 seconds before re-try.
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
@@ -378,7 +385,7 @@
 
 [  Debug ] 
 [  Info  ] (  49/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Uno HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.23 sec/update
 [  Debug ] 
 [  Info  ] (  50/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Uno +1) -- mode Incremental
 [  Info  ] 
@@ -454,7 +461,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  69/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Eurosport 1) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.27 sec/update
 [  Debug ] 
 [  Info  ] (  70/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Eurosport 2) -- mode Incremental
 [  Info  ] 
@@ -472,7 +479,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  75/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport 2 HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.18 sec/update
 [  Debug ] 
 [  Info  ] (  76/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport 3 HD) -- mode Incremental
 [  Info  ] 
@@ -496,7 +503,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  83/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Eurosport 1 Italia) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.20 sec/update
 [  Debug ] 
 [  Info  ] (  84/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Eurosport 2 Italia) -- mode Incremental
 [  Info  ] 
@@ -609,7 +616,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 115/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Dmax) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.21 sec/update
 [  Debug ] 
 [  Info  ] ( 116/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Real Time HD) -- mode Incremental
 [  Info  ] 
@@ -722,7 +729,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 24/11/2017 19:28:00 stop = 24/11/2017 19:46:00 title = FRANCESCO ALO' PRESENTA... GUIDA PER LA FELICITA' - IL CONTROLUCE
 [  Info  ]       Replaces ----- start = 24/11/2017 19:28:00 stop = 24/11/2017 19:46:00 title = FRANCESCO ALO' PRESENTA... GUIDA PER LA FELICITA' - IL CONTROLUCE
-[  Info  ] 0.16 sec/update
+[  Info  ] 0.19 sec/update
 [  Debug ] 
 [  Info  ] ( 148/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema 2) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = DRAGON TRAINER 2
@@ -737,7 +744,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/11/2017 13:20:00 stop = 26/11/2017 15:05:00 title = DRAGON TRAINER 2 -
 [  Info  ]       Replaces ----- start = 26/11/2017 13:20:00 stop = 26/11/2017 15:05:00 title = DRAGON TRAINER 2 -
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.18 sec/update
 [  Debug ] 
 [  Info  ] ( 149/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema 2 +24) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = DRAGON TRAINER 2
@@ -752,7 +759,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 27/11/2017 13:20:00 stop = 27/11/2017 15:05:00 title = DRAGON TRAINER 2 -
 [  Info  ]       Replaces ----- start = 27/11/2017 13:20:00 stop = 27/11/2017 15:05:00 title = DRAGON TRAINER 2 -
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 150/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Energy) -- mode Incremental
 [  Info  ]    epg correction : 
@@ -782,7 +789,7 @@
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 26/11/2017 13:10:00 stop = 26/11/2017 16:55:00 title = EMOTION RITORNA ALLE 17.30 (?)
 [  Info  ]       Replaces ----- start = 26/11/2017 13:10:00 stop = 26/11/2017 16:55:00 title = EMOTION RITORNA ALLE 17.30 (?)
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 152/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Comedy) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = A CENA CON...
@@ -811,7 +818,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 28/11/2017 06:30:00 stop = 28/11/2017 06:52:00 title = ADRIANO CELENTANO - FACCE DA RIDERE
 [  Info  ]       Replaces ----- start = 28/11/2017 06:30:00 stop = 28/11/2017 06:52:00 title = ADRIANO CELENTANO - FACCE DA RIDERE
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 153/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Investigation Discovery) -- mode Incremental
 [  Info  ] 
@@ -1024,7 +1031,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/11/2017 13:55:00 stop = 30/11/2017 15:30:00 title = ONCE - UNA VOLTA -
 [  Info  ]       Replaces ----- start = 30/11/2017 13:55:00 stop = 30/11/2017 15:30:00 title = ONCE - UNA VOLTA -
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 156/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action HD) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = LUCIFER II
@@ -3852,7 +3859,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/11/2017 23:52:00 stop = 01/12/2017 00:16:00 title = IL BALLO DELLA SOBRIETA' - MOM III
 [  Info  ]       Replaces ----- start = 30/11/2017 23:52:00 stop = 01/12/2017 00:16:00 title = IL BALLO DELLA SOBRIETA' - MOM III
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 160/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Stories) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = COVERT AFFAIRS V
@@ -4830,7 +4837,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/11/2017 21:00:00 stop = 30/11/2017 21:30:00 title = SEDICESIMA GIORNATA - DOMENICA 26/11 - HIGHLIGHTS SERIE B -'18
 [  Info  ]       Replaces ----- start = 30/11/2017 21:00:00 stop = 30/11/2017 21:30:00 title = SEDICESIMA GIORNATA - DOMENICA 26/11 - HIGHLIGHTS SERIE B -'18
-[  Info  ] 0.17 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 162/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Sport 2 HD) -- mode Incremental
 [  Info  ]    epg correction : 
@@ -5125,7 +5132,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/11/2017 20:00:00 stop = 30/11/2017 20:30:00 title = SEDICESIMA GIORNATA - DOMENICA 26/11 - HIGHLIGHTS SERIE B -'18
 [  Info  ]       Replaces ----- start = 30/11/2017 20:00:00 stop = 30/11/2017 20:30:00 title = SEDICESIMA GIORNATA - DOMENICA 26/11 - HIGHLIGHTS SERIE B -'18
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 163/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Calcio 1) -- mode Incremental
 [  Info  ]    epg correction : 
@@ -5422,10 +5429,10 @@
 [  Info  ]       Replaces ----- start = 30/11/2017 20:00:00 stop = 30/11/2017 20:30:00 title = SEDICESIMA GIORNATA - DOMENICA 26/11 - HIGHLIGHTS SERIE B -'18
 [  Info  ] 0.14 sec/update
 [  Debug ] 
-[  Debug ] 35149 shows in 165 channels
-[  Debug ] 822 updated shows
-[  Debug ] 5 new shows added
+[  Debug ] 35151 shows in 165 channels
+[  Debug ] 968 updated shows
+[  Debug ] 8 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 24/11/2017 10:22:07 done in 17m 4s
+[        ] Job finished at 24/11/2017 12:21:44 done in 16m 41s
 [  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
