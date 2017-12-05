@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 05/12/2017 23:15:17
+[        ] Job started at 06/12/2017 00:05:02
 [  Debug ] 
 [  Debug ] Running  on: Unix 3.13.0.132
 [  Debug ] Environment: 4.0.30319.42000
@@ -30,7 +30,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+01:00	(no DST in effect)
 [  Debug ] 	next DST dates  :	25/03/2018 02:00 (local)
 [  Debug ] 	                :	28/10/2018 03:00 (local)
-[  Debug ] 	local time now  :	05/12/2017 23:15:18
+[  Debug ] 	local time now  :	06/12/2017 00:05:03
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -211,106 +211,134 @@
 [  Info  ] update requested for - 165 - out of - 165 - channels for 7 day(s)
 [  Debug ] 
 [  Info  ] (   1/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai 1 HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] (   2/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai 2 HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] (   3/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai 3 HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] (   4/165 ) MEDIASET.IT -- chan. (xmltv_id=Rete 4 HD) -- mode Incremental
-[Warning ] error downloading page: The operation has timed out. (5sec)
-[Warning ] Retry 1 of 4 times
-[Warning ] error downloading page: The request timed out (10sec)
-[Warning ] Retry 2 of 4 times
 [Warning ] error downloading page: The request timed out (5sec)
 [Warning ] Retry 1 of 4 times
-[  Debug ]    skipped negative show time! at 07/12/2017 01:31:00
-[  Debug ]    skipped negative show time! at 08/12/2017 01:30:00
-[  Debug ]    skipped negative show time! at 11/12/2017 01:01:00
-[  Info  ] 
+[Warning ] error downloading page: Error getting response stream (chunked Read1): ReceiveFailure
+[Warning ] pausing 2 of 4 times for 10 seconds before re-try.
+[Warning ] error downloading page: The request timed out (15sec)
+[Warning ] Retry 3 of 4 times
+[Error   ] Unable to update channel Rete 4 HD
+[Critical] Generic syntax exception:
+[Critical]    message: 
+[Error   ] no index page data received from Rete 4 HD
+[Error   ] unable to update channel, try again later
+[  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (   5/165 ) MEDIASET.IT -- chan. (xmltv_id=Canale 5 HD) -- mode Incremental
+[  Info  ] (   4/165 ) MEDIASET.IT -- chan. (xmltv_id=Canale 5 HD) -- mode Incremental
+[Error   ] Unable to update channel Canale 5 HD
+[Critical] Generic syntax exception:
+[Critical]    message: 
+[Error   ] no index page data received from Canale 5 HD
+[Error   ] unable to update channel, try again later
+[  Info  ] Existing guide data restored!
+[  Debug ] 
+[  Info  ] (   4/165 ) MEDIASET.IT -- chan. (xmltv_id=Canale 5 HD H265) -- mode Incremental
+[Error   ] Unable to update channel Canale 5 HD H265
+[Critical] Generic syntax exception:
+[Critical]    message: 
+[Error   ] no index page data received from Canale 5 HD H265
+[Error   ] unable to update channel, try again later
+[  Info  ] Existing guide data restored!
+[  Debug ] 
+[  Info  ] (   4/165 ) MEDIASET.IT -- chan. (xmltv_id=Italia 1 HD) -- mode Incremental
+[Error   ] Unable to update channel Italia 1 HD
+[Critical] Generic syntax exception:
+[Critical]    message: 
+[Error   ] no index page data received from Italia 1 HD
+[Error   ] unable to update channel, try again later
+[  Info  ] Existing guide data restored!
+[  Debug ] 
+[  Info  ] (   4/165 ) MEDIASET.IT -- chan. (xmltv_id=Italia 2) -- mode Incremental
+[Error   ] Unable to update channel Italia 2
+[Critical] Generic syntax exception:
+[Critical]    message: 
+[Error   ] no index page data received from Italia 2
+[Error   ] unable to update channel, try again later
+[  Info  ] Existing guide data restored!
+[  Debug ] 
+[  Info  ] (   4/165 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La1 HD) -- mode Incremental
+[  Info  ] 0.02 sec/update
+[  Debug ] 
+[  Info  ] (   5/165 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La2 HD) -- mode Incremental
+[  Info  ] 0.03 sec/update
+[  Debug ] 
+[  Info  ] (   6/165 ) STASERAINTV.COM -- chan. (xmltv_id=La 5) -- mode Incremental
+[  Info  ] 0.01 sec/update
+[  Debug ] 
+[  Info  ] (   7/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=LA7) -- mode Incremental
+[  Info  ] 0.15 sec/update
+[  Debug ] 
+[  Info  ] (   8/165 ) STASERAINTV.COM -- chan. (xmltv_id=LA7 D) -- mode Incremental
+[  Info  ] 0.02 sec/update
+[  Debug ] 
+[  Info  ] (   9/165 ) STASERAINTV.COM -- chan. (xmltv_id=TV 8) -- mode Incremental
+[  Info  ] 0.02 sec/update
+[  Debug ] 
+[  Info  ] (  10/165 ) STASERAINTV.COM -- chan. (xmltv_id=Nove HD) -- mode Incremental
+[  Info  ] 0.02 sec/update
+[  Debug ] 
+[  Info  ] (  11/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Top Crime) -- mode Incremental
+[  Info  ] 0.15 sec/update
+[  Debug ] 
+[  Info  ] (  12/165 ) MEDIASET.IT -- chan. (xmltv_id=Mediaset Extra) -- mode Incremental
 [Warning ] error downloading page: The request timed out (5sec)
 [Warning ] Retry 1 of 4 times
-[Warning ] error downloading page: The operation has timed out. (5sec)
-[Warning ] Retry 1 of 4 times
-[  Info  ] 
+[Error   ] Unable to update channel Mediaset Extra
+[Critical] Generic syntax exception:
+[Critical]    message: 
+[Error   ] no index page data received from Mediaset Extra
+[Error   ] unable to update channel, try again later
+[  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (   6/165 ) MEDIASET.IT -- chan. (xmltv_id=Canale 5 HD H265) -- mode Incremental
-[  Info  ] 
-[  Debug ] 
-[  Info  ] (   7/165 ) MEDIASET.IT -- chan. (xmltv_id=Italia 1 HD) -- mode Incremental
-[  Info  ] 
-[  Debug ] 
-[  Info  ] (   8/165 ) MEDIASET.IT -- chan. (xmltv_id=Italia 2) -- mode Incremental
-[  Info  ] 
-[  Debug ] 
-[  Info  ] (   9/165 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La1 HD) -- mode Incremental
-[  Info  ] 
-[  Debug ] 
-[  Info  ] (  10/165 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La2 HD) -- mode Incremental
-[  Info  ] 0.04 sec/update
-[  Debug ] 
-[  Info  ] (  11/165 ) STASERAINTV.COM -- chan. (xmltv_id=La 5) -- mode Incremental
-[  Info  ] 
-[  Debug ] 
-[  Info  ] (  12/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=LA7) -- mode Incremental
-[  Info  ] 
-[  Debug ] 
-[  Info  ] (  13/165 ) STASERAINTV.COM -- chan. (xmltv_id=LA7 D) -- mode Incremental
-[  Info  ] 
-[  Debug ] 
-[  Info  ] (  14/165 ) STASERAINTV.COM -- chan. (xmltv_id=TV 8) -- mode Incremental
-[  Info  ] 
-[  Debug ] 
-[  Info  ] (  15/165 ) STASERAINTV.COM -- chan. (xmltv_id=Nove HD) -- mode Incremental
-[  Info  ] 
-[  Debug ] 
-[  Info  ] (  16/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Top Crime) -- mode Incremental
-[  Info  ] 
-[  Debug ] 
-[  Info  ] (  17/165 ) MEDIASET.IT -- chan. (xmltv_id=Mediaset Extra) -- mode Incremental
-[Warning ] error downloading page: The request timed out (5sec)
-[Warning ] Retry 1 of 4 times
-[  Info  ] 
-[  Debug ] 
-[  Info  ] (  18/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Storia) -- mode Incremental
+[  Info  ] (  12/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Storia) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[  Info  ] 0.17 sec/update
 [  Debug ] 
-[  Info  ] (  19/165 ) MEDIASET.IT -- chan. (xmltv_id=Iris) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  13/165 ) MEDIASET.IT -- chan. (xmltv_id=Iris) -- mode Incremental
+[Error   ] Unable to update channel Iris
+[Critical] Generic syntax exception:
+[Critical]    message: 
+[Error   ] no index page data received from Iris
+[Error   ] unable to update channel, try again later
+[  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  20/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Sport 1 HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  13/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Sport 1 HD) -- mode Incremental
+[  Info  ] 0.26 sec/update
 [  Debug ] 
-[  Info  ] (  21/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Sport 2 HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  14/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Sport 2 HD) -- mode Incremental
+[  Info  ] 0.26 sec/update
 [  Debug ] 
-[  Info  ] (  22/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Premium HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  15/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Premium HD) -- mode Incremental
+[  Info  ] 0.16 sec/update
 [  Debug ] 
-[  Info  ] (  23/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai 4 HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  16/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai 4 HD) -- mode Incremental
+[  Info  ] 0.18 sec/update
 [  Debug ] 
-[  Info  ] (  24/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai 5 HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  17/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai 5 HD) -- mode Incremental
+[  Info  ] 0.16 sec/update
 [  Debug ] 
-[  Info  ] (  25/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Movie HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  18/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Movie HD) -- mode Incremental
+[  Info  ] 0.17 sec/update
 [  Debug ] 
-[  Info  ] (  26/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Giallo) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  19/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Giallo) -- mode Incremental
+[  Info  ] 0.16 sec/update
 [  Debug ] 
-[  Info  ] (  27/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=LEI) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  20/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=LEI) -- mode Incremental
+[  Info  ] 0.17 sec/update
 [  Debug ] 
-[  Info  ] (  28/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=LaEffe) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  21/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=LaEffe) -- mode Incremental
+[  Info  ] 0.17 sec/update
 [  Debug ] 
-[  Info  ] (  29/165 ) PROGRAMMI-TV.EU -- chan. (xmltv_id=La3) -- mode Incremental
+[  Info  ] (  22/165 ) PROGRAMMI-TV.EU -- chan. (xmltv_id=La3) -- mode Incremental
 [Error   ] no shows in indexpage!
 [Error   ] Cannot find any shows on the Index Page !
 [  Info  ] 
@@ -320,58 +348,58 @@
 [  Info  ]      total after update        0
 
 [  Debug ] 
-[  Info  ] (  30/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema 1 HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  23/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema 1 HD) -- mode Incremental
+[  Info  ] 0.18 sec/update
 [  Debug ] 
-[  Info  ] (  31/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema 1 SuperHD) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  24/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema 1 SuperHD) -- mode Incremental
+[  Info  ] 0.17 sec/update
 [  Debug ] 
-[  Info  ] (  32/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema +1) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  25/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema +1) -- mode Incremental
+[  Info  ] 0.16 sec/update
 [  Debug ] 
-[  Info  ] (  33/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema +24 SuperHD) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  26/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema +24 SuperHD) -- mode Incremental
+[  Info  ] 0.19 sec/update
 [  Debug ] 
-[  Info  ] (  34/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema +24) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  27/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema +24) -- mode Incremental
+[  Info  ] 0.18 sec/update
 [  Debug ] 
-[  Info  ] (  35/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Hits HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  28/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Hits HD) -- mode Incremental
+[  Info  ] 0.21 sec/update
 [  Debug ] 
-[  Info  ] (  36/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Hits SuperHD) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  29/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Hits SuperHD) -- mode Incremental
+[  Info  ] 0.21 sec/update
 [  Debug ] 
-[  Info  ] (  37/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Family HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  30/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Family HD) -- mode Incremental
+[  Info  ] 0.19 sec/update
 [  Debug ] 
-[  Info  ] (  38/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Family SuperHD) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  31/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Family SuperHD) -- mode Incremental
+[  Info  ] 0.17 sec/update
 [  Debug ] 
-[  Info  ] (  39/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Passion HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  32/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Passion HD) -- mode Incremental
+[  Info  ] 0.18 sec/update
 [  Debug ] 
-[  Info  ] (  40/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Comedy) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  33/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Comedy) -- mode Incremental
+[  Info  ] 0.20 sec/update
 [  Debug ] 
-[  Info  ] (  41/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Classics) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  34/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Classics) -- mode Incremental
+[  Info  ] 0.19 sec/update
 [  Debug ] 
-[  Info  ] (  42/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Max HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  35/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Max HD) -- mode Incremental
+[  Info  ] 0.17 sec/update
 [  Debug ] 
-[  Info  ] (  43/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Max Super hd) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  36/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Max Super hd) -- mode Incremental
+[  Info  ] 0.18 sec/update
 [  Debug ] 
-[  Info  ] (  44/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Max +1) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  37/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Max +1) -- mode Incremental
+[  Info  ] 0.29 sec/update
 [  Debug ] 
-[  Info  ] (  45/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Cult HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  38/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Cult HD) -- mode Incremental
+[  Info  ] 0.18 sec/update
 [  Debug ] 
-[  Info  ] (  46/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky TG24) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  39/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky TG24) -- mode Incremental
+[  Info  ] 0.15 sec/update
 [  Debug ] 
-[  Info  ] (  47/165 ) PROGRAMMI-TV.EU -- chan. (xmltv_id=TGcom 24) -- mode Incremental
+[  Info  ] (  40/165 ) PROGRAMMI-TV.EU -- chan. (xmltv_id=TGcom 24) -- mode Incremental
 [Error   ] no shows in indexpage!
 [Error   ] Cannot find any shows on the Index Page !
 [  Info  ] 
@@ -381,7 +409,7 @@
 [  Info  ]      total after update        0
 
 [  Debug ] 
-[  Info  ] (  48/165 ) PROGRAMMI-TV.EU -- chan. (xmltv_id=Rai News 24) -- mode Incremental
+[  Info  ] (  41/165 ) PROGRAMMI-TV.EU -- chan. (xmltv_id=Rai News 24) -- mode Incremental
 [Error   ] no shows in indexpage!
 [Error   ] Cannot find any shows on the Index Page !
 [  Info  ] 
@@ -391,52 +419,52 @@
 [  Info  ]      total after update        0
 
 [  Debug ] 
-[  Info  ] (  49/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Uno HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  42/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Uno HD) -- mode Incremental
+[  Info  ] 0.17 sec/update
 [  Debug ] 
-[  Info  ] (  50/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Uno +1) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  43/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Uno +1) -- mode Incremental
+[  Info  ] 0.26 sec/update
 [  Debug ] 
-[  Info  ] (  51/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=SKY CLASSICA HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  44/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=SKY CLASSICA HD) -- mode Incremental
+[  Info  ] 0.18 sec/update
 [  Debug ] 
-[  Info  ] (  52/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Atlantic HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  45/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Atlantic HD) -- mode Incremental
+[  Info  ] 0.18 sec/update
 [  Debug ] 
-[  Info  ] (  53/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Atlantic +1) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  46/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Atlantic +1) -- mode Incremental
+[  Info  ] 0.17 sec/update
 [  Debug ] 
-[  Info  ] (  54/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  47/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox HD) -- mode Incremental
+[  Info  ] 0.17 sec/update
 [  Debug ] 
-[  Info  ] (  55/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox +1) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  48/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox +1) -- mode Incremental
+[  Info  ] 0.17 sec/update
 [  Debug ] 
-[  Info  ] (  56/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Life HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  49/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Life HD) -- mode Incremental
+[  Info  ] 0.17 sec/update
 [  Debug ] 
-[  Info  ] (  57/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Life +1) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  50/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Life +1) -- mode Incremental
+[  Info  ] 0.17 sec/update
 [  Debug ] 
-[  Info  ] (  58/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Crime HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  51/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Crime HD) -- mode Incremental
+[  Info  ] 0.17 sec/update
 [  Debug ] 
-[  Info  ] (  59/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Crime +1) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  52/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Crime +1) -- mode Incremental
+[  Info  ] 0.17 sec/update
 [  Debug ] 
-[  Info  ] (  60/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Comedy HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  53/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Comedy HD) -- mode Incremental
+[  Info  ] 0.18 sec/update
 [  Debug ] 
-[  Info  ] (  61/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Comedy Central) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  54/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Comedy Central) -- mode Incremental
+[  Info  ] 0.17 sec/update
 [  Debug ] 
-[  Info  ] (  62/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Fox Animation HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  55/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Fox Animation HD) -- mode Incremental
+[  Info  ] 0.16 sec/update
 [  Debug ] 
-[  Info  ] (  63/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=CI Crime+Investigation HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  56/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=CI Crime+Investigation HD) -- mode Incremental
+[  Info  ] 0.17 sec/update
 [  Debug ] 
-[  Info  ] (  64/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky AXN) -- mode Incremental
+[  Info  ] (  57/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky AXN) -- mode Incremental
 [Error   ] Unable to update channel Sky AXN
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -444,7 +472,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  64/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky AXN SciFi) -- mode Incremental
+[  Info  ] (  57/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky AXN SciFi) -- mode Incremental
 [Error   ] Unable to update channel Sky AXN SciFi
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -452,201 +480,199 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  64/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport F1 HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  57/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport F1 HD) -- mode Incremental
+[  Info  ] 0.18 sec/update
 [  Debug ] 
-[  Info  ] (  65/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport F1 SuperHD) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  58/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport F1 SuperHD) -- mode Incremental
+[  Info  ] 0.16 sec/update
 [  Debug ] 
-[  Info  ] (  66/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky MotoGP HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  59/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky MotoGP HD) -- mode Incremental
+[  Info  ] 0.16 sec/update
 [  Debug ] 
-[  Info  ] (  67/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky motoGP superHD) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  60/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky motoGP superHD) -- mode Incremental
+[  Info  ] 0.18 sec/update
 [  Debug ] 
-[  Info  ] (  68/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Bike Channel) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  61/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Bike Channel) -- mode Incremental
+[  Info  ] 0.17 sec/update
 [  Debug ] 
-[  Info  ] (  69/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Eurosport 1) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  62/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Eurosport 1) -- mode Incremental
+[  Info  ] 0.16 sec/update
 [  Debug ] 
-[  Info  ] (  70/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Eurosport 2) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  63/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Eurosport 2) -- mode Incremental
+[  Info  ] 0.17 sec/update
 [  Debug ] 
-[  Info  ] (  71/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport 24 HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  64/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport 24 HD) -- mode Incremental
+[  Info  ] 0.16 sec/update
 [  Debug ] 
-[  Info  ] (  72/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport 24 SuperHD) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  65/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport 24 SuperHD) -- mode Incremental
+[  Info  ] 0.15 sec/update
 [  Debug ] 
-[  Info  ] (  73/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport 1 HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  66/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport 1 HD) -- mode Incremental
+[  Info  ] 0.18 sec/update
 [  Debug ] 
-[  Info  ] (  74/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport 1 SuperHD) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  67/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport 1 SuperHD) -- mode Incremental
+[  Info  ] 0.18 sec/update
 [  Debug ] 
-[  Info  ] (  75/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport 2 HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  68/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport 2 HD) -- mode Incremental
+[  Info  ] 0.18 sec/update
 [  Debug ] 
-[  Info  ] (  76/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport 3 HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  69/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport 3 HD) -- mode Incremental
+[  Info  ] 0.17 sec/update
 [  Debug ] 
-[  Info  ] (  77/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Plus HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  70/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Plus HD) -- mode Incremental
+[  Info  ] 0.17 sec/update
 [  Debug ] 
-[  Info  ] (  78/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Mix) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  71/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Mix) -- mode Incremental
+[  Info  ] 0.17 sec/update
 [  Debug ] 
-[  Info  ] (  79/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Sports HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  72/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Sports HD) -- mode Incremental
+[  Info  ] 0.17 sec/update
 [  Debug ] 
-[  Info  ] (  80/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Sports SuperHD) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  73/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Sports SuperHD) -- mode Incremental
+[  Info  ] 0.18 sec/update
 [  Debug ] 
-[  Info  ] (  81/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Supercalcio HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  74/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Supercalcio HD) -- mode Incremental
+[  Info  ] 0.17 sec/update
 [  Debug ] 
-[  Info  ] (  82/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Supercalcio SuperHD) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  75/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Supercalcio SuperHD) -- mode Incremental
+[  Info  ] 0.17 sec/update
 [  Debug ] 
-[  Info  ] (  83/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Eurosport 1 Italia) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  76/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Eurosport 1 Italia) -- mode Incremental
+[  Info  ] 0.17 sec/update
 [  Debug ] 
-[  Info  ] (  84/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Eurosport 2 Italia) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  77/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Eurosport 2 Italia) -- mode Incremental
+[  Info  ] 0.17 sec/update
 [  Debug ] 
-[  Info  ] (  85/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 1 HD) -- mode Incremental
+[  Info  ] (  78/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 1 HD) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[  Info  ] 0.17 sec/update
 [  Debug ] 
-[  Info  ] (  86/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 1 SuperHDD) -- mode Incremental
+[  Info  ] (  79/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 1 SuperHDD) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[  Info  ] 0.17 sec/update
 [  Debug ] 
-[  Info  ] (  87/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 2 HD) -- mode Incremental
+[  Info  ] (  80/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 2 HD) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[  Info  ] 0.17 sec/update
 [  Debug ] 
-[  Info  ] (  88/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 3 HD) -- mode Incremental
+[  Info  ] (  81/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 3 HD) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[  Info  ] 0.16 sec/update
 [  Debug ] 
-[  Info  ] (  89/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 4 HD) -- mode Incremental
+[  Info  ] (  82/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 4 HD) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[  Info  ] 0.17 sec/update
 [  Debug ] 
-[  Info  ] (  90/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 5 HD) -- mode Incremental
+[  Info  ] (  83/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 5 HD) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[  Info  ] 0.16 sec/update
 [  Debug ] 
-[  Info  ] (  91/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 6 sd) -- mode Incremental
+[  Info  ] (  84/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 6 sd) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[  Info  ] 0.18 sec/update
 [  Debug ] 
-[  Info  ] (  92/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 7 sd) -- mode Incremental
+[  Info  ] (  85/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 7 sd) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[  Info  ] 0.17 sec/update
 [  Debug ] 
-[  Info  ] (  93/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 8 sd) -- mode Incremental
+[  Info  ] (  86/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 8 sd) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[  Info  ] 0.14 sec/update
 [  Debug ] 
-[  Info  ] (  94/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 9 sd) -- mode Incremental
+[  Info  ] (  87/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 9 sd) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[  Info  ] 0.18 sec/update
 [  Debug ] 
-[  Info  ] (  95/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 10 sd) -- mode Incremental
+[  Info  ] (  88/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 10 sd) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[  Info  ] 0.17 sec/update
 [  Debug ] 
-[  Info  ] (  96/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 11 sd) -- mode Incremental
+[  Info  ] (  89/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 11 sd) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[  Info  ] 0.17 sec/update
 [  Debug ] 
-[  Info  ] (  97/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 12 sd) -- mode Incremental
+[  Info  ] (  90/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 12 sd) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[  Info  ] 0.18 sec/update
 [  Debug ] 
-[  Info  ] (  98/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 13 sd) -- mode Incremental
+[  Info  ] (  91/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 13 sd) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[  Info  ] 0.14 sec/update
 [  Debug ] 
-[  Info  ] (  99/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Super Tennis HD) -- mode Incremental
+[  Info  ] (  92/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Super Tennis HD) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[  Info  ] 0.19 sec/update
 [  Debug ] 
-[  Info  ] ( 100/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Milan Channel) -- mode Incremental
+[  Info  ] (  93/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Milan Channel) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[  Info  ] 0.18 sec/update
 [  Debug ] 
-[  Info  ] ( 101/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Juventus Channel) -- mode Incremental
+[  Info  ] (  94/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Juventus Channel) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[  Info  ] 0.29 sec/update
 [  Debug ] 
-[  Info  ] ( 102/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Inter Channel) -- mode Incremental
+[  Info  ] (  95/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Inter Channel) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[  Info  ] 0.27 sec/update
 [  Debug ] 
-[  Info  ] ( 103/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Roma Channel) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  96/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Roma Channel) -- mode Incremental
+[  Info  ] 0.17 sec/update
 [  Debug ] 
-[  Info  ] ( 104/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Lazio Style Channel) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  97/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Lazio Style Channel) -- mode Incremental
+[  Info  ] 0.18 sec/update
 [  Debug ] 
-[  Info  ] ( 105/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky arte hd) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  98/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky arte hd) -- mode Incremental
+[  Info  ] 0.18 sec/update
 [  Debug ] 
-[  Info  ] ( 106/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Discovery Channel HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] (  99/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Discovery Channel HD) -- mode Incremental
+[  Info  ] 0.18 sec/update
 [  Debug ] 
-[  Info  ] ( 107/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Discovery Science) -- mode Incremental
-[  Info  ] 
+[  Info  ] ( 100/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Discovery Science) -- mode Incremental
+[  Info  ] 0.18 sec/update
 [  Debug ] 
-[  Info  ] ( 108/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Discovery Travel Living) -- mode Incremental
-[  Info  ] 
+[  Info  ] ( 101/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Discovery Travel Living) -- mode Incremental
+[  Info  ] 0.16 sec/update
 [  Debug ] 
-[  Info  ] ( 109/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=NatGeoWild) -- mode Incremental
-[  Info  ] 
+[  Info  ] ( 102/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=NatGeoWild) -- mode Incremental
+[  Info  ] 0.17 sec/update
 [  Debug ] 
-[  Info  ] ( 110/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=National Geographic) -- mode Incremental
-[  Info  ] 
+[  Info  ] ( 103/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=National Geographic) -- mode Incremental
+[  Info  ] 0.18 sec/update
 [  Debug ] 
-[  Info  ] ( 111/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=National geo H265) -- mode Incremental
-[  Info  ] 
+[  Info  ] ( 104/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=National geo H265) -- mode Incremental
+[  Info  ] 0.18 sec/update
 [  Debug ] 
-[  Info  ] ( 112/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=NatGeoPeople) -- mode Incremental
-[  Info  ] 
+[  Info  ] ( 105/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=NatGeoPeople) -- mode Incremental
+[  Info  ] 0.17 sec/update
 [  Debug ] 
-[  Info  ] ( 113/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=History Channel HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] ( 106/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=History Channel HD) -- mode Incremental
+[  Info  ] 0.16 sec/update
 [  Debug ] 
-[  Info  ] ( 114/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Focus) -- mode Incremental
-[  Info  ] 
+[  Info  ] ( 107/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Focus) -- mode Incremental
+[  Info  ] 0.18 sec/update
 [  Debug ] 
-[  Info  ] ( 115/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Dmax) -- mode Incremental
-[  Info  ] 
+[  Info  ] ( 108/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Dmax) -- mode Incremental
+[  Info  ] 0.18 sec/update
 [  Debug ] 
-[  Info  ] ( 116/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Real Time HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] ( 109/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Real Time HD) -- mode Incremental
+[  Info  ] 0.20 sec/update
 [  Debug ] 
-[  Info  ] ( 117/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Caccia e Pesca) -- mode Incremental
-[  Info  ] 
+[  Info  ] ( 110/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Caccia e Pesca) -- mode Incremental
+[  Info  ] 0.18 sec/update
 [  Debug ] 
-[  Info  ] ( 118/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Pesca e Caccia) -- mode Incremental
-[Warning ] error downloading page: Error getting response stream (ReadDone2): ReceiveFailure
-[Warning ] pausing 1 of 4 times for 5 seconds before re-try.
-[  Info  ] 
+[  Info  ] ( 111/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Pesca e Caccia) -- mode Incremental
+[  Info  ] 0.18 sec/update
 [  Debug ] 
-[  Info  ] ( 119/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cielo) -- mode Incremental
-[  Info  ] 
+[  Info  ] ( 112/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cielo) -- mode Incremental
+[  Info  ] 0.19 sec/update
 [  Debug ] 
-[  Info  ] ( 120/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Animal Planet) -- mode Incremental
-[  Info  ] 
+[  Info  ] ( 113/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Animal Planet) -- mode Incremental
+[  Info  ] 0.17 sec/update
 [  Debug ] 
-[  Info  ] ( 121/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Gambero Rosso) -- mode Incremental
-[  Info  ] 
+[  Info  ] ( 114/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Gambero Rosso) -- mode Incremental
+[  Info  ] 0.18 sec/update
 [  Debug ] 
-[  Info  ] ( 122/165 ) ITALIASMART.TV -- chan. (xmltv_id=Alice) -- mode Incremental
+[  Info  ] ( 115/165 ) ITALIASMART.TV -- chan. (xmltv_id=Alice) -- mode Incremental
 [Warning ] error downloading page: The request timed out (5sec)
 [Warning ] Retry 1 of 4 times
 [Warning ] error downloading page: The request timed out (10sec)
@@ -655,7 +681,7 @@
 [Warning ] Retry 3 of 4 times
 [Warning ] error downloading page: The request timed out (20sec)
 [Warning ] Retry 4 of 4 times
-[        ] Job finished at 05/12/2017 23:24:37 done in 9m 20s
+[        ] Job finished at 06/12/2017 00:57:38 done in 52m 35s
 [Critical] Unhandled Exception
 [Critical] 
 Index was outside the bounds of the array.
