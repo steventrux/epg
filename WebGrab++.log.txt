@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 22/12/2017 14:05:03
+[        ] Job started at 22/12/2017 16:05:03
 [  Debug ] 
 [  Debug ] Running  on: Unix 3.13.0.132
 [  Debug ] Environment: 4.0.30319.42000
@@ -29,7 +29,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+01:00	(no DST in effect)
 [  Debug ] 	next DST dates  :	25/03/2018 02:00 (local)
 [  Debug ] 	                :	28/10/2018 03:00 (local)
-[  Debug ] 	local time now  :	22/12/2017 14:05:03
+[  Debug ] 	local time now  :	22/12/2017 16:05:03
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -218,46 +218,50 @@
 [  Debug ] 
 [  Info  ] (   4/163 ) MEDIASET.IT -- chan. (xmltv_id=Rete 4 HD) -- mode Incremental
 [  Debug ]    skipped show longer than 15 hour(s) at 25/12/2017 01:35:00 title TG4 - NIGHT NEWS
-[  Debug ]    suspicious      title in index page  = COME ERAVAMO
-[  Debug ]       differs from title in showdetails = COME ERAVAMO (?)
+[  Debug ]    suspicious      title in index page  = TG4 - NIGHT NEWS
+[  Debug ]       differs from title in showdetails = DUE PER TRE III
 [  Debug ]    suspicious      title in index page  = UN BAMBINO DI NOME GESU'
 [  Debug ]       differs from title in showdetails = TELEVENDITA MEDIA SHOPPING
 [  Debug ]    suspicious      title in index page  = UN AMORE SOTTO L'ALBERO
 [  Debug ]       differs from title in showdetails = PREMIO PERSEFONE
 [  Debug ]    suspicious      title in index page  = TG4 - NIGHT NEWS
 [  Debug ]       differs from title in showdetails = MODAMANIA
-[  Debug ]    suspicious      title in index page  = JUSTIFIED IV
-[  Debug ]       differs from title in showdetails = JUSTIFIED IV (?)
 [  Debug ]    suspicious      title in index page  = FINALMENTE NATALE
 [  Debug ]       differs from title in showdetails = CARABINIERI 6
 [  Debug ]    suspicious      title in index page  = IL PADRINO -PARTE III
 [  Debug ]       differs from title in showdetails = TANGO & CASH
-[  Info  ] 0.09 sec/update
+[  Info  ] 0.50 sec/update
 [  Debug ] 
 [  Info  ] (   5/163 ) MEDIASET.IT -- chan. (xmltv_id=Canale 5 HD) -- mode Incremental
-[  Info  ] 0.12 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   6/163 ) MEDIASET.IT -- chan. (xmltv_id=Canale 5 HD H265) -- mode Incremental
-[  Info  ] 0.12 sec/update
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
+[Warning ] error downloading page: Error getting response stream (ReadDone1): ReceiveFailure
+[Warning ] pausing 2 of 4 times for 10 seconds before re-try.
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   7/163 ) MEDIASET.IT -- chan. (xmltv_id=Italia 1 HD) -- mode Incremental
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
 [Error   ] Unable to update channel Italia 1 HD
 [Critical] Generic syntax exception:
 [Critical]    message: 
 [Error   ] Current culture: en-GB
 [Error   ] time parsing error : String was not recognized as a valid DateTime.
 [Error   ] nextstarttime time scrubbed : 
-[Error   ] computer date/time format: 22/12/2017 14:06:40
+[Error   ] computer date/time format: 22/12/2017 16:07:26
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] (   7/163 ) MEDIASET.IT -- chan. (xmltv_id=Italia 2) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   8/163 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La1 HD) -- mode Incremental
-[  Info  ] 0.10 sec/update
+[  Info  ] 0.09 sec/update
 [  Debug ] 
 [  Info  ] (   9/163 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La2 HD) -- mode Incremental
-[  Info  ] 0.04 sec/update
+[  Info  ] 0.03 sec/update
 [  Debug ] 
 [  Info  ] (  10/163 ) STASERAINTV.COM -- chan. (xmltv_id=La 5) -- mode Incremental
 [  Info  ] 
@@ -297,7 +301,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  22/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai 4 HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.22 sec/update
 [  Debug ] 
 [  Info  ] (  23/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai 5 HD) -- mode Incremental
 [  Info  ] 
@@ -306,13 +310,13 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  25/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Giallo) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.21 sec/update
 [  Debug ] 
 [  Info  ] (  26/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=LEI) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  27/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=LaEffe) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.21 sec/update
 [  Debug ] 
 [  Info  ] (  28/163 ) PROGRAMMI-TV.EU -- chan. (xmltv_id=La3) -- mode Incremental
 [Error   ] no shows in indexpage!
@@ -325,19 +329,19 @@
 
 [  Debug ] 
 [  Info  ] (  29/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema 1 HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.17 sec/update
 [  Debug ] 
 [  Info  ] (  30/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema 1 SuperHD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.17 sec/update
 [  Debug ] 
 [  Info  ] (  31/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema +1) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.17 sec/update
 [  Debug ] 
 [  Info  ] (  32/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema +24 SuperHD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.17 sec/update
 [  Debug ] 
 [  Info  ] (  33/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema +24) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.17 sec/update
 [  Debug ] 
 [  Info  ] (  34/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Hits HD) -- mode Incremental
 [  Info  ] 
@@ -346,19 +350,19 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  36/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Family HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.17 sec/update
 [  Debug ] 
 [  Info  ] (  37/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Family SuperHD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.17 sec/update
 [  Debug ] 
 [  Info  ] (  38/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Passion HD) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  39/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Comedy) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.17 sec/update
 [  Debug ] 
 [  Info  ] (  40/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Classics) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.19 sec/update
 [  Debug ] 
 [  Info  ] (  41/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Max HD) -- mode Incremental
 [  Info  ] 
@@ -429,13 +433,13 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  59/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Comedy HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.20 sec/update
 [  Debug ] 
 [  Info  ] (  60/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Comedy Central) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  61/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Fox Animation HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.22 sec/update
 [  Debug ] 
 [  Info  ] (  62/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=CI Crime+Investigation HD) -- mode Incremental
 [  Info  ] 
@@ -472,10 +476,10 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  68/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Eurosport 1) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.21 sec/update
 [  Debug ] 
 [  Info  ] (  69/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Eurosport 2) -- mode Incremental
-[  Info  ] 0.19 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  70/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport 24 HD) -- mode Incremental
 [  Info  ] 
@@ -484,103 +488,103 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  72/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport 1 HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.21 sec/update
 [  Debug ] 
 [  Info  ] (  73/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport 1 SuperHD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.21 sec/update
 [  Debug ] 
 [  Info  ] (  74/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport 2 HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.20 sec/update
 [  Debug ] 
 [  Info  ] (  75/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport 3 HD) -- mode Incremental
-[  Info  ] 0.17 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  76/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Plus HD) -- mode Incremental
-[  Info  ] 0.19 sec/update
+[  Info  ] 0.18 sec/update
 [  Debug ] 
 [  Info  ] (  77/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Mix) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  78/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Sports HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.18 sec/update
 [  Debug ] 
 [  Info  ] (  79/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Sports SuperHD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.19 sec/update
 [  Debug ] 
 [  Info  ] (  80/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Supercalcio HD) -- mode Incremental
-[  Info  ] 0.17 sec/update
-[  Debug ] 
-[  Info  ] (  81/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Supercalcio SuperHD) -- mode Incremental
-[  Info  ] 0.17 sec/update
-[  Debug ] 
-[  Info  ] (  82/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Eurosport 1 Italia) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
+[  Info  ] (  81/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Supercalcio SuperHD) -- mode Incremental
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (  82/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Eurosport 1 Italia) -- mode Incremental
+[  Info  ] 0.21 sec/update
+[  Debug ] 
 [  Info  ] (  83/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Eurosport 2 Italia) -- mode Incremental
-[  Info  ] 0.19 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  84/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 1 HD) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.15 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  85/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 1 SuperHDD) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.15 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  86/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 2 HD) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.15 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  87/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 3 HD) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.14 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  88/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 4 HD) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.15 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  89/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 5 HD) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.15 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  90/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 6 sd) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.15 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  91/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 7 sd) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.15 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  92/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 8 sd) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.18 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  93/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 9 sd) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.68 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  94/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 10 sd) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.17 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  95/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 11 sd) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] (  96/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 12 sd) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.16 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  97/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 13 sd) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.16 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  98/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Super Tennis HD) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  99/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Milan Channel) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[  Info  ] 0.22 sec/update
 [  Debug ] 
 [  Info  ] ( 100/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Juventus Channel) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
@@ -594,13 +598,13 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 103/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Lazio Style Channel) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.18 sec/update
 [  Debug ] 
 [  Info  ] ( 104/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky arte hd) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 105/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Discovery Channel HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.20 sec/update
 [  Debug ] 
 [  Info  ] ( 106/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Discovery Science) -- mode Incremental
 [  Info  ] 
@@ -621,10 +625,10 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 112/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=History Channel HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.23 sec/update
 [  Debug ] 
 [  Info  ] ( 113/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Focus) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.21 sec/update
 [  Debug ] 
 [  Info  ] ( 114/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Dmax) -- mode Incremental
 [  Info  ] 
@@ -639,7 +643,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 118/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cielo) -- mode Incremental
-[  Info  ] 0.23 sec/update
+[  Info  ] 0.22 sec/update
 [  Debug ] 
 [  Info  ] ( 119/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Animal Planet) -- mode Incremental
 [  Info  ] 
@@ -651,7 +655,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 122/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cielo HD) -- mode Incremental
-[  Info  ] 0.20 sec/update
+[  Info  ] 0.21 sec/update
 [  Debug ] 
 [  Info  ] ( 123/163 ) RAI.IT -- chan. (xmltv_id=Rai Gulp HD) -- mode Incremental
 [  Info  ] 
@@ -693,8 +697,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 136/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Super !) -- mode Incremental
-[  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[  Info  ] 0.22 sec/update
 [  Debug ] 
 [  Info  ] ( 137/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Boing) -- mode Incremental
 [  Info  ] 
@@ -729,7 +732,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 28/12/2017 06:30:00 stop = 28/12/2017 06:38:00 title = ANIMALI FANTASTICI E DOVER TROVARLI TRAILER - PREVIEW
 [  Info  ]       Replaces ----- start = 28/12/2017 06:30:00 stop = 28/12/2017 06:38:00 title = ANIMALI FANTASTICI E DOVER TROVARLI TRAILER - PREVIEW
-[  Info  ] 0.49 sec/update
+[  Info  ] 0.54 sec/update
 [  Debug ] 
 [  Info  ] ( 144/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema +24) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = I GRANDI INCONTRI - RUBINI E SCAMARCIO
@@ -746,7 +749,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 28/12/2017 05:07:00 stop = 28/12/2017 06:30:00 title = Spy Kids 4: E' Tempo Di Eroi
 [  Info  ]       Replaces ----- start = 28/12/2017 05:07:00 stop = 28/12/2017 06:30:00 title = Spy Kids 4: E' Tempo Di Eroi
-[  Info  ] 0.45 sec/update
+[  Info  ] 0.59 sec/update
 [  Debug ] 
 [  Info  ] ( 145/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema 2) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = DRAGON TRAINER 2
@@ -785,7 +788,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/12/2017 03:01:00 stop = 26/12/2017 03:11:00 title = C'ERA UNA VOLTA LA LINEA -
 [  Info  ]       Replaces ----- start = 26/12/2017 03:01:00 stop = 26/12/2017 03:11:00 title = C'ERA UNA VOLTA LA LINEA -
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 146/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema 2 +24) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = DRAGON TRAINER 2
@@ -824,7 +827,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 27/12/2017 03:01:00 stop = 27/12/2017 03:11:00 title = C'ERA UNA VOLTA LA LINEA -
 [  Info  ]       Replaces ----- start = 27/12/2017 03:01:00 stop = 27/12/2017 03:11:00 title = C'ERA UNA VOLTA LA LINEA -
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 147/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Energy) -- mode Incremental
 [  Info  ] 
@@ -876,7 +879,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 28/12/2017 06:30:00 stop = 28/12/2017 06:37:00 title = LA TEORIA DEL TUTTO - FULL EMOTION
 [  Info  ]       Replaces ----- start = 28/12/2017 06:30:00 stop = 28/12/2017 06:37:00 title = LA TEORIA DEL TUTTO - FULL EMOTION
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 149/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Comedy) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = A CENA CON...
@@ -923,7 +926,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 28/12/2017 16:04:00 stop = 28/12/2017 17:56:00 title = Così E' La Vita
 [  Info  ]       Replaces ----- start = 28/12/2017 16:04:00 stop = 28/12/2017 17:56:00 title = Così E' La Vita
-[  Info  ] 0.12 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 150/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Investigation Discovery) -- mode Incremental
 [  Info  ] 
@@ -1100,7 +1103,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 27/12/2017 14:05:00 stop = 27/12/2017 15:50:00 title = Becoming Bond
 [  Info  ]       Replaces ----- start = 27/12/2017 14:05:00 stop = 27/12/2017 15:50:00 title = Becoming Bond
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.12 sec/update
 [  Debug ] 
 [  Info  ] ( 153/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action HD) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = UNDERCOVER IV
@@ -2132,7 +2135,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 28/12/2017 23:54:00 stop = 29/12/2017 00:45:00 title = IL RITORNO DEL FIGLIO - GRIMM VI
 [  Info  ]       Replaces ----- start = 28/12/2017 23:54:00 stop = 29/12/2017 00:45:00 title = IL RITORNO DEL FIGLIO - GRIMM VI
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 155/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Crime) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = THE MENTALIST V
@@ -3618,7 +3621,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 28/12/2017 23:27:00 stop = 28/12/2017 23:50:00 title = LA RICORRENZA DEL TUTTO PUO' ACCADERE - BIG BANG THEORY VII
 [  Info  ]       Replaces ----- start = 28/12/2017 23:27:00 stop = 28/12/2017 23:50:00 title = LA RICORRENZA DEL TUTTO PUO' ACCADERE - BIG BANG THEORY VII
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.13 sec/update
 [  Debug ] 
 [  Info  ] ( 157/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Stories) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = GIRLFRIENDS' GUIDE TO DIVORCE I
@@ -5217,7 +5220,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 28/12/2017 22:44:00 stop = 29/12/2017 00:30:00 title = JUVENTUS - INTER - CAMPIONATO DI CALCIO SERIE A 16 - 17 (JUVENTUS)
 [  Info  ]       Replaces ----- start = 28/12/2017 22:44:00 stop = 29/12/2017 00:30:00 title = JUVENTUS - INTER - CAMPIONATO DI CALCIO SERIE A 16 - 17 (JUVENTUS)
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 160/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Calcio 1) -- mode Incremental
 [  Info  ]    epg correction : 
@@ -5642,10 +5645,10 @@
 [  Info  ]       Replaces ----- start = 28/12/2017 22:44:00 stop = 29/12/2017 00:30:00 title = JUVENTUS - INTER - CAMPIONATO DI CALCIO SERIE A 16 - 17 (JUVENTUS)
 [  Info  ] 0.12 sec/update
 [  Debug ] 
-[  Debug ] 34282 shows in 163 channels
-[  Debug ] 1038 updated shows
-[  Debug ] 67 new shows added
+[  Debug ] 34392 shows in 163 channels
+[  Debug ] 2066 updated shows
+[  Debug ] 17 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 22/12/2017 14:21:30 done in 16m 26s
+[        ] Job finished at 22/12/2017 16:27:07 done in 22m 4s
 [  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
