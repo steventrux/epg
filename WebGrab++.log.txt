@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 12/01/2018 18:05:03
+[        ] Job started at 12/01/2018 20:05:04
 [  Debug ] 
 [  Debug ] Running  on: Unix 3.13.0.132
 [  Debug ] Environment: 4.0.30319.42000
@@ -29,7 +29,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+01:00	(no DST in effect)
 [  Debug ] 	next DST dates  :	25/03/2018 02:00 (local)
 [  Debug ] 	                :	28/10/2018 03:00 (local)
-[  Debug ] 	local time now  :	12/01/2018 18:05:03
+[  Debug ] 	local time now  :	12/01/2018 20:05:04
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -219,25 +219,25 @@
 [  Info  ] (   4/163 ) MEDIASET.IT -- chan. (xmltv_id=Rete 4 HD) -- mode Incremental
 [  Debug ]    skipped negative show time! at 13/01/2018 01:11:00
 [  Debug ]    skipped negative show time! at 15/01/2018 01:31:00
-[  Info  ] 0.12 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   5/163 ) MEDIASET.IT -- chan. (xmltv_id=Canale 5 HD) -- mode Incremental
-[  Info  ] 0.12 sec/update
-[  Debug ] 
-[  Info  ] (   6/163 ) MEDIASET.IT -- chan. (xmltv_id=Canale 5 HD H265) -- mode Incremental
 [  Info  ] 0.11 sec/update
 [  Debug ] 
+[  Info  ] (   6/163 ) MEDIASET.IT -- chan. (xmltv_id=Canale 5 HD H265) -- mode Incremental
+[  Info  ] 0.09 sec/update
+[  Debug ] 
 [  Info  ] (   7/163 ) MEDIASET.IT -- chan. (xmltv_id=Italia 1 HD) -- mode Incremental
-[  Info  ] 0.13 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   8/163 ) MEDIASET.IT -- chan. (xmltv_id=Italia 2) -- mode Incremental
-[  Info  ] 0.14 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   9/163 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La1 HD) -- mode Incremental
 [  Info  ] 0.03 sec/update
 [  Debug ] 
 [  Info  ] (  10/163 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La2 HD) -- mode Incremental
-[  Info  ] 0.03 sec/update
+[  Info  ] 0.04 sec/update
 [  Debug ] 
 [  Info  ] (  11/163 ) STASERAINTV.COM -- chan. (xmltv_id=La 5) -- mode Incremental
 [  Info  ] 
@@ -258,13 +258,13 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  17/163 ) MEDIASET.IT -- chan. (xmltv_id=Mediaset Extra) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.12 sec/update
 [  Debug ] 
 [  Info  ] (  18/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Storia) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  19/163 ) MEDIASET.IT -- chan. (xmltv_id=Iris) -- mode Incremental
-[  Info  ] 0.12 sec/update
+[  Info  ] 0.13 sec/update
 [  Debug ] 
 [  Info  ] (  20/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Sport 1 HD) -- mode Incremental
 [  Info  ] 
@@ -313,6 +313,11 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  33/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema +24 SuperHD) -- mode Incremental
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
+[Warning ] error downloading page: Error: SendFailure (Cannot access a disposed object.
+Object name: 'System.Net.Sockets.NetworkStream'.)
+[Warning ] pausing 2 of 4 times for 10 seconds before re-try.
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  34/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema +24) -- mode Incremental
@@ -632,201 +637,10 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 124/163 ) RAI.IT -- chan. (xmltv_id=Rai Gulp HD) -- mode Incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 16/01/2018 07:20:00 stop = 16/01/2018 07:50:00 title = Mia And Me
-[  Info  ]       Replaces ----- start = 16/01/2018 07:20:00 stop = 16/01/2018 07:45:00 title = Mia And Me
-[  Info  ]       Replaces ----- start = 16/01/2018 07:45:00 stop = 16/01/2018 08:05:00 title = Mia And Me
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 16/01/2018 07:50:00 stop = 16/01/2018 08:10:00 title = Mia And Me
-[  Info  ]       Replaces ----- start = 16/01/2018 07:45:00 stop = 16/01/2018 08:05:00 title = Mia And Me
-[  Info  ]       Replaces ----- start = 16/01/2018 08:05:00 stop = 16/01/2018 08:10:00 title = Snap
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 16/01/2018 10:05:00 stop = 16/01/2018 10:25:00 title = Heidi
-[  Info  ]       Replaces ----- start = 16/01/2018 09:55:00 stop = 16/01/2018 10:20:00 title = Heidi
-[  Info  ]       Replaces ----- start = 16/01/2018 10:20:00 stop = 16/01/2018 10:45:00 title = Heidi
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 16/01/2018 10:25:00 stop = 16/01/2018 10:50:00 title = Heidi
-[  Info  ]       Replaces ----- start = 16/01/2018 10:20:00 stop = 16/01/2018 10:45:00 title = Heidi
-[  Info  ]       Replaces ----- start = 16/01/2018 10:45:00 stop = 16/01/2018 11:10:00 title = Zorro
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 16/01/2018 10:50:00 stop = 16/01/2018 11:15:00 title = Zorro
-[  Info  ]       Replaces ----- start = 16/01/2018 10:45:00 stop = 16/01/2018 11:10:00 title = Zorro
-[  Info  ]       Replaces ----- start = 16/01/2018 11:10:00 stop = 16/01/2018 11:35:00 title = Le Nuove Avventure Di Peter Pan
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 16/01/2018 11:15:00 stop = 16/01/2018 11:35:00 title = Le Nuove Avventure Di Peter Pan
-[  Info  ]       Replaces ----- start = 16/01/2018 11:10:00 stop = 16/01/2018 11:35:00 title = Le Nuove Avventure Di Peter Pan
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 16/01/2018 13:25:00 stop = 16/01/2018 13:50:00 title = Mia And Me
-[  Info  ]       Replaces ----- start = 16/01/2018 13:20:00 stop = 16/01/2018 13:45:00 title = Mia And Me
-[  Info  ]       Replaces ----- start = 16/01/2018 13:45:00 stop = 16/01/2018 14:10:00 title = I Fantasmi Di Casa Hathaway (ii)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 16/01/2018 14:15:00 stop = 16/01/2018 14:40:00 title = Alex And Co.
-[  Info  ]       Replaces ----- start = 16/01/2018 14:10:00 stop = 16/01/2018 14:35:00 title = Alex And Co.
-[  Info  ]       Replaces ----- start = 16/01/2018 14:35:00 stop = 16/01/2018 15:05:00 title = Maggie And Bianca (iii)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 16/01/2018 20:55:00 stop = 16/01/2018 21:25:00 title = Alex And Co.
-[  Info  ]       Replaces ----- start = 16/01/2018 20:30:00 stop = 16/01/2018 21:00:00 title = Maggie And Bianca (iii)
-[  Info  ]       Replaces ----- start = 16/01/2018 21:00:00 stop = 16/01/2018 21:25:00 title = Alex And Co.
-[  Info  ] 0.14 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 125/163 ) RAI.IT -- chan. (xmltv_id=Rai YoYo HD) -- mode Incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 17/01/2018 06:50:00 stop = 17/01/2018 07:00:00 title = Masha E Orso 2
-[  Info  ]       Replaces ----- start = 17/01/2018 06:50:00 stop = 17/01/2018 06:55:00 title = Masha E Orso 2
-[  Info  ]       Replaces ----- start = 17/01/2018 06:55:00 stop = 17/01/2018 07:00:00 title = Masha E Orso 2
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 17/01/2018 07:00:00 stop = 17/01/2018 07:05:00 title = Masha E Orso 2
-[  Info  ]       Replaces ----- start = 17/01/2018 07:00:00 stop = 17/01/2018 07:10:00 title = Masha E Orso 2
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 17/01/2018 07:05:00 stop = 17/01/2018 07:15:00 title = Masha E Orso 2
-[  Info  ]       Replaces ----- start = 17/01/2018 07:00:00 stop = 17/01/2018 07:10:00 title = Masha E Orso 2
-[  Info  ]       Replaces ----- start = 17/01/2018 07:10:00 stop = 17/01/2018 07:20:00 title = Topotip
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 17/01/2018 09:55:00 stop = 17/01/2018 10:05:00 title = Masha E Orso
-[  Info  ]       Replaces ----- start = 17/01/2018 09:55:00 stop = 17/01/2018 10:00:00 title = Masha E Orso
-[  Info  ]       Replaces ----- start = 17/01/2018 10:00:00 stop = 17/01/2018 10:10:00 title = Masha E Orso
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 17/01/2018 10:05:00 stop = 17/01/2018 10:10:00 title = Masha E Orso
-[  Info  ]       Replaces ----- start = 17/01/2018 10:00:00 stop = 17/01/2018 10:10:00 title = Masha E Orso
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 17/01/2018 10:35:00 stop = 17/01/2018 10:50:00 title = Il Postino Pat 22
-[  Info  ]       Replaces ----- start = 17/01/2018 10:35:00 stop = 17/01/2018 10:45:00 title = Il Postino Pat 22
-[  Info  ]       Replaces ----- start = 17/01/2018 10:45:00 stop = 17/01/2018 11:00:00 title = Chuggington 2
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 17/01/2018 11:10:00 stop = 17/01/2018 11:25:00 title = Pj Masks
-[  Info  ]       Replaces ----- start = 17/01/2018 11:10:00 stop = 17/01/2018 11:20:00 title = Pj Masks
-[  Info  ]       Replaces ----- start = 17/01/2018 11:20:00 stop = 17/01/2018 11:25:00 title = Yo Yo
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 17/01/2018 11:25:00 stop = 17/01/2018 11:30:00 title = Yo Yo
-[  Info  ]       Replaces ----- start = 17/01/2018 11:25:00 stop = 17/01/2018 11:35:00 title = Yo Yo
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 17/01/2018 11:30:00 stop = 17/01/2018 11:40:00 title = Yo Yo
-[  Info  ]       Replaces ----- start = 17/01/2018 11:25:00 stop = 17/01/2018 11:35:00 title = Yo Yo
-[  Info  ]       Replaces ----- start = 17/01/2018 11:35:00 stop = 17/01/2018 11:45:00 title = Yo Yo
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 17/01/2018 13:00:00 stop = 17/01/2018 13:10:00 title = Giulio Coniglio
-[  Info  ]       Replaces ----- start = 17/01/2018 13:00:00 stop = 17/01/2018 13:15:00 title = Giulio Coniglio
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 17/01/2018 13:10:00 stop = 17/01/2018 13:20:00 title = Giulio Coniglio
-[  Info  ]       Replaces ----- start = 17/01/2018 13:00:00 stop = 17/01/2018 13:15:00 title = Giulio Coniglio
-[  Info  ]       Replaces ----- start = 17/01/2018 13:15:00 stop = 17/01/2018 13:30:00 title = Giulio Coniglio
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 17/01/2018 13:20:00 stop = 17/01/2018 13:25:00 title = Masha E Orso
-[  Info  ]       Replaces ----- start = 17/01/2018 13:15:00 stop = 17/01/2018 13:30:00 title = Giulio Coniglio
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 17/01/2018 13:25:00 stop = 17/01/2018 13:35:00 title = Masha E Orso
-[  Info  ]       Replaces ----- start = 17/01/2018 13:15:00 stop = 17/01/2018 13:30:00 title = Giulio Coniglio
-[  Info  ]       Replaces ----- start = 17/01/2018 13:30:00 stop = 17/01/2018 13:35:00 title = Masha E Orso
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 17/01/2018 13:40:00 stop = 17/01/2018 13:45:00 title = Masha E Orso 2
-[  Info  ]       Replaces ----- start = 17/01/2018 13:40:00 stop = 17/01/2018 13:45:00 title = Masha E Orso
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 17/01/2018 14:20:00 stop = 17/01/2018 14:35:00 title = Pj Mask
-[  Info  ]       Replaces ----- start = 17/01/2018 14:20:00 stop = 17/01/2018 14:30:00 title = Pj Mask
-[  Info  ]       Replaces ----- start = 17/01/2018 14:30:00 stop = 17/01/2018 14:40:00 title = Bob Aggiustatutto
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 17/01/2018 14:35:00 stop = 17/01/2018 14:45:00 title = Bob Aggiustatutto
-[  Info  ]       Replaces ----- start = 17/01/2018 14:30:00 stop = 17/01/2018 14:40:00 title = Bob Aggiustatutto
-[  Info  ]       Replaces ----- start = 17/01/2018 14:40:00 stop = 17/01/2018 14:50:00 title = Bob Aggiustatutto
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 17/01/2018 14:45:00 stop = 17/01/2018 14:55:00 title = Bob Aggiustatutto
-[  Info  ]       Replaces ----- start = 17/01/2018 14:40:00 stop = 17/01/2018 14:50:00 title = Bob Aggiustatutto
-[  Info  ]       Replaces ----- start = 17/01/2018 14:50:00 stop = 17/01/2018 15:00:00 title = Chuggington 2
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 17/01/2018 15:50:00 stop = 17/01/2018 16:05:00 title = Pj Mask
-[  Info  ]       Replaces ----- start = 17/01/2018 15:50:00 stop = 17/01/2018 16:00:00 title = Pj Mask
-[  Info  ]       Replaces ----- start = 17/01/2018 16:00:00 stop = 17/01/2018 16:05:00 title = Masha E Orso
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 17/01/2018 16:10:00 stop = 17/01/2018 16:15:00 title = Masha E Orso
-[  Info  ]       Replaces ----- start = 17/01/2018 16:10:00 stop = 17/01/2018 16:20:00 title = Masha E Orso
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 17/01/2018 16:15:00 stop = 17/01/2018 16:25:00 title = Masha E Orso
-[  Info  ]       Replaces ----- start = 17/01/2018 16:10:00 stop = 17/01/2018 16:20:00 title = Masha E Orso
-[  Info  ]       Replaces ----- start = 17/01/2018 16:20:00 stop = 17/01/2018 16:30:00 title = Giulio Coniglio
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 17/01/2018 16:25:00 stop = 17/01/2018 16:35:00 title = Giulio Coniglio
-[  Info  ]       Replaces ----- start = 17/01/2018 16:20:00 stop = 17/01/2018 16:30:00 title = Giulio Coniglio
-[  Info  ]       Replaces ----- start = 17/01/2018 16:30:00 stop = 17/01/2018 16:40:00 title = Giulio Coniglio
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 17/01/2018 16:35:00 stop = 17/01/2018 16:45:00 title = Giulio Coniglio
-[  Info  ]       Replaces ----- start = 17/01/2018 16:30:00 stop = 17/01/2018 16:40:00 title = Giulio Coniglio
-[  Info  ]       Replaces ----- start = 17/01/2018 16:40:00 stop = 17/01/2018 16:45:00 title = Il Giorno In Cui Henry Incontro'...
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 17/01/2018 17:40:00 stop = 17/01/2018 17:45:00 title = Yo Yo
-[  Info  ]       Replaces ----- start = 17/01/2018 17:40:00 stop = 17/01/2018 17:50:00 title = Yo Yo
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 17/01/2018 17:55:00 stop = 17/01/2018 18:05:00 title = Pj Mask
-[  Info  ]       Replaces ----- start = 17/01/2018 17:50:00 stop = 17/01/2018 18:00:00 title = Yo Yo
-[  Info  ]       Replaces ----- start = 17/01/2018 18:00:00 stop = 17/01/2018 18:10:00 title = Pj Mask
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 17/01/2018 18:05:00 stop = 17/01/2018 18:20:00 title = Pj Mask
-[  Info  ]       Replaces ----- start = 17/01/2018 18:00:00 stop = 17/01/2018 18:10:00 title = Pj Mask
-[  Info  ]       Replaces ----- start = 17/01/2018 18:10:00 stop = 17/01/2018 18:20:00 title = Pj Mask
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 17/01/2018 19:20:00 stop = 17/01/2018 19:30:00 title = Masha E Orso
-[  Info  ]       Replaces ----- start = 17/01/2018 19:20:00 stop = 17/01/2018 19:35:00 title = Le Storie Di Paura Di Masha
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 17/01/2018 19:35:00 stop = 17/01/2018 19:55:00 title = La Casa Di Topolino Yr5 New
-[  Info  ]       Replaces ----- start = 17/01/2018 19:35:00 stop = 17/01/2018 20:00:00 title = La Casa Di Topolino Yr5 New
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 17/01/2018 20:00:00 stop = 17/01/2018 20:25:00 title = Dottoressa Peluche Yr 3
-[  Info  ]       Replaces ----- start = 17/01/2018 20:00:00 stop = 17/01/2018 20:05:00 title = Minnie's Bow Toons Yr2
-[  Info  ]       Replaces ----- start = 17/01/2018 20:05:00 stop = 17/01/2018 20:25:00 title = Dottoressa Peluche Yr 3
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 17/01/2018 20:35:00 stop = 17/01/2018 20:50:00 title = Pj Mask
-[  Info  ]       Replaces ----- start = 17/01/2018 20:35:00 stop = 17/01/2018 20:45:00 title = Pj Mask
-[  Info  ]       Replaces ----- start = 17/01/2018 20:45:00 stop = 17/01/2018 21:05:00 title = Pj Mask
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 17/01/2018 20:50:00 stop = 17/01/2018 21:00:00 title = Pj Mask
-[  Info  ]       Replaces ----- start = 17/01/2018 20:45:00 stop = 17/01/2018 21:05:00 title = Pj Mask
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 17/01/2018 23:00:00 stop = 17/01/2018 23:05:00 title = Molly Monster
-[  Info  ]       Replaces ----- start = 17/01/2018 22:55:00 stop = 17/01/2018 23:05:00 title = Yo Yo
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 17/01/2018 23:45:00 stop = 17/01/2018 23:50:00 title = Buonanotte Con Le Favole Di Yoyo 2013 Ep.65
-[  Info  ]       Replaces ----- start = 17/01/2018 23:45:00 stop = 17/01/2018 23:55:00 title = Buonanotte Con Le Favole Di Yoyo 2013 Ep.65
-[  Info  ] 0.14 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 126/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cartoon Network) -- mode Incremental
 [  Info  ] 
@@ -889,7 +703,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 13/01/2018 12:51:00 stop = 13/01/2018 13:05:00 title = TUTTA COLPA DI FREUD - ZOOM
 [  Info  ]       Replaces ----- start = 13/01/2018 12:51:00 stop = 13/01/2018 13:05:00 title = TUTTA COLPA DI FREUD - ZOOM
-[  Info  ] 0.18 sec/update
+[  Info  ] 0.20 sec/update
 [  Debug ] 
 [  Info  ] ( 145/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema +24) -- mode Incremental
 [  Info  ]    forced update : 
@@ -902,7 +716,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 14/01/2018 12:51:00 stop = 14/01/2018 13:05:00 title = TUTTA COLPA DI FREUD - ZOOM
 [  Info  ]       Replaces ----- start = 14/01/2018 12:51:00 stop = 14/01/2018 13:05:00 title = TUTTA COLPA DI FREUD - ZOOM
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 146/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema 2) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = 7 VOLTE 7
@@ -943,7 +757,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 18/01/2018 04:54:00 stop = 18/01/2018 06:30:00 title = La Cosa (di Matthijs van Heijningen Jr.)
 [  Info  ]       Replaces ----- start = 18/01/2018 04:54:00 stop = 18/01/2018 06:30:00 title = La Cosa (di Matthijs van Heijningen Jr.)
-[  Info  ] 0.16 sec/update
+[  Info  ] 0.17 sec/update
 [  Debug ] 
 [  Info  ] ( 149/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Emotion) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = FULL EMOTION
@@ -964,7 +778,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 16/01/2018 06:30:00 stop = 16/01/2018 06:37:00 title = I GIORNI DELL'ABBANDONO - FULL EMOTION
 [  Info  ]       Replaces ----- start = 16/01/2018 06:30:00 stop = 16/01/2018 06:37:00 title = I GIORNI DELL'ABBANDONO - FULL EMOTION
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 150/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Comedy) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = A CENA CON...
@@ -973,7 +787,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 14/01/2018 03:58:00 stop = 14/01/2018 04:26:00 title = PIERLUIGI FAVINO - INVITO A CENA CON...
 [  Info  ]       Replaces ----- start = 14/01/2018 03:58:00 stop = 14/01/2018 04:26:00 title = PIERLUIGI FAVINO - INVITO A CENA CON...
-[  Info  ] 0.16 sec/update
+[  Info  ] 0.17 sec/update
 [  Debug ] 
 [  Info  ] ( 151/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Investigation Discovery) -- mode Incremental
 [  Info  ] 
@@ -1063,7 +877,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 18/01/2018 05:40:00 stop = 18/01/2018 06:00:00 title = KEVIN COSTNER - CINECHAT - (KS-KR)
 [  Info  ]       Replaces ----- start = 18/01/2018 05:40:00 stop = 18/01/2018 06:00:00 title = KEVIN COSTNER - CINECHAT - (KS-KR)
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.18 sec/update
 [  Debug ] 
 [  Info  ] ( 153/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Paramount Channel) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = CINECHAT - JOHN TURTURRO
@@ -2262,7 +2076,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 18/01/2018 23:47:00 stop = 19/01/2018 00:38:00 title = OLTRE LO SPECCHIO - GRIMM VI
 [  Info  ]       Replaces ----- start = 18/01/2018 23:47:00 stop = 19/01/2018 00:38:00 title = OLTRE LO SPECCHIO - GRIMM VI
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 156/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Crime) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = THE MENTALIST VII
@@ -2573,7 +2387,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 18/01/2018 22:55:00 stop = 18/01/2018 23:56:00 title = SCAVA - ANIMAL KINGDOM II - PRIMA TV
 [  Info  ]       Replaces ----- start = 18/01/2018 22:55:00 stop = 18/01/2018 23:56:00 title = SCAVA - ANIMAL KINGDOM II - PRIMA TV
-[  Info  ] 0.16 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 157/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Joy) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = SUBURGATORY I
@@ -4551,7 +4365,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 18/01/2018 23:58:00 stop = 19/01/2018 00:55:00 title = GUARDA DAVANTI A TE - MR. ROBOT II
 [  Info  ]       Replaces ----- start = 18/01/2018 23:58:00 stop = 19/01/2018 00:55:00 title = GUARDA DAVANTI A TE - MR. ROBOT II
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 159/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Sport superHD) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = EDICOLA PREMIUM
@@ -5086,7 +4900,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 18/01/2018 16:55:00 stop = 18/01/2018 17:00:00 title = KOVACEVIC (4'09) - SERIE A EMOTION - 18 - PILLOLE
 [  Info  ]       Replaces ----- start = 18/01/2018 16:55:00 stop = 18/01/2018 17:00:00 title = KOVACEVIC (4'09) - SERIE A EMOTION - 18 - PILLOLE
-[  Info  ] 0.16 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 160/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Sport 2 HD) -- mode Incremental
 [  Info  ]    epg correction : 
@@ -5311,7 +5125,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 18/01/2018 20:30:00 stop = 18/01/2018 21:00:00 title = SECONDA GIORNATA 18/1 - UN GIRONE FA
 [  Info  ]       Replaces ----- start = 18/01/2018 20:30:00 stop = 18/01/2018 21:00:00 title = SECONDA GIORNATA 18/1 - UN GIRONE FA
-[  Info  ] 0.16 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 161/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Calcio 1) -- mode Incremental
 [  Info  ]    epg correction : 
@@ -5536,12 +5350,12 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 18/01/2018 20:30:00 stop = 18/01/2018 21:00:00 title = SECONDA GIORNATA 18/1 - UN GIRONE FA
 [  Info  ]       Replaces ----- start = 18/01/2018 20:30:00 stop = 18/01/2018 21:00:00 title = SECONDA GIORNATA 18/1 - UN GIRONE FA
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
-[  Debug ] 34894 shows in 163 channels
-[  Debug ] 957 updated shows
-[  Debug ] 6 new shows added
+[  Debug ] 34905 shows in 163 channels
+[  Debug ] 809 updated shows
+[  Debug ] 9 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 12/01/2018 18:18:35 done in 13m 31s
+[        ] Job finished at 12/01/2018 20:18:54 done in 13m 49s
 [  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
