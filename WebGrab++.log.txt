@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 25/01/2018 06:05:03
+[        ] Job started at 25/01/2018 08:05:03
 [  Debug ] 
 [  Debug ] Running  on: Unix 3.13.0.132
 [  Debug ] Environment: 4.0.30319.42000
@@ -29,7 +29,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+01:00	(no DST in effect)
 [  Debug ] 	next DST dates  :	25/03/2018 02:00 (local)
 [  Debug ] 	                :	28/10/2018 03:00 (local)
-[  Debug ] 	local time now  :	25/01/2018 06:05:03
+[  Debug ] 	local time now  :	25/01/2018 08:05:03
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -208,6 +208,11 @@
 [  Info  ] update requested for - 163 - out of - 163 - channels for 7 day(s)
 [  Debug ] 
 [  Info  ] (   1/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai 1 HD) -- mode Incremental
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
+[Warning ] error downloading page: Error: SendFailure (Cannot access a disposed object.
+Object name: 'System.Net.Sockets.NetworkStream'.)
+[Warning ] pausing 2 of 4 times for 10 seconds before re-try.
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   2/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai 2 HD) -- mode Incremental
@@ -218,19 +223,19 @@
 [  Debug ] 
 [  Info  ] (   4/163 ) MEDIASET.IT -- chan. (xmltv_id=Rete 4 HD) -- mode Incremental
 [  Debug ]    skipped negative show time! at 29/01/2018 01:36:00
-[  Info  ] 0.08 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   5/163 ) MEDIASET.IT -- chan. (xmltv_id=Canale 5 HD) -- mode Incremental
-[  Info  ] 0.07 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   6/163 ) MEDIASET.IT -- chan. (xmltv_id=Canale 5 HD H265) -- mode Incremental
-[  Info  ] 0.08 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   7/163 ) MEDIASET.IT -- chan. (xmltv_id=Italia 1 HD) -- mode Incremental
-[  Info  ] 0.07 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   8/163 ) MEDIASET.IT -- chan. (xmltv_id=Italia 2) -- mode Incremental
-[  Info  ] 0.07 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   9/163 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La1 HD) -- mode Incremental
 [  Info  ] 0.03 sec/update
@@ -239,31 +244,31 @@
 [  Info  ] 0.03 sec/update
 [  Debug ] 
 [  Info  ] (  11/163 ) STASERAINTV.COM -- chan. (xmltv_id=La 5) -- mode Incremental
-[  Info  ] 0.06 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  12/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=LA7) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  13/163 ) STASERAINTV.COM -- chan. (xmltv_id=LA7 D) -- mode Incremental
-[  Info  ] 0.06 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  14/163 ) STASERAINTV.COM -- chan. (xmltv_id=TV 8) -- mode Incremental
-[  Info  ] 0.05 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  15/163 ) STASERAINTV.COM -- chan. (xmltv_id=Nove HD) -- mode Incremental
-[  Info  ] 0.07 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  16/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Top Crime) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  17/163 ) MEDIASET.IT -- chan. (xmltv_id=Mediaset Extra) -- mode Incremental
-[  Info  ] 0.07 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  18/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Storia) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  19/163 ) MEDIASET.IT -- chan. (xmltv_id=Iris) -- mode Incremental
-[  Info  ] 0.07 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  20/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Sport 1 HD) -- mode Incremental
 [  Info  ] 
@@ -711,7 +716,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 28/01/2018 06:30:00 stop = 28/01/2018 08:36:00 title = Hunger Games: Il canto della rivolta - Parte I
 [  Info  ]       Replaces ----- start = 28/01/2018 06:30:00 stop = 28/01/2018 08:36:00 title = Hunger Games: Il canto della rivolta - Parte I
-[  Info  ] 0.19 sec/update
+[  Info  ] 0.24 sec/update
 [  Debug ] 
 [  Info  ] ( 145/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema +24) -- mode Incremental
 [  Info  ]    forced update : 
@@ -724,21 +729,13 @@
 [  Info  ]       Replaces ----- start = 27/01/2018 05:00:00 stop = 27/01/2018 06:30:00 title = A Cinderella Story: If The Shoe Fits
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/01/2018 06:30:00 stop = 27/01/2018 06:44:00 title = CARCERATO PER AMORE -
-[  Info  ]       Replaces ----- start = 27/01/2018 06:30:00 stop = 27/01/2018 07:04:00 title = CARCERATO PER AMORE -
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/01/2018 06:44:00 stop = 27/01/2018 07:04:00 title = FINCHE' CELLA NON CI SEPARI -
-[  Info  ]       Replaces ----- start = 27/01/2018 06:30:00 stop = 27/01/2018 07:04:00 title = CARCERATO PER AMORE -
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 28/01/2018 19:11:00 stop = 28/01/2018 21:15:00 title = Hunger Games: Il canto della rivolta - Parte I
 [  Info  ]       Replaces ----- start = 28/01/2018 19:11:00 stop = 28/01/2018 21:15:00 title = Hunger Games: Il canto della rivolta - Parte I
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 29/01/2018 06:30:00 stop = 29/01/2018 08:36:00 title = Hunger Games: Il canto della rivolta - Parte I
 [  Info  ]       Replaces ----- start = 29/01/2018 06:30:00 stop = 29/01/2018 08:36:00 title = Hunger Games: Il canto della rivolta - Parte I
-[  Info  ] 0.16 sec/update
+[  Info  ] 0.19 sec/update
 [  Debug ] 
 [  Info  ] ( 146/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema 2) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = IL MIO AMICO BABBO NATALE 2
@@ -759,11 +756,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 28/01/2018 10:09:00 stop = 28/01/2018 11:38:00 title = THE HUNTERS
 [  Info  ]       Replaces ----- start = 28/01/2018 10:09:00 stop = 28/01/2018 11:38:00 title = THE HUNTERS
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 29/01/2018 03:58:00 stop = 29/01/2018 06:30:00 title = Sotto Il Segno Del Pericolo
-[  Info  ]       Replaces ----- start = 29/01/2018 03:58:00 stop = 29/01/2018 06:30:00 title = Frankenstein
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.18 sec/update
 [  Debug ] 
 [  Info  ] ( 147/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema 2 +24) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = IL MIO AMICO BABBO NATALE 2
@@ -784,12 +777,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 29/01/2018 10:09:00 stop = 29/01/2018 11:38:00 title = THE HUNTERS
 [  Info  ]       Replaces ----- start = 29/01/2018 10:09:00 stop = 29/01/2018 11:38:00 title = THE HUNTERS
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 30/01/2018 02:35:00 stop = 30/01/2018 06:32:00 title = MAMMA DETECTIVE: RAPIMENTI -
-[  Info  ]       Replaces ----- start = 30/01/2018 02:35:00 stop = 30/01/2018 03:58:00 title = MAMMA DETECTIVE: RAPIMENTI -
-[  Info  ]       Replaces ----- start = 30/01/2018 03:58:00 stop = 30/01/2018 06:32:00 title = Frankenstein
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.12 sec/update
 [  Debug ] 
 [  Info  ] ( 148/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Energy) -- mode Incremental
 [  Info  ] 
@@ -821,10 +809,6 @@
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 28/01/2018 12:55:00 stop = 28/01/2018 16:55:00 title = EMOTION RITORNA ALLE 17.00 (?)
 [  Info  ]       Replaces ----- start = 28/01/2018 12:55:00 stop = 28/01/2018 16:55:00 title = EMOTION RITORNA ALLE 17.00 (?)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 28/01/2018 18:50:00 stop = 28/01/2018 20:50:00 title = Cuori In Volo
-[  Info  ]       Replaces ----- start = 28/01/2018 18:50:00 stop = 28/01/2018 20:50:00 title = Trash
 [  Info  ]    forced update : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 28/01/2018 20:50:00 stop = 28/01/2018 23:00:00 title = EMOTION RITORNA ALLE 23.00 (?)
@@ -835,19 +819,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 29/01/2018 03:51:00 stop = 29/01/2018 04:11:00 title = NUVOLA -
 [  Info  ]       Replaces ----- start = 29/01/2018 03:51:00 stop = 29/01/2018 04:11:00 title = NUVOLA -
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 30/01/2018 04:33:00 stop = 30/01/2018 04:47:00 title = FIORI SELVAGGI -
-[  Info  ]       Replaces ----- start = 30/01/2018 04:33:00 stop = 30/01/2018 06:30:00 title = Warm Bodies
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 30/01/2018 04:47:00 stop = 30/01/2018 06:30:00 title = Warm Bodies
-[  Info  ]       Replaces ----- start = 30/01/2018 04:33:00 stop = 30/01/2018 06:30:00 title = Warm Bodies
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 31/01/2018 06:01:00 stop = 31/01/2018 06:30:00 title = BORDERLINE (DI G. LA ROSA) -
-[  Info  ]       Replaces ----- start = 31/01/2018 06:01:00 stop = 31/01/2018 06:30:00 title = ANDRA' TUTTO BENE -
-[  Info  ] 0.12 sec/update
+[  Info  ] 0.17 sec/update
 [  Debug ] 
 [  Info  ] ( 150/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Comedy) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = A CENA CON...
@@ -882,7 +854,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 31/01/2018 03:56:00 stop = 31/01/2018 04:22:00 title = PIERLUIGI FAVINO - INVITO A CENA CON...
 [  Info  ]       Replaces ----- start = 31/01/2018 03:56:00 stop = 31/01/2018 04:22:00 title = PIERLUIGI FAVINO - INVITO A CENA CON...
-[  Info  ] 0.12 sec/update
+[  Info  ] 0.13 sec/update
 [  Debug ] 
 [  Info  ] ( 151/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Investigation Discovery) -- mode Incremental
 [  Info  ] 
@@ -980,7 +952,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 31/01/2018 05:15:00 stop = 31/01/2018 06:00:00 title = MILOS FORMAN - CINECHAT - (KS-KR)
 [  Info  ]       Replaces ----- start = 31/01/2018 05:15:00 stop = 31/01/2018 06:00:00 title = MILOS FORMAN - CINECHAT - (KS-KR)
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 153/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Paramount Channel) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = CINECHAT - SYDNEY POLLACK
@@ -1075,7 +1047,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 31/01/2018 05:15:00 stop = 31/01/2018 06:00:00 title = MILOS FORMAN - CINECHAT - (KS-KR)
 [  Info  ]       Replaces ----- start = 31/01/2018 05:15:00 stop = 31/01/2018 06:00:00 title = MILOS FORMAN - CINECHAT - (KS-KR)
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 154/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action HD) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = FRINGE III
@@ -1850,7 +1822,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 31/01/2018 22:54:00 stop = 31/01/2018 23:45:00 title = LA FESTA  DI TUTTI I PECCATORI - THE ORIGINALS IV - PRIMA TV
 [  Info  ]       Replaces ----- start = 31/01/2018 22:54:00 stop = 31/01/2018 23:45:00 title = LA FESTA  DI TUTTI I PECCATORI - THE ORIGINALS IV - PRIMA TV
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 155/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action +24) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = FRINGE III
@@ -2663,7 +2635,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 31/01/2018 23:57:00 stop = 01/02/2018 00:48:00 title = I MISTIFICATORI  - II PARTE - CHILDHOOD'S END
 [  Info  ]       Replaces ----- start = 31/01/2018 23:57:00 stop = 01/02/2018 00:48:00 title = I MISTIFICATORI  - II PARTE - CHILDHOOD'S END
-[  Info  ] 0.11 sec/update
+[  Info  ] 0.13 sec/update
 [  Debug ] 
 [  Info  ] ( 156/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Crime) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = RIZZOLI & ISLES I
@@ -2757,29 +2729,11 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 27/01/2018 11:40:00 stop = 27/01/2018 12:34:00 title = LA CITTA' SANTUARIO  - II PARTE - MAJOR CRIMES VI
-[  Info  ]       Replaces ----- start = 27/01/2018 11:40:00 stop = 27/01/2018 17:06:00 title = LA CITTA' SANTUARIO  - II PARTE - MAJOR CRIMES VI
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/01/2018 12:34:00 stop = 27/01/2018 13:24:00 title = HYDE & SEEK, 5 - HYDE & SEEK
-[  Info  ]       Replaces ----- start = 27/01/2018 11:40:00 stop = 27/01/2018 17:06:00 title = LA CITTA' SANTUARIO  - II PARTE - MAJOR CRIMES VI
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/01/2018 13:24:00 stop = 27/01/2018 14:14:00 title = HYDE & SEEK, 6 - HYDE & SEEK
-[  Info  ]       Replaces ----- start = 27/01/2018 11:40:00 stop = 27/01/2018 17:06:00 title = LA CITTA' SANTUARIO  - II PARTE - MAJOR CRIMES VI
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/01/2018 14:14:00 stop = 27/01/2018 15:04:00 title = HYDE & SEEK, 7 - HYDE & SEEK
-[  Info  ]       Replaces ----- start = 27/01/2018 11:40:00 stop = 27/01/2018 17:06:00 title = LA CITTA' SANTUARIO  - II PARTE - MAJOR CRIMES VI
-[  Debug ]    suspicious      title in index page  = ANIMAL KINGDOM II
-[  Debug ]       differs from title in showdetails = CON GARBO - ANIMAL KINGDOM .....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/01/2018 15:04:00 stop = 27/01/2018 16:05:00 title = CON GARBO - ANIMAL KINGDOM II
-[  Info  ]       Replaces ----- start = 27/01/2018 11:40:00 stop = 27/01/2018 17:06:00 title = LA CITTA' SANTUARIO  - II PARTE - MAJOR CRIMES VI
+[  Info  ]       Replaces ----- start = 27/01/2018 11:40:00 stop = 27/01/2018 12:34:00 title = LA CITTA' SANTUARIO  - II PARTE - MAJOR CRIMES VI
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 27/01/2018 16:05:00 stop = 27/01/2018 17:06:00 title = DEPOSITO - ANIMAL KINGDOM II - PRIMA TV
-[  Info  ]       Replaces ----- start = 27/01/2018 11:40:00 stop = 27/01/2018 17:06:00 title = LA CITTA' SANTUARIO  - II PARTE - MAJOR CRIMES VI
+[  Info  ]       Replaces ----- start = 27/01/2018 16:05:00 stop = 27/01/2018 17:06:00 title = DEPOSITO - ANIMAL KINGDOM II - PRIMA TV
 [  Debug ]    suspicious      title in index page  = TAKEN I
 [  Debug ]       differs from title in showdetails = L' ESCA PERFETTA .....
 [  Info  ]    epg correction : 
@@ -2798,20 +2752,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 27/01/2018 18:46:00 stop = 27/01/2018 19:34:00 title = FUORI GIOCO - TAKEN I
 [  Info  ]       Replaces ----- start = 27/01/2018 18:46:00 stop = 27/01/2018 19:34:00 title = FUORI GIOCO - TAKEN I
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/01/2018 20:22:00 stop = 27/01/2018 21:15:00 title = L' FBI - BLINDSPOT II
-[  Info  ]       Replaces ----- start = 27/01/2018 20:22:00 stop = 27/01/2018 22:57:00 title = L' FBI - BLINDSPOT II
-[  Debug ]    suspicious      title in index page  = COLD CASE - DELITTI IRRISOLTI II
-[  Debug ]       differs from title in showdetails = CACCIA ALLE STREGHE - COLD CASE-DELITTI IR.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/01/2018 21:15:00 stop = 27/01/2018 22:04:00 title = CACCIA ALLE STREGHE - COLD CASE-DELITTI IRRISOLTI II
-[  Info  ]       Replaces ----- start = 27/01/2018 20:22:00 stop = 27/01/2018 22:57:00 title = L' FBI - BLINDSPOT II
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/01/2018 22:04:00 stop = 27/01/2018 22:57:00 title = PRIMA DELL'ALBA - COLD CASE-DELITTI IRRISOLTI II
-[  Info  ]       Replaces ----- start = 27/01/2018 20:22:00 stop = 27/01/2018 22:57:00 title = L' FBI - BLINDSPOT II
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 27/01/2018 22:57:00 stop = 27/01/2018 23:45:00 title = VERE NOTIZIE FALSE - LAW & ORDER: UNITA' SPECIALE XVIII
@@ -3094,7 +3034,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 31/01/2018 23:46:00 stop = 01/02/2018 00:36:00 title = LA CITTA' SANTUARIO  - II PARTE - MAJOR CRIMES VI
 [  Info  ]       Replaces ----- start = 31/01/2018 23:46:00 stop = 01/02/2018 00:36:00 title = LA CITTA' SANTUARIO  - II PARTE - MAJOR CRIMES VI
-[  Info  ] 0.12 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 157/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Joy) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = SUBURGATORY I
@@ -3559,13 +3499,13 @@
 [  Debug ]       differs from title in showdetails = NONNA FRANCIS - THE CARMICHAEL SH.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/01/2018 19:40:00 stop = 27/01/2018 20:03:00 title = NONNA FRANCIS - THE CARMICHAEL SHOW III - PRIMA TV
+[  Info  ]       show with ---- start = 27/01/2018 19:40:00 stop = 27/01/2018 20:03:00 title = NONNA FRANCIS - THE CARMICHAEL SHOW III
 [  Info  ]       Replaces ----- start = 27/01/2018 19:40:00 stop = 27/01/2018 20:03:00 title = NONNA FRANCIS - THE CARMICHAEL SHOW III - PRIMA TV
 [  Debug ]    suspicious      title in index page  = THE CARMICHAEL SHOW III
 [  Debug ]       differs from title in showdetails = BELLA DENTRO E FUORI - THE CARMIC.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/01/2018 20:03:00 stop = 27/01/2018 20:26:00 title = BELLA DENTRO E FUORI - THE CARMICHAEL SHOW III - PRIMA TV
+[  Info  ]       show with ---- start = 27/01/2018 20:03:00 stop = 27/01/2018 20:26:00 title = BELLA DENTRO E FUORI - THE CARMICHAEL SHOW III
 [  Info  ]       Replaces ----- start = 27/01/2018 20:03:00 stop = 27/01/2018 20:26:00 title = BELLA DENTRO E FUORI - THE CARMICHAEL SHOW III - PRIMA TV
 [  Debug ]    suspicious      title in index page  = THE GOLDBERGS I
 [  Debug ]       differs from title in showdetails = I GOLDBERG NON SI ARRENDO.....
@@ -4025,13 +3965,13 @@
 [  Debug ]       differs from title in showdetails = NONNA FRANCIS - THE CARMICHAEL SH.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 29/01/2018 22:05:00 stop = 29/01/2018 22:32:00 title = NONNA FRANCIS - THE CARMICHAEL SHOW III - PRIMA TV
+[  Info  ]       show with ---- start = 29/01/2018 22:05:00 stop = 29/01/2018 22:32:00 title = NONNA FRANCIS - THE CARMICHAEL SHOW III
 [  Info  ]       Replaces ----- start = 29/01/2018 22:05:00 stop = 29/01/2018 22:32:00 title = NONNA FRANCIS - THE CARMICHAEL SHOW III - PRIMA TV
 [  Debug ]    suspicious      title in index page  = THE CARMICHAEL SHOW III
 [  Debug ]       differs from title in showdetails = BELLA DENTRO E FUORI - THE CARMIC.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 29/01/2018 22:32:00 stop = 29/01/2018 23:00:00 title = BELLA DENTRO E FUORI - THE CARMICHAEL SHOW III - PRIMA TV
+[  Info  ]       show with ---- start = 29/01/2018 22:32:00 stop = 29/01/2018 23:00:00 title = BELLA DENTRO E FUORI - THE CARMICHAEL SHOW III
 [  Info  ]       Replaces ----- start = 29/01/2018 22:32:00 stop = 29/01/2018 23:00:00 title = BELLA DENTRO E FUORI - THE CARMICHAEL SHOW III - PRIMA TV
 [  Debug ]    suspicious      title in index page  = BIG BANG THEORY IX
 [  Debug ]       differs from title in showdetails = LA REAZIONE POSITIVO - NEGAT.....
@@ -4067,13 +4007,13 @@
 [  Debug ]       differs from title in showdetails = NONNA FRANCIS - THE CARMICHAEL SH.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 30/01/2018 03:10:00 stop = 30/01/2018 03:31:00 title = NONNA FRANCIS - THE CARMICHAEL SHOW III - PRIMA TV
+[  Info  ]       show with ---- start = 30/01/2018 03:10:00 stop = 30/01/2018 03:31:00 title = NONNA FRANCIS - THE CARMICHAEL SHOW III
 [  Info  ]       Replaces ----- start = 30/01/2018 03:10:00 stop = 30/01/2018 03:31:00 title = NONNA FRANCIS - THE CARMICHAEL SHOW III - PRIMA TV
 [  Debug ]    suspicious      title in index page  = THE CARMICHAEL SHOW III
 [  Debug ]       differs from title in showdetails = BELLA DENTRO E FUORI - THE CARMIC.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 30/01/2018 03:31:00 stop = 30/01/2018 03:53:00 title = BELLA DENTRO E FUORI - THE CARMICHAEL SHOW III - PRIMA TV
+[  Info  ]       show with ---- start = 30/01/2018 03:31:00 stop = 30/01/2018 03:53:00 title = BELLA DENTRO E FUORI - THE CARMICHAEL SHOW III
 [  Info  ]       Replaces ----- start = 30/01/2018 03:31:00 stop = 30/01/2018 03:53:00 title = BELLA DENTRO E FUORI - THE CARMICHAEL SHOW III - PRIMA TV
 [  Debug ]    suspicious      title in index page  = DUE PER TRE II
 [  Debug ]       differs from title in showdetails = I GIOCHI SON DESIDERI - .....
@@ -4393,7 +4333,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 31/01/2018 23:22:00 stop = 31/01/2018 23:45:00 title = LA COMBUSTIONE DELLA VISIONE COLLETTIVA - BIG BANG THEORY IX
 [  Info  ]       Replaces ----- start = 31/01/2018 23:22:00 stop = 31/01/2018 23:45:00 title = LA COMBUSTIONE DELLA VISIONE COLLETTIVA - BIG BANG THEORY IX
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 158/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Stories) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = ROADIES
@@ -4900,7 +4840,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 31/01/2018 22:11:00 stop = 31/01/2018 23:07:00 title = LA VALANGA - CLAWS I
 [  Info  ]       Replaces ----- start = 31/01/2018 22:11:00 stop = 31/01/2018 23:07:00 title = LA VALANGA - CLAWS I
-[  Info  ] 0.12 sec/update
+[  Info  ] 0.13 sec/update
 [  Debug ] 
 [  Info  ] ( 159/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Sport superHD) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = EDICOLA PREMIUM
@@ -4971,43 +4911,12 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 25/01/2018 16:46:00 stop = 25/01/2018 16:52:00 title = SEBASTIANO ROSSI (4'48) - SERIE A EMOTION - 18 - PILLOLE
 [  Info  ]       Replaces ----- start = 25/01/2018 16:46:00 stop = 25/01/2018 16:52:00 title = SEBASTIANO ROSSI (4'48) - SERIE A EMOTION - 18 - PILLOLE
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 25/01/2018 19:30:00 stop = 25/01/2018 21:00:00 title = YOUPREMIUM MERCATO - 25/1 H. 19.30 - YOUPREMIUM MERCATO
-[  Info  ]       Replaces ----- start = 25/01/2018 19:30:00 stop = 25/01/2018 20:58:00 title = YOUPREMIUM MERCATO - 25/1 H. 19.30 - YOUPREMIUM MERCATO
-[  Info  ]       Replaces ----- start = 25/01/2018 20:58:00 stop = 25/01/2018 21:23:00 title = TERZA GIORNATA 26/1 - UN GIRONE FA
 [  Debug ]    suspicious      title in index page  = UN GIRONE FA TERZA GIORNATA
 [  Debug ]       differs from title in showdetails = TERZA GIORNATA 26/1 - UN GIRONE FA
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 25/01/2018 21:00:00 stop = 25/01/2018 21:27:00 title = TERZA GIORNATA 26/1 - UN GIRONE FA
-[  Info  ]       Replaces ----- start = 25/01/2018 20:58:00 stop = 25/01/2018 21:23:00 title = TERZA GIORNATA 26/1 - UN GIRONE FA
-[  Info  ]       Replaces ----- start = 25/01/2018 21:23:00 stop = 25/01/2018 21:52:00 title = VENTIDUESIMA GIORNATA 20/1 - HIGHLIGHTS SERIE B -'18
-[  Debug ]    suspicious      title in index page  = HIGHLIGHTS SCOTTISH PREMIERSHIP
-[  Debug ]       differs from title in showdetails = PUNTATA 23 - 25/1 - HIGHLIGHTS SCOTTISH P.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 25/01/2018 21:27:00 stop = 25/01/2018 21:53:00 title = PUNTATA 23 - 25/1 - HIGHLIGHTS SCOTTISH PREMIERSHIP 17 - 18
-[  Info  ]       Replaces ----- start = 25/01/2018 21:23:00 stop = 25/01/2018 21:52:00 title = VENTIDUESIMA GIORNATA 20/1 - HIGHLIGHTS SERIE B -'18
-[  Info  ]       Replaces ----- start = 25/01/2018 21:52:00 stop = 25/01/2018 22:18:00 title = PUNTATA 23 - 25/1 - HIGHLIGHTS SCOTTISH PREMIERSHIP 17 - 18
-[  Debug ]    suspicious      title in index page  = SERIE A EMOTION - 18 - PILLOLE
-[  Debug ]       differs from title in showdetails = GOL COLLECTION GILARDINO - SERIE A EMOTI.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 25/01/2018 21:53:00 stop = 25/01/2018 22:00:00 title = GOL COLLECTION GILARDINO - SERIE A EMOTION - 18 - PILLOLE
-[  Info  ]       Replaces ----- start = 25/01/2018 21:52:00 stop = 25/01/2018 22:18:00 title = PUNTATA 23 - 25/1 - HIGHLIGHTS SCOTTISH PREMIERSHIP 17 - 18
-[  Debug ]    suspicious      title in index page  = SERIE A EMOTION
-[  Debug ]       differs from title in showdetails = GIOVEDI 25/1 - SERIE A EM.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 25/01/2018 22:00:00 stop = 25/01/2018 22:30:00 title = GIOVEDI 25/1 - SERIE A EMOTION-'18
-[  Info  ]       Replaces ----- start = 25/01/2018 21:52:00 stop = 25/01/2018 22:18:00 title = PUNTATA 23 - 25/1 - HIGHLIGHTS SCOTTISH PREMIERSHIP 17 - 18
-[  Info  ]       Replaces ----- start = 25/01/2018 22:18:00 stop = 25/01/2018 22:45:00 title = GIOVEDI 25/1 - SERIE A EMOTION-'18
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 25/01/2018 22:30:00 stop = 26/01/2018 00:00:00 title = YOUPREMIUM MERCATO - 25/1 H. 22.45 - YOUPREMIUM MERCATO
-[  Info  ]       Replaces ----- start = 25/01/2018 22:18:00 stop = 25/01/2018 22:45:00 title = GIOVEDI 25/1 - SERIE A EMOTION-'18
-[  Info  ]       Replaces ----- start = 25/01/2018 22:45:00 stop = 26/01/2018 00:00:00 title = YOUPREMIUM MERCATO - 25/1 H. 22.45 - YOUPREMIUM MERCATO
+[  Info  ]       Replaces ----- start = 25/01/2018 21:00:00 stop = 25/01/2018 21:27:00 title = TERZA GIORNATA 26/1 - UN GIRONE FA
 [  Debug ]    suspicious      title in index page  = SERIE A EMOTION PILLOLE JUVENTUS-INTER 1-0 1998
 [  Debug ]       differs from title in showdetails = JUVENTUS-INTER 1-0 1998  - SERIE A EMOTION - 18 - PILLOLE
 [  Info  ]    epg correction : 
@@ -5164,11 +5073,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 28/01/2018 00:30:00 stop = 28/01/2018 00:56:00 title = VENTITRESIMA GIORNATA 27/1 - HIGHLIGHTS SERIE B -'18
 [  Info  ]       Replaces ----- start = 28/01/2018 00:30:00 stop = 28/01/2018 00:56:00 title = VENTITRESIMA GIORNATA 27/1 - HIGHLIGHTS SERIE B -'18
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 28/01/2018 00:56:00 stop = 28/01/2018 03:23:00 title = 27/1 H. 24.00 - PREMIUM SPORT NEWS
-[  Info  ]       Replaces ----- start = 28/01/2018 00:56:00 stop = 28/01/2018 01:24:00 title = 27/1 H. 24.00 - PREMIUM SPORT NEWS
-[  Info  ]       Replaces ----- start = 28/01/2018 01:24:00 stop = 28/01/2018 03:23:00 title = BOCA JUNIORS - COLON 28/1 - SUPERLIGA ARGENTINA
 [  Debug ]    suspicious      title in index page  = SERIE A EMOTION PILLOLE LECCE-MILAN 2011-12
 [  Debug ]       differs from title in showdetails = LECCE-MILAN 2011-12 (6'09) - SERIE A EMOTION - 18 - P.....
 [  Info  ]    epg correction : 
@@ -5209,28 +5113,22 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 28/01/2018 10:00:00 stop = 28/01/2018 10:30:00 title = 28/1 H. 10.00 - PREMIUM SPORT EDICOLA
 [  Info  ]       Replaces ----- start = 28/01/2018 10:00:00 stop = 28/01/2018 10:30:00 title = 28/1 H. 10.00 - PREMIUM SPORT EDICOLA
-[  Debug ]    suspicious      title in index page  = IL MEGLIO DEL SABATO
-[  Debug ]       differs from title in showdetails = EPISODIO 22 - DOMENICA 28/1 - .....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 28/01/2018 10:30:00 stop = 28/01/2018 11:30:00 title = EPISODIO 22 - DOMENICA 28/1 - IL MEGLIO DEL SABATO-'18
-[  Info  ]       Replaces ----- start = 28/01/2018 10:30:00 stop = 29/01/2018 00:20:00 title = EPISODIO 22 - DOMENICA 28/1 - IL MEGLIO DEL SABATO-'18
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 28/01/2018 11:30:00 stop = 28/01/2018 14:30:00 title = SPAL - INTER - CAMPIONATO DI CALCIO SERIE A 17 -18 (INTER)
-[  Info  ]       Replaces ----- start = 28/01/2018 10:30:00 stop = 29/01/2018 00:20:00 title = EPISODIO 22 - DOMENICA 28/1 - IL MEGLIO DEL SABATO-'18
+[  Info  ]       Replaces ----- start = 28/01/2018 11:30:00 stop = 28/01/2018 14:30:00 title = SPAL - INTER - CAMPIONATO DI CALCIO SERIE A 17 -18 (INTER)
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 28/01/2018 14:30:00 stop = 28/01/2018 17:18:00 title = DIRETTA PREMIUM 28/1 H. 15.00 - DIRETTA PREMIUM SERIE A 17 - 18
-[  Info  ]       Replaces ----- start = 28/01/2018 10:30:00 stop = 29/01/2018 00:20:00 title = EPISODIO 22 - DOMENICA 28/1 - IL MEGLIO DEL SABATO-'18
+[  Info  ]       Replaces ----- start = 28/01/2018 14:30:00 stop = 28/01/2018 17:18:00 title = DIRETTA PREMIUM 28/1 H. 15.00 - DIRETTA PREMIUM SERIE A 17 - 18
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 28/01/2018 17:18:00 stop = 28/01/2018 20:00:00 title = MILAN - LAZIO - CAMPIONATO DI CALCIO SERIE A-'18 (MILAN)
-[  Info  ]       Replaces ----- start = 28/01/2018 10:30:00 stop = 29/01/2018 00:20:00 title = EPISODIO 22 - DOMENICA 28/1 - IL MEGLIO DEL SABATO-'18
+[  Info  ]       Replaces ----- start = 28/01/2018 17:18:00 stop = 28/01/2018 20:00:00 title = MILAN - LAZIO - CAMPIONATO DI CALCIO SERIE A-'18 (MILAN)
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 28/01/2018 20:00:00 stop = 29/01/2018 00:20:00 title = ROMA - SAMPDORIA - CAMPIONATO DI CALCIO SERIE A-'18 (ROMA)
-[  Info  ]       Replaces ----- start = 28/01/2018 10:30:00 stop = 29/01/2018 00:20:00 title = EPISODIO 22 - DOMENICA 28/1 - IL MEGLIO DEL SABATO-'18
+[  Info  ]       Replaces ----- start = 28/01/2018 20:00:00 stop = 29/01/2018 00:20:00 title = ROMA - SAMPDORIA - CAMPIONATO DI CALCIO SERIE A-'18 (ROMA)
 [  Debug ]    suspicious      title in index page  = HIGHLIGHTS SERIE A VENTIDUESIMA GIORNATA
 [  Debug ]       differs from title in showdetails = VENTIDUESIMA GIORNATA 28/1 - HIGHLIGHTS SERIE A - .....
 [  Info  ]    epg correction : 
@@ -5461,7 +5359,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 31/01/2018 13:05:00 stop = 31/01/2018 13:20:00 title = 31/1 H.7.30 - PREMIUM SPORT EDICOLA
 [  Info  ]       Replaces ----- start = 31/01/2018 13:05:00 stop = 31/01/2018 13:20:00 title = 31/1 H.7.30 - PREMIUM SPORT EDICOLA
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 160/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Sport 2 HD) -- mode Incremental
 [  Info  ]    epg correction : 
@@ -5580,17 +5478,12 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 27/01/2018 16:37:00 stop = 27/01/2018 17:03:00 title = SPECIALE CHAMPIONS LEAGUE - SPECIALI PREMIUM SPORT 2017
 [  Info  ]       Replaces ----- start = 27/01/2018 16:37:00 stop = 27/01/2018 17:03:00 title = SPECIALE CHAMPIONS LEAGUE - SPECIALI PREMIUM SPORT 2017
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/01/2018 17:03:00 stop = 27/01/2018 18:51:00 title = TALLERES - SAN LORENZO 27/1 - SUPERLIGA ARGENTINA
-[  Info  ]       Replaces ----- start = 27/01/2018 17:03:00 stop = 27/01/2018 18:55:00 title = TALLERES - SAN LORENZO 27/1 - SUPERLIGA ARGENTINA
 [  Debug ]    suspicious      title in index page  = PREMIUM MOMENTS BRASILE 2
 [  Debug ]       differs from title in showdetails = BRASILE 2 - PREMIUM MOMENTS
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 27/01/2018 18:51:00 stop = 27/01/2018 19:54:00 title = BRASILE 2 - PREMIUM MOMENTS
-[  Info  ]       Replaces ----- start = 27/01/2018 17:03:00 stop = 27/01/2018 18:55:00 title = TALLERES - SAN LORENZO 27/1 - SUPERLIGA ARGENTINA
-[  Info  ]       Replaces ----- start = 27/01/2018 18:55:00 stop = 27/01/2018 19:54:00 title = GOL CHAMPIONS  - SPECIALI PREMIUM SPORT 2017
+[  Info  ]       Replaces ----- start = 27/01/2018 18:51:00 stop = 27/01/2018 19:54:00 title = BRASILE 2 - PREMIUM MOMENTS
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 28/01/2018 00:15:00 stop = 28/01/2018 02:00:00 title = CHIEVO - JUVENTUS - CAMPIONATO DI CALCIO SERIE A-'18 (JUVENTUS)
@@ -5737,7 +5630,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 31/01/2018 20:30:00 stop = 31/01/2018 20:59:00 title = SPECIALE CHAMPIONS LEAGUE - SPECIALI PREMIUM SPORT 2017
 [  Info  ]       Replaces ----- start = 31/01/2018 20:30:00 stop = 31/01/2018 20:59:00 title = SPECIALE CHAMPIONS LEAGUE - SPECIALI PREMIUM SPORT 2017
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.13 sec/update
 [  Debug ] 
 [  Info  ] ( 161/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Calcio 1) -- mode Incremental
 [  Info  ]    epg correction : 
@@ -5856,17 +5749,12 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 27/01/2018 16:37:00 stop = 27/01/2018 17:03:00 title = SPECIALE CHAMPIONS LEAGUE - SPECIALI PREMIUM SPORT 2017
 [  Info  ]       Replaces ----- start = 27/01/2018 16:37:00 stop = 27/01/2018 17:03:00 title = SPECIALE CHAMPIONS LEAGUE - SPECIALI PREMIUM SPORT 2017
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/01/2018 17:03:00 stop = 27/01/2018 18:51:00 title = TALLERES - SAN LORENZO 27/1 - SUPERLIGA ARGENTINA
-[  Info  ]       Replaces ----- start = 27/01/2018 17:03:00 stop = 27/01/2018 18:55:00 title = TALLERES - SAN LORENZO 27/1 - SUPERLIGA ARGENTINA
 [  Debug ]    suspicious      title in index page  = PREMIUM MOMENTS BRASILE 2
 [  Debug ]       differs from title in showdetails = BRASILE 2 - PREMIUM MOMENTS
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 27/01/2018 18:51:00 stop = 27/01/2018 19:54:00 title = BRASILE 2 - PREMIUM MOMENTS
-[  Info  ]       Replaces ----- start = 27/01/2018 17:03:00 stop = 27/01/2018 18:55:00 title = TALLERES - SAN LORENZO 27/1 - SUPERLIGA ARGENTINA
-[  Info  ]       Replaces ----- start = 27/01/2018 18:55:00 stop = 27/01/2018 19:54:00 title = GOL CHAMPIONS  - SPECIALI PREMIUM SPORT 2017
+[  Info  ]       Replaces ----- start = 27/01/2018 18:51:00 stop = 27/01/2018 19:54:00 title = BRASILE 2 - PREMIUM MOMENTS
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 28/01/2018 00:15:00 stop = 28/01/2018 02:00:00 title = CHIEVO - JUVENTUS - CAMPIONATO DI CALCIO SERIE A-'18 (JUVENTUS)
@@ -6013,12 +5901,12 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 31/01/2018 20:30:00 stop = 31/01/2018 20:59:00 title = SPECIALE CHAMPIONS LEAGUE - SPECIALI PREMIUM SPORT 2017
 [  Info  ]       Replaces ----- start = 31/01/2018 20:30:00 stop = 31/01/2018 20:59:00 title = SPECIALE CHAMPIONS LEAGUE - SPECIALI PREMIUM SPORT 2017
-[  Info  ] 0.12 sec/update
+[  Info  ] 0.13 sec/update
 [  Debug ] 
-[  Debug ] 34980 shows in 163 channels
-[  Debug ] 1028 updated shows
-[  Debug ] 237 new shows added
+[  Debug ] 34988 shows in 163 channels
+[  Debug ] 898 updated shows
+[  Debug ] 8 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 25/01/2018 06:17:48 done in 12m 45s
+[        ] Job finished at 25/01/2018 08:17:56 done in 12m 52s
 [  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
