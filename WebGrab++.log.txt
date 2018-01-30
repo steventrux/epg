@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 30/01/2018 10:05:03
+[        ] Job started at 30/01/2018 12:05:04
 [  Debug ] 
 [  Debug ] Running  on: Unix 3.13.0.132
 [  Debug ] Environment: 4.0.30319.42000
@@ -29,7 +29,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+01:00	(no DST in effect)
 [  Debug ] 	next DST dates  :	25/03/2018 02:00 (local)
 [  Debug ] 	                :	28/10/2018 03:00 (local)
-[  Debug ] 	local time now  :	30/01/2018 10:05:04
+[  Debug ] 	local time now  :	30/01/2018 12:05:04
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -257,7 +257,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  17/163 ) MEDIASET.IT -- chan. (xmltv_id=Mediaset Extra) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] (  18/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Storia) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
@@ -656,8 +656,6 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 130/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cartonito) -- mode Incremental
-[Warning ] error downloading page: The request timed out (5sec)
-[Warning ] Retry 1 of 4 times
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 131/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Baby TV) -- mode Incremental
@@ -698,6 +696,8 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 143/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Boomerang) -- mode Incremental
+[Warning ] error downloading page: Error getting response stream (ReadDone2): ReceiveFailure
+[Warning ] pausing 1 of 4 times for 5 seconds before re-try.
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 144/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema HD) -- mode Incremental
@@ -730,7 +730,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 05/02/2018 22:56:00 stop = 06/02/2018 00:47:00 title = Wild Horses - Cavalli Selvaggi
 [  Info  ]       Replaces ----- start = 05/02/2018 22:56:00 stop = 06/02/2018 00:47:00 title = Wild Horses - Cavalli Selvaggi
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.12 sec/update
 [  Debug ] 
 [  Info  ] ( 146/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema 2) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = MUSICBOX
@@ -748,7 +748,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 02/02/2018 06:32:00 stop = 02/02/2018 06:42:00 title = SING - MEENA - MUSICBOX
 [  Info  ]       Replaces ----- start = 02/02/2018 06:32:00 stop = 02/02/2018 06:42:00 title = SING - MEENA - MUSICBOX
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.11 sec/update
 [  Debug ] 
 [  Info  ] ( 148/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Energy) -- mode Incremental
 [  Info  ]    epg correction : 
@@ -759,7 +759,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 03/02/2018 02:31:00 stop = 03/02/2018 04:51:00 title = Wolfhound - Un Eroe In Lotta Per La Libertà
 [  Info  ]       Replaces ----- start = 03/02/2018 02:31:00 stop = 03/02/2018 04:51:00 title = Wolfhound - Un Eroe In Lotta Per La Libertà
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.17 sec/update
 [  Debug ] 
 [  Info  ] ( 149/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Emotion) -- mode Incremental
 [  Info  ]    epg correction : 
@@ -770,7 +770,7 @@
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 04/02/2018 13:45:00 stop = 04/02/2018 16:55:00 title = EMOTION RITORNA ALLE 17.00 (?)
 [  Info  ]       Replaces ----- start = 04/02/2018 13:45:00 stop = 04/02/2018 16:55:00 title = EMOTION RITORNA ALLE 17.00 (?)
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 150/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Comedy) -- mode Incremental
 [  Info  ]    epg correction : 
@@ -795,7 +795,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 05/02/2018 06:30:00 stop = 05/02/2018 06:59:00 title = PIERLUIGI FAVINO - INVITO A CENA CON...
 [  Info  ]       Replaces ----- start = 05/02/2018 06:30:00 stop = 05/02/2018 06:59:00 title = PIERLUIGI FAVINO - INVITO A CENA CON...
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 151/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Investigation Discovery) -- mode Incremental
 [  Info  ] 
@@ -901,7 +901,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 05/02/2018 06:00:00 stop = 05/02/2018 07:40:00 title = Lo Sfregiato - Scarface
 [  Info  ]       Replaces ----- start = 05/02/2018 06:00:00 stop = 05/02/2018 07:40:00 title = Lo Sfregiato - Scarface
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 153/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Paramount Channel) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = CINECHAT - MERYL STREEP
@@ -1004,7 +1004,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 05/02/2018 06:00:00 stop = 05/02/2018 07:40:00 title = Lo Sfregiato - Scarface
 [  Info  ]       Replaces ----- start = 05/02/2018 06:00:00 stop = 05/02/2018 07:40:00 title = Lo Sfregiato - Scarface
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 154/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action HD) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = FRINGE III
@@ -1767,7 +1767,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 05/02/2018 23:53:00 stop = 06/02/2018 00:43:00 title = RIPERCUSSIONI - ARROW VI - PRIMA TV
 [  Info  ]       Replaces ----- start = 05/02/2018 23:53:00 stop = 06/02/2018 00:43:00 title = RIPERCUSSIONI - ARROW VI - PRIMA TV
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 155/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action +24) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = FRINGE III
@@ -2973,7 +2973,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 05/02/2018 23:02:00 stop = 06/02/2018 00:03:00 title = HYDE & SEEK, 8 - HYDE & SEEK - PRIMA TV
 [  Info  ]       Replaces ----- start = 05/02/2018 23:02:00 stop = 06/02/2018 00:03:00 title = HYDE & SEEK, 8 - HYDE & SEEK - PRIMA TV
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 157/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Joy) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = SUBURGATORY II
@@ -4212,7 +4212,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 05/02/2018 23:34:00 stop = 06/02/2018 00:02:00 title = LA MINIATURIZZAZIONE MILITARE - BIG BANG THEORY X
 [  Info  ]       Replaces ----- start = 05/02/2018 23:34:00 stop = 06/02/2018 00:02:00 title = LA MINIATURIZZAZIONE MILITARE - BIG BANG THEORY X
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 158/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Stories) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = PARENTHOOD VI
@@ -4811,7 +4811,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 05/02/2018 23:08:00 stop = 06/02/2018 00:12:00 title = CHAPTER ONE: THE RIVER'S EDGE - RIVERDALE I
 [  Info  ]       Replaces ----- start = 05/02/2018 23:08:00 stop = 06/02/2018 00:12:00 title = CHAPTER ONE: THE RIVER'S EDGE - RIVERDALE I
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 159/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Sport superHD) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = EDICOLA PREMIUM
@@ -5326,7 +5326,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 05/02/2018 15:51:00 stop = 05/02/2018 16:00:00 title = KOVACEVIC (4'09) - SERIE A EMOTION - 18 - PILLOLE
 [  Info  ]       Replaces ----- start = 05/02/2018 15:51:00 stop = 05/02/2018 16:00:00 title = KOVACEVIC (4'09) - SERIE A EMOTION - 18 - PILLOLE
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 160/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Sport 2 HD) -- mode Incremental
 [  Info  ]    epg correction : 
@@ -5597,7 +5597,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 05/02/2018 15:46:00 stop = 05/02/2018 15:59:00 title = SIMONE INZAGHI - SERIE A EMOTION - 18 - PILLOLE
 [  Info  ]       Replaces ----- start = 05/02/2018 15:46:00 stop = 05/02/2018 15:59:00 title = SIMONE INZAGHI - SERIE A EMOTION - 18 - PILLOLE
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 161/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Calcio 1) -- mode Incremental
 [  Info  ]    epg correction : 
@@ -5870,10 +5870,10 @@
 [  Info  ]       Replaces ----- start = 05/02/2018 15:46:00 stop = 05/02/2018 15:59:00 title = SIMONE INZAGHI - SERIE A EMOTION - 18 - PILLOLE
 [  Info  ] 0.13 sec/update
 [  Debug ] 
-[  Debug ] 35306 shows in 163 channels
-[  Debug ] 876 updated shows
-[  Debug ] 4 new shows added
+[  Debug ] 35313 shows in 163 channels
+[  Debug ] 884 updated shows
+[  Debug ] 8 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 30/01/2018 10:18:38 done in 13m 34s
+[        ] Job finished at 30/01/2018 12:17:52 done in 12m 47s
 [  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
