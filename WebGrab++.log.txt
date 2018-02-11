@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 11/02/2018 06:05:03
+[        ] Job started at 11/02/2018 08:05:03
 [  Debug ] 
 [  Debug ] Running  on: Unix 3.13.0.132
 [  Debug ] Environment: 4.0.30319.42000
@@ -29,7 +29,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+01:00	(no DST in effect)
 [  Debug ] 	next DST dates  :	25/03/2018 02:00 (local)
 [  Debug ] 	                :	28/10/2018 03:00 (local)
-[  Debug ] 	local time now  :	11/02/2018 06:05:03
+[  Debug ] 	local time now  :	11/02/2018 08:05:03
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -219,19 +219,19 @@
 [  Info  ] (   4/163 ) MEDIASET.IT -- chan. (xmltv_id=Rete 4 HD) -- mode Incremental
 [  Debug ]    skipped negative show time! at 14/02/2018 01:43:00
 [  Debug ]    skipped negative show time! at 15/02/2018 01:40:00
-[  Info  ] 0.08 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   5/163 ) MEDIASET.IT -- chan. (xmltv_id=Canale 5 HD) -- mode Incremental
-[  Info  ] 0.07 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   6/163 ) MEDIASET.IT -- chan. (xmltv_id=Canale 5 HD H265) -- mode Incremental
-[  Info  ] 0.08 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   7/163 ) MEDIASET.IT -- chan. (xmltv_id=Italia 1 HD) -- mode Incremental
-[  Info  ] 0.36 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   8/163 ) MEDIASET.IT -- chan. (xmltv_id=Italia 2) -- mode Incremental
-[  Info  ] 0.08 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   9/163 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La1 HD) -- mode Incremental
 [  Info  ] 0.03 sec/update
@@ -258,13 +258,13 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  17/163 ) MEDIASET.IT -- chan. (xmltv_id=Mediaset Extra) -- mode Incremental
-[  Info  ] 0.08 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  18/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Storia) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  19/163 ) MEDIASET.IT -- chan. (xmltv_id=Iris) -- mode Incremental
-[  Info  ] 0.07 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  20/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Sport 1 HD) -- mode Incremental
 [  Info  ] 
@@ -294,6 +294,10 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  29/163 ) PROGRAMMI-TV.EU -- chan. (xmltv_id=La3) -- mode Incremental
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
+[Warning ] error downloading page: Error getting response stream (ReadDone1): ReceiveFailure
+[Warning ] pausing 2 of 4 times for 10 seconds before re-try.
 [Error   ] no shows in indexpage!
 [Error   ] Cannot find any shows on the Index Page !
 [  Info  ] 
@@ -471,22 +475,22 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  75/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport 2 HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] (  76/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport 3 HD) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  77/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Plus HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.18 sec/update
 [  Debug ] 
 [  Info  ] (  78/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Mix) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  79/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Sports HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.17 sec/update
 [  Debug ] 
 [  Info  ] (  80/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Sports SuperHD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] (  81/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Supercalcio HD) -- mode Incremental
 [  Info  ] 
@@ -694,6 +698,8 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 143/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Boomerang) -- mode Incremental
+[Warning ] error downloading page: Error getting response stream (ReadDone2): ReceiveFailure
+[Warning ] pausing 1 of 4 times for 5 seconds before re-try.
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 144/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema HD) -- mode Incremental
@@ -713,7 +719,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 16/02/2018 15:41:00 stop = 16/02/2018 17:14:00 title = We Were Young
 [  Info  ]       Replaces ----- start = 16/02/2018 15:41:00 stop = 16/02/2018 17:14:00 title = We Were Young
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 145/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema +24) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = WE WERE YOUNG - DESTINAZIONE PARADISO
@@ -732,7 +738,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 17/02/2018 15:41:00 stop = 17/02/2018 17:14:00 title = We Were Young
 [  Info  ]       Replaces ----- start = 17/02/2018 15:41:00 stop = 17/02/2018 17:14:00 title = We Were Young
-[  Info  ] 0.12 sec/update
+[  Info  ] 0.13 sec/update
 [  Debug ] 
 [  Info  ] ( 146/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema 2) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = RED CARPET
@@ -741,7 +747,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 17/02/2018 07:02:00 stop = 17/02/2018 07:18:00 title = SPECIALE ANTEPRIMA - JURASSIC WORLD (TX 3/06/2015) - RED CARPET
 [  Info  ]       Replaces ----- start = 17/02/2018 07:02:00 stop = 17/02/2018 07:18:00 title = SPECIALE ANTEPRIMA - JURASSIC WORLD (TX 3/06/2015) - RED CARPET
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 147/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema 2 +24) -- mode Incremental
 [  Info  ] 
@@ -786,7 +792,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 17/02/2018 06:30:00 stop = 17/02/2018 06:37:00 title = LE PAROLE CHE NON TI HO DETTO - FULL EMOTION
 [  Info  ]       Replaces ----- start = 17/02/2018 06:30:00 stop = 17/02/2018 06:37:00 title = LE PAROLE CHE NON TI HO DETTO - FULL EMOTION
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.13 sec/update
 [  Debug ] 
 [  Info  ] ( 150/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Comedy) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = A CENA CON...
@@ -807,7 +813,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 16/02/2018 04:08:00 stop = 16/02/2018 04:33:00 title = PIERLUIGI FAVINO - INVITO A CENA CON...
 [  Info  ]       Replaces ----- start = 16/02/2018 04:08:00 stop = 16/02/2018 04:33:00 title = PIERLUIGI FAVINO - INVITO A CENA CON...
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.25 sec/update
 [  Debug ] 
 [  Info  ] ( 151/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Investigation Discovery) -- mode Incremental
 [  Info  ] 
@@ -921,7 +927,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 17/02/2018 08:05:00 stop = 17/02/2018 08:40:00 title = J. DEMME  - CINECHAT - (KS-KR)
 [  Info  ]       Replaces ----- start = 17/02/2018 08:05:00 stop = 17/02/2018 08:40:00 title = J. DEMME  - CINECHAT - (KS-KR)
-[  Info  ] 0.55 sec/update
+[  Info  ] 0.56 sec/update
 [  Debug ] 
 [  Info  ] ( 153/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Paramount Channel) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = CINECHAT - KEVIN COSTNER
@@ -1018,7 +1024,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 17/02/2018 08:05:00 stop = 17/02/2018 08:40:00 title = J. DEMME  - CINECHAT - (KS-KR)
 [  Info  ]       Replaces ----- start = 17/02/2018 08:05:00 stop = 17/02/2018 08:40:00 title = J. DEMME  - CINECHAT - (KS-KR)
-[  Info  ] 0.37 sec/update
+[  Info  ] 0.38 sec/update
 [  Debug ] 
 [  Info  ] ( 154/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action HD) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = FLASH IV
@@ -1499,12 +1505,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 16/02/2018 03:50:00 stop = 16/02/2018 04:31:00 title = LA CENA DI NATALE - ARROW I
 [  Info  ]       Replaces ----- start = 16/02/2018 03:50:00 stop = 16/02/2018 04:31:00 title = LA CENA DI NATALE - ARROW I
-[  Debug ]    suspicious      title in index page  = SUPERNATURAL XI
-[  Debug ]       differs from title in showdetails = DALL'OSCURITA' AL FUOCO -.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 16/02/2018 07:28:00 stop = 16/02/2018 08:16:00 title = DALL'OSCURITA' AL FUOCO - SUPERNATURAL XI
-[  Info  ]       Replaces ----- start = 16/02/2018 07:28:00 stop = 16/02/2018 08:16:00 title = DALL'OSCURITA' AL FUOCO - SUPERNATURAL XI - PRIMA TV
 [  Debug ]    suspicious      title in index page  = IZOMBIE
 [  Debug ]       differs from title in showdetails = MISTER PAZZOIDE -.....
 [  Info  ]    epg correction : 
@@ -1559,12 +1559,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 16/02/2018 21:19:00 stop = 16/02/2018 22:08:00 title = ACCENSIONE A CONTATTO - CHICAGO FIRE VI - PRIMA TV
 [  Info  ]       Replaces ----- start = 16/02/2018 21:19:00 stop = 16/02/2018 22:08:00 title = ACCENSIONE A CONTATTO - CHICAGO FIRE VI - PRIMA TV
-[  Debug ]    suspicious      title in index page  = SUPERNATURAL XI
-[  Debug ]       differs from title in showdetails = DALL'OSCURITA' AL FUOCO -.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 16/02/2018 22:08:00 stop = 16/02/2018 22:58:00 title = DALL'OSCURITA' AL FUOCO - SUPERNATURAL XI
-[  Info  ]       Replaces ----- start = 16/02/2018 22:08:00 stop = 16/02/2018 22:58:00 title = DALL'OSCURITA' AL FUOCO - SUPERNATURAL XI - PRIMA TV
 [  Debug ]    suspicious      title in index page  = BLOOD DRIVE
 [  Debug ]       differs from title in showdetails = UN ASSAGGIO DI VITA N.....
 [  Info  ]    epg correction : 
@@ -1695,7 +1689,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 17/02/2018 23:49:00 stop = 18/02/2018 00:38:00 title = IL TRISTO MIETITORE - GOTHAM IV - PRIMA TV
 [  Info  ]       Replaces ----- start = 17/02/2018 23:49:00 stop = 18/02/2018 00:38:00 title = IL TRISTO MIETITORE - GOTHAM IV - PRIMA TV
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 155/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action +24) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = HEROES REBORN
@@ -1770,12 +1764,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 11/02/2018 20:29:00 stop = 11/02/2018 21:19:00 title = ESEMPLIFICAZIONE PERVERSA - II PARTE - THE 100 III
 [  Info  ]       Replaces ----- start = 11/02/2018 20:29:00 stop = 11/02/2018 21:19:00 title = ESEMPLIFICAZIONE PERVERSA - II PARTE - THE 100 III
-[  Debug ]    suspicious      title in index page  = SUPERNATURAL XI
-[  Debug ]       differs from title in showdetails = DALL'OSCURITA' AL FUOCO -.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 11/02/2018 21:19:00 stop = 11/02/2018 22:09:00 title = DALL'OSCURITA' AL FUOCO - SUPERNATURAL XI
-[  Info  ]       Replaces ----- start = 11/02/2018 21:19:00 stop = 11/02/2018 22:09:00 title = DALL'OSCURITA' AL FUOCO - SUPERNATURAL XI - PRIMA TV
 [  Debug ]    suspicious      title in index page  = FLASH IV
 [  Debug ]       differs from title in showdetails = LA RINASCITA DI FL.....
 [  Info  ]    epg correction : 
@@ -2272,12 +2260,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 17/02/2018 03:50:00 stop = 17/02/2018 04:31:00 title = LA CENA DI NATALE - ARROW I
 [  Info  ]       Replaces ----- start = 17/02/2018 03:50:00 stop = 17/02/2018 04:31:00 title = LA CENA DI NATALE - ARROW I
-[  Debug ]    suspicious      title in index page  = SUPERNATURAL XI
-[  Debug ]       differs from title in showdetails = DALL'OSCURITA' AL FUOCO -.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 17/02/2018 07:28:00 stop = 17/02/2018 08:16:00 title = DALL'OSCURITA' AL FUOCO - SUPERNATURAL XI
-[  Info  ]       Replaces ----- start = 17/02/2018 07:28:00 stop = 17/02/2018 08:16:00 title = DALL'OSCURITA' AL FUOCO - SUPERNATURAL XI - PRIMA TV
 [  Debug ]    suspicious      title in index page  = IZOMBIE
 [  Debug ]       differs from title in showdetails = MISTER PAZZOIDE -.....
 [  Info  ]    epg correction : 
@@ -2332,12 +2314,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 17/02/2018 21:19:00 stop = 17/02/2018 22:08:00 title = ACCENSIONE A CONTATTO - CHICAGO FIRE VI - PRIMA TV
 [  Info  ]       Replaces ----- start = 17/02/2018 21:19:00 stop = 17/02/2018 22:08:00 title = ACCENSIONE A CONTATTO - CHICAGO FIRE VI - PRIMA TV
-[  Debug ]    suspicious      title in index page  = SUPERNATURAL XI
-[  Debug ]       differs from title in showdetails = DALL'OSCURITA' AL FUOCO -.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 17/02/2018 22:08:00 stop = 17/02/2018 22:58:00 title = DALL'OSCURITA' AL FUOCO - SUPERNATURAL XI
-[  Info  ]       Replaces ----- start = 17/02/2018 22:08:00 stop = 17/02/2018 22:58:00 title = DALL'OSCURITA' AL FUOCO - SUPERNATURAL XI - PRIMA TV
 [  Debug ]    suspicious      title in index page  = BLOOD DRIVE
 [  Debug ]       differs from title in showdetails = UN ASSAGGIO DI VITA N.....
 [  Info  ]    epg correction : 
@@ -2717,7 +2693,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 17/02/2018 19:34:00 stop = 17/02/2018 20:28:00 title = UNA GIORNATACCIA AD AQUA MESA - TRAINING DAY I
 [  Info  ]       Replaces ----- start = 17/02/2018 19:34:00 stop = 17/02/2018 20:28:00 title = UNA GIORNATACCIA AD AQUA MESA - TRAINING DAY I
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 157/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Joy) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = BIG BANG THEORY X
@@ -4108,7 +4084,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 17/02/2018 23:10:00 stop = 17/02/2018 23:35:00 title = CHIACCHIERE AL VENTO - ODD MOM OUT III - PRIMA TV
 [  Info  ]       Replaces ----- start = 17/02/2018 23:10:00 stop = 17/02/2018 23:35:00 title = CHIACCHIERE AL VENTO - ODD MOM OUT III - PRIMA TV
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 158/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Stories) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = RIVERDALE
@@ -5386,7 +5362,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 17/02/2018 19:30:00 stop = 17/02/2018 23:50:00 title = GENOA - INTER - CAMPIONATO DI CALCIO SERIE A-'18 (GENOA)
 [  Info  ]       Replaces ----- start = 17/02/2018 19:30:00 stop = 17/02/2018 23:50:00 title = GENOA - INTER - CAMPIONATO DI CALCIO SERIE A-'18 (GENOA)
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 160/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Sport 2 HD) -- mode Incremental
 [  Info  ]    epg correction : 
@@ -5697,7 +5673,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 17/02/2018 15:02:00 stop = 17/02/2018 15:10:00 title = LECCE-MILAN 2011-12 (6'09) - SERIE A EMOTION - 18 - PILLOLE
 [  Info  ]       Replaces ----- start = 17/02/2018 15:02:00 stop = 17/02/2018 15:10:00 title = LECCE-MILAN 2011-12 (6'09) - SERIE A EMOTION - 18 - PILLOLE
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 161/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Calcio 1) -- mode Incremental
 [  Info  ]    epg correction : 
@@ -6008,12 +5984,12 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 17/02/2018 15:02:00 stop = 17/02/2018 15:10:00 title = LECCE-MILAN 2011-12 (6'09) - SERIE A EMOTION - 18 - PILLOLE
 [  Info  ]       Replaces ----- start = 17/02/2018 15:02:00 stop = 17/02/2018 15:10:00 title = LECCE-MILAN 2011-12 (6'09) - SERIE A EMOTION - 18 - PILLOLE
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
-[  Debug ] 35117 shows in 163 channels
-[  Debug ] 913 updated shows
-[  Debug ] 226 new shows added
+[  Debug ] 35121 shows in 163 channels
+[  Debug ] 915 updated shows
+[  Debug ] 4 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 11/02/2018 06:18:24 done in 13m 20s
+[        ] Job finished at 11/02/2018 08:18:51 done in 13m 48s
 [  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
