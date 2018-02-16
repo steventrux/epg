@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 16/02/2018 18:05:03
+[        ] Job started at 16/02/2018 20:05:03
 [  Debug ] 
 [  Debug ] Running  on: Unix 3.13.0.132
 [  Debug ] Environment: 4.0.30319.42000
@@ -29,7 +29,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+01:00	(no DST in effect)
 [  Debug ] 	next DST dates  :	25/03/2018 02:00 (local)
 [  Debug ] 	                :	28/10/2018 03:00 (local)
-[  Debug ] 	local time now  :	16/02/2018 18:05:04
+[  Debug ] 	local time now  :	16/02/2018 20:05:04
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -217,32 +217,27 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   4/163 ) MEDIASET.IT -- chan. (xmltv_id=Rete 4 HD) -- mode Incremental
-[Warning ] error downloading page: The request timed out (5sec)
-[Warning ] Retry 1 of 4 times
-[Warning ] error downloading page: Error: SendFailure (Cannot access a disposed object.
-Object name: 'System.Net.Sockets.NetworkStream'.)
-[Warning ] pausing 2 of 4 times for 10 seconds before re-try.
 [  Debug ]    skipped negative show time! at 21/02/2018 01:07:00
 [  Debug ]    skipped show longer than 15 hour(s) at 22/02/2018 00:47:00 title TG4 - NIGHT NEWS
-[  Info  ] 4.16 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   5/163 ) MEDIASET.IT -- chan. (xmltv_id=Canale 5 HD) -- mode Incremental
-[  Info  ] 0.11 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   6/163 ) MEDIASET.IT -- chan. (xmltv_id=Canale 5 HD H265) -- mode Incremental
-[  Info  ] 0.10 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   7/163 ) MEDIASET.IT -- chan. (xmltv_id=Italia 1 HD) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   8/163 ) MEDIASET.IT -- chan. (xmltv_id=Italia 2) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.12 sec/update
 [  Debug ] 
 [  Info  ] (   9/163 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La1 HD) -- mode Incremental
-[  Info  ] 0.03 sec/update
+[  Info  ] 0.02 sec/update
 [  Debug ] 
 [  Info  ] (  10/163 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La2 HD) -- mode Incremental
-[  Info  ] 0.04 sec/update
+[  Info  ] 0.02 sec/update
 [  Debug ] 
 [  Info  ] (  11/163 ) STASERAINTV.COM -- chan. (xmltv_id=La 5) -- mode Incremental
 [  Info  ] 
@@ -270,7 +265,7 @@ Object name: 'System.Net.Sockets.NetworkStream'.)
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  19/163 ) MEDIASET.IT -- chan. (xmltv_id=Iris) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.13 sec/update
 [  Debug ] 
 [  Info  ] (  20/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Sport 1 HD) -- mode Incremental
 [  Info  ] 
@@ -643,7 +638,194 @@ Object name: 'System.Net.Sockets.NetworkStream'.)
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 124/163 ) RAI.IT -- chan. (xmltv_id=Rai Gulp HD) -- mode Incremental
-[  Info  ] 
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 17/02/2018 13:40:00 stop = 17/02/2018 14:05:00 title = Gulp Music 2017/2018
+[  Info  ]       Replaces ----- start = 17/02/2018 13:40:00 stop = 17/02/2018 14:10:00 title = Gulp Music 2017/2018
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 17/02/2018 14:05:00 stop = 17/02/2018 14:30:00 title = Alex And Co.
+[  Info  ]       Replaces ----- start = 17/02/2018 13:40:00 stop = 17/02/2018 14:10:00 title = Gulp Music 2017/2018
+[  Info  ]       Replaces ----- start = 17/02/2018 14:10:00 stop = 17/02/2018 14:35:00 title = Alex And Co.
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/02/2018 07:25:00 stop = 18/02/2018 07:50:00 title = Mia And Me (iii)
+[  Info  ]       Replaces ----- start = 18/02/2018 07:20:00 stop = 18/02/2018 07:45:00 title = Mia And Me (iii)
+[  Info  ]       Replaces ----- start = 18/02/2018 07:45:00 stop = 18/02/2018 08:10:00 title = Mia And Me (iii)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/02/2018 07:50:00 stop = 18/02/2018 08:15:00 title = Mia And Me (iii)
+[  Info  ]       Replaces ----- start = 18/02/2018 07:45:00 stop = 18/02/2018 08:10:00 title = Mia And Me (iii)
+[  Info  ]       Replaces ----- start = 18/02/2018 08:10:00 stop = 18/02/2018 08:25:00 title = Lucky Fred
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/02/2018 08:15:00 stop = 18/02/2018 08:30:00 title = Lucky Fred
+[  Info  ]       Replaces ----- start = 18/02/2018 08:10:00 stop = 18/02/2018 08:25:00 title = Lucky Fred
+[  Info  ]       Replaces ----- start = 18/02/2018 08:25:00 stop = 18/02/2018 08:40:00 title = Lucky Fred
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/02/2018 08:30:00 stop = 18/02/2018 08:45:00 title = Lucky Fred
+[  Info  ]       Replaces ----- start = 18/02/2018 08:25:00 stop = 18/02/2018 08:40:00 title = Lucky Fred
+[  Info  ]       Replaces ----- start = 18/02/2018 08:40:00 stop = 18/02/2018 08:55:00 title = The Jungle Bunch To The Rescue
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/02/2018 08:45:00 stop = 18/02/2018 08:55:00 title = The Jungle Bunch To The Rescue
+[  Info  ]       Replaces ----- start = 18/02/2018 08:40:00 stop = 18/02/2018 08:55:00 title = The Jungle Bunch To The Rescue
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/02/2018 11:05:00 stop = 18/02/2018 11:20:00 title = Lucky Fred
+[  Info  ]       Replaces ----- start = 18/02/2018 11:05:00 stop = 18/02/2018 11:15:00 title = Lucky Fred
+[  Info  ]       Replaces ----- start = 18/02/2018 11:15:00 stop = 18/02/2018 11:30:00 title = Lucky Fred
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/02/2018 11:20:00 stop = 18/02/2018 11:35:00 title = Lucky Fred
+[  Info  ]       Replaces ----- start = 18/02/2018 11:15:00 stop = 18/02/2018 11:30:00 title = Lucky Fred
+[  Info  ]       Replaces ----- start = 18/02/2018 11:30:00 stop = 18/02/2018 11:40:00 title = The Jungle Bunch To The Rescue
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/02/2018 11:35:00 stop = 18/02/2018 11:45:00 title = The Jungle Bunch To The Rescue
+[  Info  ]       Replaces ----- start = 18/02/2018 11:30:00 stop = 18/02/2018 11:40:00 title = The Jungle Bunch To The Rescue
+[  Info  ]       Replaces ----- start = 18/02/2018 11:40:00 stop = 18/02/2018 11:55:00 title = The Jungle Bunch To The Rescue
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/02/2018 11:45:00 stop = 18/02/2018 12:00:00 title = The Jungle Bunch To The Rescue
+[  Info  ]       Replaces ----- start = 18/02/2018 11:40:00 stop = 18/02/2018 11:55:00 title = The Jungle Bunch To The Rescue
+[  Info  ]       Replaces ----- start = 18/02/2018 11:55:00 stop = 18/02/2018 12:20:00 title = Seven And Me
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/02/2018 17:15:00 stop = 18/02/2018 17:25:00 title = The Jungle Bunch To The Rescue
+[  Info  ]       Replaces ----- start = 18/02/2018 17:10:00 stop = 18/02/2018 17:20:00 title = The Jungle Bunch To The Rescue
+[  Info  ]       Replaces ----- start = 18/02/2018 17:20:00 stop = 18/02/2018 17:35:00 title = The Jungle Bunch To The Rescue
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/02/2018 17:25:00 stop = 18/02/2018 17:35:00 title = The Jungle Bunch To The Rescue
+[  Info  ]       Replaces ----- start = 18/02/2018 17:20:00 stop = 18/02/2018 17:35:00 title = The Jungle Bunch To The Rescue
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2018 07:20:00 stop = 19/02/2018 07:50:00 title = Mia And Me (iii)
+[  Info  ]       Replaces ----- start = 19/02/2018 07:20:00 stop = 19/02/2018 07:45:00 title = Mia And Me (iii)
+[  Info  ]       Replaces ----- start = 19/02/2018 07:45:00 stop = 19/02/2018 08:05:00 title = Mia And Me (iii)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2018 07:50:00 stop = 19/02/2018 08:10:00 title = Mia And Me (iii)
+[  Info  ]       Replaces ----- start = 19/02/2018 07:45:00 stop = 19/02/2018 08:05:00 title = Mia And Me (iii)
+[  Info  ]       Replaces ----- start = 19/02/2018 08:05:00 stop = 19/02/2018 08:10:00 title = Snap
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2018 08:20:00 stop = 19/02/2018 08:30:00 title = Lucky Fred
+[  Info  ]       Replaces ----- start = 19/02/2018 08:10:00 stop = 19/02/2018 08:25:00 title = Lucky Fred
+[  Info  ]       Replaces ----- start = 19/02/2018 08:25:00 stop = 19/02/2018 08:40:00 title = Lucky Fred
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2018 08:30:00 stop = 19/02/2018 08:45:00 title = Lucky Fred
+[  Info  ]       Replaces ----- start = 19/02/2018 08:25:00 stop = 19/02/2018 08:40:00 title = Lucky Fred
+[  Info  ]       Replaces ----- start = 19/02/2018 08:40:00 stop = 19/02/2018 08:55:00 title = The Jungle Bunch To The Rescue
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2018 08:45:00 stop = 19/02/2018 09:00:00 title = The Jungle Bunch To The Rescue
+[  Info  ]       Replaces ----- start = 19/02/2018 08:40:00 stop = 19/02/2018 08:55:00 title = The Jungle Bunch To The Rescue
+[  Info  ]       Replaces ----- start = 19/02/2018 08:55:00 stop = 19/02/2018 09:10:00 title = The Jungle Bunch To The Rescue
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2018 09:00:00 stop = 19/02/2018 09:10:00 title = The Jungle Bunch To The Rescue
+[  Info  ]       Replaces ----- start = 19/02/2018 08:55:00 stop = 19/02/2018 09:10:00 title = The Jungle Bunch To The Rescue
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2018 11:10:00 stop = 19/02/2018 11:25:00 title = Lucky Fred
+[  Info  ]       Replaces ----- start = 19/02/2018 11:10:00 stop = 19/02/2018 11:20:00 title = Lucky Fred
+[  Info  ]       Replaces ----- start = 19/02/2018 11:20:00 stop = 19/02/2018 11:35:00 title = Lucky Fred
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2018 11:25:00 stop = 19/02/2018 11:40:00 title = Lucky Fred
+[  Info  ]       Replaces ----- start = 19/02/2018 11:20:00 stop = 19/02/2018 11:35:00 title = Lucky Fred
+[  Info  ]       Replaces ----- start = 19/02/2018 11:35:00 stop = 19/02/2018 11:45:00 title = The Jungle Bunch To The Rescue
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2018 11:40:00 stop = 19/02/2018 11:50:00 title = The Jungle Bunch To The Rescue
+[  Info  ]       Replaces ----- start = 19/02/2018 11:35:00 stop = 19/02/2018 11:45:00 title = The Jungle Bunch To The Rescue
+[  Info  ]       Replaces ----- start = 19/02/2018 11:45:00 stop = 19/02/2018 12:00:00 title = The Jungle Bunch To The Rescue
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2018 11:50:00 stop = 19/02/2018 12:00:00 title = The Jungle Bunch To The Rescue
+[  Info  ]       Replaces ----- start = 19/02/2018 11:45:00 stop = 19/02/2018 12:00:00 title = The Jungle Bunch To The Rescue
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2018 13:25:00 stop = 19/02/2018 13:50:00 title = Mia And Me (ii)
+[  Info  ]       Replaces ----- start = 19/02/2018 13:20:00 stop = 19/02/2018 13:45:00 title = Mia And Me (ii)
+[  Info  ]       Replaces ----- start = 19/02/2018 13:45:00 stop = 19/02/2018 14:10:00 title = Hank Zipzer
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2018 14:20:00 stop = 19/02/2018 14:45:00 title = Alex And Co.
+[  Info  ]       Replaces ----- start = 19/02/2018 14:10:00 stop = 19/02/2018 14:35:00 title = Alex And Co.
+[  Info  ]       Replaces ----- start = 19/02/2018 14:35:00 stop = 19/02/2018 15:05:00 title = Maggie And Bianca (iii)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2018 16:05:00 stop = 19/02/2018 16:30:00 title = Wolverine And The X Men
+[  Info  ]       Replaces ----- start = 19/02/2018 16:00:00 stop = 19/02/2018 16:25:00 title = Wolverine And The X Men
+[  Info  ]       Replaces ----- start = 19/02/2018 16:25:00 stop = 19/02/2018 16:40:00 title = Bat Pat
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/02/2018 07:25:00 stop = 20/02/2018 07:50:00 title = Mia And Me (iii)
+[  Info  ]       Replaces ----- start = 20/02/2018 07:20:00 stop = 20/02/2018 07:45:00 title = Mia And Me (iii)
+[  Info  ]       Replaces ----- start = 20/02/2018 07:45:00 stop = 20/02/2018 08:05:00 title = Mia And Me (iii)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/02/2018 07:50:00 stop = 20/02/2018 08:10:00 title = Mia And Me (iii)
+[  Info  ]       Replaces ----- start = 20/02/2018 07:45:00 stop = 20/02/2018 08:05:00 title = Mia And Me (iii)
+[  Info  ]       Replaces ----- start = 20/02/2018 08:05:00 stop = 20/02/2018 08:10:00 title = Snap
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/02/2018 08:20:00 stop = 20/02/2018 08:30:00 title = Lucky Fred
+[  Info  ]       Replaces ----- start = 20/02/2018 08:10:00 stop = 20/02/2018 08:25:00 title = Lucky Fred
+[  Info  ]       Replaces ----- start = 20/02/2018 08:25:00 stop = 20/02/2018 08:40:00 title = Lucky Fred
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/02/2018 08:30:00 stop = 20/02/2018 08:45:00 title = Lucky Fred
+[  Info  ]       Replaces ----- start = 20/02/2018 08:25:00 stop = 20/02/2018 08:40:00 title = Lucky Fred
+[  Info  ]       Replaces ----- start = 20/02/2018 08:40:00 stop = 20/02/2018 08:55:00 title = The Jungle Bunch To The Rescue
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/02/2018 08:45:00 stop = 20/02/2018 08:55:00 title = The Jungle Bunch To The Rescue
+[  Info  ]       Replaces ----- start = 20/02/2018 08:40:00 stop = 20/02/2018 08:55:00 title = The Jungle Bunch To The Rescue
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/02/2018 11:35:00 stop = 20/02/2018 11:50:00 title = The Jungle Bunch To The Rescue
+[  Info  ]       Replaces ----- start = 20/02/2018 11:35:00 stop = 20/02/2018 11:45:00 title = The Jungle Bunch To The Rescue
+[  Info  ]       Replaces ----- start = 20/02/2018 11:45:00 stop = 20/02/2018 12:00:00 title = The Jungle Bunch To The Rescue
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/02/2018 11:50:00 stop = 20/02/2018 12:00:00 title = The Jungle Bunch To The Rescue
+[  Info  ]       Replaces ----- start = 20/02/2018 11:45:00 stop = 20/02/2018 12:00:00 title = The Jungle Bunch To The Rescue
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/02/2018 13:25:00 stop = 20/02/2018 13:50:00 title = Mia And Me (ii)
+[  Info  ]       Replaces ----- start = 20/02/2018 13:20:00 stop = 20/02/2018 13:45:00 title = Mia And Me (ii)
+[  Info  ]       Replaces ----- start = 20/02/2018 13:45:00 stop = 20/02/2018 14:10:00 title = Hank Zipzer
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/02/2018 14:15:00 stop = 20/02/2018 14:40:00 title = Alex And Co.
+[  Info  ]       Replaces ----- start = 20/02/2018 14:10:00 stop = 20/02/2018 14:35:00 title = Alex And Co.
+[  Info  ]       Replaces ----- start = 20/02/2018 14:35:00 stop = 20/02/2018 15:05:00 title = Maggie And Bianca (iii)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/02/2018 16:05:00 stop = 20/02/2018 16:30:00 title = Wolverine And The X Men
+[  Info  ]       Replaces ----- start = 20/02/2018 16:00:00 stop = 20/02/2018 16:25:00 title = Wolverine And The X Men
+[  Info  ]       Replaces ----- start = 20/02/2018 16:25:00 stop = 20/02/2018 16:40:00 title = Bat Pat
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/02/2018 17:15:00 stop = 20/02/2018 17:25:00 title = The Jungle Bunch To The Rescue
+[  Info  ]       Replaces ----- start = 20/02/2018 17:10:00 stop = 20/02/2018 17:20:00 title = The Jungle Bunch To The Rescue
+[  Info  ]       Replaces ----- start = 20/02/2018 17:20:00 stop = 20/02/2018 17:35:00 title = The Jungle Bunch To The Rescue
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/02/2018 17:25:00 stop = 20/02/2018 17:40:00 title = The Jungle Bunch To The Rescue
+[  Info  ]       Replaces ----- start = 20/02/2018 17:20:00 stop = 20/02/2018 17:35:00 title = The Jungle Bunch To The Rescue
+[  Info  ]       Replaces ----- start = 20/02/2018 17:35:00 stop = 20/02/2018 18:00:00 title = Kung Fu Panda (iii)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/02/2018 17:40:00 stop = 20/02/2018 18:00:00 title = Kung Fu Panda (iii)
+[  Info  ]       Replaces ----- start = 20/02/2018 17:35:00 stop = 20/02/2018 18:00:00 title = Kung Fu Panda (iii)
+[  Info  ] 0.12 sec/update
 [  Debug ] 
 [  Info  ] ( 125/163 ) RAI.IT -- chan. (xmltv_id=Rai YoYo HD) -- mode Incremental
 [  Info  ] 
@@ -709,7 +891,7 @@ Object name: 'System.Net.Sockets.NetworkStream'.)
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 16/02/2018 15:41:00 stop = 16/02/2018 17:14:00 title = We Were Young
 [  Info  ]       Replaces ----- start = 16/02/2018 15:41:00 stop = 16/02/2018 17:14:00 title = We Were Young
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.12 sec/update
 [  Debug ] 
 [  Info  ] ( 145/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema +24) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = WE WERE YOUNG - DESTINAZIONE PARADISO
@@ -776,7 +958,7 @@ Object name: 'System.Net.Sockets.NetworkStream'.)
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 20/02/2018 02:17:00 stop = 20/02/2018 05:03:00 title = IL PADRINO - PARTE III
 [  Info  ]       Replaces ----- start = 20/02/2018 02:17:00 stop = 20/02/2018 05:03:00 title = IL PADRINO - PARTE III
-[  Info  ] 0.12 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 148/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Energy) -- mode Incremental
 [  Info  ] 
@@ -823,7 +1005,7 @@ Object name: 'System.Net.Sockets.NetworkStream'.)
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 22/02/2018 06:30:00 stop = 22/02/2018 06:59:00 title = PIERLUIGI FAVINO - INVITO A CENA CON...
 [  Info  ]       Replaces ----- start = 22/02/2018 06:30:00 stop = 22/02/2018 06:59:00 title = PIERLUIGI FAVINO - INVITO A CENA CON...
-[  Info  ] 0.12 sec/update
+[  Info  ] 0.17 sec/update
 [  Debug ] 
 [  Info  ] ( 151/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Investigation Discovery) -- mode Incremental
 [  Info  ] 
@@ -937,7 +1119,7 @@ Object name: 'System.Net.Sockets.NetworkStream'.)
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 22/02/2018 13:50:00 stop = 22/02/2018 15:25:00 title = Rush Hour 3 - Missione Parigi
 [  Info  ]       Replaces ----- start = 22/02/2018 13:50:00 stop = 22/02/2018 15:25:00 title = Rush Hour 3 - Missione Parigi
-[  Info  ] 0.56 sec/update
+[  Info  ] 0.54 sec/update
 [  Debug ] 
 [  Info  ] ( 153/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Paramount Channel) -- mode Incremental
 [  Info  ]    epg correction : 
@@ -1729,7 +1911,7 @@ Object name: 'System.Net.Sockets.NetworkStream'.)
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 22/02/2018 23:58:00 stop = 23/02/2018 00:47:00 title = IL RISVEGLIO - GOTHAM IV - PRIMA TV
 [  Info  ]       Replaces ----- start = 22/02/2018 23:58:00 stop = 23/02/2018 00:47:00 title = IL RISVEGLIO - GOTHAM IV - PRIMA TV
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 155/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action +24) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = CHICAGO FIRE VI
@@ -2374,7 +2556,7 @@ Object name: 'System.Net.Sockets.NetworkStream'.)
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 22/02/2018 23:46:00 stop = 23/02/2018 00:35:00 title = ZARI - DC'S LEGENDS OF TOMORROW III - PRIMA TV
 [  Info  ]       Replaces ----- start = 22/02/2018 23:46:00 stop = 23/02/2018 00:35:00 title = ZARI - DC'S LEGENDS OF TOMORROW III - PRIMA TV
-[  Info  ] 0.12 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 156/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Crime) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = RUSH HOUR I
@@ -2689,7 +2871,7 @@ Object name: 'System.Net.Sockets.NetworkStream'.)
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 22/02/2018 23:53:00 stop = 23/02/2018 00:54:00 title = SARAI DISTRUTTO - ANIMAL KINGDOM II - PRIMA TV
 [  Info  ]       Replaces ----- start = 22/02/2018 23:53:00 stop = 23/02/2018 00:54:00 title = SARAI DISTRUTTO - ANIMAL KINGDOM II - PRIMA TV
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 157/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Joy) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = ODD MOM OUT III
@@ -5206,7 +5388,7 @@ Object name: 'System.Net.Sockets.NetworkStream'.)
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 22/02/2018 22:00:00 stop = 22/02/2018 22:30:00 title = SETTIMA GIORNATA 22/2 - UN GIRONE FA
 [  Info  ]       Replaces ----- start = 22/02/2018 22:00:00 stop = 22/02/2018 22:30:00 title = SETTIMA GIORNATA 22/2 - UN GIRONE FA
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 160/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Sport 2 HD) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = SERIE A EMOTION PILLOLE GOL COLLECTION GILARDINO
@@ -5812,12 +5994,12 @@ Object name: 'System.Net.Sockets.NetworkStream'.)
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 22/02/2018 20:30:00 stop = 22/02/2018 21:00:00 title = SETTIMA GIORNATA 22/2 - UN GIRONE FA
 [  Info  ]       Replaces ----- start = 22/02/2018 20:30:00 stop = 22/02/2018 21:00:00 title = SETTIMA GIORNATA 22/2 - UN GIRONE FA
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
-[  Debug ] 35222 shows in 163 channels
-[  Debug ] 901 updated shows
-[  Debug ] 5 new shows added
+[  Debug ] 35230 shows in 163 channels
+[  Debug ] 1035 updated shows
+[  Debug ] 8 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 16/02/2018 18:18:02 done in 12m 58s
+[        ] Job finished at 16/02/2018 20:18:09 done in 13m 5s
 [  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
