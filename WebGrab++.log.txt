@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 09/03/2018 10:05:04
+[        ] Job started at 09/03/2018 12:05:03
 [  Debug ] 
 [  Debug ] Running  on: Unix 3.13.0.132
 [  Debug ] Environment: 4.0.30319.42000
@@ -29,7 +29,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+01:00	(no DST in effect)
 [  Debug ] 	next DST dates  :	25/03/2018 02:00 (local)
 [  Debug ] 	                :	28/10/2018 03:00 (local)
-[  Debug ] 	local time now  :	09/03/2018 10:05:04
+[  Debug ] 	local time now  :	09/03/2018 12:05:04
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -211,6 +211,10 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   2/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai 2 HD) -- mode Incremental
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
+[Warning ] error downloading page: Error getting response stream (ReadDone1): ReceiveFailure
+[Warning ] pausing 2 of 4 times for 10 seconds before re-try.
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   3/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai 3 HD) -- mode Incremental
@@ -232,7 +236,7 @@
 [  Debug ]       differs from title in showdetails = LA SIGNORA IN GIALLO III
 [  Debug ]    suspicious      title in index page  = THE NEXT THREE DAYS
 [  Debug ]       differs from title in showdetails = QUINTA COLONNA
-[  Info  ] 0.08 sec/update
+[  Info  ] 0.09 sec/update
 [  Debug ] 
 [  Info  ] (   5/163 ) MEDIASET.IT -- chan. (xmltv_id=Canale 5 HD) -- mode Incremental
 [  Info  ] 
@@ -244,10 +248,14 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   8/163 ) MEDIASET.IT -- chan. (xmltv_id=Italia 2) -- mode Incremental
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   9/163 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La1 HD) -- mode Incremental
-[  Info  ] 0.04 sec/update
+[  Info  ] 0.03 sec/update
 [  Debug ] 
 [  Info  ] (  10/163 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La2 HD) -- mode Incremental
 [  Info  ] 0.03 sec/update
@@ -378,10 +386,6 @@
 
 [  Debug ] 
 [  Info  ] (  48/163 ) PROGRAMMI-TV.EU -- chan. (xmltv_id=Rai News 24) -- mode Incremental
-[Warning ] error downloading page: The request timed out (5sec)
-[Warning ] Retry 1 of 4 times
-[Warning ] error downloading page: Error getting response stream (ReadDone1): ReceiveFailure
-[Warning ] pausing 2 of 4 times for 10 seconds before re-try.
 [Error   ] no shows in indexpage!
 [Error   ] Cannot find any shows on the Index Page !
 [  Info  ] 
@@ -398,7 +402,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  51/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=SKY CLASSICA HD) -- mode Incremental
-[  Info  ] 0.12 sec/update
+[  Info  ] 0.11 sec/update
 [  Debug ] 
 [  Info  ] (  52/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Atlantic HD) -- mode Incremental
 [  Info  ] 
@@ -413,10 +417,10 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  56/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Life HD) -- mode Incremental
-[  Info  ] 0.21 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  57/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Life +1) -- mode Incremental
-[  Info  ] 0.20 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  58/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Crime HD) -- mode Incremental
 [  Info  ] 
@@ -488,7 +492,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  75/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport 2 HD) -- mode Incremental
-[  Info  ] 0.17 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  76/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport 3 HD) -- mode Incremental
 [  Info  ] 
@@ -578,7 +582,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 100/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Milan Channel) -- mode Incremental
-[  Info  ] 0.28 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 101/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Juventus Channel) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
@@ -637,19 +641,19 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 119/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cielo) -- mode Incremental
-[  Info  ] 0.16 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 120/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Animal Planet) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 121/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Gambero Rosso) -- mode Incremental
-[  Info  ] 0.20 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 122/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Dove TV) -- mode Incremental
-[  Info  ] 0.21 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 123/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cielo HD) -- mode Incremental
-[  Info  ] 0.17 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 124/163 ) RAI.IT -- chan. (xmltv_id=Rai Gulp HD) -- mode Incremental
 [  Info  ] 
@@ -718,7 +722,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 11/03/2018 08:19:00 stop = 11/03/2018 10:18:00 title = Moonlight Mile
 [  Info  ]       Replaces ----- start = 11/03/2018 08:19:00 stop = 11/03/2018 10:18:00 title = Moonlight Mile
-[  Info  ] 0.19 sec/update
+[  Info  ] 0.13 sec/update
 [  Debug ] 
 [  Info  ] ( 145/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema +24) -- mode Incremental
 [  Info  ]    forced update : 
@@ -766,7 +770,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 15/03/2018 15:21:00 stop = 15/03/2018 17:29:00 title = Superman II
 [  Info  ]       Replaces ----- start = 15/03/2018 15:21:00 stop = 15/03/2018 17:29:00 title = Superman II
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 149/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Emotion) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = FULL EMOTION
@@ -822,7 +826,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 14/03/2018 06:59:00 stop = 14/03/2018 07:27:00 title = PIERLUIGI FAVINO - INVITO A CENA CON...
 [  Info  ]       Replaces ----- start = 14/03/2018 06:59:00 stop = 14/03/2018 07:27:00 title = PIERLUIGI FAVINO - INVITO A CENA CON...
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.13 sec/update
 [  Debug ] 
 [  Info  ] ( 151/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Investigation Discovery) -- mode Incremental
 [  Info  ] 
@@ -1896,7 +1900,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 15/03/2018 23:50:00 stop = 16/03/2018 00:39:00 title = IL GIORNO DEL MAIALE - GOTHAM IV - PRIMA TV
 [  Info  ]       Replaces ----- start = 15/03/2018 23:50:00 stop = 16/03/2018 00:39:00 title = IL GIORNO DEL MAIALE - GOTHAM IV - PRIMA TV
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.17 sec/update
 [  Debug ] 
 [  Info  ] ( 155/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action +24) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = CHICAGO FIRE VI
@@ -5060,7 +5064,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 15/03/2018 23:51:00 stop = 16/03/2018 00:40:00 title = L' IMPIEGATO DEL MESE - SHAMELESS VIII - PRIMA TV
 [  Info  ]       Replaces ----- start = 15/03/2018 23:51:00 stop = 16/03/2018 00:40:00 title = L' IMPIEGATO DEL MESE - SHAMELESS VIII - PRIMA TV
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 159/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Sport superHD) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = EDICOLA PREMIUM
@@ -5595,7 +5599,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 15/03/2018 22:30:00 stop = 15/03/2018 23:00:00 title = DECIMA GIORNATA 15/3 - UN GIRONE FA
 [  Info  ]       Replaces ----- start = 15/03/2018 22:30:00 stop = 15/03/2018 23:00:00 title = DECIMA GIORNATA 15/3 - UN GIRONE FA
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.17 sec/update
 [  Debug ] 
 [  Info  ] ( 160/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Sport 2 HD) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = SERIE A EMOTION PILLOLE PAMPA SOSA
@@ -5886,7 +5890,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 15/03/2018 20:30:00 stop = 15/03/2018 21:00:00 title = DECIMA GIORNATA 15/3 - UN GIRONE FA
 [  Info  ]       Replaces ----- start = 15/03/2018 20:30:00 stop = 15/03/2018 21:00:00 title = DECIMA GIORNATA 15/3 - UN GIRONE FA
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 161/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Calcio 1) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = SERIE A EMOTION PILLOLE PAMPA SOSA
@@ -6177,12 +6181,12 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 15/03/2018 20:30:00 stop = 15/03/2018 21:00:00 title = DECIMA GIORNATA 15/3 - UN GIRONE FA
 [  Info  ]       Replaces ----- start = 15/03/2018 20:30:00 stop = 15/03/2018 21:00:00 title = DECIMA GIORNATA 15/3 - UN GIRONE FA
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
-[  Debug ] 35509 shows in 163 channels
-[  Debug ] 1227 updated shows
+[  Debug ] 35515 shows in 163 channels
+[  Debug ] 963 updated shows
 [  Debug ] 6 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 09/03/2018 10:19:26 done in 14m 22s
+[        ] Job finished at 09/03/2018 12:18:24 done in 13m 20s
 [  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
