@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 17/03/2018 08:05:03
+[        ] Job started at 17/03/2018 10:05:03
 [  Debug ] 
 [  Debug ] Running  on: Unix 3.13.0.132
 [  Debug ] Environment: 4.0.30319.42000
@@ -29,7 +29,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+01:00	(no DST in effect)
 [  Debug ] 	next DST dates  :	25/03/2018 02:00 (local)
 [  Debug ] 	                :	28/10/2018 03:00 (local)
-[  Debug ] 	local time now  :	17/03/2018 08:05:03
+[  Debug ] 	local time now  :	17/03/2018 10:05:03
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -220,7 +220,7 @@
 [  Debug ]    skipped show longer than 15 hour(s) at 21/03/2018 01:39:00 title TG4 - NIGHT NEWS
 [  Debug ]    suspicious      title in index page  = PARTITA MUNDIAL
 [  Debug ]       differs from title in showdetails = DALLA VOSTRA PARTE
-[  Info  ] 0.09 sec/update
+[  Info  ] 0.08 sec/update
 [  Debug ] 
 [  Info  ] (   5/163 ) MEDIASET.IT -- chan. (xmltv_id=Canale 5 HD) -- mode Incremental
 [  Info  ] 
@@ -235,26 +235,26 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   9/163 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La1 HD) -- mode Incremental
-[  Info  ] 0.03 sec/update
+[  Info  ] 0.05 sec/update
 [  Debug ] 
 [  Info  ] (  10/163 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La2 HD) -- mode Incremental
 [  Info  ] 0.03 sec/update
 [  Debug ] 
 [  Info  ] (  11/163 ) STASERAINTV.COM -- chan. (xmltv_id=La 5) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.07 sec/update
 [  Debug ] 
 [  Info  ] (  12/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=LA7) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  13/163 ) STASERAINTV.COM -- chan. (xmltv_id=LA7 D) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[  Info  ] 0.06 sec/update
 [  Debug ] 
 [  Info  ] (  14/163 ) STASERAINTV.COM -- chan. (xmltv_id=TV 8) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.05 sec/update
 [  Debug ] 
 [  Info  ] (  15/163 ) STASERAINTV.COM -- chan. (xmltv_id=Nove HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.07 sec/update
 [  Debug ] 
 [  Info  ] (  16/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Top Crime) -- mode Incremental
 [  Info  ] 
@@ -383,7 +383,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  51/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=SKY CLASSICA HD) -- mode Incremental
-[  Info  ] 0.12 sec/update
+[  Info  ] 0.11 sec/update
 [  Debug ] 
 [  Info  ] (  52/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Atlantic HD) -- mode Incremental
 [  Info  ] 
@@ -450,6 +450,10 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  68/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Bike Channel) -- mode Incremental
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
+[Warning ] error downloading page: Error getting response stream (ReadDone1): ReceiveFailure
+[Warning ] pausing 2 of 4 times for 10 seconds before re-try.
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  69/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Eurosport 1) -- mode Incremental
@@ -601,8 +605,6 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 113/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=History Channel HD) -- mode Incremental
-[Warning ] error downloading page: The request timed out (5sec)
-[Warning ] Retry 1 of 4 times
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 114/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Focus) -- mode Incremental
@@ -636,7 +638,52 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 124/163 ) RAI.IT -- chan. (xmltv_id=Rai Gulp HD) -- mode Incremental
-[  Info  ] 
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/03/2018 15:55:00 stop = 18/03/2018 16:15:00 title = Wolverine And The X Men
+[  Info  ]       Replaces ----- start = 18/03/2018 15:55:00 stop = 18/03/2018 16:20:00 title = Wolverine And The X Men
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 18/03/2018 17:25:00 stop = 18/03/2018 17:25:00 title = I Corti Di Topolino
+[  Info  ]       Added before - start = 18/03/2018 17:25:00 stop = 18/03/2018 17:30:00 title = I Corti Di Topolino
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/03/2018 17:25:00 stop = 18/03/2018 17:50:00 title = Zorro
+[  Info  ]       Replaces ----- start = 18/03/2018 17:25:00 stop = 18/03/2018 17:30:00 title = I Corti Di Topolino
+[  Info  ]       Replaces ----- start = 18/03/2018 17:30:00 stop = 18/03/2018 17:55:00 title = Zorro
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2018 10:00:00 stop = 19/03/2018 10:25:00 title = Heidi
+[  Info  ]       Replaces ----- start = 19/03/2018 09:55:00 stop = 19/03/2018 10:20:00 title = Heidi
+[  Info  ]       Replaces ----- start = 19/03/2018 10:20:00 stop = 19/03/2018 10:45:00 title = Heidi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2018 10:25:00 stop = 19/03/2018 10:45:00 title = Heidi
+[  Info  ]       Replaces ----- start = 19/03/2018 10:20:00 stop = 19/03/2018 10:45:00 title = Heidi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2018 11:10:00 stop = 19/03/2018 11:25:00 title = Lucky Fred (ii)
+[  Info  ]       Replaces ----- start = 19/03/2018 11:10:00 stop = 19/03/2018 11:20:00 title = Lucky Fred (ii)
+[  Info  ]       Replaces ----- start = 19/03/2018 11:20:00 stop = 19/03/2018 11:35:00 title = Lucky Fred (ii)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2018 11:25:00 stop = 19/03/2018 11:35:00 title = Lucky Fred (ii)
+[  Info  ]       Replaces ----- start = 19/03/2018 11:20:00 stop = 19/03/2018 11:35:00 title = Lucky Fred (ii)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/03/2018 13:00:00 stop = 20/03/2018 13:25:00 title = Inazuma Eleven
+[  Info  ]       Replaces ----- start = 20/03/2018 12:55:00 stop = 20/03/2018 13:20:00 title = Inazuma Eleven
+[  Info  ]       Replaces ----- start = 20/03/2018 13:20:00 stop = 20/03/2018 13:50:00 title = Inazuma Eleven
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/03/2018 13:25:00 stop = 20/03/2018 13:50:00 title = Inazuma Eleven
+[  Info  ]       Replaces ----- start = 20/03/2018 13:20:00 stop = 20/03/2018 13:50:00 title = Inazuma Eleven
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/03/2018 16:05:00 stop = 20/03/2018 16:30:00 title = Gulp Music 2017/2018
+[  Info  ]       Replaces ----- start = 20/03/2018 16:00:00 stop = 20/03/2018 16:25:00 title = Gulp Music 2017/2018
+[  Info  ]       Replaces ----- start = 20/03/2018 16:25:00 stop = 20/03/2018 16:40:00 title = Bat Pat
+[  Info  ] 0.11 sec/update
 [  Debug ] 
 [  Info  ] ( 125/163 ) RAI.IT -- chan. (xmltv_id=Rai YoYo HD) -- mode Incremental
 [  Info  ] 
@@ -715,7 +762,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 23/03/2018 02:36:00 stop = 23/03/2018 04:26:00 title = 7 VOLTE 7 -
 [  Info  ]       Replaces ----- start = 23/03/2018 02:36:00 stop = 23/03/2018 04:26:00 title = 7 VOLTE 7 -
-[  Info  ] 0.19 sec/update
+[  Info  ] 0.12 sec/update
 [  Debug ] 
 [  Info  ] ( 147/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema 2 +24) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = 7 VOLTE 7
@@ -724,7 +771,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 23/03/2018 15:45:00 stop = 23/03/2018 17:36:00 title = 7 VOLTE 7 -
 [  Info  ]       Replaces ----- start = 23/03/2018 15:45:00 stop = 23/03/2018 17:36:00 title = 7 VOLTE 7 -
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.12 sec/update
 [  Debug ] 
 [  Info  ] ( 148/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Energy) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = BUIO
@@ -737,7 +784,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 18/03/2018 05:01:00 stop = 18/03/2018 06:30:00 title = GRIDLOCK'D - ISTINTI CRIMINALI
 [  Info  ]       Replaces ----- start = 18/03/2018 05:01:00 stop = 18/03/2018 06:30:00 title = GRIDLOCK'D - ISTINTI CRIMINALI
-[  Info  ] 0.20 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 149/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Emotion) -- mode Incremental
 [  Info  ]    forced update : 
@@ -778,7 +825,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 23/03/2018 06:30:00 stop = 23/03/2018 06:37:00 title = LA BELLA E LA BESTIA - FULL EMOTION
 [  Info  ]       Replaces ----- start = 23/03/2018 06:30:00 stop = 23/03/2018 06:37:00 title = LA BELLA E LA BESTIA - FULL EMOTION
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 150/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Comedy) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = A CENA CON...
@@ -799,7 +846,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 23/03/2018 02:10:00 stop = 23/03/2018 03:42:00 title = Rush Hour 2 - Colpo Grosso Al Drago Rosso
 [  Info  ]       Replaces ----- start = 23/03/2018 02:10:00 stop = 23/03/2018 03:42:00 title = Rush Hour 2 - Colpo Grosso Al Drago Rosso
-[  Info  ] 0.18 sec/update
+[  Info  ] 0.20 sec/update
 [  Debug ] 
 [  Info  ] ( 151/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Investigation Discovery) -- mode Incremental
 [  Info  ] 
@@ -881,7 +928,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 23/03/2018 15:45:00 stop = 23/03/2018 17:40:00 title = L'INCREDIBILE VOLO
 [  Info  ]       Replaces ----- start = 23/03/2018 15:45:00 stop = 23/03/2018 17:40:00 title = L'INCREDIBILE VOLO
-[  Info  ] 0.17 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 153/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Paramount Channel) -- mode Incremental
 [  Info  ]    epg correction : 
@@ -960,7 +1007,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 23/03/2018 15:45:00 stop = 23/03/2018 17:40:00 title = L'INCREDIBILE VOLO
 [  Info  ]       Replaces ----- start = 23/03/2018 15:45:00 stop = 23/03/2018 17:40:00 title = L'INCREDIBILE VOLO
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 154/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action HD) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = SUPERGIRL III
@@ -1076,7 +1123,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 17/03/2018 23:49:00 stop = 18/03/2018 00:38:00 title = IL GIORNO DEL MAIALE - GOTHAM IV
-[  Info  ]       Replaces ----- start = 17/03/2018 23:49:00 stop = 18/03/2018 00:38:00 title = IL GIORNO DEL MAIALE - GOTHAM IV - PRIMA TV
+[  Info  ]       Replaces ----- start = 17/03/2018 23:49:00 stop = 18/03/2018 00:38:00 title = IL GIORNO DEL MAIALE - GOTHAM IV
 [  Debug ]    suspicious      title in index page  = GRIMM I
 [  Debug ]       differs from title in showdetails = IL CORAGGIO DEI T.....
 [  Info  ]    epg correction : 
@@ -1131,12 +1178,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 18/03/2018 07:21:00 stop = 18/03/2018 08:05:00 title = PROMESSE MANTENUTE - ARROW VI
 [  Info  ]       Replaces ----- start = 18/03/2018 07:21:00 stop = 18/03/2018 08:05:00 title = PROMESSE MANTENUTE - ARROW VI
-[  Debug ]    suspicious      title in index page  = CHICAGO FIRE VI
-[  Debug ]       differs from title in showdetails = IL TRASFERIMENTO - CHICAG.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18/03/2018 08:05:00 stop = 18/03/2018 08:52:00 title = IL TRASFERIMENTO - CHICAGO FIRE VI
-[  Info  ]       Replaces ----- start = 18/03/2018 08:05:00 stop = 18/03/2018 08:52:00 title = IL TRASFERIMENTO - CHICAGO FIRE VI - PRIMA TV
 [  Debug ]    suspicious      title in index page  = GOTHAM IV
 [  Debug ]       differs from title in showdetails = IL SENTIERO DELL'OS.....
 [  Info  ]    epg correction : 
@@ -1148,7 +1189,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 18/03/2018 09:41:00 stop = 18/03/2018 10:28:00 title = IL GIORNO DEL MAIALE - GOTHAM IV
-[  Info  ]       Replaces ----- start = 18/03/2018 09:41:00 stop = 18/03/2018 10:28:00 title = IL GIORNO DEL MAIALE - GOTHAM IV - PRIMA TV
+[  Info  ]       Replaces ----- start = 18/03/2018 09:41:00 stop = 18/03/2018 10:28:00 title = IL GIORNO DEL MAIALE - GOTHAM IV
 [  Debug ]    suspicious      title in index page  = BLOOD DRIVE
 [  Debug ]       differs from title in showdetails = GARA ALL'ULTIMO SANGU.....
 [  Info  ]    epg correction : 
@@ -1209,12 +1250,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 18/03/2018 23:49:00 stop = 19/03/2018 00:38:00 title = HARRY, TI PRESENTO HARRY ... - THE FLASH IV
 [  Info  ]       Replaces ----- start = 18/03/2018 23:49:00 stop = 19/03/2018 00:38:00 title = HARRY, TI PRESENTO HARRY ... - THE FLASH IV
-[  Debug ]    suspicious      title in index page  = CHICAGO FIRE VI
-[  Debug ]       differs from title in showdetails = IL TRASFERIMENTO - CHICAG.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/03/2018 00:38:00 stop = 19/03/2018 01:28:00 title = IL TRASFERIMENTO - CHICAGO FIRE VI
-[  Info  ]       Replaces ----- start = 19/03/2018 00:38:00 stop = 19/03/2018 01:28:00 title = IL TRASFERIMENTO - CHICAGO FIRE VI - PRIMA TV
 [  Debug ]    suspicious      title in index page  = GRIMM II
 [  Debug ]       differs from title in showdetails = IL RITO DELLA LUNA.....
 [  Info  ]    epg correction : 
@@ -1490,7 +1525,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 21/03/2018 06:50:00 stop = 21/03/2018 07:40:00 title = IL GIORNO DEL MAIALE - GOTHAM IV
-[  Info  ]       Replaces ----- start = 21/03/2018 06:50:00 stop = 21/03/2018 07:40:00 title = IL GIORNO DEL MAIALE - GOTHAM IV - PRIMA TV
+[  Info  ]       Replaces ----- start = 21/03/2018 06:50:00 stop = 21/03/2018 07:40:00 title = IL GIORNO DEL MAIALE - GOTHAM IV
 [  Debug ]    suspicious      title in index page  = IZOMBIE III
 [  Debug ]       differs from title in showdetails = PISOLINO PORCELLINO -.....
 [  Info  ]    epg correction : 
@@ -1568,7 +1603,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 21/03/2018 22:11:00 stop = 21/03/2018 23:02:00 title = IL GIORNO DEL MAIALE - GOTHAM IV
-[  Info  ]       Replaces ----- start = 21/03/2018 22:11:00 stop = 21/03/2018 23:02:00 title = IL GIORNO DEL MAIALE - GOTHAM IV - PRIMA TV
+[  Info  ]       Replaces ----- start = 21/03/2018 22:11:00 stop = 21/03/2018 23:02:00 title = IL GIORNO DEL MAIALE - GOTHAM IV
 [  Debug ]    suspicious      title in index page  = THE 100 III
 [  Debug ]       differs from title in showdetails = WANHEDA - II PARTE - .....
 [  Info  ]    epg correction : 
@@ -1605,12 +1640,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 22/03/2018 04:42:00 stop = 22/03/2018 05:22:00 title = ENERGIA POTENZIALE - THE FLASH II
 [  Info  ]       Replaces ----- start = 22/03/2018 04:42:00 stop = 22/03/2018 05:22:00 title = ENERGIA POTENZIALE - THE FLASH II
-[  Debug ]    suspicious      title in index page  = CHICAGO FIRE VI
-[  Debug ]       differs from title in showdetails = IL TRASFERIMENTO - CHICAG.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 22/03/2018 06:00:00 stop = 22/03/2018 06:44:00 title = IL TRASFERIMENTO - CHICAGO FIRE VI
-[  Info  ]       Replaces ----- start = 22/03/2018 06:00:00 stop = 22/03/2018 06:44:00 title = IL TRASFERIMENTO - CHICAGO FIRE VI - PRIMA TV
 [  Debug ]    suspicious      title in index page  = CONTAINMENT
 [  Debug ]       differs from title in showdetails = IL PUNTO DEBOLE DI OG.....
 [  Info  ]    epg correction : 
@@ -1665,12 +1694,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 22/03/2018 21:19:00 stop = 22/03/2018 22:12:00 title = OPERAZIONE NARROWS - GOTHAM IV - PRIMA TV
 [  Info  ]       Replaces ----- start = 22/03/2018 21:19:00 stop = 22/03/2018 22:12:00 title = OPERAZIONE NARROWS - GOTHAM IV - PRIMA TV
-[  Debug ]    suspicious      title in index page  = CHICAGO FIRE VI
-[  Debug ]       differs from title in showdetails = IL TRASFERIMENTO - CHICAG.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 22/03/2018 22:12:00 stop = 22/03/2018 22:57:00 title = IL TRASFERIMENTO - CHICAGO FIRE VI
-[  Info  ]       Replaces ----- start = 22/03/2018 22:12:00 stop = 22/03/2018 22:57:00 title = IL TRASFERIMENTO - CHICAGO FIRE VI - PRIMA TV
 [  Debug ]    suspicious      title in index page  = THE 100 III
 [  Debug ]       differs from title in showdetails = O VOI CHE QUI ENTRATE.....
 [  Info  ]    epg correction : 
@@ -1797,7 +1820,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 23/03/2018 23:47:00 stop = 24/03/2018 00:39:00 title = CHICAGO FIRE VI, 7 - CHICAGO FIRE VI - PRIMA TV
 [  Info  ]       Replaces ----- start = 23/03/2018 23:47:00 stop = 24/03/2018 00:39:00 title = CHICAGO FIRE VI, 7 - CHICAGO FIRE VI - PRIMA TV
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 155/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action +24) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = IZOMBIE III
@@ -1817,7 +1840,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 17/03/2018 09:31:00 stop = 17/03/2018 10:20:00 title = IL GIORNO DEL MAIALE - GOTHAM IV
-[  Info  ]       Replaces ----- start = 17/03/2018 09:31:00 stop = 17/03/2018 10:20:00 title = IL GIORNO DEL MAIALE - GOTHAM IV - PRIMA TV
+[  Info  ]       Replaces ----- start = 17/03/2018 09:31:00 stop = 17/03/2018 10:20:00 title = IL GIORNO DEL MAIALE - GOTHAM IV
 [  Debug ]    suspicious      title in index page  = LUCIFER II
 [  Debug ]       differs from title in showdetails = COMPASSIONE PER LA D.....
 [  Info  ]    epg correction : 
@@ -1835,7 +1858,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 17/03/2018 14:41:00 stop = 17/03/2018 15:31:00 title = IL GIORNO DEL MAIALE - GOTHAM IV
-[  Info  ]       Replaces ----- start = 17/03/2018 14:41:00 stop = 17/03/2018 15:31:00 title = IL GIORNO DEL MAIALE - GOTHAM IV - PRIMA TV
+[  Info  ]       Replaces ----- start = 17/03/2018 14:41:00 stop = 17/03/2018 15:31:00 title = IL GIORNO DEL MAIALE - GOTHAM IV
 [  Debug ]    suspicious      title in index page  = ARROW II
 [  Debug ]       differs from title in showdetails = IL PROCESSO - ARRO.....
 [  Info  ]    epg correction : 
@@ -1860,24 +1883,12 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 17/03/2018 19:41:00 stop = 17/03/2018 20:29:00 title = LACRIME E SILENZIO - CONTAINMENT
 [  Info  ]       Replaces ----- start = 17/03/2018 19:41:00 stop = 17/03/2018 20:29:00 title = LACRIME E SILENZIO - CONTAINMENT
-[  Debug ]    suspicious      title in index page  = CHICAGO FIRE VI
-[  Debug ]       differs from title in showdetails = IL TRASFERIMENTO - CHICAG.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 17/03/2018 21:19:00 stop = 17/03/2018 22:08:00 title = IL TRASFERIMENTO - CHICAGO FIRE VI
-[  Info  ]       Replaces ----- start = 17/03/2018 21:19:00 stop = 17/03/2018 22:08:00 title = IL TRASFERIMENTO - CHICAGO FIRE VI - PRIMA TV
 [  Debug ]    suspicious      title in index page  = LUCIFER II
 [  Debug ]       differs from title in showdetails = COMPASSIONE PER LA D.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 17/03/2018 22:58:00 stop = 17/03/2018 23:48:00 title = COMPASSIONE PER LA DEA - LUCIFER II
 [  Info  ]       Replaces ----- start = 17/03/2018 22:58:00 stop = 17/03/2018 23:48:00 title = COMPASSIONE PER LA DEA - LUCIFER II
-[  Debug ]    suspicious      title in index page  = CHICAGO FIRE VI
-[  Debug ]       differs from title in showdetails = IL TRASFERIMENTO - CHICAG.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 17/03/2018 23:48:00 stop = 18/03/2018 00:37:00 title = IL TRASFERIMENTO - CHICAGO FIRE VI
-[  Info  ]       Replaces ----- start = 17/03/2018 23:48:00 stop = 18/03/2018 00:37:00 title = IL TRASFERIMENTO - CHICAGO FIRE VI - PRIMA TV
 [  Debug ]    suspicious      title in index page  = GRIMM II
 [  Debug ]       differs from title in showdetails = L' ALTRA FACCIA - .....
 [  Info  ]    epg correction : 
@@ -1985,7 +1996,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 18/03/2018 23:49:00 stop = 19/03/2018 00:38:00 title = IL GIORNO DEL MAIALE - GOTHAM IV
-[  Info  ]       Replaces ----- start = 18/03/2018 23:49:00 stop = 19/03/2018 00:38:00 title = IL GIORNO DEL MAIALE - GOTHAM IV - PRIMA TV
+[  Info  ]       Replaces ----- start = 18/03/2018 23:49:00 stop = 19/03/2018 00:38:00 title = IL GIORNO DEL MAIALE - GOTHAM IV
 [  Debug ]    suspicious      title in index page  = GRIMM I
 [  Debug ]       differs from title in showdetails = IL CORAGGIO DEI T.....
 [  Info  ]    epg correction : 
@@ -2040,12 +2051,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 19/03/2018 07:21:00 stop = 19/03/2018 08:05:00 title = PROMESSE MANTENUTE - ARROW VI
 [  Info  ]       Replaces ----- start = 19/03/2018 07:21:00 stop = 19/03/2018 08:05:00 title = PROMESSE MANTENUTE - ARROW VI
-[  Debug ]    suspicious      title in index page  = CHICAGO FIRE VI
-[  Debug ]       differs from title in showdetails = IL TRASFERIMENTO - CHICAG.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/03/2018 08:05:00 stop = 19/03/2018 08:52:00 title = IL TRASFERIMENTO - CHICAGO FIRE VI
-[  Info  ]       Replaces ----- start = 19/03/2018 08:05:00 stop = 19/03/2018 08:52:00 title = IL TRASFERIMENTO - CHICAGO FIRE VI - PRIMA TV
 [  Debug ]    suspicious      title in index page  = GOTHAM IV
 [  Debug ]       differs from title in showdetails = IL SENTIERO DELL'OS.....
 [  Info  ]    epg correction : 
@@ -2057,7 +2062,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 19/03/2018 09:41:00 stop = 19/03/2018 10:28:00 title = IL GIORNO DEL MAIALE - GOTHAM IV
-[  Info  ]       Replaces ----- start = 19/03/2018 09:41:00 stop = 19/03/2018 10:28:00 title = IL GIORNO DEL MAIALE - GOTHAM IV - PRIMA TV
+[  Info  ]       Replaces ----- start = 19/03/2018 09:41:00 stop = 19/03/2018 10:28:00 title = IL GIORNO DEL MAIALE - GOTHAM IV
 [  Debug ]    suspicious      title in index page  = BLOOD DRIVE
 [  Debug ]       differs from title in showdetails = GARA ALL'ULTIMO SANGU.....
 [  Info  ]    epg correction : 
@@ -2118,12 +2123,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 19/03/2018 23:49:00 stop = 20/03/2018 00:38:00 title = HARRY, TI PRESENTO HARRY ... - THE FLASH IV
 [  Info  ]       Replaces ----- start = 19/03/2018 23:49:00 stop = 20/03/2018 00:38:00 title = HARRY, TI PRESENTO HARRY ... - THE FLASH IV
-[  Debug ]    suspicious      title in index page  = CHICAGO FIRE VI
-[  Debug ]       differs from title in showdetails = IL TRASFERIMENTO - CHICAG.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20/03/2018 00:38:00 stop = 20/03/2018 01:28:00 title = IL TRASFERIMENTO - CHICAGO FIRE VI
-[  Info  ]       Replaces ----- start = 20/03/2018 00:38:00 stop = 20/03/2018 01:28:00 title = IL TRASFERIMENTO - CHICAGO FIRE VI - PRIMA TV
 [  Debug ]    suspicious      title in index page  = GRIMM II
 [  Debug ]       differs from title in showdetails = IL RITO DELLA LUNA.....
 [  Info  ]    epg correction : 
@@ -2399,7 +2398,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 22/03/2018 06:50:00 stop = 22/03/2018 07:40:00 title = IL GIORNO DEL MAIALE - GOTHAM IV
-[  Info  ]       Replaces ----- start = 22/03/2018 06:50:00 stop = 22/03/2018 07:40:00 title = IL GIORNO DEL MAIALE - GOTHAM IV - PRIMA TV
+[  Info  ]       Replaces ----- start = 22/03/2018 06:50:00 stop = 22/03/2018 07:40:00 title = IL GIORNO DEL MAIALE - GOTHAM IV
 [  Debug ]    suspicious      title in index page  = IZOMBIE III
 [  Debug ]       differs from title in showdetails = PISOLINO PORCELLINO -.....
 [  Info  ]    epg correction : 
@@ -2477,7 +2476,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 22/03/2018 22:11:00 stop = 22/03/2018 23:02:00 title = IL GIORNO DEL MAIALE - GOTHAM IV
-[  Info  ]       Replaces ----- start = 22/03/2018 22:11:00 stop = 22/03/2018 23:02:00 title = IL GIORNO DEL MAIALE - GOTHAM IV - PRIMA TV
+[  Info  ]       Replaces ----- start = 22/03/2018 22:11:00 stop = 22/03/2018 23:02:00 title = IL GIORNO DEL MAIALE - GOTHAM IV
 [  Debug ]    suspicious      title in index page  = THE 100 III
 [  Debug ]       differs from title in showdetails = WANHEDA - II PARTE - .....
 [  Info  ]    epg correction : 
@@ -2514,12 +2513,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 23/03/2018 04:42:00 stop = 23/03/2018 05:22:00 title = ENERGIA POTENZIALE - THE FLASH II
 [  Info  ]       Replaces ----- start = 23/03/2018 04:42:00 stop = 23/03/2018 05:22:00 title = ENERGIA POTENZIALE - THE FLASH II
-[  Debug ]    suspicious      title in index page  = CHICAGO FIRE VI
-[  Debug ]       differs from title in showdetails = IL TRASFERIMENTO - CHICAG.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 23/03/2018 06:00:00 stop = 23/03/2018 06:44:00 title = IL TRASFERIMENTO - CHICAGO FIRE VI
-[  Info  ]       Replaces ----- start = 23/03/2018 06:00:00 stop = 23/03/2018 06:44:00 title = IL TRASFERIMENTO - CHICAGO FIRE VI - PRIMA TV
 [  Debug ]    suspicious      title in index page  = CONTAINMENT
 [  Debug ]       differs from title in showdetails = IL PUNTO DEBOLE DI OG.....
 [  Info  ]    epg correction : 
@@ -2574,12 +2567,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 23/03/2018 21:19:00 stop = 23/03/2018 22:12:00 title = OPERAZIONE NARROWS - GOTHAM IV - PRIMA TV
 [  Info  ]       Replaces ----- start = 23/03/2018 21:19:00 stop = 23/03/2018 22:12:00 title = OPERAZIONE NARROWS - GOTHAM IV - PRIMA TV
-[  Debug ]    suspicious      title in index page  = CHICAGO FIRE VI
-[  Debug ]       differs from title in showdetails = IL TRASFERIMENTO - CHICAG.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 23/03/2018 22:12:00 stop = 23/03/2018 22:57:00 title = IL TRASFERIMENTO - CHICAGO FIRE VI
-[  Info  ]       Replaces ----- start = 23/03/2018 22:12:00 stop = 23/03/2018 22:57:00 title = IL TRASFERIMENTO - CHICAGO FIRE VI - PRIMA TV
 [  Debug ]    suspicious      title in index page  = THE 100 III
 [  Debug ]       differs from title in showdetails = O VOI CHE QUI ENTRATE.....
 [  Info  ]    epg correction : 
@@ -2592,7 +2579,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 23/03/2018 23:47:00 stop = 24/03/2018 00:40:00 title = IL PUGNALE DEL DESTINO - GOTHAM IV - PRIMA TV
 [  Info  ]       Replaces ----- start = 23/03/2018 23:47:00 stop = 24/03/2018 00:40:00 title = IL PUGNALE DEL DESTINO - GOTHAM IV - PRIMA TV
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 156/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Crime) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = SPECIAL VICTIMS UNIT XIV
@@ -3069,7 +3056,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 23/03/2018 22:08:00 stop = 23/03/2018 22:59:00 title = NEL MIRINO - CHICAGO P.D. V - PRIMA TV
 [  Info  ]       Replaces ----- start = 23/03/2018 22:08:00 stop = 23/03/2018 22:59:00 title = NEL MIRINO - CHICAGO P.D. V - PRIMA TV
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 157/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Joy) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = IL MAMMO III
@@ -3128,12 +3115,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 17/03/2018 19:44:00 stop = 17/03/2018 22:38:00 title = L' ACQUISIZIONE DELL'EXCELSIOR - BIG BANG THEORY III
 [  Info  ]       Replaces ----- start = 17/03/2018 19:44:00 stop = 17/03/2018 22:38:00 title = L' ACQUISIZIONE DELL'EXCELSIOR - BIG BANG THEORY III
-[  Debug ]    suspicious      title in index page  = ODD MOM OUT III
-[  Debug ]       differs from title in showdetails = BAGNO DI SANGUE - ODD MOM.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 17/03/2018 22:38:00 stop = 17/03/2018 23:05:00 title = BAGNO DI SANGUE - ODD MOM OUT III
-[  Info  ]       Replaces ----- start = 17/03/2018 22:38:00 stop = 17/03/2018 23:05:00 title = BAGNO DI SANGUE - ODD MOM OUT III - PRIMA TV
 [  Debug ]    suspicious      title in index page  = BIG BANG THEORY III
 [  Debug ]       differs from title in showdetails = LA SUDDIVISIONE DEL TESORO - .....
 [  Info  ]    epg correction : 
@@ -3168,18 +3149,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 18/03/2018 02:14:00 stop = 18/03/2018 02:35:00 title = RINGRAZIAMENTO IN CASA GOLDBERG - THE GOLDBERGS II
 [  Info  ]       Replaces ----- start = 18/03/2018 02:14:00 stop = 18/03/2018 02:35:00 title = RINGRAZIAMENTO IN CASA GOLDBERG - THE GOLDBERGS II
-[  Debug ]    suspicious      title in index page  = ODD MOM OUT III
-[  Debug ]       differs from title in showdetails = HOMO ERECTUS - ODD MOM OU.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18/03/2018 02:35:00 stop = 18/03/2018 02:56:00 title = HOMO ERECTUS - ODD MOM OUT III
-[  Info  ]       Replaces ----- start = 18/03/2018 02:35:00 stop = 18/03/2018 02:56:00 title = HOMO ERECTUS - ODD MOM OUT III - PRIMA TV
-[  Debug ]    suspicious      title in index page  = ODD MOM OUT III
-[  Debug ]       differs from title in showdetails = BAGNO DI SANGUE - ODD MOM.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18/03/2018 02:56:00 stop = 18/03/2018 03:17:00 title = BAGNO DI SANGUE - ODD MOM OUT III
-[  Info  ]       Replaces ----- start = 18/03/2018 02:56:00 stop = 18/03/2018 03:17:00 title = BAGNO DI SANGUE - ODD MOM OUT III - PRIMA TV
 [  Debug ]    suspicious      title in index page  = HART OF DIXIE I
 [  Debug ]       differs from title in showdetails = LA FESTA DEL RITORNO A CA.....
 [  Info  ]    epg correction : 
@@ -3282,18 +3251,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 18/03/2018 16:35:00 stop = 18/03/2018 17:00:00 title = IL GIORNO DELLA RIVALSA - CROWDED
 [  Info  ]       Replaces ----- start = 18/03/2018 16:35:00 stop = 18/03/2018 17:00:00 title = IL GIORNO DELLA RIVALSA - CROWDED
-[  Debug ]    suspicious      title in index page  = ODD MOM OUT III
-[  Debug ]       differs from title in showdetails = HOMO ERECTUS - ODD MOM OU.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18/03/2018 17:00:00 stop = 18/03/2018 17:23:00 title = HOMO ERECTUS - ODD MOM OUT III
-[  Info  ]       Replaces ----- start = 18/03/2018 17:00:00 stop = 18/03/2018 17:23:00 title = HOMO ERECTUS - ODD MOM OUT III - PRIMA TV
-[  Debug ]    suspicious      title in index page  = ODD MOM OUT III
-[  Debug ]       differs from title in showdetails = BAGNO DI SANGUE - ODD MOM.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18/03/2018 17:23:00 stop = 18/03/2018 17:48:00 title = BAGNO DI SANGUE - ODD MOM OUT III
-[  Info  ]       Replaces ----- start = 18/03/2018 17:23:00 stop = 18/03/2018 17:48:00 title = BAGNO DI SANGUE - ODD MOM OUT III - PRIMA TV
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 18/03/2018 17:48:00 stop = 18/03/2018 18:34:00 title = CHUCK VS. IL DENTE - CHUCK III
@@ -4280,7 +4237,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 23/03/2018 23:36:00 stop = 24/03/2018 00:01:00 title = LA FORMULAZIONE DEL PUB IRLANDESE - BIG BANG THEORY IV
 [  Info  ]       Replaces ----- start = 23/03/2018 23:36:00 stop = 24/03/2018 00:01:00 title = LA FORMULAZIONE DEL PUB IRLANDESE - BIG BANG THEORY IV
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 158/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Stories) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = THE BOLD TYPE
@@ -4372,7 +4329,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 18/03/2018 09:08:00 stop = 18/03/2018 10:05:00 title = L' IMPIEGATO DEL MESE - SHAMELESS VIII
-[  Info  ]       Replaces ----- start = 18/03/2018 09:08:00 stop = 18/03/2018 10:05:00 title = L' IMPIEGATO DEL MESE - SHAMELESS VIII - PRIMA TV
+[  Info  ]       Replaces ----- start = 18/03/2018 09:08:00 stop = 18/03/2018 10:05:00 title = L' IMPIEGATO DEL MESE - SHAMELESS VIII
 [  Debug ]    suspicious      title in index page  = PRETTY LITTLE LIARS V
 [  Debug ]       differs from title in showdetails = OH, CHE STORIE PENOSE MI RIFILA.....
 [  Info  ]    epg correction : 
@@ -4420,7 +4377,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 19/03/2018 00:39:00 stop = 19/03/2018 01:29:00 title = L' IMPIEGATO DEL MESE - SHAMELESS VIII
-[  Info  ]       Replaces ----- start = 19/03/2018 00:39:00 stop = 19/03/2018 01:29:00 title = L' IMPIEGATO DEL MESE - SHAMELESS VIII - PRIMA TV
+[  Info  ]       Replaces ----- start = 19/03/2018 00:39:00 stop = 19/03/2018 01:29:00 title = L' IMPIEGATO DEL MESE - SHAMELESS VIII
 [  Debug ]    suspicious      title in index page  = DALLAS III
 [  Debug ]       differs from title in showdetails = TALE PADRE, TALE FIG.....
 [  Info  ]    epg correction : 
@@ -4644,7 +4601,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 21/03/2018 07:09:00 stop = 21/03/2018 07:49:00 title = L' IMPIEGATO DEL MESE - SHAMELESS VIII
-[  Info  ]       Replaces ----- start = 21/03/2018 07:09:00 stop = 21/03/2018 07:49:00 title = L' IMPIEGATO DEL MESE - SHAMELESS VIII - PRIMA TV
+[  Info  ]       Replaces ----- start = 21/03/2018 07:09:00 stop = 21/03/2018 07:49:00 title = L' IMPIEGATO DEL MESE - SHAMELESS VIII
 [  Debug ]    suspicious      title in index page  = DALLAS III
 [  Debug ]       differs from title in showdetails = DOVE C'E' FUMO - DAL.....
 [  Info  ]    epg correction : 
@@ -4706,7 +4663,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 21/03/2018 22:09:00 stop = 21/03/2018 22:59:00 title = L' IMPIEGATO DEL MESE - SHAMELESS VIII
-[  Info  ]       Replaces ----- start = 21/03/2018 22:09:00 stop = 21/03/2018 22:59:00 title = L' IMPIEGATO DEL MESE - SHAMELESS VIII - PRIMA TV
+[  Info  ]       Replaces ----- start = 21/03/2018 22:09:00 stop = 21/03/2018 22:59:00 title = L' IMPIEGATO DEL MESE - SHAMELESS VIII
 [  Debug ]    suspicious      title in index page  = MR. ROBOT III
 [  Debug ]       differs from title in showdetails = CAPRI ESPIATORI - MR. R.....
 [  Info  ]    epg correction : 
@@ -5719,7 +5676,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 23/03/2018 22:44:00 stop = 24/03/2018 00:30:00 title = MILAN - CHIEVO VERONA - CAMPIONATO DI CALCIO SERIE A-'18 (MILAN)
 [  Info  ]       Replaces ----- start = 23/03/2018 22:44:00 stop = 24/03/2018 00:30:00 title = MILAN - CHIEVO VERONA - CAMPIONATO DI CALCIO SERIE A-'18 (MILAN)
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.13 sec/update
 [  Debug ] 
 [  Info  ] ( 161/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Calcio 1) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = SERIE A EMOTION PILLOLE SIMONE INZAGHI
@@ -5972,12 +5929,12 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 23/03/2018 22:44:00 stop = 24/03/2018 00:30:00 title = MILAN - CHIEVO VERONA - CAMPIONATO DI CALCIO SERIE A-'18 (MILAN)
 [  Info  ]       Replaces ----- start = 23/03/2018 22:44:00 stop = 24/03/2018 00:30:00 title = MILAN - CHIEVO VERONA - CAMPIONATO DI CALCIO SERIE A-'18 (MILAN)
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.13 sec/update
 [  Debug ] 
-[  Debug ] 35668 shows in 163 channels
-[  Debug ] 914 updated shows
-[  Debug ] 1 new shows added
+[  Debug ] 35692 shows in 163 channels
+[  Debug ] 1023 updated shows
+[  Debug ] 4 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 17/03/2018 08:18:45 done in 13m 42s
+[        ] Job finished at 17/03/2018 10:18:07 done in 13m 3s
 [  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
