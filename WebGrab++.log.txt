@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 20/03/2018 08:05:04
+[        ] Job started at 20/03/2018 10:05:04
 [  Debug ] 
 [  Debug ] Running  on: Unix 3.13.0.132
 [  Debug ] Environment: 4.0.30319.42000
@@ -29,7 +29,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+01:00	(no DST in effect)
 [  Debug ] 	next DST dates  :	25/03/2018 02:00 (local)
 [  Debug ] 	                :	28/10/2018 03:00 (local)
-[  Debug ] 	local time now  :	20/03/2018 08:05:04
+[  Debug ] 	local time now  :	20/03/2018 10:05:04
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -272,7 +272,7 @@
 [  Debug ]       differs from title in showdetails = HAMBURG DISTRETTO 21 XI
 [  Debug ]    suspicious      title in index page  = INTO THE SUN
 [  Debug ]       differs from title in showdetails = SENZA TREGUA 2
-[  Info  ] 0.08 sec/update
+[  Info  ] 0.07 sec/update
 [  Debug ] 
 [  Info  ] (   5/163 ) MEDIASET.IT -- chan. (xmltv_id=Canale 5 HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -576,7 +576,7 @@
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20180325030000 +0200
 [  Debug ] starting with show : Mozart - Sonata KV 333 at local time 25/03/2018 03:00
-[  Info  ] 0.10 sec/update
+[  Info  ] 0.13 sec/update
 [  Debug ] 
 [  Info  ] (  52/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Atlantic HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -606,13 +606,13 @@
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20180320060500 +0100
 [  Debug ] starting with show : Dance Dance Dance Daily at local time 20/03/2018 06:05
-[  Info  ] 
+[  Info  ] 0.18 sec/update
 [  Debug ] 
 [  Info  ] (  57/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Life +1) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20180325035000 +0200
 [  Debug ] starting with show : Chirurgia estrema at local time 25/03/2018 03:50
-[  Info  ] 
+[  Info  ] 0.18 sec/update
 [  Debug ] 
 [  Info  ] (  58/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Crime HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -1014,7 +1014,14 @@
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20180320060000 +0100
 [  Debug ] starting with show : Insieme A Rosie 4 at local time 20/03/2018 06:00
-[  Info  ] 
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 25/03/2018 06:30:00 stop = 25/03/2018 06:50:00 title = Il Meraviglioso Mondo Di Richard Scarry
+[  Info  ]       Replaces ----- start = 25/03/2018 07:30:00 stop = 25/03/2018 07:40:00 title = New Teletubbies
+[  Info  ]       Replaces ----- start = 25/03/2018 07:40:00 stop = 25/03/2018 07:45:00 title = Le Nuove Avventure Della Pimpa
+[  Info  ]       Replaces ----- start = 25/03/2018 07:45:00 stop = 25/03/2018 07:50:00 title = Le Nuove Avventure Della Pimpa
+[  Debug ]    skipped show longer than 15 hour(s) at 25/03/2018 07:50:00 title Insieme A Rosie 4
+[  Info  ] 0.21 sec/update
 [  Debug ] 
 [  Info  ] ( 126/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cartoon Network) -- mode Incremental
 [  Debug ] Stop time  is not valid in Daylight Saving Time!
@@ -1147,7 +1154,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/03/2018 16:38:00 stop = 26/03/2018 18:29:00 title = Wild Horses - Cavalli Selvaggi
 [  Info  ]       Replaces ----- start = 26/03/2018 16:38:00 stop = 26/03/2018 18:29:00 title = Wild Horses - Cavalli Selvaggi
-[  Info  ] 0.18 sec/update
+[  Info  ] 0.23 sec/update
 [  Debug ] 
 [  Info  ] ( 145/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema +24) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -1177,11 +1184,7 @@
 [  Debug ] time-offset change for all shows after stoptime 20180325033600 +0200
 [  Debug ] starting with show : SOTTO IL SEGNO DEL PERICOLO at local time 25/03/2018 03:36
 [  Debug ]    skipped show longer than 15 hour(s) at 24/03/2018 06:46:00 title LA LINEA SOTTILE (DI D. LERER)
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 26/03/2018 19:18:00 stop = 26/03/2018 20:20:00 title = SPLENDOR, 3 - SPLENDOR
-[  Info  ]       Replaces ----- start = 26/03/2018 19:18:00 stop = 26/03/2018 20:20:00 title = SPLENDOR (?)
-[  Info  ] 0.18 sec/update
+[  Info  ] 0.12 sec/update
 [  Debug ] 
 [  Info  ] ( 147/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema 2 +24) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -1204,7 +1207,7 @@
 [  Debug ] Start time  is not valid in Daylight Saving Time!
 [  Debug ] changed to next valid time 25/03/2018 03:00
 [  Debug ]    skipped show longer than 15 hour(s) at 24/03/2018 06:43:00 title SPLENDOR
-[  Info  ] 0.12 sec/update
+[  Info  ] 0.13 sec/update
 [  Debug ] 
 [  Info  ] ( 148/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Energy) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -1248,7 +1251,7 @@
 [  Info  ]       show with ---- start = 24/03/2018 06:30:00 stop = 24/03/2018 06:37:00 title = QUANDO MENO TE L'ASPETTI - FULL EMOTION
 [  Info  ]       Replaces ----- start = 24/03/2018 06:30:00 stop = 24/03/2018 06:37:00 title = QUANDO MENO TE L'ASPETTI - FULL EMOTION
 [  Debug ]    skipped show longer than 15 hour(s) at 24/03/2018 06:37:00 title BAARIA
-[  Info  ] 0.16 sec/update
+[  Info  ] 0.17 sec/update
 [  Debug ] 
 [  Info  ] ( 150/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Comedy) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = A CENA CON...
@@ -1273,7 +1276,7 @@
 [  Debug ] time-offset change for all shows after stoptime 20180325034400 +0200
 [  Debug ] starting with show : 40 ANNI VERGINE at local time 25/03/2018 03:44
 [  Debug ]    skipped show longer than 15 hour(s) at 24/03/2018 06:55:00 title 7 CHILI IN 7 GIORNI
-[  Info  ] 0.18 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 151/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Investigation Discovery) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -1341,7 +1344,7 @@
 [  Debug ] time-offset change for all shows after stoptime 20180325042000 +0200
 [  Debug ] starting with show : CONAN IL BARBARO at local time 25/03/2018 04:20
 [  Debug ]    skipped show longer than 15 hour(s) at 24/03/2018 06:00:00 title MACHETE
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 153/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Paramount Channel) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -1402,7 +1405,7 @@
 [  Info  ]       show with ---- start = 24/03/2018 19:10:00 stop = 24/03/2018 19:45:00 title = ACCIDENT WAITING TO HAPPEN - PROJECT GREENLIGHT 4
 [  Info  ]       Replaces ----- start = 24/03/2018 19:10:00 stop = 24/03/2018 19:45:00 title = ACCIDENT WAITING TO HAPPEN - PROJECT GREENLIGHT 4
 [  Debug ]    skipped show longer than 15 hour(s) at 24/03/2018 06:00:00 title MACHETE
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.13 sec/update
 [  Debug ] 
 [  Info  ] ( 154/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action HD) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = IZOMBIE III
@@ -1800,7 +1803,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 23/03/2018 21:19:00 stop = 23/03/2018 22:08:00 title = VERI EROI - CHICAGO FIRE VI - PRIMA TV
-[  Info  ]       Replaces ----- start = 23/03/2018 21:19:00 stop = 23/03/2018 22:08:00 title = CHICAGO FIRE VI, 7 - CHICAGO FIRE VI - PRIMA TV
+[  Info  ]       Replaces ----- start = 23/03/2018 21:19:00 stop = 23/03/2018 22:08:00 title = VERI EROI - CHICAGO FIRE VI - PRIMA TV
 [  Debug ]    suspicious      title in index page  = SUPERNATURAL XI
 [  Debug ]       differs from title in showdetails = DEMONI LONTANI - MISTICO .....
 [  Info  ]    epg correction : 
@@ -1818,7 +1821,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 23/03/2018 23:47:00 stop = 24/03/2018 00:39:00 title = VERI EROI - CHICAGO FIRE VI - PRIMA TV
-[  Info  ]       Replaces ----- start = 23/03/2018 23:47:00 stop = 24/03/2018 00:39:00 title = CHICAGO FIRE VI, 7 - CHICAGO FIRE VI - PRIMA TV
+[  Info  ]       Replaces ----- start = 23/03/2018 23:47:00 stop = 24/03/2018 00:39:00 title = VERI EROI - CHICAGO FIRE VI - PRIMA TV
 [  Debug ]    suspicious      title in index page  = GRIMM II
 [  Debug ]       differs from title in showdetails = FACCIA A FACCIA - .....
 [  Info  ]    epg correction : 
@@ -1831,12 +1834,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 24/03/2018 02:32:00 stop = 24/03/2018 03:20:00 title = L' INCUBO INFINITO - REVOLUTION II
 [  Info  ]       Replaces ----- start = 24/03/2018 02:32:00 stop = 24/03/2018 03:20:00 title = L' INCUBO INFINITO - REVOLUTION II
-[  Debug ]    suspicious      title in index page  = SUPERGIRL III
-[  Debug ]       differs from title in showdetails = IL RISVEGLIO - SUPERGIR.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/03/2018 06:40:00 stop = 24/03/2018 07:21:00 title = IL RISVEGLIO - SUPERGIRL III
-[  Info  ]       Replaces ----- start = 24/03/2018 06:40:00 stop = 24/03/2018 07:21:00 title = IL RISVEGLIO - SUPERGIRL III - PRIMA TV
 [  Debug ]    suspicious      title in index page  = DC'S LEGENDS OF TOMORROW III
 [  Debug ]       differs from title in showdetails = WELCOME TO THE JUNGLE - DC'S LEGENDS O.....
 [  Info  ]    epg correction : 
@@ -1861,12 +1858,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 24/03/2018 21:19:00 stop = 24/03/2018 22:09:00 title = MASCHERE ASSASSINE - SUPERNATURAL XI - PRIMA TV
 [  Info  ]       Replaces ----- start = 24/03/2018 21:19:00 stop = 24/03/2018 22:09:00 title = MASCHERE ASSASSINE - SUPERNATURAL XI - PRIMA TV
-[  Debug ]    suspicious      title in index page  = SUPERGIRL III
-[  Debug ]       differs from title in showdetails = IL RISVEGLIO - SUPERGIR.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/03/2018 22:09:00 stop = 24/03/2018 22:55:00 title = IL RISVEGLIO - SUPERGIRL III
-[  Info  ]       Replaces ----- start = 24/03/2018 22:09:00 stop = 24/03/2018 22:55:00 title = IL RISVEGLIO - SUPERGIRL III - PRIMA TV
 [  Debug ]    suspicious      title in index page  = GOTHAM IV
 [  Debug ]       differs from title in showdetails = IL GIORNO DEL MAIAL.....
 [  Info  ]    epg correction : 
@@ -1934,7 +1925,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/03/2018 07:05:00 stop = 26/03/2018 07:54:00 title = VERI EROI - CHICAGO FIRE VI - PRIMA TV
-[  Info  ]       Replaces ----- start = 26/03/2018 07:05:00 stop = 26/03/2018 07:54:00 title = CHICAGO FIRE VI, 7 - CHICAGO FIRE VI - PRIMA TV
+[  Info  ]       Replaces ----- start = 26/03/2018 07:05:00 stop = 26/03/2018 07:54:00 title = VERI EROI - CHICAGO FIRE VI - PRIMA TV
 [  Debug ]    suspicious      title in index page  = GOTHAM IV
 [  Debug ]       differs from title in showdetails = IL GIORNO DEL MAIAL.....
 [  Info  ]    epg correction : 
@@ -2025,7 +2016,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/03/2018 22:48:00 stop = 27/03/2018 00:37:00 title = IL PENSATORE - THE FLASH IV - PRIMA TV
 [  Info  ]       Replaces ----- start = 26/03/2018 22:48:00 stop = 27/03/2018 00:37:00 title = IL PENSATORE - THE FLASH IV - PRIMA TV
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 155/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action +24) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -2055,12 +2046,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 20/03/2018 08:40:00 stop = 20/03/2018 09:29:00 title = PECORE TRA I LUPI - CONTAINMENT
 [  Info  ]       Replaces ----- start = 20/03/2018 08:40:00 stop = 20/03/2018 09:29:00 title = PECORE TRA I LUPI - CONTAINMENT
-[  Debug ]    suspicious      title in index page  = SUPERGIRL III
-[  Debug ]       differs from title in showdetails = IL RISVEGLIO - SUPERGIR.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20/03/2018 09:29:00 stop = 20/03/2018 10:17:00 title = IL RISVEGLIO - SUPERGIRL III
-[  Info  ]       Replaces ----- start = 20/03/2018 09:29:00 stop = 20/03/2018 10:17:00 title = IL RISVEGLIO - SUPERGIRL III - PRIMA TV
 [  Debug ]    suspicious      title in index page  = LUCIFER II
 [  Debug ]       differs from title in showdetails = IL BELLO, IL BRUTTO .....
 [  Info  ]    epg correction : 
@@ -2079,12 +2064,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 20/03/2018 13:54:00 stop = 20/03/2018 14:43:00 title = I MIEI DUE PADRI - REVOLUTION II
 [  Info  ]       Replaces ----- start = 20/03/2018 13:54:00 stop = 20/03/2018 14:43:00 title = I MIEI DUE PADRI - REVOLUTION II
-[  Debug ]    suspicious      title in index page  = SUPERGIRL III
-[  Debug ]       differs from title in showdetails = IL RISVEGLIO - SUPERGIR.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20/03/2018 14:43:00 stop = 20/03/2018 15:32:00 title = IL RISVEGLIO - SUPERGIRL III
-[  Info  ]       Replaces ----- start = 20/03/2018 14:43:00 stop = 20/03/2018 15:32:00 title = IL RISVEGLIO - SUPERGIRL III - PRIMA TV
 [  Debug ]    suspicious      title in index page  = ARROW II
 [  Debug ]       differs from title in showdetails = LO SCIENZIATO - AR.....
 [  Info  ]    epg correction : 
@@ -2552,7 +2531,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 24/03/2018 21:19:00 stop = 24/03/2018 22:08:00 title = VERI EROI - CHICAGO FIRE VI - PRIMA TV
-[  Info  ]       Replaces ----- start = 24/03/2018 21:19:00 stop = 24/03/2018 22:08:00 title = CHICAGO FIRE VI, 7 - CHICAGO FIRE VI - PRIMA TV
+[  Info  ]       Replaces ----- start = 24/03/2018 21:19:00 stop = 24/03/2018 22:08:00 title = VERI EROI - CHICAGO FIRE VI - PRIMA TV
 [  Debug ]    suspicious      title in index page  = SUPERNATURAL XI
 [  Debug ]       differs from title in showdetails = DEMONI LONTANI - MISTICO .....
 [  Info  ]    epg correction : 
@@ -2570,7 +2549,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 24/03/2018 23:47:00 stop = 25/03/2018 00:39:00 title = VERI EROI - CHICAGO FIRE VI - PRIMA TV
-[  Info  ]       Replaces ----- start = 24/03/2018 23:47:00 stop = 25/03/2018 00:39:00 title = CHICAGO FIRE VI, 7 - CHICAGO FIRE VI - PRIMA TV
+[  Info  ]       Replaces ----- start = 24/03/2018 23:47:00 stop = 25/03/2018 00:39:00 title = VERI EROI - CHICAGO FIRE VI - PRIMA TV
 [  Debug ]    suspicious      title in index page  = GRIMM II
 [  Debug ]       differs from title in showdetails = FACCIA A FACCIA - .....
 [  Info  ]    epg correction : 
@@ -2612,12 +2591,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/03/2018 20:19:00 stop = 26/03/2018 21:09:00 title = MASCHERE ASSASSINE - SUPERNATURAL XI - PRIMA TV
 [  Info  ]       Replaces ----- start = 26/03/2018 21:19:00 stop = 26/03/2018 22:09:00 title = MASCHERE ASSASSINE - SUPERNATURAL XI - PRIMA TV
-[  Debug ]    suspicious      title in index page  = SUPERGIRL III
-[  Debug ]       differs from title in showdetails = IL RISVEGLIO - SUPERGIR.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 26/03/2018 21:09:00 stop = 26/03/2018 21:55:00 title = IL RISVEGLIO - SUPERGIRL III
-[  Info  ]       Replaces ----- start = 26/03/2018 22:09:00 stop = 26/03/2018 22:55:00 title = IL RISVEGLIO - SUPERGIRL III - PRIMA TV
 [  Debug ]    suspicious      title in index page  = GOTHAM IV
 [  Debug ]       differs from title in showdetails = IL GIORNO DEL MAIAL.....
 [  Info  ]    epg correction : 
@@ -3115,7 +3088,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/03/2018 21:59:00 stop = 26/03/2018 22:51:00 title = IL FANTASMA DEL NATALE PASSATO - LETHAL WEAPON I
 [  Info  ]       Replaces ----- start = 26/03/2018 21:59:00 stop = 26/03/2018 22:51:00 title = IL FANTASMA DEL NATALE PASSATO - LETHAL WEAPON I
-[  Info  ] 0.17 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 157/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Joy) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -4266,7 +4239,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/03/2018 22:56:00 stop = 27/03/2018 00:18:00 title = LA RICOMBINAZIONE DELLA LEGA DELLA GIUSTIZIA - BIG BANG THEORY IV
 [  Info  ]       Replaces ----- start = 26/03/2018 23:56:00 stop = 27/03/2018 01:18:00 title = LA RICOMBINAZIONE DELLA LEGA DELLA GIUSTIZIA - BIG BANG THEORY IV
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 158/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Stories) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = MR. ROBOT III
@@ -4705,12 +4678,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 24/03/2018 06:30:00 stop = 24/03/2018 07:10:00 title = NIENTE FEMMINISMO NELLA STANZA DELLO CHAMPAGNE - THE BOLD TYPE
 [  Info  ]       Replaces ----- start = 24/03/2018 06:30:00 stop = 24/03/2018 07:10:00 title = NIENTE FEMMINISMO NELLA STANZA DELLO CHAMPAGNE - THE BOLD TYPE
-[  Debug ]    suspicious      title in index page  = THE BOLD TYPE
-[  Debug ]       differs from title in showdetails = IL PROBLEMA DEL SENO - .....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/03/2018 07:10:00 stop = 24/03/2018 08:04:00 title = IL PROBLEMA DEL SENO - THE BOLD TYPE
-[  Info  ]       Replaces ----- start = 24/03/2018 07:10:00 stop = 24/03/2018 08:04:00 title = IL PROBLEMA DEL SENO - THE BOLD TYPE - PRIMA TV
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 24/03/2018 09:44:00 stop = 24/03/2018 10:33:00 title = THE SINNER , 7 - THE SINNER - PRIMA TV
@@ -4739,12 +4706,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 24/03/2018 21:20:00 stop = 24/03/2018 22:12:00 title = IL LANEVIEW CLUB - IMPOSTERS I
 [  Info  ]       Replaces ----- start = 24/03/2018 21:20:00 stop = 24/03/2018 22:12:00 title = IL LANEVIEW CLUB - IMPOSTERS I
-[  Debug ]    suspicious      title in index page  = THE BOLD TYPE
-[  Debug ]       differs from title in showdetails = IL PROBLEMA DEL SENO - .....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/03/2018 22:12:00 stop = 24/03/2018 23:03:00 title = IL PROBLEMA DEL SENO - THE BOLD TYPE
-[  Info  ]       Replaces ----- start = 24/03/2018 22:12:00 stop = 24/03/2018 23:03:00 title = IL PROBLEMA DEL SENO - THE BOLD TYPE - PRIMA TV
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 24/03/2018 23:53:00 stop = 25/03/2018 00:43:00 title = THE SINNER , 7 - THE SINNER - PRIMA TV
@@ -4853,7 +4814,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/03/2018 22:54:00 stop = 27/03/2018 00:44:00 title = L' IMPIEGATO DEL MESE - SHAMELESS VIII
 [  Info  ]       Replaces ----- start = 26/03/2018 22:54:00 stop = 27/03/2018 00:44:00 title = L' IMPIEGATO DEL MESE - SHAMELESS VIII
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 159/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Sport superHD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -5338,7 +5299,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/03/2018 21:46:00 stop = 26/03/2018 21:52:00 title = CANNAVARO (5'14) - SERIE A EMOTION - 18 - PILLOLE
 [  Info  ]       Replaces ----- start = 26/03/2018 22:46:00 stop = 26/03/2018 22:52:00 title = CANNAVARO (5'14) - SERIE A EMOTION - 18 - PILLOLE
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 160/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Sport 2 HD) -- mode Incremental
 [  Info  ]    epg correction : 
@@ -5555,7 +5516,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/03/2018 19:47:00 stop = 26/03/2018 20:00:00 title = SIMONE INZAGHI - SERIE A EMOTION - 18 - PILLOLE
 [  Info  ]       Replaces ----- start = 26/03/2018 19:47:00 stop = 26/03/2018 20:00:00 title = SIMONE INZAGHI - SERIE A EMOTION - 18 - PILLOLE
-[  Info  ] 0.12 sec/update
+[  Info  ] 0.17 sec/update
 [  Debug ] 
 [  Info  ] ( 161/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Calcio 1) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -5772,12 +5733,12 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/03/2018 19:47:00 stop = 26/03/2018 20:00:00 title = SIMONE INZAGHI - SERIE A EMOTION - 18 - PILLOLE
 [  Info  ]       Replaces ----- start = 26/03/2018 20:47:00 stop = 26/03/2018 21:00:00 title = SIMONE INZAGHI - SERIE A EMOTION - 18 - PILLOLE
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
-[  Debug ] 33561 shows in 163 channels
-[  Debug ] 855 updated shows
-[  Debug ] 9 new shows added
+[  Debug ] 33564 shows in 163 channels
+[  Debug ] 858 updated shows
+[  Debug ] 5 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 20/03/2018 08:16:57 done in 11m 53s
+[        ] Job finished at 20/03/2018 10:17:21 done in 12m 17s
 [  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
