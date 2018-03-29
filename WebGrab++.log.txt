@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 29/03/2018 08:05:03
+[        ] Job started at 29/03/2018 10:05:03
 [  Debug ] 
 [  Debug ] Running  on: Unix 3.13.0.132
 [  Debug ] Environment: 4.0.30319.42000
@@ -242,19 +242,19 @@ Parameter name: index
 [  Info  ] 0.03 sec/update
 [  Debug ] 
 [  Info  ] (  11/163 ) STASERAINTV.COM -- chan. (xmltv_id=La 5) -- mode Incremental
-[  Info  ] 0.06 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  12/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=LA7) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  13/163 ) STASERAINTV.COM -- chan. (xmltv_id=LA7 D) -- mode Incremental
-[  Info  ] 0.06 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  14/163 ) STASERAINTV.COM -- chan. (xmltv_id=TV 8) -- mode Incremental
-[  Info  ] 0.05 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  15/163 ) STASERAINTV.COM -- chan. (xmltv_id=Nove HD) -- mode Incremental
-[  Info  ] 0.07 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  16/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Top Crime) -- mode Incremental
 [  Info  ] 
@@ -658,6 +658,8 @@ Parameter name: index
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 131/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Baby TV) -- mode Incremental
+[Warning ] error downloading page: Error getting response stream (ReadDone2): ReceiveFailure
+[Warning ] pausing 1 of 4 times for 5 seconds before re-try.
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 132/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Nickelodeon) -- mode Incremental
@@ -704,7 +706,7 @@ Parameter name: index
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/03/2018 02:53:00 stop = 30/03/2018 04:06:00 title = INTERVISTA A JOHN LANDIS - RED CARPET '11 - (KE)
 [  Info  ]       Replaces ----- start = 30/03/2018 02:53:00 stop = 30/03/2018 04:06:00 title = INTERVISTA A JOHN LANDIS - RED CARPET '11 - (KE)
-[  Info  ] 0.18 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 145/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema +24) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = I GRANDI INCONTRI - LANDIS
@@ -713,7 +715,7 @@ Parameter name: index
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 31/03/2018 02:53:00 stop = 31/03/2018 04:06:00 title = INTERVISTA A JOHN LANDIS - RED CARPET '11 - (KE)
 [  Info  ]       Replaces ----- start = 31/03/2018 02:53:00 stop = 31/03/2018 04:06:00 title = INTERVISTA A JOHN LANDIS - RED CARPET '11 - (KE)
-[  Info  ] 0.18 sec/update
+[  Info  ] 0.12 sec/update
 [  Debug ] 
 [  Info  ] ( 146/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema 2) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = THE HUNTERS - CACCIATORI DI LEGGENDE
@@ -722,7 +724,7 @@ Parameter name: index
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 31/03/2018 18:44:00 stop = 31/03/2018 20:20:00 title = THE HUNTERS
 [  Info  ]       Replaces ----- start = 31/03/2018 18:44:00 stop = 31/03/2018 20:20:00 title = THE HUNTERS
-[  Info  ] 0.21 sec/update
+[  Info  ] 0.19 sec/update
 [  Debug ] 
 [  Info  ] ( 147/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema 2 +24) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = THE HUNTERS - CACCIATORI DI LEGGENDE
@@ -731,7 +733,7 @@ Parameter name: index
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 01/04/2018 18:44:00 stop = 01/04/2018 20:20:00 title = THE HUNTERS
 [  Info  ]       Replaces ----- start = 01/04/2018 18:44:00 stop = 01/04/2018 20:20:00 title = THE HUNTERS
-[  Info  ] 0.11 sec/update
+[  Info  ] 0.13 sec/update
 [  Debug ] 
 [  Info  ] ( 148/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Energy) -- mode Incremental
 [  Info  ] 
@@ -765,7 +767,7 @@ Parameter name: index
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 04/04/2018 17:15:00 stop = 04/04/2018 21:51:00 title = EMOTION RITORNA ALLE 22.45 (?)
 [  Info  ]       Replaces ----- start = 04/04/2018 17:15:00 stop = 04/04/2018 21:51:00 title = EMOTION RITORNA ALLE 22.45 (?)
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.13 sec/update
 [  Debug ] 
 [  Info  ] ( 150/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Comedy) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = A CENA CON...
@@ -852,11 +854,9 @@ Parameter name: index
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 03/04/2018 06:45:00 stop = 03/04/2018 06:55:00 title = ETHAN HAWKE - CINECHAT - (KS-KR)
 [  Info  ]       Replaces ----- start = 03/04/2018 06:45:00 stop = 03/04/2018 06:55:00 title = ETHAN HAWKE - CINECHAT - (KS-KR)
-[  Debug ]    suspicious      title in index page  = SYDNEY
-[  Debug ]       differs from title in showdetails = SIDNEY (HARD EIG.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 03/04/2018 22:15:00 stop = 04/04/2018 00:00:00 title = SIDNEY (HARD EIGHT)
+[  Info  ]       show with ---- start = 03/04/2018 22:15:00 stop = 04/04/2018 00:00:00 title = Sidney
 [  Info  ]       Replaces ----- start = 03/04/2018 22:15:00 stop = 04/04/2018 00:00:00 title = SIDNEY (HARD EIGHT)
 [  Debug ]    suspicious      title in index page  = PROJECT GREENLIGHT S4 - VUOI DIRIGERE QUESTO FILM?
 [  Debug ]       differs from title in showdetails = DO YOU WANT TO DIRECT THIS MOVIE - PROJECT GREENLIGHT 4
@@ -864,11 +864,9 @@ Parameter name: index
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 04/04/2018 04:15:00 stop = 04/04/2018 05:00:00 title = DO YOU WANT TO DIRECT THIS MOVIE - PROJECT GREENLIGHT 4
 [  Info  ]       Replaces ----- start = 04/04/2018 04:15:00 stop = 04/04/2018 05:00:00 title = DO YOU WANT TO DIRECT THIS MOVIE - PROJECT GREENLIGHT 4
-[  Debug ]    suspicious      title in index page  = SYDNEY
-[  Debug ]       differs from title in showdetails = SIDNEY (HARD EIG.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 04/04/2018 18:30:00 stop = 04/04/2018 20:20:00 title = SIDNEY (HARD EIGHT)
+[  Info  ]       show with ---- start = 04/04/2018 18:30:00 stop = 04/04/2018 20:20:00 title = Sidney
 [  Info  ]       Replaces ----- start = 04/04/2018 18:30:00 stop = 04/04/2018 20:20:00 title = SIDNEY (HARD EIGHT)
 [  Info  ] 0.16 sec/update
 [  Debug ] 
@@ -933,11 +931,9 @@ Parameter name: index
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 03/04/2018 06:45:00 stop = 03/04/2018 06:55:00 title = ETHAN HAWKE - CINECHAT - (KS-KR)
 [  Info  ]       Replaces ----- start = 03/04/2018 06:45:00 stop = 03/04/2018 06:55:00 title = ETHAN HAWKE - CINECHAT - (KS-KR)
-[  Debug ]    suspicious      title in index page  = SYDNEY
-[  Debug ]       differs from title in showdetails = SIDNEY (HARD EIG.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 03/04/2018 22:15:00 stop = 04/04/2018 00:00:00 title = SIDNEY (HARD EIGHT)
+[  Info  ]       show with ---- start = 03/04/2018 22:15:00 stop = 04/04/2018 00:00:00 title = Sidney
 [  Info  ]       Replaces ----- start = 03/04/2018 22:15:00 stop = 04/04/2018 00:00:00 title = SIDNEY (HARD EIGHT)
 [  Debug ]    suspicious      title in index page  = PROJECT GREENLIGHT S4 - VUOI DIRIGERE QUESTO FILM?
 [  Debug ]       differs from title in showdetails = DO YOU WANT TO DIRECT THIS MOVIE - PROJECT GREENLIGHT 4
@@ -945,13 +941,11 @@ Parameter name: index
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 04/04/2018 04:15:00 stop = 04/04/2018 05:00:00 title = DO YOU WANT TO DIRECT THIS MOVIE - PROJECT GREENLIGHT 4
 [  Info  ]       Replaces ----- start = 04/04/2018 04:15:00 stop = 04/04/2018 05:00:00 title = DO YOU WANT TO DIRECT THIS MOVIE - PROJECT GREENLIGHT 4
-[  Debug ]    suspicious      title in index page  = SYDNEY
-[  Debug ]       differs from title in showdetails = SIDNEY (HARD EIG.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 04/04/2018 18:30:00 stop = 04/04/2018 20:20:00 title = SIDNEY (HARD EIGHT)
+[  Info  ]       show with ---- start = 04/04/2018 18:30:00 stop = 04/04/2018 20:20:00 title = Sidney
 [  Info  ]       Replaces ----- start = 04/04/2018 18:30:00 stop = 04/04/2018 20:20:00 title = SIDNEY (HARD EIGHT)
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 154/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action HD) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = IZOMBIE III
@@ -1205,7 +1199,7 @@ Parameter name: index
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 01/04/2018 06:54:00 stop = 01/04/2018 07:47:00 title = CRISI SU TERRA-X - III PARTE - FLASH IV
-[  Info  ]       Replaces ----- start = 01/04/2018 06:54:00 stop = 01/04/2018 07:47:00 title = CRISI SU TERRA-X - III PARTE - FLASH IV - PRIMA TV
+[  Info  ]       Replaces ----- start = 01/04/2018 06:54:00 stop = 01/04/2018 07:47:00 title = CRISI SU TERRA-X - III PARTE - FLASH IV
 [  Debug ]    suspicious      title in index page  = GOTHAM IV
 [  Debug ]       differs from title in showdetails = OPERAZIONE NARROWS .....
 [  Info  ]    epg correction : 
@@ -1271,7 +1265,7 @@ Parameter name: index
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 01/04/2018 22:48:00 stop = 01/04/2018 23:36:00 title = CRISI SU TERRA-X - III PARTE - FLASH IV
-[  Info  ]       Replaces ----- start = 01/04/2018 22:48:00 stop = 01/04/2018 23:36:00 title = CRISI SU TERRA-X - III PARTE - FLASH IV - PRIMA TV
+[  Info  ]       Replaces ----- start = 01/04/2018 22:48:00 stop = 01/04/2018 23:36:00 title = CRISI SU TERRA-X - III PARTE - FLASH IV
 [  Debug ]    suspicious      title in index page  = DC'S LEGENDS OF TOMORROW III
 [  Debug ]       differs from title in showdetails = CRISI SU TERRA-X - IV PARTE - DC'S LEG.....
 [  Info  ]    epg correction : 
@@ -1301,7 +1295,7 @@ Parameter name: index
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 02/04/2018 06:04:00 stop = 02/04/2018 06:53:00 title = CRISI SU TERRA-X - III PARTE - FLASH IV
-[  Info  ]       Replaces ----- start = 02/04/2018 06:04:00 stop = 02/04/2018 06:53:00 title = CRISI SU TERRA-X - III PARTE - FLASH IV - PRIMA TV
+[  Info  ]       Replaces ----- start = 02/04/2018 06:04:00 stop = 02/04/2018 06:53:00 title = CRISI SU TERRA-X - III PARTE - FLASH IV
 [  Debug ]    suspicious      title in index page  = AGENT X
 [  Debug ]       differs from title in showdetails = IL NEMICO DEL MIO.....
 [  Info  ]    epg correction : 
@@ -1355,7 +1349,7 @@ Parameter name: index
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 02/04/2018 21:08:00 stop = 02/04/2018 21:59:00 title = CRISI SU TERRA-X - III PARTE - FLASH IV
-[  Info  ]       Replaces ----- start = 02/04/2018 21:08:00 stop = 02/04/2018 21:59:00 title = CRISI SU TERRA-X - III PARTE - FLASH IV - PRIMA TV
+[  Info  ]       Replaces ----- start = 02/04/2018 21:08:00 stop = 02/04/2018 21:59:00 title = CRISI SU TERRA-X - III PARTE - FLASH IV
 [  Debug ]    suspicious      title in index page  = ARROW VI
 [  Debug ]       differs from title in showdetails = DIFFERENZE INCONCI.....
 [  Info  ]    epg correction : 
@@ -1558,7 +1552,7 @@ Parameter name: index
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 04/04/2018 23:39:00 stop = 05/04/2018 00:28:00 title = GRIMM II, 21 - GRIMM II
 [  Info  ]       Replaces ----- start = 04/04/2018 23:39:00 stop = 05/04/2018 00:28:00 title = GRIMM II, 21 - GRIMM II
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.13 sec/update
 [  Debug ] 
 [  Info  ] ( 155/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action +24) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = GOTHAM IV
@@ -1590,7 +1584,7 @@ Parameter name: index
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 29/03/2018 08:24:00 stop = 29/03/2018 09:14:00 title = CRISI SU TERRA-X - III PARTE - FLASH IV
-[  Info  ]       Replaces ----- start = 29/03/2018 08:24:00 stop = 29/03/2018 09:14:00 title = CRISI SU TERRA-X - III PARTE - FLASH IV - PRIMA TV
+[  Info  ]       Replaces ----- start = 29/03/2018 08:24:00 stop = 29/03/2018 09:14:00 title = CRISI SU TERRA-X - III PARTE - FLASH IV
 [  Debug ]    suspicious      title in index page  = GRIMM II
 [  Debug ]       differs from title in showdetails = SENZA NOME - GRIMM.....
 [  Info  ]    epg correction : 
@@ -1608,7 +1602,7 @@ Parameter name: index
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 29/03/2018 13:36:00 stop = 29/03/2018 14:24:00 title = CRISI SU TERRA-X - III PARTE - FLASH IV
-[  Info  ]       Replaces ----- start = 29/03/2018 13:36:00 stop = 29/03/2018 14:24:00 title = CRISI SU TERRA-X - III PARTE - FLASH IV - PRIMA TV
+[  Info  ]       Replaces ----- start = 29/03/2018 13:36:00 stop = 29/03/2018 14:24:00 title = CRISI SU TERRA-X - III PARTE - FLASH IV
 [  Debug ]    suspicious      title in index page  = ARROW II
 [  Debug ]       differs from title in showdetails = LA PROMESSA - ARRO.....
 [  Info  ]    epg correction : 
@@ -1896,7 +1890,7 @@ Parameter name: index
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 02/04/2018 06:54:00 stop = 02/04/2018 07:47:00 title = CRISI SU TERRA-X - III PARTE - FLASH IV
-[  Info  ]       Replaces ----- start = 02/04/2018 06:54:00 stop = 02/04/2018 07:47:00 title = CRISI SU TERRA-X - III PARTE - FLASH IV - PRIMA TV
+[  Info  ]       Replaces ----- start = 02/04/2018 06:54:00 stop = 02/04/2018 07:47:00 title = CRISI SU TERRA-X - III PARTE - FLASH IV
 [  Debug ]    suspicious      title in index page  = GOTHAM IV
 [  Debug ]       differs from title in showdetails = OPERAZIONE NARROWS .....
 [  Info  ]    epg correction : 
@@ -1962,7 +1956,7 @@ Parameter name: index
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 02/04/2018 22:48:00 stop = 02/04/2018 23:36:00 title = CRISI SU TERRA-X - III PARTE - FLASH IV
-[  Info  ]       Replaces ----- start = 02/04/2018 22:48:00 stop = 02/04/2018 23:36:00 title = CRISI SU TERRA-X - III PARTE - FLASH IV - PRIMA TV
+[  Info  ]       Replaces ----- start = 02/04/2018 22:48:00 stop = 02/04/2018 23:36:00 title = CRISI SU TERRA-X - III PARTE - FLASH IV
 [  Debug ]    suspicious      title in index page  = DC'S LEGENDS OF TOMORROW III
 [  Debug ]       differs from title in showdetails = CRISI SU TERRA-X - IV PARTE - DC'S LEG.....
 [  Info  ]    epg correction : 
@@ -1992,7 +1986,7 @@ Parameter name: index
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 03/04/2018 06:04:00 stop = 03/04/2018 06:53:00 title = CRISI SU TERRA-X - III PARTE - FLASH IV
-[  Info  ]       Replaces ----- start = 03/04/2018 06:04:00 stop = 03/04/2018 06:53:00 title = CRISI SU TERRA-X - III PARTE - FLASH IV - PRIMA TV
+[  Info  ]       Replaces ----- start = 03/04/2018 06:04:00 stop = 03/04/2018 06:53:00 title = CRISI SU TERRA-X - III PARTE - FLASH IV
 [  Debug ]    suspicious      title in index page  = AGENT X
 [  Debug ]       differs from title in showdetails = IL NEMICO DEL MIO.....
 [  Info  ]    epg correction : 
@@ -2034,7 +2028,7 @@ Parameter name: index
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 03/04/2018 21:08:00 stop = 03/04/2018 21:59:00 title = CRISI SU TERRA-X - III PARTE - FLASH IV
-[  Info  ]       Replaces ----- start = 03/04/2018 21:08:00 stop = 03/04/2018 21:59:00 title = CRISI SU TERRA-X - III PARTE - FLASH IV - PRIMA TV
+[  Info  ]       Replaces ----- start = 03/04/2018 21:08:00 stop = 03/04/2018 21:59:00 title = CRISI SU TERRA-X - III PARTE - FLASH IV
 [  Debug ]    suspicious      title in index page  = ARROW VI
 [  Debug ]       differs from title in showdetails = DIFFERENZE INCONCI.....
 [  Info  ]    epg correction : 
@@ -2131,7 +2125,7 @@ Parameter name: index
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 04/04/2018 23:37:00 stop = 05/04/2018 00:26:00 title = INFLUENZE SPIRITUALI - GRIMM II
 [  Info  ]       Replaces ----- start = 04/04/2018 23:37:00 stop = 05/04/2018 00:26:00 title = INFLUENZE SPIRITUALI - GRIMM II
-[  Info  ] 0.17 sec/update
+[  Info  ] 0.13 sec/update
 [  Debug ] 
 [  Info  ] ( 156/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Crime) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = SPECIAL VICTIMS UNIT XV
@@ -2181,7 +2175,7 @@ Parameter name: index
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 29/03/2018 13:30:00 stop = 29/03/2018 14:18:00 title = ADORING SUSPECT - BLINDSPOT III
-[  Info  ]       Replaces ----- start = 29/03/2018 13:30:00 stop = 29/03/2018 14:18:00 title = ADORING SUSPECT - BLINDSPOT III - PRIMA TV
+[  Info  ]       Replaces ----- start = 29/03/2018 13:30:00 stop = 29/03/2018 14:18:00 title = ADORING SUSPECT - BLINDSPOT III
 [  Debug ]    suspicious      title in index page  = LAW & ORDER: UNITA' SPECIALE XIX
 [  Debug ]       differs from title in showdetails = QUALCOSA E' SUCCESSO - LAW & ORDER: UNITA'.....
 [  Info  ]    epg correction : 
@@ -2421,7 +2415,7 @@ Parameter name: index
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 01/04/2018 11:03:00 stop = 01/04/2018 11:51:00 title = ADORING SUSPECT - BLINDSPOT III
-[  Info  ]       Replaces ----- start = 01/04/2018 11:03:00 stop = 01/04/2018 11:51:00 title = ADORING SUSPECT - BLINDSPOT III - PRIMA TV
+[  Info  ]       Replaces ----- start = 01/04/2018 11:03:00 stop = 01/04/2018 11:51:00 title = ADORING SUSPECT - BLINDSPOT III
 [  Debug ]    suspicious      title in index page  = LAW & ORDER: UNITA' SPECIALE XIX
 [  Debug ]       differs from title in showdetails = EFFETTI COLLATERALI - LAW & ORDER: UNITA' .....
 [  Info  ]    epg correction : 
@@ -2445,7 +2439,7 @@ Parameter name: index
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 01/04/2018 21:09:00 stop = 01/04/2018 21:59:00 title = ADORING SUSPECT - BLINDSPOT III
-[  Info  ]       Replaces ----- start = 01/04/2018 21:09:00 stop = 01/04/2018 21:59:00 title = ADORING SUSPECT - BLINDSPOT III - PRIMA TV
+[  Info  ]       Replaces ----- start = 01/04/2018 21:09:00 stop = 01/04/2018 21:59:00 title = ADORING SUSPECT - BLINDSPOT III
 [  Debug ]    suspicious      title in index page  = SPECIAL VICTIMS UNIT XV
 [  Debug ]       differs from title in showdetails = RICATTI - LAW & ORDER: UNITA' SPE.....
 [  Info  ]    epg correction : 
@@ -2517,7 +2511,7 @@ Parameter name: index
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 02/04/2018 14:20:00 stop = 02/04/2018 15:09:00 title = ADORING SUSPECT - BLINDSPOT III
-[  Info  ]       Replaces ----- start = 02/04/2018 14:20:00 stop = 02/04/2018 15:09:00 title = ADORING SUSPECT - BLINDSPOT III - PRIMA TV
+[  Info  ]       Replaces ----- start = 02/04/2018 14:20:00 stop = 02/04/2018 15:09:00 title = ADORING SUSPECT - BLINDSPOT III
 [  Debug ]    suspicious      title in index page  = DEXTER II
 [  Debug ]       differs from title in showdetails = UNA SCOMODA BUGIA -.....
 [  Info  ]    epg correction : 
@@ -2625,7 +2619,7 @@ Parameter name: index
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 03/04/2018 21:59:00 stop = 03/04/2018 22:49:00 title = ADORING SUSPECT - BLINDSPOT III
-[  Info  ]       Replaces ----- start = 03/04/2018 21:59:00 stop = 03/04/2018 22:49:00 title = ADORING SUSPECT - BLINDSPOT III - PRIMA TV
+[  Info  ]       Replaces ----- start = 03/04/2018 21:59:00 stop = 03/04/2018 22:49:00 title = ADORING SUSPECT - BLINDSPOT III
 [  Debug ]    suspicious      title in index page  = LAW & ORDER: UNITA' SPECIALE XIX
 [  Debug ]       differs from title in showdetails = QUALCOSA E' SUCCESSO - LAW & ORDER: UNITA'.....
 [  Info  ]    epg correction : 
@@ -3081,18 +3075,12 @@ Parameter name: index
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/03/2018 21:10:00 stop = 30/03/2018 21:37:00 title = LE MANIERE FORTI - GREAT NEWS I
 [  Info  ]       Replaces ----- start = 30/03/2018 21:10:00 stop = 30/03/2018 21:37:00 title = LE MANIERE FORTI - GREAT NEWS I
-[  Debug ]    suspicious      title in index page  = BIG BANG THEORY XI
-[  Debug ]       differs from title in showdetails = LA METODOLOGIA DELLA GEOLOGI.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 30/03/2018 21:37:00 stop = 30/03/2018 22:03:00 title = LA METODOLOGIA DELLA GEOLOGIA - BIG BANG THEORY XI
-[  Info  ]       Replaces ----- start = 30/03/2018 21:37:00 stop = 30/03/2018 22:03:00 title = LA METODOLOGIA DELLA GEOLOGIA - BIG BANG THEORY XI - PRIMA TV
 [  Debug ]    suspicious      title in index page  = YOUNG SHELDON I
 [  Debug ]       differs from title in showdetails = BRISKET, VUDU' E LA CORSA.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/03/2018 22:03:00 stop = 30/03/2018 22:26:00 title = BRISKET, VUDU' E LA CORSA PIU' PAZZA D'AMERICA - YOUNG SHELDON I
-[  Info  ]       Replaces ----- start = 30/03/2018 22:03:00 stop = 30/03/2018 22:26:00 title = BRISKET, VUDU' E LA CORSA PIU' PAZZA D'AMERICA - YOUNG SHELDON I - PRIMA TV
+[  Info  ]       Replaces ----- start = 30/03/2018 22:03:00 stop = 30/03/2018 22:26:00 title = BRISKET, VUDU' E LA CORSA PIU' PAZZA D'AMERICA - YOUNG SHELDON I
 [  Debug ]    suspicious      title in index page  = BIG BANG THEORY IV
 [  Debug ]       differs from title in showdetails = LA GERMINAZIONE DELLE ERBE A.....
 [  Info  ]    epg correction : 
@@ -3135,18 +3123,12 @@ Parameter name: index
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 31/03/2018 01:32:00 stop = 31/03/2018 01:54:00 title = LE MANIERE FORTI - GREAT NEWS I
 [  Info  ]       Replaces ----- start = 31/03/2018 01:32:00 stop = 31/03/2018 01:54:00 title = LE MANIERE FORTI - GREAT NEWS I
-[  Debug ]    suspicious      title in index page  = BIG BANG THEORY XI
-[  Debug ]       differs from title in showdetails = LA METODOLOGIA DELLA GEOLOGI.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 31/03/2018 01:54:00 stop = 31/03/2018 02:13:00 title = LA METODOLOGIA DELLA GEOLOGIA - BIG BANG THEORY XI
-[  Info  ]       Replaces ----- start = 31/03/2018 01:54:00 stop = 31/03/2018 02:13:00 title = LA METODOLOGIA DELLA GEOLOGIA - BIG BANG THEORY XI - PRIMA TV
 [  Debug ]    suspicious      title in index page  = YOUNG SHELDON I
 [  Debug ]       differs from title in showdetails = BRISKET, VUDU' E LA CORSA.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 31/03/2018 02:13:00 stop = 31/03/2018 02:34:00 title = BRISKET, VUDU' E LA CORSA PIU' PAZZA D'AMERICA - YOUNG SHELDON I
-[  Info  ]       Replaces ----- start = 31/03/2018 02:13:00 stop = 31/03/2018 02:34:00 title = BRISKET, VUDU' E LA CORSA PIU' PAZZA D'AMERICA - YOUNG SHELDON I - PRIMA TV
+[  Info  ]       Replaces ----- start = 31/03/2018 02:13:00 stop = 31/03/2018 02:34:00 title = BRISKET, VUDU' E LA CORSA PIU' PAZZA D'AMERICA - YOUNG SHELDON I
 [  Debug ]    suspicious      title in index page  = ZANZIBAR
 [  Debug ]       differs from title in showdetails = CANDID CAMERA - ZA.....
 [  Info  ]    epg correction : 
@@ -3273,18 +3255,12 @@ Parameter name: index
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 31/03/2018 15:36:00 stop = 31/03/2018 16:01:00 title = IL PREMIO PER L'INTEGRITA' - SUPERSTORE II
 [  Info  ]       Replaces ----- start = 31/03/2018 15:36:00 stop = 31/03/2018 16:01:00 title = IL PREMIO PER L'INTEGRITA' - SUPERSTORE II
-[  Debug ]    suspicious      title in index page  = BIG BANG THEORY XI
-[  Debug ]       differs from title in showdetails = LA METODOLOGIA DELLA GEOLOGI.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 31/03/2018 16:01:00 stop = 31/03/2018 16:23:00 title = LA METODOLOGIA DELLA GEOLOGIA - BIG BANG THEORY XI
-[  Info  ]       Replaces ----- start = 31/03/2018 16:01:00 stop = 31/03/2018 16:23:00 title = LA METODOLOGIA DELLA GEOLOGIA - BIG BANG THEORY XI - PRIMA TV
 [  Debug ]    suspicious      title in index page  = YOUNG SHELDON I
 [  Debug ]       differs from title in showdetails = BRISKET, VUDU' E LA CORSA.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 31/03/2018 16:23:00 stop = 31/03/2018 16:45:00 title = BRISKET, VUDU' E LA CORSA PIU' PAZZA D'AMERICA - YOUNG SHELDON I
-[  Info  ]       Replaces ----- start = 31/03/2018 16:23:00 stop = 31/03/2018 16:45:00 title = BRISKET, VUDU' E LA CORSA PIU' PAZZA D'AMERICA - YOUNG SHELDON I - PRIMA TV
+[  Info  ]       Replaces ----- start = 31/03/2018 16:23:00 stop = 31/03/2018 16:45:00 title = BRISKET, VUDU' E LA CORSA PIU' PAZZA D'AMERICA - YOUNG SHELDON I
 [  Debug ]    suspicious      title in index page  = CHUCK IV
 [  Debug ]       differs from title in showdetails = CHUCK VS. VOLKOFF .....
 [  Info  ]    epg correction : 
@@ -3529,18 +3505,12 @@ Parameter name: index
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 01/04/2018 13:55:00 stop = 01/04/2018 14:22:00 title = IL BALLO DI DARRYL DAWKINS - THE GOLDBERGS II
 [  Info  ]       Replaces ----- start = 01/04/2018 13:55:00 stop = 01/04/2018 14:22:00 title = IL BALLO DI DARRYL DAWKINS - THE GOLDBERGS II
-[  Debug ]    suspicious      title in index page  = BIG BANG THEORY XI
-[  Debug ]       differs from title in showdetails = LA METODOLOGIA DELLA GEOLOGI.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 01/04/2018 14:22:00 stop = 01/04/2018 14:46:00 title = LA METODOLOGIA DELLA GEOLOGIA - BIG BANG THEORY XI
-[  Info  ]       Replaces ----- start = 01/04/2018 14:22:00 stop = 01/04/2018 14:46:00 title = LA METODOLOGIA DELLA GEOLOGIA - BIG BANG THEORY XI - PRIMA TV
 [  Debug ]    suspicious      title in index page  = YOUNG SHELDON I
 [  Debug ]       differs from title in showdetails = BRISKET, VUDU' E LA CORSA.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 01/04/2018 14:46:00 stop = 01/04/2018 15:11:00 title = BRISKET, VUDU' E LA CORSA PIU' PAZZA D'AMERICA - YOUNG SHELDON I
-[  Info  ]       Replaces ----- start = 01/04/2018 14:46:00 stop = 01/04/2018 15:11:00 title = BRISKET, VUDU' E LA CORSA PIU' PAZZA D'AMERICA - YOUNG SHELDON I - PRIMA TV
+[  Info  ]       Replaces ----- start = 01/04/2018 14:46:00 stop = 01/04/2018 15:11:00 title = BRISKET, VUDU' E LA CORSA PIU' PAZZA D'AMERICA - YOUNG SHELDON I
 [  Debug ]    suspicious      title in index page  = CROWDED
 [  Debug ]       differs from title in showdetails = LA TERAPISTA IN  .....
 [  Info  ]    epg correction : 
@@ -4464,10 +4434,6 @@ Parameter name: index
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 31/03/2018 06:09:00 stop = 31/03/2018 06:59:00 title = TRE RAGAZZE IN UNA VASCA - THE BOLD TYPE
 [  Info  ]       Replaces ----- start = 31/03/2018 06:09:00 stop = 31/03/2018 06:59:00 title = TRE RAGAZZE IN UNA VASCA - THE BOLD TYPE
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 31/03/2018 07:48:00 stop = 31/03/2018 08:38:00 title = THE SINNER , 8 - THE SINNER
-[  Info  ]       Replaces ----- start = 31/03/2018 07:48:00 stop = 31/03/2018 08:38:00 title = THE SINNER , 8 - THE SINNER - PRIMA TV
 [  Debug ]    suspicious      title in index page  = MR. ROBOT III
 [  Debug ]       differs from title in showdetails = CAPRI ESPIATORI - MR. R.....
 [  Info  ]    epg correction : 
@@ -4504,10 +4470,6 @@ Parameter name: index
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 31/03/2018 21:13:00 stop = 31/03/2018 22:04:00 title = TRE RAGAZZE IN UNA VASCA - THE BOLD TYPE
 [  Info  ]       Replaces ----- start = 31/03/2018 21:13:00 stop = 31/03/2018 22:04:00 title = TRE RAGAZZE IN UNA VASCA - THE BOLD TYPE
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 31/03/2018 22:54:00 stop = 31/03/2018 23:44:00 title = THE SINNER , 8 - THE SINNER
-[  Info  ]       Replaces ----- start = 31/03/2018 22:54:00 stop = 31/03/2018 23:44:00 title = THE SINNER , 8 - THE SINNER - PRIMA TV
 [  Debug ]    suspicious      title in index page  = MR. ROBOT III
 [  Debug ]       differs from title in showdetails = CAPRI ESPIATORI - MR. R.....
 [  Info  ]    epg correction : 
@@ -4622,10 +4584,6 @@ Parameter name: index
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 02/04/2018 03:58:00 stop = 02/04/2018 04:42:00 title = LA BUONA NOTIZIA E'... - ROYAL PAINS VIII
 [  Info  ]       Replaces ----- start = 02/04/2018 03:58:00 stop = 02/04/2018 04:42:00 title = LA BUONA NOTIZIA E'... - ROYAL PAINS VIII
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 02/04/2018 06:07:00 stop = 02/04/2018 06:47:00 title = THE SINNER , 8 - THE SINNER
-[  Info  ]       Replaces ----- start = 02/04/2018 06:07:00 stop = 02/04/2018 06:47:00 title = THE SINNER , 8 - THE SINNER - PRIMA TV
 [  Debug ]    suspicious      title in index page  = THE BOLD TYPE
 [  Debug ]       differs from title in showdetails = LA FINE DELL'INIZIO - T.....
 [  Info  ]    epg correction : 
@@ -4686,10 +4644,6 @@ Parameter name: index
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 02/04/2018 20:19:00 stop = 02/04/2018 21:10:00 title = SUITS VII, 9 - SUITS VII - PRIMA TV
 [  Info  ]       Replaces ----- start = 02/04/2018 20:19:00 stop = 02/04/2018 21:10:00 title = SUITS VII, 9 - SUITS VII - PRIMA TV
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 02/04/2018 21:10:00 stop = 02/04/2018 22:01:00 title = THE SINNER , 8 - THE SINNER
-[  Info  ]       Replaces ----- start = 02/04/2018 21:10:00 stop = 02/04/2018 22:01:00 title = THE SINNER , 8 - THE SINNER - PRIMA TV
 [  Debug ]    suspicious      title in index page  = CHASING LIFE II
 [  Debug ]       differs from title in showdetails = FINO ALL'ULTIMO RESPIRO -.....
 [  Info  ]    epg correction : 
@@ -5313,14 +5267,6 @@ Parameter name: index
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 03/04/2018 15:30:00 stop = 03/04/2018 16:00:00 title = TRENTATREESIMA GIORNATA - GIOVEDI 29/3 - HIGHLIGHTS SERIE B -'18
 [  Info  ]       Replaces ----- start = 03/04/2018 15:30:00 stop = 03/04/2018 16:00:00 title = TRENTATREESIMA GIORNATA - GIOVEDI 29/3 - HIGHLIGHTS SERIE B -'18
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 03/04/2018 16:00:00 stop = 03/04/2018 16:23:00 title = 3/4 H. 17.00 - PREMIUM SPORT NEWS
-[  Info  ]       Replaces ----- start = 03/04/2018 16:00:00 stop = 03/04/2018 16:23:00 title = PREMIUM SPORT NEWS (?)
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 03/04/2018 16:23:00 stop = 03/04/2018 16:30:00 title = MARTEDI 3/4 - HIGHLIGHTS CAMPIONATI ESTERI - 18
-[  Info  ]       Replaces ----- start = 03/04/2018 16:23:00 stop = 03/04/2018 16:30:00 title = HIGHLIGHTS CAMPIONATI ESTERI (?)
 [  Debug ]    suspicious      title in index page  = SERIE A EMOTION PILLOLE CANNAVARO
 [  Debug ]       differs from title in showdetails = CANNAVARO (5'14) - SERIE A EMOTION - 18 - P.....
 [  Info  ]    epg correction : 
@@ -5409,14 +5355,6 @@ Parameter name: index
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 04/04/2018 15:46:00 stop = 04/04/2018 15:52:00 title = SEBASTIANO ROSSI (4'48) - SERIE A EMOTION - 18 - PILLOLE
 [  Info  ]       Replaces ----- start = 04/04/2018 15:46:00 stop = 04/04/2018 15:52:00 title = SEBASTIANO ROSSI (4'48) - SERIE A EMOTION - 18 - PILLOLE
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 04/04/2018 16:00:00 stop = 04/04/2018 16:23:00 title = 4/4 H. 17.00 - PREMIUM SPORT NEWS
-[  Info  ]       Replaces ----- start = 04/04/2018 16:00:00 stop = 04/04/2018 16:23:00 title = PREMIUM SPORT NEWS (?)
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 04/04/2018 16:23:00 stop = 04/04/2018 16:30:00 title = MERCOLEDI 4/4 - HIGHLIGHTS CAMPIONATI ESTERI - 18
-[  Info  ]       Replaces ----- start = 04/04/2018 16:23:00 stop = 04/04/2018 16:30:00 title = HIGHLIGHTS CAMPIONATI ESTERI (?)
 [  Debug ]    suspicious      title in index page  = SERIE A EMOTION PILLOLE BECKHAM
 [  Debug ]       differs from title in showdetails = BECKHAM  (5'29) - SERIE A EMOTION - 18 - .....
 [  Info  ]    epg correction : 
@@ -5735,7 +5673,7 @@ Parameter name: index
 [  Info  ]       show with ---- start = 04/04/2018 20:30:00 stop = 04/04/2018 22:15:00 title = MILAN - INTER - CAMPIONATO DI CALCIO SERIE A-'18 (MILAN)
 [  Info  ]       Replaces ----- start = 04/04/2018 20:30:00 stop = 04/04/2018 22:15:00 title = MILAN - INTER - CAMPIONATO DI CALCIO SERIE A-'18 (MILAN)
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.12 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 161/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Calcio 1) -- mode Incremental
 [  Info  ]    epg correction : 
@@ -6049,10 +5987,10 @@ Parameter name: index
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 0.13 sec/update
 [  Debug ] 
-[  Debug ] 34853 shows in 163 channels
-[  Debug ] 1008 updated shows
-[  Debug ] 4 new shows added
+[  Debug ] 34860 shows in 163 channels
+[  Debug ] 907 updated shows
+[  Debug ] 7 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 29/03/2018 08:17:34 done in 12m 30s
+[        ] Job finished at 29/03/2018 10:17:36 done in 12m 32s
 [  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
