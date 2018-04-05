@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 05/04/2018 10:05:03
+[        ] Job started at 05/04/2018 12:05:04
 [  Debug ] 
 [  Debug ] Running  on: Unix 3.13.0.132
 [  Debug ] Environment: 4.0.30319.42000
@@ -29,7 +29,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+02:00	(DST in effect)
 [  Debug ] 	next DST dates  :	28/10/2018 03:00 (local)
 [  Debug ] 	                :	31/03/2019 02:00 (local)
-[  Debug ] 	local time now  :	05/04/2018 10:05:04
+[  Debug ] 	local time now  :	05/04/2018 12:05:04
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -229,7 +229,9 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   8/163 ) MEDIASET.IT -- chan. (xmltv_id=Italia 2) -- mode Incremental
-[  Info  ] 
+[Warning ] error downloading page: Error getting response stream (ReadDone2): ReceiveFailure
+[Warning ] pausing 1 of 4 times for 5 seconds before re-try.
+[  Info  ] 0.10 sec/update
 [  Debug ] 
 [  Info  ] (   9/163 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La1 HD) -- mode Incremental
 [  Info  ] 0.03 sec/update
@@ -584,8 +586,6 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 108/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Discovery Travel Living) -- mode Incremental
-[Warning ] error downloading page: The request timed out (5sec)
-[Warning ] Retry 1 of 4 times
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 109/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=NatGeoWild) -- mode Incremental
@@ -634,290 +634,10 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 124/163 ) RAI.IT -- chan. (xmltv_id=Rai Gulp HD) -- mode Incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 06/04/2018 08:15:00 stop = 06/04/2018 08:30:00 title = Lucky Fred
-[  Info  ]       Replaces ----- start = 06/04/2018 08:10:00 stop = 06/04/2018 08:25:00 title = Lucky Fred
-[  Info  ]       Replaces ----- start = 06/04/2018 08:25:00 stop = 06/04/2018 08:40:00 title = Lucky Fred
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 06/04/2018 08:30:00 stop = 06/04/2018 08:45:00 title = Lucky Fred
-[  Info  ]       Replaces ----- start = 06/04/2018 08:25:00 stop = 06/04/2018 08:40:00 title = Lucky Fred
-[  Info  ]       Replaces ----- start = 06/04/2018 08:40:00 stop = 06/04/2018 08:55:00 title = Scream Street
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 06/04/2018 11:10:00 stop = 06/04/2018 11:25:00 title = Lucky Fred
-[  Info  ]       Replaces ----- start = 06/04/2018 11:10:00 stop = 06/04/2018 11:20:00 title = Lucky Fred
-[  Info  ]       Replaces ----- start = 06/04/2018 11:20:00 stop = 06/04/2018 11:35:00 title = Lucky Fred
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 06/04/2018 11:25:00 stop = 06/04/2018 11:40:00 title = Lucky Fred
-[  Info  ]       Replaces ----- start = 06/04/2018 11:20:00 stop = 06/04/2018 11:35:00 title = Lucky Fred
-[  Info  ]       Replaces ----- start = 06/04/2018 11:35:00 stop = 06/04/2018 12:00:00 title = Geronimo Stilton
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 06/04/2018 14:15:00 stop = 06/04/2018 14:40:00 title = Alex And Co.
-[  Info  ]       Replaces ----- start = 06/04/2018 14:10:00 stop = 06/04/2018 14:35:00 title = Alex And Co.
-[  Info  ]       Replaces ----- start = 06/04/2018 14:35:00 stop = 06/04/2018 15:05:00 title = Maggie And Bianca (ii)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 07/04/2018 08:15:00 stop = 07/04/2018 08:25:00 title = Lucky Fred
-[  Info  ]       Replaces ----- start = 07/04/2018 08:10:00 stop = 07/04/2018 08:25:00 title = Lucky Fred
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 07/04/2018 09:30:00 stop = 07/04/2018 09:55:00 title = Inazuma Eleven Go
-[  Info  ]       Replaces ----- start = 07/04/2018 09:25:00 stop = 07/04/2018 09:50:00 title = Inazuma Eleven Go
-[  Info  ]       Replaces ----- start = 07/04/2018 09:50:00 stop = 07/04/2018 10:00:00 title = Pumpkin Reports
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 07/04/2018 10:20:00 stop = 07/04/2018 10:30:00 title = The Jungle Book
-[  Info  ]       Replaces ----- start = 07/04/2018 10:15:00 stop = 07/04/2018 10:25:00 title = The Jungle Book
-[  Info  ]       Replaces ----- start = 07/04/2018 10:25:00 stop = 07/04/2018 10:40:00 title = The Jungle Book
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 07/04/2018 10:30:00 stop = 07/04/2018 10:45:00 title = The Jungle Book
-[  Info  ]       Replaces ----- start = 07/04/2018 10:25:00 stop = 07/04/2018 10:40:00 title = The Jungle Book
-[  Info  ]       Replaces ----- start = 07/04/2018 10:40:00 stop = 07/04/2018 11:05:00 title = Le Avventure Di Peter Pan (ii)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 07/04/2018 10:45:00 stop = 07/04/2018 11:10:00 title = Le Avventure Di Peter Pan (ii)
-[  Info  ]       Replaces ----- start = 07/04/2018 10:40:00 stop = 07/04/2018 11:05:00 title = Le Avventure Di Peter Pan (ii)
-[  Info  ]       Replaces ----- start = 07/04/2018 11:05:00 stop = 07/04/2018 11:15:00 title = Lucky Fred
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 07/04/2018 11:10:00 stop = 07/04/2018 11:20:00 title = Lucky Fred
-[  Info  ]       Replaces ----- start = 07/04/2018 11:05:00 stop = 07/04/2018 11:15:00 title = Lucky Fred
-[  Info  ]       Replaces ----- start = 07/04/2018 11:15:00 stop = 07/04/2018 11:30:00 title = Lucky Fred
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 07/04/2018 11:20:00 stop = 07/04/2018 11:35:00 title = Lucky Fred
-[  Info  ]       Replaces ----- start = 07/04/2018 11:15:00 stop = 07/04/2018 11:30:00 title = Lucky Fred
-[  Info  ]       Replaces ----- start = 07/04/2018 11:30:00 stop = 07/04/2018 11:55:00 title = Geronimo Stilton (ii)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 07/04/2018 11:35:00 stop = 07/04/2018 12:00:00 title = Geronimo Stilton (ii)
-[  Info  ]       Replaces ----- start = 07/04/2018 11:30:00 stop = 07/04/2018 11:55:00 title = Geronimo Stilton (ii)
-[  Info  ]       Replaces ----- start = 07/04/2018 11:55:00 stop = 07/04/2018 12:00:00 title = Milly Mille Domande
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 07/04/2018 12:50:00 stop = 07/04/2018 13:15:00 title = Inazuma Eleven
-[  Info  ]       Replaces ----- start = 07/04/2018 12:45:00 stop = 07/04/2018 13:15:00 title = Inazuma Eleven
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 07/04/2018 13:40:00 stop = 07/04/2018 14:05:00 title = Gulp Music 2017/2018
-[  Info  ]       Replaces ----- start = 07/04/2018 13:40:00 stop = 07/04/2018 14:10:00 title = Gulp Music 2017/2018
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 07/04/2018 14:05:00 stop = 07/04/2018 14:35:00 title = Alex And Co.
-[  Info  ]       Replaces ----- start = 07/04/2018 13:40:00 stop = 07/04/2018 14:10:00 title = Gulp Music 2017/2018
-[  Info  ]       Replaces ----- start = 07/04/2018 14:10:00 stop = 07/04/2018 14:35:00 title = Alex And Co.
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 07/04/2018 17:30:00 stop = 07/04/2018 17:35:00 title = I Corti Di Topolino
-[  Info  ]       Replaces ----- start = 07/04/2018 17:30:00 stop = 07/04/2018 17:55:00 title = Zorro
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 07/04/2018 17:35:00 stop = 07/04/2018 17:55:00 title = Zorro
-[  Info  ]       Replaces ----- start = 07/04/2018 17:30:00 stop = 07/04/2018 17:55:00 title = Zorro
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 07/04/2018 20:55:00 stop = 07/04/2018 21:20:00 title = Alex And Co.
-[  Info  ]       Replaces ----- start = 07/04/2018 20:05:00 stop = 07/04/2018 21:00:00 title = Soy Luna
-[  Info  ]       Replaces ----- start = 07/04/2018 21:00:00 stop = 07/04/2018 21:25:00 title = Alex And Co.
-[  Info  ] 0.13 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 125/163 ) RAI.IT -- chan. (xmltv_id=Rai YoYo HD) -- mode Incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/04/2018 06:45:00 stop = 08/04/2018 06:55:00 title = La Pimpa Iii
-[  Info  ]       Replaces ----- start = 08/04/2018 06:45:00 stop = 08/04/2018 06:50:00 title = La Pimpa Iii
-[  Info  ]       Replaces ----- start = 08/04/2018 06:50:00 stop = 08/04/2018 06:55:00 title = Masha E Orso
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/04/2018 07:10:00 stop = 08/04/2018 07:15:00 title = Masha E Orso
-[  Info  ]       Replaces ----- start = 08/04/2018 07:10:00 stop = 08/04/2018 07:20:00 title = Il Piccolo Regno Di Ben E Holly 2
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/04/2018 11:20:00 stop = 08/04/2018 11:30:00 title = Yo Yo
-[  Info  ]       Replaces ----- start = 08/04/2018 11:20:00 stop = 08/04/2018 11:25:00 title = Yo Yo
-[  Info  ]       Replaces ----- start = 08/04/2018 11:25:00 stop = 08/04/2018 11:35:00 title = Yo Yo
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/04/2018 11:30:00 stop = 08/04/2018 11:35:00 title = Yo Yo
-[  Info  ]       Replaces ----- start = 08/04/2018 11:25:00 stop = 08/04/2018 11:35:00 title = Yo Yo
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/04/2018 11:35:00 stop = 08/04/2018 11:40:00 title = Yo Yo
-[  Info  ]       Replaces ----- start = 08/04/2018 11:35:00 stop = 08/04/2018 11:45:00 title = Yo Yo
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/04/2018 11:40:00 stop = 08/04/2018 11:45:00 title = Barbapapa'
-[  Info  ]       Replaces ----- start = 08/04/2018 11:35:00 stop = 08/04/2018 11:45:00 title = Yo Yo
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/04/2018 12:55:00 stop = 08/04/2018 13:05:00 title = Giulio Coniglio
-[  Info  ]       Replaces ----- start = 08/04/2018 12:50:00 stop = 08/04/2018 13:00:00 title = Giulio Coniglio
-[  Info  ]       Replaces ----- start = 08/04/2018 13:00:00 stop = 08/04/2018 13:10:00 title = Giulio Coniglio
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/04/2018 13:05:00 stop = 08/04/2018 13:15:00 title = Giulio Coniglio
-[  Info  ]       Replaces ----- start = 08/04/2018 13:00:00 stop = 08/04/2018 13:10:00 title = Giulio Coniglio
-[  Info  ]       Replaces ----- start = 08/04/2018 13:10:00 stop = 08/04/2018 13:20:00 title = Peter Coniglio 2
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/04/2018 13:15:00 stop = 08/04/2018 13:25:00 title = Peter Coniglio 2
-[  Info  ]       Replaces ----- start = 08/04/2018 13:10:00 stop = 08/04/2018 13:20:00 title = Peter Coniglio 2
-[  Info  ]       Replaces ----- start = 08/04/2018 13:20:00 stop = 08/04/2018 13:35:00 title = Peter Coniglio 2
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/04/2018 13:25:00 stop = 08/04/2018 13:40:00 title = Peter Coniglio 2
-[  Info  ]       Replaces ----- start = 08/04/2018 13:20:00 stop = 08/04/2018 13:35:00 title = Peter Coniglio 2
-[  Info  ]       Replaces ----- start = 08/04/2018 13:35:00 stop = 08/04/2018 13:40:00 title = Masha E Orso 3
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/04/2018 13:40:00 stop = 08/04/2018 13:45:00 title = Masha E Orso 3
-[  Info  ]       Replaces ----- start = 08/04/2018 13:40:00 stop = 08/04/2018 13:45:00 title = Masha E Orso
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/04/2018 14:05:00 stop = 08/04/2018 14:20:00 title = Pj Masks
-[  Info  ]       Replaces ----- start = 08/04/2018 14:05:00 stop = 08/04/2018 14:15:00 title = Pj Masks
-[  Info  ]       Replaces ----- start = 08/04/2018 14:15:00 stop = 08/04/2018 14:30:00 title = Pj Masks
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/04/2018 14:20:00 stop = 08/04/2018 14:30:00 title = Pj Masks
-[  Info  ]       Replaces ----- start = 08/04/2018 14:15:00 stop = 08/04/2018 14:30:00 title = Pj Masks
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/04/2018 14:40:00 stop = 08/04/2018 14:55:00 title = Bob Aggiustatutto 2
-[  Info  ]       Replaces ----- start = 08/04/2018 14:40:00 stop = 08/04/2018 14:50:00 title = Bob Aggiustatutto 2
-[  Info  ]       Replaces ----- start = 08/04/2018 14:50:00 stop = 08/04/2018 14:55:00 title = Bing
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/04/2018 15:50:00 stop = 08/04/2018 16:05:00 title = Pj Masks
-[  Info  ]       Replaces ----- start = 08/04/2018 15:50:00 stop = 08/04/2018 16:00:00 title = Pj Masks
-[  Info  ]       Replaces ----- start = 08/04/2018 16:00:00 stop = 08/04/2018 16:05:00 title = Masha E Orso 3
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/04/2018 16:05:00 stop = 08/04/2018 16:10:00 title = Masha E Orso 3
-[  Info  ]       Replaces ----- start = 08/04/2018 16:05:00 stop = 08/04/2018 16:10:00 title = Masha E Orso
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/04/2018 16:20:00 stop = 08/04/2018 16:25:00 title = Masha E Orso
-[  Info  ]       Replaces ----- start = 08/04/2018 16:20:00 stop = 08/04/2018 16:30:00 title = I Saurini 4
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/04/2018 18:20:00 stop = 08/04/2018 18:35:00 title = Pj Masks
-[  Info  ]       Replaces ----- start = 08/04/2018 18:20:00 stop = 08/04/2018 18:30:00 title = Pj Masks
-[  Info  ]       Replaces ----- start = 08/04/2018 18:30:00 stop = 08/04/2018 18:35:00 title = Shaun Vita Da Pecora 2
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/04/2018 18:35:00 stop = 08/04/2018 18:40:00 title = Shaun Vita Da Pecora 2
-[  Info  ]       Replaces ----- start = 08/04/2018 18:35:00 stop = 08/04/2018 18:45:00 title = Shaun Vita Da Pecora 2
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/04/2018 18:40:00 stop = 08/04/2018 18:50:00 title = Shaun Vita Da Pecora 2
-[  Info  ]       Replaces ----- start = 08/04/2018 18:35:00 stop = 08/04/2018 18:45:00 title = Shaun Vita Da Pecora 2
-[  Info  ]       Replaces ----- start = 08/04/2018 18:45:00 stop = 08/04/2018 18:50:00 title = L' Arte Con Mati' E Dada' 2
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/04/2018 19:20:00 stop = 08/04/2018 19:25:00 title = Masha E Orso 3
-[  Info  ]       Replaces ----- start = 08/04/2018 19:20:00 stop = 08/04/2018 19:25:00 title = I Racconti Di Masha
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/04/2018 19:25:00 stop = 08/04/2018 19:30:00 title = I Racconti Di Masha
-[  Info  ]       Replaces ----- start = 08/04/2018 19:25:00 stop = 08/04/2018 19:35:00 title = I Racconti Di Masha
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/04/2018 19:30:00 stop = 08/04/2018 19:35:00 title = I Racconti Di Masha
-[  Info  ]       Replaces ----- start = 08/04/2018 19:25:00 stop = 08/04/2018 19:35:00 title = I Racconti Di Masha
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/04/2018 20:25:00 stop = 08/04/2018 20:40:00 title = Pj Masks
-[  Info  ]       Replaces ----- start = 08/04/2018 20:25:00 stop = 08/04/2018 20:35:00 title = Pj Masks
-[  Info  ]       Replaces ----- start = 08/04/2018 20:35:00 stop = 08/04/2018 20:45:00 title = Pj Masks Ep.18
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/04/2018 20:40:00 stop = 08/04/2018 20:50:00 title = Pj Masks Ep.18
-[  Info  ]       Replaces ----- start = 08/04/2018 20:35:00 stop = 08/04/2018 20:45:00 title = Pj Masks Ep.18
-[  Info  ]       Replaces ----- start = 08/04/2018 20:45:00 stop = 08/04/2018 20:55:00 title = Pj Masks
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/04/2018 20:50:00 stop = 08/04/2018 21:05:00 title = Pj Masks
-[  Info  ]       Replaces ----- start = 08/04/2018 20:45:00 stop = 08/04/2018 20:55:00 title = Pj Masks
-[  Info  ]       Replaces ----- start = 08/04/2018 20:55:00 stop = 08/04/2018 21:05:00 title = Pj Masks
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/04/2018 21:35:00 stop = 08/04/2018 21:40:00 title = I Racconti Di Masha
-[  Info  ]       Replaces ----- start = 08/04/2018 21:35:00 stop = 08/04/2018 21:45:00 title = I Racconti Di Masha
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/04/2018 21:40:00 stop = 08/04/2018 21:45:00 title = I Racconti Di Masha
-[  Info  ]       Replaces ----- start = 08/04/2018 21:35:00 stop = 08/04/2018 21:45:00 title = I Racconti Di Masha
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/04/2018 23:15:00 stop = 08/04/2018 23:20:00 title = La Pimpa Iii
-[  Info  ]       Replaces ----- start = 08/04/2018 23:15:00 stop = 08/04/2018 23:30:00 title = Pingu Show
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/04/2018 23:45:00 stop = 08/04/2018 23:50:00 title = Buonanotte Con Le Favole Di Yoyo 2013
-[  Info  ]       Replaces ----- start = 08/04/2018 23:45:00 stop = 08/04/2018 23:55:00 title = Buonanotte Con Le Favole Di Yoyo 2013
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 09/04/2018 01:10:00 stop = 09/04/2018 01:15:00 title = La Pimpa Iii
-[  Info  ]       Replaces ----- start = 09/04/2018 01:10:00 stop = 09/04/2018 01:15:00 title = Sigla Buonanotte
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 09/04/2018 01:15:00 stop = 09/04/2018 01:20:00 title = Sigla Buonanotte
-[  Info  ]       Replaces ----- start = 09/04/2018 01:15:00 stop = 09/04/2018 01:40:00 title = Teletubbies
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 09/04/2018 01:20:00 stop = 09/04/2018 01:45:00 title = Teletubbies
-[  Info  ]       Replaces ----- start = 09/04/2018 01:15:00 stop = 09/04/2018 01:40:00 title = Teletubbies
-[  Info  ]       Replaces ----- start = 09/04/2018 01:40:00 stop = 09/04/2018 02:05:00 title = Teletubbies
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 09/04/2018 01:45:00 stop = 09/04/2018 02:05:00 title = Teletubbies
-[  Info  ]       Replaces ----- start = 09/04/2018 01:40:00 stop = 09/04/2018 02:05:00 title = Teletubbies
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 09/04/2018 03:50:00 stop = 09/04/2018 03:55:00 title = Sam Sam
-[  Info  ]       Replaces ----- start = 09/04/2018 03:50:00 stop = 09/04/2018 04:00:00 title = Sam Sam
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 09/04/2018 03:55:00 stop = 09/04/2018 04:00:00 title = Sam Sam
-[  Info  ]       Replaces ----- start = 09/04/2018 03:50:00 stop = 09/04/2018 04:00:00 title = Sam Sam
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 09/04/2018 04:20:00 stop = 09/04/2018 04:25:00 title = Classic Tales
-[  Info  ]       Replaces ----- start = 09/04/2018 04:20:00 stop = 09/04/2018 04:30:00 title = Classic Tales
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 09/04/2018 04:25:00 stop = 09/04/2018 04:30:00 title = Dixiland
-[  Info  ]       Replaces ----- start = 09/04/2018 04:20:00 stop = 09/04/2018 04:30:00 title = Classic Tales
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 09/04/2018 04:40:00 stop = 09/04/2018 04:55:00 title = Evviva Sandrino 2
-[  Info  ]       Replaces ----- start = 09/04/2018 04:40:00 stop = 09/04/2018 04:45:00 title = Dixiland
-[  Info  ]       Replaces ----- start = 09/04/2018 04:45:00 stop = 09/04/2018 04:55:00 title = Evviva Sandrino 2
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 09/04/2018 05:30:00 stop = 09/04/2018 05:50:00 title = Il Meraviglioso Mondo Di Richard Scarry
-[  Info  ]       Replaces ----- start = 09/04/2018 05:25:00 stop = 09/04/2018 05:55:00 title = Il Meraviglioso Mondo Di Richard Scarry
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 09/04/2018 05:50:00 stop = 09/04/2018 06:00:00 title = Insieme A Rosie 4
-[  Info  ]       Replaces ----- start = 09/04/2018 05:25:00 stop = 09/04/2018 05:55:00 title = Il Meraviglioso Mondo Di Richard Scarry
-[  Info  ]       Replaces ----- start = 09/04/2018 05:55:00 stop = 09/04/2018 06:05:00 title = Insieme A Rosie 4
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 09/04/2018 06:00:00 stop = 09/04/2018 06:00:00 title = Insieme A Rosie 4
-[  Info  ]       Replaces ----- start = 09/04/2018 05:55:00 stop = 09/04/2018 06:05:00 title = Insieme A Rosie 4
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 09/04/2018 06:00:00 stop = 09/04/2018 06:15:00 title = Insieme A Rosie 4
-[  Info  ]       Replaces ----- start = 09/04/2018 05:55:00 stop = 09/04/2018 06:05:00 title = Insieme A Rosie 4
-[  Info  ]       Replaces ----- start = 09/04/2018 06:05:00 stop = 09/04/2018 06:15:00 title = Insieme A Rosie 4
-[  Info  ] 0.14 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 126/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cartoon Network) -- mode Incremental
 [  Info  ] 
@@ -944,6 +664,10 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 134/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=DeAKids) -- mode Incremental
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
+[Warning ] error downloading page: Error getting response stream (ReadDone1): ReceiveFailure
+[Warning ] pausing 2 of 4 times for 10 seconds before re-try.
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 135/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Teen Nick) -- mode Incremental
@@ -993,7 +717,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 10/04/2018 04:22:00 stop = 10/04/2018 05:30:00 title = INTERVISTA A JOHN LANDIS - RED CARPET '11 - (KE)
 [  Info  ]       Replaces ----- start = 10/04/2018 04:22:00 stop = 10/04/2018 05:30:00 title = INTERVISTA A JOHN LANDIS - RED CARPET '11 - (KE)
-[  Info  ] 0.16 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 145/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema +24) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = 1 TV - NOCTURNE IN BLACK
@@ -1014,7 +738,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 11/04/2018 04:22:00 stop = 11/04/2018 05:30:00 title = INTERVISTA A JOHN LANDIS - RED CARPET '11 - (KE)
 [  Info  ]       Replaces ----- start = 11/04/2018 04:22:00 stop = 11/04/2018 05:30:00 title = INTERVISTA A JOHN LANDIS - RED CARPET '11 - (KE)
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.12 sec/update
 [  Debug ] 
 [  Info  ] ( 146/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema 2) -- mode Incremental
 [  Info  ] 
@@ -1041,7 +765,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 09/04/2018 03:29:00 stop = 09/04/2018 03:52:00 title = 5 ORE DI LUNA PIENA - BUIO
 [  Info  ]       Replaces ----- start = 09/04/2018 03:29:00 stop = 09/04/2018 03:52:00 title = 5 ORE DI LUNA PIENA - BUIO
-[  Info  ] 0.23 sec/update
+[  Info  ] 0.18 sec/update
 [  Debug ] 
 [  Info  ] ( 149/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Emotion) -- mode Incremental
 [  Info  ]    forced update : 
@@ -1052,7 +776,7 @@
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 11/04/2018 19:30:00 stop = 11/04/2018 22:48:00 title = EMOTION RITORNA ALLE 22.45 (?)
 [  Info  ]       Replaces ----- start = 11/04/2018 19:30:00 stop = 11/04/2018 22:48:00 title = EMOTION RITORNA ALLE 22.45 (?)
-[  Info  ] 0.17 sec/update
+[  Info  ] 0.11 sec/update
 [  Debug ] 
 [  Info  ] ( 150/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Comedy) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = A CENA CON...
@@ -1187,7 +911,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 11/04/2018 15:30:00 stop = 11/04/2018 16:10:00 title = GOING ROGUE - PROJECT GREENLIGHT 4
 [  Info  ]       Replaces ----- start = 11/04/2018 15:30:00 stop = 11/04/2018 16:10:00 title = GOING ROGUE - PROJECT GREENLIGHT 4
-[  Info  ] 0.20 sec/update
+[  Info  ] 0.22 sec/update
 [  Debug ] 
 [  Info  ] ( 153/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Paramount Channel) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = CINECHAT - SYDNEY POLLACK
@@ -3077,7 +2801,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 11/04/2018 20:19:00 stop = 11/04/2018 21:08:00 title = CITY FOLK UNDER WRAPS - BLINDSPOT III - PRIMA TV
 [  Info  ]       Replaces ----- start = 11/04/2018 20:19:00 stop = 11/04/2018 21:08:00 title = CITY FOLK UNDER WRAPS - BLINDSPOT III - PRIMA TV
-[  Info  ] 0.16 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 157/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Joy) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = VIA ZANARDI, 33
@@ -4430,7 +4154,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 11/04/2018 23:19:00 stop = 11/04/2018 23:41:00 title = PROBLEMI CON PAPA' - UNDATEABLE I
 [  Info  ]       Replaces ----- start = 11/04/2018 23:19:00 stop = 11/04/2018 23:41:00 title = PROBLEMI CON PAPA' - UNDATEABLE I
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 158/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Stories) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = DR. HOUSE - MEDICAL DIVISION II
@@ -5588,7 +5312,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 11/04/2018 23:20:00 stop = 11/04/2018 23:30:00 title = LAZIO-INTER 2001-02 (5'03) - SERIE A EMOTION - 18 - PILLOLE
 [  Info  ]       Replaces ----- start = 11/04/2018 23:20:00 stop = 11/04/2018 23:30:00 title = LAZIO-INTER 2001-02 (5'03) - SERIE A EMOTION - 18 - PILLOLE
-[  Info  ] 0.20 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 160/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Sport 2 HD) -- mode Incremental
 [  Info  ]    epg correction : 
@@ -5887,7 +5611,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 11/04/2018 19:00:00 stop = 11/04/2018 19:32:00 title = TRENTAQUATTRESIMA GIORNATA - DOMENICA 8/4 - HIGHLIGHTS SERIE B -'18
 [  Info  ]       Replaces ----- start = 11/04/2018 19:00:00 stop = 11/04/2018 19:32:00 title = TRENTAQUATTRESIMA GIORNATA - DOMENICA 8/4 - HIGHLIGHTS SERIE B -'18
-[  Info  ] 0.20 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 161/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Calcio 1) -- mode Incremental
 [  Info  ]    epg correction : 
@@ -6186,12 +5910,12 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 11/04/2018 19:00:00 stop = 11/04/2018 19:32:00 title = TRENTAQUATTRESIMA GIORNATA - DOMENICA 8/4 - HIGHLIGHTS SERIE B -'18
 [  Info  ]       Replaces ----- start = 11/04/2018 19:00:00 stop = 11/04/2018 19:32:00 title = TRENTAQUATTRESIMA GIORNATA - DOMENICA 8/4 - HIGHLIGHTS SERIE B -'18
-[  Info  ] 0.16 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
-[  Debug ] 35740 shows in 163 channels
-[  Debug ] 1011 updated shows
+[  Debug ] 35747 shows in 163 channels
+[  Debug ] 906 updated shows
 [  Debug ] 7 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 05/04/2018 10:18:52 done in 13m 48s
+[        ] Job finished at 05/04/2018 12:18:17 done in 13m 13s
 [  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
