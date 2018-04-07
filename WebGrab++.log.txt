@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 07/04/2018 08:05:03
+[        ] Job started at 07/04/2018 10:05:03
 [  Debug ] 
 [  Debug ] Running  on: Unix 3.13.0.132
 [  Debug ] Environment: 4.0.30319.42000
@@ -29,7 +29,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+02:00	(DST in effect)
 [  Debug ] 	next DST dates  :	28/10/2018 03:00 (local)
 [  Debug ] 	                :	31/03/2019 02:00 (local)
-[  Debug ] 	local time now  :	07/04/2018 08:05:03
+[  Debug ] 	local time now  :	07/04/2018 10:05:04
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -232,13 +232,13 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   9/163 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La1 HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.04 sec/update
 [  Debug ] 
 [  Info  ] (  10/163 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La2 HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.03 sec/update
 [  Debug ] 
 [  Info  ] (  11/163 ) STASERAINTV.COM -- chan. (xmltv_id=La 5) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.07 sec/update
 [  Debug ] 
 [  Info  ] (  12/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=LA7) -- mode Incremental
 [  Info  ] 
@@ -265,10 +265,6 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  20/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Sport 1 HD) -- mode Incremental
-[Warning ] error downloading page: The request timed out (5sec)
-[Warning ] Retry 1 of 4 times
-[Warning ] error downloading page: Error getting response stream (ReadDone1): ReceiveFailure
-[Warning ] pausing 2 of 4 times for 10 seconds before re-try.
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  21/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Sport 2 HD) -- mode Incremental
@@ -383,7 +379,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  51/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=SKY CLASSICA HD) -- mode Incremental
-[  Info  ] 0.16 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  52/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Atlantic HD) -- mode Incremental
 [  Info  ] 
@@ -634,16 +630,48 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 124/163 ) RAI.IT -- chan. (xmltv_id=Rai Gulp HD) -- mode Incremental
-[  Info  ] 
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 08/04/2018 11:30:00 stop = 08/04/2018 12:00:00 title = Geronimo Stilton (ii)
+[  Info  ]       Replaces ----- start = 08/04/2018 11:30:00 stop = 08/04/2018 11:55:00 title = Geronimo Stilton (ii)
+[  Info  ]       Replaces ----- start = 08/04/2018 11:55:00 stop = 08/04/2018 12:00:00 title = Milly Mille Domande
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 09/04/2018 17:25:00 stop = 09/04/2018 17:30:00 title = I Corti Di Topolino
+[  Info  ]       Replaces ----- start = 09/04/2018 17:15:00 stop = 09/04/2018 17:30:00 title = Vita Da Giungla
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 09/04/2018 17:35:00 stop = 09/04/2018 18:00:00 title = Zorro
+[  Info  ]       Replaces ----- start = 09/04/2018 17:35:00 stop = 09/04/2018 17:40:00 title = I Corti Di Topolino
+[  Info  ]       Replaces ----- start = 09/04/2018 17:40:00 stop = 09/04/2018 18:00:00 title = Zorro
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 125/163 ) RAI.IT -- chan. (xmltv_id=Rai YoYo HD) -- mode Incremental
-[  Info  ] 
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 12/04/2018 05:50:00 stop = 12/04/2018 06:00:00 title = Insieme A Rosie 4
+[  Info  ]       Replaces ----- start = 12/04/2018 05:50:00 stop = 12/04/2018 06:05:00 title = Insieme A Rosie 4
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 12/04/2018 06:00:00 stop = 12/04/2018 06:00:00 title = Insieme A Rosie 4
+[  Info  ]       Replaces ----- start = 12/04/2018 05:50:00 stop = 12/04/2018 06:05:00 title = Insieme A Rosie 4
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 12/04/2018 06:00:00 stop = 12/04/2018 06:10:00 title = Insieme A Rosie 4
+[  Info  ]       Replaces ----- start = 12/04/2018 05:50:00 stop = 12/04/2018 06:05:00 title = Insieme A Rosie 4
+[  Info  ]       Replaces ----- start = 12/04/2018 06:05:00 stop = 12/04/2018 06:15:00 title = Insieme A Rosie 4
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 12/04/2018 06:10:00 stop = 12/04/2018 06:30:00 title = New Teletubbies
+[  Info  ]       Replaces ----- start = 12/04/2018 06:05:00 stop = 12/04/2018 06:15:00 title = Insieme A Rosie 4
+[  Info  ]       Replaces ----- start = 12/04/2018 06:15:00 stop = 12/04/2018 06:30:00 title = New Teletubbies
+[  Info  ] 0.21 sec/update
 [  Debug ] 
 [  Info  ] ( 126/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cartoon Network) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 127/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Disney XD) -- mode Incremental
-[  Info  ] 0.19 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 128/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Disney Channel) -- mode Incremental
 [  Info  ] 
@@ -712,7 +740,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 12/04/2018 23:26:00 stop = 12/04/2018 23:46:00 title = VIOLA, FRANCA -  - PRIMA TV
 [  Info  ]       Replaces ----- start = 12/04/2018 23:26:00 stop = 12/04/2018 23:46:00 title = VIOLA, FRANCA -  - PRIMA TV
-[  Info  ] 0.16 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 145/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema +24) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = I GRANDI INCONTRI - RUBINI E SCAMARCIO
@@ -733,7 +761,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 13/04/2018 23:26:00 stop = 13/04/2018 23:46:00 title = VIOLA, FRANCA -  - PRIMA TV
 [  Info  ]       Replaces ----- start = 13/04/2018 23:26:00 stop = 13/04/2018 23:46:00 title = VIOLA, FRANCA -  - PRIMA TV
-[  Info  ] 0.12 sec/update
+[  Info  ] 0.13 sec/update
 [  Debug ] 
 [  Info  ] ( 146/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema 2) -- mode Incremental
 [  Info  ] 
@@ -754,7 +782,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 09/04/2018 03:29:00 stop = 09/04/2018 03:52:00 title = 5 ORE DI LUNA PIENA - BUIO
 [  Info  ]       Replaces ----- start = 09/04/2018 03:29:00 stop = 09/04/2018 03:52:00 title = 5 ORE DI LUNA PIENA - BUIO
-[  Info  ] 0.12 sec/update
+[  Info  ] 0.13 sec/update
 [  Debug ] 
 [  Info  ] ( 149/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Emotion) -- mode Incremental
 [  Info  ]    forced update : 
@@ -771,7 +799,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 13/04/2018 05:30:00 stop = 13/04/2018 05:37:00 title = CARNERA - FULL EMOTION
 [  Info  ]       Replaces ----- start = 13/04/2018 05:30:00 stop = 13/04/2018 05:37:00 title = CARNERA - FULL EMOTION
-[  Info  ] 0.12 sec/update
+[  Info  ] 0.13 sec/update
 [  Debug ] 
 [  Info  ] ( 150/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Comedy) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = COMEDY EXTRA
@@ -780,7 +808,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 08/04/2018 06:01:00 stop = 08/04/2018 06:21:00 title = SPECIALE COMICITA' ROMANA - COMEDY EXTRA
 [  Info  ]       Replaces ----- start = 08/04/2018 06:01:00 stop = 08/04/2018 06:21:00 title = SPECIALE COMICITA' ROMANA - COMEDY EXTRA
-[  Info  ] 0.11 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 151/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Investigation Discovery) -- mode Incremental
 [  Info  ] 
@@ -864,7 +892,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 12/04/2018 06:40:00 stop = 12/04/2018 07:00:00 title = KEVIN COSTNER - CINECHAT - (KS-KR)
 [  Info  ]       Replaces ----- start = 12/04/2018 06:40:00 stop = 12/04/2018 07:00:00 title = KEVIN COSTNER - CINECHAT - (KS-KR)
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 153/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Paramount Channel) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = CINECHAT - FORMAN
@@ -945,7 +973,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 12/04/2018 06:40:00 stop = 12/04/2018 07:00:00 title = KEVIN COSTNER - CINECHAT - (KS-KR)
 [  Info  ]       Replaces ----- start = 12/04/2018 06:40:00 stop = 12/04/2018 07:00:00 title = KEVIN COSTNER - CINECHAT - (KS-KR)
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 154/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action HD) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = SUPERNATURAL XI
@@ -1263,7 +1291,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 11/04/2018 05:57:00 stop = 11/04/2018 06:47:00 title = UNA MODESTA PROPOSTA - GOTHAM IV
-[  Info  ]       Replaces ----- start = 11/04/2018 05:57:00 stop = 11/04/2018 06:47:00 title = UNA MODESTA PROPOSTA - GOTHAM IV - PRIMA TV
+[  Info  ]       Replaces ----- start = 11/04/2018 05:57:00 stop = 11/04/2018 06:47:00 title = UNA MODESTA PROPOSTA - GOTHAM IV
 [  Debug ]    suspicious      title in index page  = AGENT X
 [  Debug ]       differs from title in showdetails = L' ULTIMATUM  - A.....
 [  Info  ]    epg correction : 
@@ -1329,7 +1357,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 11/04/2018 21:08:00 stop = 11/04/2018 21:58:00 title = UNA MODESTA PROPOSTA - GOTHAM IV
-[  Info  ]       Replaces ----- start = 11/04/2018 21:08:00 stop = 11/04/2018 21:58:00 title = UNA MODESTA PROPOSTA - GOTHAM IV - PRIMA TV
+[  Info  ]       Replaces ----- start = 11/04/2018 21:08:00 stop = 11/04/2018 21:58:00 title = UNA MODESTA PROPOSTA - GOTHAM IV
 [  Debug ]    suspicious      title in index page  = DC'S LEGENDS OF TOMORROW III
 [  Debug ]       differs from title in showdetails = L' ESORCISMO - DC'S LEGENDS OF TOMORRO.....
 [  Info  ]    epg correction : 
@@ -1371,7 +1399,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 12/04/2018 06:09:00 stop = 12/04/2018 06:58:00 title = L' APPARENZA INGANNA - CHICAGO FIRE VI
-[  Info  ]       Replaces ----- start = 12/04/2018 06:09:00 stop = 12/04/2018 06:58:00 title = L' APPARENZA INGANNA - CHICAGO FIRE VI - PRIMA TV
+[  Info  ]       Replaces ----- start = 12/04/2018 06:09:00 stop = 12/04/2018 06:58:00 title = L' APPARENZA INGANNA - CHICAGO FIRE VI
 [  Debug ]    suspicious      title in index page  = HEROES REBORN
 [  Debug ]       differs from title in showdetails = 11:53 PER ODESSA - HERO.....
 [  Info  ]    epg correction : 
@@ -1443,7 +1471,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 12/04/2018 21:10:00 stop = 12/04/2018 22:00:00 title = L' APPARENZA INGANNA - CHICAGO FIRE VI
-[  Info  ]       Replaces ----- start = 12/04/2018 21:10:00 stop = 12/04/2018 22:00:00 title = L' APPARENZA INGANNA - CHICAGO FIRE VI - PRIMA TV
+[  Info  ]       Replaces ----- start = 12/04/2018 21:10:00 stop = 12/04/2018 22:00:00 title = L' APPARENZA INGANNA - CHICAGO FIRE VI
 [  Debug ]    suspicious      title in index page  = THE 100 IV
 [  Debug ]       differs from title in showdetails = PESANTE GIACE LA COR.....
 [  Info  ]    epg correction : 
@@ -1558,7 +1586,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 13/04/2018 23:44:00 stop = 14/04/2018 00:33:00 title = STORIE CHE RACCONTIAMO AI NOSTRI RAGAZZI - GRIMM III
 [  Info  ]       Replaces ----- start = 13/04/2018 23:44:00 stop = 14/04/2018 00:33:00 title = STORIE CHE RACCONTIAMO AI NOSTRI RAGAZZI - GRIMM III
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 155/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action +24) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = AGENT X
@@ -1572,7 +1600,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 07/04/2018 08:35:00 stop = 07/04/2018 09:25:00 title = UNA MODESTA PROPOSTA - GOTHAM IV
-[  Info  ]       Replaces ----- start = 07/04/2018 08:35:00 stop = 07/04/2018 09:25:00 title = UNA MODESTA PROPOSTA - GOTHAM IV - PRIMA TV
+[  Info  ]       Replaces ----- start = 07/04/2018 08:35:00 stop = 07/04/2018 09:25:00 title = UNA MODESTA PROPOSTA - GOTHAM IV
 [  Debug ]    suspicious      title in index page  = THE ORIGINALS III
 [  Debug ]       differs from title in showdetails = PER IL PROSSIMO MILLENNIO -.....
 [  Info  ]    epg correction : 
@@ -1602,7 +1630,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 07/04/2018 13:40:00 stop = 07/04/2018 14:30:00 title = UNA MODESTA PROPOSTA - GOTHAM IV
-[  Info  ]       Replaces ----- start = 07/04/2018 13:40:00 stop = 07/04/2018 14:30:00 title = UNA MODESTA PROPOSTA - GOTHAM IV - PRIMA TV
+[  Info  ]       Replaces ----- start = 07/04/2018 13:40:00 stop = 07/04/2018 14:30:00 title = UNA MODESTA PROPOSTA - GOTHAM IV
 [  Debug ]    suspicious      title in index page  = ARROW II
 [  Debug ]       differs from title in showdetails = STRADE DI FUOCO - .....
 [  Info  ]    epg correction : 
@@ -1626,7 +1654,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 07/04/2018 20:19:00 stop = 07/04/2018 21:09:00 title = L' APPARENZA INGANNA - CHICAGO FIRE VI
-[  Info  ]       Replaces ----- start = 07/04/2018 20:19:00 stop = 07/04/2018 21:09:00 title = L' APPARENZA INGANNA - CHICAGO FIRE VI - PRIMA TV
+[  Info  ]       Replaces ----- start = 07/04/2018 20:19:00 stop = 07/04/2018 21:09:00 title = L' APPARENZA INGANNA - CHICAGO FIRE VI
 [  Debug ]    suspicious      title in index page  = THE 100 III
 [  Debug ]       differs from title in showdetails = CIELO ROSSO AL MATTIN.....
 [  Info  ]    epg correction : 
@@ -1638,7 +1666,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 07/04/2018 22:48:00 stop = 07/04/2018 23:37:00 title = L' APPARENZA INGANNA - CHICAGO FIRE VI
-[  Info  ]       Replaces ----- start = 07/04/2018 22:48:00 stop = 07/04/2018 23:37:00 title = L' APPARENZA INGANNA - CHICAGO FIRE VI - PRIMA TV
+[  Info  ]       Replaces ----- start = 07/04/2018 22:48:00 stop = 07/04/2018 23:37:00 title = L' APPARENZA INGANNA - CHICAGO FIRE VI
 [  Debug ]    suspicious      title in index page  = GRIMM III
 [  Debug ]       differs from title in showdetails = RISVEGLIO - GRIMM I.....
 [  Info  ]    epg correction : 
@@ -1972,7 +2000,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 12/04/2018 05:57:00 stop = 12/04/2018 06:47:00 title = UNA MODESTA PROPOSTA - GOTHAM IV
-[  Info  ]       Replaces ----- start = 12/04/2018 05:57:00 stop = 12/04/2018 06:47:00 title = UNA MODESTA PROPOSTA - GOTHAM IV - PRIMA TV
+[  Info  ]       Replaces ----- start = 12/04/2018 05:57:00 stop = 12/04/2018 06:47:00 title = UNA MODESTA PROPOSTA - GOTHAM IV
 [  Debug ]    suspicious      title in index page  = AGENT X
 [  Debug ]       differs from title in showdetails = L' ULTIMATUM  - A.....
 [  Info  ]    epg correction : 
@@ -2038,7 +2066,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 12/04/2018 21:08:00 stop = 12/04/2018 21:58:00 title = UNA MODESTA PROPOSTA - GOTHAM IV
-[  Info  ]       Replaces ----- start = 12/04/2018 21:08:00 stop = 12/04/2018 21:58:00 title = UNA MODESTA PROPOSTA - GOTHAM IV - PRIMA TV
+[  Info  ]       Replaces ----- start = 12/04/2018 21:08:00 stop = 12/04/2018 21:58:00 title = UNA MODESTA PROPOSTA - GOTHAM IV
 [  Debug ]    suspicious      title in index page  = DC'S LEGENDS OF TOMORROW III
 [  Debug ]       differs from title in showdetails = L' ESORCISMO - DC'S LEGENDS OF TOMORRO.....
 [  Info  ]    epg correction : 
@@ -2080,7 +2108,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 13/04/2018 06:09:00 stop = 13/04/2018 06:58:00 title = L' APPARENZA INGANNA - CHICAGO FIRE VI
-[  Info  ]       Replaces ----- start = 13/04/2018 06:09:00 stop = 13/04/2018 06:58:00 title = L' APPARENZA INGANNA - CHICAGO FIRE VI - PRIMA TV
+[  Info  ]       Replaces ----- start = 13/04/2018 06:09:00 stop = 13/04/2018 06:58:00 title = L' APPARENZA INGANNA - CHICAGO FIRE VI
 [  Debug ]    suspicious      title in index page  = HEROES REBORN
 [  Debug ]       differs from title in showdetails = 11:53 PER ODESSA - HERO.....
 [  Info  ]    epg correction : 
@@ -2152,7 +2180,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 13/04/2018 21:10:00 stop = 13/04/2018 22:00:00 title = L' APPARENZA INGANNA - CHICAGO FIRE VI
-[  Info  ]       Replaces ----- start = 13/04/2018 21:10:00 stop = 13/04/2018 22:00:00 title = L' APPARENZA INGANNA - CHICAGO FIRE VI - PRIMA TV
+[  Info  ]       Replaces ----- start = 13/04/2018 21:10:00 stop = 13/04/2018 22:00:00 title = L' APPARENZA INGANNA - CHICAGO FIRE VI
 [  Debug ]    suspicious      title in index page  = THE 100 IV
 [  Debug ]       differs from title in showdetails = PESANTE GIACE LA COR.....
 [  Info  ]    epg correction : 
@@ -2171,7 +2199,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 13/04/2018 23:52:00 stop = 14/04/2018 00:42:00 title = CUCUY (EL) - GRIMM III
 [  Info  ]       Replaces ----- start = 13/04/2018 23:52:00 stop = 14/04/2018 00:42:00 title = CUCUY (EL) - GRIMM III
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 156/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Crime) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = FALCO II
@@ -2872,13 +2900,13 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 07/04/2018 21:39:00 stop = 07/04/2018 22:06:00 title = LA CADUTA DI BONNIE - MOM V
-[  Info  ]       Replaces ----- start = 07/04/2018 21:39:00 stop = 07/04/2018 22:06:00 title = LA CADUTA DI BONNIE - MOM V - PRIMA TV
+[  Info  ]       Replaces ----- start = 07/04/2018 21:39:00 stop = 07/04/2018 22:06:00 title = LA CADUTA DI BONNIE - MOM V
 [  Debug ]    suspicious      title in index page  = MOM V
 [  Debug ]       differs from title in showdetails = IL FRATELLO DI .....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 07/04/2018 22:06:00 stop = 07/04/2018 22:31:00 title = IL FRATELLO DI ADAM - MOM V
-[  Info  ]       Replaces ----- start = 07/04/2018 22:06:00 stop = 07/04/2018 22:31:00 title = IL FRATELLO DI ADAM - MOM V - PRIMA TV
+[  Info  ]       Replaces ----- start = 07/04/2018 22:06:00 stop = 07/04/2018 22:31:00 title = IL FRATELLO DI ADAM - MOM V
 [  Debug ]    suspicious      title in index page  = BIG BANG THEORY V
 [  Debug ]       differs from title in showdetails = L' IPOTESI DELLA RICOMPOSIZ.....
 [  Info  ]    epg correction : 
@@ -2902,13 +2930,13 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 08/04/2018 02:09:00 stop = 08/04/2018 02:30:00 title = LA CADUTA DI BONNIE - MOM V
-[  Info  ]       Replaces ----- start = 08/04/2018 02:09:00 stop = 08/04/2018 02:30:00 title = LA CADUTA DI BONNIE - MOM V - PRIMA TV
+[  Info  ]       Replaces ----- start = 08/04/2018 02:09:00 stop = 08/04/2018 02:30:00 title = LA CADUTA DI BONNIE - MOM V
 [  Debug ]    suspicious      title in index page  = MOM V
 [  Debug ]       differs from title in showdetails = IL FRATELLO DI .....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 08/04/2018 02:30:00 stop = 08/04/2018 02:51:00 title = IL FRATELLO DI ADAM - MOM V
-[  Info  ]       Replaces ----- start = 08/04/2018 02:30:00 stop = 08/04/2018 02:51:00 title = IL FRATELLO DI ADAM - MOM V - PRIMA TV
+[  Info  ]       Replaces ----- start = 08/04/2018 02:30:00 stop = 08/04/2018 02:51:00 title = IL FRATELLO DI ADAM - MOM V
 [  Debug ]    suspicious      title in index page  = ZANZIBAR
 [  Debug ]       differs from title in showdetails = PREMIO LETTERARIO .....
 [  Info  ]    epg correction : 
@@ -2992,13 +3020,13 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 08/04/2018 15:57:00 stop = 08/04/2018 16:22:00 title = LA CADUTA DI BONNIE - MOM V
-[  Info  ]       Replaces ----- start = 08/04/2018 15:57:00 stop = 08/04/2018 16:22:00 title = LA CADUTA DI BONNIE - MOM V - PRIMA TV
+[  Info  ]       Replaces ----- start = 08/04/2018 15:57:00 stop = 08/04/2018 16:22:00 title = LA CADUTA DI BONNIE - MOM V
 [  Debug ]    suspicious      title in index page  = MOM V
 [  Debug ]       differs from title in showdetails = IL FRATELLO DI .....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 08/04/2018 16:22:00 stop = 08/04/2018 16:47:00 title = IL FRATELLO DI ADAM - MOM V
-[  Info  ]       Replaces ----- start = 08/04/2018 16:22:00 stop = 08/04/2018 16:47:00 title = IL FRATELLO DI ADAM - MOM V - PRIMA TV
+[  Info  ]       Replaces ----- start = 08/04/2018 16:22:00 stop = 08/04/2018 16:47:00 title = IL FRATELLO DI ADAM - MOM V
 [  Debug ]    suspicious      title in index page  = CHUCK IV
 [  Debug ]       differs from title in showdetails = CHUCK VS. LA NUOVA.....
 [  Info  ]    epg correction : 
@@ -4052,7 +4080,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 13/04/2018 20:20:00 stop = 13/04/2018 20:47:00 title = EQUIVOCI - WILL & GRACE - IL RITORNO - PRIMA TV
-[  Info  ]       Replaces ----- start = 13/04/2018 20:20:00 stop = 13/04/2018 20:47:00 title = WILL & GRACE I (NEW), 15 - WILL & GRACE I (NEW) - PRIMA TV
+[  Info  ]       Replaces ----- start = 13/04/2018 20:20:00 stop = 13/04/2018 20:47:00 title = EQUIVOCI - WILL & GRACE - IL RITORNO - PRIMA TV
 [  Debug ]    suspicious      title in index page  = GREAT NEWS II
 [  Debug ]       differs from title in showdetails = LOTTA TRA FAN - GREAT N.....
 [  Info  ]    epg correction : 
@@ -4081,7 +4109,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 13/04/2018 22:32:00 stop = 13/04/2018 22:57:00 title = IL RIFLESSO DEL CONTO ALLA ROVESCIA - BIG BANG THEORY V
 [  Info  ]       Replaces ----- start = 13/04/2018 22:32:00 stop = 13/04/2018 22:57:00 title = IL RIFLESSO DEL CONTO ALLA ROVESCIA - BIG BANG THEORY V
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 158/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Stories) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = THE BOLD TYPE
@@ -4198,12 +4226,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 08/04/2018 07:43:00 stop = 08/04/2018 08:32:00 title = LA NAVETTA ESPRESSO PER IL NORD - SHAMELESS VIII
 [  Info  ]       Replaces ----- start = 08/04/2018 07:43:00 stop = 08/04/2018 08:32:00 title = LA NAVETTA ESPRESSO PER IL NORD - SHAMELESS VIII
-[  Debug ]    suspicious      title in index page  = SHAMELESS VIII
-[  Debug ]       differs from title in showdetails = I FUGGITIVI - SHAMELESS .....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/04/2018 08:32:00 stop = 08/04/2018 09:21:00 title = I FUGGITIVI - SHAMELESS VIII
-[  Info  ]       Replaces ----- start = 08/04/2018 08:32:00 stop = 08/04/2018 09:21:00 title = I FUGGITIVI - SHAMELESS VIII - PRIMA TV
 [  Debug ]    suspicious      title in index page  = THE BOLD TYPE
 [  Debug ]       differs from title in showdetails = PRIMA DI UN TEQUILA SUN.....
 [  Info  ]    epg correction : 
@@ -4216,12 +4238,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 08/04/2018 22:01:00 stop = 08/04/2018 22:51:00 title = LA NAVETTA ESPRESSO PER IL NORD - SHAMELESS VIII
 [  Info  ]       Replaces ----- start = 08/04/2018 22:01:00 stop = 08/04/2018 22:51:00 title = LA NAVETTA ESPRESSO PER IL NORD - SHAMELESS VIII
-[  Debug ]    suspicious      title in index page  = SHAMELESS VIII
-[  Debug ]       differs from title in showdetails = I FUGGITIVI - SHAMELESS .....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/04/2018 22:51:00 stop = 08/04/2018 23:40:00 title = I FUGGITIVI - SHAMELESS VIII
-[  Info  ]       Replaces ----- start = 08/04/2018 22:51:00 stop = 08/04/2018 23:40:00 title = I FUGGITIVI - SHAMELESS VIII - PRIMA TV
 [  Debug ]    suspicious      title in index page  = CHICAGO MED III
 [  Debug ]       differs from title in showdetails = FIDATI DEL TUO ISTINTO - .....
 [  Info  ]    epg correction : 
@@ -4420,12 +4436,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 11/04/2018 04:50:00 stop = 11/04/2018 05:30:00 title = CHAPTER SIX: FASTER, PUSSYCATS! KILL! KILL! - RIVERDALE I
 [  Info  ]       Replaces ----- start = 11/04/2018 04:50:00 stop = 11/04/2018 05:30:00 title = CHAPTER SIX: FASTER, PUSSYCATS! KILL! KILL! - RIVERDALE I
-[  Debug ]    suspicious      title in index page  = SHAMELESS VIII
-[  Debug ]       differs from title in showdetails = I FUGGITIVI - SHAMELESS .....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 11/04/2018 05:30:00 stop = 11/04/2018 06:16:00 title = I FUGGITIVI - SHAMELESS VIII
-[  Info  ]       Replaces ----- start = 11/04/2018 05:30:00 stop = 11/04/2018 06:16:00 title = I FUGGITIVI - SHAMELESS VIII - PRIMA TV
 [  Debug ]    suspicious      title in index page  = CLAWS I
 [  Debug ]       differs from title in showdetails = LA VALANGA - CLAW.....
 [  Info  ]    epg correction : 
@@ -4474,12 +4484,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 11/04/2018 20:19:00 stop = 11/04/2018 21:09:00 title = SHUTDOWN - MR. ROBOT III - PRIMA TV
 [  Info  ]       Replaces ----- start = 11/04/2018 20:19:00 stop = 11/04/2018 21:09:00 title = SHUTDOWN - MR. ROBOT III - PRIMA TV
-[  Debug ]    suspicious      title in index page  = SHAMELESS VIII
-[  Debug ]       differs from title in showdetails = I FUGGITIVI - SHAMELESS .....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 11/04/2018 21:09:00 stop = 11/04/2018 21:59:00 title = I FUGGITIVI - SHAMELESS VIII
-[  Info  ]       Replaces ----- start = 11/04/2018 21:09:00 stop = 11/04/2018 21:59:00 title = I FUGGITIVI - SHAMELESS VIII - PRIMA TV
 [  Debug ]    suspicious      title in index page  = HEARTBEAT
 [  Debug ]       differs from title in showdetails = QUESTIONI DI CUORE .....
 [  Info  ]    epg correction : 
@@ -4684,7 +4688,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 13/04/2018 23:45:00 stop = 14/04/2018 00:51:00 title = LA STAGIONE DEI TAPPETI - ROADIES
 [  Info  ]       Replaces ----- start = 13/04/2018 23:45:00 stop = 14/04/2018 00:51:00 title = LA STAGIONE DEI TAPPETI - ROADIES
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 159/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Sport superHD) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = EDICOLA PREMIUM
@@ -5223,7 +5227,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 13/04/2018 15:30:00 stop = 13/04/2018 16:00:00 title = VENERDI 13/4 - PREVIEW LIGUE 1 -'18
 [  Info  ]       Replaces ----- start = 13/04/2018 15:30:00 stop = 13/04/2018 16:00:00 title = VENERDI 13/4 - PREVIEW LIGUE 1 -'18
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.17 sec/update
 [  Debug ] 
 [  Info  ] ( 160/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Sport 2 HD) -- mode Incremental
 [  Info  ]    epg correction : 
@@ -5504,7 +5508,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 13/04/2018 23:30:00 stop = 14/04/2018 01:14:00 title = MILAN - NAPOLI - CAMPIONATO DI CALCIO SERIE A 2014/15 (MILAN)
 [  Info  ]       Replaces ----- start = 13/04/2018 23:30:00 stop = 14/04/2018 01:14:00 title = MILAN - NAPOLI - CAMPIONATO DI CALCIO SERIE A 2014/15 (MILAN)
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.17 sec/update
 [  Debug ] 
 [  Info  ] ( 161/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Calcio 1) -- mode Incremental
 [  Info  ]    epg correction : 
@@ -5787,10 +5791,10 @@
 [  Info  ]       Replaces ----- start = 13/04/2018 23:30:00 stop = 14/04/2018 01:14:00 title = MILAN - NAPOLI - CAMPIONATO DI CALCIO SERIE A 2014/15 (MILAN)
 [  Info  ] 0.13 sec/update
 [  Debug ] 
-[  Debug ] 35971 shows in 163 channels
-[  Debug ] 880 updated shows
-[  Debug ] 0 new shows added
+[  Debug ] 35980 shows in 163 channels
+[  Debug ] 889 updated shows
+[  Debug ] 6 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 07/04/2018 08:18:05 done in 13m 1s
+[        ] Job finished at 07/04/2018 10:17:30 done in 12m 27s
 [  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
