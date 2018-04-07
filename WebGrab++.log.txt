@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 07/04/2018 20:05:03
+[        ] Job started at 07/04/2018 22:05:03
 [  Debug ] 
 [  Debug ] Running  on: Unix 3.13.0.132
 [  Debug ] Environment: 4.0.30319.42000
@@ -29,7 +29,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+02:00	(DST in effect)
 [  Debug ] 	next DST dates  :	28/10/2018 03:00 (local)
 [  Debug ] 	                :	31/03/2019 02:00 (local)
-[  Debug ] 	local time now  :	07/04/2018 20:05:03
+[  Debug ] 	local time now  :	07/04/2018 22:05:03
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -232,10 +232,10 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   9/163 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La1 HD) -- mode Incremental
-[  Info  ] 0.03 sec/update
+[  Info  ] 0.07 sec/update
 [  Debug ] 
 [  Info  ] (  10/163 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La2 HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.07 sec/update
 [  Debug ] 
 [  Info  ] (  11/163 ) STASERAINTV.COM -- chan. (xmltv_id=La 5) -- mode Incremental
 [  Info  ] 
@@ -434,10 +434,10 @@
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] (  64/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport F1 HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.19 sec/update
 [  Debug ] 
 [  Info  ] (  65/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport F1 SuperHD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.19 sec/update
 [  Debug ] 
 [  Info  ] (  66/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky MotoGP HD) -- mode Incremental
 [  Info  ] 
@@ -467,7 +467,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  75/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport 2 HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.19 sec/update
 [  Debug ] 
 [  Info  ] (  76/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport 3 HD) -- mode Incremental
 [  Info  ] 
@@ -479,10 +479,10 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  79/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Sports HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.18 sec/update
 [  Debug ] 
 [  Info  ] (  80/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Sports SuperHD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.19 sec/update
 [  Debug ] 
 [  Info  ] (  81/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Supercalcio HD) -- mode Incremental
 [  Info  ] 
@@ -648,6 +648,8 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 130/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cartonito) -- mode Incremental
+[Warning ] error downloading page: Error getting response stream (ReadDone2): ReceiveFailure
+[Warning ] pausing 1 of 4 times for 5 seconds before re-try.
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 131/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Baby TV) -- mode Incremental
@@ -708,7 +710,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 12/04/2018 23:26:00 stop = 12/04/2018 23:46:00 title = VIOLA, FRANCA -  - PRIMA TV
 [  Info  ]       Replaces ----- start = 12/04/2018 23:26:00 stop = 12/04/2018 23:46:00 title = VIOLA, FRANCA -  - PRIMA TV
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 145/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema +24) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = I GRANDI INCONTRI - RUBINI E SCAMARCIO
@@ -729,9 +731,15 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 13/04/2018 23:26:00 stop = 13/04/2018 23:46:00 title = VIOLA, FRANCA -  - PRIMA TV
 [  Info  ]       Replaces ----- start = 13/04/2018 23:26:00 stop = 13/04/2018 23:46:00 title = VIOLA, FRANCA -  - PRIMA TV
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.13 sec/update
 [  Debug ] 
 [  Info  ] ( 146/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema 2) -- mode Incremental
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
+[Warning ] error downloading page: The request timed out (10sec)
+[Warning ] Retry 2 of 4 times
+[Warning ] error downloading page: The request timed out (15sec)
+[Warning ] Retry 3 of 4 times
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 147/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema 2 +24) -- mode Incremental
@@ -767,7 +775,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 13/04/2018 05:30:00 stop = 13/04/2018 05:37:00 title = CARNERA - FULL EMOTION
 [  Info  ]       Replaces ----- start = 13/04/2018 05:30:00 stop = 13/04/2018 05:37:00 title = CARNERA - FULL EMOTION
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 150/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Comedy) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = COMEDY EXTRA
@@ -776,7 +784,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 08/04/2018 06:01:00 stop = 08/04/2018 06:21:00 title = SPECIALE COMICITA' ROMANA - COMEDY EXTRA
 [  Info  ]       Replaces ----- start = 08/04/2018 06:01:00 stop = 08/04/2018 06:21:00 title = SPECIALE COMICITA' ROMANA - COMEDY EXTRA
-[  Info  ] 0.17 sec/update
+[  Info  ] 0.13 sec/update
 [  Debug ] 
 [  Info  ] ( 151/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Investigation Discovery) -- mode Incremental
 [  Info  ] 
@@ -941,7 +949,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 12/04/2018 06:40:00 stop = 12/04/2018 07:00:00 title = KEVIN COSTNER - CINECHAT - (KS-KR)
 [  Info  ]       Replaces ----- start = 12/04/2018 06:40:00 stop = 12/04/2018 07:00:00 title = KEVIN COSTNER - CINECHAT - (KS-KR)
-[  Info  ] 0.20 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 154/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action HD) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = SUPERNATURAL XI
@@ -1554,7 +1562,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 13/04/2018 23:44:00 stop = 14/04/2018 00:33:00 title = STORIE CHE RACCONTIAMO AI NOSTRI RAGAZZI - GRIMM III
 [  Info  ]       Replaces ----- start = 13/04/2018 23:44:00 stop = 14/04/2018 00:33:00 title = STORIE CHE RACCONTIAMO AI NOSTRI RAGAZZI - GRIMM III
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 155/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action +24) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = AGENT X
@@ -2167,7 +2175,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 13/04/2018 23:52:00 stop = 14/04/2018 00:42:00 title = CUCUY (EL) - GRIMM III
 [  Info  ]       Replaces ----- start = 13/04/2018 23:52:00 stop = 14/04/2018 00:42:00 title = CUCUY (EL) - GRIMM III
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.13 sec/update
 [  Debug ] 
 [  Info  ] ( 156/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Crime) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = FALCO II
@@ -2752,7 +2760,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 13/04/2018 23:39:00 stop = 14/04/2018 00:28:00 title = PADRE SANDUNGUERO - LAW & ORDER: UNITA' SPECIALE XVI
 [  Info  ]       Replaces ----- start = 13/04/2018 23:39:00 stop = 14/04/2018 00:28:00 title = PADRE SANDUNGUERO - LAW & ORDER: UNITA' SPECIALE XVI
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 157/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Joy) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = VIA ZANARDI, 33
@@ -5759,10 +5767,10 @@
 [  Info  ]       Replaces ----- start = 13/04/2018 23:30:00 stop = 14/04/2018 01:14:00 title = MILAN - NAPOLI - CAMPIONATO DI CALCIO SERIE A 2014/15 (MILAN)
 [  Info  ] 0.15 sec/update
 [  Debug ] 
-[  Debug ] 36021 shows in 163 channels
-[  Debug ] 863 updated shows
-[  Debug ] 3 new shows added
+[  Debug ] 36038 shows in 163 channels
+[  Debug ] 1042 updated shows
+[  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 07/04/2018 20:17:50 done in 12m 46s
+[        ] Job finished at 07/04/2018 22:18:48 done in 13m 45s
 [  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
