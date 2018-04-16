@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 16/04/2018 10:05:04
+[        ] Job started at 16/04/2018 12:05:04
 [  Debug ] 
 [  Debug ] Running  on: Unix 3.13.0.132
 [  Debug ] Environment: 4.0.30319.42000
@@ -29,7 +29,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+02:00	(DST in effect)
 [  Debug ] 	next DST dates  :	28/10/2018 03:00 (local)
 [  Debug ] 	                :	31/03/2019 02:00 (local)
-[  Debug ] 	local time now  :	16/04/2018 10:05:05
+[  Debug ] 	local time now  :	16/04/2018 12:05:04
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -253,13 +253,13 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   7/163 ) MEDIASET.IT -- chan. (xmltv_id=Italia 1 HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.12 sec/update
 [  Debug ] 
 [  Info  ] (   8/163 ) MEDIASET.IT -- chan. (xmltv_id=Italia 2) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   9/163 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La1 HD) -- mode Incremental
-[  Info  ] 0.04 sec/update
+[  Info  ] 0.03 sec/update
 [  Debug ] 
 [  Info  ] (  10/163 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La2 HD) -- mode Incremental
 [  Info  ] 0.03 sec/update
@@ -283,7 +283,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  17/163 ) MEDIASET.IT -- chan. (xmltv_id=Mediaset Extra) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.12 sec/update
 [  Debug ] 
 [  Info  ] (  18/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Storia) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
@@ -507,10 +507,10 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  79/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Sports HD) -- mode Incremental
-[  Info  ] 0.45 sec/update
+[  Info  ] 0.76 sec/update
 [  Debug ] 
 [  Info  ] (  80/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Sports SuperHD) -- mode Incremental
-[  Info  ] 0.38 sec/update
+[  Info  ] 0.47 sec/update
 [  Debug ] 
 [  Info  ] (  81/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Supercalcio HD) -- mode Incremental
 [  Info  ] 
@@ -663,103 +663,58 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 125/163 ) RAI.IT -- chan. (xmltv_id=Rai YoYo HD) -- mode Incremental
+[  Debug ] multiple entry of a show at 20180421020500 +0200
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/04/2018 02:05:00 stop = 21/04/2018 02:15:00 title = Teletubbies 3
+[  Info  ]       Replaces ----- start = 21/04/2018 02:05:00 stop = 21/04/2018 02:15:00 title = Calimero
+[  Debug ] multiple entry of a show at 20180421023000 +0200
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/04/2018 02:30:00 stop = 21/04/2018 02:40:00 title = Teletubbies 4
+[  Info  ]       Replaces ----- start = 21/04/2018 02:30:00 stop = 21/04/2018 02:40:00 title = Toby's Travelling Circus
+[  Debug ] multiple entry of a show at 20180421025500 +0200
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/04/2018 02:55:00 stop = 21/04/2018 03:00:00 title = La Pimpa 3
+[  Info  ]       Replaces ----- start = 21/04/2018 02:55:00 stop = 21/04/2018 03:00:00 title = Gatto Miro'
 [  Info  ]    epg correction : 
 [  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 21/04/2018 02:05:00 stop = 21/04/2018 02:05:00 title = Teletubbies 3
-[  Info  ]       Added before - start = 21/04/2018 02:05:00 stop = 21/04/2018 02:05:00 title = Calimero
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 21/04/2018 02:30:00 stop = 21/04/2018 02:30:00 title = Teletubbies 4
-[  Info  ]       Added before - start = 21/04/2018 02:30:00 stop = 21/04/2018 02:30:00 title = Toby's Travelling Circus
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 21/04/2018 02:55:00 stop = 21/04/2018 02:55:00 title = La Pimpa 3
-[  Info  ]       Added before - start = 21/04/2018 02:55:00 stop = 21/04/2018 02:55:00 title = Gatto Miro'
+[  Info  ]       show with ---- start = 21/04/2018 03:00:00 stop = 21/04/2018 03:00:00 title = Le Nuove Avventure Della Pimpa
+[  Info  ]       Added before - start = 21/04/2018 03:00:00 stop = 21/04/2018 03:00:00 title = La Pimpa 3
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21/04/2018 03:00:00 stop = 21/04/2018 03:05:00 title = Le Nuove Avventure Della Pimpa
-[  Info  ]       Replaces ----- start = 21/04/2018 03:00:00 stop = 21/04/2018 03:05:00 title = La Pimpa 3
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 21/04/2018 03:05:00 stop = 21/04/2018 03:05:00 title = La Pimpa 3
-[  Info  ]       Added before - start = 21/04/2018 03:05:00 stop = 21/04/2018 03:05:00 title = Le Nuove Avventure Della Pimpa
+[  Info  ]       show with ---- start = 21/04/2018 03:00:00 stop = 21/04/2018 03:05:00 title = La Pimpa 3
+[  Info  ]       Replaces ----- start = 21/04/2018 03:00:00 stop = 21/04/2018 03:05:00 title = Le Nuove Avventure Della Pimpa
+[  Debug ] multiple entry of a show at 20180421030500 +0200
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21/04/2018 03:05:00 stop = 21/04/2018 03:10:00 title = Le Nuove Avventure Della Pimpa
-[  Info  ]       Replaces ----- start = 21/04/2018 03:05:00 stop = 21/04/2018 03:10:00 title = La Pimpa 3
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 21/04/2018 03:10:00 stop = 21/04/2018 03:10:00 title = Milo
-[  Info  ]       Added before - start = 21/04/2018 03:10:00 stop = 21/04/2018 03:10:00 title = Sigla Buonanotte
+[  Info  ]       show with ---- start = 21/04/2018 03:05:00 stop = 21/04/2018 03:10:00 title = La Pimpa 3
+[  Info  ]       Replaces ----- start = 21/04/2018 03:05:00 stop = 21/04/2018 03:10:00 title = Le Nuove Avventure Della Pimpa
+[  Debug ] multiple entry of a show at 20180421031000 +0200
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21/04/2018 03:10:00 stop = 21/04/2018 03:15:00 title = Sigla Buonanotte
-[  Info  ]       Replaces ----- start = 21/04/2018 03:10:00 stop = 21/04/2018 03:15:00 title = Milo
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 21/04/2018 03:15:00 stop = 21/04/2018 03:15:00 title = Milo
-[  Info  ]       Added before - start = 21/04/2018 03:15:00 stop = 21/04/2018 03:15:00 title = Teletubbies 3
+[  Info  ]       show with ---- start = 21/04/2018 03:10:00 stop = 21/04/2018 03:15:00 title = Milo
+[  Info  ]       Replaces ----- start = 21/04/2018 03:10:00 stop = 21/04/2018 03:15:00 title = Sigla Buonanotte
+[  Debug ] multiple entry of a show at 20180421031500 +0200
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21/04/2018 03:15:00 stop = 21/04/2018 03:20:00 title = Teletubbies 3
-[  Info  ]       Replaces ----- start = 21/04/2018 03:15:00 stop = 21/04/2018 03:20:00 title = Milo
+[  Info  ]       show with ---- start = 21/04/2018 03:15:00 stop = 21/04/2018 03:20:00 title = Milo
+[  Info  ]       Replaces ----- start = 21/04/2018 03:15:00 stop = 21/04/2018 03:20:00 title = Teletubbies 3
+[  Debug ] multiple entry of a show at 20180421040500 +0200
+[  Debug ] multiple entry of a show at 20180421043000 +0200
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21/04/2018 03:40:00 stop = 21/04/2018 03:45:00 title = Teletubbies 4
-[  Info  ]       Replaces ----- start = 21/04/2018 03:35:00 stop = 21/04/2018 03:45:00 title = Ape Maia 3d
+[  Info  ]       show with ---- start = 21/04/2018 04:30:00 stop = 21/04/2018 04:35:00 title = Dixiland
+[  Info  ]       Replaces ----- start = 21/04/2018 04:30:00 stop = 21/04/2018 04:35:00 title = Teletubbies 4
+[  Debug ] multiple entry of a show at 20180421050500 +0200
+[  Debug ] multiple entry of a show at 20180421051500 +0200
+[  Debug ] multiple entry of a show at 20180421055000 +0200
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21/04/2018 04:05:00 stop = 21/04/2018 04:10:00 title = Teletubbies 3
-[  Info  ]       Replaces ----- start = 21/04/2018 04:05:00 stop = 21/04/2018 04:10:00 title = Classic Tales 2
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 21/04/2018 04:30:00 stop = 21/04/2018 04:30:00 title = Dixiland
-[  Info  ]       Added before - start = 21/04/2018 04:30:00 stop = 21/04/2018 04:30:00 title = Teletubbies 4
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21/04/2018 04:30:00 stop = 21/04/2018 04:35:00 title = Teletubbies 4
-[  Info  ]       Replaces ----- start = 21/04/2018 04:30:00 stop = 21/04/2018 04:35:00 title = Dixiland
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21/04/2018 04:50:00 stop = 21/04/2018 04:55:00 title = Evviva Sandrino 2
-[  Info  ]       Replaces ----- start = 21/04/2018 04:50:00 stop = 21/04/2018 05:05:00 title = Evviva Sandrino 2
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21/04/2018 04:55:00 stop = 21/04/2018 05:00:00 title = La Pimpa 3
-[  Info  ]       Replaces ----- start = 21/04/2018 04:50:00 stop = 21/04/2018 05:05:00 title = Evviva Sandrino 2
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21/04/2018 05:00:00 stop = 21/04/2018 05:05:00 title = La Pimpa 3
-[  Info  ]       Replaces ----- start = 21/04/2018 04:50:00 stop = 21/04/2018 05:05:00 title = Evviva Sandrino 2
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21/04/2018 05:05:00 stop = 21/04/2018 05:10:00 title = La Pimpa 3
-[  Info  ]       Replaces ----- start = 21/04/2018 05:05:00 stop = 21/04/2018 05:15:00 title = Calimero
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21/04/2018 05:10:00 stop = 21/04/2018 05:15:00 title = Milo
-[  Info  ]       Replaces ----- start = 21/04/2018 05:05:00 stop = 21/04/2018 05:15:00 title = Calimero
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21/04/2018 05:15:00 stop = 21/04/2018 05:20:00 title = Milo
-[  Info  ]       Replaces ----- start = 21/04/2018 05:15:00 stop = 21/04/2018 05:25:00 title = Calimero
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21/04/2018 05:25:00 stop = 21/04/2018 05:35:00 title = Il Meraviglioso Mondo Di Richard Scarry
-[  Info  ]       Replaces ----- start = 21/04/2018 05:25:00 stop = 21/04/2018 05:50:00 title = Il Meraviglioso Mondo Di Richard Scarry
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21/04/2018 05:45:00 stop = 21/04/2018 05:50:00 title = Sam Sam
-[  Info  ]       Replaces ----- start = 21/04/2018 05:25:00 stop = 21/04/2018 05:50:00 title = Il Meraviglioso Mondo Di Richard Scarry
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 21/04/2018 05:50:00 stop = 21/04/2018 05:50:00 title = Insieme A Rosie 4
-[  Info  ]       Added before - start = 21/04/2018 05:50:00 stop = 21/04/2018 05:50:00 title = Sam Sam
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21/04/2018 05:50:00 stop = 21/04/2018 06:00:00 title = Sam Sam
-[  Info  ]       Replaces ----- start = 21/04/2018 05:50:00 stop = 21/04/2018 06:00:00 title = Insieme A Rosie 4
-[  Info  ] 0.13 sec/update
+[  Info  ]       show with ---- start = 21/04/2018 05:50:00 stop = 21/04/2018 06:00:00 title = Insieme A Rosie 4
+[  Info  ]       Replaces ----- start = 21/04/2018 05:50:00 stop = 21/04/2018 06:00:00 title = Sam Sam
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 126/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cartoon Network) -- mode Incremental
 [  Info  ] 
@@ -822,7 +777,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 19/04/2018 23:48:00 stop = 20/04/2018 00:09:00 title = DEKALB ELEMENTARY -  - PRIMA TV
 [  Info  ]       Replaces ----- start = 19/04/2018 23:48:00 stop = 20/04/2018 00:09:00 title = DEKALB ELEMENTARY -  - PRIMA TV
-[  Info  ] 0.16 sec/update
+[  Info  ] 0.18 sec/update
 [  Debug ] 
 [  Info  ] ( 145/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema +24) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = 1 TV - DEKALB ELEMENTARY
@@ -831,7 +786,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 20/04/2018 23:48:00 stop = 21/04/2018 00:09:00 title = DEKALB ELEMENTARY -  - PRIMA TV
 [  Info  ]       Replaces ----- start = 20/04/2018 23:48:00 stop = 21/04/2018 00:09:00 title = DEKALB ELEMENTARY -  - PRIMA TV
-[  Info  ] 0.16 sec/update
+[  Info  ] 0.11 sec/update
 [  Debug ] 
 [  Info  ] ( 146/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema 2) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = IL PADRINO -PARTE III (DI F. F. COPPOLA)
@@ -846,7 +801,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 22/04/2018 07:30:00 stop = 22/04/2018 10:16:00 title = IL PADRINO - PARTE III
 [  Info  ]       Replaces ----- start = 22/04/2018 07:30:00 stop = 22/04/2018 10:16:00 title = IL PADRINO - PARTE III
-[  Info  ] 0.16 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 147/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema 2 +24) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = IL PADRINO -PARTE III (DI F. F. COPPOLA)
@@ -855,7 +810,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 16/04/2018 09:20:00 stop = 16/04/2018 12:09:00 title = IL PADRINO - PARTE III
 [  Info  ]       Replaces ----- start = 16/04/2018 09:20:00 stop = 16/04/2018 12:09:00 title = IL PADRINO - PARTE III
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.11 sec/update
 [  Debug ] 
 [  Info  ] ( 148/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Energy) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = BUIO
@@ -864,7 +819,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 18/04/2018 02:20:00 stop = 18/04/2018 02:46:00 title = L' INTRUSO - BUIO
 [  Info  ]       Replaces ----- start = 18/04/2018 02:20:00 stop = 18/04/2018 02:46:00 title = L' INTRUSO - BUIO
-[  Info  ] 0.22 sec/update
+[  Info  ] 0.12 sec/update
 [  Debug ] 
 [  Info  ] ( 149/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Emotion) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = FULL EMOTION
@@ -873,7 +828,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 21/04/2018 05:30:00 stop = 21/04/2018 05:38:00 title = EM-170 IL CURIOSO CASO DI BENJAMIN BUTTON - FULL EMOTION
 [  Info  ]       Replaces ----- start = 21/04/2018 05:30:00 stop = 21/04/2018 05:38:00 title = EM-170 IL CURIOSO CASO DI BENJAMIN BUTTON - FULL EMOTION
-[  Info  ] 0.21 sec/update
+[  Info  ] 0.18 sec/update
 [  Debug ] 
 [  Info  ] ( 150/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Comedy) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = A CENA CON...
@@ -882,7 +837,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 19/04/2018 05:30:00 stop = 19/04/2018 06:04:00 title = PIERLUIGI FAVINO - INVITO A CENA CON...
 [  Info  ]       Replaces ----- start = 19/04/2018 05:30:00 stop = 19/04/2018 06:04:00 title = PIERLUIGI FAVINO - INVITO A CENA CON...
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.20 sec/update
 [  Debug ] 
 [  Info  ] ( 151/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Investigation Discovery) -- mode Incremental
 [  Info  ] 
@@ -1059,7 +1014,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 22/04/2018 11:10:00 stop = 22/04/2018 12:50:00 title = Becoming Bond
 [  Info  ]       Replaces ----- start = 22/04/2018 11:10:00 stop = 22/04/2018 12:50:00 title = Becoming Bond
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 154/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action HD) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = FLASH IV
@@ -1614,7 +1569,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 22/04/2018 22:47:00 stop = 22/04/2018 23:35:00 title = NON POTREI MAI AMARE IN QUEL MODO - THE VAMPIRE DIARIES VI
 [  Info  ]       Replaces ----- start = 22/04/2018 22:47:00 stop = 22/04/2018 23:35:00 title = NON POTREI MAI AMARE IN QUEL MODO - THE VAMPIRE DIARIES VI
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 155/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action +24) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = ARROW VI
@@ -2125,7 +2080,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 22/04/2018 21:08:00 stop = 22/04/2018 21:58:00 title = FORT ROZZ - SUPERGIRL III - PRIMA TV
 [  Info  ]       Replaces ----- start = 22/04/2018 21:08:00 stop = 22/04/2018 21:58:00 title = FORT ROZZ - SUPERGIRL III - PRIMA TV
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.17 sec/update
 [  Debug ] 
 [  Info  ] ( 156/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Crime) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = LAW & ORDER: UNITA' SPECIALE XVI
@@ -2712,7 +2667,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 22/04/2018 21:08:00 stop = 22/04/2018 21:57:00 title = HOT BURNING FLAMES - BLINDSPOT III - PRIMA TV
 [  Info  ]       Replaces ----- start = 22/04/2018 21:08:00 stop = 22/04/2018 21:57:00 title = HOT BURNING FLAMES - BLINDSPOT III - PRIMA TV
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 157/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Joy) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = FINALMENTE SOLI
@@ -3993,7 +3948,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 22/04/2018 23:39:00 stop = 23/04/2018 00:05:00 title = CACCIA AL BIGLIETTO - ODD MOM OUT II
 [  Info  ]       Replaces ----- start = 22/04/2018 23:39:00 stop = 23/04/2018 00:05:00 title = CACCIA AL BIGLIETTO - ODD MOM OUT II
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 158/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Stories) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = GOSSIP GIRL VI
@@ -4658,7 +4613,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 22/04/2018 23:50:00 stop = 23/04/2018 00:41:00 title = REGOLA #776: IL GATTO STA SEMPRE SUL TETTO - GIRLFRIENDS' GUIDE TO DIVORCE  IV
 [  Info  ]       Replaces ----- start = 22/04/2018 23:50:00 stop = 23/04/2018 00:41:00 title = REGOLA #776: IL GATTO STA SEMPRE SUL TETTO - GIRLFRIENDS' GUIDE TO DIVORCE  IV
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 159/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Sport superHD) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = EDICOLA PREMIUM
@@ -5189,7 +5144,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 22/04/2018 23:21:00 stop = 22/04/2018 23:30:00 title = DOMENICA 22/4 - HIGHLIGHTS CAMPIONATI ESTERI - 18
 [  Info  ]       Replaces ----- start = 22/04/2018 23:21:00 stop = 22/04/2018 23:30:00 title = DOMENICA 22/4 - HIGHLIGHTS CAMPIONATI ESTERI - 18
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.18 sec/update
 [  Debug ] 
 [  Info  ] ( 160/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Sport 2 HD) -- mode Incremental
 [  Info  ]    epg correction : 
@@ -5566,7 +5521,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 22/04/2018 23:45:00 stop = 23/04/2018 00:36:00 title = BORDEAUX - PARIS SG 22/4 - LIGUE 1-'18
 [  Info  ]       Replaces ----- start = 22/04/2018 23:45:00 stop = 23/04/2018 00:36:00 title = BORDEAUX - PARIS SG 22/4 - LIGUE 1-'18
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 161/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Calcio 1) -- mode Incremental
 [  Info  ]    epg correction : 
@@ -5943,12 +5898,12 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 22/04/2018 23:45:00 stop = 23/04/2018 00:36:00 title = BORDEAUX - PARIS SG 22/4 - LIGUE 1-'18
 [  Info  ]       Replaces ----- start = 22/04/2018 23:45:00 stop = 23/04/2018 00:36:00 title = BORDEAUX - PARIS SG 22/4 - LIGUE 1-'18
-[  Info  ] 0.16 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
-[  Debug ] 35847 shows in 163 channels
-[  Debug ] 987 updated shows
-[  Debug ] 7 new shows added
+[  Debug ] 35840 shows in 163 channels
+[  Debug ] 990 updated shows
+[  Debug ] 6 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 16/04/2018 10:17:51 done in 12m 46s
+[        ] Job finished at 16/04/2018 12:17:48 done in 12m 43s
 [  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
