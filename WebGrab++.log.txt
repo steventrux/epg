@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 22/04/2018 10:05:03
+[        ] Job started at 22/04/2018 12:05:03
 [  Debug ] 
 [  Debug ] Running  on: Unix 3.13.0.132
 [  Debug ] Environment: 4.0.30319.42000
@@ -29,7 +29,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+02:00	(DST in effect)
 [  Debug ] 	next DST dates  :	28/10/2018 03:00 (local)
 [  Debug ] 	                :	31/03/2019 02:00 (local)
-[  Debug ] 	local time now  :	22/04/2018 10:05:04
+[  Debug ] 	local time now  :	22/04/2018 12:05:03
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -232,10 +232,10 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   9/163 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La1 HD) -- mode Incremental
-[  Info  ] 0.04 sec/update
+[  Info  ] 0.03 sec/update
 [  Debug ] 
 [  Info  ] (  10/163 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La2 HD) -- mode Incremental
-[  Info  ] 0.02 sec/update
+[  Info  ] 0.03 sec/update
 [  Debug ] 
 [  Info  ] (  11/163 ) STASERAINTV.COM -- chan. (xmltv_id=La 5) -- mode Incremental
 [  Info  ] 
@@ -669,6 +669,8 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 136/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Disney Junior) -- mode Incremental
+[Warning ] error downloading page: Error getting response stream (ReadDone2): ReceiveFailure
+[Warning ] pausing 1 of 4 times for 5 seconds before re-try.
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 137/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Super !) -- mode Incremental
@@ -705,7 +707,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 22/04/2018 07:30:00 stop = 22/04/2018 10:16:00 title = IL PADRINO - PARTE III
 [  Info  ]       Replaces ----- start = 22/04/2018 07:30:00 stop = 22/04/2018 10:16:00 title = IL PADRINO - PARTE III
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.22 sec/update
 [  Debug ] 
 [  Info  ] ( 147/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema 2 +24) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = IL PADRINO -PARTE III (DI F. F. COPPOLA)
@@ -714,7 +716,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 23/04/2018 07:30:00 stop = 23/04/2018 10:16:00 title = IL PADRINO - PARTE III
 [  Info  ]       Replaces ----- start = 23/04/2018 07:30:00 stop = 23/04/2018 10:16:00 title = IL PADRINO - PARTE III
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.11 sec/update
 [  Debug ] 
 [  Info  ] ( 148/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Energy) -- mode Incremental
 [  Info  ]    epg correction : 
@@ -729,7 +731,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/04/2018 05:30:00 stop = 26/04/2018 07:56:00 title = Wolfhound - Un Eroe In Lotta Per La Libertà
 [  Info  ]       Replaces ----- start = 26/04/2018 05:30:00 stop = 26/04/2018 07:56:00 title = Wolfhound - Un Eroe In Lotta Per La Libertà
-[  Info  ] 0.12 sec/update
+[  Info  ] 0.13 sec/update
 [  Debug ] 
 [  Info  ] ( 149/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Emotion) -- mode Incremental
 [  Info  ]    forced update : 
@@ -760,47 +762,20 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 28/04/2018 18:15:00 stop = 28/04/2018 20:15:00 title = Youth - La Giovinezza
 [  Info  ]       Replaces ----- start = 28/04/2018 18:15:00 stop = 28/04/2018 20:15:00 title = Youth - La Giovinezza
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 150/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Comedy) -- mode Incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 23/04/2018 20:15:00 stop = 23/04/2018 22:03:00 title = Tower Heist - Colpo Ad Alto Livello
-[  Info  ]       Replaces ----- start = 23/04/2018 20:15:00 stop = 23/04/2018 22:03:00 title = Tower Heist - Colpo Ad Alto Livello
-[  Debug ]    suspicious      title in index page  = COLPO GROSSO AL DRAGO ROSSO - RUSH HOUR 2
-[  Debug ]       differs from title in showdetails = Rush Hour 2 - Colpo Grosso Al Drago Rosso
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 23/04/2018 22:03:00 stop = 23/04/2018 23:39:00 title = Rush Hour 2 - Colpo Grosso Al Drago Rosso
-[  Info  ]       Replaces ----- start = 23/04/2018 22:03:00 stop = 23/04/2018 23:39:00 title = Rush Hour 2 - Colpo Grosso Al Drago Rosso
-[  Debug ]    suspicious      title in index page  = A CENA CON...
-[  Debug ]       differs from title in showdetails = PIERLUIGI FAVINO - INVI.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/04/2018 03:29:00 stop = 24/04/2018 03:56:00 title = PIERLUIGI FAVINO - INVITO A CENA CON...
-[  Info  ]       Replaces ----- start = 24/04/2018 03:29:00 stop = 24/04/2018 03:56:00 title = PIERLUIGI FAVINO - INVITO A CENA CON...
-[  Debug ]    suspicious      title in index page  = COLPO GROSSO AL DRAGO ROSSO - RUSH HOUR 2
-[  Debug ]       differs from title in showdetails = Rush Hour 2 - Colpo Grosso Al Drago Rosso
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/04/2018 13:21:00 stop = 24/04/2018 14:54:00 title = Rush Hour 2 - Colpo Grosso Al Drago Rosso
-[  Info  ]       Replaces ----- start = 24/04/2018 13:21:00 stop = 24/04/2018 14:54:00 title = Rush Hour 2 - Colpo Grosso Al Drago Rosso
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/04/2018 14:54:00 stop = 24/04/2018 16:37:00 title = Tower Heist - Colpo Ad Alto Livello
-[  Info  ]       Replaces ----- start = 24/04/2018 14:54:00 stop = 24/04/2018 16:37:00 title = Tower Heist - Colpo Ad Alto Livello
-[  Debug ]    suspicious      title in index page  = A CENA CON...
-[  Debug ]       differs from title in showdetails = PIERLUIGI FAVINO - INVI.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 26/04/2018 03:22:00 stop = 26/04/2018 03:48:00 title = PIERLUIGI FAVINO - INVITO A CENA CON...
-[  Info  ]       Replaces ----- start = 26/04/2018 03:22:00 stop = 26/04/2018 03:48:00 title = PIERLUIGI FAVINO - INVITO A CENA CON...
-[  Info  ] 0.19 sec/update
+[Error   ] Unable to update channel Premium Cinema Comedy
+[Critical] Generic syntax exception:
+[Critical]    message: 
+[Error   ] no index page data received from Premium Cinema Comedy
+[Error   ] unable to update channel, try again later
+[  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] ( 151/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Investigation Discovery) -- mode Incremental
+[  Info  ] ( 150/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Investigation Discovery) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
-[  Info  ] ( 152/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Studio Universal) -- mode Incremental
+[  Info  ] ( 151/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Studio Universal) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = ESSERE JAMES BOND
 [  Debug ]       differs from title in showdetails = Becoming Bond
 [  Info  ]    epg correction : 
@@ -857,7 +832,7 @@
 [  Info  ]       Replaces ----- start = 28/04/2018 15:24:00 stop = 28/04/2018 15:55:00 title = ACCIDENT WAITING TO HAPPEN - PROJECT GREENLIGHT 4
 [  Info  ] 0.17 sec/update
 [  Debug ] 
-[  Info  ] ( 153/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Paramount Channel) -- mode Incremental
+[  Info  ] ( 152/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Paramount Channel) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = ESSERE JAMES BOND
 [  Debug ]       differs from title in showdetails = Becoming Bond
 [  Info  ]    epg correction : 
@@ -912,9 +887,9 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 28/04/2018 15:24:00 stop = 28/04/2018 15:55:00 title = ACCIDENT WAITING TO HAPPEN - PROJECT GREENLIGHT 4
 [  Info  ]       Replaces ----- start = 28/04/2018 15:24:00 stop = 28/04/2018 15:55:00 title = ACCIDENT WAITING TO HAPPEN - PROJECT GREENLIGHT 4
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
-[  Info  ] ( 154/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action HD) -- mode Incremental
+[  Info  ] ( 153/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action HD) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = ARROW VI
 [  Debug ]       differs from title in showdetails = ATTACCO A STAR CIT.....
 [  Info  ]    epg correction : 
@@ -1497,9 +1472,9 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 28/04/2018 23:36:00 stop = 29/04/2018 00:25:00 title = UNA PERSONA CHE UN TEMPO CONOSCEVO - THE VAMPIRE DIARIES VII
 [  Info  ]       Replaces ----- start = 28/04/2018 23:36:00 stop = 29/04/2018 00:25:00 title = UNA PERSONA CHE UN TEMPO CONOSCEVO - THE VAMPIRE DIARIES VII
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.17 sec/update
 [  Debug ] 
-[  Info  ] ( 155/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action +24) -- mode Incremental
+[  Info  ] ( 154/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action +24) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = SUPERGIRL III
 [  Debug ]       differs from title in showdetails = LEGIONE DEI SUPER-EROI .....
 [  Info  ]    epg correction : 
@@ -2046,9 +2021,9 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 28/04/2018 23:35:00 stop = 29/04/2018 00:24:00 title = GRIMM III, 16 - GRIMM III
 [  Info  ]       Replaces ----- start = 28/04/2018 23:35:00 stop = 29/04/2018 00:24:00 title = GRIMM III, 16 - GRIMM III
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
-[  Info  ] ( 156/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Crime) -- mode Incremental
+[  Info  ] ( 155/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Crime) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = SISKA VI
 [  Debug ]       differs from title in showdetails = UNA SCOPERTA DI TR.....
 [  Info  ]    epg correction : 
@@ -2679,9 +2654,9 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 28/04/2018 23:39:00 stop = 29/04/2018 00:27:00 title = IL RIFUGIO DEI REIETTI - LAW & ORDER: UNITA' SPECIALE XVII
 [  Info  ]       Replaces ----- start = 28/04/2018 23:39:00 stop = 29/04/2018 00:27:00 title = IL RIFUGIO DEI REIETTI - LAW & ORDER: UNITA' SPECIALE XVII
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
-[  Info  ] ( 157/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Joy) -- mode Incremental
+[  Info  ] ( 156/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Joy) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = FINALMENTE SOLI II
 [  Debug ]       differs from title in showdetails = FINALMENTE SOLI II - IL PROF.....
 [  Info  ]    epg correction : 
@@ -3553,28 +3528,28 @@
 [  Info  ]       show with ---- start = 26/04/2018 14:56:00 stop = 26/04/2018 15:20:00 title = PRESENTE INDICATIVO - CROWDED
 [  Info  ]       Replaces ----- start = 26/04/2018 14:56:00 stop = 26/04/2018 15:20:00 title = PRESENTE INDICATIVO - CROWDED
 [  Debug ]    suspicious      title in index page  = 2 BROKE GIRLS IV
-[  Debug ]       differs from title in showdetails = E L'APPARTAMENTO PER MODEL.....
+[  Debug ]       differs from title in showdetails = 2 BROKE GIRLS IV (?)
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 26/04/2018 15:43:00 stop = 26/04/2018 16:08:00 title = E L'APPARTAMENTO PER MODELLE - 2 BROKE GIRLS IV
+[  Info  ]       show with ---- start = 26/04/2018 15:43:00 stop = 26/04/2018 16:08:00 title = 2 BROKE GIRLS IV (?)
 [  Info  ]       Replaces ----- start = 26/04/2018 15:43:00 stop = 26/04/2018 16:08:00 title = E L'APPARTAMENTO PER MODELLE - 2 BROKE GIRLS IV
 [  Debug ]    suspicious      title in index page  = CHUCK V
-[  Debug ]       differs from title in showdetails = CHUCK VS SARAH - .....
+[  Debug ]       differs from title in showdetails = CHUCK V (?)
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 26/04/2018 16:34:00 stop = 26/04/2018 17:20:00 title = CHUCK VS SARAH - CHUCK V
+[  Info  ]       show with ---- start = 26/04/2018 16:34:00 stop = 26/04/2018 17:20:00 title = CHUCK V (?)
 [  Info  ]       Replaces ----- start = 26/04/2018 16:34:00 stop = 26/04/2018 17:20:00 title = CHUCK VS SARAH - CHUCK V
 [  Debug ]    suspicious      title in index page  = UNDATEABLE III
-[  Debug ]       differs from title in showdetails = C'ERA UNA FUTURA COPPIA .....
+[  Debug ]       differs from title in showdetails = UNDATEABLE III (?)
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 26/04/2018 18:57:00 stop = 26/04/2018 19:22:00 title = C'ERA UNA FUTURA COPPIA AL BAR - I PARTE - UNDATEABLE III
+[  Info  ]       show with ---- start = 26/04/2018 18:57:00 stop = 26/04/2018 19:22:00 title = UNDATEABLE III (?)
 [  Info  ]       Replaces ----- start = 26/04/2018 18:57:00 stop = 26/04/2018 19:22:00 title = C'ERA UNA FUTURA COPPIA AL BAR - I PARTE - UNDATEABLE III
 [  Debug ]    suspicious      title in index page  = MOM V
-[  Debug ]       differs from title in showdetails = SENTIMENTI E PE.....
+[  Debug ]       differs from title in showdetails = MOM V (?)
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 26/04/2018 20:14:00 stop = 26/04/2018 20:39:00 title = SENTIMENTI E PENTIMENTI - MOM V - PRIMA TV
+[  Info  ]       show with ---- start = 26/04/2018 20:14:00 stop = 26/04/2018 20:39:00 title = MOM V (?)
 [  Info  ]       Replaces ----- start = 26/04/2018 20:14:00 stop = 26/04/2018 20:39:00 title = SENTIMENTI E PENTIMENTI - MOM V - PRIMA TV
 [  Debug ]    suspicious      title in index page  = THE GOOD PLACE II
 [  Debug ]       differs from title in showdetails = VA TUTTO ALLA GRANDE! - THE.....
@@ -4044,9 +4019,9 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 28/04/2018 23:54:00 stop = 29/04/2018 00:19:00 title = MI FACCIO IN... CINQUE! - ODD MOM OUT III
 [  Info  ]       Replaces ----- start = 28/04/2018 23:54:00 stop = 29/04/2018 00:19:00 title = MI FACCIO IN... CINQUE! - ODD MOM OUT III
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.17 sec/update
 [  Debug ] 
-[  Info  ] ( 158/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Stories) -- mode Incremental
+[  Info  ] ( 157/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Stories) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = GIRLFRIENDS' GUIDE TO DIVORCE IV
 [  Debug ]       differs from title in showdetails = REGOLA #776: IL GATTO STA SEMPRE SUL TETTO.....
 [  Info  ]    epg correction : 
@@ -4713,7 +4688,7 @@
 [  Info  ]       Replaces ----- start = 28/04/2018 22:51:00 stop = 28/04/2018 23:41:00 title = LEGAMI STRETTI - CHICAGO MED III - PRIMA TV
 [  Info  ] 0.15 sec/update
 [  Debug ] 
-[  Info  ] ( 159/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Sport superHD) -- mode Incremental
+[  Info  ] ( 158/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Sport superHD) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = EDICOLA PREMIUM
 [  Debug ]       differs from title in showdetails = 22/4 H.8.00 - PREMIUM SPO.....
 [  Info  ]    epg correction : 
@@ -5242,9 +5217,9 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 28/04/2018 23:30:00 stop = 29/04/2018 00:00:00 title = TRENTOTTESIMA GIORNATA 28/4 - HIGHLIGHTS SERIE B -'18
 [  Info  ]       Replaces ----- start = 28/04/2018 23:30:00 stop = 29/04/2018 00:00:00 title = TRENTOTTESIMA GIORNATA 28/4 - HIGHLIGHTS SERIE B -'18
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
-[  Info  ] ( 160/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Sport 2 HD) -- mode Incremental
+[  Info  ] ( 159/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Sport 2 HD) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = FOOTBRAZIL
 [  Debug ]       differs from title in showdetails = EPISODIO 10 - 20/4 -.....
 [  Info  ]    epg correction : 
@@ -5537,9 +5512,9 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 28/04/2018 22:46:00 stop = 29/04/2018 00:30:00 title = INTER - JUVENTUS - CAMPIONATO DI CALCIO SERIE A 17 -18 (INTER)
 [  Info  ]       Replaces ----- start = 28/04/2018 22:46:00 stop = 29/04/2018 00:30:00 title = INTER - JUVENTUS - CAMPIONATO DI CALCIO SERIE A 17 -18 (INTER)
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
-[  Info  ] ( 161/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Calcio 1) -- mode Incremental
+[  Info  ] ( 160/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Calcio 1) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = FOOTBRAZIL
 [  Debug ]       differs from title in showdetails = EPISODIO 10 - 20/4 -.....
 [  Info  ]    epg correction : 
@@ -5832,12 +5807,12 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 28/04/2018 22:46:00 stop = 29/04/2018 00:30:00 title = INTER - JUVENTUS - CAMPIONATO DI CALCIO SERIE A 17 -18 (INTER)
 [  Info  ]       Replaces ----- start = 28/04/2018 22:46:00 stop = 29/04/2018 00:30:00 title = INTER - JUVENTUS - CAMPIONATO DI CALCIO SERIE A 17 -18 (INTER)
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
-[  Debug ] 35571 shows in 163 channels
-[  Debug ] 883 updated shows
-[  Debug ] 4 new shows added
+[  Debug ] 35576 shows in 163 channels
+[  Debug ] 877 updated shows
+[  Debug ] 5 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 22/04/2018 10:17:19 done in 12m 16s
+[        ] Job finished at 22/04/2018 12:17:48 done in 12m 44s
 [  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
