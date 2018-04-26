@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 26/04/2018 08:05:04
+[        ] Job started at 26/04/2018 10:05:04
 [  Debug ] 
 [  Debug ] Running  on: Unix 3.13.0.132
 [  Debug ] Environment: 4.0.30319.42000
@@ -29,7 +29,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+02:00	(DST in effect)
 [  Debug ] 	next DST dates  :	28/10/2018 03:00 (local)
 [  Debug ] 	                :	31/03/2019 02:00 (local)
-[  Debug ] 	local time now  :	26/04/2018 08:05:04
+[  Debug ] 	local time now  :	26/04/2018 10:05:05
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -236,7 +236,7 @@
 [  Info  ] 0.03 sec/update
 [  Debug ] 
 [  Info  ] (  10/163 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La2 HD) -- mode Incremental
-[  Info  ] 0.03 sec/update
+[  Info  ] 0.02 sec/update
 [  Debug ] 
 [  Info  ] (  11/163 ) STASERAINTV.COM -- chan. (xmltv_id=La 5) -- mode Incremental
 [  Info  ] 
@@ -245,13 +245,13 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  13/163 ) STASERAINTV.COM -- chan. (xmltv_id=LA7 D) -- mode Incremental
-[  Info  ] 0.06 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  14/163 ) STASERAINTV.COM -- chan. (xmltv_id=TV 8) -- mode Incremental
-[  Info  ] 0.06 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  15/163 ) STASERAINTV.COM -- chan. (xmltv_id=Nove HD) -- mode Incremental
-[  Info  ] 0.07 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  16/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Top Crime) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
@@ -277,7 +277,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  23/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai 4 HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.19 sec/update
 [  Debug ] 
 [  Info  ] (  24/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai 5 HD) -- mode Incremental
 [  Info  ] 
@@ -492,6 +492,8 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  82/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Supercalcio SuperHD) -- mode Incremental
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  83/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Eurosport 1 Italia) -- mode Incremental
@@ -640,7 +642,71 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 125/163 ) RAI.IT -- chan. (xmltv_id=Rai YoYo HD) -- mode Incremental
-[  Info  ] 
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 30/04/2018 02:05:00 stop = 30/04/2018 02:05:00 title = Teletubbies 5
+[  Info  ]       Added before - start = 30/04/2018 02:05:00 stop = 30/04/2018 02:05:00 title = Calimero
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 30/04/2018 02:55:00 stop = 30/04/2018 02:55:00 title = La Pimpa 4
+[  Info  ]       Added before - start = 30/04/2018 02:55:00 stop = 30/04/2018 02:55:00 title = Gatto Miro'
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 30/04/2018 03:00:00 stop = 30/04/2018 03:00:00 title = La Pimpa
+[  Info  ]       Added before - start = 30/04/2018 03:00:00 stop = 30/04/2018 03:00:00 title = Le Nuove Avventure Della Pimpa
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/04/2018 03:00:00 stop = 30/04/2018 03:05:00 title = Le Nuove Avventure Della Pimpa
+[  Info  ]       Replaces ----- start = 30/04/2018 03:00:00 stop = 30/04/2018 03:05:00 title = La Pimpa
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 30/04/2018 03:10:00 stop = 30/04/2018 03:10:00 title = Milo
+[  Info  ]       Added before - start = 30/04/2018 03:10:00 stop = 30/04/2018 03:10:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/04/2018 03:10:00 stop = 30/04/2018 03:15:00 title = Sigla Buonanotte
+[  Info  ]       Replaces ----- start = 30/04/2018 03:10:00 stop = 30/04/2018 03:15:00 title = Milo
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 30/04/2018 03:15:00 stop = 30/04/2018 03:15:00 title = Milo
+[  Info  ]       Added before - start = 30/04/2018 03:15:00 stop = 30/04/2018 03:15:00 title = Teletubbies 5
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/04/2018 03:15:00 stop = 30/04/2018 03:20:00 title = Teletubbies 5
+[  Info  ]       Replaces ----- start = 30/04/2018 03:15:00 stop = 30/04/2018 03:20:00 title = Milo
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 30/04/2018 04:30:00 stop = 30/04/2018 04:30:00 title = Dixiland
+[  Info  ]       Added before - start = 30/04/2018 04:30:00 stop = 30/04/2018 04:30:00 title = Teletubbies 6
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/04/2018 04:30:00 stop = 30/04/2018 04:35:00 title = Teletubbies 6
+[  Info  ]       Replaces ----- start = 30/04/2018 04:30:00 stop = 30/04/2018 04:35:00 title = Dixiland
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 30/04/2018 04:55:00 stop = 30/04/2018 04:55:00 title = Evviva Sandrino
+[  Info  ]       Added before - start = 30/04/2018 04:55:00 stop = 30/04/2018 04:55:00 title = La Pimpa 4
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/04/2018 04:55:00 stop = 30/04/2018 05:00:00 title = La Pimpa 4
+[  Info  ]       Replaces ----- start = 30/04/2018 04:55:00 stop = 30/04/2018 05:00:00 title = Evviva Sandrino
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/04/2018 05:15:00 stop = 30/04/2018 05:20:00 title = Milo
+[  Info  ]       Replaces ----- start = 30/04/2018 05:15:00 stop = 30/04/2018 05:20:00 title = Calimero
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 30/04/2018 05:30:00 stop = 30/04/2018 05:30:00 title = Il Meraviglioso Mondo Di Richard Scarry
+[  Info  ]       Added before - start = 30/04/2018 05:30:00 stop = 30/04/2018 05:30:00 title = Ape Maia 3d
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 30/04/2018 05:50:00 stop = 30/04/2018 05:50:00 title = Insieme A Rosie 4
+[  Info  ]       Added before - start = 30/04/2018 05:50:00 stop = 30/04/2018 05:50:00 title = Sam Sam 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/04/2018 05:50:00 stop = 30/04/2018 06:00:00 title = Sam Sam 2
+[  Info  ]       Replaces ----- start = 30/04/2018 05:50:00 stop = 30/04/2018 06:00:00 title = Insieme A Rosie 4
+[  Info  ] 0.13 sec/update
 [  Debug ] 
 [  Info  ] ( 126/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cartoon Network) -- mode Incremental
 [  Info  ] 
@@ -712,7 +778,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/04/2018 05:30:00 stop = 26/04/2018 07:17:00 title = L' INAFFERRABILE 12 -
 [  Info  ]       Replaces ----- start = 26/04/2018 05:30:00 stop = 26/04/2018 07:17:00 title = L' INAFFERRABILE 12 -
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.13 sec/update
 [  Debug ] 
 [  Info  ] ( 147/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema 2 +24) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = L' INAFFERRABILE 12
@@ -721,14 +787,14 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 27/04/2018 05:30:00 stop = 27/04/2018 07:17:00 title = L' INAFFERRABILE 12 -
 [  Info  ]       Replaces ----- start = 27/04/2018 05:30:00 stop = 27/04/2018 07:17:00 title = L' INAFFERRABILE 12 -
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.21 sec/update
 [  Debug ] 
 [  Info  ] ( 148/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Energy) -- mode Incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/04/2018 05:30:00 stop = 26/04/2018 07:56:00 title = Wolfhound - Un Eroe In Lotta Per La Libertà
 [  Info  ]       Replaces ----- start = 26/04/2018 05:30:00 stop = 26/04/2018 07:56:00 title = Wolfhound - Un Eroe In Lotta Per La Libertà
-[  Info  ] 0.17 sec/update
+[  Info  ] 0.13 sec/update
 [  Debug ] 
 [  Info  ] ( 149/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Emotion) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = FULL EMOTION
@@ -767,7 +833,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 01/05/2018 05:30:00 stop = 01/05/2018 05:38:00 title = COLPEVOLE DI OMICIDIO - FULL EMOTION
 [  Info  ]       Replaces ----- start = 01/05/2018 05:30:00 stop = 01/05/2018 05:38:00 title = COLPEVOLE DI OMICIDIO - FULL EMOTION
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 150/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Comedy) -- mode Incremental
 [  Info  ] 
@@ -842,7 +908,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 01/05/2018 10:55:00 stop = 01/05/2018 11:30:00 title = PICTURE'S UP - PROJECT GREENLIGHT 4
 [  Info  ]       Replaces ----- start = 01/05/2018 10:55:00 stop = 01/05/2018 11:30:00 title = PICTURE'S UP - PROJECT GREENLIGHT 4
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 153/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Paramount Channel) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = CINECHAT - KEVIN COSTNER
@@ -1223,7 +1289,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 29/04/2018 21:57:00 stop = 29/04/2018 22:47:00 title = FLASH IV, 12 - THE FLASH IV
-[  Info  ]       Replaces ----- start = 29/04/2018 21:57:00 stop = 29/04/2018 22:47:00 title = FLASH IV, 12 - THE FLASH IV - PRIMA TV
+[  Info  ]       Replaces ----- start = 29/04/2018 21:57:00 stop = 29/04/2018 22:47:00 title = FLASH IV, 12 - THE FLASH IV
 [  Debug ]    suspicious      title in index page  = DC'S LEGENDS OF TOMORROW III
 [  Debug ]       differs from title in showdetails = LA  MALEDIZIONE DEL TOTEM DELLA TERRA .....
 [  Info  ]    epg correction : 
@@ -1566,7 +1632,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/04/2018 08:35:00 stop = 26/04/2018 09:24:00 title = FLASH IV, 12 - THE FLASH IV
-[  Info  ]       Replaces ----- start = 26/04/2018 08:35:00 stop = 26/04/2018 09:24:00 title = FLASH IV, 12 - THE FLASH IV - PRIMA TV
+[  Info  ]       Replaces ----- start = 26/04/2018 08:35:00 stop = 26/04/2018 09:24:00 title = FLASH IV, 12 - THE FLASH IV
 [  Debug ]    suspicious      title in index page  = THE 100 IV
 [  Debug ]       differs from title in showdetails = L' ALTRA PARTE - THE.....
 [  Info  ]    epg correction : 
@@ -1590,7 +1656,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/04/2018 13:41:00 stop = 26/04/2018 14:30:00 title = FLASH IV, 12 - THE FLASH IV
-[  Info  ]       Replaces ----- start = 26/04/2018 13:41:00 stop = 26/04/2018 14:30:00 title = FLASH IV, 12 - THE FLASH IV - PRIMA TV
+[  Info  ]       Replaces ----- start = 26/04/2018 13:41:00 stop = 26/04/2018 14:30:00 title = FLASH IV, 12 - THE FLASH IV
 [  Debug ]    suspicious      title in index page  = ARROW III
 [  Debug ]       differs from title in showdetails = IL RISVEGLIO - ARRO.....
 [  Info  ]    epg correction : 
@@ -1948,7 +2014,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/04/2018 21:57:00 stop = 30/04/2018 22:47:00 title = FLASH IV, 12 - THE FLASH IV
-[  Info  ]       Replaces ----- start = 30/04/2018 21:57:00 stop = 30/04/2018 22:47:00 title = FLASH IV, 12 - THE FLASH IV - PRIMA TV
+[  Info  ]       Replaces ----- start = 30/04/2018 21:57:00 stop = 30/04/2018 22:47:00 title = FLASH IV, 12 - THE FLASH IV
 [  Debug ]    suspicious      title in index page  = DC'S LEGENDS OF TOMORROW III
 [  Debug ]       differs from title in showdetails = LA  MALEDIZIONE DEL TOTEM DELLA TERRA .....
 [  Info  ]    epg correction : 
@@ -2165,7 +2231,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 02/05/2018 23:42:00 stop = 03/05/2018 00:32:00 title = LA LEGGE DEL SACRIFICIO - GRIMM III - PRIMA TV
 [  Info  ]       Replaces ----- start = 02/05/2018 23:42:00 stop = 03/05/2018 00:32:00 title = LA LEGGE DEL SACRIFICIO - GRIMM III - PRIMA TV
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.13 sec/update
 [  Debug ] 
 [  Info  ] ( 156/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Crime) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = FOREVER I
@@ -2197,7 +2263,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 26/04/2018 13:30:00 stop = 26/04/2018 14:18:00 title = BALANCE OF MIGHT - BLINDSPOT III
-[  Info  ]       Replaces ----- start = 26/04/2018 13:30:00 stop = 26/04/2018 14:18:00 title = BALANCE OF MIGHT - BLINDSPOT III - PRIMA TV
+[  Info  ]       Replaces ----- start = 26/04/2018 13:30:00 stop = 26/04/2018 14:18:00 title = BALANCE OF MIGHT - BLINDSPOT III
 [  Debug ]    suspicious      title in index page  = MAJOR CRIMES III
 [  Debug ]       differs from title in showdetails = UN TRATTAMENTO SPECIALE - .....
 [  Info  ]    epg correction : 
@@ -2469,7 +2535,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 29/04/2018 11:15:00 stop = 29/04/2018 12:03:00 title = BALANCE OF MIGHT - BLINDSPOT III
-[  Info  ]       Replaces ----- start = 29/04/2018 11:15:00 stop = 29/04/2018 12:03:00 title = BALANCE OF MIGHT - BLINDSPOT III - PRIMA TV
+[  Info  ]       Replaces ----- start = 29/04/2018 11:15:00 stop = 29/04/2018 12:03:00 title = BALANCE OF MIGHT - BLINDSPOT III
 [  Debug ]    suspicious      title in index page  = CRIMINAL INTENT IX
 [  Debug ]       differs from title in showdetails = IL PREZZO DEL DOVERE  - I PA.....
 [  Info  ]    epg correction : 
@@ -2505,7 +2571,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 29/04/2018 21:03:00 stop = 29/04/2018 21:58:00 title = BALANCE OF MIGHT - BLINDSPOT III
-[  Info  ]       Replaces ----- start = 29/04/2018 21:03:00 stop = 29/04/2018 21:58:00 title = BALANCE OF MIGHT - BLINDSPOT III - PRIMA TV
+[  Info  ]       Replaces ----- start = 29/04/2018 21:03:00 stop = 29/04/2018 21:58:00 title = BALANCE OF MIGHT - BLINDSPOT III
 [  Debug ]    suspicious      title in index page  = THE MENTALIST IV
 [  Debug ]       differs from title in showdetails = IL FILO ROSSO VERSO CARMIN.....
 [  Info  ]    epg correction : 
@@ -2581,7 +2647,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/04/2018 14:18:00 stop = 30/04/2018 15:08:00 title = BALANCE OF MIGHT - BLINDSPOT III
-[  Info  ]       Replaces ----- start = 30/04/2018 14:18:00 stop = 30/04/2018 15:08:00 title = BALANCE OF MIGHT - BLINDSPOT III - PRIMA TV
+[  Info  ]       Replaces ----- start = 30/04/2018 14:18:00 stop = 30/04/2018 15:08:00 title = BALANCE OF MIGHT - BLINDSPOT III
 [  Debug ]    suspicious      title in index page  = DEXTER V
 [  Debug ]       differs from title in showdetails = UNA VISITA INATTES.....
 [  Info  ]    epg correction : 
@@ -2766,7 +2832,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 02/05/2018 23:39:00 stop = 03/05/2018 00:30:00 title = EMOZIONI AMPLIFICATE - LAW & ORDER: UNITA' SPECIALE XVIII
 [  Info  ]       Replaces ----- start = 02/05/2018 23:39:00 stop = 03/05/2018 00:30:00 title = EMOZIONI AMPLIFICATE - LAW & ORDER: UNITA' SPECIALE XVIII
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 157/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Joy) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = NATALE CON FINALMENTE SOLI
@@ -3134,7 +3200,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 27/04/2018 21:04:00 stop = 27/04/2018 21:29:00 title = LE RIPERCUSSIONI DEI FESTEGGIAMENTI - BIG BANG THEORY XI
-[  Info  ]       Replaces ----- start = 27/04/2018 21:04:00 stop = 27/04/2018 21:29:00 title = LE RIPERCUSSIONI DEI FESTEGGIAMENTI - BIG BANG THEORY XI - PRIMA TV
+[  Info  ]       Replaces ----- start = 27/04/2018 21:04:00 stop = 27/04/2018 21:29:00 title = LE RIPERCUSSIONI DEI FESTEGGIAMENTI - BIG BANG THEORY XI
 [  Debug ]    suspicious      title in index page  = YOUNG SHELDON I
 [  Debug ]       differs from title in showdetails = DIAVOLI, CATECHISMO E NUM.....
 [  Info  ]    epg correction : 
@@ -3194,7 +3260,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 28/04/2018 01:58:00 stop = 28/04/2018 02:23:00 title = LE RIPERCUSSIONI DEI FESTEGGIAMENTI - BIG BANG THEORY XI
-[  Info  ]       Replaces ----- start = 28/04/2018 01:58:00 stop = 28/04/2018 02:23:00 title = LE RIPERCUSSIONI DEI FESTEGGIAMENTI - BIG BANG THEORY XI - PRIMA TV
+[  Info  ]       Replaces ----- start = 28/04/2018 01:58:00 stop = 28/04/2018 02:23:00 title = LE RIPERCUSSIONI DEI FESTEGGIAMENTI - BIG BANG THEORY XI
 [  Debug ]    suspicious      title in index page  = YOUNG SHELDON I
 [  Debug ]       differs from title in showdetails = DIAVOLI, CATECHISMO E NUM.....
 [  Info  ]    epg correction : 
@@ -4261,7 +4327,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 02/05/2018 23:38:00 stop = 03/05/2018 00:03:00 title = VACCINI E SALSE - SUPERSTORE I
 [  Info  ]       Replaces ----- start = 02/05/2018 23:38:00 stop = 03/05/2018 00:03:00 title = VACCINI E SALSE - SUPERSTORE I
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 158/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Stories) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = GOSSIP GIRL VI
@@ -5732,7 +5798,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 02/05/2018 23:30:00 stop = 03/05/2018 02:31:00 title = GIOVEDI 3/5 - ARSENAL TV  -18
 [  Info  ]       Replaces ----- start = 02/05/2018 23:30:00 stop = 03/05/2018 02:31:00 title = GIOVEDI 3/5 - ARSENAL TV  -18
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.13 sec/update
 [  Debug ] 
 [  Info  ] ( 161/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Calcio 1) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = UN GIRONE FA SEDICESIMA GIORNATA
@@ -6017,12 +6083,12 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 02/05/2018 23:30:00 stop = 03/05/2018 02:31:00 title = GIOVEDI 3/5 - ARSENAL TV  -18
 [  Info  ]       Replaces ----- start = 02/05/2018 23:30:00 stop = 03/05/2018 02:31:00 title = GIOVEDI 3/5 - ARSENAL TV  -18
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.13 sec/update
 [  Debug ] 
-[  Debug ] 34994 shows in 163 channels
-[  Debug ] 1000 updated shows
-[  Debug ] 4 new shows added
+[  Debug ] 35011 shows in 163 channels
+[  Debug ] 1027 updated shows
+[  Debug ] 7 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 26/04/2018 08:16:50 done in 11m 45s
+[        ] Job finished at 26/04/2018 10:17:07 done in 12m 2s
 [  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
