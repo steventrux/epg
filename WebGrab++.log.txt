@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 28/04/2018 08:05:03
+[        ] Job started at 28/04/2018 10:05:03
 [  Debug ] 
 [  Debug ] Running  on: Unix 3.13.0.132
 [  Debug ] Environment: 4.0.30319.42000
@@ -29,7 +29,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+02:00	(DST in effect)
 [  Debug ] 	next DST dates  :	28/10/2018 03:00 (local)
 [  Debug ] 	                :	31/03/2019 02:00 (local)
-[  Debug ] 	local time now  :	28/04/2018 08:05:03
+[  Debug ] 	local time now  :	28/04/2018 10:05:03
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -232,7 +232,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   9/163 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La1 HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.03 sec/update
 [  Debug ] 
 [  Info  ] (  10/163 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La2 HD) -- mode Incremental
 [  Info  ] 0.03 sec/update
@@ -391,10 +391,6 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  55/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox +1) -- mode Incremental
-[Warning ] error downloading page: The request timed out (5sec)
-[Warning ] Retry 1 of 4 times
-[Warning ] error downloading page: Error getting response stream (ReadDone1): ReceiveFailure
-[Warning ] pausing 2 of 4 times for 10 seconds before re-try.
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  56/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Life HD) -- mode Incremental
@@ -444,8 +440,6 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  66/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky MotoGP HD) -- mode Incremental
-[Warning ] error downloading page: The request timed out (5sec)
-[Warning ] Retry 1 of 4 times
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  67/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky motoGP superHD) -- mode Incremental
@@ -636,10 +630,35 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 124/163 ) RAI.IT -- chan. (xmltv_id=Rai Gulp HD) -- mode Incremental
-[  Info  ] 
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/05/2018 08:15:00 stop = 01/05/2018 08:25:00 title = Lucky Fred (ii)
+[  Info  ]       Replaces ----- start = 01/05/2018 08:10:00 stop = 01/05/2018 08:20:00 title = Lucky Fred (ii)
+[  Info  ]       Replaces ----- start = 01/05/2018 08:20:00 stop = 01/05/2018 08:35:00 title = Lucky Fred (ii)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/05/2018 08:25:00 stop = 01/05/2018 08:40:00 title = Lucky Fred (ii)
+[  Info  ]       Replaces ----- start = 01/05/2018 08:20:00 stop = 01/05/2018 08:35:00 title = Lucky Fred (ii)
+[  Info  ]       Replaces ----- start = 01/05/2018 08:35:00 stop = 01/05/2018 08:45:00 title = Scream Street
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/05/2018 11:40:00 stop = 01/05/2018 12:00:00 title = Geronimo Stilton (ii)
+[  Info  ]       Replaces ----- start = 01/05/2018 11:35:00 stop = 01/05/2018 12:00:00 title = Geronimo Stilton (ii)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/05/2018 16:00:00 stop = 01/05/2018 16:30:00 title = Gulp Music 2017/2018
+[  Info  ]       Replaces ----- start = 01/05/2018 16:00:00 stop = 01/05/2018 16:25:00 title = Gulp Music 2017/2018
+[  Info  ]       Replaces ----- start = 01/05/2018 16:25:00 stop = 01/05/2018 16:40:00 title = Robin Hood
+[  Info  ] 0.11 sec/update
 [  Debug ] 
 [  Info  ] ( 125/163 ) RAI.IT -- chan. (xmltv_id=Rai YoYo HD) -- mode Incremental
-[  Info  ] 0.03 sec/update
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/05/2018 23:45:00 stop = 02/05/2018 23:50:00 title = Buonanotte Con Le Favole Di Yoyo 2013
+[  Info  ]       Replaces ----- start = 02/05/2018 23:45:00 stop = 02/05/2018 23:55:00 title = Buonanotte Con Le Favole Di Yoyo 2013
+[  Debug ] multiple entry of a show at 20180503123500 +0200
+[  Debug ] multiple entry of a show at 20180503123500 +0200
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 126/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cartoon Network) -- mode Incremental
 [  Info  ] 
@@ -721,7 +740,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 28/04/2018 18:15:00 stop = 28/04/2018 20:15:00 title = Youth - La Giovinezza
 [  Info  ]       Replaces ----- start = 28/04/2018 18:15:00 stop = 28/04/2018 20:15:00 title = Youth - La Giovinezza
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 150/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Comedy) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = FACCE DA RIDERE
@@ -736,7 +755,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 04/05/2018 03:00:00 stop = 04/05/2018 03:26:00 title = PIERLUIGI FAVINO - INVITO A CENA CON...
 [  Info  ]       Replaces ----- start = 04/05/2018 03:00:00 stop = 04/05/2018 03:26:00 title = PIERLUIGI FAVINO - INVITO A CENA CON...
-[  Info  ] 0.19 sec/update
+[  Info  ] 0.13 sec/update
 [  Debug ] 
 [  Info  ] ( 151/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Investigation Discovery) -- mode Incremental
 [  Info  ] 
@@ -814,7 +833,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 04/05/2018 07:45:00 stop = 04/05/2018 08:20:00 title = JAMES IVORY - CINECHAT - (KS-KR)
 [  Info  ]       Replaces ----- start = 04/05/2018 07:45:00 stop = 04/05/2018 08:20:00 title = JAMES IVORY - CINECHAT - (KS-KR)
-[  Info  ] 0.17 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 153/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Paramount Channel) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = PROJECT GREENLIGHT S4 - LA SVOLTA
@@ -915,7 +934,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 28/04/2018 20:14:00 stop = 28/04/2018 21:08:00 title = NON TI DIMENTICAR DI ME - SUPERNATURAL XI - PRIMA TV
-[  Info  ]       Replaces ----- start = 28/04/2018 20:14:00 stop = 28/04/2018 21:08:00 title = NON TI DIMENTICAR DI ME - SUPERNATURAL XI
+[  Info  ]       Replaces ----- start = 28/04/2018 20:14:00 stop = 28/04/2018 21:08:00 title = NON TI DIMENTICAR DI ME - SUPERNATURAL XI - PRIMA TV
 [  Debug ]    suspicious      title in index page  = THE VAMPIRE DIARIES VII
 [  Debug ]       differs from title in showdetails = UNA PERSONA CHE UN TEMPO CONOSCEV.....
 [  Info  ]    epg correction : 
@@ -1009,19 +1028,13 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 29/04/2018 23:35:00 stop = 30/04/2018 00:23:00 title = SPECCHIO IN FRANTUMI - GOTHAM IV
-[  Info  ]       Replaces ----- start = 29/04/2018 23:35:00 stop = 30/04/2018 00:23:00 title = SPECCHIO IN FRANTUMI - GOTHAM IV - PRIMA TV
-[  Debug ]    suspicious      title in index page  = CHICAGO FIRE VI
-[  Debug ]       differs from title in showdetails = F COME... - CHICAGO FIRE .....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 30/04/2018 00:23:00 stop = 30/04/2018 01:12:00 title = F COME... - CHICAGO FIRE VI
-[  Info  ]       Replaces ----- start = 30/04/2018 00:23:00 stop = 30/04/2018 01:12:00 title = F COME... - CHICAGO FIRE VI - PRIMA TV
+[  Info  ]       Replaces ----- start = 29/04/2018 23:35:00 stop = 30/04/2018 00:23:00 title = SPECCHIO IN FRANTUMI - GOTHAM IV
 [  Debug ]    suspicious      title in index page  = SUPERNATURAL XI
 [  Debug ]       differs from title in showdetails = NON TI DIMENTICAR DI ME -.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/04/2018 01:12:00 stop = 30/04/2018 02:00:00 title = NON TI DIMENTICAR DI ME - SUPERNATURAL XI - PRIMA TV
-[  Info  ]       Replaces ----- start = 30/04/2018 01:12:00 stop = 30/04/2018 02:00:00 title = NON TI DIMENTICAR DI ME - SUPERNATURAL XI
+[  Info  ]       Replaces ----- start = 30/04/2018 01:12:00 stop = 30/04/2018 02:00:00 title = NON TI DIMENTICAR DI ME - SUPERNATURAL XI - PRIMA TV
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/04/2018 02:00:00 stop = 30/04/2018 02:47:00 title = PURITY - SUPERGIRL III - PRIMA TV
@@ -1419,7 +1432,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 04/05/2018 06:09:00 stop = 04/05/2018 06:57:00 title = NON TI DIMENTICAR DI ME - SUPERNATURAL XI - PRIMA TV
-[  Info  ]       Replaces ----- start = 04/05/2018 06:09:00 stop = 04/05/2018 06:57:00 title = NON TI DIMENTICAR DI ME - SUPERNATURAL XI
+[  Info  ]       Replaces ----- start = 04/05/2018 06:09:00 stop = 04/05/2018 06:57:00 title = NON TI DIMENTICAR DI ME - SUPERNATURAL XI - PRIMA TV
 [  Debug ]    suspicious      title in index page  = GOTHAM IV
 [  Debug ]       differs from title in showdetails = CAMBI AL VERTICE - .....
 [  Info  ]    epg correction : 
@@ -1471,7 +1484,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 04/05/2018 21:08:00 stop = 04/05/2018 21:57:00 title = NON TI DIMENTICAR DI ME - SUPERNATURAL XI - PRIMA TV
-[  Info  ]       Replaces ----- start = 04/05/2018 21:08:00 stop = 04/05/2018 21:57:00 title = NON TI DIMENTICAR DI ME - SUPERNATURAL XI
+[  Info  ]       Replaces ----- start = 04/05/2018 21:08:00 stop = 04/05/2018 21:57:00 title = NON TI DIMENTICAR DI ME - SUPERNATURAL XI - PRIMA TV
 [  Debug ]    suspicious      title in index page  = IZOMBIE III
 [  Debug ]       differs from title in showdetails = SCULACCIARE LO ZOMBIE.....
 [  Info  ]    epg correction : 
@@ -1490,7 +1503,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 04/05/2018 23:44:00 stop = 05/05/2018 00:34:00 title = L' EREDITA' - GRIMM III - PRIMA TV
 [  Info  ]       Replaces ----- start = 04/05/2018 23:44:00 stop = 05/05/2018 00:34:00 title = L' EREDITA' - GRIMM III - PRIMA TV
-[  Info  ] 0.16 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 155/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action +24) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = SUPERNATURAL XI
@@ -1504,13 +1517,13 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 28/04/2018 05:49:00 stop = 28/04/2018 06:41:00 title = NON TI DIMENTICAR DI ME - SUPERNATURAL XI - PRIMA TV
-[  Info  ]       Replaces ----- start = 28/04/2018 05:49:00 stop = 28/04/2018 06:41:00 title = NON TI DIMENTICAR DI ME - SUPERNATURAL XI
+[  Info  ]       Replaces ----- start = 28/04/2018 05:49:00 stop = 28/04/2018 06:41:00 title = NON TI DIMENTICAR DI ME - SUPERNATURAL XI - PRIMA TV
 [  Debug ]    suspicious      title in index page  = GOTHAM IV
 [  Debug ]       differs from title in showdetails = SPECCHIO IN FRANTUM.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 28/04/2018 08:26:00 stop = 28/04/2018 09:16:00 title = SPECCHIO IN FRANTUMI - GOTHAM IV
-[  Info  ]       Replaces ----- start = 28/04/2018 08:26:00 stop = 28/04/2018 09:16:00 title = SPECCHIO IN FRANTUMI - GOTHAM IV - PRIMA TV
+[  Info  ]       Replaces ----- start = 28/04/2018 08:26:00 stop = 28/04/2018 09:16:00 title = SPECCHIO IN FRANTUMI - GOTHAM IV
 [  Debug ]    suspicious      title in index page  = GRIMM III
 [  Debug ]       differs from title in showdetails = GRIMM III, 16 - GRI.....
 [  Info  ]    epg correction : 
@@ -1528,7 +1541,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 28/04/2018 13:34:00 stop = 28/04/2018 14:23:00 title = SPECCHIO IN FRANTUMI - GOTHAM IV
-[  Info  ]       Replaces ----- start = 28/04/2018 13:34:00 stop = 28/04/2018 14:23:00 title = SPECCHIO IN FRANTUMI - GOTHAM IV - PRIMA TV
+[  Info  ]       Replaces ----- start = 28/04/2018 13:34:00 stop = 28/04/2018 14:23:00 title = SPECCHIO IN FRANTUMI - GOTHAM IV
 [  Debug ]    suspicious      title in index page  = ARROW III
 [  Debug ]       differs from title in showdetails = IL RITORNO - ARROW .....
 [  Info  ]    epg correction : 
@@ -1547,24 +1560,12 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 28/04/2018 16:50:00 stop = 28/04/2018 17:47:00 title = LE COLONNE DI ERCOLE - THE LAST SHIP IV
 [  Info  ]       Replaces ----- start = 28/04/2018 16:50:00 stop = 28/04/2018 17:47:00 title = LE COLONNE DI ERCOLE - THE LAST SHIP IV
-[  Debug ]    suspicious      title in index page  = CHICAGO FIRE VI
-[  Debug ]       differs from title in showdetails = F COME... - CHICAGO FIRE .....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 28/04/2018 20:14:00 stop = 28/04/2018 21:07:00 title = F COME... - CHICAGO FIRE VI
-[  Info  ]       Replaces ----- start = 28/04/2018 20:14:00 stop = 28/04/2018 21:07:00 title = F COME... - CHICAGO FIRE VI - PRIMA TV
 [  Debug ]    suspicious      title in index page  = SUPERNATURAL XI
 [  Debug ]       differs from title in showdetails = DEMONI LONTANI - MISTICO .....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 28/04/2018 21:07:00 stop = 28/04/2018 21:57:00 title = DEMONI LONTANI - MISTICO - SUPERNATURAL XI
 [  Info  ]       Replaces ----- start = 28/04/2018 21:07:00 stop = 28/04/2018 21:57:00 title = DEMONI LONTANI - MISTICO - SUPERNATURAL XI
-[  Debug ]    suspicious      title in index page  = CHICAGO FIRE VI
-[  Debug ]       differs from title in showdetails = F COME... - CHICAGO FIRE .....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 28/04/2018 22:46:00 stop = 28/04/2018 23:35:00 title = F COME... - CHICAGO FIRE VI
-[  Info  ]       Replaces ----- start = 28/04/2018 22:46:00 stop = 28/04/2018 23:35:00 title = F COME... - CHICAGO FIRE VI - PRIMA TV
 [  Debug ]    suspicious      title in index page  = GRIMM III
 [  Debug ]       differs from title in showdetails = GRIMM III, 16 - GRI.....
 [  Info  ]    epg correction : 
@@ -1618,7 +1619,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 29/04/2018 20:14:00 stop = 29/04/2018 21:08:00 title = NON TI DIMENTICAR DI ME - SUPERNATURAL XI - PRIMA TV
-[  Info  ]       Replaces ----- start = 29/04/2018 20:14:00 stop = 29/04/2018 21:08:00 title = NON TI DIMENTICAR DI ME - SUPERNATURAL XI
+[  Info  ]       Replaces ----- start = 29/04/2018 20:14:00 stop = 29/04/2018 21:08:00 title = NON TI DIMENTICAR DI ME - SUPERNATURAL XI - PRIMA TV
 [  Debug ]    suspicious      title in index page  = THE VAMPIRE DIARIES VII
 [  Debug ]       differs from title in showdetails = UNA PERSONA CHE UN TEMPO CONOSCEV.....
 [  Info  ]    epg correction : 
@@ -1712,19 +1713,13 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/04/2018 23:35:00 stop = 01/05/2018 00:23:00 title = SPECCHIO IN FRANTUMI - GOTHAM IV
-[  Info  ]       Replaces ----- start = 30/04/2018 23:35:00 stop = 01/05/2018 00:23:00 title = SPECCHIO IN FRANTUMI - GOTHAM IV - PRIMA TV
-[  Debug ]    suspicious      title in index page  = CHICAGO FIRE VI
-[  Debug ]       differs from title in showdetails = F COME... - CHICAGO FIRE .....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 01/05/2018 00:23:00 stop = 01/05/2018 01:12:00 title = F COME... - CHICAGO FIRE VI
-[  Info  ]       Replaces ----- start = 01/05/2018 00:23:00 stop = 01/05/2018 01:12:00 title = F COME... - CHICAGO FIRE VI - PRIMA TV
+[  Info  ]       Replaces ----- start = 30/04/2018 23:35:00 stop = 01/05/2018 00:23:00 title = SPECCHIO IN FRANTUMI - GOTHAM IV
 [  Debug ]    suspicious      title in index page  = SUPERNATURAL XI
 [  Debug ]       differs from title in showdetails = NON TI DIMENTICAR DI ME -.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 01/05/2018 01:12:00 stop = 01/05/2018 02:00:00 title = NON TI DIMENTICAR DI ME - SUPERNATURAL XI - PRIMA TV
-[  Info  ]       Replaces ----- start = 01/05/2018 01:12:00 stop = 01/05/2018 02:00:00 title = NON TI DIMENTICAR DI ME - SUPERNATURAL XI
+[  Info  ]       Replaces ----- start = 01/05/2018 01:12:00 stop = 01/05/2018 02:00:00 title = NON TI DIMENTICAR DI ME - SUPERNATURAL XI - PRIMA TV
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 01/05/2018 02:00:00 stop = 01/05/2018 02:47:00 title = PURITY - SUPERGIRL III - PRIMA TV
@@ -2004,7 +1999,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 03/05/2018 21:08:00 stop = 03/05/2018 21:58:00 title = SPECCHIO IN FRANTUMI - GOTHAM IV
-[  Info  ]       Replaces ----- start = 03/05/2018 21:08:00 stop = 03/05/2018 21:58:00 title = SPECCHIO IN FRANTUMI - GOTHAM IV - PRIMA TV
+[  Info  ]       Replaces ----- start = 03/05/2018 21:08:00 stop = 03/05/2018 21:58:00 title = SPECCHIO IN FRANTUMI - GOTHAM IV
 [  Debug ]    suspicious      title in index page  = IZOMBIE III
 [  Debug ]       differs from title in showdetails = MANGIA, PREGA, LIV  -.....
 [  Info  ]    epg correction : 
@@ -2105,7 +2100,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 04/05/2018 23:44:00 stop = 05/05/2018 00:33:00 title = MY FAIR LADY WESEN - GRIMM III - PRIMA TV
 [  Info  ]       Replaces ----- start = 04/05/2018 23:44:00 stop = 05/05/2018 00:33:00 title = MY FAIR LADY WESEN - GRIMM III - PRIMA TV
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 156/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Crime) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = SISKA VII
@@ -2706,7 +2701,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 04/05/2018 23:39:00 stop = 05/05/2018 00:28:00 title = ALLA RICERCA DI THEO - LAW & ORDER: UNITA' SPECIALE XVIII
 [  Info  ]       Replaces ----- start = 04/05/2018 23:39:00 stop = 05/05/2018 00:28:00 title = ALLA RICERCA DI THEO - LAW & ORDER: UNITA' SPECIALE XVIII
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 157/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Joy) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = FINALMENTE SOLI II
@@ -2805,12 +2800,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 28/04/2018 13:48:00 stop = 28/04/2018 14:11:00 title = LA FORMULA DELLA VENDETTA - BIG BANG THEORY III
 [  Info  ]       Replaces ----- start = 28/04/2018 13:48:00 stop = 28/04/2018 14:11:00 title = LA FORMULA DELLA VENDETTA - BIG BANG THEORY III
-[  Debug ]    suspicious      title in index page  = THE GOOD PLACE II
-[  Debug ]       differs from title in showdetails = VA TUTTO ALLA GRANDE! - THE.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 28/04/2018 14:36:00 stop = 28/04/2018 15:21:00 title = VA TUTTO ALLA GRANDE! - THE GOOD PLACE II
-[  Info  ]       Replaces ----- start = 28/04/2018 14:36:00 stop = 28/04/2018 15:21:00 title = VA TUTTO ALLA GRANDE! - THE GOOD PLACE II - PRIMA TV
 [  Debug ]    suspicious      title in index page  = BIG BANG THEORY XI
 [  Debug ]       differs from title in showdetails = LE RIPERCUSSIONI DEI FESTEGG.....
 [  Info  ]    epg correction : 
@@ -2870,13 +2859,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 28/04/2018 21:04:00 stop = 28/04/2018 21:29:00 title = SENTIMENTI E PENTIMENTI - MOM V
-[  Info  ]       Replaces ----- start = 28/04/2018 21:04:00 stop = 28/04/2018 21:29:00 title = SENTIMENTI E PENTIMENTI - MOM V - PRIMA TV
-[  Debug ]    suspicious      title in index page  = THE GOOD PLACE II
-[  Debug ]       differs from title in showdetails = VA TUTTO ALLA GRANDE! - THE.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 28/04/2018 21:29:00 stop = 28/04/2018 22:16:00 title = VA TUTTO ALLA GRANDE! - THE GOOD PLACE II
-[  Info  ]       Replaces ----- start = 28/04/2018 21:29:00 stop = 28/04/2018 22:16:00 title = VA TUTTO ALLA GRANDE! - THE GOOD PLACE II - PRIMA TV
+[  Info  ]       Replaces ----- start = 28/04/2018 21:04:00 stop = 28/04/2018 21:29:00 title = SENTIMENTI E PENTIMENTI - MOM V
 [  Debug ]    suspicious      title in index page  = UNDATEABLE III
 [  Debug ]       differs from title in showdetails = C'ERA UN TIPO AFFETTUOSO.....
 [  Info  ]    epg correction : 
@@ -2907,12 +2890,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 29/04/2018 01:30:00 stop = 29/04/2018 01:55:00 title = LA BIBLIOTECA ES LIBROS  - THE GOLDBERGS II
 [  Info  ]       Replaces ----- start = 29/04/2018 01:30:00 stop = 29/04/2018 01:55:00 title = LA BIBLIOTECA ES LIBROS  - THE GOLDBERGS II
-[  Debug ]    suspicious      title in index page  = THE GOOD PLACE II
-[  Debug ]       differs from title in showdetails = VA TUTTO ALLA GRANDE! - THE.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 29/04/2018 01:55:00 stop = 29/04/2018 02:41:00 title = VA TUTTO ALLA GRANDE! - THE GOOD PLACE II
-[  Info  ]       Replaces ----- start = 29/04/2018 01:55:00 stop = 29/04/2018 02:41:00 title = VA TUTTO ALLA GRANDE! - THE GOOD PLACE II - PRIMA TV
 [  Debug ]    suspicious      title in index page  = HART OF DIXIE III
 [  Debug ]       differs from title in showdetails = TRADIZIONE DI FAMIGLIA - HA.....
 [  Info  ]    epg correction : 
@@ -3074,7 +3051,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 29/04/2018 16:05:00 stop = 29/04/2018 16:30:00 title = SENTIMENTI E PENTIMENTI - MOM V
-[  Info  ]       Replaces ----- start = 29/04/2018 16:05:00 stop = 29/04/2018 16:30:00 title = SENTIMENTI E PENTIMENTI - MOM V - PRIMA TV
+[  Info  ]       Replaces ----- start = 29/04/2018 16:05:00 stop = 29/04/2018 16:30:00 title = SENTIMENTI E PENTIMENTI - MOM V
 [  Debug ]    suspicious      title in index page  = PSYCH I
 [  Debug ]       differs from title in showdetails = MAESTRO DI PAROLE.....
 [  Info  ]    epg correction : 
@@ -3524,13 +3501,13 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 01/05/2018 20:14:00 stop = 01/05/2018 20:39:00 title = LE MISURAZIONI MATRIMONIALI - BIG BANG THEORY XI - PRIMA TV
-[  Info  ]       Replaces ----- start = 01/05/2018 20:14:00 stop = 01/05/2018 20:39:00 title = L' MISURAZIONI MATRIMONIALI - BIG BANG THEORY XI - PRIMA TV
+[  Info  ]       Replaces ----- start = 01/05/2018 20:14:00 stop = 01/05/2018 20:39:00 title = LE MISURAZIONI MATRIMONIALI - BIG BANG THEORY XI - PRIMA TV
 [  Debug ]    suspicious      title in index page  = YOUNG SHELDON I
 [  Debug ]       differs from title in showdetails = UN COMPUTER, UN PONY DI P.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 01/05/2018 20:39:00 stop = 01/05/2018 21:04:00 title = UN COMPUTER, UN PONY DI PLASTICA E UNA CASSA DI BIRRA - YOUNG SHELDON I - PRIMA TV
-[  Info  ]       Replaces ----- start = 01/05/2018 20:39:00 stop = 01/05/2018 21:04:00 title = YOUNG SHELDON I, 12 - YOUNG SHELDON I - PRIMA TV
+[  Info  ]       Replaces ----- start = 01/05/2018 20:39:00 stop = 01/05/2018 21:04:00 title = UN COMPUTER, UN PONY DI PLASTICA E UNA CASSA DI BIRRA - YOUNG SHELDON I - PRIMA TV
 [  Debug ]    suspicious      title in index page  = THE GOLDBERGS II
 [  Debug ]       differs from title in showdetails = LA BIBLIOTECA ES LIBROS  -.....
 [  Info  ]    epg correction : 
@@ -3578,13 +3555,13 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 02/05/2018 00:47:00 stop = 02/05/2018 01:12:00 title = LE MISURAZIONI MATRIMONIALI - BIG BANG THEORY XI - PRIMA TV
-[  Info  ]       Replaces ----- start = 02/05/2018 00:47:00 stop = 02/05/2018 01:12:00 title = L' MISURAZIONI MATRIMONIALI - BIG BANG THEORY XI - PRIMA TV
+[  Info  ]       Replaces ----- start = 02/05/2018 00:47:00 stop = 02/05/2018 01:12:00 title = LE MISURAZIONI MATRIMONIALI - BIG BANG THEORY XI - PRIMA TV
 [  Debug ]    suspicious      title in index page  = YOUNG SHELDON I
 [  Debug ]       differs from title in showdetails = UN COMPUTER, UN PONY DI P.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 02/05/2018 01:12:00 stop = 02/05/2018 01:37:00 title = UN COMPUTER, UN PONY DI PLASTICA E UNA CASSA DI BIRRA - YOUNG SHELDON I - PRIMA TV
-[  Info  ]       Replaces ----- start = 02/05/2018 01:12:00 stop = 02/05/2018 01:37:00 title = YOUNG SHELDON I, 12 - YOUNG SHELDON I - PRIMA TV
+[  Info  ]       Replaces ----- start = 02/05/2018 01:12:00 stop = 02/05/2018 01:37:00 title = UN COMPUTER, UN PONY DI PLASTICA E UNA CASSA DI BIRRA - YOUNG SHELDON I - PRIMA TV
 [  Debug ]    suspicious      title in index page  = THE GOLDBERGS II
 [  Debug ]       differs from title in showdetails = LA BIBLIOTECA ES LIBROS  -.....
 [  Info  ]    epg correction : 
@@ -3630,13 +3607,13 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 02/05/2018 05:40:00 stop = 02/05/2018 05:50:00 title = LE MISURAZIONI MATRIMONIALI - BIG BANG THEORY XI - PRIMA TV
-[  Info  ]       Replaces ----- start = 02/05/2018 05:40:00 stop = 02/05/2018 05:50:00 title = L' MISURAZIONI MATRIMONIALI - BIG BANG THEORY XI - PRIMA TV
+[  Info  ]       Replaces ----- start = 02/05/2018 05:40:00 stop = 02/05/2018 05:50:00 title = LE MISURAZIONI MATRIMONIALI - BIG BANG THEORY XI - PRIMA TV
 [  Debug ]    suspicious      title in index page  = YOUNG SHELDON I
 [  Debug ]       differs from title in showdetails = UN COMPUTER, UN PONY DI P.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 02/05/2018 05:50:00 stop = 02/05/2018 06:11:00 title = UN COMPUTER, UN PONY DI PLASTICA E UNA CASSA DI BIRRA - YOUNG SHELDON I - PRIMA TV
-[  Info  ]       Replaces ----- start = 02/05/2018 05:50:00 stop = 02/05/2018 06:11:00 title = YOUNG SHELDON I, 12 - YOUNG SHELDON I - PRIMA TV
+[  Info  ]       Replaces ----- start = 02/05/2018 05:50:00 stop = 02/05/2018 06:11:00 title = UN COMPUTER, UN PONY DI PLASTICA E UNA CASSA DI BIRRA - YOUNG SHELDON I - PRIMA TV
 [  Debug ]    suspicious      title in index page  = THE BIG BANG THEORY VII
 [  Debug ]       differs from title in showdetails = LA SIMULAZIONE DEL PRURITO NEURON.....
 [  Info  ]    epg correction : 
@@ -3726,13 +3703,13 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 02/05/2018 13:11:00 stop = 02/05/2018 13:36:00 title = LE MISURAZIONI MATRIMONIALI - BIG BANG THEORY XI - PRIMA TV
-[  Info  ]       Replaces ----- start = 02/05/2018 13:11:00 stop = 02/05/2018 13:36:00 title = L' MISURAZIONI MATRIMONIALI - BIG BANG THEORY XI - PRIMA TV
+[  Info  ]       Replaces ----- start = 02/05/2018 13:11:00 stop = 02/05/2018 13:36:00 title = LE MISURAZIONI MATRIMONIALI - BIG BANG THEORY XI - PRIMA TV
 [  Debug ]    suspicious      title in index page  = YOUNG SHELDON I
 [  Debug ]       differs from title in showdetails = UN COMPUTER, UN PONY DI P.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 02/05/2018 13:36:00 stop = 02/05/2018 14:01:00 title = UN COMPUTER, UN PONY DI PLASTICA E UNA CASSA DI BIRRA - YOUNG SHELDON I - PRIMA TV
-[  Info  ]       Replaces ----- start = 02/05/2018 13:36:00 stop = 02/05/2018 14:01:00 title = YOUNG SHELDON I, 12 - YOUNG SHELDON I - PRIMA TV
+[  Info  ]       Replaces ----- start = 02/05/2018 13:36:00 stop = 02/05/2018 14:01:00 title = UN COMPUTER, UN PONY DI PLASTICA E UNA CASSA DI BIRRA - YOUNG SHELDON I - PRIMA TV
 [  Debug ]    suspicious      title in index page  = CROWDED
 [  Debug ]       differs from title in showdetails = NIENTE E' COME SE.....
 [  Info  ]    epg correction : 
@@ -4086,12 +4063,6 @@
 [  Info  ]       show with ---- start = 04/05/2018 04:42:00 stop = 04/05/2018 05:00:00 title = FINALMENTE SOLI III - FAMIGLIA IN PRESTITO
 [  Info  ]       Replaces ----- start = 04/05/2018 04:42:00 stop = 04/05/2018 05:00:00 title = FINALMENTE SOLI III - FAMIGLIA IN PRESTITO
 [  Debug ]    suspicious      title in index page  = THE GOOD PLACE II
-[  Debug ]       differs from title in showdetails = VA TUTTO ALLA GRANDE! - THE.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 04/05/2018 05:30:00 stop = 04/05/2018 05:40:00 title = VA TUTTO ALLA GRANDE! - THE GOOD PLACE II
-[  Info  ]       Replaces ----- start = 04/05/2018 05:30:00 stop = 04/05/2018 05:40:00 title = VA TUTTO ALLA GRANDE! - THE GOOD PLACE II - PRIMA TV
-[  Debug ]    suspicious      title in index page  = THE GOOD PLACE II
 [  Debug ]       differs from title in showdetails = I RISOLUZIONE DANCE DANCE -.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
@@ -4276,13 +4247,13 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 04/05/2018 21:04:00 stop = 04/05/2018 21:29:00 title = LE MISURAZIONI MATRIMONIALI - BIG BANG THEORY XI - PRIMA TV
-[  Info  ]       Replaces ----- start = 04/05/2018 21:04:00 stop = 04/05/2018 21:29:00 title = L' MISURAZIONI MATRIMONIALI - BIG BANG THEORY XI - PRIMA TV
+[  Info  ]       Replaces ----- start = 04/05/2018 21:04:00 stop = 04/05/2018 21:29:00 title = LE MISURAZIONI MATRIMONIALI - BIG BANG THEORY XI - PRIMA TV
 [  Debug ]    suspicious      title in index page  = YOUNG SHELDON I
 [  Debug ]       differs from title in showdetails = UN COMPUTER, UN PONY DI P.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 04/05/2018 21:29:00 stop = 04/05/2018 21:56:00 title = UN COMPUTER, UN PONY DI PLASTICA E UNA CASSA DI BIRRA - YOUNG SHELDON I - PRIMA TV
-[  Info  ]       Replaces ----- start = 04/05/2018 21:29:00 stop = 04/05/2018 21:56:00 title = YOUNG SHELDON I, 12 - YOUNG SHELDON I - PRIMA TV
+[  Info  ]       Replaces ----- start = 04/05/2018 21:29:00 stop = 04/05/2018 21:56:00 title = UN COMPUTER, UN PONY DI PLASTICA E UNA CASSA DI BIRRA - YOUNG SHELDON I - PRIMA TV
 [  Debug ]    suspicious      title in index page  = THE BIG BANG THEORY VII
 [  Debug ]       differs from title in showdetails = L' AMALGAMAZIONE DELL'INCERTEZZA .....
 [  Info  ]    epg correction : 
@@ -4307,7 +4278,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 04/05/2018 23:35:00 stop = 05/05/2018 00:00:00 title = SALDI NUZIALI - SUPERSTORE I
 [  Info  ]       Replaces ----- start = 04/05/2018 23:35:00 stop = 05/05/2018 00:00:00 title = SALDI NUZIALI - SUPERSTORE I
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 158/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Stories) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = CHICAGO MED III
@@ -4447,7 +4418,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 29/04/2018 10:18:00 stop = 29/04/2018 11:09:00 title = COME UN SONNAMBULO - SHAMELESS VIII
-[  Info  ]       Replaces ----- start = 29/04/2018 10:18:00 stop = 29/04/2018 11:09:00 title = COME UN SONNAMBULO - SHAMELESS VIII - PRIMA TV
+[  Info  ]       Replaces ----- start = 29/04/2018 10:18:00 stop = 29/04/2018 11:09:00 title = COME UN SONNAMBULO - SHAMELESS VIII
 [  Debug ]    suspicious      title in index page  = MR. ROBOT III
 [  Debug ]       differs from title in showdetails = MODALITA' RISPARMIO ENE.....
 [  Info  ]    epg correction : 
@@ -4499,7 +4470,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 29/04/2018 23:47:00 stop = 30/04/2018 00:47:00 title = COME UN SONNAMBULO - SHAMELESS VIII
-[  Info  ]       Replaces ----- start = 29/04/2018 23:47:00 stop = 30/04/2018 00:47:00 title = COME UN SONNAMBULO - SHAMELESS VIII - PRIMA TV
+[  Info  ]       Replaces ----- start = 29/04/2018 23:47:00 stop = 30/04/2018 00:47:00 title = COME UN SONNAMBULO - SHAMELESS VIII
 [  Debug ]    suspicious      title in index page  = GIRLFRIENDS' GUIDE TO DIVORCE IV
 [  Debug ]       differs from title in showdetails = REGOLA #776: IL GATTO STA SEMPRE SUL TETTO.....
 [  Info  ]    epg correction : 
@@ -4685,7 +4656,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 02/05/2018 05:30:00 stop = 02/05/2018 06:31:00 title = COME UN SONNAMBULO - SHAMELESS VIII
-[  Info  ]       Replaces ----- start = 02/05/2018 05:30:00 stop = 02/05/2018 06:31:00 title = COME UN SONNAMBULO - SHAMELESS VIII - PRIMA TV
+[  Info  ]       Replaces ----- start = 02/05/2018 05:30:00 stop = 02/05/2018 06:31:00 title = COME UN SONNAMBULO - SHAMELESS VIII
 [  Debug ]    suspicious      title in index page  = THE BOLD TYPE
 [  Debug ]       differs from title in showdetails = LA DONNA DIETRO I VESTI.....
 [  Info  ]    epg correction : 
@@ -4737,7 +4708,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 02/05/2018 21:05:00 stop = 02/05/2018 21:55:00 title = COME UN SONNAMBULO - SHAMELESS VIII
-[  Info  ]       Replaces ----- start = 02/05/2018 21:05:00 stop = 02/05/2018 21:55:00 title = COME UN SONNAMBULO - SHAMELESS VIII - PRIMA TV
+[  Info  ]       Replaces ----- start = 02/05/2018 21:05:00 stop = 02/05/2018 21:55:00 title = COME UN SONNAMBULO - SHAMELESS VIII
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 02/05/2018 23:36:00 stop = 03/05/2018 00:20:00 title = HOSTAGES I, 10 - HOSTAGES I
@@ -4950,7 +4921,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 04/05/2018 23:41:00 stop = 05/05/2018 00:32:00 title = HOSTAGES I, 12 - HOSTAGES I
 [  Info  ]       Replaces ----- start = 04/05/2018 23:41:00 stop = 05/05/2018 00:32:00 title = HOSTAGES I, 12 - HOSTAGES I
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 159/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Sport superHD) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = EDICOLA PREMIUM
@@ -5586,10 +5557,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 29/04/2018 22:00:00 stop = 29/04/2018 22:26:00 title = EPISODIO 11 - 27/4 - FOOTBRAZIL
 [  Info  ]       Replaces ----- start = 29/04/2018 22:00:00 stop = 29/04/2018 22:26:00 title = EPISODIO 11 - 27/4 - FOOTBRAZIL
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 29/04/2018 22:54:00 stop = 30/04/2018 00:54:00 title = INTERNACIONAL - CRUZEIRO 29/4 - BRASILEIRAO
-[  Info  ]       Replaces ----- start = 29/04/2018 22:54:00 stop = 30/04/2018 00:54:00 title = INTERNACIONAL - CRUZEIRO (?)
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/04/2018 01:31:00 stop = 30/04/2018 03:16:00 title = FIORENTINA - NAPOLI - CAMPIONATO DI CALCIO SERIE A-'18 (FIORENTINA)
@@ -5632,22 +5599,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/04/2018 17:47:00 stop = 30/04/2018 18:15:00 title = CUORE TIFOSO 30/4 - CUORE TIFOSO-'18
 [  Info  ]       Replaces ----- start = 30/04/2018 17:47:00 stop = 30/04/2018 18:15:00 title = CUORE TIFOSO 30/4 - CUORE TIFOSO-'18
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 30/04/2018 18:15:00 stop = 30/04/2018 19:07:00 title = INTERNACIONAL - CRUZEIRO 29/4 - BRASILEIRAO
-[  Info  ]       Replaces ----- start = 30/04/2018 18:15:00 stop = 30/04/2018 19:07:00 title = INTERNACIONAL - CRUZEIRO 29/4 (?)
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 30/04/2018 19:07:00 stop = 30/04/2018 20:00:00 title = INTERNACIONAL - CRUZEIRO 29/4 - BRASILEIRAO
-[  Info  ]       Replaces ----- start = 30/04/2018 19:07:00 stop = 30/04/2018 20:00:00 title = INTERNACIONAL - CRUZEIRO 29/4 (?)
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 30/04/2018 23:30:00 stop = 01/05/2018 00:21:00 title = FLUMINENSE - SAN PAOLO 29/4 - BRASILEIRAO
-[  Info  ]       Replaces ----- start = 30/04/2018 23:30:00 stop = 01/05/2018 00:21:00 title = FLUMINENSE - SAN PAOLO 29/4 (?)
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 01/05/2018 00:21:00 stop = 01/05/2018 01:15:00 title = FLUMINENSE - SAN PAOLO 29/4 - BRASILEIRAO
-[  Info  ]       Replaces ----- start = 01/05/2018 00:21:00 stop = 01/05/2018 01:15:00 title = FLUMINENSE - SAN PAOLO 29/4 (?)
 [  Debug ]    suspicious      title in index page  = HIGHLIGHTS SERIE A TRENTACINQUESIMA GIORNATA
 [  Debug ]       differs from title in showdetails = TRENTACINQUESIMA GIORNATA 29/4 - HIGHLIGHTS SERIE A - .....
 [  Info  ]    epg correction : 
@@ -5676,28 +5627,12 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 01/05/2018 10:00:00 stop = 01/05/2018 10:30:00 title = TRENTOTTESIMA GIORNATA - DOMENICA 29/4 - HIGHLIGHTS SERIE B -'18
 [  Info  ]       Replaces ----- start = 01/05/2018 10:00:00 stop = 01/05/2018 10:30:00 title = TRENTOTTESIMA GIORNATA - DOMENICA 29/4 - HIGHLIGHTS SERIE B -'18
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 01/05/2018 12:15:00 stop = 01/05/2018 13:07:00 title = INTERNACIONAL - CRUZEIRO 29/4 - BRASILEIRAO
-[  Info  ]       Replaces ----- start = 01/05/2018 12:15:00 stop = 01/05/2018 13:07:00 title = INTERNACIONAL - CRUZEIRO 29/4 (?)
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 01/05/2018 13:07:00 stop = 01/05/2018 14:00:00 title = INTERNACIONAL - CRUZEIRO 29/4 - BRASILEIRAO
-[  Info  ]       Replaces ----- start = 01/05/2018 13:07:00 stop = 01/05/2018 14:00:00 title = INTERNACIONAL - CRUZEIRO 29/4 (?)
 [  Debug ]    suspicious      title in index page  = HIGHLIGHTS SERIE B
 [  Debug ]       differs from title in showdetails = TRENTOTTESIMA GIORNATA - DOM.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 01/05/2018 19:00:00 stop = 01/05/2018 19:30:00 title = TRENTOTTESIMA GIORNATA - DOMENICA 29/4 - HIGHLIGHTS SERIE B -'18
 [  Info  ]       Replaces ----- start = 01/05/2018 19:00:00 stop = 01/05/2018 19:30:00 title = TRENTOTTESIMA GIORNATA - DOMENICA 29/4 - HIGHLIGHTS SERIE B -'18
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 01/05/2018 20:00:00 stop = 01/05/2018 20:52:00 title = FLUMINENSE - SAN PAOLO 29/4 - BRASILEIRAO
-[  Info  ]       Replaces ----- start = 01/05/2018 20:00:00 stop = 01/05/2018 20:52:00 title = FLUMINENSE - SAN PAOLO 29/4 (?)
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 01/05/2018 20:52:00 stop = 01/05/2018 21:45:00 title = FLUMINENSE - SAN PAOLO 29/4 - BRASILEIRAO
-[  Info  ]       Replaces ----- start = 01/05/2018 20:52:00 stop = 01/05/2018 21:45:00 title = FLUMINENSE - SAN PAOLO 29/4 (?)
 [  Debug ]    suspicious      title in index page  = BARCA TV
 [  Debug ]       differs from title in showdetails = EPISODIO 22  2/5 -.....
 [  Info  ]    epg correction : 
@@ -5708,14 +5643,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 02/05/2018 02:31:00 stop = 02/05/2018 04:15:00 title = INTER - JUVENTUS - CAMPIONATO DI CALCIO SERIE A 17 -18 (INTER)
 [  Info  ]       Replaces ----- start = 02/05/2018 02:31:00 stop = 02/05/2018 04:15:00 title = INTER - JUVENTUS - CAMPIONATO DI CALCIO SERIE A 17 -18 (INTER)
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 02/05/2018 05:00:00 stop = 02/05/2018 05:51:00 title = INTERNACIONAL - CRUZEIRO 29/4 - BRASILEIRAO
-[  Info  ]       Replaces ----- start = 02/05/2018 05:00:00 stop = 02/05/2018 05:51:00 title = INTERNACIONAL - CRUZEIRO 29/4 (?)
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 02/05/2018 05:51:00 stop = 02/05/2018 06:45:00 title = INTERNACIONAL - CRUZEIRO 29/4 - BRASILEIRAO
-[  Info  ]       Replaces ----- start = 02/05/2018 05:51:00 stop = 02/05/2018 06:45:00 title = INTERNACIONAL - CRUZEIRO 29/4 (?)
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 02/05/2018 10:45:00 stop = 02/05/2018 12:30:00 title = FIORENTINA - NAPOLI - CAMPIONATO DI CALCIO SERIE A-'18 (FIORENTINA)
@@ -5748,14 +5675,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 03/05/2018 04:15:00 stop = 03/05/2018 05:00:00 title = DICIASSETTESIMA GIORNATA 4/5 - UN GIRONE FA
 [  Info  ]       Replaces ----- start = 03/05/2018 04:15:00 stop = 03/05/2018 05:00:00 title = DICIASSETTESIMA GIORNATA 4/5 - UN GIRONE FA
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 03/05/2018 06:45:00 stop = 03/05/2018 07:37:00 title = FLUMINENSE - SAN PAOLO 29/4 - BRASILEIRAO
-[  Info  ]       Replaces ----- start = 03/05/2018 06:45:00 stop = 03/05/2018 07:37:00 title = FLUMINENSE - SAN PAOLO 29/4 (?)
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 03/05/2018 07:37:00 stop = 03/05/2018 08:30:00 title = FLUMINENSE - SAN PAOLO 29/4 - BRASILEIRAO
-[  Info  ]       Replaces ----- start = 03/05/2018 07:37:00 stop = 03/05/2018 08:30:00 title = FLUMINENSE - SAN PAOLO 29/4 (?)
 [  Debug ]    suspicious      title in index page  = UN GIRONE FA DICIASSETTESIMA GIORNATA
 [  Debug ]       differs from title in showdetails = DICIASSETTESIMA GIORNATA 4/5 - UN GIRONE FA
 [  Info  ]    epg correction : 
@@ -5824,11 +5743,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 04/05/2018 20:00:00 stop = 04/05/2018 21:45:00 title = INTER - JUVENTUS - CAMPIONATO DI CALCIO SERIE A 17 -18 (INTER)
 [  Info  ]       Replaces ----- start = 04/05/2018 20:00:00 stop = 04/05/2018 21:45:00 title = INTER - JUVENTUS - CAMPIONATO DI CALCIO SERIE A 17 -18 (INTER)
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 04/05/2018 23:30:00 stop = 05/05/2018 00:21:00 title = INTERNACIONAL - CRUZEIRO 29/4 - BRASILEIRAO
-[  Info  ]       Replaces ----- start = 04/05/2018 23:30:00 stop = 05/05/2018 00:21:00 title = INTERNACIONAL - CRUZEIRO 29/4 (?)
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 161/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Calcio 1) -- mode Incremental
 [  Info  ]    epg correction : 
@@ -5919,10 +5834,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 29/04/2018 22:00:00 stop = 29/04/2018 22:26:00 title = EPISODIO 11 - 27/4 - FOOTBRAZIL
 [  Info  ]       Replaces ----- start = 29/04/2018 22:00:00 stop = 29/04/2018 22:26:00 title = EPISODIO 11 - 27/4 - FOOTBRAZIL
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 29/04/2018 22:54:00 stop = 30/04/2018 00:54:00 title = INTERNACIONAL - CRUZEIRO 29/4 - BRASILEIRAO
-[  Info  ]       Replaces ----- start = 29/04/2018 22:54:00 stop = 30/04/2018 00:54:00 title = INTERNACIONAL - CRUZEIRO (?)
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/04/2018 01:31:00 stop = 30/04/2018 03:16:00 title = FIORENTINA - NAPOLI - CAMPIONATO DI CALCIO SERIE A-'18 (FIORENTINA)
@@ -5965,22 +5876,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/04/2018 17:47:00 stop = 30/04/2018 18:15:00 title = CUORE TIFOSO 30/4 - CUORE TIFOSO-'18
 [  Info  ]       Replaces ----- start = 30/04/2018 17:47:00 stop = 30/04/2018 18:15:00 title = CUORE TIFOSO 30/4 - CUORE TIFOSO-'18
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 30/04/2018 18:15:00 stop = 30/04/2018 19:07:00 title = INTERNACIONAL - CRUZEIRO 29/4 - BRASILEIRAO
-[  Info  ]       Replaces ----- start = 30/04/2018 18:15:00 stop = 30/04/2018 19:07:00 title = INTERNACIONAL - CRUZEIRO 29/4 (?)
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 30/04/2018 19:07:00 stop = 30/04/2018 20:00:00 title = INTERNACIONAL - CRUZEIRO 29/4 - BRASILEIRAO
-[  Info  ]       Replaces ----- start = 30/04/2018 19:07:00 stop = 30/04/2018 20:00:00 title = INTERNACIONAL - CRUZEIRO 29/4 (?)
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 30/04/2018 23:30:00 stop = 01/05/2018 00:21:00 title = FLUMINENSE - SAN PAOLO 29/4 - BRASILEIRAO
-[  Info  ]       Replaces ----- start = 30/04/2018 23:30:00 stop = 01/05/2018 00:21:00 title = FLUMINENSE - SAN PAOLO 29/4 (?)
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 01/05/2018 00:21:00 stop = 01/05/2018 01:15:00 title = FLUMINENSE - SAN PAOLO 29/4 - BRASILEIRAO
-[  Info  ]       Replaces ----- start = 01/05/2018 00:21:00 stop = 01/05/2018 01:15:00 title = FLUMINENSE - SAN PAOLO 29/4 (?)
 [  Debug ]    suspicious      title in index page  = HIGHLIGHTS SERIE A TRENTACINQUESIMA GIORNATA
 [  Debug ]       differs from title in showdetails = TRENTACINQUESIMA GIORNATA 29/4 - HIGHLIGHTS SERIE A - .....
 [  Info  ]    epg correction : 
@@ -6009,28 +5904,12 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 01/05/2018 10:00:00 stop = 01/05/2018 10:30:00 title = TRENTOTTESIMA GIORNATA - DOMENICA 29/4 - HIGHLIGHTS SERIE B -'18
 [  Info  ]       Replaces ----- start = 01/05/2018 10:00:00 stop = 01/05/2018 10:30:00 title = TRENTOTTESIMA GIORNATA - DOMENICA 29/4 - HIGHLIGHTS SERIE B -'18
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 01/05/2018 12:15:00 stop = 01/05/2018 13:07:00 title = INTERNACIONAL - CRUZEIRO 29/4 - BRASILEIRAO
-[  Info  ]       Replaces ----- start = 01/05/2018 12:15:00 stop = 01/05/2018 13:07:00 title = INTERNACIONAL - CRUZEIRO 29/4 (?)
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 01/05/2018 13:07:00 stop = 01/05/2018 14:00:00 title = INTERNACIONAL - CRUZEIRO 29/4 - BRASILEIRAO
-[  Info  ]       Replaces ----- start = 01/05/2018 13:07:00 stop = 01/05/2018 14:00:00 title = INTERNACIONAL - CRUZEIRO 29/4 (?)
 [  Debug ]    suspicious      title in index page  = HIGHLIGHTS SERIE B
 [  Debug ]       differs from title in showdetails = TRENTOTTESIMA GIORNATA - DOM.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 01/05/2018 19:00:00 stop = 01/05/2018 19:30:00 title = TRENTOTTESIMA GIORNATA - DOMENICA 29/4 - HIGHLIGHTS SERIE B -'18
 [  Info  ]       Replaces ----- start = 01/05/2018 19:00:00 stop = 01/05/2018 19:30:00 title = TRENTOTTESIMA GIORNATA - DOMENICA 29/4 - HIGHLIGHTS SERIE B -'18
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 01/05/2018 20:00:00 stop = 01/05/2018 20:52:00 title = FLUMINENSE - SAN PAOLO 29/4 - BRASILEIRAO
-[  Info  ]       Replaces ----- start = 01/05/2018 20:00:00 stop = 01/05/2018 20:52:00 title = FLUMINENSE - SAN PAOLO 29/4 (?)
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 01/05/2018 20:52:00 stop = 01/05/2018 21:45:00 title = FLUMINENSE - SAN PAOLO 29/4 - BRASILEIRAO
-[  Info  ]       Replaces ----- start = 01/05/2018 20:52:00 stop = 01/05/2018 21:45:00 title = FLUMINENSE - SAN PAOLO 29/4 (?)
 [  Debug ]    suspicious      title in index page  = BARCA TV
 [  Debug ]       differs from title in showdetails = EPISODIO 22  2/5 -.....
 [  Info  ]    epg correction : 
@@ -6041,14 +5920,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 02/05/2018 02:31:00 stop = 02/05/2018 04:15:00 title = INTER - JUVENTUS - CAMPIONATO DI CALCIO SERIE A 17 -18 (INTER)
 [  Info  ]       Replaces ----- start = 02/05/2018 02:31:00 stop = 02/05/2018 04:15:00 title = INTER - JUVENTUS - CAMPIONATO DI CALCIO SERIE A 17 -18 (INTER)
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 02/05/2018 05:00:00 stop = 02/05/2018 05:51:00 title = INTERNACIONAL - CRUZEIRO 29/4 - BRASILEIRAO
-[  Info  ]       Replaces ----- start = 02/05/2018 05:00:00 stop = 02/05/2018 05:51:00 title = INTERNACIONAL - CRUZEIRO 29/4 (?)
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 02/05/2018 05:51:00 stop = 02/05/2018 06:45:00 title = INTERNACIONAL - CRUZEIRO 29/4 - BRASILEIRAO
-[  Info  ]       Replaces ----- start = 02/05/2018 05:51:00 stop = 02/05/2018 06:45:00 title = INTERNACIONAL - CRUZEIRO 29/4 (?)
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 02/05/2018 10:45:00 stop = 02/05/2018 12:30:00 title = FIORENTINA - NAPOLI - CAMPIONATO DI CALCIO SERIE A-'18 (FIORENTINA)
@@ -6081,14 +5952,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 03/05/2018 04:15:00 stop = 03/05/2018 05:00:00 title = DICIASSETTESIMA GIORNATA 4/5 - UN GIRONE FA
 [  Info  ]       Replaces ----- start = 03/05/2018 04:15:00 stop = 03/05/2018 05:00:00 title = DICIASSETTESIMA GIORNATA 4/5 - UN GIRONE FA
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 03/05/2018 06:45:00 stop = 03/05/2018 07:37:00 title = FLUMINENSE - SAN PAOLO 29/4 - BRASILEIRAO
-[  Info  ]       Replaces ----- start = 03/05/2018 06:45:00 stop = 03/05/2018 07:37:00 title = FLUMINENSE - SAN PAOLO 29/4 (?)
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 03/05/2018 07:37:00 stop = 03/05/2018 08:30:00 title = FLUMINENSE - SAN PAOLO 29/4 - BRASILEIRAO
-[  Info  ]       Replaces ----- start = 03/05/2018 07:37:00 stop = 03/05/2018 08:30:00 title = FLUMINENSE - SAN PAOLO 29/4 (?)
 [  Debug ]    suspicious      title in index page  = UN GIRONE FA DICIASSETTESIMA GIORNATA
 [  Debug ]       differs from title in showdetails = DICIASSETTESIMA GIORNATA 4/5 - UN GIRONE FA
 [  Info  ]    epg correction : 
@@ -6157,16 +6020,12 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 04/05/2018 20:00:00 stop = 04/05/2018 21:45:00 title = INTER - JUVENTUS - CAMPIONATO DI CALCIO SERIE A 17 -18 (INTER)
 [  Info  ]       Replaces ----- start = 04/05/2018 20:00:00 stop = 04/05/2018 21:45:00 title = INTER - JUVENTUS - CAMPIONATO DI CALCIO SERIE A 17 -18 (INTER)
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 04/05/2018 23:30:00 stop = 05/05/2018 00:21:00 title = INTERNACIONAL - CRUZEIRO 29/4 - BRASILEIRAO
-[  Info  ]       Replaces ----- start = 04/05/2018 23:30:00 stop = 05/05/2018 00:21:00 title = INTERNACIONAL - CRUZEIRO 29/4 (?)
 [  Info  ] 0.13 sec/update
 [  Debug ] 
-[  Debug ] 36108 shows in 163 channels
-[  Debug ] 948 updated shows
-[  Debug ] 1 new shows added
+[  Debug ] 36113 shows in 163 channels
+[  Debug ] 933 updated shows
+[  Debug ] 6 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 28/04/2018 08:17:36 done in 12m 33s
+[        ] Job finished at 28/04/2018 10:17:25 done in 12m 22s
 [  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
