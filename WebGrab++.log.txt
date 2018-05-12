@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 12/05/2018 08:05:03
+[        ] Job started at 12/05/2018 10:05:03
 [  Debug ] 
 [  Debug ] Running  on: Unix 3.13.0.132
 [  Debug ] Environment: 4.0.30319.42000
@@ -29,7 +29,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+02:00	(DST in effect)
 [  Debug ] 	next DST dates  :	28/10/2018 03:00 (local)
 [  Debug ] 	                :	31/03/2019 02:00 (local)
-[  Debug ] 	local time now  :	12/05/2018 08:05:04
+[  Debug ] 	local time now  :	12/05/2018 10:05:03
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -227,16 +227,20 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   7/163 ) MEDIASET.IT -- chan. (xmltv_id=Italia 1 HD) -- mode Incremental
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
+[Warning ] error downloading page: Error getting response stream (ReadDone1): ReceiveFailure
+[Warning ] pausing 2 of 4 times for 10 seconds before re-try.
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   8/163 ) MEDIASET.IT -- chan. (xmltv_id=Italia 2) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   9/163 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La1 HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.03 sec/update
 [  Debug ] 
 [  Info  ] (  10/163 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La2 HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.03 sec/update
 [  Debug ] 
 [  Info  ] (  11/163 ) STASERAINTV.COM -- chan. (xmltv_id=La 5) -- mode Incremental
 [  Info  ] 
@@ -631,7 +635,62 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 124/163 ) RAI.IT -- chan. (xmltv_id=Rai Gulp HD) -- mode Incremental
-[  Info  ] 
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 14/05/2018 08:20:00 stop = 14/05/2018 08:45:00 title = Heidi
+[  Info  ]       Replaces ----- start = 14/05/2018 08:10:00 stop = 14/05/2018 08:35:00 title = Heidi
+[  Info  ]       Replaces ----- start = 14/05/2018 08:35:00 stop = 14/05/2018 09:00:00 title = Heidi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 14/05/2018 08:45:00 stop = 14/05/2018 09:10:00 title = Heidi
+[  Info  ]       Replaces ----- start = 14/05/2018 08:35:00 stop = 14/05/2018 09:00:00 title = Heidi
+[  Info  ]       Replaces ----- start = 14/05/2018 09:00:00 stop = 14/05/2018 09:05:00 title = Paf Il Cane
+[  Info  ]       Replaces ----- start = 14/05/2018 09:05:00 stop = 14/05/2018 09:15:00 title = Paf Il Cane
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 14/05/2018 10:15:00 stop = 14/05/2018 10:25:00 title = The Jungle Book
+[  Info  ]       Replaces ----- start = 14/05/2018 10:05:00 stop = 14/05/2018 10:20:00 title = Pumpkin Reports
+[  Info  ]       Replaces ----- start = 14/05/2018 10:20:00 stop = 14/05/2018 10:30:00 title = The Jungle Book
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 14/05/2018 10:25:00 stop = 14/05/2018 10:40:00 title = The Jungle Book
+[  Info  ]       Replaces ----- start = 14/05/2018 10:20:00 stop = 14/05/2018 10:30:00 title = The Jungle Book
+[  Info  ]       Replaces ----- start = 14/05/2018 10:30:00 stop = 14/05/2018 10:45:00 title = The Jungle Book
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 14/05/2018 12:00:00 stop = 14/05/2018 12:25:00 title = Zorro
+[  Info  ]       Replaces ----- start = 14/05/2018 12:00:00 stop = 14/05/2018 12:05:00 title = Snap
+[  Info  ]       Replaces ----- start = 14/05/2018 12:05:00 stop = 14/05/2018 12:30:00 title = Zorro
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 14/05/2018 12:50:00 stop = 14/05/2018 13:15:00 title = Inazuma Eleven Go
+[  Info  ]       Replaces ----- start = 14/05/2018 12:40:00 stop = 14/05/2018 12:55:00 title = Max E Maestro
+[  Info  ]       Replaces ----- start = 14/05/2018 12:55:00 stop = 14/05/2018 13:20:00 title = Inazuma Eleven Go
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 14/05/2018 13:15:00 stop = 14/05/2018 13:40:00 title = Inazuma Eleven Go
+[  Info  ]       Replaces ----- start = 14/05/2018 12:55:00 stop = 14/05/2018 13:20:00 title = Inazuma Eleven Go
+[  Info  ]       Replaces ----- start = 14/05/2018 13:20:00 stop = 14/05/2018 13:45:00 title = Inazuma Eleven Go
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 15/05/2018 08:20:00 stop = 15/05/2018 08:45:00 title = Heidi
+[  Info  ]       Replaces ----- start = 15/05/2018 08:10:00 stop = 15/05/2018 08:35:00 title = Heidi
+[  Info  ]       Replaces ----- start = 15/05/2018 08:35:00 stop = 15/05/2018 09:00:00 title = Heidi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 15/05/2018 08:45:00 stop = 15/05/2018 09:05:00 title = Heidi
+[  Info  ]       Replaces ----- start = 15/05/2018 08:35:00 stop = 15/05/2018 09:00:00 title = Heidi
+[  Info  ]       Replaces ----- start = 15/05/2018 09:00:00 stop = 15/05/2018 09:05:00 title = Paf Il Cane
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 15/05/2018 10:25:00 stop = 15/05/2018 10:35:00 title = The Jungle Book
+[  Info  ]       Replaces ----- start = 15/05/2018 10:20:00 stop = 15/05/2018 10:30:00 title = The Jungle Book
+[  Info  ]       Replaces ----- start = 15/05/2018 10:30:00 stop = 15/05/2018 10:45:00 title = The Jungle Book
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 15/05/2018 10:35:00 stop = 15/05/2018 10:45:00 title = The Jungle Book
+[  Info  ]       Replaces ----- start = 15/05/2018 10:30:00 stop = 15/05/2018 10:45:00 title = The Jungle Book
+[  Info  ] 0.13 sec/update
 [  Debug ] 
 [  Info  ] ( 125/163 ) RAI.IT -- chan. (xmltv_id=Rai YoYo HD) -- mode Incremental
 [  Info  ] 
@@ -649,8 +708,6 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 130/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cartonito) -- mode Incremental
-[Warning ] error downloading page: Error getting response stream (ReadDone2): ReceiveFailure
-[Warning ] pausing 1 of 4 times for 5 seconds before re-try.
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 131/163 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Baby TV) -- mode Incremental
@@ -714,7 +771,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 14/05/2018 22:11:00 stop = 14/05/2018 23:44:00 title = Cleveland Abduction
 [  Info  ]       Replaces ----- start = 14/05/2018 22:11:00 stop = 14/05/2018 23:44:00 title = Cleveland Abduction
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.11 sec/update
 [  Debug ] 
 [  Info  ] ( 148/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Energy) -- mode Incremental
 [  Info  ]    epg correction : 
@@ -725,7 +782,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 16/05/2018 16:47:00 stop = 16/05/2018 18:23:00 title = Nightmare: Dal Profondo Della Notte
 [  Info  ]       Replaces ----- start = 16/05/2018 16:47:00 stop = 16/05/2018 18:23:00 title = Nightmare: Dal Profondo Della Notte
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 149/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Emotion) -- mode Incremental
 [  Info  ]    epg correction : 
@@ -748,7 +805,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 18/05/2018 04:02:00 stop = 18/05/2018 05:30:00 title = Sarai Sempre La Mia Bambina
 [  Info  ]       Replaces ----- start = 18/05/2018 04:02:00 stop = 18/05/2018 05:30:00 title = Sarai Sempre La Mia Bambina
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 150/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Comedy) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = I FACCE DA RIDERE - MATTATORI
@@ -781,7 +838,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 18/05/2018 03:41:00 stop = 18/05/2018 03:47:00 title = LUCA & PAOLO - ALLORA MAMBO! - FACCE DA RIDERE
 [  Info  ]       Replaces ----- start = 18/05/2018 03:41:00 stop = 18/05/2018 03:47:00 title = LUCA & PAOLO - ALLORA MAMBO! - FACCE DA RIDERE
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 151/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Investigation Discovery) -- mode Incremental
 [  Info  ] 
@@ -863,7 +920,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 18/05/2018 18:50:00 stop = 18/05/2018 19:45:00 title = PIU' O MENO - FAIDA: BETTE & JOAN
 [  Info  ]       Replaces ----- start = 18/05/2018 18:50:00 stop = 18/05/2018 19:45:00 title = PIU' O MENO - FAIDA: BETTE & JOAN
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.31 sec/update
 [  Debug ] 
 [  Info  ] ( 153/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Paramount Channel) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = CINECHAT - SIDNEY LUMET
@@ -942,7 +999,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 18/05/2018 18:50:00 stop = 18/05/2018 19:45:00 title = PIU' O MENO - FAIDA: BETTE & JOAN
 [  Info  ]       Replaces ----- start = 18/05/2018 18:50:00 stop = 18/05/2018 19:45:00 title = PIU' O MENO - FAIDA: BETTE & JOAN
-[  Info  ] 0.17 sec/update
+[  Info  ] 0.13 sec/update
 [  Debug ] 
 [  Info  ] ( 154/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action HD) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = CHICAGO FIRE VI
@@ -1541,7 +1598,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 18/05/2018 23:31:00 stop = 19/05/2018 00:21:00 title = UNA NUOVA REALTA' - GRIMM IV
 [  Info  ]       Replaces ----- start = 18/05/2018 23:31:00 stop = 19/05/2018 00:21:00 title = UNA NUOVA REALTA' - GRIMM IV
-[  Info  ] 0.16 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 155/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action +24) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = SUPERNATURAL XI
@@ -2707,7 +2764,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 18/05/2018 21:02:00 stop = 18/05/2018 21:58:00 title = LA TANA DEL CONIGLIO - CHICAGO P.D. V
 [  Info  ]       Replaces ----- start = 18/05/2018 21:02:00 stop = 18/05/2018 21:58:00 title = LA TANA DEL CONIGLIO - CHICAGO P.D. V
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.13 sec/update
 [  Debug ] 
 [  Info  ] ( 157/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Joy) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = GREAT NEWS II
@@ -2856,18 +2913,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 12/05/2018 19:48:00 stop = 12/05/2018 20:15:00 title = IL NUOVO CHE AVANZA - SUPERSTORE II
 [  Info  ]       Replaces ----- start = 12/05/2018 19:48:00 stop = 12/05/2018 20:15:00 title = IL NUOVO CHE AVANZA - SUPERSTORE II
-[  Debug ]    suspicious      title in index page  = THE GOOD PLACE II
-[  Debug ]       differs from title in showdetails = CRISI ESISTENZIALE - THE GO.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 12/05/2018 21:05:00 stop = 12/05/2018 21:30:00 title = CRISI ESISTENZIALE - THE GOOD PLACE II
-[  Info  ]       Replaces ----- start = 12/05/2018 21:05:00 stop = 12/05/2018 21:30:00 title = CRISI ESISTENZIALE - THE GOOD PLACE II - PRIMA TV
-[  Debug ]    suspicious      title in index page  = THE GOOD PLACE II
-[  Debug ]       differs from title in showdetails = IL DILEMMA DEL TRAM - THE G.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 12/05/2018 21:30:00 stop = 12/05/2018 21:56:00 title = IL DILEMMA DEL TRAM - THE GOOD PLACE II
-[  Info  ]       Replaces ----- start = 12/05/2018 21:30:00 stop = 12/05/2018 21:56:00 title = IL DILEMMA DEL TRAM - THE GOOD PLACE II - PRIMA TV
 [  Debug ]    suspicious      title in index page  = BIG BANG THEORY VIII
 [  Debug ]       differs from title in showdetails = IL RIFLESSO DELLO CHAMPAGNE - .....
 [  Info  ]    epg correction : 
@@ -2898,18 +2943,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 12/05/2018 23:57:00 stop = 13/05/2018 00:43:00 title = DUETTI AMERICANI - PSYCH II
 [  Info  ]       Replaces ----- start = 12/05/2018 23:57:00 stop = 13/05/2018 00:43:00 title = DUETTI AMERICANI - PSYCH II
-[  Debug ]    suspicious      title in index page  = THE GOOD PLACE II
-[  Debug ]       differs from title in showdetails = CRISI ESISTENZIALE - THE GO.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 13/05/2018 01:33:00 stop = 13/05/2018 01:57:00 title = CRISI ESISTENZIALE - THE GOOD PLACE II
-[  Info  ]       Replaces ----- start = 13/05/2018 01:33:00 stop = 13/05/2018 01:57:00 title = CRISI ESISTENZIALE - THE GOOD PLACE II - PRIMA TV
-[  Debug ]    suspicious      title in index page  = THE GOOD PLACE II
-[  Debug ]       differs from title in showdetails = IL DILEMMA DEL TRAM - THE G.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 13/05/2018 01:57:00 stop = 13/05/2018 02:18:00 title = IL DILEMMA DEL TRAM - THE GOOD PLACE II
-[  Info  ]       Replaces ----- start = 13/05/2018 01:57:00 stop = 13/05/2018 02:18:00 title = IL DILEMMA DEL TRAM - THE GOOD PLACE II - PRIMA TV
 [  Debug ]    suspicious      title in index page  = UGO
 [  Debug ]       differs from title in showdetails = MARITO IN PRE.....
 [  Info  ]    epg correction : 
@@ -3024,18 +3057,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 13/05/2018 14:54:00 stop = 13/05/2018 15:19:00 title = IL GIORNO DEL RINGRAZIAMENTO VIII - THE MIDDLE VIII
 [  Info  ]       Replaces ----- start = 13/05/2018 14:54:00 stop = 13/05/2018 15:19:00 title = IL GIORNO DEL RINGRAZIAMENTO VIII - THE MIDDLE VIII
-[  Debug ]    suspicious      title in index page  = THE GOOD PLACE II
-[  Debug ]       differs from title in showdetails = CRISI ESISTENZIALE - THE GO.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 13/05/2018 15:44:00 stop = 13/05/2018 16:09:00 title = CRISI ESISTENZIALE - THE GOOD PLACE II
-[  Info  ]       Replaces ----- start = 13/05/2018 15:44:00 stop = 13/05/2018 16:09:00 title = CRISI ESISTENZIALE - THE GOOD PLACE II - PRIMA TV
-[  Debug ]    suspicious      title in index page  = THE GOOD PLACE II
-[  Debug ]       differs from title in showdetails = IL DILEMMA DEL TRAM - THE G.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 13/05/2018 16:09:00 stop = 13/05/2018 16:35:00 title = IL DILEMMA DEL TRAM - THE GOOD PLACE II
-[  Info  ]       Replaces ----- start = 13/05/2018 16:09:00 stop = 13/05/2018 16:35:00 title = IL DILEMMA DEL TRAM - THE GOOD PLACE II - PRIMA TV
 [  Debug ]    suspicious      title in index page  = PSYCH II
 [  Debug ]       differs from title in showdetails = DUETTI AMERICANI -.....
 [  Info  ]    epg correction : 
@@ -4603,7 +4624,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 18/05/2018 21:04:00 stop = 18/05/2018 21:56:00 title = REGOLA #49: LASCIA CHE BRILLI - GIRLFRIENDS' GUIDE TO DIVORCE  IV
 [  Info  ]       Replaces ----- start = 18/05/2018 21:04:00 stop = 18/05/2018 21:56:00 title = REGOLA #49: LASCIA CHE BRILLI - GIRLFRIENDS' GUIDE TO DIVORCE  IV
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.13 sec/update
 [  Debug ] 
 [  Info  ] ( 159/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Sport superHD) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = EDICOLA PREMIUM
@@ -5136,7 +5157,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 18/05/2018 15:30:00 stop = 18/05/2018 16:00:00 title = VENERDI 18/5 - PREVIEW LIGUE 1 -'18
 [  Info  ]       Replaces ----- start = 18/05/2018 15:30:00 stop = 18/05/2018 16:00:00 title = VENERDI 18/5 - PREVIEW LIGUE 1 -'18
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 160/163 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Sport 2 HD) -- mode Incremental
 [  Info  ]    epg correction : 
@@ -5772,10 +5793,10 @@
 [  Info  ]       Replaces ----- start = 18/05/2018 23:30:00 stop = 19/05/2018 02:31:00 title = EPISODIO 26  19/5 - BARCA TV
 [  Info  ] 0.14 sec/update
 [  Debug ] 
-[  Debug ] 35777 shows in 163 channels
-[  Debug ] 875 updated shows
-[  Debug ] 0 new shows added
+[  Debug ] 35781 shows in 163 channels
+[  Debug ] 913 updated shows
+[  Debug ] 5 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 12/05/2018 08:17:07 done in 12m 3s
+[        ] Job finished at 12/05/2018 10:18:26 done in 13m 23s
 [  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
