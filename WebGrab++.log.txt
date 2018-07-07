@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 07/07/2018 12:05:03
+[        ] Job started at 07/07/2018 14:05:03
 [  Debug ] 
 [  Debug ] Running  on: Unix 3.13.0.132
 [  Debug ] Environment: 4.0.30319.42000
@@ -29,7 +29,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+02:00	(DST in effect)
 [  Debug ] 	next DST dates  :	28/10/2018 03:00 (local)
 [  Debug ] 	                :	31/03/2019 02:00 (local)
-[  Debug ] 	local time now  :	07/07/2018 12:05:04
+[  Debug ] 	local time now  :	07/07/2018 14:05:04
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -468,7 +468,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  67/167 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Eurosport 1) -- mode Incremental
-[  Info  ] 0.17 sec/update
+[  Info  ] 0.18 sec/update
 [  Debug ] 
 [  Info  ] (  68/167 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Eurosport 2) -- mode Incremental
 [  Info  ] 
@@ -488,12 +488,12 @@
 [  Info  ] (  73/167 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Uno HD) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = F1  (diretta)
 [  Debug ]       differs from title in showdetails = F1 GP Gran Bretagna - G.....
-[  Info  ] 0.18 sec/update
+[  Info  ] 0.21 sec/update
 [  Debug ] 
 [  Info  ] (  74/167 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Uno SuperHD) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = F1  (diretta)
 [  Debug ]       differs from title in showdetails = F1 GP Gran Bretagna - G.....
-[  Info  ] 0.18 sec/update
+[  Info  ] 0.19 sec/update
 [  Debug ] 
 [  Info  ] (  75/167 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport SerieA SuperHD) -- mode Incremental
 [  Info  ] 
@@ -526,7 +526,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  85/167 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Eurosport 1 Italia) -- mode Incremental
-[  Info  ] 0.18 sec/update
+[  Info  ] 0.19 sec/update
 [  Debug ] 
 [  Info  ] (  86/167 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Eurosport 2 Italia) -- mode Incremental
 [  Info  ] 
@@ -669,39 +669,54 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 127/167 ) RAI.IT -- chan. (xmltv_id=Rai YoYo HD) -- mode Incremental
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 12/07/2018 02:00:00 stop = 12/07/2018 02:00:00 title = Teletubbies 5
-[  Info  ]       Added before - start = 12/07/2018 02:00:00 stop = 12/07/2018 02:00:00 title = Sam Il Pompiere
+[  Debug ] multiple entry of a show at 20180712020000 +0200
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 12/07/2018 02:00:00 stop = 12/07/2018 02:10:00 title = Sam Il Pompiere
-[  Info  ]       Replaces ----- start = 12/07/2018 02:00:00 stop = 12/07/2018 02:10:00 title = Teletubbies 5
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 12/07/2018 02:50:00 stop = 12/07/2018 02:50:00 title = La Pimpa
-[  Info  ]       Added before - start = 12/07/2018 02:50:00 stop = 12/07/2018 02:50:00 title = Gatto Miro'
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 12/07/2018 04:00:00 stop = 12/07/2018 04:00:00 title = Sam Sam
-[  Info  ]       Added before - start = 12/07/2018 04:00:00 stop = 12/07/2018 04:00:00 title = Teletubbies 5
+[  Info  ]       show with ---- start = 12/07/2018 02:00:00 stop = 12/07/2018 02:10:00 title = Teletubbies 5
+[  Info  ]       Replaces ----- start = 12/07/2018 02:00:00 stop = 12/07/2018 02:10:00 title = Sam Il Pompiere
+[  Debug ] multiple entry of a show at 20180712025000 +0200
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 12/07/2018 04:00:00 stop = 12/07/2018 04:05:00 title = Teletubbies 5
-[  Info  ]       Replaces ----- start = 12/07/2018 04:00:00 stop = 12/07/2018 04:05:00 title = Sam Sam
+[  Info  ]       show with ---- start = 12/07/2018 02:50:00 stop = 12/07/2018 02:55:00 title = La Pimpa
+[  Info  ]       Replaces ----- start = 12/07/2018 02:50:00 stop = 12/07/2018 02:55:00 title = Gatto Miro'
 [  Info  ]    epg correction : 
 [  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 12/07/2018 04:25:00 stop = 12/07/2018 04:25:00 title = Dixiland
-[  Info  ]       Added before - start = 12/07/2018 04:25:00 stop = 12/07/2018 04:25:00 title = Teletubbies 6
+[  Info  ]       show with ---- start = 12/07/2018 03:00:00 stop = 12/07/2018 03:00:00 title = La Pimpa Iv
+[  Info  ]       Added before - start = 12/07/2018 03:00:00 stop = 12/07/2018 03:00:00 title = La Pimpa
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 12/07/2018 04:25:00 stop = 12/07/2018 04:30:00 title = Teletubbies 6
-[  Info  ]       Replaces ----- start = 12/07/2018 04:25:00 stop = 12/07/2018 04:30:00 title = Dixiland
+[  Info  ]       show with ---- start = 12/07/2018 03:00:00 stop = 12/07/2018 03:05:00 title = La Pimpa
+[  Info  ]       Replaces ----- start = 12/07/2018 03:00:00 stop = 12/07/2018 03:05:00 title = La Pimpa Iv
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 12/07/2018 03:10:00 stop = 12/07/2018 03:10:00 title = Sigla Buonanotte
+[  Info  ]       Added before - start = 12/07/2018 03:10:00 stop = 12/07/2018 03:10:00 title = Milo 2
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 12/07/2018 04:55:00 stop = 12/07/2018 05:00:00 title = La Pimpa
-[  Info  ]       Replaces ----- start = 12/07/2018 04:55:00 stop = 12/07/2018 05:00:00 title = Calimero 2
-[  Info  ] 0.11 sec/update
+[  Info  ]       show with ---- start = 12/07/2018 03:10:00 stop = 12/07/2018 03:15:00 title = Milo 2
+[  Info  ]       Replaces ----- start = 12/07/2018 03:10:00 stop = 12/07/2018 03:15:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 12/07/2018 03:15:00 stop = 12/07/2018 03:15:00 title = Teletubbies 5
+[  Info  ]       Added before - start = 12/07/2018 03:15:00 stop = 12/07/2018 03:15:00 title = Milo 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 12/07/2018 03:15:00 stop = 12/07/2018 03:20:00 title = Milo 2
+[  Info  ]       Replaces ----- start = 12/07/2018 03:15:00 stop = 12/07/2018 03:20:00 title = Teletubbies 5
+[  Debug ] multiple entry of a show at 20180712040000 +0200
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 12/07/2018 04:00:00 stop = 12/07/2018 04:05:00 title = Sam Sam
+[  Info  ]       Replaces ----- start = 12/07/2018 04:00:00 stop = 12/07/2018 04:05:00 title = Teletubbies 5
+[  Debug ] multiple entry of a show at 20180712042500 +0200
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 12/07/2018 04:25:00 stop = 12/07/2018 04:30:00 title = Dixiland
+[  Info  ]       Replaces ----- start = 12/07/2018 04:25:00 stop = 12/07/2018 04:30:00 title = Teletubbies 6
+[  Debug ] multiple entry of a show at 20180712045500 +0200
+[  Debug ] multiple entry of a show at 20180712052000 +0200
+[  Debug ] multiple entry of a show at 20180712053000 +0200
+[  Info  ] 0.13 sec/update
 [  Debug ] 
 [  Info  ] ( 128/167 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cartoon Network) -- mode Incremental
 [  Info  ] 
@@ -766,7 +781,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 09/07/2018 16:47:00 stop = 09/07/2018 18:30:00 title = Dragonheart: battaglia per il cuore di fuoco
 [  Info  ]       Replaces ----- start = 09/07/2018 16:47:00 stop = 09/07/2018 18:30:00 title = Dragonheart: battaglia per il cuore di fuoco
-[  Info  ] 0.16 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 147/167 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema +24) -- mode Incremental
 [Error   ] Unable to update channel Premium Cinema +24
@@ -783,7 +798,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 09/07/2018 02:24:00 stop = 09/07/2018 03:59:00 title = Cleveland Abduction
 [  Info  ]       Replaces ----- start = 09/07/2018 02:24:00 stop = 09/07/2018 03:59:00 title = Cleveland Abduction
-[  Info  ] 0.18 sec/update
+[  Info  ] 0.19 sec/update
 [  Debug ] 
 [  Info  ] ( 148/167 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema 2 +24) -- mode Incremental
 [Error   ] Unable to update channel Premium Cinema 2 +24
@@ -810,7 +825,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 09/07/2018 11:35:00 stop = 09/07/2018 13:13:00 title = Codice Swordfish
 [  Info  ]       Replaces ----- start = 09/07/2018 11:35:00 stop = 09/07/2018 13:13:00 title = Codice Swordfish
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 149/167 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Emotion) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = WE WERE YOUNG - DESTINAZIONE PARADISO
@@ -819,7 +834,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 10/07/2018 16:47:00 stop = 10/07/2018 18:23:00 title = We Were Young
 [  Info  ]       Replaces ----- start = 10/07/2018 16:47:00 stop = 10/07/2018 18:23:00 title = We Were Young
-[  Info  ] 0.17 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 150/167 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Comedy) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = A CENA CON...
@@ -846,7 +861,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 10/07/2018 16:56:00 stop = 10/07/2018 18:33:00 title = Rush Hour 2 - Colpo Grosso Al Drago Rosso
 [  Info  ]       Replaces ----- start = 10/07/2018 16:56:00 stop = 10/07/2018 18:33:00 title = Rush Hour 2 - Colpo Grosso Al Drago Rosso
-[  Info  ] 0.18 sec/update
+[  Info  ] 0.19 sec/update
 [  Debug ] 
 [  Info  ] ( 151/167 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Investigation Discovery) -- mode Incremental
 [  Info  ] 
@@ -938,7 +953,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 13/07/2018 20:15:00 stop = 13/07/2018 20:22:00 title = BRUCE LEE - NEW - FOCUS (INTERVISTE)
 [  Info  ]       Replaces ----- start = 13/07/2018 20:15:00 stop = 13/07/2018 20:22:00 title = BRUCE LEE - NEW - FOCUS (INTERVISTE)
-[  Info  ] 0.16 sec/update
+[  Info  ] 0.25 sec/update
 [  Debug ] 
 [  Info  ] ( 153/167 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Paramount Channel) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = CINECHAT - DAVID LYNCH
@@ -2275,7 +2290,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 13/07/2018 23:48:00 stop = 14/07/2018 00:38:00 title = SALVARE LA FACCIA - THE CLOSER III
 [  Info  ]       Replaces ----- start = 13/07/2018 23:48:00 stop = 14/07/2018 00:38:00 title = SALVARE LA FACCIA - THE CLOSER III
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 156/167 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Joy) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = YOUNG SHELDON I
@@ -3758,7 +3773,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 13/07/2018 23:52:00 stop = 14/07/2018 00:17:00 title = UN MATRIMONIO ESPLOSIVO - WRECKED II
 [  Info  ]       Replaces ----- start = 13/07/2018 23:52:00 stop = 14/07/2018 00:17:00 title = UN MATRIMONIO ESPLOSIVO - WRECKED II
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.17 sec/update
 [  Debug ] 
 [  Info  ] ( 157/167 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Stories) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = SATISFACTION
@@ -4289,7 +4304,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 13/07/2018 23:41:00 stop = 14/07/2018 00:31:00 title = USCITA DAL COMA - PROOF
 [  Info  ]       Replaces ----- start = 13/07/2018 23:41:00 stop = 14/07/2018 00:31:00 title = USCITA DAL COMA - PROOF
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 158/167 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Sport superHD) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = DAILY MATCH HIGHLIGHTS SHOW
@@ -4632,7 +4647,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 13/07/2018 22:26:00 stop = 13/07/2018 22:52:00 title = PUNTATA DEL 12 LUGLIO - DAILY MATCH HIGHLIGHTS
 [  Info  ]       Replaces ----- start = 13/07/2018 22:26:00 stop = 13/07/2018 22:52:00 title = PUNTATA DEL 12 LUGLIO - DAILY MATCH HIGHLIGHTS
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 159/167 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Sport 2 HD) -- mode Incremental
 [  Info  ]    epg correction : 
@@ -5095,7 +5110,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 13/07/2018 23:30:00 stop = 14/07/2018 01:15:00 title = SPAGNA MAROCCO - 25 GIUGNO - CAMPIONATI MONDIALI DI CALCIO
 [  Info  ]       Replaces ----- start = 13/07/2018 23:30:00 stop = 14/07/2018 01:15:00 title = SPAGNA MAROCCO - 25 GIUGNO - CAMPIONATI MONDIALI DI CALCIO
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 160/167 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Calcio 1) -- mode Incremental
 [  Info  ]    epg correction : 
@@ -5558,12 +5573,12 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 13/07/2018 23:30:00 stop = 14/07/2018 01:15:00 title = SPAGNA MAROCCO - 25 GIUGNO - CAMPIONATI MONDIALI DI CALCIO
 [  Info  ]       Replaces ----- start = 13/07/2018 23:30:00 stop = 14/07/2018 01:15:00 title = SPAGNA MAROCCO - 25 GIUGNO - CAMPIONATI MONDIALI DI CALCIO
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.13 sec/update
 [  Debug ] 
-[  Debug ] 34457 shows in 167 channels
-[  Debug ] 878 updated shows
+[  Debug ] 34453 shows in 167 channels
+[  Debug ] 877 updated shows
 [  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 07/07/2018 12:16:31 done in 11m 27s
+[        ] Job finished at 07/07/2018 14:16:23 done in 11m 19s
 [  Debug ] statistics upload error: The remote server returned an error: (404) Not Found.
