@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 31/07/2018 20:05:03
+[        ] Job started at 31/07/2018 22:05:03
 [  Debug ] 
 [  Debug ] Running  on: Unix 3.13.0.132
 [  Debug ] Environment: 4.0.30319.42000
@@ -29,7 +29,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+02:00	(DST in effect)
 [  Debug ] 	next DST dates  :	28/10/2018 03:00 (local)
 [  Debug ] 	                :	31/03/2019 02:00 (local)
-[  Debug ] 	local time now  :	31/07/2018 20:05:04
+[  Debug ] 	local time now  :	31/07/2018 22:05:04
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -234,7 +234,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   7/171 ) MEDIASET.IT -- chan. (xmltv_id=Italia 2) -- mode Incremental
-[  Info  ] 0.12 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   8/171 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La1 HD) -- mode Incremental
 [Error   ] Unable to update channel Rsi La1 HD
@@ -289,7 +289,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  20/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai 4 HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.20 sec/update
 [  Debug ] 
 [  Info  ] (  21/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai 5 HD) -- mode Incremental
 [  Info  ] 
@@ -298,13 +298,13 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  23/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Giallo) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.22 sec/update
 [  Debug ] 
 [  Info  ] (  24/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=LEI) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.22 sec/update
 [  Debug ] 
 [  Info  ] (  25/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=LaEffe) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.21 sec/update
 [  Debug ] 
 [  Info  ] (  26/171 ) PROGRAMMI-TV.EU -- chan. (xmltv_id=La3) -- mode Incremental
 [Error   ] no shows in indexpage!
@@ -317,6 +317,8 @@
 
 [  Debug ] 
 [  Info  ] (  27/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema 1 HD) -- mode Incremental
+[Warning ] error downloading page: Error getting response stream (ReadDone2): ReceiveFailure
+[Warning ] pausing 1 of 4 times for 5 seconds before re-try.
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  28/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema 1 SuperHD) -- mode Incremental
@@ -329,10 +331,10 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  31/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema +24 SuperHD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.21 sec/update
 [  Debug ] 
 [  Info  ] (  32/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema +24 HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.21 sec/update
 [  Debug ] 
 [  Info  ] (  33/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Hits HD) -- mode Incremental
 [  Info  ] 
@@ -391,25 +393,25 @@
 
 [  Debug ] 
 [  Info  ] (  47/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Uno HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.21 sec/update
 [  Debug ] 
 [  Info  ] (  48/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Uno +1) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  49/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=SKY CLASSICA HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.22 sec/update
 [  Debug ] 
 [  Info  ] (  50/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Atlantic HD) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  51/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Atlantic +1) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.21 sec/update
 [  Debug ] 
 [  Info  ] (  52/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox HD) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  53/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox +1) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.20 sec/update
 [  Debug ] 
 [  Info  ] (  54/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Life HD) -- mode Incremental
 [  Info  ] 
@@ -421,14 +423,18 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  57/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Crime +1) -- mode Incremental
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
+[Warning ] error downloading page: Error getting response stream (ReadDone1): ReceiveFailure
+[Warning ] pausing 2 of 4 times for 10 seconds before re-try.
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[  Info  ] 0.40 sec/update
 [  Debug ] 
 [  Info  ] (  58/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Comedy HD) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  59/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Comedy Central) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.22 sec/update
 [  Debug ] 
 [  Info  ] (  60/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Fox Animation HD) -- mode Incremental
 [  Info  ] 
@@ -453,10 +459,10 @@
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] (  62/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport F1 HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.21 sec/update
 [  Debug ] 
 [  Info  ] (  63/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport F1 SuperHD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.23 sec/update
 [  Debug ] 
 [  Info  ] (  64/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky MotoGP HD) -- mode Incremental
 [  Info  ] 
@@ -494,7 +500,7 @@
 [  Info  ] (  74/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Uno SuperHD) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = F1  (diretta)
 [  Debug ]       differs from title in showdetails = F1 GP Gran Bretagna - G.....
-[  Info  ] 0.29 sec/update
+[  Info  ] 0.28 sec/update
 [  Debug ] 
 [  Info  ] (  75/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport SerieA SuperHD) -- mode Incremental
 [  Info  ] 
@@ -503,10 +509,10 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  77/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Football SuperHD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.23 sec/update
 [  Debug ] 
 [  Info  ] (  78/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Football HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.18 sec/update
 [  Debug ] 
 [  Info  ] (  79/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport NBA SuperHD) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
@@ -517,12 +523,10 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  81/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Golf SuperHD) -- mode Incremental
-[  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[  Info  ] 0.19 sec/update
 [  Debug ] 
 [  Info  ] (  82/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Golf HD) -- mode Incremental
-[  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[  Info  ] 0.22 sec/update
 [  Debug ] 
 [  Info  ] (  83/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Supercalcio HD) -- mode Incremental
 [  Info  ] 
@@ -608,16 +612,16 @@
 [  Debug ] 
 [  Info  ] ( 105/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Roma Channel) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[  Info  ] 0.25 sec/update
 [  Debug ] 
 [  Info  ] ( 106/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Lazio Style Channel) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 107/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Arte SuperHD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.26 sec/update
 [  Debug ] 
 [  Info  ] ( 108/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky arte HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.22 sec/update
 [  Debug ] 
 [  Info  ] ( 109/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Discovery Channel SuperHD) -- mode Incremental
 [  Info  ] 
@@ -644,22 +648,22 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 117/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=NatGeoPeople SuperHD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.23 sec/update
 [  Debug ] 
 [  Info  ] ( 118/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=NatGeoPeople HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.25 sec/update
 [  Debug ] 
 [  Info  ] ( 119/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=History Channel HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.23 sec/update
 [  Debug ] 
 [  Info  ] ( 120/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Focus) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 121/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Dmax) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.23 sec/update
 [  Debug ] 
 [  Info  ] ( 122/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Real Time HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.22 sec/update
 [  Debug ] 
 [  Info  ] ( 123/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Caccia e Pesca) -- mode Incremental
 [  Info  ] 
@@ -697,10 +701,10 @@
 [  Info  ] ( 134/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Disney Channel) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = Club Houdini - 1^ TV - 1^TV
 [  Debug ]       differs from title in showdetails = Club Houdini - 1^ TV
-[  Info  ] 0.30 sec/update
+[  Info  ] 0.32 sec/update
 [  Debug ] 
 [  Info  ] ( 135/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Disney Channel +1) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.24 sec/update
 [  Debug ] 
 [  Info  ] ( 136/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cartonito) -- mode Incremental
 [  Info  ] 
@@ -709,25 +713,23 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 138/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Nickelodeon) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.23 sec/update
 [  Debug ] 
 [  Info  ] ( 139/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=DeA Junior) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 140/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=DeAKids) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.24 sec/update
 [  Debug ] 
 [  Info  ] ( 141/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Teen Nick) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.23 sec/update
 [  Debug ] 
 [  Info  ] ( 142/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Disney Junior) -- mode Incremental
-[Warning ] error downloading page: Error getting response stream (ReadDone2): ReceiveFailure
-[Warning ] pausing 1 of 4 times for 5 seconds before re-try.
-[  Info  ] 
+[  Info  ] 0.22 sec/update
 [  Debug ] 
 [  Info  ] ( 143/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Super !) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[  Info  ] 0.24 sec/update
 [  Debug ] 
 [  Info  ] ( 144/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Boing) -- mode Incremental
 [  Info  ] 
@@ -736,7 +738,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 146/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Frisbee) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.28 sec/update
 [  Debug ] 
 [  Info  ] ( 147/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Nick Junior) -- mode Incremental
 [  Info  ] 
@@ -748,6 +750,25 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 150/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema HD) -- mode Incremental
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/08/2018 00:00:00 stop = 04/08/2018 01:58:00 title = L'UOMO CHE NON C'ERA
+[  Info  ]       Replaces ----- start = 04/08/2018 00:00:00 stop = 04/08/2018 01:55:00 title = L'UOMO CHE NON C'ERA
+[  Info  ]       Replaces ----- start = 04/08/2018 01:55:00 stop = 04/08/2018 04:21:00 title = Biutiful
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/08/2018 01:58:00 stop = 04/08/2018 04:23:00 title = Biutiful
+[  Info  ]       Replaces ----- start = 04/08/2018 01:55:00 stop = 04/08/2018 04:21:00 title = Biutiful
+[  Info  ]       Replaces ----- start = 04/08/2018 04:21:00 stop = 04/08/2018 04:52:00 title = SILENT NIGHTS (DI A. BANG) -
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/08/2018 04:23:00 stop = 04/08/2018 04:58:00 title = SILENT NIGHTS (DI A. BANG) -
+[  Info  ]       Replaces ----- start = 04/08/2018 04:21:00 stop = 04/08/2018 04:52:00 title = SILENT NIGHTS (DI A. BANG) -
+[  Info  ]       Replaces ----- start = 04/08/2018 04:52:00 stop = 04/08/2018 05:30:00 title = COMPLICI -
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/08/2018 04:58:00 stop = 04/08/2018 05:30:00 title = COMPLICI -
+[  Info  ]       Replaces ----- start = 04/08/2018 04:52:00 stop = 04/08/2018 05:30:00 title = COMPLICI -
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 04/08/2018 22:18:00 stop = 05/08/2018 00:22:00 title = King Arthur -  Il Potere Della Spada
@@ -768,7 +789,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 06/08/2018 20:15:00 stop = 06/08/2018 21:56:00 title = Honey 3 - Il Coraggio Di Ballare
 [  Info  ]       Replaces ----- start = 06/08/2018 20:15:00 stop = 06/08/2018 21:56:00 title = Honey 3 - Il Coraggio Di Ballare
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.61 sec/update
 [  Debug ] 
 [  Info  ] ( 151/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema +24) -- mode Incremental
 [Error   ] Unable to update channel Premium Cinema +24
@@ -828,7 +849,27 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 02/08/2018 16:09:00 stop = 02/08/2018 18:07:00 title = Moonlight Mile
 [  Info  ]       Replaces ----- start = 02/08/2018 16:09:00 stop = 02/08/2018 18:07:00 title = Moonlight Mile
-[  Info  ] 0.13 sec/update
+[  Debug ]    suspicious      title in index page  = IO NON CI CASCO
+[  Debug ]       differs from title in showdetails = LA FEMME ET LE TGV -
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/08/2018 05:30:00 stop = 04/08/2018 05:48:00 title = LA FEMME ET LE TGV -
+[  Info  ]       Replaces ----- start = 04/08/2018 05:30:00 stop = 04/08/2018 07:17:00 title = Step Up 4 Revolution
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/08/2018 05:48:00 stop = 04/08/2018 07:17:00 title = Step Up 4 Revolution
+[  Info  ]       Replaces ----- start = 04/08/2018 05:30:00 stop = 04/08/2018 07:17:00 title = Step Up 4 Revolution
+[  Debug ]    suspicious      title in index page  = IO NON CI CASCO
+[  Debug ]       differs from title in showdetails = LA FEMME ET LE TGV -
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 05/08/2018 03:56:00 stop = 05/08/2018 04:06:00 title = LA FEMME ET LE TGV -
+[  Info  ]       Replaces ----- start = 05/08/2018 03:56:00 stop = 05/08/2018 05:30:00 title = LA LAMPADA DEI DESIDERI -
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 05/08/2018 04:06:00 stop = 05/08/2018 05:30:00 title = LA LAMPADA DEI DESIDERI -
+[  Info  ]       Replaces ----- start = 05/08/2018 03:56:00 stop = 05/08/2018 05:30:00 title = LA LAMPADA DEI DESIDERI -
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 153/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Comedy) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = COMEDY EXTRA
@@ -849,13 +890,42 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 01/08/2018 05:30:00 stop = 01/08/2018 05:52:00 title = SPECIALE COPPIE COMICHE - COMEDY EXTRA
 [  Info  ]       Replaces ----- start = 01/08/2018 05:30:00 stop = 01/08/2018 05:52:00 title = SPECIALE COPPIE COMICHE - COMEDY EXTRA
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/08/2018 05:30:00 stop = 04/08/2018 06:47:00 title = Le Insolite Sospette
+[  Info  ]       Replaces ----- start = 04/08/2018 05:30:00 stop = 04/08/2018 05:38:00 title = THE FAKE -
+[  Info  ]       Replaces ----- start = 04/08/2018 05:38:00 stop = 04/08/2018 05:55:00 title = IL METODO GREENBERRY -
+[  Info  ]       Replaces ----- start = 04/08/2018 05:55:00 stop = 04/08/2018 06:25:00 title = A CENA CON... ANITA CAPRIOLI - A CENA CON...
+[  Info  ]       Replaces ----- start = 04/08/2018 06:25:00 stop = 04/08/2018 06:33:00 title = PAOLO VILLAGGIO - FANTOZZI SARAI TU - FACCE DA RIDERE - RIUSCIRANNO I NOSTRI EROI
+[  Info  ]       Replaces ----- start = 04/08/2018 06:33:00 stop = 04/08/2018 08:28:00 title = Rimini Rimini
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/08/2018 06:47:00 stop = 04/08/2018 08:28:00 title = Rimini Rimini
+[  Info  ]       Replaces ----- start = 04/08/2018 06:33:00 stop = 04/08/2018 08:28:00 title = Rimini Rimini
 [  Debug ]    suspicious      title in index page  = A CENA CON...
 [  Debug ]       differs from title in showdetails = PIERLUIGI FAVINO - INVI.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 05/08/2018 02:59:00 stop = 05/08/2018 03:25:00 title = PIERLUIGI FAVINO - INVITO A CENA CON...
 [  Info  ]       Replaces ----- start = 05/08/2018 02:59:00 stop = 05/08/2018 03:25:00 title = PIERLUIGI FAVINO - INVITO A CENA CON...
-[  Info  ] 0.15 sec/update
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 05/08/2018 03:25:00 stop = 05/08/2018 03:42:00 title = IL METODO GREENBERRY -
+[  Info  ]       Replaces ----- start = 05/08/2018 03:25:00 stop = 05/08/2018 03:40:00 title = IL METODO GREENBERRY -
+[  Info  ]       Replaces ----- start = 05/08/2018 03:40:00 stop = 05/08/2018 03:49:00 title = THE FAKE -
+[  Debug ]    suspicious      title in index page  = COMEDY EXTRA
+[  Debug ]       differs from title in showdetails = SPECIALE COMICITA' TOS.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 05/08/2018 03:42:00 stop = 05/08/2018 04:03:00 title = SPECIALE COMICITA' TOSCANA - COMEDY EXTRA
+[  Info  ]       Replaces ----- start = 05/08/2018 03:40:00 stop = 05/08/2018 03:49:00 title = THE FAKE -
+[  Info  ]       Replaces ----- start = 05/08/2018 03:49:00 stop = 05/08/2018 03:54:00 title = RENATO POZZETTO  - FACCE DA RIDERE
+[  Info  ]       Replaces ----- start = 05/08/2018 03:54:00 stop = 05/08/2018 05:30:00 title = La Casa Stregata
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 05/08/2018 04:03:00 stop = 05/08/2018 05:30:00 title = La Casa Stregata
+[  Info  ]       Replaces ----- start = 05/08/2018 03:54:00 stop = 05/08/2018 05:30:00 title = La Casa Stregata
+[  Info  ] 0.19 sec/update
 [  Debug ] 
 [  Info  ] ( 154/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Investigation Discovery) -- mode Incremental
 [  Info  ] 
@@ -933,7 +1003,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 06/08/2018 08:50:00 stop = 06/08/2018 09:25:00 title = GUN TO YOU HEAD  - PROJECT GREENLIGHT 4
 [  Info  ]       Replaces ----- start = 06/08/2018 08:50:00 stop = 06/08/2018 09:25:00 title = GUN TO YOU HEAD  - PROJECT GREENLIGHT 4
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 156/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Paramount Channel) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = ESSERE JAMES BOND
@@ -1008,7 +1078,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 06/08/2018 08:50:00 stop = 06/08/2018 09:25:00 title = GUN TO YOU HEAD  - PROJECT GREENLIGHT 4
 [  Info  ]       Replaces ----- start = 06/08/2018 08:50:00 stop = 06/08/2018 09:25:00 title = GUN TO YOU HEAD  - PROJECT GREENLIGHT 4
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.18 sec/update
 [  Debug ] 
 [  Info  ] ( 157/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action HD) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = IZOMBIE IV
@@ -1500,10 +1570,10 @@
 [  Info  ]       show with ---- start = 04/08/2018 10:29:00 stop = 04/08/2018 11:17:00 title = CASO N° 11-19-41-73 - ARROW VI - PRIMA TV
 [  Info  ]       Replaces ----- start = 04/08/2018 10:29:00 stop = 04/08/2018 11:17:00 title = CASO N° 11-19-41-73 - ARROW VI - PRIMA TV
 [  Debug ]    suspicious      title in index page  = IZOMBIE IV
-[  Debug ]       differs from title in showdetails = SIETE PRONTI PER QUA.....
+[  Debug ]       differs from title in showdetails = SANGUE BLU - IZOMBIE.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 04/08/2018 11:17:00 stop = 04/08/2018 12:06:00 title = SIETE PRONTI PER QUALCHE ZOMBIE? - IZOMBIE IV
+[  Info  ]       show with ---- start = 04/08/2018 11:17:00 stop = 04/08/2018 12:06:00 title = SANGUE BLU - IZOMBIE IV
 [  Info  ]       Replaces ----- start = 04/08/2018 11:17:00 stop = 04/08/2018 12:06:00 title = SIETE PRONTI PER QUALCHE ZOMBIE? - IZOMBIE IV
 [  Debug ]    suspicious      title in index page  = CONSTANTINE I
 [  Debug ]       differs from title in showdetails = IL DISCO DEL DIAVOLO - .....
@@ -1552,10 +1622,10 @@
 [  Info  ]       show with ---- start = 05/08/2018 03:28:00 stop = 05/08/2018 04:09:00 title = INTERSEZIONE - NIKITA III (NEW)
 [  Info  ]       Replaces ----- start = 05/08/2018 03:28:00 stop = 05/08/2018 04:09:00 title = INTERSEZIONE - NIKITA III (NEW)
 [  Debug ]    suspicious      title in index page  = NIKITA III
-[  Debug ]       differs from title in showdetails = INTERSEZIONE - NIKIT.....
+[  Debug ]       differs from title in showdetails = IL GIORNO DOPO - NIK.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 05/08/2018 04:09:00 stop = 05/08/2018 05:00:00 title = INTERSEZIONE - NIKITA III (NEW)
+[  Info  ]       show with ---- start = 05/08/2018 04:09:00 stop = 05/08/2018 05:00:00 title = IL GIORNO DOPO - NIKITA III (NEW)
 [  Info  ]       Replaces ----- start = 05/08/2018 04:09:00 stop = 05/08/2018 05:00:00 title = INTERSEZIONE - NIKITA III (NEW)
 [  Debug ]    suspicious      title in index page  = ARROW VI
 [  Debug ]       differs from title in showdetails = ALLUCINAZIONI - AR.....
@@ -2320,7 +2390,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 06/08/2018 22:43:00 stop = 06/08/2018 23:32:00 title = A OGNI COSTO- I PARTE - MAJOR CRIMES VI - PRIMA TV
 [  Info  ]       Replaces ----- start = 06/08/2018 22:43:00 stop = 06/08/2018 23:32:00 title = A OGNI COSTO- I PARTE - MAJOR CRIMES VI - PRIMA TV
-[  Info  ] 0.18 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 159/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Joy) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = IL MAMMO III
@@ -3655,7 +3725,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 06/08/2018 23:37:00 stop = 07/08/2018 00:01:00 title = IL NATALE DELLA DISCORDIA - 30 ROCK II
 [  Info  ]       Replaces ----- start = 06/08/2018 23:37:00 stop = 07/08/2018 00:01:00 title = IL NATALE DELLA DISCORDIA - 30 ROCK II
-[  Info  ] 0.16 sec/update
+[  Info  ] 0.19 sec/update
 [  Debug ] 
 [  Info  ] ( 160/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Stories) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = THE NIGHT SHIFT III
@@ -3982,6 +4052,25 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 04/08/2018 04:40:00 stop = 04/08/2018 05:30:00 title = LO SPIRITO DI BLYTE - ROYAL PAINS V
 [  Info  ]       Replaces ----- start = 04/08/2018 04:40:00 stop = 04/08/2018 05:30:00 title = LO SPIRITO DI BLYTE - ROYAL PAINS V
+[  Debug ]    suspicious      title in index page  = SATISFACTION (NEW) II
+[  Debug ]       differs from title in showdetails = VERSO L'ESPANSIONE - SATISFACTI.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/08/2018 05:30:00 stop = 04/08/2018 05:50:00 title = VERSO L'ESPANSIONE - SATISFACTION (NEW) II
+[  Info  ]       Replaces ----- start = 04/08/2018 05:30:00 stop = 04/08/2018 06:09:00 title = VERSO LA SOTTOMISSIONE - SATISFACTION (NEW) II
+[  Debug ]    suspicious      title in index page  = SATISFACTION (NEW) II
+[  Debug ]       differs from title in showdetails = VERSO LA SOTTOMISSIONE - SATISF.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/08/2018 05:50:00 stop = 04/08/2018 06:22:00 title = VERSO LA SOTTOMISSIONE - SATISFACTION (NEW) II
+[  Info  ]       Replaces ----- start = 04/08/2018 05:30:00 stop = 04/08/2018 06:09:00 title = VERSO LA SOTTOMISSIONE - SATISFACTION (NEW) II
+[  Info  ]       Replaces ----- start = 04/08/2018 06:09:00 stop = 04/08/2018 07:02:00 title = CHIUSURA FORZATA - CHICAGO MED III
+[  Debug ]    suspicious      title in index page  = CHICAGO MED III
+[  Debug ]       differs from title in showdetails = CHIUSURA FORZATA - CHICAG.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/08/2018 06:22:00 stop = 04/08/2018 07:02:00 title = CHIUSURA FORZATA - CHICAGO MED III
+[  Info  ]       Replaces ----- start = 04/08/2018 06:09:00 stop = 04/08/2018 07:02:00 title = CHIUSURA FORZATA - CHICAGO MED III
 [  Debug ]    suspicious      title in index page  = CHICAGO MED III
 [  Debug ]       differs from title in showdetails = IL DIAVOLO SOTTO COPERTUR.....
 [  Info  ]    epg correction : 
@@ -4004,7 +4093,7 @@
 [  Debug ]       differs from title in showdetails = CHIAMATA DA UNO SCONOS.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 04/08/2018 11:07:00 stop = 04/08/2018 11:57:00 title = CHIAMATA DA UNO SCONOSCIUTO - RIVERDALE II
+[  Info  ]       show with ---- start = 04/08/2018 11:07:00 stop = 04/08/2018 11:57:00 title = CHIAMATA DA UNO SCONOSCIUTO - RIVERDALE II - PRIMA TV
 [  Info  ]       Replaces ----- start = 04/08/2018 11:07:00 stop = 04/08/2018 11:57:00 title = CHIAMATA DA UNO SCONOSCIUTO - RIVERDALE II
 [  Debug ]    suspicious      title in index page  = PROOF
 [  Debug ]       differs from title in showdetails = I CONFINI DELLA.....
@@ -4088,8 +4177,22 @@
 [  Debug ]       differs from title in showdetails = CHIAMATA DA UNO SCONOS.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 05/08/2018 01:15:00 stop = 05/08/2018 02:05:00 title = CHIAMATA DA UNO SCONOSCIUTO - RIVERDALE II
+[  Info  ]       show with ---- start = 05/08/2018 01:15:00 stop = 05/08/2018 02:05:00 title = CHIAMATA DA UNO SCONOSCIUTO - RIVERDALE II - PRIMA TV
 [  Info  ]       Replaces ----- start = 05/08/2018 01:15:00 stop = 05/08/2018 02:05:00 title = CHIAMATA DA UNO SCONOSCIUTO - RIVERDALE II
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 05/08/2018 04:39:00 stop = 05/08/2018 05:06:00 title = THE SINNER , 4 - THE SINNER
+[  Info  ]       Replaces ----- start = 05/08/2018 04:39:00 stop = 05/08/2018 05:30:00 title = THE SINNER , 4 - THE SINNER
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 05/08/2018 05:06:00 stop = 05/08/2018 05:21:00 title = THE SINNER , 5 - THE SINNER
+[  Info  ]       Replaces ----- start = 05/08/2018 04:39:00 stop = 05/08/2018 05:30:00 title = THE SINNER , 4 - THE SINNER
+[  Debug ]    suspicious      title in index page  = MYA MAG - (9')
+[  Debug ]       differs from title in showdetails = VETRINA STORIES 2018    .....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 05/08/2018 05:21:00 stop = 05/08/2018 05:30:00 title = VETRINA STORIES 2018    - MYA MAG - (9')
+[  Info  ]       Replaces ----- start = 05/08/2018 04:39:00 stop = 05/08/2018 05:30:00 title = THE SINNER , 4 - THE SINNER
 [  Debug ]    suspicious      title in index page  = RIVERDALE II
 [  Debug ]       differs from title in showdetails = LA CITTA' CHE AVEVA PA.....
 [  Info  ]    epg correction : 
@@ -4270,7 +4373,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 06/08/2018 23:38:00 stop = 07/08/2018 00:28:00 title = AMORE E SUCCO DI CAROTA - CHASING LIFE I
 [  Info  ]       Replaces ----- start = 06/08/2018 23:38:00 stop = 07/08/2018 00:28:00 title = AMORE E SUCCO DI CAROTA - CHASING LIFE I
-[  Info  ] 0.20 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 161/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Sport superHD) -- mode Incremental
 [Error   ] Unable to update channel Premium Sport superHD
@@ -4351,7 +4454,7 @@
 [  Info  ]       Replaces ----- start = 01/08/2018 04:19:00 stop = 01/08/2018 04:48:00 title = DAILY MATCH HIGHLIGHTS SHOW (?)
 [  Debug ]    skipped show longer than 15 hour(s) at 01/08/2018 05:00:00 title AMICHEVOLE - LIVERPOOL-NAPOLI 04/08
 [  Debug ]    skipped show longer than 15 hour(s) at 02/08/2018 05:00:00 title AMICHEVOLE - LIVERPOOL-NAPOLI 04/08
-[  Debug ]    skipped show longer than 15 hour(s) at 03/08/2018 05:00:00 title NESSUNA INFORMAZIONE
+[  Debug ]    skipped show longer than 15 hour(s) at 03/08/2018 05:00:00 title AMICHEVOLE - LIVERPOOL-NAPOLI 04/08
 [  Info  ]    forced update : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 04/08/2018 05:00:00 stop = 04/08/2018 17:54:00 title = AMICHEVOLE - LIVERPOOL-NAPOLI 04/08 (?)
@@ -4366,7 +4469,7 @@
 [  Info  ]       Replaces ----- start = 04/08/2018 19:51:00 stop = 05/08/2018 05:00:00 title = AMICHEVOLE - B. DORTMUND-NAPOLI 07/08 (?)
 [  Debug ]    skipped show longer than 15 hour(s) at 05/08/2018 05:00:00 title AMICHEVOLE - B. DORTMUND-NAPOLI 07/08
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.46 sec/update
+[  Info  ] 0.26 sec/update
 [  Debug ] 
 [  Info  ] ( 162/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Calcio 1) -- mode Incremental
 [  Info  ]    forced update : 
@@ -4439,7 +4542,7 @@
 [  Info  ]       Replaces ----- start = 01/08/2018 04:19:00 stop = 01/08/2018 04:48:00 title = DAILY MATCH HIGHLIGHTS SHOW (?)
 [  Debug ]    skipped show longer than 15 hour(s) at 01/08/2018 05:00:00 title AMICHEVOLE - LIVERPOOL-NAPOLI 04/08
 [  Debug ]    skipped show longer than 15 hour(s) at 02/08/2018 05:00:00 title AMICHEVOLE - LIVERPOOL-NAPOLI 04/08
-[  Debug ]    skipped show longer than 15 hour(s) at 03/08/2018 05:00:00 title NESSUNA INFORMAZIONE
+[  Debug ]    skipped show longer than 15 hour(s) at 03/08/2018 05:00:00 title AMICHEVOLE - LIVERPOOL-NAPOLI 04/08
 [  Info  ]    forced update : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 04/08/2018 05:00:00 stop = 04/08/2018 17:54:00 title = AMICHEVOLE - LIVERPOOL-NAPOLI 04/08 (?)
@@ -4454,12 +4557,12 @@
 [  Info  ]       Replaces ----- start = 04/08/2018 19:51:00 stop = 05/08/2018 05:00:00 title = AMICHEVOLE - B. DORTMUND-NAPOLI 07/08 (?)
 [  Debug ]    skipped show longer than 15 hour(s) at 05/08/2018 05:00:00 title AMICHEVOLE - B. DORTMUND-NAPOLI 07/08
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.62 sec/update
+[  Info  ] 0.24 sec/update
 [  Debug ] 
-[  Debug ] 34386 shows in 171 channels
-[  Debug ] 638 updated shows
+[  Debug ] 34443 shows in 171 channels
+[  Debug ] 2256 updated shows
 [  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 31/07/2018 20:16:06 done in 11m 2s
+[        ] Job finished at 31/07/2018 22:23:45 done in 18m 41s
 [  Debug ] statistics upload error: The remote server returned an error: (404) Not Found.
