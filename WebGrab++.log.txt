@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 06/08/2018 10:05:04
+[        ] Job started at 06/08/2018 12:05:03
 [  Debug ] 
 [  Debug ] Running  on: Unix 3.13.0.132
 [  Debug ] Environment: 4.0.30319.42000
@@ -29,7 +29,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+02:00	(DST in effect)
 [  Debug ] 	next DST dates  :	28/10/2018 03:00 (local)
 [  Debug ] 	                :	31/03/2019 02:00 (local)
-[  Debug ] 	local time now  :	06/08/2018 10:05:04
+[  Debug ] 	local time now  :	06/08/2018 12:05:03
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -225,6 +225,10 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   4/171 ) MEDIASET.IT -- chan. (xmltv_id=Rete 4 HD) -- mode Incremental
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
+[Warning ] error downloading page: Error getting response stream (ReadDone1): ReceiveFailure
+[Warning ] pausing 2 of 4 times for 10 seconds before re-try.
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   5/171 ) MEDIASET.IT -- chan. (xmltv_id=Canale 5 HD) -- mode Incremental
@@ -271,7 +275,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  14/171 ) MEDIASET.IT -- chan. (xmltv_id=Mediaset Extra) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.11 sec/update
 [  Debug ] 
 [  Info  ] (  15/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Storia) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
@@ -736,12 +740,12 @@
 [  Debug ]       differs from title in showdetails = I Greens in Citta'' -
 [  Debug ]    suspicious      title in index page  = I Greens in Citta'
 [  Debug ]       differs from title in showdetails = I Greens in Citta'' -
-[  Info  ] 0.27 sec/update
+[  Info  ] 0.30 sec/update
 [  Debug ] 
 [  Info  ] ( 132/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Disney Channel) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = Club Houdini - 1^ TV - 1^TV
 [  Debug ]       differs from title in showdetails = Club Houdini - 1^ TV
-[  Info  ] 0.28 sec/update
+[  Info  ] 0.26 sec/update
 [  Debug ] 
 [  Info  ] ( 133/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Disney Channel +1) -- mode Incremental
 [  Info  ] 
@@ -809,7 +813,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 12/08/2018 14:45:00 stop = 12/08/2018 16:27:00 title = Tower Heist - Colpo Ad Alto Livello
 [  Info  ]       Replaces ----- start = 12/08/2018 14:45:00 stop = 12/08/2018 16:27:00 title = Tower Heist - Colpo Ad Alto Livello
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 149/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema +24) -- mode Incremental
 [Error   ] Unable to update channel Premium Cinema +24
@@ -840,7 +844,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 11/08/2018 18:32:00 stop = 11/08/2018 20:15:00 title = La Cosa (di Matthijs van Heijningen Jr.)
 [  Info  ]       Replaces ----- start = 11/08/2018 18:32:00 stop = 11/08/2018 20:15:00 title = La Cosa (di Matthijs van Heijningen Jr.)
-[  Info  ] 0.11 sec/update
+[  Info  ] 0.21 sec/update
 [  Debug ] 
 [  Info  ] ( 150/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Emotion) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = WE WERE YOUNG - DESTINAZIONE PARADISO
@@ -855,7 +859,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 09/08/2018 08:12:00 stop = 09/08/2018 09:46:00 title = We Were Young
 [  Info  ]       Replaces ----- start = 09/08/2018 08:12:00 stop = 09/08/2018 09:46:00 title = We Were Young
-[  Info  ] 0.10 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 151/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Comedy) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = A CENA CON...
@@ -888,7 +892,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 12/08/2018 06:21:00 stop = 12/08/2018 06:42:00 title = MACCIO CAPATONDA E FANTOZZI - COMEDY EXTRA
 [  Info  ]       Replaces ----- start = 12/08/2018 06:21:00 stop = 12/08/2018 06:42:00 title = MACCIO CAPATONDA E FANTOZZI - COMEDY EXTRA
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.18 sec/update
 [  Debug ] 
 [  Info  ] ( 152/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Investigation Discovery) -- mode Incremental
 [  Info  ] 
@@ -982,7 +986,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 12/08/2018 21:10:00 stop = 12/08/2018 22:05:00 title = PIU' O MENO - FAIDA: BETTE & JOAN
 [  Info  ]       Replaces ----- start = 12/08/2018 21:10:00 stop = 12/08/2018 22:05:00 title = PIU' O MENO - FAIDA: BETTE & JOAN
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.18 sec/update
 [  Debug ] 
 [  Info  ] ( 154/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Paramount Channel) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = CINECHAT - JONATHAN DEMME
@@ -1073,7 +1077,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 12/08/2018 21:10:00 stop = 12/08/2018 22:05:00 title = PIU' O MENO - FAIDA: BETTE & JOAN
 [  Info  ]       Replaces ----- start = 12/08/2018 21:10:00 stop = 12/08/2018 22:05:00 title = PIU' O MENO - FAIDA: BETTE & JOAN
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 155/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action HD) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = FLASH IV
@@ -1928,7 +1932,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 12/08/2018 23:28:00 stop = 13/08/2018 00:17:00 title = IL DISCO DEL DIAVOLO - CONSTANTINE
 [  Info  ]       Replaces ----- start = 12/08/2018 23:28:00 stop = 13/08/2018 00:17:00 title = IL DISCO DEL DIAVOLO - CONSTANTINE
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 156/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action +24) -- mode Incremental
 [Error   ] Unable to update channel Premium Action +24
@@ -2611,7 +2615,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 12/08/2018 23:34:00 stop = 13/08/2018 00:23:00 title = SPIA ROSSA - TAKEN II - PRIMA TV
 [  Info  ]       Replaces ----- start = 12/08/2018 23:34:00 stop = 13/08/2018 00:23:00 title = SPIA ROSSA - TAKEN II - PRIMA TV
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 157/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Joy) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = BIG BANG THEORY V
@@ -3980,7 +3984,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 12/08/2018 23:41:00 stop = 13/08/2018 00:04:00 title = BALLE SPAZIALI - THE GOLDBERGS V - PRIMA TV
 [  Info  ]       Replaces ----- start = 12/08/2018 23:41:00 stop = 13/08/2018 00:04:00 title = BALLE SPAZIALI - THE GOLDBERGS V - PRIMA TV
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 158/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Stories) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = DALLAS III
@@ -4649,7 +4653,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 12/08/2018 21:04:00 stop = 12/08/2018 21:54:00 title = A PROVA DI MORTE - RIVERDALE II - PRIMA TV
 [  Info  ]       Replaces ----- start = 12/08/2018 21:04:00 stop = 12/08/2018 21:54:00 title = A PROVA DI MORTE - RIVERDALE II - PRIMA TV
-[  Info  ] 0.17 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 159/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Sport superHD) -- mode Incremental
 [Error   ] Unable to update channel Premium Sport superHD
@@ -4676,9 +4680,9 @@
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Debug ] 33549 shows in 171 channels
-[  Debug ] 667 updated shows
+[  Debug ] 677 updated shows
 [  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 06/08/2018 10:15:41 done in 10m 37s
+[        ] Job finished at 06/08/2018 12:15:59 done in 10m 56s
 [  Debug ] statistics upload error: The remote server returned an error: (404) Not Found.
