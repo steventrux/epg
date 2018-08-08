@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 08/08/2018 18:05:03
+[        ] Job started at 08/08/2018 20:05:03
 [  Debug ] 
 [  Debug ] Running  on: Unix 3.13.0.132
 [  Debug ] Environment: 4.0.30319.42000
@@ -29,7 +29,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+02:00	(DST in effect)
 [  Debug ] 	next DST dates  :	28/10/2018 03:00 (local)
 [  Debug ] 	                :	31/03/2019 02:00 (local)
-[  Debug ] 	local time now  :	08/08/2018 18:05:03
+[  Debug ] 	local time now  :	08/08/2018 20:05:04
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -225,9 +225,13 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   4/171 ) MEDIASET.IT -- chan. (xmltv_id=Rete 4 HD) -- mode Incremental
-[  Debug ]    suspicious      title in index page  = LADY BARBARA
-[  Debug ]       differs from title in showdetails = LADY BARBARA (?)
-[  Info  ] 0.14 sec/update
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
+[Warning ] error downloading page: The request timed out (10sec)
+[Warning ] Retry 2 of 4 times
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
+[  Info  ] 1.22 sec/update
 [  Debug ] 
 [  Info  ] (   5/171 ) MEDIASET.IT -- chan. (xmltv_id=Canale 5 HD) -- mode Incremental
 [  Info  ] 
@@ -236,15 +240,15 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   7/171 ) MEDIASET.IT -- chan. (xmltv_id=Italia 2) -- mode Incremental
+[  Debug ]    suspicious      title in index page  = SHAMELESS VIII
+[  Debug ]       differs from title in showdetails = SHAMELESS VIII (?)
 [  Debug ]    suspicious      title in index page  = COMMUNITY IV
 [  Debug ]       differs from title in showdetails = AGENT X
-[  Debug ]    suspicious      title in index page  = AGENT X
-[  Debug ]       differs from title in showdetails = AGENT X (?)
 [  Debug ]    suspicious      title in index page  = MAI DIRE GALLERY - PILLOLE
 [  Debug ]       differs from title in showdetails = BUONA LA PRIMA! 3
-[  Debug ]    suspicious      title in index page  = BUONA LA PRIMA! 3
-[  Debug ]       differs from title in showdetails = BUONA LA PRIMA! 3 (?)
-[  Info  ] 0.11 sec/update
+[  Debug ]    suspicious      title in index page  = COMMUNITY V
+[  Debug ]       differs from title in showdetails = COMMUNITY IV
+[  Info  ] 0.85 sec/update
 [  Debug ] 
 [  Info  ] (   8/171 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La1 HD) -- mode Incremental
 [Error   ] Unable to update channel Rsi La1 HD
@@ -281,13 +285,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  14/171 ) MEDIASET.IT -- chan. (xmltv_id=Mediaset Extra) -- mode Incremental
-[  Debug ]    suspicious      title in index page  = TGCOM24
-[  Debug ]       differs from title in showdetails = TGCOM24 (?)
-[  Debug ]    suspicious      title in index page  = NONNO FELICE II.
-[  Debug ]       differs from title in showdetails = FINALMENTE SOLI II
-[  Debug ]    suspicious      title in index page  = TIRA E MOLLA
-[  Debug ]       differs from title in showdetails = TIRA E MOLLA (?)
-[  Info  ] 0.10 sec/update
+[  Info  ] 0.08 sec/update
 [  Debug ] 
 [  Info  ] (  15/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Storia) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
@@ -705,88 +703,107 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 129/171 ) RAI.IT -- chan. (xmltv_id=Rai YoYo HD) -- mode Incremental
+[  Debug ] multiple entry of a show at 20180811020500 +0200
 [  Info  ]    epg correction : 
 [  Info  ]  MISSING show added,
 [  Info  ]       show with ---- start = 11/08/2018 02:05:00 stop = 11/08/2018 02:05:00 title = Sam Il Pompiere
 [  Info  ]       Added before - start = 11/08/2018 02:05:00 stop = 11/08/2018 02:05:00 title = Teletubbies 9
+[  Debug ] multiple entry of a show at 20180811025500 +0200
+[  Debug ] multiple entry of a show at 20180811030500 +0200
 [  Info  ]    epg correction : 
 [  Info  ]  MISSING show added,
 [  Info  ]       show with ---- start = 11/08/2018 03:05:00 stop = 11/08/2018 03:05:00 title = Le Nuove Avventure Della Pimpa
 [  Info  ]       Added before - start = 11/08/2018 03:05:00 stop = 11/08/2018 03:05:00 title = La Pimpa 4
+[  Debug ] multiple entry of a show at 20180811031000 +0200
 [  Info  ]    epg correction : 
 [  Info  ]  MISSING show added,
 [  Info  ]       show with ---- start = 11/08/2018 03:10:00 stop = 11/08/2018 03:10:00 title = Sigla Buonanotte
 [  Info  ]       Added before - start = 11/08/2018 03:10:00 stop = 11/08/2018 03:10:00 title = Milo
+[  Debug ] multiple entry of a show at 20180811031500 +0200
 [  Info  ]    epg correction : 
 [  Info  ]  MISSING show added,
 [  Info  ]       show with ---- start = 11/08/2018 03:15:00 stop = 11/08/2018 03:15:00 title = Teletubbies 9
 [  Info  ]       Added before - start = 11/08/2018 03:15:00 stop = 11/08/2018 03:15:00 title = Milo
+[  Debug ] multiple entry of a show at 20180811040500 +0200
 [  Info  ]    epg correction : 
 [  Info  ]  MISSING show added,
 [  Info  ]       show with ---- start = 11/08/2018 04:05:00 stop = 11/08/2018 04:05:00 title = Teletubbies 9
 [  Info  ]       Added before - start = 11/08/2018 04:05:00 stop = 11/08/2018 04:05:00 title = Classic Tales 1
+[  Debug ] multiple entry of a show at 20180811043000 +0200
 [  Info  ]    epg correction : 
 [  Info  ]  MISSING show added,
 [  Info  ]       show with ---- start = 11/08/2018 04:30:00 stop = 11/08/2018 04:30:00 title = Teletubbies 10
 [  Info  ]       Added before - start = 11/08/2018 04:30:00 stop = 11/08/2018 04:30:00 title = Dixiland
+[  Debug ] multiple entry of a show at 20180811045500 +0200
 [  Info  ]    epg correction : 
 [  Info  ]  MISSING show added,
 [  Info  ]       show with ---- start = 11/08/2018 04:55:00 stop = 11/08/2018 04:55:00 title = La Pimpa 4
 [  Info  ]       Added before - start = 11/08/2018 04:55:00 stop = 11/08/2018 04:55:00 title = Calimero
+[  Debug ] multiple entry of a show at 20180811051000 +0200
 [  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 11/08/2018 05:10:00 stop = 11/08/2018 05:10:00 title = Milo
-[  Info  ]       Added before - start = 11/08/2018 05:10:00 stop = 11/08/2018 05:10:00 title = Calimero
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 11/08/2018 05:10:00 stop = 11/08/2018 05:15:00 title = Milo
+[  Info  ]       Replaces ----- start = 11/08/2018 05:10:00 stop = 11/08/2018 05:15:00 title = Calimero
+[  Debug ] multiple entry of a show at 20180811053000 +0200
+[  Debug ] multiple entry of a show at 20180811054000 +0200
 [  Info  ]    epg correction : 
 [  Info  ]  MISSING show added,
 [  Info  ]       show with ---- start = 11/08/2018 05:40:00 stop = 11/08/2018 05:40:00 title = Sam Sam
 [  Info  ]       Added before - start = 11/08/2018 05:40:00 stop = 11/08/2018 05:40:00 title = Noddy
 [  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 13/08/2018 02:05:00 stop = 13/08/2018 02:15:00 title = Sam Il Pompiere
-[  Info  ]       Replaces ----- start = 13/08/2018 02:05:00 stop = 13/08/2018 02:15:00 title = Teletubbies 9
-[  Info  ]    epg correction : 
 [  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 13/08/2018 03:00:00 stop = 13/08/2018 03:00:00 title = Le Nuove Avventure Della Pimpa
-[  Info  ]       Added before - start = 13/08/2018 03:00:00 stop = 13/08/2018 03:00:00 title = La Pimpa
+[  Info  ]       show with ---- start = 13/08/2018 02:05:00 stop = 13/08/2018 02:05:00 title = Sam Il Pompiere
+[  Info  ]       Added before - start = 13/08/2018 02:05:00 stop = 13/08/2018 02:05:00 title = Teletubbies 9
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 13/08/2018 02:05:00 stop = 13/08/2018 02:15:00 title = Teletubbies 9
+[  Info  ]       Replaces ----- start = 13/08/2018 02:05:00 stop = 13/08/2018 02:15:00 title = Sam Il Pompiere
+[  Debug ] multiple entry of a show at 20180813030000 +0200
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 13/08/2018 03:00:00 stop = 13/08/2018 03:05:00 title = Le Nuove Avventure Della Pimpa
+[  Info  ]       Replaces ----- start = 13/08/2018 03:00:00 stop = 13/08/2018 03:05:00 title = La Pimpa
+[  Debug ] multiple entry of a show at 20180813030500 +0200
 [  Info  ]    epg correction : 
 [  Info  ]  MISSING show added,
 [  Info  ]       show with ---- start = 13/08/2018 03:05:00 stop = 13/08/2018 03:05:00 title = Le Nuove Avventure Della Pimpa
 [  Info  ]       Added before - start = 13/08/2018 03:05:00 stop = 13/08/2018 03:05:00 title = La Pimpa
+[  Debug ] multiple entry of a show at 20180813031000 +0200
 [  Info  ]    epg correction : 
 [  Info  ]  MISSING show added,
 [  Info  ]       show with ---- start = 13/08/2018 03:10:00 stop = 13/08/2018 03:10:00 title = Sigla Buonanotte
 [  Info  ]       Added before - start = 13/08/2018 03:10:00 stop = 13/08/2018 03:10:00 title = Milo
+[  Debug ] multiple entry of a show at 20180813031500 +0200
 [  Info  ]    epg correction : 
 [  Info  ]  MISSING show added,
 [  Info  ]       show with ---- start = 13/08/2018 03:15:00 stop = 13/08/2018 03:15:00 title = Teletubbies 9
 [  Info  ]       Added before - start = 13/08/2018 03:15:00 stop = 13/08/2018 03:15:00 title = Milo
+[  Debug ] multiple entry of a show at 20180813034000 +0200
 [  Info  ]    epg correction : 
 [  Info  ]  MISSING show added,
 [  Info  ]       show with ---- start = 13/08/2018 03:40:00 stop = 13/08/2018 03:40:00 title = Teletubbies 10
 [  Info  ]       Added before - start = 13/08/2018 03:40:00 stop = 13/08/2018 03:40:00 title = Sam Sam
+[  Debug ] multiple entry of a show at 20180813043000 +0200
 [  Info  ]    epg correction : 
 [  Info  ]  MISSING show added,
 [  Info  ]       show with ---- start = 13/08/2018 04:30:00 stop = 13/08/2018 04:30:00 title = Teletubbies 10
 [  Info  ]       Added before - start = 13/08/2018 04:30:00 stop = 13/08/2018 04:30:00 title = Dixiland
+[  Debug ] multiple entry of a show at 20180813050000 +0200
 [  Info  ]    epg correction : 
 [  Info  ]  MISSING show added,
 [  Info  ]       show with ---- start = 13/08/2018 05:00:00 stop = 13/08/2018 05:00:00 title = La Pimpa
 [  Info  ]       Added before - start = 13/08/2018 05:00:00 stop = 13/08/2018 05:00:00 title = Calimero
+[  Debug ] multiple entry of a show at 20180813051000 +0200
 [  Info  ]    epg correction : 
 [  Info  ]  MISSING show added,
 [  Info  ]       show with ---- start = 13/08/2018 05:10:00 stop = 13/08/2018 05:10:00 title = Milo
 [  Info  ]       Added before - start = 13/08/2018 05:10:00 stop = 13/08/2018 05:10:00 title = Calimero
-[  Debug ] multiple entry of a show at 20180813053000 +0200
+[  Debug ] multiple entry of a show at 20180813052000 +0200
+[  Debug ] multiple entry of a show at 20180813054000 +0200
 [  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 13/08/2018 05:40:00 stop = 13/08/2018 05:40:00 title = Sam Sam
-[  Info  ]       Added before - start = 13/08/2018 05:40:00 stop = 13/08/2018 05:40:00 title = Noddy
-[  Debug ] multiple entry of a show at 20180813055000 +0200
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 13/08/2018 05:50:00 stop = 13/08/2018 05:50:00 title = Sam Sam
-[  Info  ]       Added before - start = 13/08/2018 05:50:00 stop = 13/08/2018 05:50:00 title = Molly Monster 2
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 13/08/2018 05:40:00 stop = 13/08/2018 05:50:00 title = Sam Sam
+[  Info  ]       Replaces ----- start = 13/08/2018 05:40:00 stop = 13/08/2018 05:50:00 title = Noddy
 [  Info  ] 0.11 sec/update
 [  Debug ] 
 [  Info  ] ( 130/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cartoon Network) -- mode Incremental
@@ -837,12 +854,12 @@
 [  Debug ]       differs from title in showdetails = I Greens in Citta'' -
 [  Debug ]    suspicious      title in index page  = I Greens in Citta'
 [  Debug ]       differs from title in showdetails = I Greens in Citta'' -
-[  Info  ] 0.27 sec/update
+[  Info  ] 0.32 sec/update
 [  Debug ] 
 [  Info  ] ( 132/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Disney Channel) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = Club Houdini - 1^ TV - 1^TV
 [  Debug ]       differs from title in showdetails = Club Houdini - 1^ TV
-[  Info  ] 0.29 sec/update
+[  Info  ] 0.26 sec/update
 [  Debug ] 
 [  Info  ] ( 133/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Disney Channel +1) -- mode Incremental
 [  Info  ] 
@@ -906,7 +923,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 13/08/2018 01:33:00 stop = 13/08/2018 03:16:00 title = Tower Heist - Colpo Ad Alto Livello
 [  Info  ]       Replaces ----- start = 13/08/2018 01:33:00 stop = 13/08/2018 03:16:00 title = Tower Heist - Colpo Ad Alto Livello
-[  Info  ] 0.65 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 149/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema +24) -- mode Incremental
 [Error   ] Unable to update channel Premium Cinema +24
@@ -937,7 +954,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 11/08/2018 18:32:00 stop = 11/08/2018 20:15:00 title = La Cosa (di Matthijs van Heijningen Jr.)
 [  Info  ]       Replaces ----- start = 11/08/2018 18:32:00 stop = 11/08/2018 20:15:00 title = La Cosa (di Matthijs van Heijningen Jr.)
-[  Info  ] 0.29 sec/update
+[  Info  ] 0.13 sec/update
 [  Debug ] 
 [  Info  ] ( 150/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Emotion) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = WE WERE YOUNG - DESTINAZIONE PARADISO
@@ -958,7 +975,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 10/08/2018 07:50:00 stop = 10/08/2018 08:00:00 title = AL SUONO DEI CAMPANELLI -
 [  Info  ]       Replaces ----- start = 10/08/2018 07:50:00 stop = 10/08/2018 08:00:00 title = AL SUONO DEI CAMPANELLI -
-[  Info  ] 0.69 sec/update
+[  Info  ] 0.12 sec/update
 [  Debug ] 
 [  Info  ] ( 151/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Comedy) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = COMEDY EXTRA
@@ -985,7 +1002,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 12/08/2018 06:21:00 stop = 12/08/2018 06:42:00 title = MACCIO CAPATONDA E FANTOZZI - COMEDY EXTRA
 [  Info  ]       Replaces ----- start = 12/08/2018 06:21:00 stop = 12/08/2018 06:42:00 title = MACCIO CAPATONDA E FANTOZZI - COMEDY EXTRA
-[  Info  ] 0.46 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 152/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Investigation Discovery) -- mode Incremental
 [  Info  ] 
@@ -1059,7 +1076,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 14/08/2018 19:15:00 stop = 14/08/2018 20:15:00 title = PIU' O MENO - FAIDA: BETTE & JOAN
 [  Info  ]       Replaces ----- start = 14/08/2018 19:15:00 stop = 14/08/2018 20:15:00 title = PIU' O MENO - FAIDA: BETTE & JOAN
-[  Info  ] 0.16 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 154/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Paramount Channel) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = QUANDO L'AMORE E' MAGIA - SERENDIPITY
@@ -1130,7 +1147,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 14/08/2018 19:15:00 stop = 14/08/2018 20:15:00 title = PIU' O MENO - FAIDA: BETTE & JOAN
 [  Info  ]       Replaces ----- start = 14/08/2018 19:15:00 stop = 14/08/2018 20:15:00 title = PIU' O MENO - FAIDA: BETTE & JOAN
-[  Info  ] 0.16 sec/update
+[  Info  ] 0.18 sec/update
 [  Debug ] 
 [  Info  ] ( 155/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action HD) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = GOTHAM IV
@@ -1265,6 +1282,8 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 09/08/2018 05:19:00 stop = 09/08/2018 05:39:00 title = IL PIU' FORTE TRA NOI - CHICAGO FIRE VI
 [  Info  ]       Replaces ----- start = 09/08/2018 05:19:00 stop = 09/08/2018 05:39:00 title = IL PIU' FORTE TRA NOI - CHICAGO FIRE VI
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = CHICAGO FIRE VI
 [  Debug ]       differs from title in showdetails = UN LEADER SENZA RIVALI - .....
 [  Info  ]    epg correction : 
@@ -1489,6 +1508,8 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 10/08/2018 23:30:00 stop = 11/08/2018 00:18:00 title = FUOCO CON FUOCO - NIKITA III (NEW)
 [  Info  ]       Replaces ----- start = 10/08/2018 23:30:00 stop = 11/08/2018 00:18:00 title = FUOCO CON FUOCO - NIKITA III (NEW)
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = THE 100 II
 [  Debug ]       differs from title in showdetails = CAMBIO AL VERTICE - .....
 [  Info  ]    epg correction : 
@@ -1977,7 +1998,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 14/08/2018 23:33:00 stop = 15/08/2018 00:21:00 title = LA VITA CHE ABBIAMO SCELTO - NIKITA III (NEW)
 [  Info  ]       Replaces ----- start = 14/08/2018 23:33:00 stop = 15/08/2018 00:21:00 title = LA VITA CHE ABBIAMO SCELTO - NIKITA III (NEW)
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.42 sec/update
 [  Debug ] 
 [  Info  ] ( 156/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action +24) -- mode Incremental
 [Error   ] Unable to update channel Premium Action +24
@@ -2136,6 +2157,8 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 09/08/2018 15:50:00 stop = 09/08/2018 16:50:00 title = LA VERITA' E' SVELATA - DEXTER I
 [  Info  ]       Replaces ----- start = 09/08/2018 15:50:00 stop = 09/08/2018 16:50:00 title = LA VERITA' E' SVELATA - DEXTER I
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = SPECIAL VICTIMS UNIT XV
 [  Debug ]       differs from title in showdetails = PREGIUDIZI - LAW & ORDER: UNITA' .....
 [  Info  ]    epg correction : 
@@ -2456,6 +2479,8 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 12/08/2018 21:04:00 stop = 12/08/2018 21:54:00 title = A OGNI COSTO- I PARTE - MAJOR CRIMES VI
 [  Info  ]       Replaces ----- start = 12/08/2018 21:04:00 stop = 12/08/2018 21:54:00 title = A OGNI COSTO- I PARTE - MAJOR CRIMES VI
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = CHICAGO P.D. V
 [  Debug ]       differs from title in showdetails = RITORNO A CASA - CHICAGO.....
 [  Info  ]    epg correction : 
@@ -2552,6 +2577,8 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 13/08/2018 21:03:00 stop = 13/08/2018 21:54:00 title = RITORNO A CASA - CHICAGO P.D. V - PRIMA TV
 [  Info  ]       Replaces ----- start = 13/08/2018 21:03:00 stop = 13/08/2018 21:54:00 title = RITORNO A CASA - CHICAGO P.D. V - PRIMA TV
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = MAJOR CRIMES VI
 [  Debug ]       differs from title in showdetails = A OGNI COSTO- II PARTE - .....
 [  Info  ]    epg correction : 
@@ -2680,7 +2707,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 14/08/2018 23:36:00 stop = 15/08/2018 00:24:00 title = BOMBA AD OROLOGERIA - THE CLOSER IV
 [  Info  ]       Replaces ----- start = 14/08/2018 23:36:00 stop = 15/08/2018 00:24:00 title = BOMBA AD OROLOGERIA - THE CLOSER IV
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.61 sec/update
 [  Debug ] 
 [  Info  ] ( 157/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Joy) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = IL MAMMO III
@@ -3151,6 +3178,8 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 10/08/2018 07:25:00 stop = 10/08/2018 07:48:00 title = UN VETERANO SOTTO SFRATTO - MOM V
 [  Info  ]       Replaces ----- start = 10/08/2018 07:25:00 stop = 10/08/2018 07:48:00 title = UN VETERANO SOTTO SFRATTO - MOM V
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = MOM V
 [  Debug ]       differs from title in showdetails = LA GUERRA FREDD.....
 [  Info  ]    epg correction : 
@@ -3331,6 +3360,8 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 10/08/2018 23:40:00 stop = 11/08/2018 00:02:00 title = CREDI NELLE STELLE - 30 ROCK III
 [  Info  ]       Replaces ----- start = 10/08/2018 23:40:00 stop = 11/08/2018 00:02:00 title = CREDI NELLE STELLE - 30 ROCK III
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = BIG BANG THEORY V
 [  Debug ]       differs from title in showdetails = IL MALFUNZIONE DEL TELETRAS.....
 [  Info  ]    epg correction : 
@@ -3379,6 +3410,8 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 11/08/2018 05:06:00 stop = 11/08/2018 05:30:00 title = UN PONY DI NOME HARVEY - IL MAMMO III
 [  Info  ]       Replaces ----- start = 11/08/2018 05:06:00 stop = 11/08/2018 05:30:00 title = UN PONY DI NOME HARVEY - IL MAMMO III
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = A.P. BIO
 [  Debug ]       differs from title in showdetails = RIMORCHIARE A TOLE.....
 [  Info  ]    epg correction : 
@@ -3505,6 +3538,8 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 12/08/2018 00:28:00 stop = 12/08/2018 00:51:00 title = DA UNA DIPENDENZA ALL'ALTRA - MOM V - PRIMA TV
 [  Info  ]       Replaces ----- start = 12/08/2018 00:28:00 stop = 12/08/2018 00:51:00 title = DA UNA DIPENDENZA ALL'ALTRA - MOM V - PRIMA TV
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 12/08/2018 01:58:00 stop = 12/08/2018 02:46:00 title = CHUCK VS. LA DELOREAN - CHUCK II
@@ -3645,6 +3680,8 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 12/08/2018 22:32:00 stop = 12/08/2018 22:55:00 title = NON DIRE FALSA TESTIMONIANZA! - LIVING BIBLICALLY I - PRIMA TV
 [  Info  ]       Replaces ----- start = 12/08/2018 22:32:00 stop = 12/08/2018 22:55:00 title = NON DIRE FALSA TESTIMONIANZA! - LIVING BIBLICALLY I - PRIMA TV
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = THE GOLDBERGS V
 [  Debug ]       differs from title in showdetails = FEBBRE DA FLASHDANCE - TH.....
 [  Info  ]    epg correction : 
@@ -4121,7 +4158,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 14/08/2018 23:40:00 stop = 15/08/2018 00:03:00 title = IN FUGA DAL NATALE - 30 ROCK III
 [  Info  ]       Replaces ----- start = 14/08/2018 23:40:00 stop = 15/08/2018 00:03:00 title = IN FUGA DAL NATALE - 30 ROCK III
-[  Info  ] 0.16 sec/update
+[  Info  ] 0.34 sec/update
 [  Debug ] 
 [  Info  ] ( 158/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Stories) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = GIRLFRIENDS' GUIDE TO DIVORCE I
@@ -4742,7 +4779,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 14/08/2018 22:49:00 stop = 14/08/2018 23:39:00 title = THE BRAVE , 10 - THE BRAVE - PRIMA TV
 [  Info  ]       Replaces ----- start = 14/08/2018 22:49:00 stop = 14/08/2018 23:39:00 title = THE BRAVE , 10 - THE BRAVE - PRIMA TV
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 159/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Sport superHD) -- mode Incremental
 [Error   ] Unable to update channel Premium Sport superHD
@@ -4768,10 +4805,10 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Debug ] 33759 shows in 171 channels
+[  Debug ] 33745 shows in 171 channels
 [  Debug ] 711 updated shows
 [  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 08/08/2018 18:16:05 done in 11m 1s
+[        ] Job finished at 08/08/2018 20:19:12 done in 14m 8s
 [  Debug ] statistics upload error: The remote server returned an error: (404) Not Found.
