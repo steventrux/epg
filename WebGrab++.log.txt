@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 30/08/2018 08:05:04
+[        ] Job started at 30/08/2018 12:05:04
 [  Debug ] 
 [  Debug ] Running  on: Unix 3.13.0.132
 [  Debug ] Environment: 4.0.30319.42000
@@ -29,7 +29,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+02:00	(DST in effect)
 [  Debug ] 	next DST dates  :	28/10/2018 03:00 (local)
 [  Debug ] 	                :	31/03/2019 02:00 (local)
-[  Debug ] 	local time now  :	30/08/2018 08:05:04
+[  Debug ] 	local time now  :	30/08/2018 12:05:04
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -226,16 +226,16 @@
 [  Debug ] 
 [  Info  ] (   4/171 ) MEDIASET.IT -- chan. (xmltv_id=Rete 4 HD) -- mode Incremental
 [  Debug ]    skipped negative show time! at 04/09/2018 01:38:00
-[  Info  ] 0.08 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   5/171 ) MEDIASET.IT -- chan. (xmltv_id=Canale 5 HD) -- mode Incremental
-[  Info  ] 0.08 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   6/171 ) MEDIASET.IT -- chan. (xmltv_id=Italia 1 HD) -- mode Incremental
-[  Info  ] 0.08 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   7/171 ) MEDIASET.IT -- chan. (xmltv_id=Italia 2) -- mode Incremental
-[  Info  ] 0.08 sec/update
+[  Info  ] 0.12 sec/update
 [  Debug ] 
 [  Info  ] (   8/171 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La1 HD) -- mode Incremental
 [Error   ] Unable to update channel Rsi La1 HD
@@ -257,7 +257,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   9/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=LA7) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.19 sec/update
 [  Debug ] 
 [  Info  ] (  10/171 ) STASERAINTV.COM -- chan. (xmltv_id=LA7 D) -- mode Incremental
 [  Info  ] 
@@ -273,13 +273,13 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  14/171 ) MEDIASET.IT -- chan. (xmltv_id=Mediaset Extra) -- mode Incremental
-[  Info  ] 0.08 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  15/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Storia) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  16/171 ) MEDIASET.IT -- chan. (xmltv_id=Iris) -- mode Incremental
-[  Info  ] 0.08 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  17/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Sport 1 HD) -- mode Incremental
 [  Info  ] 
@@ -718,6 +718,10 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 141/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Teen Nick) -- mode Incremental
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
+[Warning ] error downloading page: Error getting response stream (ReadDone1): ReceiveFailure
+[Warning ] pausing 2 of 4 times for 10 seconds before re-try.
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 142/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Disney Junior) -- mode Incremental
@@ -792,7 +796,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 05/09/2018 23:42:00 stop = 06/09/2018 01:45:00 title = King Arthur -  Il Potere Della Spada
 [  Info  ]       Replaces ----- start = 05/09/2018 23:42:00 stop = 06/09/2018 01:45:00 title = King Arthur -  Il Potere Della Spada
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 151/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema +24) -- mode Incremental
 [Error   ] Unable to update channel Premium Cinema +24
@@ -859,20 +863,16 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 05/09/2018 07:54:00 stop = 05/09/2018 10:14:00 title = Wolfhound - Un Eroe In Lotta Per La Libertà
 [  Info  ]       Replaces ----- start = 05/09/2018 07:54:00 stop = 05/09/2018 10:14:00 title = Wolfhound - Un Eroe In Lotta Per La Libertà
-[  Info  ] 0.16 sec/update
+[  Info  ] 0.13 sec/update
 [  Debug ] 
 [  Info  ] ( 152/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Emotion) -- mode Incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 02/09/2018 04:03:00 stop = 02/09/2018 05:30:00 title = Jackie & Ryan
-[  Info  ]       Replaces ----- start = 02/09/2018 04:03:00 stop = 02/09/2018 05:30:00 title = SKIPPER: COLPO IMPERFETTO -
 [  Debug ]    suspicious      title in index page  = IL MOSTRO DI CLEVELAND
 [  Debug ]       differs from title in showdetails = Cleveland Abduction
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 05/09/2018 22:12:00 stop = 05/09/2018 23:46:00 title = Cleveland Abduction
 [  Info  ]       Replaces ----- start = 05/09/2018 22:12:00 stop = 05/09/2018 23:46:00 title = Cleveland Abduction
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 153/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Comedy) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = COMEDY EXTRA
@@ -893,7 +893,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 02/09/2018 03:01:00 stop = 02/09/2018 03:32:00 title = PIERLUIGI FAVINO - INVITO A CENA CON...
 [  Info  ]       Replaces ----- start = 02/09/2018 03:01:00 stop = 02/09/2018 03:32:00 title = PIERLUIGI FAVINO - INVITO A CENA CON...
-[  Info  ] 0.18 sec/update
+[  Info  ] 0.17 sec/update
 [  Debug ] 
 [  Info  ] ( 154/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Investigation Discovery) -- mode Incremental
 [  Info  ] 
@@ -939,7 +939,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 04/09/2018 20:15:00 stop = 04/09/2018 20:23:00 title = PAUL NEWMAN - FOCUS (INTERVISTE)
 [  Info  ]       Replaces ----- start = 04/09/2018 20:15:00 stop = 04/09/2018 20:23:00 title = PAUL NEWMAN - FOCUS (INTERVISTE)
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.18 sec/update
 [  Debug ] 
 [  Info  ] ( 156/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Paramount Channel) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = PROJECT GREENLIGHT S4 - LA SVOLTA
@@ -1737,7 +1737,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 05/09/2018 23:29:00 stop = 06/09/2018 00:18:00 title = UNA SERA DI OTTOBRE - FRINGE IV
 [  Info  ]       Replaces ----- start = 05/09/2018 23:29:00 stop = 06/09/2018 00:18:00 title = UNA SERA DI OTTOBRE - FRINGE IV
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 158/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action +24) -- mode Incremental
 [Error   ] Unable to update channel Premium Action +24
@@ -2408,7 +2408,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 05/09/2018 22:46:00 stop = 05/09/2018 23:36:00 title = LA CORSA - GONE - PRIMA TV
 [  Info  ]       Replaces ----- start = 05/09/2018 22:46:00 stop = 05/09/2018 23:36:00 title = LA CORSA - GONE - PRIMA TV
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.17 sec/update
 [  Debug ] 
 [  Info  ] ( 159/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Joy) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = THE GOLDBERGS V
@@ -2813,18 +2813,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 01/09/2018 07:25:00 stop = 01/09/2018 07:47:00 title = L' INTEGRAZIONE DEL RILASSAMENTO - BIG BANG THEORY XI
 [  Info  ]       Replaces ----- start = 01/09/2018 07:25:00 stop = 01/09/2018 07:47:00 title = L' INTEGRAZIONE DEL RILASSAMENTO - BIG BANG THEORY XI
-[  Debug ]    suspicious      title in index page  = A.P. BIO
-[  Debug ]       differs from title in showdetails = OTTO MAIALI E UNA .....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 01/09/2018 08:55:00 stop = 01/09/2018 09:18:00 title = OTTO MAIALI E UNA TALPA - A.P. BIO
-[  Info  ]       Replaces ----- start = 01/09/2018 08:55:00 stop = 01/09/2018 09:18:00 title = OTTO MAIALI E UNA TALPA - A.P. BIO - PRIMA TV
-[  Debug ]    suspicious      title in index page  = A.P. BIO
-[  Debug ]       differs from title in showdetails = DOPPIO SGUARDO - A.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 01/09/2018 09:18:00 stop = 01/09/2018 09:41:00 title = DOPPIO SGUARDO - A.P. BIO
-[  Info  ]       Replaces ----- start = 01/09/2018 09:18:00 stop = 01/09/2018 09:41:00 title = DOPPIO SGUARDO - A.P. BIO - PRIMA TV
 [  Debug ]    suspicious      title in index page  = CROWDED
 [  Debug ]       differs from title in showdetails = IL COCCO DI PAPA'.....
 [  Info  ]    epg correction : 
@@ -2885,18 +2873,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 01/09/2018 20:59:00 stop = 01/09/2018 21:21:00 title = L' INTEGRAZIONE DEL RILASSAMENTO - BIG BANG THEORY XI
 [  Info  ]       Replaces ----- start = 01/09/2018 20:59:00 stop = 01/09/2018 21:21:00 title = L' INTEGRAZIONE DEL RILASSAMENTO - BIG BANG THEORY XI
-[  Debug ]    suspicious      title in index page  = A.P. BIO
-[  Debug ]       differs from title in showdetails = OTTO MAIALI E UNA .....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 01/09/2018 21:45:00 stop = 01/09/2018 22:08:00 title = OTTO MAIALI E UNA TALPA - A.P. BIO
-[  Info  ]       Replaces ----- start = 01/09/2018 21:45:00 stop = 01/09/2018 22:08:00 title = OTTO MAIALI E UNA TALPA - A.P. BIO - PRIMA TV
-[  Debug ]    suspicious      title in index page  = A.P. BIO
-[  Debug ]       differs from title in showdetails = DOPPIO SGUARDO - A.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 01/09/2018 22:08:00 stop = 01/09/2018 22:31:00 title = DOPPIO SGUARDO - A.P. BIO
-[  Info  ]       Replaces ----- start = 01/09/2018 22:08:00 stop = 01/09/2018 22:31:00 title = DOPPIO SGUARDO - A.P. BIO - PRIMA TV
 [  Debug ]    suspicious      title in index page  = THE MIDDLE IX
 [  Debug ]       differs from title in showdetails = LEZIONI DI ECONOMIA - T.....
 [  Info  ]    epg correction : 
@@ -2995,18 +2971,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 02/09/2018 10:39:00 stop = 02/09/2018 11:02:00 title = VI E' PIU' GIOIA NEL DARE CHE NEL RICEVERE! - LIVING BIBLICALLY I - PRIMA TV
 [  Info  ]       Replaces ----- start = 02/09/2018 10:39:00 stop = 02/09/2018 11:02:00 title = VI E' PIU' GIOIA NEL DARE CHE NEL RICEVERE! - LIVING BIBLICALLY I - PRIMA TV
-[  Debug ]    suspicious      title in index page  = A.P. BIO
-[  Debug ]       differs from title in showdetails = OTTO MAIALI E UNA .....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 02/09/2018 15:32:00 stop = 02/09/2018 15:55:00 title = OTTO MAIALI E UNA TALPA - A.P. BIO
-[  Info  ]       Replaces ----- start = 02/09/2018 15:32:00 stop = 02/09/2018 15:55:00 title = OTTO MAIALI E UNA TALPA - A.P. BIO - PRIMA TV
-[  Debug ]    suspicious      title in index page  = A.P. BIO
-[  Debug ]       differs from title in showdetails = DOPPIO SGUARDO - A.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 02/09/2018 15:55:00 stop = 02/09/2018 16:17:00 title = DOPPIO SGUARDO - A.P. BIO
-[  Info  ]       Replaces ----- start = 02/09/2018 15:55:00 stop = 02/09/2018 16:17:00 title = DOPPIO SGUARDO - A.P. BIO - PRIMA TV
 [  Debug ]    suspicious      title in index page  = ODD MOM OUT II
 [  Debug ]       differs from title in showdetails = AFFAMATI E FURIOSI - ODD.....
 [  Info  ]    epg correction : 
@@ -3131,18 +3095,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 03/09/2018 04:48:00 stop = 03/09/2018 05:30:00 title = CHUCK VS. IL BELGA - CHUCK IV
 [  Info  ]       Replaces ----- start = 03/09/2018 04:48:00 stop = 03/09/2018 05:30:00 title = CHUCK VS. IL BELGA - CHUCK IV
-[  Debug ]    suspicious      title in index page  = A.P. BIO
-[  Debug ]       differs from title in showdetails = OTTO MAIALI E UNA .....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 03/09/2018 06:50:00 stop = 03/09/2018 07:15:00 title = OTTO MAIALI E UNA TALPA - A.P. BIO
-[  Info  ]       Replaces ----- start = 03/09/2018 06:50:00 stop = 03/09/2018 07:15:00 title = OTTO MAIALI E UNA TALPA - A.P. BIO - PRIMA TV
-[  Debug ]    suspicious      title in index page  = A.P. BIO
-[  Debug ]       differs from title in showdetails = DOPPIO SGUARDO - A.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 03/09/2018 07:15:00 stop = 03/09/2018 07:41:00 title = DOPPIO SGUARDO - A.P. BIO
-[  Info  ]       Replaces ----- start = 03/09/2018 07:15:00 stop = 03/09/2018 07:41:00 title = DOPPIO SGUARDO - A.P. BIO - PRIMA TV
 [  Debug ]    suspicious      title in index page  = NEW GIRL V
 [  Debug ]       differs from title in showdetails = USCITA DA PELLE D'OC.....
 [  Info  ]    epg correction : 
@@ -3269,18 +3221,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 03/09/2018 20:39:00 stop = 03/09/2018 21:04:00 title = IL MIO ZIO ONESTO - CHAMPIONS - PRIMA TV
 [  Info  ]       Replaces ----- start = 03/09/2018 20:39:00 stop = 03/09/2018 21:04:00 title = IL MIO ZIO ONESTO - CHAMPIONS - PRIMA TV
-[  Debug ]    suspicious      title in index page  = A.P. BIO
-[  Debug ]       differs from title in showdetails = OTTO MAIALI E UNA .....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 03/09/2018 21:04:00 stop = 03/09/2018 21:30:00 title = OTTO MAIALI E UNA TALPA - A.P. BIO
-[  Info  ]       Replaces ----- start = 03/09/2018 21:04:00 stop = 03/09/2018 21:30:00 title = OTTO MAIALI E UNA TALPA - A.P. BIO - PRIMA TV
-[  Debug ]    suspicious      title in index page  = A.P. BIO
-[  Debug ]       differs from title in showdetails = DOPPIO SGUARDO - A.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 03/09/2018 21:30:00 stop = 03/09/2018 21:57:00 title = DOPPIO SGUARDO - A.P. BIO
-[  Info  ]       Replaces ----- start = 03/09/2018 21:30:00 stop = 03/09/2018 21:57:00 title = DOPPIO SGUARDO - A.P. BIO - PRIMA TV
 [  Debug ]    suspicious      title in index page  = PSYCH V
 [  Debug ]       differs from title in showdetails = LA SIGNORA OMICID.....
 [  Info  ]    epg correction : 
@@ -3474,12 +3414,6 @@
 [  Info  ]       show with ---- start = 04/09/2018 21:50:00 stop = 04/09/2018 22:35:00 title = SFIDE AD ALTA VELOCITA' - PSYCH V
 [  Info  ]       Replaces ----- start = 04/09/2018 21:50:00 stop = 04/09/2018 22:35:00 title = SFIDE AD ALTA VELOCITA' - PSYCH V
 [  Debug ]    suspicious      title in index page  = A.P. BIO
-[  Debug ]       differs from title in showdetails = DOPPIO SGUARDO - A.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 04/09/2018 22:35:00 stop = 04/09/2018 22:59:00 title = DOPPIO SGUARDO - A.P. BIO
-[  Info  ]       Replaces ----- start = 04/09/2018 22:35:00 stop = 04/09/2018 22:59:00 title = DOPPIO SGUARDO - A.P. BIO - PRIMA TV
-[  Debug ]    suspicious      title in index page  = A.P. BIO
 [  Debug ]       differs from title in showdetails = INZUPPARE DALLAS -.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
@@ -3515,12 +3449,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 05/09/2018 08:03:00 stop = 05/09/2018 08:28:00 title = IL VORTICE DELLA CACCIA AL TESORO - BIG BANG THEORY VII
 [  Info  ]       Replaces ----- start = 05/09/2018 08:03:00 stop = 05/09/2018 08:28:00 title = IL VORTICE DELLA CACCIA AL TESORO - BIG BANG THEORY VII
-[  Debug ]    suspicious      title in index page  = A.P. BIO
-[  Debug ]       differs from title in showdetails = DOPPIO SGUARDO - A.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 05/09/2018 09:16:00 stop = 05/09/2018 09:40:00 title = DOPPIO SGUARDO - A.P. BIO
-[  Info  ]       Replaces ----- start = 05/09/2018 09:16:00 stop = 05/09/2018 09:40:00 title = DOPPIO SGUARDO - A.P. BIO - PRIMA TV
 [  Debug ]    suspicious      title in index page  = A.P. BIO
 [  Debug ]       differs from title in showdetails = INZUPPARE DALLAS -.....
 [  Info  ]    epg correction : 
@@ -3575,12 +3503,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 05/09/2018 13:34:00 stop = 05/09/2018 13:58:00 title = SOGNI INFRANTI - 30 ROCK IV
 [  Info  ]       Replaces ----- start = 05/09/2018 13:34:00 stop = 05/09/2018 13:58:00 title = SOGNI INFRANTI - 30 ROCK IV
-[  Debug ]    suspicious      title in index page  = A.P. BIO
-[  Debug ]       differs from title in showdetails = DOPPIO SGUARDO - A.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 05/09/2018 13:58:00 stop = 05/09/2018 14:23:00 title = DOPPIO SGUARDO - A.P. BIO
-[  Info  ]       Replaces ----- start = 05/09/2018 13:58:00 stop = 05/09/2018 14:23:00 title = DOPPIO SGUARDO - A.P. BIO - PRIMA TV
 [  Debug ]    suspicious      title in index page  = A.P. BIO
 [  Debug ]       differs from title in showdetails = INZUPPARE DALLAS -.....
 [  Info  ]    epg correction : 
@@ -3957,7 +3879,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 01/09/2018 22:50:00 stop = 01/09/2018 23:39:00 title = IL SOTTOMARINO SCOMPARSO - THE BRAVE
-[  Info  ]       Replaces ----- start = 01/09/2018 22:50:00 stop = 01/09/2018 23:39:00 title = IL SOTTOMARINO SCOMPARSO - THE BRAVE - PRIMA TV
+[  Info  ]       Replaces ----- start = 01/09/2018 22:50:00 stop = 01/09/2018 23:39:00 title = IL SOTTOMARINO SCOMPARSO - THE BRAVE
 [  Debug ]    suspicious      title in index page  = ORANGE IS THE NEW BLACK VI
 [  Debug ]       differs from title in showdetails = LA NOTTE DEI MISFATTI - ORANGE IS TH.....
 [  Info  ]    epg correction : 
@@ -3993,7 +3915,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 02/09/2018 06:59:00 stop = 02/09/2018 07:48:00 title = IL SOTTOMARINO SCOMPARSO - THE BRAVE
-[  Info  ]       Replaces ----- start = 02/09/2018 06:59:00 stop = 02/09/2018 07:48:00 title = IL SOTTOMARINO SCOMPARSO - THE BRAVE - PRIMA TV
+[  Info  ]       Replaces ----- start = 02/09/2018 06:59:00 stop = 02/09/2018 07:48:00 title = IL SOTTOMARINO SCOMPARSO - THE BRAVE
 [  Debug ]    suspicious      title in index page  = DALLAS III
 [  Debug ]       differs from title in showdetails = IL RITORNO - DALLAS .....
 [  Info  ]    epg correction : 
@@ -4119,7 +4041,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 03/09/2018 05:56:00 stop = 03/09/2018 06:36:00 title = IL SOTTOMARINO SCOMPARSO - THE BRAVE
-[  Info  ]       Replaces ----- start = 03/09/2018 05:56:00 stop = 03/09/2018 06:36:00 title = IL SOTTOMARINO SCOMPARSO - THE BRAVE - PRIMA TV
+[  Info  ]       Replaces ----- start = 03/09/2018 05:56:00 stop = 03/09/2018 06:36:00 title = IL SOTTOMARINO SCOMPARSO - THE BRAVE
 [  Debug ]    suspicious      title in index page  = ROADIES
 [  Debug ]       differs from title in showdetails = CHE COSA FAREBBE .....
 [  Info  ]    epg correction : 
@@ -4161,7 +4083,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 03/09/2018 21:05:00 stop = 03/09/2018 21:55:00 title = IL SOTTOMARINO SCOMPARSO - THE BRAVE
-[  Info  ]       Replaces ----- start = 03/09/2018 21:05:00 stop = 03/09/2018 21:55:00 title = IL SOTTOMARINO SCOMPARSO - THE BRAVE - PRIMA TV
+[  Info  ]       Replaces ----- start = 03/09/2018 21:05:00 stop = 03/09/2018 21:55:00 title = IL SOTTOMARINO SCOMPARSO - THE BRAVE
 [  Debug ]    suspicious      title in index page  = NIP'N TUCK VI
 [  Debug ]       differs from title in showdetails = ABIGAIL SULLIVAN - NIP'.....
 [  Info  ]    epg correction : 
@@ -4334,7 +4256,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 05/09/2018 23:36:00 stop = 06/09/2018 00:17:00 title = LE INSIDIE DELLA SINCERITA' - CHASING LIFE II
 [  Info  ]       Replaces ----- start = 05/09/2018 23:36:00 stop = 06/09/2018 00:17:00 title = LE INSIDIE DELLA SINCERITA' - CHASING LIFE II
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 161/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Sport superHD) -- mode Incremental
 [Error   ] Unable to update channel Premium Sport superHD
@@ -4360,10 +4282,10 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Debug ] 33271 shows in 171 channels
-[  Debug ] 597 updated shows
-[  Debug ] 171 new shows added
+[  Debug ] 33269 shows in 171 channels
+[  Debug ] 627 updated shows
+[  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 30/08/2018 08:15:57 done in 10m 53s
+[        ] Job finished at 30/08/2018 12:16:07 done in 11m 3s
 [  Debug ] statistics upload error: The remote server returned an error: (404) Not Found.
