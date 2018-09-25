@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 25/09/2018 08:05:03
+[        ] Job started at 25/09/2018 12:05:04
 [  Debug ] 
 [  Debug ] Running  on: Unix 3.13.0.132
 [  Debug ] Environment: 4.0.30319.42000
@@ -29,7 +29,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+02:00	(DST in effect)
 [  Debug ] 	next DST dates  :	28/10/2018 03:00 (local)
 [  Debug ] 	                :	31/03/2019 02:00 (local)
-[  Debug ] 	local time now  :	25/09/2018 08:05:04
+[  Debug ] 	local time now  :	25/09/2018 12:05:04
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -227,16 +227,16 @@
 [  Info  ] (   4/171 ) MEDIASET.IT -- chan. (xmltv_id=Rete 4 HD) -- mode Incremental
 [  Debug ]    skipped negative show time! at 28/09/2018 01:12:00
 [  Debug ]    skipped negative show time! at 01/10/2018 01:11:00
-[  Info  ] 0.08 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   5/171 ) MEDIASET.IT -- chan. (xmltv_id=Canale 5 HD) -- mode Incremental
-[  Info  ] 0.08 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   6/171 ) MEDIASET.IT -- chan. (xmltv_id=Italia 1 HD) -- mode Incremental
-[  Info  ] 0.08 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   7/171 ) MEDIASET.IT -- chan. (xmltv_id=Italia 2) -- mode Incremental
-[  Info  ] 0.07 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   8/171 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La1 HD) -- mode Incremental
 [Error   ] Unable to update channel Rsi La1 HD
@@ -255,7 +255,7 @@
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] (   8/171 ) STASERAINTV.COM -- chan. (xmltv_id=La 5) -- mode Incremental
-[  Info  ] 0.06 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   9/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=LA7) -- mode Incremental
 [  Info  ] 
@@ -273,14 +273,14 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  14/171 ) MEDIASET.IT -- chan. (xmltv_id=Mediaset Extra) -- mode Incremental
-[  Info  ] 0.09 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  15/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Storia) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  16/171 ) MEDIASET.IT -- chan. (xmltv_id=Iris) -- mode Incremental
-[  Info  ] 0.08 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  17/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Sport 1 HD) -- mode Incremental
 [  Info  ] 
@@ -662,7 +662,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 122/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Real Time HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.23 sec/update
 [  Debug ] 
 [  Info  ] ( 123/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Caccia e Pesca) -- mode Incremental
 [  Info  ] 
@@ -686,10 +686,156 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 130/171 ) RAI.IT -- chan. (xmltv_id=Rai Gulp HD) -- mode Incremental
-[  Info  ] 
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 26/09/2018 08:40:00 stop = 26/09/2018 09:10:00 title = Le Nuove Avventure Di Peter Pan
+[  Info  ]       Replaces ----- start = 26/09/2018 08:40:00 stop = 26/09/2018 09:05:00 title = Le Nuove Avventure Di Peter Pan
+[  Info  ]       Replaces ----- start = 26/09/2018 09:05:00 stop = 26/09/2018 09:15:00 title = Vita Da Giungla (ii)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 26/09/2018 09:55:00 stop = 26/09/2018 10:25:00 title = Mia And Me (iii)
+[  Info  ]       Replaces ----- start = 26/09/2018 09:55:00 stop = 26/09/2018 10:20:00 title = Mia And Me (iii)
+[  Info  ]       Replaces ----- start = 26/09/2018 10:20:00 stop = 26/09/2018 10:45:00 title = Mia And Me (iii)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 26/09/2018 10:25:00 stop = 26/09/2018 10:50:00 title = Mia And Me (iii)
+[  Info  ]       Replaces ----- start = 26/09/2018 10:20:00 stop = 26/09/2018 10:45:00 title = Mia And Me (iii)
+[  Info  ]       Replaces ----- start = 26/09/2018 10:45:00 stop = 26/09/2018 11:10:00 title = Heidi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 26/09/2018 10:50:00 stop = 26/09/2018 11:15:00 title = Heidi
+[  Info  ]       Replaces ----- start = 26/09/2018 10:45:00 stop = 26/09/2018 11:10:00 title = Heidi
+[  Info  ]       Replaces ----- start = 26/09/2018 11:10:00 stop = 26/09/2018 11:35:00 title = Heidi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 26/09/2018 11:15:00 stop = 26/09/2018 11:40:00 title = Heidi
+[  Info  ]       Replaces ----- start = 26/09/2018 11:10:00 stop = 26/09/2018 11:35:00 title = Heidi
+[  Info  ]       Replaces ----- start = 26/09/2018 11:35:00 stop = 26/09/2018 12:00:00 title = Kung Fu Panda (iii)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 26/09/2018 11:40:00 stop = 26/09/2018 12:00:00 title = Kung Fu Panda (iii)
+[  Info  ]       Replaces ----- start = 26/09/2018 11:35:00 stop = 26/09/2018 12:00:00 title = Kung Fu Panda (iii)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 26/09/2018 17:35:00 stop = 26/09/2018 18:05:00 title = Kung Fu Panda (iii)
+[  Info  ]       Replaces ----- start = 26/09/2018 17:35:00 stop = 26/09/2018 18:00:00 title = Kung Fu Panda (iii)
+[  Info  ]       Replaces ----- start = 26/09/2018 18:00:00 stop = 26/09/2018 18:25:00 title = A Tutto Ritmo
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 26/09/2018 18:30:00 stop = 26/09/2018 19:15:00 title = Heidi Bienvenida
+[  Info  ]       Replaces ----- start = 26/09/2018 18:25:00 stop = 26/09/2018 19:15:00 title = Heidi Bienvenida
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 26/09/2018 22:15:00 stop = 26/09/2018 22:40:00 title = Kung Fu Panda (iii)
+[  Info  ]       Replaces ----- start = 26/09/2018 22:15:00 stop = 26/09/2018 22:45:00 title = Kung Fu Panda (iii)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 26/09/2018 22:40:00 stop = 26/09/2018 23:05:00 title = Le Avventure Di Peter Pan (ii)
+[  Info  ]       Replaces ----- start = 26/09/2018 22:15:00 stop = 26/09/2018 22:45:00 title = Kung Fu Panda (iii)
+[  Info  ]       Replaces ----- start = 26/09/2018 22:45:00 stop = 26/09/2018 23:10:00 title = Le Avventure Di Peter Pan (ii)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 26/09/2018 23:05:00 stop = 26/09/2018 23:30:00 title = Le Avventure Di Peter Pan (ii)
+[  Info  ]       Replaces ----- start = 26/09/2018 22:45:00 stop = 26/09/2018 23:10:00 title = Le Avventure Di Peter Pan (ii)
+[  Info  ]       Replaces ----- start = 26/09/2018 23:10:00 stop = 26/09/2018 23:35:00 title = Le Avventure Di Peter Pan (ii)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 26/09/2018 23:30:00 stop = 26/09/2018 23:50:00 title = Iron Man (ii)
+[  Info  ]       Replaces ----- start = 26/09/2018 23:10:00 stop = 26/09/2018 23:35:00 title = Le Avventure Di Peter Pan (ii)
+[  Info  ]       Replaces ----- start = 26/09/2018 23:35:00 stop = 27/09/2018 00:00:00 title = Iron Man (ii)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 26/09/2018 23:50:00 stop = 27/09/2018 00:20:00 title = Iron Man (ii)
+[  Info  ]       Replaces ----- start = 26/09/2018 23:35:00 stop = 27/09/2018 00:00:00 title = Iron Man (ii)
+[  Info  ]       Replaces ----- start = 27/09/2018 00:00:00 stop = 27/09/2018 00:25:00 title = Iron Man (ii)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 27/09/2018 00:20:00 stop = 27/09/2018 00:45:00 title = Wolfblood
+[  Info  ]       Replaces ----- start = 27/09/2018 00:00:00 stop = 27/09/2018 00:25:00 title = Iron Man (ii)
+[  Info  ]       Replaces ----- start = 27/09/2018 00:25:00 stop = 27/09/2018 00:50:00 title = Wolfblood
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 27/09/2018 00:45:00 stop = 27/09/2018 01:15:00 title = Wolfblood
+[  Info  ]       Replaces ----- start = 27/09/2018 00:25:00 stop = 27/09/2018 00:50:00 title = Wolfblood
+[  Info  ]       Replaces ----- start = 27/09/2018 00:50:00 stop = 27/09/2018 01:15:00 title = Wolfblood
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 27/09/2018 03:00:00 stop = 27/09/2018 03:25:00 title = La Compagnia Dei Celestini (iii)
+[  Info  ]       Replaces ----- start = 27/09/2018 02:40:00 stop = 27/09/2018 03:05:00 title = Le Straordinarie Avventure Di Jules Verne
+[  Info  ]       Replaces ----- start = 27/09/2018 03:05:00 stop = 27/09/2018 03:30:00 title = La Compagnia Dei Celestini (iii)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 27/09/2018 04:45:00 stop = 27/09/2018 05:10:00 title = Farhat (ii)
+[  Info  ]       Replaces ----- start = 27/09/2018 04:25:00 stop = 27/09/2018 04:50:00 title = L'isola Del Tesoro
+[  Info  ]       Replaces ----- start = 27/09/2018 04:50:00 stop = 27/09/2018 05:15:00 title = Farhat (ii)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 27/09/2018 05:10:00 stop = 27/09/2018 05:35:00 title = Farhat (ii)
+[  Info  ]       Replaces ----- start = 27/09/2018 04:50:00 stop = 27/09/2018 05:15:00 title = Farhat (ii)
+[  Info  ]       Replaces ----- start = 27/09/2018 05:15:00 stop = 27/09/2018 05:40:00 title = Farhat (ii)
+[  Info  ] 0.26 sec/update
 [  Debug ] 
 [  Info  ] ( 131/171 ) RAI.IT -- chan. (xmltv_id=Rai YoYo HD) -- mode Incremental
-[  Info  ] 
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 27/09/2018 06:55:00 stop = 27/09/2018 07:00:00 title = Masha E Orso
+[  Info  ]       Replaces ----- start = 27/09/2018 06:55:00 stop = 27/09/2018 07:00:00 title = Masha E Orso 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 27/09/2018 07:00:00 stop = 27/09/2018 07:05:00 title = Masha E Orso 2
+[  Info  ]       Replaces ----- start = 27/09/2018 07:00:00 stop = 27/09/2018 07:10:00 title = Masha E Orso 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 27/09/2018 07:05:00 stop = 27/09/2018 07:10:00 title = Masha E Orso 2
+[  Info  ]       Replaces ----- start = 27/09/2018 07:00:00 stop = 27/09/2018 07:10:00 title = Masha E Orso 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 27/09/2018 10:00:00 stop = 27/09/2018 10:05:00 title = Masha E Orso 2
+[  Info  ]       Replaces ----- start = 27/09/2018 09:50:00 stop = 27/09/2018 10:05:00 title = La Casa Delle Api
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 27/09/2018 10:05:00 stop = 27/09/2018 10:15:00 title = Masha E Orso 2
+[  Info  ]       Replaces ----- start = 27/09/2018 10:05:00 stop = 27/09/2018 10:10:00 title = Masha E Orso 2
+[  Info  ]       Replaces ----- start = 27/09/2018 10:10:00 stop = 27/09/2018 10:20:00 title = Masha E Orso 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 27/09/2018 10:15:00 stop = 27/09/2018 10:20:00 title = Masha E Orso 2
+[  Info  ]       Replaces ----- start = 27/09/2018 10:10:00 stop = 27/09/2018 10:20:00 title = Masha E Orso 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 28/09/2018 01:05:00 stop = 28/09/2018 06:00:00 title = Le Nuove Avventure Della Pimpa
+[  Info  ]       Replaces ----- start = 28/09/2018 01:05:00 stop = 28/09/2018 01:10:00 title = Le Nuove Avventure Della Pimpa
+[  Info  ]       Replaces ----- start = 28/09/2018 01:10:00 stop = 28/09/2018 01:15:00 title = Sigla Buonanotte
+[  Info  ]       Replaces ----- start = 28/09/2018 01:15:00 stop = 28/09/2018 01:40:00 title = Teletubbies 7
+[  Info  ]       Replaces ----- start = 28/09/2018 01:40:00 stop = 28/09/2018 02:05:00 title = Teletubbies 8
+[  Info  ]       Replaces ----- start = 28/09/2018 02:05:00 stop = 28/09/2018 02:30:00 title = Teletubbies 7
+[  Info  ]       Replaces ----- start = 28/09/2018 02:30:00 stop = 28/09/2018 02:55:00 title = Teletubbies 8
+[  Info  ]       Replaces ----- start = 28/09/2018 02:55:00 stop = 28/09/2018 03:00:00 title = Le Nuove Avventure Della Pimpa
+[  Info  ]       Replaces ----- start = 28/09/2018 03:00:00 stop = 28/09/2018 03:05:00 title = Le Nuove Avventure Della Pimpa
+[  Info  ]       Replaces ----- start = 28/09/2018 03:05:00 stop = 28/09/2018 03:10:00 title = Le Nuove Avventure Della Pimpa
+[  Info  ]       Replaces ----- start = 28/09/2018 03:10:00 stop = 28/09/2018 03:15:00 title = Milo
+[  Info  ]       Replaces ----- start = 28/09/2018 03:15:00 stop = 28/09/2018 03:20:00 title = Milo
+[  Info  ]       Replaces ----- start = 28/09/2018 03:20:00 stop = 28/09/2018 03:30:00 title = Ape Maia 3d
+[  Info  ]       Replaces ----- start = 28/09/2018 03:30:00 stop = 28/09/2018 03:40:00 title = Ape Maia 3d
+[  Info  ]       Replaces ----- start = 28/09/2018 03:40:00 stop = 28/09/2018 03:50:00 title = Pororo 3
+[  Info  ]       Replaces ----- start = 28/09/2018 03:50:00 stop = 28/09/2018 04:00:00 title = Pororo 3
+[  Info  ]       Replaces ----- start = 28/09/2018 04:00:00 stop = 28/09/2018 04:10:00 title = Pororo 3
+[  Info  ]       Replaces ----- start = 28/09/2018 04:10:00 stop = 28/09/2018 04:15:00 title = Classic Tales 1
+[  Info  ]       Replaces ----- start = 28/09/2018 04:15:00 stop = 28/09/2018 04:20:00 title = Classic Tales 1
+[  Info  ]       Replaces ----- start = 28/09/2018 04:20:00 stop = 28/09/2018 04:25:00 title = Classic Tales 1
+[  Info  ]       Replaces ----- start = 28/09/2018 04:25:00 stop = 28/09/2018 04:30:00 title = Dixiland
+[  Info  ]       Replaces ----- start = 28/09/2018 04:30:00 stop = 28/09/2018 04:35:00 title = Dixiland
+[  Info  ]       Replaces ----- start = 28/09/2018 04:35:00 stop = 28/09/2018 04:40:00 title = Dixiland
+[  Info  ]       Replaces ----- start = 28/09/2018 04:40:00 stop = 28/09/2018 04:50:00 title = Ondino
+[  Info  ]       Replaces ----- start = 28/09/2018 04:50:00 stop = 28/09/2018 05:00:00 title = Ondino
+[  Info  ]       Replaces ----- start = 28/09/2018 05:00:00 stop = 28/09/2018 05:10:00 title = Calimero
+[  Info  ]       Replaces ----- start = 28/09/2018 05:10:00 stop = 28/09/2018 05:20:00 title = Calimero
+[  Info  ]       Replaces ----- start = 28/09/2018 05:20:00 stop = 28/09/2018 05:30:00 title = Noddy
+[  Info  ]       Replaces ----- start = 28/09/2018 05:30:00 stop = 28/09/2018 05:40:00 title = Noddy
+[  Info  ]       Replaces ----- start = 28/09/2018 05:40:00 stop = 28/09/2018 05:50:00 title = Noddy
+[  Info  ]       Replaces ----- start = 28/09/2018 05:50:00 stop = 28/09/2018 05:55:00 title = Molly Monster
+[  Info  ]       Replaces ----- start = 28/09/2018 05:55:00 stop = 28/09/2018 06:00:00 title = Molly Monster
+[  Info  ] 0.19 sec/update
 [  Debug ] 
 [  Info  ] ( 132/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cartoon Network) -- mode Incremental
 [  Info  ] 
@@ -766,7 +912,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 28/09/2018 11:18:00 stop = 28/09/2018 13:10:00 title = Così E' La Vita
 [  Info  ]       Replaces ----- start = 28/09/2018 11:18:00 stop = 28/09/2018 13:10:00 title = Così E' La Vita
-[  Info  ] 0.19 sec/update
+[  Info  ] 0.18 sec/update
 [  Debug ] 
 [  Info  ] ( 151/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema +24) -- mode Incremental
 [Error   ] Unable to update channel Premium Cinema +24
@@ -801,7 +947,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/09/2018 16:22:00 stop = 30/09/2018 18:05:00 title = Codice Swordfish
 [  Info  ]       Replaces ----- start = 30/09/2018 16:22:00 stop = 30/09/2018 18:05:00 title = Codice Swordfish
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 152/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Emotion) -- mode Incremental
 [  Info  ] 
@@ -825,7 +971,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/09/2018 07:41:00 stop = 30/09/2018 08:03:00 title = SPECIALE PAOLO VILLAGGIO - COMEDY EXTRA
 [  Info  ]       Replaces ----- start = 30/09/2018 07:41:00 stop = 30/09/2018 08:03:00 title = SPECIALE PAOLO VILLAGGIO - COMEDY EXTRA
-[  Info  ] 0.16 sec/update
+[  Info  ] 0.23 sec/update
 [  Debug ] 
 [  Info  ] ( 154/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Investigation Discovery) -- mode Incremental
 [  Info  ] 
@@ -895,7 +1041,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/09/2018 22:25:00 stop = 30/09/2018 22:33:00 title = PAUL NEWMAN - FOCUS (INTERVISTE)
 [  Info  ]       Replaces ----- start = 30/09/2018 22:25:00 stop = 30/09/2018 22:33:00 title = PAUL NEWMAN - FOCUS (INTERVISTE)
-[  Info  ] 0.17 sec/update
+[  Info  ] 0.18 sec/update
 [  Debug ] 
 [  Info  ] ( 156/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Paramount Channel) -- mode Incremental
 [  Info  ]    epg correction : 
@@ -962,7 +1108,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/09/2018 22:25:00 stop = 30/09/2018 22:33:00 title = PAUL NEWMAN - FOCUS (INTERVISTE)
 [  Info  ]       Replaces ----- start = 30/09/2018 22:25:00 stop = 30/09/2018 22:33:00 title = PAUL NEWMAN - FOCUS (INTERVISTE)
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 157/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action HD) -- mode Incremental
 [Error   ] Unable to update channel Premium Action HD
@@ -1621,7 +1767,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 01/10/2018 23:35:00 stop = 02/10/2018 00:24:00 title = PROVA VIVENTE - II PARTE - CLOSER VI (THE)
 [  Info  ]       Replaces ----- start = 01/10/2018 23:35:00 stop = 02/10/2018 00:24:00 title = PROVA VIVENTE - II PARTE - CLOSER VI (THE)
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 158/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Joy) -- mode Incremental
 [Error   ] Unable to update channel Premium Joy
@@ -1663,10 +1809,10 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Debug ] 33766 shows in 171 channels
-[  Debug ] 153 updated shows
-[  Debug ] 162 new shows added
+[  Debug ] 33737 shows in 171 channels
+[  Debug ] 196 updated shows
+[  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 25/09/2018 08:14:54 done in 9m 50s
+[        ] Job finished at 25/09/2018 12:14:57 done in 9m 53s
 [  Debug ] statistics upload error: The remote server returned an error: (404) Not Found.
