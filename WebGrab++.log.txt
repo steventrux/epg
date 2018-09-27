@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 27/09/2018 08:05:03
+[        ] Job started at 27/09/2018 12:05:03
 [  Debug ] 
 [  Debug ] Running  on: Unix 3.13.0.132
 [  Debug ] Environment: 4.0.30319.42000
@@ -29,7 +29,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+02:00	(DST in effect)
 [  Debug ] 	next DST dates  :	28/10/2018 03:00 (local)
 [  Debug ] 	                :	31/03/2019 02:00 (local)
-[  Debug ] 	local time now  :	27/09/2018 08:05:04
+[  Debug ] 	local time now  :	27/09/2018 12:05:03
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -227,10 +227,10 @@
 [  Info  ] (   4/171 ) MEDIASET.IT -- chan. (xmltv_id=Rete 4 HD) -- mode Incremental
 [  Debug ]    skipped negative show time! at 28/09/2018 01:12:00
 [  Debug ]    skipped negative show time! at 03/10/2018 00:57:00
-[  Info  ] 0.09 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   5/171 ) MEDIASET.IT -- chan. (xmltv_id=Canale 5 HD) -- mode Incremental
-[  Info  ] 0.07 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   6/171 ) MEDIASET.IT -- chan. (xmltv_id=Italia 1 HD) -- mode Incremental
 [Error   ] Unable to update channel Italia 1 HD
@@ -239,11 +239,11 @@
 [Error   ] Current culture: en-GB
 [Error   ] time parsing error : String was not recognized as a valid DateTime.
 [Error   ] nextstarttime time scrubbed : 
-[Error   ] computer date/time format: 27/09/2018 08:06:20
+[Error   ] computer date/time format: 27/09/2018 12:06:22
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] (   6/171 ) MEDIASET.IT -- chan. (xmltv_id=Italia 2) -- mode Incremental
-[  Info  ] 0.08 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] (   7/171 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La1 HD) -- mode Incremental
 [Error   ] Unable to update channel Rsi La1 HD
@@ -280,14 +280,14 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  13/171 ) MEDIASET.IT -- chan. (xmltv_id=Mediaset Extra) -- mode Incremental
-[  Info  ] 0.09 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  14/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Storia) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  15/171 ) MEDIASET.IT -- chan. (xmltv_id=Iris) -- mode Incremental
-[  Info  ] 0.08 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  16/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Sport 1 HD) -- mode Incremental
 [  Info  ] 
@@ -411,10 +411,10 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  49/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Atlantic HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.17 sec/update
 [  Debug ] 
 [  Info  ] (  50/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Atlantic +1) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.19 sec/update
 [  Debug ] 
 [  Info  ] (  51/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox HD) -- mode Incremental
 [  Info  ] 
@@ -748,6 +748,10 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 149/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema HD) -- mode Incremental
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
+[Warning ] error downloading page: The request timed out (10sec)
+[Warning ] Retry 2 of 4 times
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 27/09/2018 07:17:00 stop = 27/09/2018 08:57:00 title = Dragonheart: battaglia per il cuore di fuoco
@@ -762,6 +766,8 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 28/09/2018 11:08:00 stop = 28/09/2018 13:02:00 title = Così E' La Vita
 [  Info  ]       Replaces ----- start = 28/09/2018 11:08:00 stop = 28/09/2018 13:02:00 title = Così E' La Vita
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 02/10/2018 11:06:00 stop = 02/10/2018 12:49:00 title = Tower Heist - Colpo Ad Alto Livello
@@ -774,7 +780,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 03/10/2018 20:15:00 stop = 03/10/2018 22:00:00 title = Dragonheart: battaglia per il cuore di fuoco
 [  Info  ]       Replaces ----- start = 03/10/2018 20:15:00 stop = 03/10/2018 22:00:00 title = Dragonheart: battaglia per il cuore di fuoco
-[  Info  ] 0.15 sec/update
+[  Info  ] 5.22 sec/update
 [  Debug ] 
 [  Info  ] ( 150/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema +24) -- mode Incremental
 [Error   ] Unable to update channel Premium Cinema +24
@@ -809,7 +815,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/09/2018 16:22:00 stop = 30/09/2018 18:05:00 title = Codice Swordfish
 [  Info  ]       Replaces ----- start = 30/09/2018 16:22:00 stop = 30/09/2018 18:05:00 title = Codice Swordfish
-[  Info  ] 0.12 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 151/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Emotion) -- mode Incremental
 [  Info  ] 
@@ -827,7 +833,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/09/2018 01:47:00 stop = 30/09/2018 02:09:00 title = MACCIO CAPATONDA E FANTOZZI - COMEDY EXTRA
 [  Info  ]       Replaces ----- start = 30/09/2018 01:47:00 stop = 30/09/2018 02:09:00 title = MACCIO CAPATONDA E FANTOZZI - COMEDY EXTRA
-[  Info  ] 0.25 sec/update
+[  Info  ] 0.20 sec/update
 [  Debug ] 
 [  Info  ] ( 153/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Investigation Discovery) -- mode Incremental
 [  Info  ] 
@@ -891,7 +897,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 03/10/2018 05:00:00 stop = 03/10/2018 05:15:00 title = LE ORIGINI ITALIANE - CINECHAT - (KS-KR)
 [  Info  ]       Replaces ----- start = 03/10/2018 05:00:00 stop = 03/10/2018 05:15:00 title = LE ORIGINI ITALIANE - CINECHAT - (KS-KR)
-[  Info  ] 0.16 sec/update
+[  Info  ] 1.35 sec/update
 [  Debug ] 
 [  Info  ] ( 155/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Paramount Channel) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = CINECHAT - FORMAN
@@ -952,7 +958,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 03/10/2018 05:00:00 stop = 03/10/2018 05:15:00 title = LE ORIGINI ITALIANE - CINECHAT - (KS-KR)
 [  Info  ]       Replaces ----- start = 03/10/2018 05:00:00 stop = 03/10/2018 05:15:00 title = LE ORIGINI ITALIANE - CINECHAT - (KS-KR)
-[  Info  ] 0.14 sec/update
+[  Info  ] 1.09 sec/update
 [  Debug ] 
 [  Info  ] ( 156/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action HD) -- mode Incremental
 [Error   ] Unable to update channel Premium Action HD
@@ -977,6 +983,8 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 27/09/2018 07:36:00 stop = 27/09/2018 08:26:00 title = SOLO UN CIELO STELLATO - THE MENTALIST VII
 [  Info  ]       Replaces ----- start = 27/09/2018 07:36:00 stop = 27/09/2018 08:26:00 title = SOLO UN CIELO STELLATO - THE MENTALIST VII
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = GONE
 [  Debug ]       differs from title in showdetails = IL SALVATORE -.....
 [  Info  ]    epg correction : 
@@ -1597,6 +1605,8 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 03/10/2018 11:03:00 stop = 03/10/2018 11:52:00 title = UN TESTIMONE CHIAVE - CHICAGO P.D. I
 [  Info  ]       Replaces ----- start = 03/10/2018 11:03:00 stop = 03/10/2018 11:52:00 title = UN TESTIMONE CHIAVE - CHICAGO P.D. I
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = THE CLOSER VII
 [  Debug ]       differs from title in showdetails = PROBLEMA SCONOSCIUTO - C.....
 [  Info  ]    epg correction : 
@@ -1651,6 +1661,8 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 03/10/2018 19:22:00 stop = 03/10/2018 20:15:00 title = IL CADAVERE NEL GHIACCIO - RIZZOLI & ISLES V
 [  Info  ]       Replaces ----- start = 03/10/2018 19:22:00 stop = 03/10/2018 20:15:00 title = IL CADAVERE NEL GHIACCIO - RIZZOLI & ISLES V
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = GONE
 [  Debug ]       differs from title in showdetails = FOTO DI FAMIGL.....
 [  Info  ]    epg correction : 
@@ -1681,7 +1693,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 03/10/2018 23:34:00 stop = 04/10/2018 00:23:00 title = PROBLEMA SCONOSCIUTO - CLOSER VII (THE)
 [  Info  ]       Replaces ----- start = 03/10/2018 23:34:00 stop = 04/10/2018 00:23:00 title = PROBLEMA SCONOSCIUTO - CLOSER VII (THE)
-[  Info  ] 0.16 sec/update
+[  Info  ] 0.49 sec/update
 [  Debug ] 
 [  Info  ] ( 157/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Joy) -- mode Incremental
 [Error   ] Unable to update channel Premium Joy
@@ -1723,10 +1735,10 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Debug ] 33564 shows in 171 channels
-[  Debug ] 164 updated shows
-[  Debug ] 124 new shows added
+[  Debug ] 33565 shows in 171 channels
+[  Debug ] 195 updated shows
+[  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 27/09/2018 08:14:07 done in 9m 3s
+[        ] Job finished at 27/09/2018 12:18:07 done in 13m 3s
 [  Debug ] statistics upload error: The remote server returned an error: (404) Not Found.
