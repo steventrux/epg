@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 29/09/2018 12:05:03
+[        ] Job started at 29/09/2018 16:05:04
 [  Debug ] 
 [  Debug ] Running  on: Unix 3.13.0.132
 [  Debug ] Environment: 4.0.30319.42000
@@ -29,7 +29,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+02:00	(DST in effect)
 [  Debug ] 	next DST dates  :	28/10/2018 03:00 (local)
 [  Debug ] 	                :	31/03/2019 02:00 (local)
-[  Debug ] 	local time now  :	29/09/2018 12:05:04
+[  Debug ] 	local time now  :	29/09/2018 16:05:04
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -230,34 +230,21 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   5/171 ) MEDIASET.IT -- chan. (xmltv_id=Canale 5 HD) -- mode Incremental
-[Warning ] error downloading page: The operation has timed out. (5sec)
-[Warning ] Retry 1 of 4 times
-[Warning ] error downloading page: Error: SendFailure (Cannot access a disposed object.
-Object name: 'System.Net.Sockets.NetworkStream'.)
-[Warning ] pausing 2 of 4 times for 10 seconds before re-try.
-[Warning ] error downloading page: The operation has timed out. (5sec)
-[Warning ] Retry 1 of 4 times
-[Warning ] error downloading page: The operation has timed out. (5sec)
-[Warning ] Retry 1 of 4 times
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   6/171 ) MEDIASET.IT -- chan. (xmltv_id=Italia 1 HD) -- mode Incremental
-[Warning ] error downloading page: The operation has timed out. (5sec)
-[Warning ] Retry 1 of 4 times
 [Error   ] Unable to update channel Italia 1 HD
 [Critical] Generic syntax exception:
 [Critical]    message: 
 [Error   ] Current culture: en-GB
 [Error   ] time parsing error : String was not recognized as a valid DateTime.
 [Error   ] nextstarttime time scrubbed : 
-[Error   ] computer date/time format: 29/09/2018 12:07:41
+[Error   ] computer date/time format: 29/09/2018 16:06:59
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] (   6/171 ) MEDIASET.IT -- chan. (xmltv_id=Italia 2) -- mode Incremental
-[Warning ] error downloading page: The operation has timed out. (5sec)
-[Warning ] Retry 1 of 4 times
-[Warning ] error downloading page: The operation has timed out. (5sec)
-[Warning ] Retry 1 of 4 times
+[Warning ] error downloading page: Error getting response stream (ReadDone2): ReceiveFailure
+[Warning ] pausing 1 of 4 times for 5 seconds before re-try.
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   7/171 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La1 HD) -- mode Incremental
@@ -733,8 +720,6 @@ Object name: 'System.Net.Sockets.NetworkStream'.)
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 141/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Disney Junior) -- mode Incremental
-[Warning ] error downloading page: Error getting response stream (ReadDone2): ReceiveFailure
-[Warning ] pausing 1 of 4 times for 5 seconds before re-try.
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 142/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Super !) -- mode Incremental
@@ -760,12 +745,14 @@ Object name: 'System.Net.Sockets.NetworkStream'.)
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 149/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema HD) -- mode Incremental
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
+[Warning ] error downloading page: The request timed out (10sec)
+[Warning ] Retry 2 of 4 times
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 02/10/2018 11:06:00 stop = 02/10/2018 12:49:00 title = Tower Heist - Colpo Ad Alto Livello
 [  Info  ]       Replaces ----- start = 02/10/2018 11:06:00 stop = 02/10/2018 12:49:00 title = Tower Heist - Colpo Ad Alto Livello
-[Warning ] error downloading page: The operation has timed out. (5sec)
-[Warning ] Retry 1 of 4 times
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 03/10/2018 03:17:00 stop = 03/10/2018 05:01:00 title = Tower Heist - Colpo Ad Alto Livello
@@ -778,11 +765,9 @@ Object name: 'System.Net.Sockets.NetworkStream'.)
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 04/10/2018 16:24:00 stop = 04/10/2018 18:09:00 title = Dragonheart: battaglia per il cuore di fuoco
 [  Info  ]       Replaces ----- start = 04/10/2018 16:24:00 stop = 04/10/2018 18:09:00 title = Dragonheart: battaglia per il cuore di fuoco
-[  Info  ] 0.70 sec/update
+[  Info  ] 1.54 sec/update
 [  Debug ] 
 [  Info  ] ( 150/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema +24) -- mode Incremental
-[Warning ] error downloading page: The request timed out (5sec)
-[Warning ] Retry 1 of 4 times
 [Error   ] Unable to update channel Premium Cinema +24
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -815,9 +800,11 @@ Object name: 'System.Net.Sockets.NetworkStream'.)
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/09/2018 16:22:00 stop = 30/09/2018 18:05:00 title = Codice Swordfish
 [  Info  ]       Replaces ----- start = 30/09/2018 16:22:00 stop = 30/09/2018 18:05:00 title = Codice Swordfish
-[  Info  ] 2.02 sec/update
+[  Info  ] 3.07 sec/update
 [  Debug ] 
 [  Info  ] ( 151/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Emotion) -- mode Incremental
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = MOONLIGHT MILE-VOGLIA DI RICOMINCIARE
 [  Debug ]       differs from title in showdetails = Moonlight Mile
 [  Info  ]    epg correction : 
@@ -830,7 +817,7 @@ Object name: 'System.Net.Sockets.NetworkStream'.)
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 04/10/2018 18:17:00 stop = 04/10/2018 20:15:00 title = Moonlight Mile
 [  Info  ]       Replaces ----- start = 04/10/2018 18:17:00 stop = 04/10/2018 20:15:00 title = Moonlight Mile
-[  Info  ] 2.58 sec/update
+[  Info  ] 5.94 sec/update
 [  Debug ] 
 [  Info  ] ( 152/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Comedy) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = COMEDY EXTRA
@@ -851,7 +838,7 @@ Object name: 'System.Net.Sockets.NetworkStream'.)
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 05/10/2018 03:07:00 stop = 05/10/2018 03:39:00 title = PIERLUIGI FAVINO - INVITO A CENA CON...
 [  Info  ]       Replaces ----- start = 05/10/2018 03:07:00 stop = 05/10/2018 03:39:00 title = PIERLUIGI FAVINO - INVITO A CENA CON...
-[  Info  ] 0.84 sec/update
+[  Info  ] 0.93 sec/update
 [  Debug ] 
 [  Info  ] ( 153/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Investigation Discovery) -- mode Incremental
 [  Info  ] 
@@ -915,7 +902,7 @@ Object name: 'System.Net.Sockets.NetworkStream'.)
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 05/10/2018 06:45:00 stop = 05/10/2018 07:25:00 title = HUG AND RELEASE  - PROJECT GREENLIGHT 4
 [  Info  ]       Replaces ----- start = 05/10/2018 06:45:00 stop = 05/10/2018 07:25:00 title = HUG AND RELEASE  - PROJECT GREENLIGHT 4
-[  Info  ] 1.43 sec/update
+[  Info  ] 1.05 sec/update
 [  Debug ] 
 [  Info  ] ( 155/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Paramount Channel) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = ONCE
@@ -976,7 +963,7 @@ Object name: 'System.Net.Sockets.NetworkStream'.)
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 05/10/2018 06:45:00 stop = 05/10/2018 07:25:00 title = HUG AND RELEASE  - PROJECT GREENLIGHT 4
 [  Info  ]       Replaces ----- start = 05/10/2018 06:45:00 stop = 05/10/2018 07:25:00 title = HUG AND RELEASE  - PROJECT GREENLIGHT 4
-[  Info  ] 1.01 sec/update
+[  Info  ] 1.88 sec/update
 [  Debug ] 
 [  Info  ] ( 156/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action HD) -- mode Incremental
 [Error   ] Unable to update channel Premium Action HD
@@ -1001,8 +988,6 @@ Object name: 'System.Net.Sockets.NetworkStream'.)
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 29/09/2018 05:30:00 stop = 29/09/2018 06:35:00 title = CHE ENTRINO I PAGLIACCI - LAW & ORDER: UNITA' SPECIALE XIX
 [  Info  ]       Replaces ----- start = 29/09/2018 05:30:00 stop = 29/09/2018 06:35:00 title = CHE ENTRINO I PAGLIACCI - LAW & ORDER: UNITA' SPECIALE XIX
-[Warning ] error downloading page: The request timed out (5sec)
-[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = GONE
 [  Debug ]       differs from title in showdetails = IL CRISTALLO -.....
 [  Info  ]    epg correction : 
@@ -1015,8 +1000,6 @@ Object name: 'System.Net.Sockets.NetworkStream'.)
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 29/09/2018 07:25:00 stop = 29/09/2018 08:14:00 title = IL SALVATORE - GONE
 [  Info  ]       Replaces ----- start = 29/09/2018 07:25:00 stop = 29/09/2018 08:14:00 title = IL SALVATORE - GONE
-[Warning ] error downloading page: The operation has timed out. (5sec)
-[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = ANIMAL KINGDOM II
 [  Debug ]       differs from title in showdetails = RIMETTI A NOI I NOSTRI DEBI.....
 [  Info  ]    epg correction : 
@@ -1053,8 +1036,6 @@ Object name: 'System.Net.Sockets.NetworkStream'.)
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 29/09/2018 14:25:00 stop = 29/09/2018 15:14:00 title = THIS PROFOUND LEGACY - BLINDSPOT III
 [  Info  ]       Replaces ----- start = 29/09/2018 14:25:00 stop = 29/09/2018 15:14:00 title = THIS PROFOUND LEGACY - BLINDSPOT III
-[Warning ] error downloading page: The operation has timed out. (5sec)
-[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = BLINDSPOT III
 [  Debug ]       differs from title in showdetails = ADORING SUSPECT - BLIND.....
 [  Info  ]    epg correction : 
@@ -1097,8 +1078,6 @@ Object name: 'System.Net.Sockets.NetworkStream'.)
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 29/09/2018 21:04:00 stop = 29/09/2018 21:54:00 title = CHE ENTRINO I PAGLIACCI - LAW & ORDER: UNITA' SPECIALE XIX
 [  Info  ]       Replaces ----- start = 29/09/2018 21:04:00 stop = 29/09/2018 21:54:00 title = CHE ENTRINO I PAGLIACCI - LAW & ORDER: UNITA' SPECIALE XIX
-[Warning ] error downloading page: The operation has timed out. (5sec)
-[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = GONE
 [  Debug ]       differs from title in showdetails = IL CRISTALLO -.....
 [  Info  ]    epg correction : 
@@ -1123,8 +1102,6 @@ Object name: 'System.Net.Sockets.NetworkStream'.)
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/09/2018 01:50:00 stop = 30/09/2018 02:36:00 title = UN POLIZIOTTO SCOMODO - BOSCH I
 [  Info  ]       Replaces ----- start = 30/09/2018 01:50:00 stop = 30/09/2018 02:36:00 title = UN POLIZIOTTO SCOMODO - BOSCH I
-[Warning ] error downloading page: The operation has timed out. (5sec)
-[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = BOSCH
 [  Debug ]       differs from title in showdetails = SEGRETI SEPOLTI.....
 [  Info  ]    epg correction : 
@@ -1143,8 +1120,6 @@ Object name: 'System.Net.Sockets.NetworkStream'.)
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/09/2018 04:00:00 stop = 30/09/2018 04:45:00 title = PRIGIONIERO IN FUGA - BOSCH I
 [  Info  ]       Replaces ----- start = 30/09/2018 04:00:00 stop = 30/09/2018 04:45:00 title = PRIGIONIERO IN FUGA - BOSCH I
-[Warning ] error downloading page: The operation has timed out. (5sec)
-[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = BOSCH
 [  Debug ]       differs from title in showdetails = COCCO DI MAMMA .....
 [  Info  ]    epg correction : 
@@ -1187,6 +1162,8 @@ Object name: 'System.Net.Sockets.NetworkStream'.)
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/09/2018 23:37:00 stop = 01/10/2018 00:27:00 title = IMPERIUM - TAKEN II
 [  Info  ]       Replaces ----- start = 30/09/2018 23:37:00 stop = 01/10/2018 00:27:00 title = IMPERIUM - TAKEN II
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = BOSCH
 [  Debug ]       differs from title in showdetails = COCCO DI MAMMA .....
 [  Info  ]    epg correction : 
@@ -1205,8 +1182,6 @@ Object name: 'System.Net.Sockets.NetworkStream'.)
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 01/10/2018 02:41:00 stop = 01/10/2018 03:21:00 title = LA CASA RIFUGIO - BOSCH I
 [  Info  ]       Replaces ----- start = 01/10/2018 02:41:00 stop = 01/10/2018 03:21:00 title = LA CASA RIFUGIO - BOSCH I
-[Warning ] error downloading page: The operation has timed out. (5sec)
-[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = BOSCH
 [  Debug ]       differs from title in showdetails = ALTI E BASSI - .....
 [  Info  ]    epg correction : 
@@ -1227,14 +1202,14 @@ Object name: 'System.Net.Sockets.NetworkStream'.)
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 01/10/2018 04:42:00 stop = 01/10/2018 05:30:00 title = NOI E LORO - BOSCH I
 [  Info  ]       Replaces ----- start = 01/10/2018 04:42:00 stop = 01/10/2018 05:30:00 title = NOI E LORO - BOSCH I
-[Warning ] error downloading page: The operation has timed out. (5sec)
-[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = THE MENTALIST VII
 [  Debug ]       differs from title in showdetails = GELATO AI FIORI D'ARANCIO -.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 01/10/2018 07:34:00 stop = 01/10/2018 08:23:00 title = GELATO AI FIORI D'ARANCIO - THE MENTALIST VII
 [  Info  ]       Replaces ----- start = 01/10/2018 07:34:00 stop = 01/10/2018 08:23:00 title = GELATO AI FIORI D'ARANCIO - THE MENTALIST VII
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = LAW & ORDER: UNITA' SPECIALE XIX
 [  Debug ]       differs from title in showdetails = SPIRITO DI SERVIZIO - LAW & ORDER: UNITA' .....
 [  Info  ]    epg correction : 
@@ -1697,9 +1672,15 @@ Object name: 'System.Net.Sockets.NetworkStream'.)
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 05/10/2018 23:58:00 stop = 06/10/2018 00:47:00 title = UN LAVORETTO FACILE FACILE - THE CLOSER VII
 [  Info  ]       Replaces ----- start = 05/10/2018 23:58:00 stop = 06/10/2018 00:47:00 title = UN LAVORETTO FACILE FACILE - THE CLOSER VII
-[  Info  ] 1.76 sec/update
+[  Info  ] 1.57 sec/update
 [  Debug ] 
 [  Info  ] ( 157/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Joy) -- mode Incremental
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
 [Error   ] Unable to update channel Premium Joy
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1718,8 +1699,6 @@ Object name: 'System.Net.Sockets.NetworkStream'.)
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] ( 157/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Sport superHD) -- mode Incremental
-[Warning ] error downloading page: The request timed out (5sec)
-[Warning ] Retry 1 of 4 times
 [Error   ] Unable to update channel Premium Sport superHD
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1728,8 +1707,6 @@ Object name: 'System.Net.Sockets.NetworkStream'.)
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] ( 157/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Sport 2 HD) -- mode Incremental
-[Warning ] error downloading page: The request timed out (5sec)
-[Warning ] Retry 1 of 4 times
 [Error   ] Unable to update channel Premium Sport 2 HD
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1738,8 +1715,6 @@ Object name: 'System.Net.Sockets.NetworkStream'.)
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] ( 157/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Calcio 1) -- mode Incremental
-[Warning ] error downloading page: The request timed out (5sec)
-[Warning ] Retry 1 of 4 times
 [Error   ] Unable to update channel Premium Calcio 1
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1752,5 +1727,5 @@ Object name: 'System.Net.Sockets.NetworkStream'.)
 [  Debug ] 3 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 29/09/2018 12:23:15 done in 18m 12s
+[        ] Job finished at 29/09/2018 16:21:31 done in 16m 27s
 [  Debug ] statistics upload error: The remote server returned an error: (404) Not Found.
