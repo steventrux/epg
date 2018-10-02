@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 02/10/2018 12:05:03
+[        ] Job started at 02/10/2018 16:05:03
 [  Debug ] 
 [  Debug ] Running  on: Unix 3.13.0.132
 [  Debug ] Environment: 4.0.30319.42000
@@ -29,7 +29,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+02:00	(DST in effect)
 [  Debug ] 	next DST dates  :	28/10/2018 03:00 (local)
 [  Debug ] 	                :	31/03/2019 02:00 (local)
-[  Debug ] 	local time now  :	02/10/2018 12:05:04
+[  Debug ] 	local time now  :	02/10/2018 16:05:03
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -227,25 +227,25 @@
 [  Info  ] (   4/171 ) MEDIASET.IT -- chan. (xmltv_id=Rete 4 HD) -- mode Incremental
 [  Debug ]    skipped negative show time! at 03/10/2018 00:57:00
 [  Debug ]    skipped negative show time! at 05/10/2018 01:11:00
-[  Info  ] 
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] (   5/171 ) MEDIASET.IT -- chan. (xmltv_id=Canale 5 HD) -- mode Incremental
-[Warning ] error downloading page: The operation has timed out. (5sec)
-[Warning ] Retry 1 of 4 times
-[Warning ] error downloading page: The request timed out (10sec)
-[Warning ] Retry 2 of 4 times
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   6/171 ) MEDIASET.IT -- chan. (xmltv_id=Italia 1 HD) -- mode Incremental
 [Warning ] error downloading page: The operation has timed out. (5sec)
 [Warning ] Retry 1 of 4 times
+[Warning ] error downloading page: The request timed out (10sec)
+[Warning ] Retry 2 of 4 times
+[  Debug ]    suspicious      title in index page  = GRANDE FRATELLO VIP - DOMENICA/LUNEDI' - I1
+[  Debug ]       differs from title in showdetails = GRANDE FRATELLO VIP - LUNEDI'/VENERDI'
 [Error   ] Unable to update channel Italia 1 HD
 [Critical] Generic syntax exception:
 [Critical]    message: 
 [Error   ] Current culture: en-GB
 [Error   ] time parsing error : String was not recognized as a valid DateTime.
 [Error   ] nextstarttime time scrubbed : 
-[Error   ] computer date/time format: 02/10/2018 12:06:49
+[Error   ] computer date/time format: 02/10/2018 16:06:45
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] (   6/171 ) MEDIASET.IT -- chan. (xmltv_id=Italia 2) -- mode Incremental
@@ -282,7 +282,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  11/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Nove HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.28 sec/update
 [  Debug ] 
 [  Info  ] (  12/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Top Crime) -- mode Incremental
 [  Info  ] 
@@ -292,10 +292,18 @@
 [  Debug ] 
 [  Info  ] (  14/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Storia) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[  Info  ] 0.18 sec/update
 [  Debug ] 
 [  Info  ] (  15/171 ) MEDIASET.IT -- chan. (xmltv_id=Iris) -- mode Incremental
-[  Info  ] 
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
+[  Debug ]    suspicious      title in index page  = MIAMI VICE II
+[  Debug ]       differs from title in showdetails = MIAMI VICE II (?)
+[  Debug ]    suspicious      title in index page  = A-TEAM IV
+[  Debug ]       differs from title in showdetails = A-TEAM IV (?)
+[  Info  ] 0.74 sec/update
 [  Debug ] 
 [  Info  ] (  16/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Sport 1 HD) -- mode Incremental
 [  Info  ] 
@@ -428,7 +436,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  52/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox +1) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.20 sec/update
 [  Debug ] 
 [  Info  ] (  53/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Life HD) -- mode Incremental
 [  Info  ] 
@@ -440,7 +448,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  56/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Crime +1) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.21 sec/update
 [  Debug ] 
 [  Info  ] (  57/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Comedy HD) -- mode Incremental
 [  Info  ] 
@@ -499,10 +507,10 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  70/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Arena SuperHD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.21 sec/update
 [  Debug ] 
 [  Info  ] (  71/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Arena HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.21 sec/update
 [  Debug ] 
 [  Info  ] (  72/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Uno HD) -- mode Incremental
 [  Info  ] 
@@ -675,10 +683,10 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 122/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Caccia e Pesca) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.21 sec/update
 [  Debug ] 
 [  Info  ] ( 123/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Pesca e Caccia) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.22 sec/update
 [  Debug ] 
 [  Info  ] ( 124/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cielo) -- mode Incremental
 [  Info  ] 
@@ -702,7 +710,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 131/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cartoon Network) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.25 sec/update
 [  Debug ] 
 [  Info  ] ( 132/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Disney XD) -- mode Incremental
 [  Info  ] 
@@ -745,7 +753,9 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 145/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Frisbee) -- mode Incremental
-[  Info  ] 
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
+[  Info  ] 0.43 sec/update
 [  Debug ] 
 [  Info  ] ( 146/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Nick Junior) -- mode Incremental
 [  Info  ] 
@@ -757,6 +767,8 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 149/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema HD) -- mode Incremental
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 02/10/2018 11:06:00 stop = 02/10/2018 12:49:00 title = Tower Heist - Colpo Ad Alto Livello
@@ -777,9 +789,11 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 08/10/2018 23:37:00 stop = 09/10/2018 01:15:00 title = Honey 3 - Il Coraggio Di Ballare
 [  Info  ]       Replaces ----- start = 08/10/2018 23:37:00 stop = 09/10/2018 01:15:00 title = Honey 3 - Il Coraggio Di Ballare
-[  Info  ] 0.23 sec/update
+[  Info  ] 1.80 sec/update
 [  Debug ] 
 [  Info  ] ( 150/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema +24) -- mode Incremental
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
 [Error   ] Unable to update channel Premium Cinema +24
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -804,15 +818,19 @@
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] ( 150/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Energy) -- mode Incremental
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = BUIO
 [  Debug ]       differs from title in showdetails = L' INTRUSO - B.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 07/10/2018 05:09:00 stop = 07/10/2018 05:30:00 title = L' INTRUSO - BUIO
 [  Info  ]       Replaces ----- start = 07/10/2018 05:09:00 stop = 07/10/2018 05:30:00 title = L' INTRUSO - BUIO
-[  Info  ] 0.21 sec/update
+[  Info  ] 5.30 sec/update
 [  Debug ] 
 [  Info  ] ( 151/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Emotion) -- mode Incremental
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = MOONLIGHT MILE-VOGLIA DI RICOMINCIARE
 [  Debug ]       differs from title in showdetails = Moonlight Mile
 [  Info  ]    epg correction : 
@@ -829,9 +847,11 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 08/10/2018 20:15:00 stop = 08/10/2018 21:52:00 title = Rosa La Wedding Planner: Il Matrimonio Del Mio Migliore Amico
 [  Info  ]       Replaces ----- start = 08/10/2018 20:15:00 stop = 08/10/2018 21:52:00 title = Rosa La Wedding Planner: Il Matrimonio Del Mio Migliore Amico
-[  Info  ] 0.81 sec/update
+[  Info  ] 4.04 sec/update
 [  Debug ] 
 [  Info  ] ( 152/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Comedy) -- mode Incremental
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = COMEDY EXTRA
 [  Debug ]       differs from title in showdetails = EXTRA -CELEBRITY - FAB.....
 [  Info  ]    epg correction : 
@@ -850,12 +870,14 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 06/10/2018 01:08:00 stop = 06/10/2018 01:29:00 title = SPECIALE PAOLO VILLAGGIO - COMEDY EXTRA
 [  Info  ]       Replaces ----- start = 06/10/2018 01:08:00 stop = 06/10/2018 01:29:00 title = SPECIALE PAOLO VILLAGGIO - COMEDY EXTRA
-[  Info  ] 1.37 sec/update
+[  Info  ] 3.22 sec/update
 [  Debug ] 
 [  Info  ] ( 153/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Investigation Discovery) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 154/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Studio Universal) -- mode Incremental
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = CINECHAT - MERYL STREEP
 [  Debug ]       differs from title in showdetails = MERYL STREEP - CINECHAT - (KS-KR)
 [  Info  ]    epg correction : 
@@ -898,7 +920,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 08/10/2018 05:00:00 stop = 08/10/2018 05:35:00 title = JOHN TURTURRO  - CINECHAT - (KS-KR)
 [  Info  ]       Replaces ----- start = 08/10/2018 05:00:00 stop = 08/10/2018 05:35:00 title = JOHN TURTURRO  - CINECHAT - (KS-KR)
-[  Info  ] 1.22 sec/update
+[  Info  ] 1.76 sec/update
 [  Debug ] 
 [  Info  ] ( 155/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Paramount Channel) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = CINECHAT - MERYL STREEP
@@ -907,12 +929,16 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 02/10/2018 06:45:00 stop = 02/10/2018 07:05:00 title = MERYL STREEP - CINECHAT - (KS-KR)
 [  Info  ]       Replaces ----- start = 02/10/2018 06:45:00 stop = 02/10/2018 07:05:00 title = MERYL STREEP - CINECHAT - (KS-KR)
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = CINECHAT - SYDNEY POLLACK
 [  Debug ]       differs from title in showdetails = LE ORIGINI ITALIANE - CINECHAT - (K.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 03/10/2018 05:00:00 stop = 03/10/2018 05:15:00 title = LE ORIGINI ITALIANE - CINECHAT - (KS-KR)
 [  Info  ]       Replaces ----- start = 03/10/2018 05:00:00 stop = 03/10/2018 05:15:00 title = LE ORIGINI ITALIANE - CINECHAT - (KS-KR)
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = PROJECT GREENLIGHT S4 - SALUTI E ANTEPRIMA
 [  Debug ]       differs from title in showdetails = HUG AND RELEASE  - PROJECT GREENLIGHT 4
 [  Info  ]    epg correction : 
@@ -943,9 +969,11 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 08/10/2018 05:00:00 stop = 08/10/2018 05:35:00 title = JOHN TURTURRO  - CINECHAT - (KS-KR)
 [  Info  ]       Replaces ----- start = 08/10/2018 05:00:00 stop = 08/10/2018 05:35:00 title = JOHN TURTURRO  - CINECHAT - (KS-KR)
-[  Info  ] 0.73 sec/update
+[  Info  ] 2.38 sec/update
 [  Debug ] 
 [  Info  ] ( 156/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action HD) -- mode Incremental
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
 [Error   ] Unable to update channel Premium Action HD
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1274,6 +1302,8 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 05/10/2018 02:04:00 stop = 05/10/2018 02:58:00 title = IMMUNITA' GARANTITA - LAW & ORDER: UNITA' SPECIALE XVI
 [  Info  ]       Replaces ----- start = 05/10/2018 02:04:00 stop = 05/10/2018 02:58:00 title = IMMUNITA' GARANTITA - LAW & ORDER: UNITA' SPECIALE XVI
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = FALCO II
 [  Debug ]       differs from title in showdetails = AL CHIARO DI LUNA .....
 [  Info  ]    epg correction : 
@@ -1322,6 +1352,8 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 05/10/2018 15:58:00 stop = 05/10/2018 16:56:00 title = LA BELLA E LA BESTIA - DEXTER V
 [  Info  ]       Replaces ----- start = 05/10/2018 15:58:00 stop = 05/10/2018 16:56:00 title = LA BELLA E LA BESTIA - DEXTER V
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = RIZZOLI & ISLES V
 [  Debug ]       differs from title in showdetails = UN PONTE VERSO IL DOMANI - .....
 [  Info  ]    epg correction : 
@@ -1352,6 +1384,8 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 06/10/2018 05:30:00 stop = 06/10/2018 06:27:00 title = CHE ENTRINO I PAGLIACCI - LAW & ORDER: UNITA' SPECIALE XIX
 [  Info  ]       Replaces ----- start = 06/10/2018 05:30:00 stop = 06/10/2018 06:27:00 title = CHE ENTRINO I PAGLIACCI - LAW & ORDER: UNITA' SPECIALE XIX
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = LAW & ORDER: UNITA' SPECIALE XIX
 [  Debug ]       differs from title in showdetails = SPIRITO DI SERVIZIO - LAW & ORDER: UNITA' .....
 [  Info  ]    epg correction : 
@@ -1370,6 +1404,8 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 06/10/2018 07:30:00 stop = 06/10/2018 08:19:00 title = FOTO DI FAMIGLIA - GONE - PRIMA TV
 [  Info  ]       Replaces ----- start = 06/10/2018 07:30:00 stop = 06/10/2018 08:19:00 title = FOTO DI FAMIGLIA - GONE - PRIMA TV
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = ANIMAL KINGDOM II
 [  Debug ]       differs from title in showdetails = RIMETTI A NOI I NOSTRI DEBI.....
 [  Info  ]    epg correction : 
@@ -1382,6 +1418,8 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 06/10/2018 10:19:00 stop = 06/10/2018 11:08:00 title = DIVERSIVO - DECEPTION I - PRIMA TV
 [  Info  ]       Replaces ----- start = 06/10/2018 10:19:00 stop = 06/10/2018 11:08:00 title = DIVERSIVO - DECEPTION I - PRIMA TV
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = FOREVER I
 [  Debug ]       differs from title in showdetails = UNA LUNGA STORIA - .....
 [  Info  ]    epg correction : 
@@ -1406,6 +1444,8 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 06/10/2018 13:37:00 stop = 06/10/2018 14:27:00 title = L' ARTE DEL DELITTO - FOREVER
 [  Info  ]       Replaces ----- start = 06/10/2018 13:37:00 stop = 06/10/2018 14:27:00 title = L' ARTE DEL DELITTO - FOREVER
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = FOREVER I
 [  Debug ]       differs from title in showdetails = LA FRATTURA DEL PUG.....
 [  Info  ]    epg correction : 
@@ -1472,6 +1512,8 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 07/10/2018 02:16:00 stop = 07/10/2018 03:13:00 title = DIVERSIVO - DECEPTION I - PRIMA TV
 [  Info  ]       Replaces ----- start = 07/10/2018 02:16:00 stop = 07/10/2018 03:13:00 title = DIVERSIVO - DECEPTION I - PRIMA TV
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = DECEPTION I
 [  Debug ]       differs from title in showdetails = DIVERSIVO - DECEPTION.....
 [  Info  ]    epg correction : 
@@ -1550,6 +1592,8 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 07/10/2018 18:33:00 stop = 07/10/2018 19:22:00 title = QUELLA SERA - FOREVER
 [  Info  ]       Replaces ----- start = 07/10/2018 18:33:00 stop = 07/10/2018 19:22:00 title = QUELLA SERA - FOREVER
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = FOREVER I
 [  Debug ]       differs from title in showdetails = L' ULTIMA MORTE DI .....
 [  Info  ]    epg correction : 
@@ -1562,6 +1606,8 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 07/10/2018 21:04:00 stop = 07/10/2018 21:55:00 title = DIVERSIVO - DECEPTION I - PRIMA TV
 [  Info  ]       Replaces ----- start = 07/10/2018 21:04:00 stop = 07/10/2018 21:55:00 title = DIVERSIVO - DECEPTION I - PRIMA TV
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = LETHAL WEAPON II
 [  Debug ]       differs from title in showdetails = OMICIDIO IN PUNTA DI FORCH.....
 [  Info  ]    epg correction : 
@@ -1574,6 +1620,8 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 08/10/2018 00:26:00 stop = 08/10/2018 01:15:00 title = CARAPACE - TAKEN II - PRIMA TV
 [  Info  ]       Replaces ----- start = 08/10/2018 00:26:00 stop = 08/10/2018 01:15:00 title = CARAPACE - TAKEN II - PRIMA TV
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = LAW & ORDER: UNITA' SPECIALE XIX
 [  Debug ]       differs from title in showdetails = SPIRITO DI SERVIZIO - LAW & ORDER: UNITA' .....
 [  Info  ]    epg correction : 
@@ -1586,6 +1634,8 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 08/10/2018 06:00:00 stop = 08/10/2018 06:50:00 title = OMICIDIO IN PUNTA DI FORCHETTA - LETHAL WEAPON II
 [  Info  ]       Replaces ----- start = 08/10/2018 06:00:00 stop = 08/10/2018 06:50:00 title = OMICIDIO IN PUNTA DI FORCHETTA - LETHAL WEAPON II
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = THE MENTALIST VII
 [  Debug ]       differs from title in showdetails = IL BIANCO DEI SUOI OCCHI - .....
 [  Info  ]    epg correction : 
@@ -1646,8 +1696,6 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 08/10/2018 20:15:00 stop = 08/10/2018 21:04:00 title = BLACK ART - DECEPTION I - PRIMA TV
 [  Info  ]       Replaces ----- start = 08/10/2018 20:15:00 stop = 08/10/2018 21:04:00 title = BLACK ART - DECEPTION I - PRIMA TV
-[Warning ] error downloading page: The operation has timed out. (5sec)
-[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = LETHAL WEAPON II
 [  Debug ]       differs from title in showdetails = OMICIDIO IN PUNTA DI FORCH.....
 [  Info  ]    epg correction : 
@@ -1660,9 +1708,11 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 08/10/2018 22:46:00 stop = 08/10/2018 23:36:00 title = BLACK ART - DECEPTION I - PRIMA TV
 [  Info  ]       Replaces ----- start = 08/10/2018 22:46:00 stop = 08/10/2018 23:36:00 title = BLACK ART - DECEPTION I - PRIMA TV
-[  Info  ] 0.56 sec/update
+[  Info  ] 1.50 sec/update
 [  Debug ] 
 [  Info  ] ( 157/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Joy) -- mode Incremental
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
 [Error   ] Unable to update channel Premium Joy
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1695,10 +1745,6 @@
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] ( 157/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Calcio 1) -- mode Incremental
-[Warning ] error downloading page: The request timed out (5sec)
-[Warning ] Retry 1 of 4 times
-[Warning ] error downloading page: Error getting response stream (Read): ReceiveFailure
-[Warning ] pausing 2 of 4 times for 10 seconds before re-try.
 [Error   ] Unable to update channel Premium Calcio 1
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1706,10 +1752,10 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Debug ] 33384 shows in 171 channels
-[  Debug ] 142 updated shows
+[  Debug ] 33395 shows in 171 channels
+[  Debug ] 586 updated shows
 [  Debug ] 34 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 02/10/2018 12:17:19 done in 12m 15s
+[        ] Job finished at 02/10/2018 16:21:26 done in 16m 23s
 [  Debug ] statistics upload error: The remote server returned an error: (404) Not Found.
