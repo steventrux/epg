@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 24/10/2018 08:05:03
+[        ] Job started at 24/10/2018 12:05:04
 [  Debug ] 
 [  Debug ] Running  on: Unix 3.13.0.132
 [  Debug ] Environment: 4.0.30319.42000
@@ -29,7 +29,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+02:00	(DST in effect)
 [  Debug ] 	next DST dates  :	28/10/2018 03:00 (local)
 [  Debug ] 	                :	31/03/2019 02:00 (local)
-[  Debug ] 	local time now  :	24/10/2018 08:05:04
+[  Debug ] 	local time now  :	24/10/2018 12:05:04
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -222,7 +222,7 @@
 [  Info  ] Found existing channel (xmltv_id=Premium Action +24) in the config file
 [  Info  ] Found existing channel (xmltv_id=Premium Crime) in the config file
 [  Debug ] removed 2 overlapping shows in Premium Crime starting after 29/10/2018 04:26:00
-[  Debug ] removed 2 overlapping shows in Premium Crime starting after 29/10/2018 06:30:00
+[  Debug ] removed a show that is not in time increasing order in Premium Crime starting after 29/10/2018 06:30:00
 [  Debug ] removed a show that is not in time increasing order in Premium Crime starting after 29/10/2018 07:51:00
 [  Debug ] removed a show that is not in time increasing order in Premium Crime starting after 29/10/2018 10:21:00
 [  Debug ] removed a show that is not in time increasing order in Premium Crime starting after 29/10/2018 11:59:00
@@ -271,19 +271,19 @@
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20181028030500 +0100
 [  Debug ] starting with show : TELEVENDITA MEDIA SHOPPING at local time 28/10/2018 03:05
-[  Info  ] 0.07 sec/update
+[  Info  ] 0.26 sec/update
 [  Debug ] 
 [  Info  ] (   5/171 ) MEDIASET.IT -- chan. (xmltv_id=Canale 5 HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20181024060000 +0200
 [  Debug ] starting with show : PRIMA PAGINA TG5 at local time 24/10/2018 06:00
-[  Info  ] 0.07 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   6/171 ) MEDIASET.IT -- chan. (xmltv_id=Italia 1 HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20181028031200 +0100
 [  Debug ] starting with show : TGCOM24 - SPORT at local time 28/10/2018 03:12
-[  Info  ] 0.07 sec/update
+[  Info  ] 0.08 sec/update
 [  Debug ] 
 [  Info  ] (   7/171 ) MEDIASET.IT -- chan. (xmltv_id=Italia 2) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -308,7 +308,7 @@
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] (   8/171 ) STASERAINTV.COM -- chan. (xmltv_id=La 5) -- mode Incremental
-[  Info  ] 0.05 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   9/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=LA7) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -317,7 +317,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  10/171 ) STASERAINTV.COM -- chan. (xmltv_id=LA7 D) -- mode Incremental
-[  Info  ] 0.05 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  11/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=TV 8) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -339,13 +339,13 @@
 [  Debug ] starting with show : Law & Order: Unita' Speciale at local time 28/10/2018 03:20
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 28/10/2018 03:20:00 and stop at 28/10/2018 03:25:00
-[  Info  ] 
+[  Info  ] 0.18 sec/update
 [  Debug ] 
 [  Info  ] (  14/171 ) MEDIASET.IT -- chan. (xmltv_id=Mediaset Extra) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20181028060000 +0100
 [  Debug ] starting with show : GRANDE FRATELLO VIP (IN DIRETTA DALLA CASA) at local time 28/10/2018 06:00
-[  Info  ] 0.08 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  15/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Storia) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -357,7 +357,7 @@
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20181024063500 +0200
 [  Debug ] starting with show : A-TEAM IV at local time 24/10/2018 06:35
-[  Info  ] 0.07 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  17/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Sport 1 HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -562,7 +562,7 @@
 [  Debug ]       differs from title in showdetails = X Factor 2018 - Home Visit - 1^TV
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 28/10/2018 03:00:00 and stop at 28/10/2018 03:50:00
-[  Info  ] 0.61 sec/update
+[  Info  ] 0.29 sec/update
 [  Debug ] 
 [  Info  ] (  48/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Uno +1) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = X Factor 2018 - Bootcamp - 1^TV
@@ -749,25 +749,25 @@
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20181024063000 +0200
 [  Debug ] starting with show : Motorsport at local time 24/10/2018 06:30
-[  Info  ] 
+[  Info  ] 0.17 sec/update
 [  Debug ] 
 [  Info  ] (  72/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Arena HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20181028031500 +0100
 [  Debug ] starting with show : Rugby: Auckland - Canterbury at local time 28/10/2018 03:15
-[  Info  ] 
+[  Info  ] 0.17 sec/update
 [  Debug ] 
 [  Info  ] (  73/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Uno HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20181024060000 +0200
 [  Debug ] starting with show : Ajax - Benfica at local time 24/10/2018 06:00
-[  Info  ] 
+[  Info  ] 0.18 sec/update
 [  Debug ] 
 [  Info  ] (  74/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Uno SuperHD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20181028030000 +0100
 [  Debug ] starting with show : Paddock Live Gara  (diretta) at local time 28/10/2018 03:00
-[  Info  ] 
+[  Info  ] 0.17 sec/update
 [  Debug ] 
 [  Info  ] (  75/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport SerieA SuperHD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -810,22 +810,20 @@
 [  Info  ] (  80/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport NBA HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20181028050000 +0100
-[  Debug ] starting with show : NBA: San Antonio - LA Lakers  (diretta) at local time 28/10/2018 05:00
+[  Debug ] starting with show : NBA: San Antonio - LA Lakers   (diretta) at local time 28/10/2018 05:00
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  81/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Golf SuperHD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20181024060000 +0200
 [  Debug ] starting with show : Golf: Andalucia Valderrama... at local time 24/10/2018 06:00
-[  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[  Info  ] 0.20 sec/update
 [  Debug ] 
 [  Info  ] (  82/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Golf HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20181028030000 +0100
 [  Debug ] starting with show : Golf: HSBC Champions at local time 28/10/2018 03:00
-[  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[  Info  ] 0.19 sec/update
 [  Debug ] 
 [  Info  ] (  83/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Supercalcio HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -954,9 +952,9 @@
 [  Info  ] ( 101/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Super Tennis HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20181024070000 +0200
-[  Debug ] starting with show : ATP Basilea at local time 24/10/2018 07:00
+[  Debug ] starting with show : WTA Finals Singapore at local time 24/10/2018 07:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[  Info  ] 0.20 sec/update
 [  Debug ] 
 [  Info  ] ( 102/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Milan Channel) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -1140,16 +1138,169 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 130/171 ) RAI.IT -- chan. (xmltv_id=Rai Gulp HD) -- mode Incremental
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 28/10/2018 01:35:00 stop = 28/10/2018 01:45:00 title = The Jungle Book (ii)
+[  Info  ]       Replaces ----- start = 28/10/2018 01:15:00 stop = 28/10/2018 01:45:00 title = I Fantasmi Di Casa Hathaway (ii)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 28/10/2018 01:45:00 stop = 28/10/2018 02:00:00 title = The Jungle Book (ii)
+[  Info  ]       Replaces ----- start = 28/10/2018 01:45:00 stop = 28/10/2018 02:15:00 title = Monster Allergy
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 28/10/2018 02:00:00 stop = 28/10/2018 02:25:00 title = Monster Allergy
+[  Info  ]       Replaces ----- start = 28/10/2018 01:45:00 stop = 28/10/2018 02:15:00 title = Monster Allergy
+[  Info  ]       Replaces ----- start = 28/10/2018 02:15:00 stop = 28/10/2018 02:45:00 title = Barbarossa
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20181028060000 +0100
 [  Debug ] starting with show : Pumpkin Reports at local time 28/10/2018 06:00
-[  Info  ] 
+[  Info  ] 0.49 sec/update
 [  Debug ] 
 [  Info  ] ( 131/171 ) RAI.IT -- chan. (xmltv_id=Rai YoYo HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20181024060000 +0200
 [  Debug ] starting with show : Molly Monster at local time 24/10/2018 06:00
-[  Info  ] 
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 27/10/2018 07:00:00 stop = 27/10/2018 07:05:00 title = Masha E Orso 3
+[  Info  ]       Replaces ----- start = 27/10/2018 07:00:00 stop = 27/10/2018 07:10:00 title = Masha E Orso 3
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 27/10/2018 07:05:00 stop = 27/10/2018 07:10:00 title = Masha E Orso 3
+[  Info  ]       Replaces ----- start = 27/10/2018 07:00:00 stop = 27/10/2018 07:10:00 title = Masha E Orso 3
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 27/10/2018 08:20:00 stop = 27/10/2018 08:30:00 title = Giulio Coniglio
+[  Info  ]       Replaces ----- start = 27/10/2018 08:20:00 stop = 27/10/2018 08:35:00 title = Giulio Coniglio
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 27/10/2018 10:10:00 stop = 27/10/2018 10:15:00 title = Masha E Orso 3
+[  Info  ]       Replaces ----- start = 27/10/2018 10:10:00 stop = 27/10/2018 10:20:00 title = Masha E Orso
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 27/10/2018 10:15:00 stop = 27/10/2018 10:20:00 title = Masha E Orso
+[  Info  ]       Replaces ----- start = 27/10/2018 10:10:00 stop = 27/10/2018 10:20:00 title = Masha E Orso
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 27/10/2018 11:30:00 stop = 27/10/2018 11:35:00 title = Yo Yo
+[  Info  ]       Replaces ----- start = 27/10/2018 11:25:00 stop = 27/10/2018 11:35:00 title = Yo Yo
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 27/10/2018 13:15:00 stop = 27/10/2018 13:25:00 title = Masha E Orso 2
+[  Info  ]       Replaces ----- start = 27/10/2018 13:15:00 stop = 27/10/2018 13:20:00 title = Masha E Orso 2
+[  Info  ]       Replaces ----- start = 27/10/2018 13:20:00 stop = 27/10/2018 13:25:00 title = Masha E Orso 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 27/10/2018 13:25:00 stop = 27/10/2018 13:30:00 title = Masha E Orso 2
+[  Info  ]       Replaces ----- start = 27/10/2018 13:25:00 stop = 27/10/2018 13:30:00 title = I Racconti Di Masha
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 27/10/2018 13:30:00 stop = 27/10/2018 13:35:00 title = I Racconti Di Masha
+[  Info  ]       Replaces ----- start = 27/10/2018 13:30:00 stop = 27/10/2018 13:40:00 title = I Racconti Di Masha
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 27/10/2018 13:35:00 stop = 27/10/2018 13:40:00 title = I Racconti Di Masha
+[  Info  ]       Replaces ----- start = 27/10/2018 13:30:00 stop = 27/10/2018 13:40:00 title = I Racconti Di Masha
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 27/10/2018 15:40:00 stop = 27/10/2018 15:55:00 title = Pj Masks
+[  Info  ]       Replaces ----- start = 27/10/2018 15:40:00 stop = 27/10/2018 15:50:00 title = Pj Masks
+[  Info  ]       Replaces ----- start = 27/10/2018 15:50:00 stop = 27/10/2018 16:00:00 title = Pj Masks
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 27/10/2018 15:55:00 stop = 27/10/2018 16:05:00 title = Pj Masks
+[  Info  ]       Replaces ----- start = 27/10/2018 15:50:00 stop = 27/10/2018 16:00:00 title = Pj Masks
+[  Info  ]       Replaces ----- start = 27/10/2018 16:00:00 stop = 27/10/2018 16:05:00 title = Masha E Orso 3
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 27/10/2018 16:05:00 stop = 27/10/2018 16:15:00 title = Masha E Orso 3
+[  Info  ]       Replaces ----- start = 27/10/2018 16:05:00 stop = 27/10/2018 16:10:00 title = Masha E Orso 3
+[  Info  ]       Replaces ----- start = 27/10/2018 16:10:00 stop = 27/10/2018 16:20:00 title = Masha E Orso 3
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 27/10/2018 16:15:00 stop = 27/10/2018 16:20:00 title = Masha E Orso 3
+[  Info  ]       Replaces ----- start = 27/10/2018 16:10:00 stop = 27/10/2018 16:20:00 title = Masha E Orso 3
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 27/10/2018 16:20:00 stop = 27/10/2018 16:30:00 title = Masha E Orso 3
+[  Info  ]       Replaces ----- start = 27/10/2018 16:20:00 stop = 27/10/2018 16:25:00 title = Yo Yo
+[  Info  ]       Replaces ----- start = 27/10/2018 16:25:00 stop = 27/10/2018 16:30:00 title = Yo Yo
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 27/10/2018 16:30:00 stop = 27/10/2018 16:35:00 title = Yo Yo
+[  Info  ]       Replaces ----- start = 27/10/2018 16:30:00 stop = 27/10/2018 16:40:00 title = Yo Yo
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 27/10/2018 18:55:00 stop = 27/10/2018 19:05:00 title = Masha E Orso 2
+[  Info  ]       Replaces ----- start = 27/10/2018 18:55:00 stop = 27/10/2018 19:00:00 title = Masha E Orso 2
+[  Info  ]       Replaces ----- start = 27/10/2018 19:00:00 stop = 27/10/2018 19:05:00 title = Masha E Orso 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 27/10/2018 19:20:00 stop = 27/10/2018 19:25:00 title = Masha E Orso 2
+[  Info  ]       Replaces ----- start = 27/10/2018 19:20:00 stop = 27/10/2018 19:25:00 title = I Racconti Di Masha
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 27/10/2018 19:25:00 stop = 27/10/2018 19:30:00 title = I Racconti Di Masha
+[  Info  ]       Replaces ----- start = 27/10/2018 19:25:00 stop = 27/10/2018 19:35:00 title = I Racconti Di Masha
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 27/10/2018 19:30:00 stop = 27/10/2018 19:35:00 title = I Racconti Di Masha
+[  Info  ]       Replaces ----- start = 27/10/2018 19:25:00 stop = 27/10/2018 19:35:00 title = I Racconti Di Masha
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 27/10/2018 20:25:00 stop = 27/10/2018 20:40:00 title = Pj Masks
+[  Info  ]       Replaces ----- start = 27/10/2018 20:25:00 stop = 27/10/2018 20:35:00 title = Pj Masks
+[  Info  ]       Replaces ----- start = 27/10/2018 20:35:00 stop = 27/10/2018 20:45:00 title = Pj Masks
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 27/10/2018 20:40:00 stop = 27/10/2018 20:50:00 title = Pj Masks
+[  Info  ]       Replaces ----- start = 27/10/2018 20:35:00 stop = 27/10/2018 20:45:00 title = Pj Masks
+[  Info  ]       Replaces ----- start = 27/10/2018 20:45:00 stop = 27/10/2018 21:05:00 title = Speciale La Casa Delle Api
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 27/10/2018 21:40:00 stop = 27/10/2018 21:45:00 title = I Racconti Di Masha
+[  Info  ]       Replaces ----- start = 27/10/2018 21:40:00 stop = 27/10/2018 21:50:00 title = I Racconti Di Masha
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 27/10/2018 21:45:00 stop = 27/10/2018 21:50:00 title = I Racconti Di Masha
+[  Info  ]       Replaces ----- start = 27/10/2018 21:40:00 stop = 27/10/2018 21:50:00 title = I Racconti Di Masha
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 27/10/2018 23:30:00 stop = 27/10/2018 23:35:00 title = Le Nuove Avventure Della Pimpa
+[  Info  ]       Replaces ----- start = 27/10/2018 23:30:00 stop = 27/10/2018 23:35:00 title = Barbapapa'
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 27/10/2018 23:35:00 stop = 27/10/2018 23:40:00 title = Le Nuove Avventure Della Pimpa
+[  Info  ]       Replaces ----- start = 27/10/2018 23:35:00 stop = 27/10/2018 23:40:00 title = Barbapapa'
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 27/10/2018 23:45:00 stop = 27/10/2018 23:50:00 title = Barbapapa'
+[  Info  ]       Replaces ----- start = 27/10/2018 23:45:00 stop = 27/10/2018 23:55:00 title = Buonanotte Con Le Favole Di Yoyo 2013
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 27/10/2018 23:50:00 stop = 27/10/2018 23:55:00 title = Barbapapa'
+[  Info  ]       Replaces ----- start = 27/10/2018 23:45:00 stop = 27/10/2018 23:55:00 title = Buonanotte Con Le Favole Di Yoyo 2013
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 27/10/2018 23:55:00 stop = 28/10/2018 00:00:00 title = Buonanotte Con Le Favole Di Yoyo 2013
+[  Info  ]       Replaces ----- start = 27/10/2018 23:55:00 stop = 28/10/2018 00:05:00 title = Pipi Pupu' E Rosmarina
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 28/10/2018 06:00:00 stop = 28/10/2018 06:00:00 title = Molly Monster
+[  Info  ]       Added before - start = 28/10/2018 05:00:00 stop = 28/10/2018 05:00:00 title = Molly Monster 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 28/10/2018 06:00:00 stop = 28/10/2018 06:05:00 title = Molly Monster
+[  Info  ]       Replaces ----- start = 28/10/2018 05:00:00 stop = 28/10/2018 05:05:00 title = Molly Monster 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 28/10/2018 06:10:00 stop = 28/10/2018 06:15:00 title = Molly Monster 2
+[  Info  ]       Replaces ----- start = 28/10/2018 05:10:00 stop = 28/10/2018 05:30:00 title = New Teletubbies
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 28/10/2018 06:15:00 stop = 28/10/2018 06:30:00 title = New Teletubbies
+[  Info  ]       Replaces ----- start = 28/10/2018 05:10:00 stop = 28/10/2018 05:30:00 title = New Teletubbies
+[  Info  ] 0.11 sec/update
 [  Debug ] 
 [  Info  ] ( 132/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cartoon Network) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -1363,16 +1514,13 @@
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20181029051300 +0100
 [  Debug ] starting with show : SOMETHING BORROWED at local time 29/10/2018 05:13
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2018 05:13:00 stop = 29/10/2018 07:05:00 title = Something Borrewed - L'Amore Non Ha Regole
+[  Info  ]       Replaces ----- start = 29/10/2018 04:55:00 stop = 29/10/2018 06:30:00 title = La Guerra Di Charlie Wilson
+[  Info  ]       Replaces ----- start = 29/10/2018 06:30:00 stop = 29/10/2018 08:52:00 title = L'Ultimo Samurai
 [  Debug ]    skipped negative show time! at 28/10/2018 06:05:00
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 29/10/2018 04:55:00 stop = 29/10/2018 06:30:00 title = La Guerra Di Charlie Wilson
-[  Info  ]       Replaces ----- start = 29/10/2018 05:13:00 stop = 29/10/2018 07:05:00 title = Something Borrewed - L'Amore Non Ha Regole
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 29/10/2018 06:30:00 stop = 29/10/2018 08:52:00 title = L'Ultimo Samurai
-[  Info  ]       Replaces ----- start = 29/10/2018 05:13:00 stop = 29/10/2018 07:05:00 title = Something Borrewed - L'Amore Non Ha Regole
-[  Info  ] 0.18 sec/update
+[  Info  ] 0.23 sec/update
 [  Debug ] 
 [  Info  ] ( 151/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema +24) -- mode Incremental
 [Error   ] Unable to update channel Premium Cinema +24
@@ -1427,7 +1575,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/10/2018 04:55:00 stop = 30/10/2018 06:30:00 title = Krampus - Natale Non E' Sempre Natale
 [  Info  ]       Replaces ----- start = 30/10/2018 03:55:00 stop = 30/10/2018 05:30:00 title = Krampus - Natale Non E' Sempre Natale
-[  Info  ] 0.16 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 152/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Emotion) -- mode Incremental
 [  Debug ]    skipped show longer than 15 hour(s) at 28/10/2018 01:34:00 title IN MEMORIA DI ME
@@ -1447,7 +1595,7 @@
 [  Info  ]       show with ---- start = 27/10/2018 02:55:00 stop = 27/10/2018 03:21:00 title = PIERLUIGI FAVINO - INVITO A CENA CON...
 [  Info  ]       Replaces ----- start = 27/10/2018 02:55:00 stop = 27/10/2018 03:21:00 title = PIERLUIGI FAVINO - INVITO A CENA CON...
 [  Debug ]    skipped show longer than 15 hour(s) at 28/10/2018 02:13:00 title L' AMICO DEL CUORE
-[  Info  ] 0.31 sec/update
+[  Info  ] 0.25 sec/update
 [  Debug ] 
 [  Info  ] ( 154/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Investigation Discovery) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -1455,7 +1603,7 @@
 [  Debug ] starting with show : TRUE CRIME: STORIE DI OMICIDI at local time 28/10/2018 03:45
 [  Debug ]    skipped show longer than 15 hour(s) at 28/10/2018 02:45:00 title TRUE CRIME: STORIE DI OMICIDI
 [  Debug ]    skipped negative show time! at 28/10/2018 22:40:00
-[  Info  ] 0.02 sec/update
+[  Info  ] 0.03 sec/update
 [  Debug ] 
 [  Info  ] ( 155/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Studio Universal) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -1521,7 +1669,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/10/2018 07:50:00 stop = 30/10/2018 08:05:00 title = DAVID LYNCH - CINECHAT - (KS-KR)
 [  Info  ]       Replaces ----- start = 30/10/2018 06:50:00 stop = 30/10/2018 07:05:00 title = DAVID LYNCH - CINECHAT - (KS-KR)
-[  Info  ] 0.17 sec/update
+[  Info  ] 0.19 sec/update
 [  Debug ] 
 [  Info  ] ( 156/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Paramount Channel) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = PROJECT GREENLIGHT S4 - PISTOLA ALLA TEMPIA
@@ -1587,7 +1735,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/10/2018 07:50:00 stop = 30/10/2018 08:05:00 title = DAVID LYNCH - CINECHAT - (KS-KR)
 [  Info  ]       Replaces ----- start = 30/10/2018 07:50:00 stop = 30/10/2018 08:05:00 title = DAVID LYNCH - CINECHAT - (KS-KR)
-[  Info  ] 0.17 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 157/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action HD) -- mode Incremental
 [Error   ] Unable to update channel Premium Action HD
@@ -1800,7 +1948,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 27/10/2018 12:49:00 stop = 27/10/2018 13:37:00 title = IL MISTERO DEL DIAMANTE - DECEPTION I
-[  Info  ]       Replaces ----- start = 27/10/2018 12:49:00 stop = 27/10/2018 13:37:00 title = IL MISTERO DEL DIAMANTE - DECEPTION I - PRIMA TV
+[  Info  ]       Replaces ----- start = 27/10/2018 12:49:00 stop = 27/10/2018 13:37:00 title = IL MISTERO DEL DIAMANTE - DECEPTION I
 [  Debug ]    suspicious      title in index page  = GONE
 [  Debug ]       differs from title in showdetails = IL PROCESSO - .....
 [  Info  ]    epg correction : 
@@ -1824,7 +1972,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 28/10/2018 02:19:00 stop = 28/10/2018 03:17:00 title = IL MISTERO DEL DIAMANTE - DECEPTION I
-[  Info  ]       Replaces ----- start = 28/10/2018 02:19:00 stop = 28/10/2018 02:17:00 title = IL MISTERO DEL DIAMANTE - DECEPTION I - PRIMA TV
+[  Info  ]       Replaces ----- start = 28/10/2018 02:19:00 stop = 28/10/2018 02:17:00 title = IL MISTERO DEL DIAMANTE - DECEPTION I
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 28/10/2018 03:17:00 and stop at 28/10/2018 03:58:00
 [  Debug ]    skipped show longer than 15 hour(s) at 28/10/2018 02:58:00 title CRIMINAL INTENT VI
@@ -1833,32 +1981,44 @@
 [  Info  ]    epg correction : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 29/10/2018 05:40:00 stop = 29/10/2018 06:30:00 title = ARRIVI E PARTENZE - CRIMINAL INTENT VI
-[  Info  ]       Added before - start = 29/10/2018 06:01:00 stop = 29/10/2018 06:51:00 title = IL MISTERO DEL DIAMANTE - DECEPTION I - PRIMA TV
+[  Info  ]       Added before - start = 29/10/2018 05:30:00 stop = 29/10/2018 05:59:00 title = CONCIATI PER LE FESTE - LETHAL WEAPON II
 [  Debug ]    suspicious      title in index page  = DECEPTION I
 [  Debug ]       differs from title in showdetails = LA STANZA DEGLI ENIGM.....
 [  Info  ]    epg correction : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 29/10/2018 06:30:00 stop = 29/10/2018 07:01:00 title = LA STANZA DEGLI ENIGMI - DECEPTION I
-[  Info  ]       Added before - start = 29/10/2018 06:01:00 stop = 29/10/2018 06:51:00 title = IL MISTERO DEL DIAMANTE - DECEPTION I - PRIMA TV
+[  Info  ]       Replaces ----- start = 29/10/2018 05:30:00 stop = 29/10/2018 05:59:00 title = CONCIATI PER LE FESTE - LETHAL WEAPON II
+[  Info  ]       Replaces ----- start = 29/10/2018 05:59:00 stop = 29/10/2018 06:49:00 title = BANCONOTE FALSE - LETHAL WEAPON II
 [  Debug ]    suspicious      title in index page  = DECEPTION I
 [  Debug ]       differs from title in showdetails = IL MISTERO DEL DIAMAN.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 29/10/2018 07:01:00 stop = 29/10/2018 07:51:00 title = IL MISTERO DEL DIAMANTE - DECEPTION I
-[  Info  ]       Replaces ----- start = 29/10/2018 06:01:00 stop = 29/10/2018 06:51:00 title = IL MISTERO DEL DIAMANTE - DECEPTION I - PRIMA TV
+[  Info  ]       Replaces ----- start = 29/10/2018 05:59:00 stop = 29/10/2018 06:49:00 title = BANCONOTE FALSE - LETHAL WEAPON II
+[  Info  ]       Replaces ----- start = 29/10/2018 06:49:00 stop = 29/10/2018 07:38:00 title = PALLA CURVA - MAJOR CRIMES II
 [  Debug ]    suspicious      title in index page  = LETHAL WEAPON II
 [  Debug ]       differs from title in showdetails = CONCIATI PER LE FESTE - LE.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 29/10/2018 07:51:00 stop = 29/10/2018 08:41:00 title = CONCIATI PER LE FESTE - LETHAL WEAPON II
+[  Info  ]       Replaces ----- start = 29/10/2018 06:49:00 stop = 29/10/2018 07:38:00 title = PALLA CURVA - MAJOR CRIMES II
 [  Info  ]       Replaces ----- start = 29/10/2018 07:38:00 stop = 29/10/2018 08:26:00 title = E RIVELA IL BURATTINAIO - BLINDSPOT I
+[  Debug ]    suspicious      title in index page  = LETHAL WEAPON II
+[  Debug ]       differs from title in showdetails = BANCONOTE FALSE - LETHAL W.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2018 08:41:00 stop = 29/10/2018 09:31:00 title = BANCONOTE FALSE - LETHAL WEAPON II
+[  Info  ]       Replaces ----- start = 29/10/2018 07:38:00 stop = 29/10/2018 08:26:00 title = E RIVELA IL BURATTINAIO - BLINDSPOT I
+[  Info  ]       Replaces ----- start = 29/10/2018 08:26:00 stop = 29/10/2018 09:15:00 title = MAMMA - LAW & ORDER: UNITA' SPECIALE XIX - PRIMA TV
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2018 09:31:00 stop = 29/10/2018 10:21:00 title = RENDER - TAKEN II
+[  Info  ]       Replaces ----- start = 29/10/2018 08:26:00 stop = 29/10/2018 09:15:00 title = MAMMA - LAW & ORDER: UNITA' SPECIALE XIX - PRIMA TV
+[  Info  ]       Replaces ----- start = 29/10/2018 09:15:00 stop = 29/10/2018 10:04:00 title = IDENTITA' IN VENDITA - RIZZOLI & ISLES VI
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 29/10/2018 10:21:00 stop = 29/10/2018 11:10:00 title = VICERE' - TAKEN II
-[  Info  ]       Replaces ----- start = 29/10/2018 10:04:00 stop = 29/10/2018 11:03:00 title = PECCATO DI OMISSIONE - DEXTER VI
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 29/10/2018 11:10:00 stop = 29/10/2018 11:59:00 title = LAW & ORDER TRUE CRIME: THE MENENDEZ MURDERS, 1 - LAW & ORDER TRUE CRIME: THE MENENDEZ MURDERS - PRIMA TV
+[  Info  ]       Replaces ----- start = 29/10/2018 09:15:00 stop = 29/10/2018 10:04:00 title = IDENTITA' IN VENDITA - RIZZOLI & ISLES VI
 [  Info  ]       Replaces ----- start = 29/10/2018 10:04:00 stop = 29/10/2018 11:03:00 title = PECCATO DI OMISSIONE - DEXTER VI
 [  Debug ]    suspicious      title in index page  = PERSON OF INTEREST IV
 [  Debug ]       differs from title in showdetails = TERRA INCOGNITA - PERSON OF INT.....
@@ -1867,24 +2027,31 @@
 [  Info  ]       show with ---- start = 29/10/2018 11:59:00 stop = 29/10/2018 12:49:00 title = TERRA INCOGNITA - PERSON OF INTEREST IV
 [  Info  ]       Replaces ----- start = 29/10/2018 10:04:00 stop = 29/10/2018 11:03:00 title = PECCATO DI OMISSIONE - DEXTER VI
 [  Info  ]       Replaces ----- start = 29/10/2018 11:03:00 stop = 29/10/2018 11:51:00 title = COMPAGNI DI CELLA - CHICAGO P.D. III
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2018 12:49:00 stop = 29/10/2018 13:38:00 title = IL MANICOMIO - PERSON OF INTEREST IV
+[  Info  ]       Replaces ----- start = 29/10/2018 11:03:00 stop = 29/10/2018 11:51:00 title = COMPAGNI DI CELLA - CHICAGO P.D. III
+[  Info  ]       Replaces ----- start = 29/10/2018 11:51:00 stop = 29/10/2018 12:41:00 title = PATERNITA' - CRIMINAL INTENT VII
 [  Debug ]    suspicious      title in index page  = PERSON OF INTEREST IV
 [  Debug ]       differs from title in showdetails = L' ULTIMA SFIDA - PERSON OF INT.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 29/10/2018 13:38:00 stop = 29/10/2018 14:29:00 title = L' ULTIMA SFIDA - PERSON OF INTEREST IV
+[  Info  ]       Replaces ----- start = 29/10/2018 11:51:00 stop = 29/10/2018 12:41:00 title = PATERNITA' - CRIMINAL INTENT VII
 [  Info  ]       Replaces ----- start = 29/10/2018 12:41:00 stop = 29/10/2018 13:29:00 title = CONFLITTO DI POTERI - THE CLOSER VII
 [  Debug ]    suspicious      title in index page  = THE FOLLOWING III
 [  Debug ]       differs from title in showdetails = CARNE E SANGUE - THE FOLLOW.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 29/10/2018 14:29:00 stop = 29/10/2018 15:20:00 title = CARNE E SANGUE - THE FOLLOWING III
-[  Info  ]       Replaces ----- start = 29/10/2018 14:19:00 stop = 29/10/2018 15:09:00 title = IL MISTERO DEL DIAMANTE - DECEPTION I - PRIMA TV
+[  Info  ]       Replaces ----- start = 29/10/2018 13:29:00 stop = 29/10/2018 14:19:00 title = MAMMA - LAW & ORDER: UNITA' SPECIALE XIX - PRIMA TV
+[  Info  ]       Replaces ----- start = 29/10/2018 14:19:00 stop = 29/10/2018 15:09:00 title = IL MISTERO DEL DIAMANTE - DECEPTION I
 [  Debug ]    suspicious      title in index page  = THE FOLLOWING III
 [  Debug ]       differs from title in showdetails = IL PRESCELTO - THE FOLLOWIN.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 29/10/2018 15:20:00 stop = 29/10/2018 16:10:00 title = IL PRESCELTO - THE FOLLOWING III
-[  Info  ]       Replaces ----- start = 29/10/2018 14:19:00 stop = 29/10/2018 15:09:00 title = IL MISTERO DEL DIAMANTE - DECEPTION I - PRIMA TV
+[  Info  ]       Replaces ----- start = 29/10/2018 14:19:00 stop = 29/10/2018 15:09:00 title = IL MISTERO DEL DIAMANTE - DECEPTION I
 [  Info  ]       Replaces ----- start = 29/10/2018 15:09:00 stop = 29/10/2018 15:57:00 title = E RIVELA IL BURATTINAIO - BLINDSPOT I
 [  Debug ]    suspicious      title in index page  = THE FOLLOWING III
 [  Debug ]       differs from title in showdetails = ETERNAMENTE - THE FOLLOWING.....
@@ -1895,8 +2062,30 @@
 [  Info  ]       Replaces ----- start = 29/10/2018 15:57:00 stop = 29/10/2018 16:56:00 title = PECCATO DI OMISSIONE - DEXTER VI
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 29/10/2018 17:00:00 stop = 29/10/2018 17:52:00 title = DEMONI - THE FOLLOWING III
+[  Info  ]       show with ---- start = 29/10/2018 17:52:00 stop = 29/10/2018 18:43:00 title = AL LIMITE - THE FOLLOWING III
 [  Info  ]       Replaces ----- start = 29/10/2018 15:57:00 stop = 29/10/2018 16:56:00 title = PECCATO DI OMISSIONE - DEXTER VI
+[  Info  ]       Replaces ----- start = 29/10/2018 16:56:00 stop = 29/10/2018 17:46:00 title = IL  BRANCO - LAW & ORDER: UNITA' SPECIALE XVII
+[  Debug ]    suspicious      title in index page  = THE FOLLOWING III
+[  Debug ]       differs from title in showdetails = LO SCAMBIO - THE FOLLOWING .....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2018 18:43:00 stop = 29/10/2018 19:33:00 title = LO SCAMBIO - THE FOLLOWING III
+[  Info  ]       Replaces ----- start = 29/10/2018 16:56:00 stop = 29/10/2018 17:46:00 title = IL  BRANCO - LAW & ORDER: UNITA' SPECIALE XVII
+[  Info  ]       Replaces ----- start = 29/10/2018 17:46:00 stop = 29/10/2018 18:34:00 title = LE MILLE LUCI DI SAN FRANCISCO - MURDER IN THE FIRST I
+[  Debug ]    suspicious      title in index page  = THE FOLLOWING III
+[  Debug ]       differs from title in showdetails = VIVO O MORTO - THE FOLLOWIN.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2018 19:33:00 stop = 29/10/2018 20:22:00 title = VIVO O MORTO - THE FOLLOWING III
+[  Info  ]       Replaces ----- start = 29/10/2018 17:46:00 stop = 29/10/2018 18:34:00 title = LE MILLE LUCI DI SAN FRANCISCO - MURDER IN THE FIRST I
+[  Info  ]       Replaces ----- start = 29/10/2018 18:34:00 stop = 29/10/2018 19:23:00 title = PALLA CURVA - MAJOR CRIMES II
+[  Debug ]    suspicious      title in index page  = THE FOLLOWING III
+[  Debug ]       differs from title in showdetails = ULTIMO ATTO - THE FOLLOWING.....
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2018 20:22:00 stop = 29/10/2018 21:15:00 title = ULTIMO ATTO - THE FOLLOWING III
+[  Info  ]       Replaces ----- start = 29/10/2018 18:34:00 stop = 29/10/2018 19:23:00 title = PALLA CURVA - MAJOR CRIMES II
+[  Info  ]       Replaces ----- start = 29/10/2018 19:23:00 stop = 29/10/2018 20:15:00 title = IDENTITA' IN VENDITA - RIZZOLI & ISLES VI
 [  Info  ]    epg correction : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 29/10/2018 21:15:00 stop = 29/10/2018 22:04:00 title = MAMMA - LAW & ORDER: UNITA' SPECIALE XIX - PRIMA TV
@@ -1920,76 +2109,44 @@
 [  Info  ]    epg correction : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 29/10/2018 04:26:00 stop = 29/10/2018 06:30:00 title = TRAPPOLA - CRIMINAL INTENT VII
-[  Info  ]       Added before - start = 29/10/2018 06:01:00 stop = 29/10/2018 06:51:00 title = IL MISTERO DEL DIAMANTE - DECEPTION I - PRIMA TV
+[  Info  ]       Added before - start = 29/10/2018 05:30:00 stop = 29/10/2018 05:59:00 title = CONCIATI PER LE FESTE - LETHAL WEAPON II
 [  Debug ]    suspicious      title in index page  = LETHAL WEAPON II
 [  Debug ]       differs from title in showdetails = CONCIATI PER LE FESTE - LE.....
 [  Info  ]    epg correction : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 29/10/2018 06:30:00 stop = 29/10/2018 06:59:00 title = CONCIATI PER LE FESTE - LETHAL WEAPON II
-[  Info  ]       Added before - start = 29/10/2018 06:01:00 stop = 29/10/2018 06:51:00 title = IL MISTERO DEL DIAMANTE - DECEPTION I - PRIMA TV
-[  Debug ]    suspicious      title in index page  = LETHAL WEAPON II
-[  Debug ]       differs from title in showdetails = BANCONOTE FALSE - LETHAL W.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 29/10/2018 06:59:00 stop = 29/10/2018 07:49:00 title = BANCONOTE FALSE - LETHAL WEAPON II
-[  Info  ]       Replaces ----- start = 29/10/2018 06:01:00 stop = 29/10/2018 06:51:00 title = IL MISTERO DEL DIAMANTE - DECEPTION I - PRIMA TV
-[  Debug ]    suspicious      title in index page  = MAJOR CRIMES II
-[  Debug ]       differs from title in showdetails = PALLA CURVA - MAJOR CRIME.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 29/10/2018 07:49:00 stop = 29/10/2018 08:38:00 title = PALLA CURVA - MAJOR CRIMES II
-[  Info  ]       Replaces ----- start = 29/10/2018 06:01:00 stop = 29/10/2018 06:51:00 title = IL MISTERO DEL DIAMANTE - DECEPTION I - PRIMA TV
+[  Info  ]       Replaces ----- start = 29/10/2018 05:30:00 stop = 29/10/2018 05:59:00 title = CONCIATI PER LE FESTE - LETHAL WEAPON II
 [  Debug ]    suspicious      title in index page  = BLINDSPOT I
 [  Debug ]       differs from title in showdetails = E RIVELA IL BURATTINA.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 29/10/2018 08:38:00 stop = 29/10/2018 09:26:00 title = E RIVELA IL BURATTINAIO - BLINDSPOT I
 [  Info  ]       Replaces ----- start = 29/10/2018 07:38:00 stop = 29/10/2018 08:26:00 title = E RIVELA IL BURATTINAIO - BLINDSPOT I
-[  Info  ]       Replaces ----- start = 29/10/2018 07:41:00 stop = 29/10/2018 08:31:00 title = BANCONOTE FALSE - LETHAL WEAPON II
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 29/10/2018 09:26:00 stop = 29/10/2018 10:15:00 title = MAMMA - LAW & ORDER: UNITA' SPECIALE XIX - PRIMA TV
-[  Info  ]       Replaces ----- start = 29/10/2018 07:41:00 stop = 29/10/2018 08:31:00 title = BANCONOTE FALSE - LETHAL WEAPON II
-[  Info  ]       Replaces ----- start = 29/10/2018 08:31:00 stop = 29/10/2018 09:21:00 title = RENDER - TAKEN II
-[  Debug ]    suspicious      title in index page  = RIZZOLI & ISLES VI
-[  Debug ]       differs from title in showdetails = IDENTITA' IN VENDITA - RIZZO.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 29/10/2018 10:15:00 stop = 29/10/2018 11:04:00 title = IDENTITA' IN VENDITA - RIZZOLI & ISLES VI
-[  Info  ]       Replaces ----- start = 29/10/2018 08:31:00 stop = 29/10/2018 09:21:00 title = RENDER - TAKEN II
 [  Debug ]    suspicious      title in index page  = DEXTER VI
 [  Debug ]       differs from title in showdetails = PECCATO DI OMISSION.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 29/10/2018 11:04:00 stop = 29/10/2018 12:03:00 title = PECCATO DI OMISSIONE - DEXTER VI
 [  Info  ]       Replaces ----- start = 29/10/2018 10:04:00 stop = 29/10/2018 11:03:00 title = PECCATO DI OMISSIONE - DEXTER VI
+[  Info  ]       Replaces ----- start = 29/10/2018 10:10:00 stop = 29/10/2018 10:59:00 title = LAW & ORDER TRUE CRIME: THE MENENDEZ MURDERS, 1 - LAW & ORDER TRUE CRIME: THE MENENDEZ MURDERS - PRIMA TV
 [  Debug ]    suspicious      title in index page  = CHICAGO P.D. III
 [  Debug ]       differs from title in showdetails = COMPAGNI DI CELLA - CHICAG.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 29/10/2018 12:03:00 stop = 29/10/2018 12:51:00 title = COMPAGNI DI CELLA - CHICAGO P.D. III
 [  Info  ]       Replaces ----- start = 29/10/2018 11:03:00 stop = 29/10/2018 11:51:00 title = COMPAGNI DI CELLA - CHICAGO P.D. III
-[  Info  ]       Replaces ----- start = 29/10/2018 11:49:00 stop = 29/10/2018 12:38:00 title = IL MANICOMIO - PERSON OF INTEREST IV
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 29/10/2018 12:51:00 stop = 29/10/2018 13:41:00 title = PATERNITA' - CRIMINAL INTENT VII
-[  Info  ]       Replaces ----- start = 29/10/2018 11:49:00 stop = 29/10/2018 12:38:00 title = IL MANICOMIO - PERSON OF INTEREST IV
 [  Debug ]    suspicious      title in index page  = THE CLOSER VII
 [  Debug ]       differs from title in showdetails = CONFLITTO DI POTERI - TH.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 29/10/2018 13:41:00 stop = 29/10/2018 14:29:00 title = CONFLITTO DI POTERI - THE CLOSER VII
 [  Info  ]       Replaces ----- start = 29/10/2018 12:41:00 stop = 29/10/2018 13:29:00 title = CONFLITTO DI POTERI - THE CLOSER VII
-[  Info  ]    epg correction : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 29/10/2018 14:29:00 stop = 29/10/2018 15:19:00 title = MAMMA - LAW & ORDER: UNITA' SPECIALE XIX - PRIMA TV
-[  Info  ]       Added before - start = 29/10/2018 14:19:00 stop = 29/10/2018 15:09:00 title = IL MISTERO DEL DIAMANTE - DECEPTION I - PRIMA TV
 [  Debug ]    suspicious      title in index page  = DECEPTION I
 [  Debug ]       differs from title in showdetails = IL MISTERO DEL DIAMAN.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 29/10/2018 15:19:00 stop = 29/10/2018 16:09:00 title = IL MISTERO DEL DIAMANTE - DECEPTION I
-[  Info  ]       Replaces ----- start = 29/10/2018 14:19:00 stop = 29/10/2018 15:09:00 title = IL MISTERO DEL DIAMANTE - DECEPTION I - PRIMA TV
+[  Info  ]       Replaces ----- start = 29/10/2018 14:19:00 stop = 29/10/2018 15:09:00 title = IL MISTERO DEL DIAMANTE - DECEPTION I
 [  Debug ]    suspicious      title in index page  = BLINDSPOT I
 [  Debug ]       differs from title in showdetails = E RIVELA IL BURATTINA.....
 [  Info  ]    epg correction : 
@@ -2002,32 +2159,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 29/10/2018 16:57:00 stop = 29/10/2018 17:56:00 title = PECCATO DI OMISSIONE - DEXTER VI
 [  Info  ]       Replaces ----- start = 29/10/2018 15:57:00 stop = 29/10/2018 16:56:00 title = PECCATO DI OMISSIONE - DEXTER VI
-[  Info  ]       Replaces ----- start = 29/10/2018 16:52:00 stop = 29/10/2018 17:43:00 title = AL LIMITE - THE FOLLOWING III
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 29/10/2018 17:56:00 stop = 29/10/2018 18:46:00 title = IL  BRANCO - LAW & ORDER: UNITA' SPECIALE XVII
-[  Info  ]       Replaces ----- start = 29/10/2018 16:52:00 stop = 29/10/2018 17:43:00 title = AL LIMITE - THE FOLLOWING III
-[  Info  ]       Replaces ----- start = 29/10/2018 17:43:00 stop = 29/10/2018 18:33:00 title = LO SCAMBIO - THE FOLLOWING III
-[  Debug ]    suspicious      title in index page  = MURDER IN THE FIRST I
-[  Debug ]       differs from title in showdetails = LE MILLE LUCI DI SAN FRANCISCO .....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 29/10/2018 18:46:00 stop = 29/10/2018 19:34:00 title = LE MILLE LUCI DI SAN FRANCISCO - MURDER IN THE FIRST I
-[  Info  ]       Replaces ----- start = 29/10/2018 17:43:00 stop = 29/10/2018 18:33:00 title = LO SCAMBIO - THE FOLLOWING III
-[  Info  ]       Replaces ----- start = 29/10/2018 18:33:00 stop = 29/10/2018 19:22:00 title = VIVO O MORTO - THE FOLLOWING III
-[  Debug ]    suspicious      title in index page  = MAJOR CRIMES II
-[  Debug ]       differs from title in showdetails = PALLA CURVA - MAJOR CRIME.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 29/10/2018 19:34:00 stop = 29/10/2018 20:23:00 title = PALLA CURVA - MAJOR CRIMES II
-[  Info  ]       Replaces ----- start = 29/10/2018 18:33:00 stop = 29/10/2018 19:22:00 title = VIVO O MORTO - THE FOLLOWING III
-[  Info  ]       Replaces ----- start = 29/10/2018 19:22:00 stop = 29/10/2018 20:15:00 title = ULTIMO ATTO - THE FOLLOWING III
-[  Debug ]    suspicious      title in index page  = RIZZOLI & ISLES VI
-[  Debug ]       differs from title in showdetails = IDENTITA' IN VENDITA - RIZZO.....
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 29/10/2018 20:23:00 stop = 29/10/2018 21:15:00 title = IDENTITA' IN VENDITA - RIZZOLI & ISLES VI
-[  Info  ]       Replaces ----- start = 29/10/2018 19:22:00 stop = 29/10/2018 20:15:00 title = ULTIMO ATTO - THE FOLLOWING III
+[  Info  ]       Replaces ----- start = 29/10/2018 16:00:00 stop = 29/10/2018 16:52:00 title = DEMONI - THE FOLLOWING III
 [  Debug ]    suspicious      title in index page  = DECEPTION I
 [  Debug ]       differs from title in showdetails = L' OMICIDIO SCOMPARSO.....
 [  Info  ]    epg correction : 
@@ -2063,7 +2195,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/10/2018 03:55:00 stop = 30/10/2018 04:36:00 title = IL MISTERO DEL DIAMANTE - DECEPTION I
-[  Info  ]       Replaces ----- start = 30/10/2018 02:55:00 stop = 30/10/2018 03:36:00 title = IL MISTERO DEL DIAMANTE - DECEPTION I - PRIMA TV
+[  Info  ]       Replaces ----- start = 30/10/2018 02:55:00 stop = 30/10/2018 03:36:00 title = IL MISTERO DEL DIAMANTE - DECEPTION I
 [  Debug ]    suspicious      title in index page  = GONE
 [  Debug ]       differs from title in showdetails = IL PROCESSO - .....
 [  Info  ]    epg correction : 
@@ -2172,10 +2304,10 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Debug ] 33520 shows in 171 channels
-[  Debug ] 196 updated shows
-[  Debug ] 178 new shows added
+[  Debug ] 33536 shows in 171 channels
+[  Debug ] 332 updated shows
+[  Debug ] 22 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 24/10/2018 08:15:38 done in 10m 34s
+[        ] Job finished at 24/10/2018 12:15:43 done in 10m 39s
 [  Debug ] statistics upload error: The remote server returned an error: (404) Not Found.
