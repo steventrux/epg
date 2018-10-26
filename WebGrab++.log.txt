@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 26/10/2018 04:05:03
+[        ] Job started at 26/10/2018 08:05:04
 [  Debug ] 
 [  Debug ] Running  on: Unix 3.13.0.132
 [  Debug ] Environment: 4.0.30319.42000
@@ -29,7 +29,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+02:00	(DST in effect)
 [  Debug ] 	next DST dates  :	28/10/2018 03:00 (local)
 [  Debug ] 	                :	31/03/2019 02:00 (local)
-[  Debug ] 	local time now  :	26/10/2018 04:05:03
+[  Debug ] 	local time now  :	26/10/2018 08:05:04
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -221,8 +221,7 @@
 [  Info  ] Found existing channel (xmltv_id=Premium Action HD) in the config file
 [  Info  ] Found existing channel (xmltv_id=Premium Action +24) in the config file
 [  Info  ] Found existing channel (xmltv_id=Premium Crime) in the config file
-[  Debug ] removed 2 overlapping shows in Premium Crime starting after 29/10/2018 04:26:00
-[  Debug ] removed a show that is not in time increasing order in Premium Crime starting after 29/10/2018 05:56:00
+[  Debug ] removed 3 overlapping shows in Premium Crime starting after 29/10/2018 04:26:00
 [  Info  ] Found existing channel (xmltv_id=Premium Joy) in the config file
 [  Info  ] Found existing channel (xmltv_id=Premium Stories) in the config file
 [  Info  ] Found existing channel (xmltv_id=Premium Sport superHD) in the config file
@@ -243,31 +242,32 @@
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20181028042500 +0100
 [  Debug ] starting with show : Nuovo Cinema Paradiso at local time 28/10/2018 04:25
-[  Info  ] 0.19 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   2/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai 2 HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20181026070500 +0200
 [  Debug ] starting with show : 5 cose da sapere at local time 26/10/2018 07:05
-[  Info  ] 0.20 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   3/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai 3 HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20181028060000 +0100
 [  Debug ] starting with show : Il regno d'inverno - Winter Sleep at local time 28/10/2018 06:00
-[  Info  ] 0.20 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   4/171 ) MEDIASET.IT -- chan. (xmltv_id=Rete 4 HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20181028030500 +0100
 [  Debug ] starting with show : TELEVENDITA MEDIA SHOPPING at local time 28/10/2018 03:05
-[  Info  ] 0.14 sec/update
+[  Debug ]    skipped negative show time! at 01/11/2018 00:16:00
+[  Info  ] 0.07 sec/update
 [  Debug ] 
 [  Info  ] (   5/171 ) MEDIASET.IT -- chan. (xmltv_id=Canale 5 HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20181026060000 +0200
 [  Debug ] starting with show : PRIMA PAGINA TG5 at local time 26/10/2018 06:00
-[  Info  ] 
+[  Info  ] 0.07 sec/update
 [  Debug ] 
 [  Info  ] (   6/171 ) MEDIASET.IT -- chan. (xmltv_id=Italia 1 HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -279,7 +279,7 @@
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20181026060500 +0200
 [  Debug ] starting with show : MAI DIRE GALLERY - PILLOLE at local time 26/10/2018 06:05
-[  Info  ] 
+[  Info  ] 0.08 sec/update
 [  Debug ] 
 [  Info  ] (   8/171 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La1 HD) -- mode Incremental
 [Error   ] Unable to update channel Rsi La1 HD
@@ -298,16 +298,16 @@
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] (   8/171 ) STASERAINTV.COM -- chan. (xmltv_id=La 5) -- mode Incremental
-[  Info  ] 0.06 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   9/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=LA7) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20181026060000 +0200
 [  Debug ] starting with show : Meteo at local time 26/10/2018 06:00
-[  Info  ] 0.19 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  10/171 ) STASERAINTV.COM -- chan. (xmltv_id=LA7 D) -- mode Incremental
-[  Info  ] 0.06 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  11/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=TV 8) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -315,14 +315,14 @@
 [  Debug ] starting with show : Vite di plastica at local time 28/10/2018 03:00
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 28/10/2018 03:00:00 and stop at 28/10/2018 03:15:00
-[  Info  ] 0.21 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  12/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Nove HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20181026060200 +0200
 [  Debug ] starting with show : Peccati mortali at local time 26/10/2018 06:02
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.20 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  13/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Top Crime) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -330,25 +330,25 @@
 [  Debug ] starting with show : Law & Order: Unita' Speciale at local time 28/10/2018 03:20
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 28/10/2018 03:20:00 and stop at 28/10/2018 03:25:00
-[  Info  ] 0.20 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  14/171 ) MEDIASET.IT -- chan. (xmltv_id=Mediaset Extra) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20181028060000 +0100
 [  Debug ] starting with show : GRANDE FRATELLO VIP (IN DIRETTA DALLA CASA) at local time 28/10/2018 06:00
-[  Info  ] 
+[  Info  ] 0.08 sec/update
 [  Debug ] 
 [  Info  ] (  15/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Storia) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20181026063000 +0200
 [  Debug ] starting with show : 14 - 18. Grande Guerra cento anni dopo at local time 26/10/2018 06:30
-[  Info  ] 0.21 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  16/171 ) MEDIASET.IT -- chan. (xmltv_id=Iris) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20181026063900 +0200
 [  Debug ] starting with show : MIAMI VICE III at local time 26/10/2018 06:39
-[  Info  ] 
+[  Info  ] 0.06 sec/update
 [  Debug ] 
 [  Info  ] (  17/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Sport 1 HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -366,7 +366,7 @@
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20181028031500 +0100
 [  Debug ] starting with show : Il paradiso delle signore at local time 28/10/2018 03:15
-[  Info  ] 0.20 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  20/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai 4 HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -379,32 +379,32 @@
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20181028032500 +0100
 [  Debug ] starting with show : Chez Vous Francoise Hardy at local time 28/10/2018 03:25
-[  Info  ] 0.20 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  22/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Movie HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20181026065500 +0200
 [  Debug ] starting with show : Porca vacca at local time 26/10/2018 06:55
-[  Info  ] 0.22 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  23/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Giallo) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20181028034500 +0100
 [  Debug ] starting with show : Missing at local time 28/10/2018 03:45
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.21 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  24/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=LEI) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20181026060000 +0200
 [  Debug ] starting with show : Mi hanno ucciso at local time 26/10/2018 06:00
-[  Info  ] 0.19 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  25/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=LaEffe) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20181028032000 +0100
 [  Debug ] starting with show : Voglio vivere in Italia at local time 28/10/2018 03:20
-[  Info  ] 0.20 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  26/171 ) PROGRAMMI-TV.EU -- chan. (xmltv_id=La3) -- mode Incremental
 [Error   ] no shows in indexpage!
@@ -433,26 +433,26 @@
 [  Debug ] time-offset change for all shows after starttime 20181026063000 +0200
 [  Debug ] starting with show : Sole cuore amore at local time 26/10/2018 06:30
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.24 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  30/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema +1 HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20181028040000 +0100
 [  Debug ] starting with show : Don Jon at local time 28/10/2018 04:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.20 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  31/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema +24 SuperHD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20181026071000 +0200
 [  Debug ] starting with show : Sotto assedio - White House Down at local time 26/10/2018 07:10
-[  Info  ] 0.23 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  32/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema +24 HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20181028035000 +0100
 [  Debug ] starting with show : La Bella e la Bestia at local time 28/10/2018 03:50
-[  Info  ] 0.22 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  33/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Hits HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -482,31 +482,31 @@
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20181026062000 +0200
 [  Debug ] starting with show : A Christmas Reunion at local time 26/10/2018 06:20
-[  Info  ] 0.22 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  38/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Comedy) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20181028040000 +0100
 [  Debug ] starting with show : Il crimine non va in pensione at local time 28/10/2018 04:00
-[  Info  ] 0.21 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  39/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Classics) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20181026062000 +0200
 [  Debug ] starting with show : Scappo dalla citta'. La vita, l'amore e le vacche at local time 26/10/2018 06:20
-[  Info  ] 0.21 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  40/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Max HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20181028035000 +0100
 [  Debug ] starting with show : Il collezionista at local time 28/10/2018 03:50
-[  Info  ] 0.22 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  41/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Max Super hd) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20181026064000 +0200
 [  Debug ] starting with show : 187 codice omicidio at local time 26/10/2018 06:40
-[  Info  ] 0.21 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  42/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Max +1) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -518,7 +518,7 @@
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20181026065000 +0200
 [  Debug ] starting with show : Il Cinemaniaco incontra at local time 26/10/2018 06:50
-[  Info  ] 0.21 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  44/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky TG24) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -526,7 +526,7 @@
 [  Debug ] starting with show : Seven at local time 28/10/2018 03:00
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 28/10/2018 03:00:00 and stop at 28/10/2018 03:30:00
-[  Info  ] 0.17 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  45/171 ) PROGRAMMI-TV.EU -- chan. (xmltv_id=TGcom 24) -- mode Incremental
 [Error   ] no shows in indexpage!
@@ -556,7 +556,7 @@
       unvalid start at 28/10/2018 03:00:00 and stop at 28/10/2018 03:50:00
 [  Debug ]    suspicious      title in index page  = X Factor 2018 - Le audizioni - 1^TV
 [  Debug ]       differs from title in showdetails = X Factor 2018 - Home Visit - 1^TV
-[  Info  ] 0.27 sec/update
+[  Info  ] 0.28 sec/update
 [  Debug ] 
 [  Info  ] (  48/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Uno +1) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = X Factor 2018 - Bootcamp - 1^TV
@@ -570,7 +570,7 @@
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20181026071500 +0200
 [  Debug ] starting with show : Nikolaus Harnoncourt at local time 26/10/2018 07:15
-[  Info  ] 0.21 sec/update
+[  Info  ] 0.17 sec/update
 [  Debug ] 
 [  Info  ] (  50/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Atlantic HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -579,7 +579,7 @@
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 28/10/2018 03:00:00 and stop at 28/10/2018 03:25:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.20 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  51/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Atlantic +1) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -589,7 +589,7 @@
       unvalid start at 28/10/2018 03:00:00 and stop at 28/10/2018 03:20:00
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 28/10/2018 03:20:00 and stop at 28/10/2018 03:50:00
-[  Info  ] 0.22 sec/update
+[  Info  ] 0.17 sec/update
 [  Debug ] 
 [  Info  ] (  52/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -597,7 +597,7 @@
 [  Debug ] starting with show : Modern Family at local time 28/10/2018 03:05
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 28/10/2018 03:05:00 and stop at 28/10/2018 03:30:00
-[  Info  ] 0.20 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  53/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox +1) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -605,43 +605,43 @@
 [  Debug ] starting with show : Hawaii Five-0 at local time 26/10/2018 06:35
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 28/10/2018 03:15:00 and stop at 28/10/2018 03:40:00
-[  Info  ] 0.20 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  54/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Life HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20181028033000 +0100
 [  Debug ] starting with show : Bones at local time 28/10/2018 03:30
-[  Info  ] 0.20 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  55/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Life +1) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20181026061500 +0200
 [  Debug ] starting with show : Drop Dead Diva at local time 26/10/2018 06:15
-[  Info  ] 0.21 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  56/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Crime HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20181028032000 +0100
 [  Debug ] starting with show : NCIS Los Angeles at local time 28/10/2018 03:20
-[  Info  ] 0.20 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  57/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Crime +1) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20181026060000 +0200
 [  Debug ] starting with show : Unforgettable at local time 26/10/2018 06:00
-[  Info  ] 0.20 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  58/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Comedy HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20181028031000 +0100
 [  Debug ] starting with show : Speechless at local time 28/10/2018 03:10
-[  Info  ] 0.22 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  59/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Comedy Central) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20181026060000 +0200
 [  Debug ] starting with show : Brotherhood at local time 26/10/2018 06:00
-[  Info  ] 0.22 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  60/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Fox Animation HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -681,7 +681,7 @@
 [  Debug ] starting with show : F1 Qualifiche: GP Messico at local time 28/10/2018 03:00
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 28/10/2018 03:00:00 and stop at 28/10/2018 03:25:00
-[  Info  ] 0.21 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  63/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport F1 SuperHD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -689,19 +689,19 @@
 [  Debug ] starting with show : Conferenza Stampa Piloti F1 at local time 26/10/2018 06:25
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 28/10/2018 03:00:00 and stop at 28/10/2018 03:25:00
-[  Info  ] 0.21 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  64/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky MotoGP HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20181028041500 +0100
 [  Debug ] starting with show : Moto3 Gara: GP Australia    (diretta) at local time 28/10/2018 04:15
-[  Info  ] 0.22 sec/update
+[  Info  ] 0.20 sec/update
 [  Debug ] 
 [  Info  ] (  65/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky motoGP superHD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20181026060000 +0200
-[  Debug ] starting with show : Moto2 P. Lib. 2: GP Australia    (diretta) at local time 26/10/2018 06:00
-[  Info  ] 0.21 sec/update
+[  Debug ] time-offset change for all shows after starttime 20181026063000 +0200
+[  Debug ] starting with show : Moto2 P. Lib. 2: GP Australia    (diretta) at local time 26/10/2018 06:30
+[  Info  ] 0.20 sec/update
 [  Debug ] 
 [  Info  ] (  66/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Bike Channel) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -710,14 +710,14 @@
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 28/10/2018 03:15:00 and stop at 28/10/2018 03:45:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.20 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  67/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Eurosport 1) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20181026060000 +0200
 [  Debug ] starting with show : Olimpiadi: La casa delle Olimpiadi at local time 26/10/2018 06:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.21 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  68/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Eurosport 2) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -733,7 +733,7 @@
 [  Debug ] starting with show : Buongiorno SKY Sport 24 at local time 26/10/2018 06:00
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 28/10/2018 03:00:00 and stop at 28/10/2018 03:30:00
-[  Info  ] 0.18 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  70/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport 24 SuperHD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -741,31 +741,31 @@
 [  Debug ] starting with show : Night Line at local time 28/10/2018 03:00
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 28/10/2018 03:00:00 and stop at 28/10/2018 03:30:00
-[  Info  ] 0.19 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  71/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Arena SuperHD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20181026063000 +0200
 [  Debug ] starting with show : Adrenalinik at local time 26/10/2018 06:30
-[  Info  ] 0.22 sec/update
+[  Info  ] 0.19 sec/update
 [  Debug ] 
 [  Info  ] (  72/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Arena HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20181028031500 +0100
 [  Debug ] starting with show : Rugby: Auckland - Canterbury at local time 28/10/2018 03:15
-[  Info  ] 0.24 sec/update
+[  Info  ] 0.17 sec/update
 [  Debug ] 
 [  Info  ] (  73/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Uno HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20181026060000 +0200
-[  Debug ] starting with show : Moto2 P. Lib. 2: GP Australia    (diretta) at local time 26/10/2018 06:00
-[  Info  ] 0.23 sec/update
+[  Debug ] time-offset change for all shows after starttime 20181026063000 +0200
+[  Debug ] starting with show : Moto2 P. Lib. 2: GP Australia    (diretta) at local time 26/10/2018 06:30
+[  Info  ] 0.19 sec/update
 [  Debug ] 
 [  Info  ] (  74/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Uno SuperHD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20181028030000 +0100
 [  Debug ] starting with show : Paddock Live Gara  (diretta) at local time 28/10/2018 03:00
-[  Info  ] 0.21 sec/update
+[  Info  ] 0.19 sec/update
 [  Debug ] 
 [  Info  ] (  75/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport SerieA SuperHD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -773,7 +773,7 @@
 [  Debug ] starting with show : Roma - Napoli 20/10/07 at local time 26/10/2018 06:00
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 28/10/2018 03:05:00 and stop at 28/10/2018 03:45:00
-[  Info  ] 0.20 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  76/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport SerieA HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -781,7 +781,7 @@
 [  Debug ] starting with show : Napoli - Roma 03/03/18 at local time 28/10/2018 03:05
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 28/10/2018 03:05:00 and stop at 28/10/2018 03:45:00
-[  Info  ] 0.20 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  77/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Football SuperHD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -789,7 +789,7 @@
 [  Debug ] starting with show : Ajax - Benfica at local time 26/10/2018 06:00
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 28/10/2018 03:00:00 and stop at 28/10/2018 03:30:00
-[  Info  ] 0.20 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  78/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Football HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -797,31 +797,31 @@
 [  Debug ] starting with show : AEK Atene - Bayern M. at local time 28/10/2018 03:00
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 28/10/2018 03:00:00 and stop at 28/10/2018 03:30:00
-[  Info  ] 0.21 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  79/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport NBA SuperHD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20181026070000 +0200
 [  Debug ] starting with show : Basket: Magics - Pacers 1995 at local time 26/10/2018 07:00
-[  Info  ] 0.21 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  80/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport NBA HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20181028050000 +0100
 [  Debug ] starting with show : NBA: San Antonio - LA Lakers   (diretta) at local time 28/10/2018 05:00
-[  Info  ] 0.21 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  81/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Golf SuperHD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20181026095500 +0200
 [  Debug ] starting with show : I Signori del Golf - Costantino Rocca at local time 26/10/2018 09:55
-[  Info  ] 0.22 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  82/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Golf HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20181028030000 +0100
 [  Debug ] starting with show : Golf: HSBC Champions at local time 28/10/2018 03:00
-[  Info  ] 0.22 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  83/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Supercalcio HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -840,7 +840,7 @@
 [  Debug ] time-offset change for all shows after starttime 20181026060000 +0200
 [  Debug ] starting with show : Olimpiadi: La casa delle Olimpiadi at local time 26/10/2018 06:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.23 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  86/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Eurosport 2 Italia) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -953,7 +953,7 @@
 [  Debug ] time-offset change for all shows after starttime 20181026070000 +0200
 [  Debug ] starting with show : Circolando: TC Bonacossa at local time 26/10/2018 07:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.24 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 102/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Milan Channel) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -982,53 +982,53 @@
 [  Debug ] time-offset change for all shows after starttime 20181026060000 +0200
 [  Debug ] starting with show : #Siamo la Roma Junior at local time 26/10/2018 06:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.21 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 106/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Lazio Style Channel) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20181028043000 +0100
 [  Debug ] starting with show : UEL Nizza-Lazio at local time 28/10/2018 04:30
-[  Info  ] 0.23 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 107/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Arte SuperHD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20181026060000 +0200
 [  Debug ] starting with show : Cary Grant - Dietro lo specchio at local time 26/10/2018 06:00
-[  Info  ] 0.22 sec/update
+[  Info  ] 0.18 sec/update
 [  Debug ] 
 [  Info  ] ( 108/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky arte HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20181028032000 +0100
 [  Debug ] starting with show : Discovering Fashion -  - at local time 28/10/2018 03:20
-[  Info  ] 0.22 sec/update
+[  Info  ] 0.18 sec/update
 [  Debug ] 
 [  Info  ] ( 109/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Discovery Channel SuperHD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20181026060000 +0200
 [  Debug ] starting with show : La febbre dell'oro at local time 26/10/2018 06:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.21 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 110/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Discovery Channel HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20181028033000 +0100
 [  Debug ] starting with show : Una famiglia fuori dal mondo - at local time 28/10/2018 03:30
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.21 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 111/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Discovery Science SuperHD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20181026060000 +0200
 [  Debug ] starting with show : Come e' fatto at local time 26/10/2018 06:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.20 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 112/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Discovery Science HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20181028030000 +0100
 [  Debug ] starting with show : Armi del futuro at local time 28/10/2018 03:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.20 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 113/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Discovery Travel Living HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -1040,37 +1040,37 @@
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20181028032500 +0100
 [  Debug ] starting with show : Regno selvaggio at local time 28/10/2018 03:25
-[  Info  ] 0.21 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 115/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=NatGeoWild HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20181026060500 +0200
 [  Debug ] starting with show : Wild Investigation at local time 26/10/2018 06:05
-[  Info  ] 0.21 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 116/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=National Geographic HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20181028033500 +0100
 [  Debug ] starting with show : I maghi del garage at local time 28/10/2018 03:35
-[  Info  ] 0.22 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 117/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=NatGeoPeople SuperHD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20181026060500 +0200
 [  Debug ] starting with show : Medici di famiglia at local time 26/10/2018 06:05
-[  Info  ] 0.22 sec/update
+[  Info  ] 0.18 sec/update
 [  Debug ] 
 [  Info  ] ( 118/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=NatGeoPeople HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20181028032000 +0100
 [  Debug ] starting with show : Medici di famiglia at local time 28/10/2018 03:20
-[  Info  ] 0.21 sec/update
+[  Info  ] 0.18 sec/update
 [  Debug ] 
 [  Info  ] ( 119/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=History Channel HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20181026060500 +0200
 [  Debug ] starting with show : Il naufragio dell''Andrea Doria at local time 26/10/2018 06:05
-[  Info  ] 0.20 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 120/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Focus) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -1085,14 +1085,14 @@
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 28/10/2018 03:00:00 and stop at 28/10/2018 03:30:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.22 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 122/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Real Time HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20181028033000 +0100
 [  Debug ] starting with show : ER: storie incredibili at local time 28/10/2018 03:30
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.23 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 123/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Caccia e Pesca) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -1100,7 +1100,7 @@
 [  Debug ] starting with show : Aspettando la regina 3 at local time 26/10/2018 06:10
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 28/10/2018 03:00:00 and stop at 28/10/2018 03:30:00
-[  Info  ] 0.23 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 124/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Pesca e Caccia) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -1108,7 +1108,7 @@
 [  Debug ] starting with show : Sbammm!!! Ritorno al siluro at local time 28/10/2018 03:00
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 28/10/2018 03:00:00 and stop at 28/10/2018 03:30:00
-[  Info  ] 0.21 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 125/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cielo) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -1121,7 +1121,7 @@
 [  Debug ] time-offset change for all shows after stoptime 20181028030000 +0100
 [  Debug ] starting with show : Distretto animali at local time 28/10/2018 03:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.22 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 127/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Gambero Rosso) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -1129,14 +1129,14 @@
 [  Debug ] starting with show : Giorgione: orto e cucina - Pesaro... at local time 26/10/2018 06:00
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 28/10/2018 03:00:00 and stop at 28/10/2018 03:30:00
-[  Info  ] 0.20 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 128/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Dove TV) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20181028032000 +0100
 [  Debug ] starting with show : Fratelli in affari at local time 28/10/2018 03:20
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.23 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 129/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cielo HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -1165,7 +1165,7 @@
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 28/10/2018 03:30:00 and stop at 28/10/2018 03:55:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.22 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 133/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Disney XD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -1181,7 +1181,7 @@
       unvalid start at 28/10/2018 03:30:00 and stop at 28/10/2018 03:45:00
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 28/10/2018 03:45:00 and stop at 28/10/2018 03:55:00
-[  Info  ] 0.23 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 134/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Disney Channel) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -1197,19 +1197,19 @@
       unvalid start at 28/10/2018 03:35:00 and stop at 28/10/2018 03:40:00
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 28/10/2018 03:40:00 and stop at 28/10/2018 03:50:00
-[  Info  ] 0.23 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 135/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Disney Channel +1) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20181026060500 +0200
 [  Debug ] starting with show : Intour 1 at local time 26/10/2018 06:05
-[  Info  ] 0.23 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 136/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cartonito) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20181028033500 +0100
 [  Debug ] starting with show : L'armadio di Chloe' at local time 28/10/2018 03:35
-[  Info  ] 0.22 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 137/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Baby TV) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -1229,7 +1229,7 @@
       unvalid start at 28/10/2018 03:30:00 and stop at 28/10/2018 03:40:00
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 28/10/2018 03:40:00 and stop at 28/10/2018 03:55:00
-[  Info  ] 0.23 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 139/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=DeA Junior) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -1243,7 +1243,7 @@
       unvalid start at 28/10/2018 03:35:00 and stop at 28/10/2018 03:45:00
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 28/10/2018 03:45:00 and stop at 28/10/2018 03:55:00
-[  Info  ] 0.22 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 140/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=DeAKids) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -1255,7 +1255,7 @@
       unvalid start at 28/10/2018 03:20:00 and stop at 28/10/2018 03:30:00
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 28/10/2018 03:30:00 and stop at 28/10/2018 03:40:00
-[  Info  ] 0.24 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 141/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Teen Nick) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -1269,7 +1269,7 @@
       unvalid start at 28/10/2018 03:30:00 and stop at 28/10/2018 03:40:00
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 28/10/2018 03:40:00 and stop at 28/10/2018 03:50:00
-[  Info  ] 0.24 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 142/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Disney Junior) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -1281,7 +1281,7 @@
       unvalid start at 28/10/2018 03:25:00 and stop at 28/10/2018 03:35:00
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 28/10/2018 03:35:00 and stop at 28/10/2018 03:45:00
-[  Info  ] 0.23 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 143/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Super !) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -1290,7 +1290,7 @@
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 28/10/2018 03:15:00 and stop at 28/10/2018 03:50:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.24 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 144/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Boing) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -1300,7 +1300,7 @@
       unvalid start at 28/10/2018 03:05:00 and stop at 28/10/2018 03:30:00
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 28/10/2018 03:30:00 and stop at 28/10/2018 03:50:00
-[  Info  ] 0.27 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 145/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Man-Ga) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -1321,7 +1321,7 @@
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 28/10/2018 03:30:00 and stop at 28/10/2018 03:50:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.25 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 147/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Nick Junior) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -1335,7 +1335,7 @@
       unvalid start at 28/10/2018 03:25:00 and stop at 28/10/2018 03:35:00
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 28/10/2018 03:35:00 and stop at 28/10/2018 03:50:00
-[  Info  ] 0.25 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 148/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=K2) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -1346,7 +1346,7 @@
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 28/10/2018 03:25:00 and stop at 28/10/2018 03:45:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.25 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 149/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Boomerang) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -1365,7 +1365,7 @@
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 28/10/2018 03:38:00 and stop at 28/10/2018 03:50:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 0.24 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 150/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema HD) -- mode Incremental
 [  Info  ]    epg correction : 
@@ -1376,17 +1376,20 @@
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20181029051300 +0100
 [  Debug ] starting with show : SOMETHING BORROWED at local time 29/10/2018 05:13
+[  Debug ]    skipped negative show time! at 28/10/2018 06:05:00
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 29/10/2018 05:13:00 stop = 29/10/2018 07:05:00 title = Something Borrewed - L'Amore Non Ha Regole
-[  Info  ]       Replaces ----- start = 29/10/2018 04:55:00 stop = 29/10/2018 06:30:00 title = La Guerra Di Charlie Wilson
-[  Info  ]       Replaces ----- start = 29/10/2018 06:30:00 stop = 29/10/2018 08:52:00 title = L'Ultimo Samurai
-[  Debug ]    skipped negative show time! at 28/10/2018 06:05:00
+[  Info  ]       show with ---- start = 29/10/2018 04:55:00 stop = 29/10/2018 06:30:00 title = La Guerra Di Charlie Wilson
+[  Info  ]       Replaces ----- start = 29/10/2018 05:13:00 stop = 29/10/2018 07:05:00 title = Something Borrewed - L'Amore Non Ha Regole
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2018 06:30:00 stop = 29/10/2018 08:52:00 title = L'Ultimo Samurai
+[  Info  ]       Replaces ----- start = 29/10/2018 05:13:00 stop = 29/10/2018 07:05:00 title = Something Borrewed - L'Amore Non Ha Regole
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 01/11/2018 09:41:00 stop = 01/11/2018 11:19:00 title = Honey 3 - Il Coraggio Di Ballare
 [  Info  ]       Replaces ----- start = 01/11/2018 09:41:00 stop = 01/11/2018 11:19:00 title = Honey 3 - Il Coraggio Di Ballare
-[  Info  ] 0.16 sec/update
+[  Info  ] 0.13 sec/update
 [  Debug ] 
 [  Info  ] ( 151/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema +24) -- mode Incremental
 [Error   ] Unable to update channel Premium Cinema +24
@@ -1429,7 +1432,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/10/2018 04:55:00 stop = 30/10/2018 06:30:00 title = Krampus - Natale Non E' Sempre Natale
 [  Info  ]       Replaces ----- start = 30/10/2018 03:55:00 stop = 30/10/2018 05:30:00 title = Krampus - Natale Non E' Sempre Natale
-[  Info  ] 0.11 sec/update
+[  Info  ] 0.17 sec/update
 [  Debug ] 
 [  Info  ] ( 152/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Emotion) -- mode Incremental
 [  Debug ]    skipped show longer than 15 hour(s) at 28/10/2018 01:34:00 title IN MEMORIA DI ME
@@ -1461,7 +1464,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 01/11/2018 16:04:00 stop = 01/11/2018 17:36:00 title = Rush Hour 2 - Colpo Grosso Al Drago Rosso
 [  Info  ]       Replaces ----- start = 01/11/2018 15:04:00 stop = 01/11/2018 16:36:00 title = Rush Hour 2 - Colpo Grosso Al Drago Rosso
-[  Info  ] 0.16 sec/update
+[  Info  ] 0.25 sec/update
 [  Debug ] 
 [  Info  ] ( 154/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Investigation Discovery) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -1535,7 +1538,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 01/11/2018 06:00:00 stop = 01/11/2018 06:15:00 title = DAVID LYNCH - CINECHAT - (KS-KR)
 [  Info  ]       Replaces ----- start = 01/11/2018 05:00:00 stop = 01/11/2018 05:15:00 title = DAVID LYNCH - CINECHAT - (KS-KR)
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.29 sec/update
 [  Debug ] 
 [  Info  ] ( 156/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Paramount Channel) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = CINECHAT - JAMES IVORY
@@ -1669,7 +1672,7 @@
 [  Debug ]       differs from title in showdetails = SITUAZIONI DI .....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2018 07:21:00 stop = 27/10/2018 08:09:00 title = SITUAZIONI DI EMERGENZA - GONE - PRIMA TV
+[  Info  ]       show with ---- start = 27/10/2018 07:21:00 stop = 27/10/2018 08:09:00 title = SITUAZIONI DI EMERGENZA - GONE
 [  Info  ]       Replaces ----- start = 27/10/2018 07:21:00 stop = 27/10/2018 08:09:00 title = SITUAZIONI DI EMERGENZA - GONE - PRIMA TV
 [  Debug ]    suspicious      title in index page  = DECEPTION I
 [  Debug ]       differs from title in showdetails = LA STANZA DEGLI ENIGM.....
@@ -1693,7 +1696,7 @@
 [  Debug ]       differs from title in showdetails = SITUAZIONI DI .....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/10/2018 22:46:00 stop = 27/10/2018 23:35:00 title = SITUAZIONI DI EMERGENZA - GONE - PRIMA TV
+[  Info  ]       show with ---- start = 27/10/2018 22:46:00 stop = 27/10/2018 23:35:00 title = SITUAZIONI DI EMERGENZA - GONE
 [  Info  ]       Replaces ----- start = 27/10/2018 22:46:00 stop = 27/10/2018 23:35:00 title = SITUAZIONI DI EMERGENZA - GONE - PRIMA TV
 [  Debug ]    suspicious      title in index page  = DECEPTION I
 [  Debug ]       differs from title in showdetails = LA STANZA DEGLI ENIGM.....
@@ -1713,13 +1716,13 @@
 [  Info  ]    epg correction : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 29/10/2018 05:15:00 stop = 29/10/2018 05:56:00 title = LA RAGAZZA DELL'ANNO - CRIMINAL INTENT VI
-[  Info  ]       Added before - start = 29/10/2018 05:30:00 stop = 29/10/2018 06:49:00 title = BANCONOTE FALSE - LETHAL WEAPON II
+[  Info  ]       Added before - start = 29/10/2018 06:49:00 stop = 29/10/2018 07:38:00 title = PALLA CURVA - MAJOR CRIMES II
 [  Debug ]    suspicious      title in index page  = CRIMINAL INTENT VI
 [  Debug ]       differs from title in showdetails = FINE DEL GIOCO - CRIMINAL IN.....
 [  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 29/10/2018 05:56:00 stop = 29/10/2018 06:38:00 title = FINE DEL GIOCO - CRIMINAL INTENT VI
-[  Info  ]       Replaces ----- start = 29/10/2018 05:30:00 stop = 29/10/2018 06:49:00 title = BANCONOTE FALSE - LETHAL WEAPON II
+[  Info  ]       Added before - start = 29/10/2018 06:49:00 stop = 29/10/2018 07:38:00 title = PALLA CURVA - MAJOR CRIMES II
 [  Debug ]    skipped negative show time! at 28/10/2018 05:38:00
 [  Debug ]    suspicious      title in index page  = DECEPTION I
 [  Debug ]       differs from title in showdetails = IL MISTERO DEL DIAMAN.....
@@ -1744,18 +1747,20 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 28/10/2018 22:55:00 stop = 28/10/2018 23:47:00 title = CONCIATI PER LE FESTE - LETHAL WEAPON II
-[  Info  ]       Replaces ----- start = 28/10/2018 21:55:00 stop = 28/10/2018 22:47:00 title = CONCIATI PER LE FESTE - LETHAL WEAPON II
+[  Info  ]       Replaces ----- start = 28/10/2018 22:37:00 stop = 28/10/2018 23:27:00 title = VICERE' - TAKEN II
 [  Debug ]    skipped negative show time! at 28/10/2018 22:47:00
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 28/10/2018 23:37:00 stop = 29/10/2018 00:27:00 title = VICERE' - TAKEN II
-[  Info  ]       Replaces ----- start = 28/10/2018 21:55:00 stop = 28/10/2018 22:47:00 title = CONCIATI PER LE FESTE - LETHAL WEAPON II
 [  Debug ]    suspicious      title in index page  = CRIMINAL INTENT VII
 [  Debug ]       differs from title in showdetails = TRAPPOLA - CRIMINAL INTENT VI.....
 [  Info  ]    epg correction : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 29/10/2018 04:26:00 stop = 29/10/2018 06:30:00 title = TRAPPOLA - CRIMINAL INTENT VII
-[  Info  ]       Added before - start = 29/10/2018 05:30:00 stop = 29/10/2018 06:49:00 title = BANCONOTE FALSE - LETHAL WEAPON II
+[  Info  ]       Added before - start = 29/10/2018 06:49:00 stop = 29/10/2018 07:38:00 title = PALLA CURVA - MAJOR CRIMES II
+[  Debug ]    suspicious      title in index page  = LETHAL WEAPON II
+[  Debug ]       differs from title in showdetails = BANCONOTE FALSE - LETHAL W.....
+[  Info  ]    epg correction : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 29/10/2018 06:30:00 stop = 29/10/2018 07:49:00 title = BANCONOTE FALSE - LETHAL WEAPON II
+[  Info  ]       Added before - start = 29/10/2018 06:49:00 stop = 29/10/2018 07:38:00 title = PALLA CURVA - MAJOR CRIMES II
 [  Debug ]    suspicious      title in index page  = BLINDSPOT I
 [  Debug ]       differs from title in showdetails = E RIVELA IL BURATTINA.....
 [  Info  ]    epg correction : 
@@ -1838,7 +1843,7 @@
 [  Debug ]       differs from title in showdetails = SITUAZIONI DI .....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 30/10/2018 07:01:00 stop = 30/10/2018 07:50:00 title = SITUAZIONI DI EMERGENZA - GONE - PRIMA TV
+[  Info  ]       show with ---- start = 30/10/2018 07:01:00 stop = 30/10/2018 07:50:00 title = SITUAZIONI DI EMERGENZA - GONE
 [  Info  ]       Replaces ----- start = 30/10/2018 06:01:00 stop = 30/10/2018 06:50:00 title = SITUAZIONI DI EMERGENZA - GONE - PRIMA TV
 [  Debug ]    suspicious      title in index page  = MAJOR CRIMES II
 [  Debug ]       differs from title in showdetails = VALUTAZIONE DEL RISCHIO -.....
@@ -1892,7 +1897,7 @@
 [  Debug ]       differs from title in showdetails = SITUAZIONI DI .....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 30/10/2018 22:06:00 stop = 30/10/2018 22:57:00 title = SITUAZIONI DI EMERGENZA - GONE - PRIMA TV
+[  Info  ]       show with ---- start = 30/10/2018 22:06:00 stop = 30/10/2018 22:57:00 title = SITUAZIONI DI EMERGENZA - GONE
 [  Info  ]       Replaces ----- start = 30/10/2018 21:06:00 stop = 30/10/2018 21:57:00 title = SITUAZIONI DI EMERGENZA - GONE - PRIMA TV
 [  Debug ]    suspicious      title in index page  = MAJOR CRIMES II
 [  Debug ]       differs from title in showdetails = OFFERTA DI FINE ANNO - MA.....
@@ -1922,7 +1927,7 @@
 [  Debug ]       differs from title in showdetails = SITUAZIONI DI .....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 31/10/2018 15:20:00 stop = 31/10/2018 16:09:00 title = SITUAZIONI DI EMERGENZA - GONE - PRIMA TV
+[  Info  ]       show with ---- start = 31/10/2018 15:20:00 stop = 31/10/2018 16:09:00 title = SITUAZIONI DI EMERGENZA - GONE
 [  Info  ]       Replaces ----- start = 31/10/2018 14:20:00 stop = 31/10/2018 15:09:00 title = SITUAZIONI DI EMERGENZA - GONE - PRIMA TV
 [  Debug ]    suspicious      title in index page  = BLINDSPOT I
 [  Debug ]       differs from title in showdetails = SEGUI QUESTE ISTRUZIO.....
@@ -1964,7 +1969,7 @@
 [  Debug ]       differs from title in showdetails = SITUAZIONI DI .....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 01/11/2018 03:58:00 stop = 01/11/2018 04:39:00 title = SITUAZIONI DI EMERGENZA - GONE - PRIMA TV
+[  Info  ]       show with ---- start = 01/11/2018 03:58:00 stop = 01/11/2018 04:39:00 title = SITUAZIONI DI EMERGENZA - GONE
 [  Info  ]       Replaces ----- start = 01/11/2018 02:58:00 stop = 01/11/2018 03:39:00 title = SITUAZIONI DI EMERGENZA - GONE - PRIMA TV
 [  Debug ]    suspicious      title in index page  = MAJOR CRIMES II
 [  Debug ]       differs from title in showdetails = RESTITUIRE AL MITTENTE - .....
@@ -2008,7 +2013,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 01/11/2018 19:34:00 stop = 01/11/2018 20:23:00 title = RESTITUIRE AL MITTENTE - I PARTE - MAJOR CRIMES II
 [  Info  ]       Replaces ----- start = 01/11/2018 18:34:00 stop = 01/11/2018 19:23:00 title = RESTITUIRE AL MITTENTE - I PARTE - MAJOR CRIMES II
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 158/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Joy) -- mode Incremental
 [Error   ] Unable to update channel Premium Joy
@@ -2050,10 +2055,10 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Debug ] 33127 shows in 171 channels
-[  Debug ] 14602 updated shows
-[  Debug ] 0 new shows added
+[  Debug ] 33301 shows in 171 channels
+[  Debug ] 203 updated shows
+[  Debug ] 172 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 26/10/2018 05:10:15 done in 1h 5m 12s
-[  Debug ] statistics upload error: The remote server returned an error: (404) Not Found.
+[        ] Job finished at 26/10/2018 08:16:28 done in 11m 24s
+[  Debug ] statistics upload error: The request timed out
