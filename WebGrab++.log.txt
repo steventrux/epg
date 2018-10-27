@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 27/10/2018 16:05:03
+[        ] Job started at 27/10/2018 20:05:03
 [  Debug ] 
 [  Debug ] Running  on: Unix 3.13.0.132
 [  Debug ] Environment: 4.0.30319.42000
@@ -29,7 +29,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+02:00	(DST in effect)
 [  Debug ] 	next DST dates  :	28/10/2018 03:00 (local)
 [  Debug ] 	                :	31/03/2019 02:00 (local)
-[  Debug ] 	local time now  :	27/10/2018 16:05:03
+[  Debug ] 	local time now  :	27/10/2018 20:05:03
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -199,7 +199,8 @@
 [  Info  ] Found existing channel (xmltv_id=Premium Action HD) in the config file
 [  Info  ] Found existing channel (xmltv_id=Premium Action +24) in the config file
 [  Info  ] Found existing channel (xmltv_id=Premium Crime) in the config file
-[  Debug ] removed 3 overlapping shows in Premium Crime starting after 29/10/2018 04:26:00
+[  Debug ] removed 2 overlapping shows in Premium Crime starting after 29/10/2018 04:26:00
+[  Debug ] removed a show that is not in time increasing order in Premium Crime starting after 29/10/2018 05:56:00
 [  Info  ] Found existing channel (xmltv_id=Premium Joy) in the config file
 [  Info  ] Found existing channel (xmltv_id=Premium Stories) in the config file
 [  Info  ] Found existing channel (xmltv_id=Premium Sport superHD) in the config file
@@ -235,10 +236,6 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   4/171 ) MEDIASET.IT -- chan. (xmltv_id=Rete 4 HD) -- mode Incremental
-[Warning ] error downloading page: The operation has timed out. (5sec)
-[Warning ] Retry 1 of 4 times
-[Warning ] error downloading page: The request timed out (10sec)
-[Warning ] Retry 2 of 4 times
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20181028030500 +0100
 [  Debug ] starting with show : TELEVENDITA MEDIA SHOPPING at local time 28/10/2018 03:05
@@ -263,7 +260,7 @@
 [  Debug ]       differs from title in showdetails = FUORI DAL CORO
 [  Debug ]    suspicious      title in index page  = W L'ITALIA OGGI E DOMANI
 [  Debug ]       differs from title in showdetails = QUARTO GRADO
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.17 sec/update
 [  Debug ] 
 [  Info  ] (   5/171 ) MEDIASET.IT -- chan. (xmltv_id=Canale 5 HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -279,7 +276,7 @@
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20181028031200 +0100
 [  Debug ] starting with show : TGCOM24 - SPORT at local time 28/10/2018 03:12
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] (   7/171 ) MEDIASET.IT -- chan. (xmltv_id=Italia 2) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -584,7 +581,7 @@
 [  Debug ]       differs from title in showdetails = X Factor 2018 - La gara
 [  Debug ]    suspicious      title in index page  = X Factor 2018 - Le audizioni
 [  Debug ]       differs from title in showdetails = X Factor 2018 - La gara
-[  Info  ] 0.34 sec/update
+[  Info  ] 0.64 sec/update
 [  Debug ] 
 [  Info  ] (  48/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Uno +1) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -616,7 +613,7 @@
 [  Debug ]       differs from title in showdetails = X Factor 2018 - La gara
 [  Debug ]    suspicious      title in index page  = X Factor 2018 - Le audizioni
 [  Debug ]       differs from title in showdetails = X Factor 2018 - La gara
-[  Info  ] 0.36 sec/update
+[  Info  ] 0.29 sec/update
 [  Debug ] 
 [  Info  ] (  49/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=SKY CLASSICA HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -659,8 +656,6 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  54/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Life HD) -- mode Incremental
-[Warning ] error downloading page: Error getting response stream (ReadDone2): ReceiveFailure
-[Warning ] pausing 1 of 4 times for 5 seconds before re-try.
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20181028032500 +0100
 [  Debug ] starting with show : Bones at local time 28/10/2018 03:25
@@ -671,7 +666,7 @@
 [  Debug ] time-offset change for all shows after starttime 20181027062500 +0200
 [  Debug ] starting with show : Drop Dead Diva at local time 27/10/2018 06:25
 [  Debug ] multiple entry of a show at 20181028023000 +0200
-[  Info  ] 0.18 sec/update
+[  Info  ] 0.17 sec/update
 [  Debug ] 
 [  Info  ] (  56/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Crime HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -806,13 +801,13 @@
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20181027070000 +0200
 [  Debug ] starting with show : Drone Racing League Level 4... at local time 27/10/2018 07:00
-[  Info  ] 0.21 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  72/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Arena HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20181028031500 +0100
 [  Debug ] starting with show : Rugby: Auckland - Canterbury at local time 28/10/2018 03:15
-[  Info  ] 0.21 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  73/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Uno HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -1132,6 +1127,8 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 119/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=History Channel HD) -- mode Incremental
+[Warning ] error downloading page: Error getting response stream (ReadDone2): ReceiveFailure
+[Warning ] pausing 1 of 4 times for 5 seconds before re-try.
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20181027060000 +0200
 [  Debug ] starting with show : La guerra degli italiani at local time 27/10/2018 06:00
@@ -1182,8 +1179,6 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 125/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cielo) -- mode Incremental
-[Warning ] error downloading page: Error getting response stream (ReadDone2): ReceiveFailure
-[Warning ] pausing 1 of 4 times for 5 seconds before re-try.
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20181027060000 +0200
 [  Debug ] starting with show : Sky Tg24 Mattina  (diretta) at local time 27/10/2018 06:00
@@ -1264,7 +1259,8 @@
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20181027060000 +0200
 [  Debug ] starting with show : Intour 1 at local time 27/10/2018 06:00
-[  Info  ] 0.16 sec/update
+[  Debug ] multiple entry of a show at 20181028021500 +0200
+[  Info  ] 0.18 sec/update
 [  Debug ] 
 [  Info  ] ( 136/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cartonito) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -1438,15 +1434,16 @@
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20181029051300 +0100
 [  Debug ] starting with show : SOMETHING BORROWED at local time 29/10/2018 05:13
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/10/2018 05:13:00 stop = 29/10/2018 07:05:00 title = Something Borrewed - L'Amore Non Ha Regole
+[  Info  ]       Replaces ----- start = 29/10/2018 04:55:00 stop = 29/10/2018 06:30:00 title = La Guerra Di Charlie Wilson
+[  Info  ]       Replaces ----- start = 29/10/2018 06:30:00 stop = 29/10/2018 08:52:00 title = L'Ultimo Samurai
 [  Debug ]    skipped negative show time! at 28/10/2018 06:05:00
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 29/10/2018 04:55:00 stop = 29/10/2018 06:30:00 title = La Guerra Di Charlie Wilson
-[  Info  ]       Replaces ----- start = 29/10/2018 05:13:00 stop = 29/10/2018 07:05:00 title = Something Borrewed - L'Amore Non Ha Regole
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 29/10/2018 06:30:00 stop = 29/10/2018 08:52:00 title = L'Ultimo Samurai
-[  Info  ]       Replaces ----- start = 29/10/2018 05:13:00 stop = 29/10/2018 07:05:00 title = Something Borrewed - L'Amore Non Ha Regole
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
+[Warning ] error downloading page: Error: ConnectFailure (interrupted)
+[Warning ] pausing 2 of 4 times for 10 seconds before re-try.
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 01/11/2018 09:41:00 stop = 01/11/2018 11:19:00 title = Honey 3 - Il Coraggio Di Ballare
@@ -1455,9 +1452,11 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 02/11/2018 04:58:00 stop = 02/11/2018 06:30:00 title = Honey 3 - Il Coraggio Di Ballare
 [  Info  ]       Replaces ----- start = 02/11/2018 04:58:00 stop = 02/11/2018 06:30:00 title = Honey 3 - Il Coraggio Di Ballare
-[  Info  ] 0.31 sec/update
+[  Info  ] 6.18 sec/update
 [  Debug ] 
 [  Info  ] ( 151/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema +24) -- mode Incremental
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
 [Error   ] Unable to update channel Premium Cinema +24
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1500,7 +1499,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 02/11/2018 08:12:00 stop = 02/11/2018 09:42:00 title = AMITYVILLE III -
 [  Info  ]       Replaces ----- start = 02/11/2018 07:12:00 stop = 02/11/2018 08:42:00 title = AMITYVILLE III -
-[  Info  ] 0.28 sec/update
+[  Info  ] 0.13 sec/update
 [  Debug ] 
 [  Info  ] ( 152/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Emotion) -- mode Incremental
 [  Debug ]    skipped show longer than 15 hour(s) at 28/10/2018 01:34:00 title IN MEMORIA DI ME
@@ -1532,7 +1531,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 02/11/2018 04:18:00 stop = 02/11/2018 04:44:00 title = PIERLUIGI FAVINO - INVITO A CENA CON...
 [  Info  ]       Replaces ----- start = 02/11/2018 03:18:00 stop = 02/11/2018 03:44:00 title = PIERLUIGI FAVINO - INVITO A CENA CON...
-[  Info  ] 0.29 sec/update
+[  Info  ] 0.17 sec/update
 [  Debug ] 
 [  Info  ] ( 154/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Investigation Discovery) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -1543,7 +1542,7 @@
 [  Debug ]    skipped show longer than 15 hour(s) at 28/10/2018 02:55:00 title TRUE CRIME: STORIE DI OMICIDI
 [  Debug ]    skipped negative show time! at 28/10/2018 05:35:00
 [  Debug ]    skipped negative show time! at 28/10/2018 22:40:00
-[  Info  ] 0.08 sec/update
+[  Info  ] 0.12 sec/update
 [  Debug ] 
 [  Info  ] ( 155/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Studio Universal) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -1601,7 +1600,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 02/11/2018 00:50:00 stop = 02/11/2018 02:40:00 title = Halloween: The Beginning
 [  Info  ]       Replaces ----- start = 01/11/2018 23:50:00 stop = 02/11/2018 01:40:00 title = Halloween: The Beginning
-[  Info  ] 0.19 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 156/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Paramount Channel) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -1659,7 +1658,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 02/11/2018 00:50:00 stop = 02/11/2018 02:40:00 title = Halloween: The Beginning
 [  Info  ]       Replaces ----- start = 02/11/2018 00:50:00 stop = 02/11/2018 02:40:00 title = Halloween: The Beginning
-[  Info  ] 0.26 sec/update
+[  Info  ] 0.13 sec/update
 [  Debug ] 
 [  Info  ] ( 157/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action HD) -- mode Incremental
 [Error   ] Unable to update channel Premium Action HD
@@ -1735,13 +1734,13 @@
 [  Info  ]    epg correction : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 29/10/2018 05:15:00 stop = 29/10/2018 05:56:00 title = LA RAGAZZA DELL'ANNO - CRIMINAL INTENT VI
-[  Info  ]       Added before - start = 29/10/2018 06:49:00 stop = 29/10/2018 07:38:00 title = PALLA CURVA - MAJOR CRIMES II
+[  Info  ]       Added before - start = 29/10/2018 05:30:00 stop = 29/10/2018 06:49:00 title = BANCONOTE FALSE - LETHAL WEAPON II
 [  Debug ]    suspicious      title in index page  = CRIMINAL INTENT VI
 [  Debug ]       differs from title in showdetails = FINE DEL GIOCO - CRIMINAL IN.....
 [  Info  ]    epg correction : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 29/10/2018 05:56:00 stop = 29/10/2018 06:38:00 title = FINE DEL GIOCO - CRIMINAL INTENT VI
-[  Info  ]       Added before - start = 29/10/2018 06:49:00 stop = 29/10/2018 07:38:00 title = PALLA CURVA - MAJOR CRIMES II
+[  Info  ]       Replaces ----- start = 29/10/2018 05:30:00 stop = 29/10/2018 06:49:00 title = BANCONOTE FALSE - LETHAL WEAPON II
 [  Debug ]    skipped negative show time! at 28/10/2018 05:38:00
 [  Debug ]    suspicious      title in index page  = DECEPTION I
 [  Debug ]       differs from title in showdetails = IL MISTERO DEL DIAMAN.....
@@ -1766,20 +1765,18 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 28/10/2018 22:55:00 stop = 28/10/2018 23:47:00 title = CONCIATI PER LE FESTE - LETHAL WEAPON II
-[  Info  ]       Replaces ----- start = 28/10/2018 22:37:00 stop = 28/10/2018 23:27:00 title = VICERE' - TAKEN II
+[  Info  ]       Replaces ----- start = 28/10/2018 21:55:00 stop = 28/10/2018 22:47:00 title = CONCIATI PER LE FESTE - LETHAL WEAPON II
 [  Debug ]    skipped negative show time! at 28/10/2018 22:47:00
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 28/10/2018 23:37:00 stop = 29/10/2018 00:27:00 title = VICERE' - TAKEN II
+[  Info  ]       Replaces ----- start = 28/10/2018 21:55:00 stop = 28/10/2018 22:47:00 title = CONCIATI PER LE FESTE - LETHAL WEAPON II
 [  Debug ]    suspicious      title in index page  = CRIMINAL INTENT VII
 [  Debug ]       differs from title in showdetails = TRAPPOLA - CRIMINAL INTENT VI.....
 [  Info  ]    epg correction : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 29/10/2018 04:26:00 stop = 29/10/2018 06:30:00 title = TRAPPOLA - CRIMINAL INTENT VII
-[  Info  ]       Added before - start = 29/10/2018 06:49:00 stop = 29/10/2018 07:38:00 title = PALLA CURVA - MAJOR CRIMES II
-[  Debug ]    suspicious      title in index page  = LETHAL WEAPON II
-[  Debug ]       differs from title in showdetails = BANCONOTE FALSE - LETHAL W.....
-[  Info  ]    epg correction : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 29/10/2018 06:30:00 stop = 29/10/2018 07:49:00 title = BANCONOTE FALSE - LETHAL WEAPON II
-[  Info  ]       Added before - start = 29/10/2018 06:49:00 stop = 29/10/2018 07:38:00 title = PALLA CURVA - MAJOR CRIMES II
+[  Info  ]       Added before - start = 29/10/2018 05:30:00 stop = 29/10/2018 06:49:00 title = BANCONOTE FALSE - LETHAL WEAPON II
 [  Debug ]    suspicious      title in index page  = BLINDSPOT I
 [  Debug ]       differs from title in showdetails = E RIVELA IL BURATTINA.....
 [  Info  ]    epg correction : 
@@ -2096,7 +2093,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 02/11/2018 23:04:00 stop = 02/11/2018 23:54:00 title = UN CASO DA RISOLVERE - CHICAGO P.D. III
 [  Info  ]       Replaces ----- start = 02/11/2018 22:04:00 stop = 02/11/2018 22:54:00 title = UN CASO DA RISOLVERE - CHICAGO P.D. III
-[  Info  ] 0.18 sec/update
+[  Info  ] 0.51 sec/update
 [  Debug ] 
 [  Info  ] ( 158/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Joy) -- mode Incremental
 [Error   ] Unable to update channel Premium Joy
@@ -2138,10 +2135,10 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Debug ] 32957 shows in 171 channels
-[  Debug ] 192 updated shows
+[  Debug ] 32953 shows in 171 channels
+[  Debug ] 164 updated shows
 [  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 27/10/2018 16:18:47 done in 13m 44s
+[        ] Job finished at 27/10/2018 20:20:11 done in 15m 8s
 [  Debug ] statistics upload error: The remote server returned an error: (404) Not Found.
