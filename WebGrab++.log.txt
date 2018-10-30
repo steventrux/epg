@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 30/10/2018 08:05:03
+[        ] Job started at 30/10/2018 12:05:03
 [  Debug ] 
 [  Debug ] Running  on: Unix 3.13.0.132
 [  Debug ] Environment: 4.0.30319.42000
@@ -29,7 +29,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+01:00	(no DST in effect)
 [  Debug ] 	next DST dates  :	31/03/2019 02:00 (local)
 [  Debug ] 	                :	27/10/2019 03:00 (local)
-[  Debug ] 	local time now  :	30/10/2018 08:05:03
+[  Debug ] 	local time now  :	30/10/2018 12:05:04
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -219,8 +219,6 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   2/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai 2 HD) -- mode Incremental
-[Warning ] error downloading page: Error getting response stream (ReadDone2): ReceiveFailure
-[Warning ] pausing 1 of 4 times for 5 seconds before re-try.
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   3/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai 3 HD) -- mode Incremental
@@ -228,16 +226,20 @@
 [  Debug ] 
 [  Info  ] (   4/171 ) MEDIASET.IT -- chan. (xmltv_id=Rete 4 HD) -- mode Incremental
 [  Debug ]    skipped negative show time! at 02/11/2018 01:27:00
-[  Info  ] 0.10 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   5/171 ) MEDIASET.IT -- chan. (xmltv_id=Canale 5 HD) -- mode Incremental
-[  Info  ] 0.24 sec/update
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
+[Warning ] error downloading page: The request timed out (10sec)
+[Warning ] Retry 2 of 4 times
+[  Info  ] 0.19 sec/update
 [  Debug ] 
 [  Info  ] (   6/171 ) MEDIASET.IT -- chan. (xmltv_id=Italia 1 HD) -- mode Incremental
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.20 sec/update
 [  Debug ] 
 [  Info  ] (   7/171 ) MEDIASET.IT -- chan. (xmltv_id=Italia 2) -- mode Incremental
-[  Info  ] 0.14 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   8/171 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La1 HD) -- mode Incremental
 [Error   ] Unable to update channel Rsi La1 HD
@@ -256,7 +258,7 @@
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] (   8/171 ) STASERAINTV.COM -- chan. (xmltv_id=La 5) -- mode Incremental
-[  Info  ] 0.05 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   9/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=LA7) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
@@ -276,14 +278,14 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  14/171 ) MEDIASET.IT -- chan. (xmltv_id=Mediaset Extra) -- mode Incremental
-[  Info  ] 0.17 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  15/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Storia) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  16/171 ) MEDIASET.IT -- chan. (xmltv_id=Iris) -- mode Incremental
-[  Info  ] 0.16 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  17/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Sport 1 HD) -- mode Incremental
 [  Info  ] 
@@ -419,7 +421,7 @@
 [  Debug ]       differs from title in showdetails = X Factor 2018 - La gara
 [  Debug ]    suspicious      title in index page  = X Factor 2018 - Le audizioni
 [  Debug ]       differs from title in showdetails = X Factor 2018 - La gara
-[  Info  ] 0.26 sec/update
+[  Info  ] 0.30 sec/update
 [  Debug ] 
 [  Info  ] (  48/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Uno +1) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = X Factor 2018 - Le audizioni
@@ -446,7 +448,7 @@
 [  Debug ]       differs from title in showdetails = X Factor 2018 - La gara
 [  Debug ]    suspicious      title in index page  = X Factor 2018 - Le audizioni
 [  Debug ]       differs from title in showdetails = X Factor 2018 - La gara
-[  Info  ] 0.31 sec/update
+[  Info  ] 0.30 sec/update
 [  Debug ] 
 [  Info  ] (  49/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=SKY CLASSICA HD) -- mode Incremental
 [  Info  ] 
@@ -457,7 +459,7 @@
 [  Info  ] (  51/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Atlantic +1) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = X Factor 2018 - Le audizioni
 [  Debug ]       differs from title in showdetails = X Factor 2018 - La gara
-[  Info  ] 0.30 sec/update
+[  Info  ] 0.31 sec/update
 [  Debug ] 
 [  Info  ] (  52/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox HD) -- mode Incremental
 [  Info  ] 
@@ -535,10 +537,10 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  71/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Arena SuperHD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.27 sec/update
 [  Debug ] 
 [  Info  ] (  72/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Arena HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.24 sec/update
 [  Debug ] 
 [  Info  ] (  73/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Uno HD) -- mode Incremental
 [  Info  ] 
@@ -734,7 +736,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 128/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Dove TV) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.20 sec/update
 [  Debug ] 
 [  Info  ] ( 129/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cielo HD) -- mode Incremental
 [  Info  ] 
@@ -743,7 +745,134 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 131/171 ) RAI.IT -- chan. (xmltv_id=Rai YoYo HD) -- mode Incremental
-[  Info  ] 
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2018 07:00:00 stop = 02/11/2018 07:05:00 title = Masha E Orso 2
+[  Info  ]       Replaces ----- start = 02/11/2018 07:00:00 stop = 02/11/2018 07:10:00 title = Masha E Orso 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2018 07:05:00 stop = 02/11/2018 07:10:00 title = Masha E Orso 2
+[  Info  ]       Replaces ----- start = 02/11/2018 07:00:00 stop = 02/11/2018 07:10:00 title = Masha E Orso 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2018 11:35:00 stop = 02/11/2018 11:40:00 title = Yo Yo
+[  Info  ]       Replaces ----- start = 02/11/2018 11:35:00 stop = 02/11/2018 11:45:00 title = Yo Yo
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2018 11:40:00 stop = 02/11/2018 11:45:00 title = Dixiland
+[  Info  ]       Replaces ----- start = 02/11/2018 11:35:00 stop = 02/11/2018 11:45:00 title = Yo Yo
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2018 11:50:00 stop = 02/11/2018 12:00:00 title = Dixiland
+[  Info  ]       Replaces ----- start = 02/11/2018 11:50:00 stop = 02/11/2018 11:55:00 title = Dixiland
+[  Info  ]       Replaces ----- start = 02/11/2018 11:55:00 stop = 02/11/2018 12:00:00 title = Dixiland
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2018 12:10:00 stop = 02/11/2018 12:20:00 title = Giulio Coniglio
+[  Info  ]       Replaces ----- start = 02/11/2018 12:10:00 stop = 02/11/2018 12:25:00 title = Giulio Coniglio
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2018 13:15:00 stop = 02/11/2018 13:25:00 title = Masha E Orso 3
+[  Info  ]       Replaces ----- start = 02/11/2018 13:15:00 stop = 02/11/2018 13:20:00 title = Masha E Orso 3
+[  Info  ]       Replaces ----- start = 02/11/2018 13:20:00 stop = 02/11/2018 13:25:00 title = Masha E Orso 3
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2018 13:25:00 stop = 02/11/2018 13:30:00 title = Masha E Orso 3
+[  Info  ]       Replaces ----- start = 02/11/2018 13:25:00 stop = 02/11/2018 13:30:00 title = I Racconti Di Masha
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2018 13:30:00 stop = 02/11/2018 13:35:00 title = I Racconti Di Masha
+[  Info  ]       Replaces ----- start = 02/11/2018 13:30:00 stop = 02/11/2018 13:40:00 title = I Racconti Di Masha
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2018 13:35:00 stop = 02/11/2018 13:45:00 title = I Racconti Di Masha
+[  Info  ]       Replaces ----- start = 02/11/2018 13:30:00 stop = 02/11/2018 13:40:00 title = I Racconti Di Masha
+[  Info  ]       Replaces ----- start = 02/11/2018 13:40:00 stop = 02/11/2018 13:45:00 title = La Casa Delle Api
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2018 14:55:00 stop = 02/11/2018 15:10:00 title = Bob Aggiustatutto
+[  Info  ]       Replaces ----- start = 02/11/2018 14:55:00 stop = 02/11/2018 15:05:00 title = Bob Aggiustatutto
+[  Info  ]       Replaces ----- start = 02/11/2018 15:05:00 stop = 02/11/2018 15:15:00 title = Bob Aggiustatutto
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2018 15:10:00 stop = 02/11/2018 15:20:00 title = Bob Aggiustatutto
+[  Info  ]       Replaces ----- start = 02/11/2018 15:05:00 stop = 02/11/2018 15:15:00 title = Bob Aggiustatutto
+[  Info  ]       Replaces ----- start = 02/11/2018 15:15:00 stop = 02/11/2018 15:40:00 title = Winx Club 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2018 15:45:00 stop = 02/11/2018 15:55:00 title = Pj Masks
+[  Info  ]       Replaces ----- start = 02/11/2018 15:40:00 stop = 02/11/2018 15:50:00 title = Pj Masks
+[  Info  ]       Replaces ----- start = 02/11/2018 15:50:00 stop = 02/11/2018 16:00:00 title = Pj Masks
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2018 15:55:00 stop = 02/11/2018 16:10:00 title = Pj Masks
+[  Info  ]       Replaces ----- start = 02/11/2018 15:50:00 stop = 02/11/2018 16:00:00 title = Pj Masks
+[  Info  ]       Replaces ----- start = 02/11/2018 16:00:00 stop = 02/11/2018 16:05:00 title = Masha E Orso 2
+[  Info  ]       Replaces ----- start = 02/11/2018 16:05:00 stop = 02/11/2018 16:10:00 title = Masha E Orso 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2018 16:10:00 stop = 02/11/2018 16:15:00 title = Masha E Orso 2
+[  Info  ]       Replaces ----- start = 02/11/2018 16:10:00 stop = 02/11/2018 16:20:00 title = Masha E Orso 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2018 16:15:00 stop = 02/11/2018 16:20:00 title = Masha E Orso 2
+[  Info  ]       Replaces ----- start = 02/11/2018 16:10:00 stop = 02/11/2018 16:20:00 title = Masha E Orso 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2018 20:35:00 stop = 02/11/2018 20:50:00 title = Pj Masks
+[  Info  ]       Replaces ----- start = 02/11/2018 20:35:00 stop = 02/11/2018 20:45:00 title = Pj Masks
+[  Info  ]       Replaces ----- start = 02/11/2018 20:45:00 stop = 02/11/2018 20:55:00 title = Gormiti
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2018 21:40:00 stop = 02/11/2018 21:45:00 title = I Racconti Di Masha
+[  Info  ]       Replaces ----- start = 02/11/2018 21:40:00 stop = 02/11/2018 21:50:00 title = I Racconti Di Masha
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2018 21:45:00 stop = 02/11/2018 21:50:00 title = I Racconti Di Masha
+[  Info  ]       Replaces ----- start = 02/11/2018 21:40:00 stop = 02/11/2018 21:50:00 title = I Racconti Di Masha
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2018 23:30:00 stop = 02/11/2018 23:35:00 title = La Pimpa 3
+[  Info  ]       Replaces ----- start = 02/11/2018 23:30:00 stop = 02/11/2018 23:35:00 title = Barbapapa'
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2018 23:45:00 stop = 02/11/2018 23:50:00 title = Barbapapa'
+[  Info  ]       Replaces ----- start = 02/11/2018 23:45:00 stop = 02/11/2018 23:55:00 title = Buonanotte Con Le Favole Di Yoyo 2012
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/11/2018 23:50:00 stop = 03/11/2018 00:00:00 title = Buonanotte Con Le Favole Di Yoyo 2012
+[  Info  ]       Replaces ----- start = 02/11/2018 23:45:00 stop = 02/11/2018 23:55:00 title = Buonanotte Con Le Favole Di Yoyo 2012
+[  Info  ]       Replaces ----- start = 02/11/2018 23:55:00 stop = 03/11/2018 00:05:00 title = Pipi Pupu' E Rosmarina
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2018 01:10:00 stop = 03/11/2018 01:15:00 title = La Pimpa
+[  Info  ]       Replaces ----- start = 03/11/2018 01:10:00 stop = 03/11/2018 01:15:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2018 01:15:00 stop = 03/11/2018 01:20:00 title = Sigla Buonanotte
+[  Info  ]       Replaces ----- start = 03/11/2018 01:15:00 stop = 03/11/2018 01:40:00 title = Teletubbies Ep.25
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2018 01:20:00 stop = 03/11/2018 01:45:00 title = Teletubbies Ep.25
+[  Info  ]       Replaces ----- start = 03/11/2018 01:15:00 stop = 03/11/2018 01:40:00 title = Teletubbies Ep.25
+[  Info  ]       Replaces ----- start = 03/11/2018 01:40:00 stop = 03/11/2018 02:05:00 title = Teletubbies 2 Ep.25
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2018 01:45:00 stop = 03/11/2018 02:05:00 title = Teletubbies 2 Ep.25
+[  Info  ]       Replaces ----- start = 03/11/2018 01:40:00 stop = 03/11/2018 02:05:00 title = Teletubbies 2 Ep.25
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2018 04:20:00 stop = 03/11/2018 04:25:00 title = Dixiland
+[  Info  ]       Replaces ----- start = 03/11/2018 04:20:00 stop = 03/11/2018 04:25:00 title = Classic Tales 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2018 06:10:00 stop = 03/11/2018 06:15:00 title = Molly Monster 2
+[  Info  ]       Replaces ----- start = 03/11/2018 06:10:00 stop = 03/11/2018 06:30:00 title = New Teletubbies
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/11/2018 06:15:00 stop = 03/11/2018 06:30:00 title = New Teletubbies
+[  Info  ]       Replaces ----- start = 03/11/2018 06:10:00 stop = 03/11/2018 06:30:00 title = New Teletubbies
+[  Info  ] 0.10 sec/update
 [  Debug ] 
 [  Info  ] ( 132/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cartoon Network) -- mode Incremental
 [  Info  ] 
@@ -815,9 +944,11 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 05/11/2018 09:15:00 stop = 05/11/2018 10:57:00 title = Dragonheart: battaglia per il cuore di fuoco
 [  Info  ]       Replaces ----- start = 05/11/2018 09:15:00 stop = 05/11/2018 10:57:00 title = Dragonheart: battaglia per il cuore di fuoco
-[  Info  ] 0.52 sec/update
+[  Info  ] 0.20 sec/update
 [  Debug ] 
 [  Info  ] ( 151/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema +24) -- mode Incremental
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
 [Error   ] Unable to update channel Premium Cinema +24
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -834,6 +965,8 @@
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] ( 151/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema 2 +24) -- mode Incremental
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
 [Error   ] Unable to update channel Premium Cinema 2 +24
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -842,6 +975,8 @@
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] ( 151/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Energy) -- mode Incremental
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = AMITYVILLE III
 [  Debug ]       differs from title in showdetails = AMITYVILLE III -
 [  Info  ]    epg correction : 
@@ -874,9 +1009,11 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 05/11/2018 13:07:00 stop = 05/11/2018 14:53:00 title = La Cosa (di Matthijs van Heijningen Jr.)
 [  Info  ]       Replaces ----- start = 05/11/2018 13:07:00 stop = 05/11/2018 14:53:00 title = La Cosa (di Matthijs van Heijningen Jr.)
-[  Info  ] 0.26 sec/update
+[  Info  ] 2.38 sec/update
 [  Debug ] 
 [  Info  ] ( 152/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Emotion) -- mode Incremental
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = WE WERE YOUNG - DESTINAZIONE PARADISO
 [  Debug ]       differs from title in showdetails = We Were Young
 [  Info  ]    epg correction : 
@@ -889,7 +1026,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 05/11/2018 17:36:00 stop = 05/11/2018 19:14:00 title = We Were Young
 [  Info  ]       Replaces ----- start = 05/11/2018 17:36:00 stop = 05/11/2018 19:14:00 title = We Were Young
-[  Info  ] 0.19 sec/update
+[  Info  ] 3.02 sec/update
 [  Debug ] 
 [  Info  ] ( 153/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Comedy) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = COLPO GROSSO AL DRAGO ROSSO - RUSH HOUR 2
@@ -920,12 +1057,14 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 04/11/2018 06:30:00 stop = 04/11/2018 07:05:00 title = PIERLUIGI FAVINO - INVITO A CENA CON...
 [  Info  ]       Replaces ----- start = 04/11/2018 06:30:00 stop = 04/11/2018 07:05:00 title = PIERLUIGI FAVINO - INVITO A CENA CON...
-[  Info  ] 0.38 sec/update
+[  Info  ] 0.47 sec/update
 [  Debug ] 
 [  Info  ] ( 154/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Investigation Discovery) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 155/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Studio Universal) -- mode Incremental
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = CINECHAT - DAVID LYNCH
 [  Debug ]       differs from title in showdetails = DAVID LYNCH - CINECHAT - (KS-KR)
 [  Info  ]    epg correction : 
@@ -972,6 +1111,8 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 03/11/2018 05:40:00 stop = 03/11/2018 06:00:00 title = KEVIN COSTNER - CINECHAT - (KS-KR)
 [  Info  ]       Replaces ----- start = 03/11/2018 05:40:00 stop = 03/11/2018 06:00:00 title = KEVIN COSTNER - CINECHAT - (KS-KR)
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
 [  Info  ]    forced update : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 03/11/2018 17:50:00 stop = 03/11/2018 19:30:00 title = I RAGAZZI DELLA 56ª STRADA (?)
@@ -1004,7 +1145,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 05/11/2018 05:13:00 stop = 05/11/2018 06:00:00 title = MILOS FORMAN - CINECHAT - (KS-KR)
 [  Info  ]       Replaces ----- start = 05/11/2018 05:13:00 stop = 05/11/2018 06:00:00 title = MILOS FORMAN - CINECHAT - (KS-KR)
-[  Info  ] 0.32 sec/update
+[  Info  ] 1.06 sec/update
 [  Debug ] 
 [  Info  ] ( 156/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Paramount Channel) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = CINECHAT - DAVID LYNCH
@@ -1013,6 +1154,8 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 30/10/2018 07:50:00 stop = 30/10/2018 08:05:00 title = DAVID LYNCH - CINECHAT - (KS-KR)
 [  Info  ]       Replaces ----- start = 30/10/2018 07:50:00 stop = 30/10/2018 08:05:00 title = DAVID LYNCH - CINECHAT - (KS-KR)
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = CINECHAT - FORMAN
 [  Debug ]       differs from title in showdetails = MILOS FORMAN - CINECHAT - (.....
 [  Info  ]    epg correction : 
@@ -1025,6 +1168,8 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 31/10/2018 08:05:00 stop = 31/10/2018 08:35:00 title = S. LUMET - CINECHAT - (KS-KR)
 [  Info  ]       Replaces ----- start = 31/10/2018 08:05:00 stop = 31/10/2018 08:35:00 title = S. LUMET - CINECHAT - (KS-KR)
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = CINECHAT - DAVID LYNCH
 [  Debug ]       differs from title in showdetails = DAVID LYNCH - CINECHAT - (KS-KR)
 [  Info  ]    epg correction : 
@@ -1085,9 +1230,11 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 05/11/2018 05:13:00 stop = 05/11/2018 06:00:00 title = MILOS FORMAN - CINECHAT - (KS-KR)
 [  Info  ]       Replaces ----- start = 05/11/2018 05:13:00 stop = 05/11/2018 06:00:00 title = MILOS FORMAN - CINECHAT - (KS-KR)
-[  Info  ] 0.25 sec/update
+[  Info  ] 1.58 sec/update
 [  Debug ] 
 [  Info  ] ( 157/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action HD) -- mode Incremental
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
 [Error   ] Unable to update channel Premium Action HD
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1104,6 +1251,8 @@
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] ( 157/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Crime) -- mode Incremental
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = GONE
 [  Debug ]       differs from title in showdetails = IL PROCESSO - .....
 [  Info  ]    epg correction : 
@@ -1188,6 +1337,8 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 31/10/2018 11:00:00 stop = 31/10/2018 11:56:00 title = L' ASSENZIO - DEXTER VI
 [  Info  ]       Replaces ----- start = 31/10/2018 11:00:00 stop = 31/10/2018 11:56:00 title = L' ASSENZIO - DEXTER VI
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = CHICAGO P.D. III
 [  Debug ]       differs from title in showdetails = LA CANZONE DI GREGORY WILL.....
 [  Info  ]    epg correction : 
@@ -1436,6 +1587,8 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 03/11/2018 20:30:00 stop = 03/11/2018 21:15:00 title = OGNI VOLTA CHE PENSI - 100 CODE
 [  Info  ]       Replaces ----- start = 03/11/2018 20:30:00 stop = 03/11/2018 21:15:00 title = OGNI VOLTA CHE PENSI - 100 CODE
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = GONE
 [  Debug ]       differs from title in showdetails = SITUAZIONI DI .....
 [  Info  ]    epg correction : 
@@ -1502,6 +1655,8 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 04/11/2018 16:15:00 stop = 04/11/2018 17:03:00 title = COCCO DI MAMMA - BOSCH I
 [  Info  ]       Replaces ----- start = 04/11/2018 16:15:00 stop = 04/11/2018 17:03:00 title = COCCO DI MAMMA - BOSCH I
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = BOSCH
 [  Debug ]       differs from title in showdetails = NATALE IN FAMIG.....
 [  Info  ]    epg correction : 
@@ -1590,7 +1745,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 05/11/2018 23:45:00 stop = 06/11/2018 00:34:00 title = LA VALLE DEI CORVI - DECEPTION I - PRIMA TV
 [  Info  ]       Replaces ----- start = 05/11/2018 23:45:00 stop = 06/11/2018 00:34:00 title = LA VALLE DEI CORVI - DECEPTION I - PRIMA TV
-[  Info  ] 0.26 sec/update
+[  Info  ] 0.63 sec/update
 [  Debug ] 
 [  Info  ] ( 158/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Joy) -- mode Incremental
 [Error   ] Unable to update channel Premium Joy
@@ -1601,6 +1756,8 @@
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] ( 158/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Stories) -- mode Incremental
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
 [Error   ] Unable to update channel Premium Stories
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1617,6 +1774,8 @@
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] ( 158/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Sport 2 HD) -- mode Incremental
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
 [Error   ] Unable to update channel Premium Sport 2 HD
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1632,10 +1791,10 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Debug ] 31796 shows in 171 channels
-[  Debug ] 162 updated shows
-[  Debug ] 165 new shows added
+[  Debug ] 31784 shows in 171 channels
+[  Debug ] 260 updated shows
+[  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 30/10/2018 08:20:32 done in 15m 29s
+[        ] Job finished at 30/10/2018 12:20:19 done in 15m 15s
 [  Debug ] statistics upload error: The remote server returned an error: (404) Not Found.
