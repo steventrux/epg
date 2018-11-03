@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 03/11/2018 16:05:03
+[        ] Job started at 03/11/2018 20:05:04
 [  Debug ] 
 [  Debug ] Running  on: Unix 3.13.0.132
 [  Debug ] Environment: 4.0.30319.42000
@@ -29,7 +29,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+01:00	(no DST in effect)
 [  Debug ] 	next DST dates  :	31/03/2019 02:00 (local)
 [  Debug ] 	                :	27/10/2019 03:00 (local)
-[  Debug ] 	local time now  :	03/11/2018 16:05:03
+[  Debug ] 	local time now  :	03/11/2018 20:05:04
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -232,9 +232,15 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   6/171 ) MEDIASET.IT -- chan. (xmltv_id=Italia 1 HD) -- mode Incremental
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
+[Warning ] error downloading page: The request timed out (10sec)
+[Warning ] Retry 2 of 4 times
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   7/171 ) MEDIASET.IT -- chan. (xmltv_id=Italia 2) -- mode Incremental
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   8/171 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La1 HD) -- mode Incremental
@@ -282,8 +288,6 @@
 [  Info  ] (  16/171 ) MEDIASET.IT -- chan. (xmltv_id=Iris) -- mode Incremental
 [Warning ] error downloading page: The operation has timed out. (5sec)
 [Warning ] Retry 1 of 4 times
-[Warning ] error downloading page: The request timed out (10sec)
-[Warning ] Retry 2 of 4 times
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  17/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Sport 1 HD) -- mode Incremental
@@ -420,7 +424,7 @@
 [  Debug ]       differs from title in showdetails = X Factor 2018 - La gara
 [  Debug ]    suspicious      title in index page  = X Factor 2018 - Le audizioni
 [  Debug ]       differs from title in showdetails = X Factor 2018 - La gara
-[  Info  ] 0.31 sec/update
+[  Info  ] 0.34 sec/update
 [  Debug ] 
 [  Info  ] (  48/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Uno +1) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = X Factor 2018 - Le audizioni
@@ -447,7 +451,7 @@
 [  Debug ]       differs from title in showdetails = X Factor 2018 - La gara
 [  Debug ]    suspicious      title in index page  = X Factor 2018 - Le audizioni
 [  Debug ]       differs from title in showdetails = X Factor 2018 - La gara
-[  Info  ] 0.32 sec/update
+[  Info  ] 0.38 sec/update
 [  Debug ] 
 [  Info  ] (  49/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=SKY CLASSICA HD) -- mode Incremental
 [  Info  ] 
@@ -458,7 +462,7 @@
 [  Info  ] (  51/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Atlantic +1) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = X Factor 2018 - Le audizioni
 [  Debug ]       differs from title in showdetails = X Factor 2018 - La gara
-[  Info  ] 0.30 sec/update
+[  Info  ] 0.27 sec/update
 [  Debug ] 
 [  Info  ] (  52/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox HD) -- mode Incremental
 [  Info  ] 
@@ -513,17 +517,15 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  64/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky MotoGP HD) -- mode Incremental
-[  Info  ] 0.21 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  65/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky motoGP superHD) -- mode Incremental
-[  Info  ] 0.21 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  66/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Bike Channel) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  67/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Eurosport 1) -- mode Incremental
-[Warning ] error downloading page: Error getting response stream (ReadDone2): ReceiveFailure
-[Warning ] pausing 1 of 4 times for 5 seconds before re-try.
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
@@ -543,10 +545,10 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  73/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Uno HD) -- mode Incremental
-[  Info  ] 0.24 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  74/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Uno SuperHD) -- mode Incremental
-[  Info  ] 0.23 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  75/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport SerieA SuperHD) -- mode Incremental
 [  Info  ] 
@@ -818,7 +820,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 06/11/2018 17:27:00 stop = 06/11/2018 19:30:00 title = Dr.Knock
 [  Info  ]       Replaces ----- start = 06/11/2018 17:27:00 stop = 06/11/2018 19:30:00 title = Dr.Knock
-[  Info  ] 3.99 sec/update
+[  Info  ] 1.06 sec/update
 [  Debug ] 
 [  Info  ] ( 151/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema +24) -- mode Incremental
 [Error   ] Unable to update channel Premium Cinema +24
@@ -879,7 +881,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 07/11/2018 04:24:00 stop = 07/11/2018 04:54:00 title = L' URLO - BUIO
 [  Info  ]       Replaces ----- start = 07/11/2018 04:24:00 stop = 07/11/2018 04:54:00 title = L' URLO - BUIO
-[  Info  ] 1.30 sec/update
+[  Info  ] 1.01 sec/update
 [  Debug ] 
 [  Info  ] ( 152/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Emotion) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = WE WERE YOUNG - DESTINAZIONE PARADISO
@@ -894,7 +896,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 05/11/2018 17:36:00 stop = 05/11/2018 19:14:00 title = We Were Young
 [  Info  ]       Replaces ----- start = 05/11/2018 17:36:00 stop = 05/11/2018 19:14:00 title = We Were Young
-[  Info  ] 2.07 sec/update
+[  Info  ] 0.27 sec/update
 [  Debug ] 
 [  Info  ] ( 153/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Comedy) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = A CENA CON...
@@ -917,7 +919,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 09/11/2018 06:30:00 stop = 09/11/2018 06:57:00 title = PIERLUIGI FAVINO - INVITO A CENA CON...
 [  Info  ]       Replaces ----- start = 09/11/2018 06:30:00 stop = 09/11/2018 06:57:00 title = PIERLUIGI FAVINO - INVITO A CENA CON...
-[  Info  ] 1.19 sec/update
+[  Info  ] 0.49 sec/update
 [  Debug ] 
 [  Info  ] ( 154/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Investigation Discovery) -- mode Incremental
 [  Info  ] 
@@ -1021,7 +1023,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 09/11/2018 07:40:00 stop = 09/11/2018 08:10:00 title = JAMES IVORY - CINECHAT - (KS-KR)
 [  Info  ]       Replaces ----- start = 09/11/2018 07:40:00 stop = 09/11/2018 08:10:00 title = JAMES IVORY - CINECHAT - (KS-KR)
-[  Info  ] 0.23 sec/update
+[  Info  ] 0.33 sec/update
 [  Debug ] 
 [  Info  ] ( 156/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Paramount Channel) -- mode Incremental
 [  Info  ]    forced update : 
@@ -1122,7 +1124,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 09/11/2018 07:40:00 stop = 09/11/2018 08:10:00 title = JAMES IVORY - CINECHAT - (KS-KR)
 [  Info  ]       Replaces ----- start = 09/11/2018 07:40:00 stop = 09/11/2018 08:10:00 title = JAMES IVORY - CINECHAT - (KS-KR)
-[  Info  ] 0.73 sec/update
+[  Info  ] 0.30 sec/update
 [  Debug ] 
 [  Info  ] ( 157/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action HD) -- mode Incremental
 [Error   ] Unable to update channel Premium Action HD
@@ -1645,7 +1647,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 09/11/2018 16:53:00 stop = 09/11/2018 17:58:00 title = NUOTARE NEGLI ABISSI - DEXTER VII
 [  Info  ]       Replaces ----- start = 09/11/2018 16:53:00 stop = 09/11/2018 17:58:00 title = NUOTARE NEGLI ABISSI - DEXTER VII
-[  Info  ] 0.26 sec/update
+[  Info  ] 0.34 sec/update
 [  Debug ] 
 [  Info  ] ( 158/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Joy) -- mode Incremental
 [Error   ] Unable to update channel Premium Joy
@@ -1688,9 +1690,9 @@
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Debug ] 33619 shows in 171 channels
-[  Debug ] 224 updated shows
+[  Debug ] 158 updated shows
 [  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 03/11/2018 16:21:02 done in 15m 58s
+[        ] Job finished at 03/11/2018 20:22:47 done in 17m 42s
 [  Debug ] statistics upload error: The remote server returned an error: (404) Not Found.
