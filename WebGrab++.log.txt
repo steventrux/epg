@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 03/11/2018 08:05:03
+[        ] Job started at 03/11/2018 12:05:03
 [  Debug ] 
 [  Debug ] Running  on: Unix 3.13.0.132
 [  Debug ] Environment: 4.0.30319.42000
@@ -29,7 +29,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+01:00	(no DST in effect)
 [  Debug ] 	next DST dates  :	31/03/2019 02:00 (local)
 [  Debug ] 	                :	27/10/2019 03:00 (local)
-[  Debug ] 	local time now  :	03/11/2018 08:05:03
+[  Debug ] 	local time now  :	03/11/2018 12:05:04
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -226,16 +226,16 @@
 [  Debug ] 
 [  Info  ] (   4/171 ) MEDIASET.IT -- chan. (xmltv_id=Rete 4 HD) -- mode Incremental
 [  Debug ]    skipped negative show time! at 06/11/2018 01:46:00
-[  Info  ] 0.08 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   5/171 ) MEDIASET.IT -- chan. (xmltv_id=Canale 5 HD) -- mode Incremental
-[  Info  ] 0.08 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   6/171 ) MEDIASET.IT -- chan. (xmltv_id=Italia 1 HD) -- mode Incremental
-[  Info  ] 0.08 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   7/171 ) MEDIASET.IT -- chan. (xmltv_id=Italia 2) -- mode Incremental
-[  Info  ] 0.07 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   8/171 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La1 HD) -- mode Incremental
 [Error   ] Unable to update channel Rsi La1 HD
@@ -254,13 +254,13 @@
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] (   8/171 ) STASERAINTV.COM -- chan. (xmltv_id=La 5) -- mode Incremental
-[  Info  ] 0.06 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   9/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=LA7) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  10/171 ) STASERAINTV.COM -- chan. (xmltv_id=LA7 D) -- mode Incremental
-[  Info  ] 0.05 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  11/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=TV 8) -- mode Incremental
 [  Info  ] 
@@ -273,14 +273,14 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  14/171 ) MEDIASET.IT -- chan. (xmltv_id=Mediaset Extra) -- mode Incremental
-[  Info  ] 0.11 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  15/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Storia) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  16/171 ) MEDIASET.IT -- chan. (xmltv_id=Iris) -- mode Incremental
-[  Info  ] 0.09 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  17/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Sport 1 HD) -- mode Incremental
 [  Info  ] 
@@ -454,7 +454,7 @@
 [  Info  ] (  51/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Atlantic +1) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = X Factor 2018 - Le audizioni
 [  Debug ]       differs from title in showdetails = X Factor 2018 - La gara
-[  Info  ] 0.30 sec/update
+[  Info  ] 0.29 sec/update
 [  Debug ] 
 [  Info  ] (  52/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox HD) -- mode Incremental
 [  Info  ] 
@@ -506,13 +506,15 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  63/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport F1 SuperHD) -- mode Incremental
+[Warning ] error downloading page: Error getting response stream (ReadDone2): ReceiveFailure
+[Warning ] pausing 1 of 4 times for 5 seconds before re-try.
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  64/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky MotoGP HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 1.21 sec/update
 [  Debug ] 
 [  Info  ] (  65/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky motoGP superHD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.20 sec/update
 [  Debug ] 
 [  Info  ] (  66/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Bike Channel) -- mode Incremental
 [  Info  ] 
@@ -733,7 +735,45 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 130/171 ) RAI.IT -- chan. (xmltv_id=Rai Gulp HD) -- mode Incremental
-[  Info  ] 
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/11/2018 12:00:00 stop = 04/11/2018 12:20:00 title = Kung Fu Panda (iii)
+[  Info  ]       Replaces ----- start = 04/11/2018 12:00:00 stop = 04/11/2018 12:25:00 title = Kung Fu Panda (iii)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/11/2018 14:05:00 stop = 04/11/2018 14:40:00 title = Gulp Music 2018/2019
+[  Info  ]       Replaces ----- start = 04/11/2018 14:05:00 stop = 04/11/2018 14:35:00 title = Gulp Music 2018/2019
+[  Info  ]       Replaces ----- start = 04/11/2018 14:35:00 stop = 04/11/2018 15:05:00 title = Maggie And Bianca
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 05/11/2018 00:20:00 stop = 05/11/2018 00:45:00 title = Iron Man (ii)
+[  Info  ]       Replaces ----- start = 05/11/2018 00:00:00 stop = 05/11/2018 00:25:00 title = Mako Mermaids (ii)
+[  Info  ]       Replaces ----- start = 05/11/2018 00:25:00 stop = 05/11/2018 00:50:00 title = Iron Man (ii)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 05/11/2018 00:45:00 stop = 05/11/2018 01:15:00 title = Wolfblood
+[  Info  ]       Replaces ----- start = 05/11/2018 00:25:00 stop = 05/11/2018 00:50:00 title = Iron Man (ii)
+[  Info  ]       Replaces ----- start = 05/11/2018 00:50:00 stop = 05/11/2018 01:15:00 title = Wolfblood
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 05/11/2018 12:00:00 stop = 05/11/2018 12:20:00 title = Kung Fu Panda (iii)
+[  Info  ]       Replaces ----- start = 05/11/2018 12:00:00 stop = 05/11/2018 12:25:00 title = Kung Fu Panda (iii)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 05/11/2018 13:40:00 stop = 05/11/2018 13:50:00 title = The Jungle Book (ii)
+[  Info  ]       Replaces ----- start = 05/11/2018 13:20:00 stop = 05/11/2018 13:45:00 title = Extreme Football
+[  Info  ]       Replaces ----- start = 05/11/2018 13:45:00 stop = 05/11/2018 13:55:00 title = The Jungle Book (ii)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 06/11/2018 00:20:00 stop = 06/11/2018 00:45:00 title = Iron Man (ii)
+[  Info  ]       Replaces ----- start = 06/11/2018 00:00:00 stop = 06/11/2018 00:25:00 title = Mako Mermaids (ii)
+[  Info  ]       Replaces ----- start = 06/11/2018 00:25:00 stop = 06/11/2018 00:50:00 title = Iron Man (ii)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 06/11/2018 00:45:00 stop = 06/11/2018 01:15:00 title = Wolfblood
+[  Info  ]       Replaces ----- start = 06/11/2018 00:25:00 stop = 06/11/2018 00:50:00 title = Iron Man (ii)
+[  Info  ]       Replaces ----- start = 06/11/2018 00:50:00 stop = 06/11/2018 01:15:00 title = Wolfblood
+[  Info  ] 0.17 sec/update
 [  Debug ] 
 [  Info  ] ( 131/171 ) RAI.IT -- chan. (xmltv_id=Rai YoYo HD) -- mode Incremental
 [  Info  ] 
@@ -812,7 +852,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 06/11/2018 17:27:00 stop = 06/11/2018 19:30:00 title = Dr.Knock
 [  Info  ]       Replaces ----- start = 06/11/2018 17:27:00 stop = 06/11/2018 19:30:00 title = Dr.Knock
-[  Info  ] 0.16 sec/update
+[  Info  ] 0.76 sec/update
 [  Debug ] 
 [  Info  ] ( 151/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema +24) -- mode Incremental
 [Error   ] Unable to update channel Premium Cinema +24
@@ -873,7 +913,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 07/11/2018 04:24:00 stop = 07/11/2018 04:54:00 title = L' URLO - BUIO
 [  Info  ]       Replaces ----- start = 07/11/2018 04:24:00 stop = 07/11/2018 04:54:00 title = L' URLO - BUIO
-[  Info  ] 0.24 sec/update
+[  Info  ] 0.45 sec/update
 [  Debug ] 
 [  Info  ] ( 152/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Emotion) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = WE WERE YOUNG - DESTINAZIONE PARADISO
@@ -888,7 +928,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 05/11/2018 17:36:00 stop = 05/11/2018 19:14:00 title = We Were Young
 [  Info  ]       Replaces ----- start = 05/11/2018 17:36:00 stop = 05/11/2018 19:14:00 title = We Were Young
-[  Info  ] 0.17 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 153/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Comedy) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = A CENA CON...
@@ -911,12 +951,16 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 09/11/2018 06:30:00 stop = 09/11/2018 06:57:00 title = PIERLUIGI FAVINO - INVITO A CENA CON...
 [  Info  ]       Replaces ----- start = 09/11/2018 06:30:00 stop = 09/11/2018 06:57:00 title = PIERLUIGI FAVINO - INVITO A CENA CON...
-[  Info  ] 0.28 sec/update
+[  Info  ] 0.51 sec/update
 [  Debug ] 
 [  Info  ] ( 154/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Investigation Discovery) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 155/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Studio Universal) -- mode Incremental
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
+[Warning ] error downloading page: Error getting response stream (Read): ReceiveFailure
+[Warning ] pausing 2 of 4 times for 10 seconds before re-try.
 [  Info  ]    forced update : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 03/11/2018 17:50:00 stop = 03/11/2018 19:30:00 title = I RAGAZZI DELLA 56ª STRADA (?)
@@ -931,6 +975,8 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 04/11/2018 05:15:00 stop = 04/11/2018 06:00:00 title = JOHN TURTURRO  - CINECHAT - (KS-KR)
 [  Info  ]       Replaces ----- start = 04/11/2018 05:15:00 stop = 04/11/2018 06:00:00 title = JOHN TURTURRO  - CINECHAT - (KS-KR)
+[Warning ] error downloading page: The operation has timed out. (5sec)
+[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = CINECHAT - JANE FONDA
 [  Debug ]       differs from title in showdetails = JANE FONDA - CINECHAT - (KS-KR)
 [  Info  ]    epg correction : 
@@ -1015,7 +1061,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 09/11/2018 07:40:00 stop = 09/11/2018 08:10:00 title = JAMES IVORY - CINECHAT - (KS-KR)
 [  Info  ]       Replaces ----- start = 09/11/2018 07:40:00 stop = 09/11/2018 08:10:00 title = JAMES IVORY - CINECHAT - (KS-KR)
-[  Info  ] 0.16 sec/update
+[  Info  ] 2.54 sec/update
 [  Debug ] 
 [  Info  ] ( 156/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Paramount Channel) -- mode Incremental
 [  Info  ]    forced update : 
@@ -1116,7 +1162,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 09/11/2018 07:40:00 stop = 09/11/2018 08:10:00 title = JAMES IVORY - CINECHAT - (KS-KR)
 [  Info  ]       Replaces ----- start = 09/11/2018 07:40:00 stop = 09/11/2018 08:10:00 title = JAMES IVORY - CINECHAT - (KS-KR)
-[  Info  ] 0.13 sec/update
+[  Info  ] 1.20 sec/update
 [  Debug ] 
 [  Info  ] ( 157/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action HD) -- mode Incremental
 [Error   ] Unable to update channel Premium Action HD
@@ -1639,7 +1685,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 09/11/2018 16:53:00 stop = 09/11/2018 17:58:00 title = NUOTARE NEGLI ABISSI - DEXTER VII
 [  Info  ]       Replaces ----- start = 09/11/2018 16:53:00 stop = 09/11/2018 17:58:00 title = NUOTARE NEGLI ABISSI - DEXTER VII
-[  Info  ] 0.16 sec/update
+[  Info  ] 1.00 sec/update
 [  Debug ] 
 [  Info  ] ( 158/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Joy) -- mode Incremental
 [Error   ] Unable to update channel Premium Joy
@@ -1682,9 +1728,9 @@
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Debug ] 33617 shows in 171 channels
-[  Debug ] 187 updated shows
-[  Debug ] 181 new shows added
+[  Debug ] 194 updated shows
+[  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 03/11/2018 08:18:45 done in 13m 42s
+[        ] Job finished at 03/11/2018 12:23:07 done in 18m 3s
 [  Debug ] statistics upload error: The remote server returned an error: (404) Not Found.
