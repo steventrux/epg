@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 07/12/2018 08:05:03
+[        ] Job started at 07/12/2018 12:05:03
 [  Debug ] 
 [  Debug ] Running  on: Unix 3.13.0.132
 [  Debug ] Environment: 4.0.30319.42000
@@ -29,7 +29,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+01:00	(no DST in effect)
 [  Debug ] 	next DST dates  :	31/03/2019 02:00 (local)
 [  Debug ] 	                :	27/10/2019 03:00 (local)
-[  Debug ] 	local time now  :	07/12/2018 08:05:04
+[  Debug ] 	local time now  :	07/12/2018 12:05:03
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -227,16 +227,16 @@
 [  Info  ] (   4/171 ) MEDIASET.IT -- chan. (xmltv_id=Rete 4 HD) -- mode Incremental
 [  Debug ]    skipped negative show time! at 10/12/2018 01:24:00
 [  Debug ]    skipped negative show time! at 11/12/2018 01:42:00
-[  Info  ] 0.07 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   5/171 ) MEDIASET.IT -- chan. (xmltv_id=Canale 5 HD) -- mode Incremental
-[  Info  ] 0.07 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   6/171 ) MEDIASET.IT -- chan. (xmltv_id=Italia 1 HD) -- mode Incremental
-[  Info  ] 0.07 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   7/171 ) MEDIASET.IT -- chan. (xmltv_id=Italia 2) -- mode Incremental
-[  Info  ] 0.07 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   8/171 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La1 HD) -- mode Incremental
 [Error   ] Unable to update channel Rsi La1 HD
@@ -255,7 +255,7 @@
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] (   8/171 ) STASERAINTV.COM -- chan. (xmltv_id=La 5) -- mode Incremental
-[  Info  ] 0.07 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   9/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=LA7) -- mode Incremental
 [  Info  ] 
@@ -264,7 +264,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  11/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=TV 8) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.18 sec/update
 [  Debug ] 
 [  Info  ] (  12/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Nove HD) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
@@ -274,13 +274,13 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  14/171 ) MEDIASET.IT -- chan. (xmltv_id=Mediaset Extra) -- mode Incremental
-[  Info  ] 0.08 sec/update
-[  Debug ] 
-[  Info  ] (  15/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Storia) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
+[  Info  ] (  15/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Storia) -- mode Incremental
+[  Info  ] 0.18 sec/update
+[  Debug ] 
 [  Info  ] (  16/171 ) MEDIASET.IT -- chan. (xmltv_id=Iris) -- mode Incremental
-[  Info  ] 0.07 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  17/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Sport 1 HD) -- mode Incremental
 [  Info  ] 
@@ -418,12 +418,12 @@
 [  Debug ]       differs from title in showdetails = Vita da ricchi -  -
 [  Debug ]    suspicious      title in index page  = Vita da ricchi -
 [  Debug ]       differs from title in showdetails = Vita da ricchi -  -
-[  Info  ] 0.30 sec/update
+[  Info  ] 0.27 sec/update
 [  Debug ] 
 [  Info  ] (  48/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Uno +1) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = X Factor 2018 - Bootcamp - 1^TV
 [  Debug ]       differs from title in showdetails = X Factor 2018 - Home Visit - 1^TV
-[  Info  ] 0.29 sec/update
+[  Info  ] 0.77 sec/update
 [  Debug ] 
 [  Info  ] (  49/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=SKY CLASSICA HD) -- mode Incremental
 [  Info  ] 
@@ -437,8 +437,6 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  52/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox HD) -- mode Incremental
-[Warning ] error downloading page: Error getting response stream (ReadDone2): ReceiveFailure
-[Warning ] pausing 1 of 4 times for 5 seconds before re-try.
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  53/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox +1) -- mode Incremental
@@ -716,11 +714,450 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 130/171 ) RAI.IT -- chan. (xmltv_id=Rai Gulp HD) -- mode Incremental
-[  Info  ] 
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 07/12/2018 13:15:00 stop = 07/12/2018 13:40:00 title = Zorro
+[  Info  ]       Replaces ----- start = 07/12/2018 13:05:00 stop = 07/12/2018 13:20:00 title = Mini Ninjas
+[  Info  ]       Replaces ----- start = 07/12/2018 13:20:00 stop = 07/12/2018 13:45:00 title = Zorro
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 07/12/2018 13:40:00 stop = 07/12/2018 13:50:00 title = The Jungle Book
+[  Info  ]       Replaces ----- start = 07/12/2018 13:20:00 stop = 07/12/2018 13:45:00 title = Zorro
+[  Info  ]       Replaces ----- start = 07/12/2018 13:45:00 stop = 07/12/2018 13:55:00 title = The Jungle Book
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 07/12/2018 13:50:00 stop = 07/12/2018 14:05:00 title = The Jungle Book
+[  Info  ]       Replaces ----- start = 07/12/2018 13:45:00 stop = 07/12/2018 13:55:00 title = The Jungle Book
+[  Info  ]       Replaces ----- start = 07/12/2018 13:55:00 stop = 07/12/2018 14:10:00 title = The Jungle Book
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 07/12/2018 14:05:00 stop = 07/12/2018 14:30:00 title = Alex And Co.
+[  Info  ]       Replaces ----- start = 07/12/2018 13:55:00 stop = 07/12/2018 14:10:00 title = The Jungle Book
+[  Info  ]       Replaces ----- start = 07/12/2018 14:10:00 stop = 07/12/2018 14:35:00 title = Alex And Co.
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 07/12/2018 19:20:00 stop = 07/12/2018 20:15:00 title = Heidi Bienvenida
+[  Info  ]       Replaces ----- start = 07/12/2018 19:15:00 stop = 07/12/2018 20:05:00 title = Heidi Bienvenida
+[  Info  ]       Replaces ----- start = 07/12/2018 20:05:00 stop = 07/12/2018 21:00:00 title = Soy Luna
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 07/12/2018 21:30:00 stop = 07/12/2018 21:55:00 title = Alex And Co.
+[  Info  ]       Replaces ----- start = 07/12/2018 21:25:00 stop = 07/12/2018 21:50:00 title = Alex And Co.
+[  Info  ]       Replaces ----- start = 07/12/2018 21:50:00 stop = 07/12/2018 22:15:00 title = Maggie And Bianca (iii)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 08/12/2018 01:50:00 stop = 08/12/2018 02:20:00 title = Monster Allergy (ii)
+[  Info  ]       Replaces ----- start = 08/12/2018 01:50:00 stop = 08/12/2018 02:15:00 title = Monster Allergy (ii)
+[  Info  ]       Replaces ----- start = 08/12/2018 02:15:00 stop = 08/12/2018 02:40:00 title = Barbarossa
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 08/12/2018 03:10:00 stop = 08/12/2018 03:35:00 title = Farhat, Il Principe Del Deserto
+[  Info  ]       Replaces ----- start = 08/12/2018 03:05:00 stop = 08/12/2018 03:30:00 title = Farhat, Il Principe Del Deserto
+[  Info  ]       Replaces ----- start = 08/12/2018 03:30:00 stop = 08/12/2018 03:55:00 title = L'ultimo Dei Mohicani
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 08/12/2018 03:35:00 stop = 08/12/2018 04:00:00 title = L'ultimo Dei Mohicani
+[  Info  ]       Replaces ----- start = 08/12/2018 03:30:00 stop = 08/12/2018 03:55:00 title = L'ultimo Dei Mohicani
+[  Info  ]       Replaces ----- start = 08/12/2018 03:55:00 stop = 08/12/2018 04:25:00 title = La Principessa Sissi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 08/12/2018 04:00:00 stop = 08/12/2018 04:25:00 title = La Principessa Sissi
+[  Info  ]       Replaces ----- start = 08/12/2018 03:55:00 stop = 08/12/2018 04:25:00 title = La Principessa Sissi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 08/12/2018 11:40:00 stop = 08/12/2018 12:05:00 title = Kung Fu Panda (iii)
+[  Info  ]       Replaces ----- start = 08/12/2018 11:35:00 stop = 08/12/2018 12:00:00 title = Kung Fu Panda (iii)
+[  Info  ]       Replaces ----- start = 08/12/2018 12:00:00 stop = 08/12/2018 12:25:00 title = Kung Fu Panda (iii)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 08/12/2018 12:05:00 stop = 08/12/2018 12:35:00 title = Kung Fu Panda (iii)
+[  Info  ]       Replaces ----- start = 08/12/2018 12:00:00 stop = 08/12/2018 12:25:00 title = Kung Fu Panda (iii)
+[  Info  ]       Replaces ----- start = 08/12/2018 12:25:00 stop = 08/12/2018 12:35:00 title = Paf Il Cane
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 08/12/2018 13:50:00 stop = 08/12/2018 14:05:00 title = The Jungle Book
+[  Info  ]       Replaces ----- start = 08/12/2018 13:45:00 stop = 08/12/2018 13:55:00 title = The Jungle Book
+[  Info  ]       Replaces ----- start = 08/12/2018 13:55:00 stop = 08/12/2018 14:10:00 title = The Jungle Book
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 08/12/2018 14:05:00 stop = 08/12/2018 14:20:00 title = The Jungle Book
+[  Info  ]       Replaces ----- start = 08/12/2018 13:55:00 stop = 08/12/2018 14:10:00 title = The Jungle Book
+[  Info  ]       Replaces ----- start = 08/12/2018 14:10:00 stop = 08/12/2018 14:35:00 title = Alex And Co.
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 08/12/2018 14:20:00 stop = 08/12/2018 14:45:00 title = Alex And Co.
+[  Info  ]       Replaces ----- start = 08/12/2018 14:10:00 stop = 08/12/2018 14:35:00 title = Alex And Co.
+[  Info  ]       Replaces ----- start = 08/12/2018 14:35:00 stop = 08/12/2018 15:05:00 title = Maggie And Bianca (ii)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 08/12/2018 16:45:00 stop = 08/12/2018 17:10:00 title = Kung Fu Panda (iii)
+[  Info  ]       Replaces ----- start = 08/12/2018 16:40:00 stop = 08/12/2018 17:05:00 title = Kung Fu Panda (iii)
+[  Info  ]       Replaces ----- start = 08/12/2018 17:05:00 stop = 08/12/2018 17:30:00 title = Kung Fu Panda (iii)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 08/12/2018 17:10:00 stop = 08/12/2018 17:35:00 title = Kung Fu Panda (iii)
+[  Info  ]       Replaces ----- start = 08/12/2018 17:05:00 stop = 08/12/2018 17:30:00 title = Kung Fu Panda (iii)
+[  Info  ]       Replaces ----- start = 08/12/2018 17:30:00 stop = 08/12/2018 17:40:00 title = Gormiti
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 08/12/2018 18:05:00 stop = 08/12/2018 18:35:00 title = Gulp Music 2018/2019
+[  Info  ]       Replaces ----- start = 08/12/2018 17:55:00 stop = 08/12/2018 18:25:00 title = Gulp Music 2018/2019
+[  Info  ]       Replaces ----- start = 08/12/2018 18:25:00 stop = 08/12/2018 18:50:00 title = A Tutto Ritmo
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 131/171 ) RAI.IT -- chan. (xmltv_id=Rai YoYo HD) -- mode Incremental
-[  Debug ] multiple entry of a show at 20181208193500 +0100
-[  Info  ] 
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 10/12/2018 07:10:00 stop = 10/12/2018 07:15:00 title = Masha E Orso 2
+[  Info  ]       Replaces ----- start = 10/12/2018 07:10:00 stop = 10/12/2018 07:20:00 title = Trulli Tales
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 10/12/2018 10:00:00 stop = 10/12/2018 10:10:00 title = Masha E Orso
+[  Info  ]       Replaces ----- start = 10/12/2018 10:00:00 stop = 10/12/2018 10:05:00 title = Masha E Orso
+[  Info  ]       Replaces ----- start = 10/12/2018 10:05:00 stop = 10/12/2018 10:10:00 title = Masha E Orso
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 10/12/2018 11:00:00 stop = 10/12/2018 11:10:00 title = Loopdidoo 4
+[  Info  ]       Replaces ----- start = 10/12/2018 11:00:00 stop = 10/12/2018 11:05:00 title = Loopdidoo 4
+[  Info  ]       Replaces ----- start = 10/12/2018 11:05:00 stop = 10/12/2018 11:10:00 title = Loopdidoo 4
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 10/12/2018 11:10:00 stop = 10/12/2018 11:15:00 title = Loopdidoo 4
+[  Info  ]       Replaces ----- start = 10/12/2018 11:10:00 stop = 10/12/2018 11:20:00 title = Loopdidoo 4
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 10/12/2018 11:15:00 stop = 10/12/2018 11:20:00 title = Loopdidoo 4
+[  Info  ]       Replaces ----- start = 10/12/2018 11:10:00 stop = 10/12/2018 11:20:00 title = Loopdidoo 4
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 10/12/2018 12:00:00 stop = 10/12/2018 12:05:00 title = Dixiland 2
+[  Info  ]       Replaces ----- start = 10/12/2018 12:00:00 stop = 10/12/2018 12:10:00 title = Giulio Coniglio
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 10/12/2018 12:05:00 stop = 10/12/2018 12:15:00 title = Giulio Coniglio
+[  Info  ]       Replaces ----- start = 10/12/2018 12:00:00 stop = 10/12/2018 12:10:00 title = Giulio Coniglio
+[  Info  ]       Replaces ----- start = 10/12/2018 12:10:00 stop = 10/12/2018 12:25:00 title = Giulio Coniglio
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 10/12/2018 12:15:00 stop = 10/12/2018 12:30:00 title = Giulio Coniglio
+[  Info  ]       Replaces ----- start = 10/12/2018 12:10:00 stop = 10/12/2018 12:25:00 title = Giulio Coniglio
+[  Info  ]       Replaces ----- start = 10/12/2018 12:25:00 stop = 10/12/2018 12:35:00 title = Il Piccolo Regno Di Ben E Holly
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 10/12/2018 13:15:00 stop = 10/12/2018 13:25:00 title = Masha E Orso
+[  Info  ]       Replaces ----- start = 10/12/2018 13:15:00 stop = 10/12/2018 13:20:00 title = Masha E Orso
+[  Info  ]       Replaces ----- start = 10/12/2018 13:20:00 stop = 10/12/2018 13:25:00 title = Masha E Orso
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 10/12/2018 13:25:00 stop = 10/12/2018 13:30:00 title = Masha E Orso
+[  Info  ]       Replaces ----- start = 10/12/2018 13:25:00 stop = 10/12/2018 13:30:00 title = I Racconti Di Masha
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 10/12/2018 13:30:00 stop = 10/12/2018 13:35:00 title = I Racconti Di Masha
+[  Info  ]       Replaces ----- start = 10/12/2018 13:30:00 stop = 10/12/2018 13:40:00 title = I Racconti Di Masha
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 10/12/2018 13:35:00 stop = 10/12/2018 13:40:00 title = I Racconti Di Masha
+[  Info  ]       Replaces ----- start = 10/12/2018 13:30:00 stop = 10/12/2018 13:40:00 title = I Racconti Di Masha
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 10/12/2018 15:40:00 stop = 10/12/2018 15:55:00 title = Pj Masks 2
+[  Info  ]       Replaces ----- start = 10/12/2018 15:40:00 stop = 10/12/2018 15:50:00 title = Pj Masks 2
+[  Info  ]       Replaces ----- start = 10/12/2018 15:50:00 stop = 10/12/2018 16:00:00 title = Pj Masks 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 10/12/2018 15:55:00 stop = 10/12/2018 16:05:00 title = Pj Masks 2
+[  Info  ]       Replaces ----- start = 10/12/2018 15:50:00 stop = 10/12/2018 16:00:00 title = Pj Masks 2
+[  Info  ]       Replaces ----- start = 10/12/2018 16:00:00 stop = 10/12/2018 16:05:00 title = Masha E Orso 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 10/12/2018 16:20:00 stop = 10/12/2018 16:25:00 title = Masha E Orso 2
+[  Info  ]       Replaces ----- start = 10/12/2018 16:20:00 stop = 10/12/2018 16:40:00 title = L' Albero Azzurro 2017/2018
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 10/12/2018 20:25:00 stop = 10/12/2018 20:40:00 title = Pj Masks
+[  Info  ]       Replaces ----- start = 10/12/2018 20:25:00 stop = 10/12/2018 20:35:00 title = Pj Masks
+[  Info  ]       Replaces ----- start = 10/12/2018 20:35:00 stop = 10/12/2018 20:45:00 title = Pj Masks
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 10/12/2018 20:40:00 stop = 10/12/2018 20:50:00 title = Pj Masks
+[  Info  ]       Replaces ----- start = 10/12/2018 20:35:00 stop = 10/12/2018 20:45:00 title = Pj Masks
+[  Info  ]       Replaces ----- start = 10/12/2018 20:45:00 stop = 10/12/2018 20:55:00 title = Gormiti
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 10/12/2018 23:25:00 stop = 10/12/2018 23:30:00 title = Dixiland 2
+[  Info  ]       Replaces ----- start = 10/12/2018 23:25:00 stop = 10/12/2018 23:30:00 title = Barbapapa'
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 10/12/2018 23:45:00 stop = 11/12/2018 00:00:00 title = Buonanotte Con Le Favole Di Yoyo 2012
+[  Info  ]       Replaces ----- start = 10/12/2018 23:45:00 stop = 10/12/2018 23:55:00 title = Buonanotte Con Le Favole Di Yoyo 2012
+[  Info  ]       Replaces ----- start = 10/12/2018 23:55:00 stop = 11/12/2018 00:05:00 title = I Saurini 3
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 11/12/2018 01:10:00 stop = 11/12/2018 01:15:00 title = La Pimpa 4
+[  Info  ]       Replaces ----- start = 11/12/2018 01:10:00 stop = 11/12/2018 01:15:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 11/12/2018 01:15:00 stop = 11/12/2018 01:20:00 title = Sigla Buonanotte
+[  Info  ]       Replaces ----- start = 11/12/2018 01:15:00 stop = 11/12/2018 01:40:00 title = Teletubbies 7
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 11/12/2018 01:20:00 stop = 11/12/2018 01:45:00 title = Teletubbies 7
+[  Info  ]       Replaces ----- start = 11/12/2018 01:15:00 stop = 11/12/2018 01:40:00 title = Teletubbies 7
+[  Info  ]       Replaces ----- start = 11/12/2018 01:40:00 stop = 11/12/2018 02:05:00 title = Teletubbies 8
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 11/12/2018 01:45:00 stop = 11/12/2018 02:05:00 title = Teletubbies 8
+[  Info  ]       Replaces ----- start = 11/12/2018 01:40:00 stop = 11/12/2018 02:05:00 title = Teletubbies 8
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 11/12/2018 04:20:00 stop = 11/12/2018 04:25:00 title = Dixiland
+[  Info  ]       Replaces ----- start = 11/12/2018 04:20:00 stop = 11/12/2018 04:25:00 title = Classic Tales 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 11/12/2018 06:10:00 stop = 11/12/2018 06:15:00 title = Molly Monster 2
+[  Info  ]       Replaces ----- start = 11/12/2018 06:10:00 stop = 11/12/2018 06:30:00 title = New Teletubbies
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 11/12/2018 06:15:00 stop = 11/12/2018 06:30:00 title = New Teletubbies
+[  Info  ]       Replaces ----- start = 11/12/2018 06:10:00 stop = 11/12/2018 06:30:00 title = New Teletubbies
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 11/12/2018 11:00:00 stop = 11/12/2018 11:10:00 title = Loopdidoo 4
+[  Info  ]       Replaces ----- start = 11/12/2018 11:00:00 stop = 11/12/2018 11:05:00 title = Loopdidoo 4
+[  Info  ]       Replaces ----- start = 11/12/2018 11:05:00 stop = 11/12/2018 11:10:00 title = Loopdidoo 4
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 11/12/2018 11:10:00 stop = 11/12/2018 11:15:00 title = Loopdidoo 4
+[  Info  ]       Replaces ----- start = 11/12/2018 11:10:00 stop = 11/12/2018 11:20:00 title = Loopdidoo 4
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 11/12/2018 11:15:00 stop = 11/12/2018 11:20:00 title = Loopdidoo 4
+[  Info  ]       Replaces ----- start = 11/12/2018 11:10:00 stop = 11/12/2018 11:20:00 title = Loopdidoo 4
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 11/12/2018 11:50:00 stop = 11/12/2018 12:00:00 title = Dixiland 2
+[  Info  ]       Replaces ----- start = 11/12/2018 11:50:00 stop = 11/12/2018 11:55:00 title = Dixiland 2
+[  Info  ]       Replaces ----- start = 11/12/2018 11:55:00 stop = 11/12/2018 12:00:00 title = Dixiland 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 11/12/2018 12:00:00 stop = 11/12/2018 12:05:00 title = Dixiland 2
+[  Info  ]       Replaces ----- start = 11/12/2018 12:00:00 stop = 11/12/2018 12:10:00 title = Giulio Coniglio
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 11/12/2018 12:05:00 stop = 11/12/2018 12:15:00 title = Giulio Coniglio
+[  Info  ]       Replaces ----- start = 11/12/2018 12:00:00 stop = 11/12/2018 12:10:00 title = Giulio Coniglio
+[  Info  ]       Replaces ----- start = 11/12/2018 12:10:00 stop = 11/12/2018 12:25:00 title = Giulio Coniglio
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 11/12/2018 12:15:00 stop = 11/12/2018 12:25:00 title = Giulio Coniglio
+[  Info  ]       Replaces ----- start = 11/12/2018 12:10:00 stop = 11/12/2018 12:25:00 title = Giulio Coniglio
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 11/12/2018 13:25:00 stop = 11/12/2018 13:30:00 title = Masha E Orso
+[  Info  ]       Replaces ----- start = 11/12/2018 13:25:00 stop = 11/12/2018 13:30:00 title = I Racconti Di Masha
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 11/12/2018 13:30:00 stop = 11/12/2018 13:35:00 title = I Racconti Di Masha
+[  Info  ]       Replaces ----- start = 11/12/2018 13:30:00 stop = 11/12/2018 13:40:00 title = I Racconti Di Masha
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 11/12/2018 13:35:00 stop = 11/12/2018 13:40:00 title = I Racconti Di Masha
+[  Info  ]       Replaces ----- start = 11/12/2018 13:30:00 stop = 11/12/2018 13:40:00 title = I Racconti Di Masha
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 11/12/2018 14:45:00 stop = 11/12/2018 14:55:00 title = La Pimpa 3
+[  Info  ]       Replaces ----- start = 11/12/2018 14:45:00 stop = 11/12/2018 14:50:00 title = La Pimpa 3
+[  Info  ]       Replaces ----- start = 11/12/2018 14:50:00 stop = 11/12/2018 14:55:00 title = La Pimpa 3
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 11/12/2018 15:40:00 stop = 11/12/2018 15:55:00 title = Pj Masks 2
+[  Info  ]       Replaces ----- start = 11/12/2018 15:40:00 stop = 11/12/2018 15:50:00 title = Pj Masks 2
+[  Info  ]       Replaces ----- start = 11/12/2018 15:50:00 stop = 11/12/2018 16:00:00 title = Pj Masks 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 11/12/2018 15:55:00 stop = 11/12/2018 16:05:00 title = Pj Masks 2
+[  Info  ]       Replaces ----- start = 11/12/2018 15:50:00 stop = 11/12/2018 16:00:00 title = Pj Masks 2
+[  Info  ]       Replaces ----- start = 11/12/2018 16:00:00 stop = 11/12/2018 16:05:00 title = Masha E Orso 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 11/12/2018 16:05:00 stop = 11/12/2018 16:15:00 title = Masha E Orso 2
+[  Info  ]       Replaces ----- start = 11/12/2018 16:05:00 stop = 11/12/2018 16:10:00 title = Masha E Orso 2
+[  Info  ]       Replaces ----- start = 11/12/2018 16:10:00 stop = 11/12/2018 16:20:00 title = Masha E Orso 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 11/12/2018 16:15:00 stop = 11/12/2018 16:20:00 title = Masha E Orso 2
+[  Info  ]       Replaces ----- start = 11/12/2018 16:10:00 stop = 11/12/2018 16:20:00 title = Masha E Orso 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 11/12/2018 16:20:00 stop = 11/12/2018 16:25:00 title = Masha E Orso 2
+[  Info  ]       Replaces ----- start = 11/12/2018 16:20:00 stop = 11/12/2018 16:40:00 title = L' Albero Azzurro 2017/2018
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 11/12/2018 20:25:00 stop = 11/12/2018 20:40:00 title = Pj Masks
+[  Info  ]       Replaces ----- start = 11/12/2018 20:25:00 stop = 11/12/2018 20:35:00 title = Pj Masks
+[  Info  ]       Replaces ----- start = 11/12/2018 20:35:00 stop = 11/12/2018 20:45:00 title = Pj Masks
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 11/12/2018 20:40:00 stop = 11/12/2018 20:50:00 title = Pj Masks
+[  Info  ]       Replaces ----- start = 11/12/2018 20:35:00 stop = 11/12/2018 20:45:00 title = Pj Masks
+[  Info  ]       Replaces ----- start = 11/12/2018 20:45:00 stop = 11/12/2018 20:55:00 title = Gormiti
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 11/12/2018 23:25:00 stop = 11/12/2018 23:30:00 title = Dixiland 2
+[  Info  ]       Replaces ----- start = 11/12/2018 23:25:00 stop = 11/12/2018 23:30:00 title = Barbapapa'
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 11/12/2018 23:45:00 stop = 11/12/2018 23:50:00 title = Barbapapa'
+[  Info  ]       Replaces ----- start = 11/12/2018 23:45:00 stop = 11/12/2018 23:55:00 title = Buonanotte Con Le Favole Di Yoyo 2012
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 11/12/2018 23:50:00 stop = 12/12/2018 00:00:00 title = Buonanotte Con Le Favole Di Yoyo 2012
+[  Info  ]       Replaces ----- start = 11/12/2018 23:45:00 stop = 11/12/2018 23:55:00 title = Buonanotte Con Le Favole Di Yoyo 2012
+[  Info  ]       Replaces ----- start = 11/12/2018 23:55:00 stop = 12/12/2018 00:05:00 title = I Saurini 3
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 12/12/2018 01:20:00 stop = 12/12/2018 01:25:00 title = La Pimpa 4
+[  Info  ]       Replaces ----- start = 12/12/2018 01:15:00 stop = 12/12/2018 01:40:00 title = Teletubbies 7
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 12/12/2018 01:25:00 stop = 12/12/2018 01:30:00 title = La Pimpa 4
+[  Info  ]       Replaces ----- start = 12/12/2018 01:15:00 stop = 12/12/2018 01:40:00 title = Teletubbies 7
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 12/12/2018 01:30:00 stop = 12/12/2018 01:35:00 title = Sigla Buonanotte
+[  Info  ]       Replaces ----- start = 12/12/2018 01:15:00 stop = 12/12/2018 01:40:00 title = Teletubbies 7
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 12/12/2018 01:35:00 stop = 12/12/2018 01:55:00 title = Teletubbies 7
+[  Info  ]       Replaces ----- start = 12/12/2018 01:15:00 stop = 12/12/2018 01:40:00 title = Teletubbies 7
+[  Info  ]       Replaces ----- start = 12/12/2018 01:40:00 stop = 12/12/2018 02:05:00 title = Teletubbies 8
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 12/12/2018 01:55:00 stop = 12/12/2018 02:20:00 title = Teletubbies 8
+[  Info  ]       Replaces ----- start = 12/12/2018 01:40:00 stop = 12/12/2018 02:05:00 title = Teletubbies 8
+[  Info  ]       Replaces ----- start = 12/12/2018 02:05:00 stop = 12/12/2018 02:30:00 title = Teletubbies 7
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 12/12/2018 02:20:00 stop = 12/12/2018 02:45:00 title = Teletubbies 7
+[  Info  ]       Replaces ----- start = 12/12/2018 02:05:00 stop = 12/12/2018 02:30:00 title = Teletubbies 7
+[  Info  ]       Replaces ----- start = 12/12/2018 02:30:00 stop = 12/12/2018 02:55:00 title = Teletubbies 8
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 12/12/2018 02:45:00 stop = 12/12/2018 03:05:00 title = Teletubbies 8
+[  Info  ]       Replaces ----- start = 12/12/2018 02:30:00 stop = 12/12/2018 02:55:00 title = Teletubbies 8
+[  Info  ]       Replaces ----- start = 12/12/2018 02:55:00 stop = 12/12/2018 03:00:00 title = La Pimpa 3
+[  Info  ]       Replaces ----- start = 12/12/2018 03:00:00 stop = 12/12/2018 03:05:00 title = La Pimpa 3
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 12/12/2018 03:10:00 stop = 12/12/2018 03:15:00 title = La Pimpa 3
+[  Info  ]       Replaces ----- start = 12/12/2018 03:10:00 stop = 12/12/2018 03:15:00 title = Milo 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 12/12/2018 03:15:00 stop = 12/12/2018 03:20:00 title = La Pimpa 3
+[  Info  ]       Replaces ----- start = 12/12/2018 03:15:00 stop = 12/12/2018 03:20:00 title = Milo 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 12/12/2018 03:20:00 stop = 12/12/2018 03:25:00 title = Milo 2
+[  Info  ]       Replaces ----- start = 12/12/2018 03:20:00 stop = 12/12/2018 03:30:00 title = Ape Maia 3d
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 12/12/2018 03:25:00 stop = 12/12/2018 03:30:00 title = Milo 2
+[  Info  ]       Replaces ----- start = 12/12/2018 03:20:00 stop = 12/12/2018 03:30:00 title = Ape Maia 3d
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 12/12/2018 04:20:00 stop = 12/12/2018 04:25:00 title = Dixiland
+[  Info  ]       Replaces ----- start = 12/12/2018 04:20:00 stop = 12/12/2018 04:25:00 title = Classic Tales 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 12/12/2018 06:10:00 stop = 12/12/2018 06:15:00 title = Molly Monster 2
+[  Info  ]       Replaces ----- start = 12/12/2018 06:10:00 stop = 12/12/2018 06:30:00 title = New Teletubbies
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 12/12/2018 06:15:00 stop = 12/12/2018 06:30:00 title = New Teletubbies
+[  Info  ]       Replaces ----- start = 12/12/2018 06:10:00 stop = 12/12/2018 06:30:00 title = New Teletubbies
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 12/12/2018 08:55:00 stop = 12/12/2018 09:05:00 title = Bing
+[  Info  ]       Replaces ----- start = 12/12/2018 08:55:00 stop = 12/12/2018 09:00:00 title = Bing
+[  Info  ]       Replaces ----- start = 12/12/2018 09:00:00 stop = 12/12/2018 09:10:00 title = Bing
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 12/12/2018 09:05:00 stop = 12/12/2018 09:10:00 title = Bing
+[  Info  ]       Replaces ----- start = 12/12/2018 09:00:00 stop = 12/12/2018 09:10:00 title = Bing
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 12/12/2018 10:00:00 stop = 12/12/2018 10:10:00 title = Masha E Orso 2
+[  Info  ]       Replaces ----- start = 12/12/2018 10:00:00 stop = 12/12/2018 10:05:00 title = Masha E Orso 2
+[  Info  ]       Replaces ----- start = 12/12/2018 10:05:00 stop = 12/12/2018 10:10:00 title = Masha E Orso 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 12/12/2018 10:10:00 stop = 12/12/2018 10:15:00 title = Masha E Orso 2
+[  Info  ]       Replaces ----- start = 12/12/2018 10:10:00 stop = 12/12/2018 10:20:00 title = Masha E Orso 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 12/12/2018 10:15:00 stop = 12/12/2018 10:20:00 title = Masha E Orso 2
+[  Info  ]       Replaces ----- start = 12/12/2018 10:10:00 stop = 12/12/2018 10:20:00 title = Masha E Orso 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 12/12/2018 12:00:00 stop = 12/12/2018 12:05:00 title = Dixiland 2
+[  Info  ]       Replaces ----- start = 12/12/2018 12:00:00 stop = 12/12/2018 12:10:00 title = Giulio Coniglio
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 12/12/2018 12:05:00 stop = 12/12/2018 12:15:00 title = Giulio Coniglio
+[  Info  ]       Replaces ----- start = 12/12/2018 12:00:00 stop = 12/12/2018 12:10:00 title = Giulio Coniglio
+[  Info  ]       Replaces ----- start = 12/12/2018 12:10:00 stop = 12/12/2018 12:25:00 title = Giulio Coniglio
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 12/12/2018 12:15:00 stop = 12/12/2018 12:25:00 title = Giulio Coniglio
+[  Info  ]       Replaces ----- start = 12/12/2018 12:10:00 stop = 12/12/2018 12:25:00 title = Giulio Coniglio
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 12/12/2018 13:20:00 stop = 12/12/2018 13:30:00 title = Masha E Orso
+[  Info  ]       Replaces ----- start = 12/12/2018 13:20:00 stop = 12/12/2018 13:25:00 title = Masha E Orso
+[  Info  ]       Replaces ----- start = 12/12/2018 13:25:00 stop = 12/12/2018 13:30:00 title = I Racconti Di Masha
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 12/12/2018 13:30:00 stop = 12/12/2018 13:35:00 title = Masha E Orso
+[  Info  ]       Replaces ----- start = 12/12/2018 13:30:00 stop = 12/12/2018 13:40:00 title = I Racconti Di Masha
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 12/12/2018 13:35:00 stop = 12/12/2018 13:40:00 title = I Racconti Di Masha
+[  Info  ]       Replaces ----- start = 12/12/2018 13:30:00 stop = 12/12/2018 13:40:00 title = I Racconti Di Masha
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 12/12/2018 15:40:00 stop = 12/12/2018 15:55:00 title = Pj Masks 2
+[  Info  ]       Replaces ----- start = 12/12/2018 15:40:00 stop = 12/12/2018 15:50:00 title = Pj Masks 2
+[  Info  ]       Replaces ----- start = 12/12/2018 15:50:00 stop = 12/12/2018 16:00:00 title = Pj Masks 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 12/12/2018 15:55:00 stop = 12/12/2018 16:05:00 title = Pj Masks 2
+[  Info  ]       Replaces ----- start = 12/12/2018 15:50:00 stop = 12/12/2018 16:00:00 title = Pj Masks 2
+[  Info  ]       Replaces ----- start = 12/12/2018 16:00:00 stop = 12/12/2018 16:05:00 title = Masha E Orso 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 12/12/2018 16:05:00 stop = 12/12/2018 16:15:00 title = Masha E Orso 2
+[  Info  ]       Replaces ----- start = 12/12/2018 16:05:00 stop = 12/12/2018 16:10:00 title = Masha E Orso 2
+[  Info  ]       Replaces ----- start = 12/12/2018 16:10:00 stop = 12/12/2018 16:20:00 title = Masha E Orso 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 12/12/2018 16:15:00 stop = 12/12/2018 16:20:00 title = Masha E Orso 2
+[  Info  ]       Replaces ----- start = 12/12/2018 16:10:00 stop = 12/12/2018 16:20:00 title = Masha E Orso 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 12/12/2018 20:25:00 stop = 12/12/2018 20:40:00 title = Pj Masks
+[  Info  ]       Replaces ----- start = 12/12/2018 20:25:00 stop = 12/12/2018 20:35:00 title = Pj Masks
+[  Info  ]       Replaces ----- start = 12/12/2018 20:35:00 stop = 12/12/2018 20:45:00 title = Pj Masks
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 12/12/2018 20:40:00 stop = 12/12/2018 20:50:00 title = Pj Masks
+[  Info  ]       Replaces ----- start = 12/12/2018 20:35:00 stop = 12/12/2018 20:45:00 title = Pj Masks
+[  Info  ]       Replaces ----- start = 12/12/2018 20:45:00 stop = 12/12/2018 20:55:00 title = Gormiti
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 12/12/2018 23:25:00 stop = 12/12/2018 23:30:00 title = Dixiland 2
+[  Info  ]       Replaces ----- start = 12/12/2018 23:25:00 stop = 12/12/2018 23:30:00 title = Barbapapa'
+[  Info  ] 0.08 sec/update
 [  Debug ] 
 [  Info  ] ( 132/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cartoon Network) -- mode Incremental
 [  Info  ] 
@@ -753,7 +1190,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 142/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Disney Junior) -- mode Incremental
-[  Info  ] 0.21 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 143/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Super !) -- mode Incremental
 [  Info  ] 
@@ -787,7 +1224,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 08/12/2018 06:30:00 stop = 08/12/2018 08:09:00 title = Honey 3 - Il Coraggio Di Ballare
 [  Info  ]       Replaces ----- start = 08/12/2018 06:30:00 stop = 08/12/2018 08:09:00 title = Honey 3 - Il Coraggio Di Ballare
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.12 sec/update
 [  Debug ] 
 [  Info  ] ( 151/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema +24) -- mode Incremental
 [Error   ] Unable to update channel Premium Cinema +24
@@ -844,7 +1281,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 13/12/2018 05:00:00 stop = 13/12/2018 06:30:00 title = Psycho III
 [  Info  ]       Replaces ----- start = 13/12/2018 05:00:00 stop = 13/12/2018 06:30:00 title = Psycho III
-[  Info  ] 0.17 sec/update
+[  Info  ] 0.13 sec/update
 [  Debug ] 
 [  Info  ] ( 152/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Emotion) -- mode Incremental
 [  Info  ] 
@@ -868,7 +1305,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 10/12/2018 12:39:00 stop = 10/12/2018 14:11:00 title = Rush Hour 2 - Colpo Grosso Al Drago Rosso
 [  Info  ]       Replaces ----- start = 10/12/2018 12:39:00 stop = 10/12/2018 14:11:00 title = Rush Hour 2 - Colpo Grosso Al Drago Rosso
-[  Info  ] 0.16 sec/update
+[  Info  ] 0.17 sec/update
 [  Debug ] 
 [  Info  ] ( 154/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Investigation Discovery) -- mode Incremental
 [  Info  ] 
@@ -918,7 +1355,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 13/12/2018 05:45:00 stop = 13/12/2018 06:00:00 title = JANE FONDA - CINECHAT - (KS-KR)
 [  Info  ]       Replaces ----- start = 13/12/2018 05:45:00 stop = 13/12/2018 06:00:00 title = JANE FONDA - CINECHAT - (KS-KR)
-[  Info  ] 0.17 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 156/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Paramount Channel) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = Cinechat - John Turturro
@@ -1119,7 +1556,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 08/12/2018 06:30:00 stop = 08/12/2018 07:54:00 title = OSSESSIONE E FOLLIA - SHADES OF BLUE III
-[  Info  ]       Replaces ----- start = 08/12/2018 06:30:00 stop = 08/12/2018 07:54:00 title = OSSESSIONE E FOLLIA - SHADES OF BLUE III - PRIMA TV
+[  Info  ]       Replaces ----- start = 08/12/2018 06:30:00 stop = 08/12/2018 07:54:00 title = OSSESSIONE E FOLLIA - SHADES OF BLUE III
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 08/12/2018 07:54:00 stop = 08/12/2018 08:46:00 title = IN ROSSO - ANIMAL KINGDOM III
@@ -1221,7 +1658,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 08/12/2018 23:46:00 stop = 09/12/2018 00:35:00 title = OSSESSIONE E FOLLIA - SHADES OF BLUE III
-[  Info  ]       Replaces ----- start = 08/12/2018 23:46:00 stop = 09/12/2018 00:35:00 title = OSSESSIONE E FOLLIA - SHADES OF BLUE III - PRIMA TV
+[  Info  ]       Replaces ----- start = 08/12/2018 23:46:00 stop = 09/12/2018 00:35:00 title = OSSESSIONE E FOLLIA - SHADES OF BLUE III
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 09/12/2018 00:35:00 stop = 09/12/2018 01:27:00 title = IN ROSSO - ANIMAL KINGDOM III
@@ -1533,7 +1970,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 11/12/2018 07:18:00 stop = 11/12/2018 08:07:00 title = OSSESSIONE E FOLLIA - SHADES OF BLUE III
-[  Info  ]       Replaces ----- start = 11/12/2018 07:18:00 stop = 11/12/2018 08:07:00 title = OSSESSIONE E FOLLIA - SHADES OF BLUE III - PRIMA TV
+[  Info  ]       Replaces ----- start = 11/12/2018 07:18:00 stop = 11/12/2018 08:07:00 title = OSSESSIONE E FOLLIA - SHADES OF BLUE III
 [  Debug ]    suspicious      title in index page  = Major Crimes
 [  Debug ]       differs from title in showdetails = OSTAGGIO DI COMODO - M.....
 [  Info  ]    epg correction : 
@@ -1635,7 +2072,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 11/12/2018 22:05:00 stop = 11/12/2018 22:57:00 title = OSSESSIONE E FOLLIA - SHADES OF BLUE III
-[  Info  ]       Replaces ----- start = 11/12/2018 22:05:00 stop = 11/12/2018 22:57:00 title = OSSESSIONE E FOLLIA - SHADES OF BLUE III - PRIMA TV
+[  Info  ]       Replaces ----- start = 11/12/2018 22:05:00 stop = 11/12/2018 22:57:00 title = OSSESSIONE E FOLLIA - SHADES OF BLUE III
 [  Debug ]    suspicious      title in index page  = Chicago P.D.
 [  Debug ]       differs from title in showdetails = IN CERCA DI REDENZIONE.....
 [  Info  ]    epg correction : 
@@ -1735,7 +2172,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 12/12/2018 15:26:00 stop = 12/12/2018 16:15:00 title = OSSESSIONE E FOLLIA - SHADES OF BLUE III
-[  Info  ]       Replaces ----- start = 12/12/2018 15:26:00 stop = 12/12/2018 16:15:00 title = OSSESSIONE E FOLLIA - SHADES OF BLUE III - PRIMA TV
+[  Info  ]       Replaces ----- start = 12/12/2018 15:26:00 stop = 12/12/2018 16:15:00 title = OSSESSIONE E FOLLIA - SHADES OF BLUE III
 [  Debug ]    suspicious      title in index page  = Blindspot
 [  Debug ]       differs from title in showdetails = REGARD A MERE MAD R.....
 [  Info  ]    epg correction : 
@@ -1793,7 +2230,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 13/12/2018 03:55:00 stop = 13/12/2018 04:36:00 title = OSSESSIONE E FOLLIA - SHADES OF BLUE III
-[  Info  ]       Replaces ----- start = 13/12/2018 03:55:00 stop = 13/12/2018 04:36:00 title = OSSESSIONE E FOLLIA - SHADES OF BLUE III - PRIMA TV
+[  Info  ]       Replaces ----- start = 13/12/2018 03:55:00 stop = 13/12/2018 04:36:00 title = OSSESSIONE E FOLLIA - SHADES OF BLUE III
 [  Debug ]    suspicious      title in index page  = Distretto di Polizia
 [  Debug ]       differs from title in showdetails = IL VIAGGIO DELLA SPERANZA - DI.....
 [  Info  ]    epg correction : 
@@ -1906,7 +2343,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 13/12/2018 22:57:00 stop = 13/12/2018 23:47:00 title = UN SOLO SOLDATO - CHICAGO P.D. IV
 [  Info  ]       Replaces ----- start = 13/12/2018 22:57:00 stop = 13/12/2018 23:47:00 title = UN SOLO SOLDATO - CHICAGO P.D. IV
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.13 sec/update
 [  Debug ] 
 [  Info  ] ( 158/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Joy) -- mode Incremental
 [Error   ] Unable to update channel Premium Joy
@@ -1948,10 +2385,10 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Debug ] 32730 shows in 171 channels
-[  Debug ] 217 updated shows
-[  Debug ] 176 new shows added
+[  Debug ] 32706 shows in 171 channels
+[  Debug ] 508 updated shows
+[  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 07/12/2018 08:21:18 done in 16m 14s
+[        ] Job finished at 07/12/2018 12:18:25 done in 13m 22s
 [  Debug ] statistics upload error: The remote server returned an error: (404) Not Found.
