@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 22/12/2018 12:05:03
+[        ] Job started at 22/12/2018 16:05:03
 [  Debug ] 
 [  Debug ] Running  on: Unix 3.13.0.132
 [  Debug ] Environment: 4.0.30319.42000
@@ -29,7 +29,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+01:00	(no DST in effect)
 [  Debug ] 	next DST dates  :	31/03/2019 02:00 (local)
 [  Debug ] 	                :	27/10/2019 03:00 (local)
-[  Debug ] 	local time now  :	22/12/2018 12:05:03
+[  Debug ] 	local time now  :	22/12/2018 16:05:03
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -289,7 +289,7 @@
 [Error   ] Current culture: en-GB
 [Error   ] time parsing error : String was not recognized as a valid DateTime.
 [Error   ] nextstarttime time scrubbed : 
-[Error   ] computer date/time format: 22/12/2018 12:07:14
+[Error   ] computer date/time format: 22/12/2018 16:07:10
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] (  14/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Storia) -- mode Incremental
@@ -388,7 +388,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  43/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky TG24) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.13 sec/update
 [  Debug ] 
 [  Info  ] (  44/171 ) PROGRAMMI-TV.EU -- chan. (xmltv_id=TGcom 24) -- mode Incremental
 [Error   ] no shows in indexpage!
@@ -451,7 +451,7 @@
 [  Debug ]       differs from title in showdetails = Vita da ricchi -  -
 [  Debug ]    suspicious      title in index page  = Vita da ricchi -
 [  Debug ]       differs from title in showdetails = Vita da ricchi -  -
-[  Info  ] 0.19 sec/update
+[  Info  ] 0.31 sec/update
 [  Debug ] 
 [  Info  ] (  47/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Uno +1) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = X Factor 2018 - Le audizioni
@@ -478,7 +478,7 @@
 [  Debug ]       differs from title in showdetails = X Factor 2018
 [  Debug ]    suspicious      title in index page  = X Factor 2018 - Le audizioni
 [  Debug ]       differs from title in showdetails = X Factor 2018
-[  Info  ] 0.28 sec/update
+[  Info  ] 0.30 sec/update
 [  Debug ] 
 [  Info  ] (  48/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=SKY CLASSICA HD) -- mode Incremental
 [  Info  ] 
@@ -486,12 +486,12 @@
 [  Info  ] (  49/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Atlantic HD) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = Crescere Neofascisti - 1^TV
 [  Debug ]       differs from title in showdetails = Programma non disponibile
-[  Info  ] 0.28 sec/update
+[  Info  ] 0.29 sec/update
 [  Debug ] 
 [  Info  ] (  50/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Atlantic +1) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = X Factor 2018 - Le audizioni
 [  Debug ]       differs from title in showdetails = X Factor 2018
-[  Info  ] 0.26 sec/update
+[  Info  ] 0.30 sec/update
 [  Debug ] 
 [  Info  ] (  51/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox HD) -- mode Incremental
 [  Info  ] 
@@ -718,6 +718,8 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 115/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=National Geographic HD) -- mode Incremental
+[Warning ] error downloading page: Error getting response stream (ReadDone2): ReceiveFailure
+[Warning ] pausing 1 of 4 times for 5 seconds before re-try.
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 116/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=NatGeoPeople SuperHD) -- mode Incremental
@@ -760,26 +762,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 129/171 ) RAI.IT -- chan. (xmltv_id=Rai Gulp HD) -- mode Incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/12/2018 11:35:00 stop = 27/12/2018 11:55:00 title = Kung Fu Panda
-[  Info  ]       Replaces ----- start = 27/12/2018 11:35:00 stop = 27/12/2018 12:00:00 title = Kung Fu Panda
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/12/2018 11:55:00 stop = 27/12/2018 12:20:00 title = Kung Fu Panda
-[  Info  ]       Replaces ----- start = 27/12/2018 11:35:00 stop = 27/12/2018 12:00:00 title = Kung Fu Panda
-[  Info  ]       Replaces ----- start = 27/12/2018 12:00:00 stop = 27/12/2018 12:25:00 title = Kung Fu Panda
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/12/2018 14:15:00 stop = 27/12/2018 14:40:00 title = Alex And Co.
-[  Info  ]       Replaces ----- start = 27/12/2018 14:10:00 stop = 27/12/2018 14:35:00 title = Alex And Co.
-[  Info  ]       Replaces ----- start = 27/12/2018 14:35:00 stop = 27/12/2018 15:00:00 title = Maggie And Bianca Speciale
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 27/12/2018 21:20:00 stop = 27/12/2018 21:45:00 title = Alex And Co.
-[  Info  ]       Replaces ----- start = 27/12/2018 21:00:00 stop = 27/12/2018 21:25:00 title = Sara E Marti
-[  Info  ]       Replaces ----- start = 27/12/2018 21:25:00 stop = 27/12/2018 21:50:00 title = Alex And Co.
-[  Info  ] 0.16 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 130/171 ) RAI.IT -- chan. (xmltv_id=Rai YoYo HD) -- mode Incremental
 [  Info  ] 
@@ -916,7 +899,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 28/12/2018 02:24:00 stop = 28/12/2018 04:13:00 title = Codice Swordfish
 [  Info  ]       Replaces ----- start = 28/12/2018 02:24:00 stop = 28/12/2018 04:13:00 title = Codice Swordfish
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.13 sec/update
 [  Debug ] 
 [  Info  ] ( 151/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Emotion) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = Il mio amico Babbo Natale 2
@@ -943,7 +926,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 27/12/2018 19:12:00 stop = 27/12/2018 21:15:00 title = Moonlight Mile
 [  Info  ]       Replaces ----- start = 27/12/2018 19:12:00 stop = 27/12/2018 21:15:00 title = Moonlight Mile
-[  Info  ] 0.18 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 152/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Comedy) -- mode Incremental
 [  Info  ]    forced update : 
@@ -968,7 +951,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 28/12/2018 15:42:00 stop = 28/12/2018 17:29:00 title = Tower Heist - Colpo Ad Alto Livello
 [  Info  ]       Replaces ----- start = 28/12/2018 15:42:00 stop = 28/12/2018 17:29:00 title = Tower Heist - Colpo Ad Alto Livello
-[  Info  ] 0.20 sec/update
+[  Info  ] 0.23 sec/update
 [  Debug ] 
 [  Info  ] ( 153/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Investigation Discovery) -- mode Incremental
 [  Info  ] 
@@ -1046,7 +1029,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 28/12/2018 15:15:00 stop = 28/12/2018 16:55:00 title = Serendipity
 [  Info  ]       Replaces ----- start = 28/12/2018 15:15:00 stop = 28/12/2018 16:55:00 title = Serendipity
-[  Info  ] 0.16 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 155/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Paramount Channel) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = This is it
@@ -1121,7 +1104,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 28/12/2018 15:15:00 stop = 28/12/2018 16:55:00 title = Serendipity
 [  Info  ]       Replaces ----- start = 28/12/2018 15:15:00 stop = 28/12/2018 16:55:00 title = Serendipity
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 156/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Action HD) -- mode Incremental
 [Error   ] Unable to update channel Premium Action HD
@@ -2142,10 +2125,10 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Debug ] 33385 shows in 171 channels
-[  Debug ] 353 updated shows
+[  Debug ] 33388 shows in 171 channels
+[  Debug ] 324 updated shows
 [  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 22/12/2018 12:19:11 done in 14m 8s
+[        ] Job finished at 22/12/2018 16:21:07 done in 16m 4s
 [  Debug ] statistics upload error: The remote server returned an error: (404) Not Found.
