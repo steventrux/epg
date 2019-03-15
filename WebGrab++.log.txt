@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 15/03/2019 08:05:03
+[        ] Job started at 15/03/2019 12:05:03
 [  Debug ] 
 [  Debug ] Running  on: Unix 3.13.0.132
 [  Debug ] Environment: 4.0.30319.42000
@@ -29,7 +29,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+01:00	(no DST in effect)
 [  Debug ] 	next DST dates  :	31/03/2019 02:00 (local)
 [  Debug ] 	                :	27/10/2019 03:00 (local)
-[  Debug ] 	local time now  :	15/03/2019 08:05:04
+[  Debug ] 	local time now  :	15/03/2019 12:05:05
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -231,13 +231,15 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   5/171 ) MEDIASET.IT -- chan. (xmltv_id=Canale 5 HD) -- mode Incremental
-[  Info  ] 0.07 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   6/171 ) MEDIASET.IT -- chan. (xmltv_id=Italia 1 HD) -- mode Incremental
-[  Info  ] 0.06 sec/update
+[Warning ] error downloading page: Error: ConnectFailure (Connection refused)
+[Warning ] pausing 1 of 4 times for 5 seconds before re-try.
+[  Info  ] 0.49 sec/update
 [  Debug ] 
 [  Info  ] (   7/171 ) MEDIASET.IT -- chan. (xmltv_id=Italia 2) -- mode Incremental
-[  Info  ] 0.07 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   8/171 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La1 HD) -- mode Incremental
 [Error   ] Unable to update channel Rsi La1 HD
@@ -275,13 +277,13 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  14/171 ) MEDIASET.IT -- chan. (xmltv_id=Mediaset Extra) -- mode Incremental
-[  Info  ] 0.07 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  15/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Storia) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  16/171 ) MEDIASET.IT -- chan. (xmltv_id=Iris) -- mode Incremental
-[  Info  ] 0.06 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  17/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Sport 1 HD) -- mode Incremental
 [  Info  ] 
@@ -399,6 +401,8 @@
 
 [  Debug ] 
 [  Info  ] (  47/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Uno HD) -- mode Incremental
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = Vita da ricchi -
 [  Debug ]       differs from title in showdetails = Vita da ricchi -  -
 [  Debug ]    suspicious      title in index page  = Vita da ricchi -
@@ -439,7 +443,7 @@
 [  Debug ]       differs from title in showdetails = Vita da ricchi -  -
 [  Debug ]    suspicious      title in index page  = Vita da ricchi -
 [  Debug ]       differs from title in showdetails = Vita da ricchi -  -
-[  Info  ] 0.30 sec/update
+[  Info  ] 0.29 sec/update
 [  Debug ] 
 [  Info  ] (  48/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Uno +1) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = X Factor 2018 - Le audizioni
@@ -466,7 +470,7 @@
 [  Debug ]       differs from title in showdetails = X Factor 2018
 [  Debug ]    suspicious      title in index page  = X Factor 2018 - Le audizioni
 [  Debug ]       differs from title in showdetails = X Factor 2018
-[  Info  ] 0.28 sec/update
+[  Info  ] 0.29 sec/update
 [  Debug ] 
 [  Info  ] (  49/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=SKY CLASSICA HD) -- mode Incremental
 [  Info  ] 
@@ -474,7 +478,7 @@
 [  Info  ] (  50/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Atlantic HD) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = Crescere Neofascisti - 1^TV
 [  Debug ]       differs from title in showdetails = Programma non disponibile
-[  Info  ] 0.30 sec/update
+[  Info  ] 0.28 sec/update
 [  Debug ] 
 [  Info  ] (  51/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Atlantic +1) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = X Factor 2018 - Le audizioni
@@ -751,7 +755,51 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 130/171 ) RAI.IT -- chan. (xmltv_id=Rai Gulp HD) -- mode Incremental
-[  Info  ] 
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 15/03/2019 09:35:00 stop = 15/03/2019 10:00:00 title = Le Nuove Avventure Di Peter Pan
+[  Info  ]       Replaces ----- start = 15/03/2019 09:30:00 stop = 15/03/2019 09:55:00 title = Le Nuove Avventure Di Peter Pan
+[  Info  ]       Replaces ----- start = 15/03/2019 09:55:00 stop = 15/03/2019 10:05:00 title = Vita Da Giungla
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 15/03/2019 10:50:00 stop = 15/03/2019 11:15:00 title = La Principessa Sissi
+[  Info  ]       Replaces ----- start = 15/03/2019 10:45:00 stop = 15/03/2019 11:10:00 title = La Principessa Sissi
+[  Info  ]       Replaces ----- start = 15/03/2019 11:10:00 stop = 15/03/2019 11:35:00 title = La Principessa Sissi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 15/03/2019 11:15:00 stop = 15/03/2019 11:40:00 title = La Principessa Sissi
+[  Info  ]       Replaces ----- start = 15/03/2019 11:10:00 stop = 15/03/2019 11:35:00 title = La Principessa Sissi
+[  Info  ]       Replaces ----- start = 15/03/2019 11:35:00 stop = 15/03/2019 12:00:00 title = Kung Fu Panda
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 15/03/2019 11:40:00 stop = 15/03/2019 12:05:00 title = Kung Fu Panda
+[  Info  ]       Replaces ----- start = 15/03/2019 11:35:00 stop = 15/03/2019 12:00:00 title = Kung Fu Panda
+[  Info  ]       Replaces ----- start = 15/03/2019 12:00:00 stop = 15/03/2019 12:25:00 title = Kung Fu Panda
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 15/03/2019 12:05:00 stop = 15/03/2019 12:30:00 title = Kung Fu Panda
+[  Info  ]       Replaces ----- start = 15/03/2019 12:00:00 stop = 15/03/2019 12:25:00 title = Kung Fu Panda
+[  Info  ]       Replaces ----- start = 15/03/2019 12:25:00 stop = 15/03/2019 12:55:00 title = Geronimo Stilton (ii)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 15/03/2019 12:30:00 stop = 15/03/2019 12:55:00 title = Geronimo Stilton (ii)
+[  Info  ]       Replaces ----- start = 15/03/2019 12:25:00 stop = 15/03/2019 12:55:00 title = Geronimo Stilton (ii)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 15/03/2019 22:40:00 stop = 15/03/2019 23:20:00 title = Heidi Bienvenida
+[  Info  ]       Replaces ----- start = 15/03/2019 22:20:00 stop = 15/03/2019 22:45:00 title = Backstage
+[  Info  ]       Replaces ----- start = 15/03/2019 22:45:00 stop = 15/03/2019 23:35:00 title = Heidi Bienvenida
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 15/03/2019 23:20:00 stop = 15/03/2019 23:45:00 title = Battle Spirits (v)
+[  Info  ]       Replaces ----- start = 15/03/2019 22:45:00 stop = 15/03/2019 23:35:00 title = Heidi Bienvenida
+[  Info  ]       Replaces ----- start = 15/03/2019 23:35:00 stop = 16/03/2019 00:00:00 title = Battle Spirits (v)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 15/03/2019 23:45:00 stop = 16/03/2019 00:25:00 title = Battle Spirits (v)
+[  Info  ]       Replaces ----- start = 15/03/2019 23:35:00 stop = 16/03/2019 00:00:00 title = Battle Spirits (v)
+[  Info  ]       Replaces ----- start = 16/03/2019 00:00:00 stop = 16/03/2019 00:25:00 title = Battle Spirits (v)
+[  Info  ] 0.22 sec/update
 [  Debug ] 
 [  Info  ] ( 131/171 ) RAI.IT -- chan. (xmltv_id=Rai YoYo HD) -- mode Incremental
 [  Info  ] 
@@ -812,6 +860,10 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 150/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema HD) -- mode Incremental
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = Superman iv
 [  Debug ]       differs from title in showdetails = Superman IV
 [  Info  ]    epg correction : 
@@ -851,6 +903,12 @@
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] ( 151/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Energy) -- mode Incremental
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
+[Warning ] error downloading page: The request timed out (10sec)
+[Warning ] Retry 2 of 4 times
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = Run all night - Una notte per sopravvivere
 [  Debug ]       differs from title in showdetails = Run All Night
 [  Info  ]    epg correction : 
@@ -869,6 +927,10 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 18/03/2019 06:30:00 stop = 18/03/2019 07:01:00 title = L' INTRUSO - BUIO
 [  Info  ]       Replaces ----- start = 18/03/2019 06:30:00 stop = 18/03/2019 07:01:00 title = L' INTRUSO - BUIO
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
+[Warning ] error downloading page: The request timed out (10sec)
+[Warning ] Retry 2 of 4 times
 [  Debug ]    suspicious      title in index page  = Buio
 [  Debug ]       differs from title in showdetails = 5 ORE DI LUNA .....
 [  Info  ]    epg correction : 
@@ -883,7 +945,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 19/03/2019 13:27:00 stop = 19/03/2019 15:32:00 title = Hunger Games: Il canto della rivolta - Parte I
 [  Info  ]       Replaces ----- start = 19/03/2019 13:27:00 stop = 19/03/2019 15:32:00 title = Hunger Games: Il canto della rivolta - Parte I
-[  Info  ] 0.18 sec/update
+[  Info  ] 5.31 sec/update
 [  Debug ] 
 [  Info  ] ( 152/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Emotion) -- mode Incremental
 [  Info  ] 
@@ -895,6 +957,8 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 16/03/2019 04:13:00 stop = 16/03/2019 04:32:00 title = LA COMMEDIA NAPOLETANA (SENZA INTERVISTA SALEMME) - COMEDY EXTRA
 [  Info  ]       Replaces ----- start = 16/03/2019 04:13:00 stop = 16/03/2019 04:32:00 title = LA COMMEDIA NAPOLETANA (SENZA INTERVISTA SALEMME) - COMEDY EXTRA
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = Comedy extra
 [  Debug ]       differs from title in showdetails = SPECIALE DONNE COMICHE.....
 [  Info  ]    epg correction : 
@@ -933,9 +997,13 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 21/03/2019 04:21:00 stop = 21/03/2019 04:30:00 title = SPECIALE COMICITA' TOSCANA - COMEDY EXTRA
 [  Info  ]       Replaces ----- start = 21/03/2019 04:21:00 stop = 21/03/2019 04:30:00 title = SPECIALE COMICITA' TOSCANA - COMEDY EXTRA
-[  Info  ] 0.17 sec/update
+[  Info  ] 1.17 sec/update
 [  Debug ] 
 [  Info  ] ( 154/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Investigation Discovery) -- mode Incremental
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
 [Error   ] Unable to update channel Premium Investigation Discovery
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -952,6 +1020,10 @@
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] ( 154/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Paramount Channel) -- mode Incremental
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
 [Error   ] Unable to update channel Paramount Channel
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1016,6 +1088,8 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 15/03/2019 11:13:00 stop = 15/03/2019 12:04:00 title = LA MIA MIGLIORE AMICA - COLD CASE-DELITTI IRRISOLTI II
 [  Info  ]       Replaces ----- start = 15/03/2019 11:13:00 stop = 15/03/2019 12:04:00 title = LA MIA MIGLIORE AMICA - COLD CASE-DELITTI IRRISOLTI II
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = Deception
 [  Debug ]       differs from title in showdetails = LA STANZA DEGLI ENI.....
 [  Info  ]    epg correction : 
@@ -1044,6 +1118,8 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 15/03/2019 17:02:00 stop = 15/03/2019 17:53:00 title = LA MIA MIGLIORE AMICA - COLD CASE-DELITTI IRRISOLTI II
 [  Info  ]       Replaces ----- start = 15/03/2019 17:02:00 stop = 15/03/2019 17:53:00 title = LA MIA MIGLIORE AMICA - COLD CASE-DELITTI IRRISOLTI II
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = Chicago P.D.
 [  Debug ]       differs from title in showdetails = 300.000 LIKES - CHICAG.....
 [  Info  ]    epg correction : 
@@ -1127,7 +1203,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 16/03/2019 08:39:00 stop = 16/03/2019 09:28:00 title = TOLLERANZA ZERO - LAW & ORDER: UNITA' SPECIALE XX
-[  Info  ]       Replaces ----- start = 16/03/2019 08:39:00 stop = 16/03/2019 09:28:00 title = TOLLERANZA ZERO - LAW & ORDER: UNITA' SPECIALE XX - PRIMA TV
+[  Info  ]       Replaces ----- start = 16/03/2019 08:39:00 stop = 16/03/2019 09:28:00 title = TOLLERANZA ZERO - LAW & ORDER: UNITA' SPECIALE XX
 [  Debug ]    suspicious      title in index page  = Gone
 [  Debug ]       differs from title in showdetails = LA TIGRE - GON.....
 [  Info  ]    epg correction : 
@@ -1215,7 +1291,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 16/03/2019 23:44:00 stop = 17/03/2019 00:34:00 title = TOLLERANZA ZERO - LAW & ORDER: UNITA' SPECIALE XX
-[  Info  ]       Replaces ----- start = 16/03/2019 23:44:00 stop = 17/03/2019 00:34:00 title = TOLLERANZA ZERO - LAW & ORDER: UNITA' SPECIALE XX - PRIMA TV
+[  Info  ]       Replaces ----- start = 16/03/2019 23:44:00 stop = 17/03/2019 00:34:00 title = TOLLERANZA ZERO - LAW & ORDER: UNITA' SPECIALE XX
 [  Debug ]    suspicious      title in index page  = Gone
 [  Debug ]       differs from title in showdetails = LA TIGRE - GON.....
 [  Info  ]    epg correction : 
@@ -1270,6 +1346,8 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 17/03/2019 06:30:00 stop = 17/03/2019 07:54:00 title = CLAMOROUS NIGHT - BLINDSPOT III
 [  Info  ]       Replaces ----- start = 17/03/2019 06:30:00 stop = 17/03/2019 07:54:00 title = CLAMOROUS NIGHT - BLINDSPOT III
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = Whiskey Cavalier
 [  Debug ]       differs from title in showdetails = DUE AGENTI PER UNA MISSION.....
 [  Info  ]    epg correction : 
@@ -1516,12 +1594,16 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 18/03/2019 22:04:00 stop = 18/03/2019 22:55:00 title = LET IT GO - BLINDSPOT III
 [  Info  ]       Replaces ----- start = 18/03/2019 22:04:00 stop = 18/03/2019 22:55:00 title = LET IT GO - BLINDSPOT III
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = Chicago P.D.
 [  Debug ]       differs from title in showdetails = TUTTO COME PRIMA - CHI.....
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 18/03/2019 22:55:00 stop = 18/03/2019 23:45:00 title = TUTTO COME PRIMA - CHICAGO P.D. VI
 [  Info  ]       Replaces ----- start = 18/03/2019 22:55:00 stop = 18/03/2019 23:45:00 title = TUTTO COME PRIMA - CHICAGO P.D. VI
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = Deception
 [  Debug ]       differs from title in showdetails = IL MISTERO DEL DIAM.....
 [  Info  ]    epg correction : 
@@ -1569,7 +1651,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 19/03/2019 07:20:00 stop = 19/03/2019 07:58:00 title = TOLLERANZA ZERO - LAW & ORDER: UNITA' SPECIALE XX
-[  Info  ]       Replaces ----- start = 19/03/2019 07:20:00 stop = 19/03/2019 07:58:00 title = TOLLERANZA ZERO - LAW & ORDER: UNITA' SPECIALE XX - PRIMA TV
+[  Info  ]       Replaces ----- start = 19/03/2019 07:20:00 stop = 19/03/2019 07:58:00 title = TOLLERANZA ZERO - LAW & ORDER: UNITA' SPECIALE XX
 [  Debug ]    suspicious      title in index page  = Shades of blue
 [  Debug ]       differs from title in showdetails = NESSUN PRIGIONIERO - SHA.....
 [  Info  ]    epg correction : 
@@ -1669,7 +1751,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 19/03/2019 22:08:00 stop = 19/03/2019 22:59:00 title = TOLLERANZA ZERO - LAW & ORDER: UNITA' SPECIALE XX
-[  Info  ]       Replaces ----- start = 19/03/2019 22:08:00 stop = 19/03/2019 22:59:00 title = TOLLERANZA ZERO - LAW & ORDER: UNITA' SPECIALE XX - PRIMA TV
+[  Info  ]       Replaces ----- start = 19/03/2019 22:08:00 stop = 19/03/2019 22:59:00 title = TOLLERANZA ZERO - LAW & ORDER: UNITA' SPECIALE XX
 [  Debug ]    suspicious      title in index page  = Deception
 [  Debug ]       differs from title in showdetails = L' OMICIDIO SCOMPAR.....
 [  Info  ]    epg correction : 
@@ -1722,6 +1804,8 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 20/03/2019 06:30:00 stop = 20/03/2019 07:05:00 title = DUE AGENTI PER UNA MISSIONE - WHISKEY CAVALIER I
 [  Info  ]       Replaces ----- start = 20/03/2019 06:30:00 stop = 20/03/2019 07:05:00 title = DUE AGENTI PER UNA MISSIONE - WHISKEY CAVALIER I
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
 [  Debug ]    suspicious      title in index page  = Whiskey Cavalier
 [  Debug ]       differs from title in showdetails = LA LISTA CECA - WHISKEY CA.....
 [  Info  ]    epg correction : 
@@ -1789,7 +1873,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 20/03/2019 17:03:00 stop = 20/03/2019 17:54:00 title = TOLLERANZA ZERO - LAW & ORDER: UNITA' SPECIALE XX
-[  Info  ]       Replaces ----- start = 20/03/2019 17:03:00 stop = 20/03/2019 17:54:00 title = TOLLERANZA ZERO - LAW & ORDER: UNITA' SPECIALE XX - PRIMA TV
+[  Info  ]       Replaces ----- start = 20/03/2019 17:03:00 stop = 20/03/2019 17:54:00 title = TOLLERANZA ZERO - LAW & ORDER: UNITA' SPECIALE XX
 [  Debug ]    suspicious      title in index page  = Chicago P.D.
 [  Debug ]       differs from title in showdetails = SERIAL KILLER - CHICAG.....
 [  Info  ]    epg correction : 
@@ -1806,6 +1890,10 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 20/03/2019 19:33:00 stop = 20/03/2019 20:23:00 title = LA FINE E L'INIZIO - SHADES OF BLUE III
 [  Info  ]       Replaces ----- start = 20/03/2019 19:33:00 stop = 20/03/2019 20:23:00 title = LA FINE E L'INIZIO - SHADES OF BLUE III
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
+[Warning ] error downloading page: The request timed out (10sec)
+[Warning ] Retry 2 of 4 times
 [  Debug ]    suspicious      title in index page  = Murder in the first
 [  Debug ]       differs from title in showdetails = NUMERO TRENTANOVE - MURDER IN.....
 [  Info  ]    epg correction : 
@@ -1845,7 +1933,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 21/03/2019 03:57:00 stop = 21/03/2019 04:39:00 title = TOLLERANZA ZERO - LAW & ORDER: UNITA' SPECIALE XX
-[  Info  ]       Replaces ----- start = 21/03/2019 03:57:00 stop = 21/03/2019 04:39:00 title = TOLLERANZA ZERO - LAW & ORDER: UNITA' SPECIALE XX - PRIMA TV
+[  Info  ]       Replaces ----- start = 21/03/2019 03:57:00 stop = 21/03/2019 04:39:00 title = TOLLERANZA ZERO - LAW & ORDER: UNITA' SPECIALE XX
 [  Debug ]    suspicious      title in index page  = Il commissario Schumann
 [  Debug ]       differs from title in showdetails = SALUTI DA JOHNNY SILVER - IL COMM.....
 [  Info  ]    epg correction : 
@@ -1958,7 +2046,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 21/03/2019 23:46:00 stop = 22/03/2019 00:36:00 title = WHISKEY CAVALIER, 3 - WHISKEY CAVALIER I - PRIMA TV
 [  Info  ]       Replaces ----- start = 21/03/2019 23:46:00 stop = 22/03/2019 00:36:00 title = WHISKEY CAVALIER, 3 - WHISKEY CAVALIER I - PRIMA TV
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.77 sec/update
 [  Debug ] 
 [  Info  ] ( 155/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Joy) -- mode Incremental
 [Error   ] Unable to update channel Premium Joy
@@ -1985,6 +2073,8 @@
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] ( 155/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Sport 2 HD) -- mode Incremental
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
 [Error   ] Unable to update channel Premium Sport 2 HD
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1993,6 +2083,8 @@
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] ( 155/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Calcio 1) -- mode Incremental
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
 [Error   ] Unable to update channel Premium Calcio 1
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -2001,9 +2093,9 @@
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Debug ] 32472 shows in 171 channels
-[  Debug ] 219 updated shows
-[  Debug ] 153 new shows added
+[  Debug ] 262 updated shows
+[  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 15/03/2019 08:15:53 done in 10m 49s
+[        ] Job finished at 15/03/2019 12:20:56 done in 15m 52s
 [  Debug ] statistics upload error: The remote server returned an error: (404) Not Found.
