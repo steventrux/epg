@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 29/03/2019 08:05:02
+[        ] Job started at 29/03/2019 12:05:03
 [  Debug ] 
 [  Debug ] Running  on: Unix 3.13.0.132
 [  Debug ] Environment: 4.0.30319.42000
@@ -29,7 +29,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+01:00	(no DST in effect)
 [  Debug ] 	next DST dates  :	31/03/2019 02:00 (local)
 [  Debug ] 	                :	27/10/2019 03:00 (local)
-[  Debug ] 	local time now  :	29/03/2019 08:05:03
+[  Debug ] 	local time now  :	29/03/2019 12:05:03
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -45,7 +45,6 @@
 [  Info  ] Found existing channel (xmltv_id=La 5) in the config file
 [  Info  ] Found existing channel (xmltv_id=LA7) in the config file
 [  Info  ] Found existing channel (xmltv_id=LA7 D) in the config file
-[  Debug ] removed a show that is not in time increasing order in LA7 D starting after 30/03/2019 04:50:00
 [  Debug ] removed 7 overlapping shows in LA7 D starting after 30/03/2019 07:10:00
 [  Info  ] Found existing channel (xmltv_id=TV 8) in the config file
 [  Info  ] Found existing channel (xmltv_id=Nove HD) in the config file
@@ -252,12 +251,14 @@
 [  Debug ]    skipped negative show time! at 04/04/2019 04:12:00
 [  Debug ]    suspicious      title in index page  = Ieri e oggi in tv special
 [  Debug ]       differs from title in showdetails = Televendita Media Shopping
-[  Info  ] 0.08 sec/update
+[  Info  ] 0.07 sec/update
 [  Debug ] 
 [  Info  ] (   5/171 ) MEDIASET.IT -- chan. (xmltv_id=Canale 5 HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20190329060000 +0100
 [  Debug ] starting with show : Prima pagina Tg5 at local time 29/03/2019 06:00
+[Warning ] error downloading page: Error: ConnectFailure (Connection refused)
+[Warning ] pausing 1 of 4 times for 5 seconds before re-try.
 [  Debug ]    suspicious      title in index page  = Supercinema
 [  Debug ]       differs from title in showdetails = Mattino Cinque
 [  Debug ]    suspicious      title in index page  = Amici di Maria
@@ -270,7 +271,7 @@
 [  Debug ]       differs from title in showdetails = Striscia la notizia
 [  Debug ]    suspicious      title in index page  = L' amore strappato
 [  Debug ]       differs from title in showdetails = Quasi amici
-[  Info  ] 0.07 sec/update
+[  Info  ] 0.25 sec/update
 [  Debug ] 
 [  Info  ] (   6/171 ) MEDIASET.IT -- chan. (xmltv_id=Italia 1 HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -290,7 +291,7 @@
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20190329070000 +0100
 [  Debug ] starting with show : Televendita Media Shopping at local time 29/03/2019 07:00
-[  Info  ] 0.07 sec/update
+[  Info  ] 0.09 sec/update
 [  Debug ] 
 [  Info  ] (   8/171 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La1 HD) -- mode Incremental
 [Error   ] Unable to update channel Rsi La1 HD
@@ -348,13 +349,13 @@
 [  Debug ] time-offset change for all shows after starttime 20190331060000 +0200
 [  Debug ] starting with show : Tgcom24 at local time 31/03/2019 06:00
 [  Debug ]    suspicious      title in index page  = Avanti un altro!
-[  Debug ]       differs from title in showdetails = Scherzi a parte snack
-[  Debug ]    suspicious      title in index page  = Striscia la notizia
-[  Debug ]       differs from title in showdetails = Distretto di polizia
+[  Debug ]       differs from title in showdetails = Avanti un altro! (?)
+[  Debug ]    suspicious      title in index page  = Melaverde
+[  Debug ]       differs from title in showdetails = Melaverde (?)
 [  Debug ]    suspicious      title in index page  = Avanti un altro!
-[  Debug ]       differs from title in showdetails = Distretto di polizia
+[  Debug ]       differs from title in showdetails = Avanti un altro! (?)
 [  Debug ]    suspicious      title in index page  = Paolo Borsellino
-[  Debug ]       differs from title in showdetails = Distretto di polizia
+[  Debug ]       differs from title in showdetails = Paolo Borsellino (?)
 [  Debug ]    suspicious      title in index page  = Zelig
 [  Debug ]       differs from title in showdetails = Le Iene Show
 [  Debug ]    skipped negative show time! at 04/04/2019 04:40:00
@@ -362,7 +363,7 @@
 [  Debug ]       differs from title in showdetails = Pomeriggio Cinque
 [  Debug ]    suspicious      title in index page  = L'isola dei famosi
 [  Debug ]       differs from title in showdetails = Chi vuol essere milionario
-[  Info  ] 0.07 sec/update
+[  Info  ] 0.08 sec/update
 [  Debug ] 
 [  Info  ] (  15/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Storia) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -382,12 +383,6 @@
 [  Debug ]       differs from title in showdetails = Sentieri selvaggi
 [  Debug ]    suspicious      title in index page  = Sentieri selvaggi
 [  Debug ]       differs from title in showdetails = Vizio di forma
-[  Debug ]    suspicious      title in index page  = La califfa
-[  Debug ]       differs from title in showdetails = La califfa (?)
-[  Debug ]    suspicious      title in index page  = Via Zanardi, 33
-[  Debug ]       differs from title in showdetails = Via Zanardi, 33 (?)
-[  Debug ]    suspicious      title in index page  = Renegade
-[  Debug ]       differs from title in showdetails = Renegade (?)
 [  Debug ]    suspicious      title in index page  = Vizio di forma
 [  Debug ]       differs from title in showdetails = La gatta sul tetto che s.....
 [  Info  ] 0.07 sec/update
@@ -726,7 +721,7 @@
 [  Debug ]       differs from title in showdetails = X Factor 2018
 [  Debug ]    suspicious      title in index page  = X Factor 2018 - Le audizioni
 [  Debug ]       differs from title in showdetails = X Factor 2018
-[  Info  ] 0.29 sec/update
+[  Info  ] 0.30 sec/update
 [  Debug ] 
 [  Info  ] (  49/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=SKY CLASSICA HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -744,7 +739,7 @@
 [  Debug ] starting with show : Succession at local time 31/03/2019 03:00
 [  Debug ]    suspicious      title in index page  = Crescere Neofascisti - 1^TV
 [  Debug ]       differs from title in showdetails = Programma non disponibile
-[  Info  ] 0.29 sec/update
+[  Info  ] 0.31 sec/update
 [  Debug ] 
 [  Info  ] (  51/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Atlantic +1) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -756,7 +751,7 @@
 [  Debug ] changed to last valid time 31/03/2019 01:59
 [  Debug ] Start time  is not valid in Daylight Saving Time!
 [  Debug ] changed to next valid time 31/03/2019 03:00
-[  Info  ] 0.31 sec/update
+[  Info  ] 0.29 sec/update
 [  Debug ] 
 [  Info  ] (  52/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -1325,11 +1320,345 @@
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20190329060000 +0100
 [  Debug ] starting with show : Molly Monster at local time 29/03/2019 06:00
+[  Debug ] multiple entry of a show at 20190331060500 +0100
 [  Info  ]    epg correction : 
 [  Info  ]  MISSING show added,
 [  Info  ]       show with ---- start = 31/03/2019 06:05:00 stop = 31/03/2019 06:05:00 title = Molly Monster
 [  Info  ]       Added before - start = 31/03/2019 07:05:00 stop = 31/03/2019 07:05:00 title = Postman Pat 3
-[  Info  ] 0.25 sec/update
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 31/03/2019 06:30:00 stop = 31/03/2019 06:30:00 title = Taratabong 2
+[  Info  ]       Added before - start = 31/03/2019 07:30:00 stop = 31/03/2019 07:30:00 title = Noddy
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 01/04/2019 05:55:00 stop = 01/04/2019 13:15:00 title = Molly Monster
+[  Info  ]       Replaces ----- start = 01/04/2019 06:55:00 stop = 01/04/2019 07:00:00 title = Molly Monster
+[  Info  ]       Replaces ----- start = 01/04/2019 07:00:00 stop = 01/04/2019 07:00:00 title = Molly Monster
+[  Info  ]       Replaces ----- start = 01/04/2019 07:00:00 stop = 01/04/2019 07:05:00 title = Molly Monster
+[  Info  ]       Replaces ----- start = 01/04/2019 07:05:00 stop = 01/04/2019 07:10:00 title = Molly Monster
+[  Info  ]       Replaces ----- start = 01/04/2019 07:10:00 stop = 01/04/2019 07:15:00 title = Molly Monster
+[  Info  ]       Replaces ----- start = 01/04/2019 07:15:00 stop = 01/04/2019 07:30:00 title = New Teletubbies
+[  Info  ]       Replaces ----- start = 01/04/2019 07:30:00 stop = 01/04/2019 07:35:00 title = Taratabong 2
+[  Info  ]       Replaces ----- start = 01/04/2019 07:35:00 stop = 01/04/2019 07:40:00 title = Taratabong 2
+[  Info  ]       Replaces ----- start = 01/04/2019 07:40:00 stop = 01/04/2019 07:55:00 title = Ape Maia 3d 2
+[  Info  ]       Replaces ----- start = 01/04/2019 07:55:00 stop = 01/04/2019 08:00:00 title = Molang 3
+[  Info  ]       Replaces ----- start = 01/04/2019 08:00:00 stop = 01/04/2019 08:05:00 title = Molang 3
+[  Info  ]       Replaces ----- start = 01/04/2019 08:05:00 stop = 01/04/2019 08:10:00 title = Molang 3
+[  Info  ]       Replaces ----- start = 01/04/2019 08:10:00 stop = 01/04/2019 08:15:00 title = Molang 3
+[  Info  ]       Replaces ----- start = 01/04/2019 08:15:00 stop = 01/04/2019 08:25:00 title = Trulli Tales
+[  Info  ]       Replaces ----- start = 01/04/2019 08:25:00 stop = 01/04/2019 08:35:00 title = Trulli Tales
+[  Info  ]       Replaces ----- start = 01/04/2019 08:35:00 stop = 01/04/2019 08:45:00 title = 44 Gatti
+[  Info  ]       Replaces ----- start = 01/04/2019 08:45:00 stop = 01/04/2019 08:55:00 title = 44 Gatti
+[  Info  ]       Replaces ----- start = 01/04/2019 08:55:00 stop = 01/04/2019 09:10:00 title = Bumbi 2018 2019
+[  Info  ]       Replaces ----- start = 01/04/2019 09:10:00 stop = 01/04/2019 09:20:00 title = La Posta Di Yoyo 2018 2019
+[  Info  ]       Replaces ----- start = 01/04/2019 09:20:00 stop = 01/04/2019 09:30:00 title = Ape Maia 3d
+[  Info  ]       Replaces ----- start = 01/04/2019 09:30:00 stop = 01/04/2019 09:40:00 title = Ape Maia 3d
+[  Info  ]       Replaces ----- start = 01/04/2019 09:40:00 stop = 01/04/2019 09:50:00 title = Bing
+[  Info  ]       Replaces ----- start = 01/04/2019 09:50:00 stop = 01/04/2019 09:55:00 title = Bing
+[  Info  ]       Replaces ----- start = 01/04/2019 09:55:00 stop = 01/04/2019 10:05:00 title = Bing
+[  Info  ]       Replaces ----- start = 01/04/2019 10:05:00 stop = 01/04/2019 10:10:00 title = Bing
+[  Info  ]       Replaces ----- start = 01/04/2019 10:10:00 stop = 01/04/2019 10:20:00 title = Masha E Orso 2
+[  Info  ]       Replaces ----- start = 01/04/2019 10:20:00 stop = 01/04/2019 10:25:00 title = Masha E Orso 2
+[  Info  ]       Replaces ----- start = 01/04/2019 10:25:00 stop = 01/04/2019 10:35:00 title = Masha E Orso 2
+[  Info  ]       Replaces ----- start = 01/04/2019 10:35:00 stop = 01/04/2019 10:40:00 title = Topotip
+[  Info  ]       Replaces ----- start = 01/04/2019 10:40:00 stop = 01/04/2019 10:45:00 title = Topotip
+[  Info  ]       Replaces ----- start = 01/04/2019 10:45:00 stop = 01/04/2019 10:50:00 title = Il Giorno In Cui Henry Incontro'
+[  Info  ]       Replaces ----- start = 01/04/2019 10:50:00 stop = 01/04/2019 11:00:00 title = Il Giorno In Cui Henry Incontro'
+[  Info  ]       Replaces ----- start = 01/04/2019 11:00:00 stop = 01/04/2019 11:10:00 title = Giulio Coniglio
+[  Info  ]       Replaces ----- start = 01/04/2019 11:10:00 stop = 01/04/2019 11:20:00 title = Giulio Coniglio
+[  Info  ]       Replaces ----- start = 01/04/2019 11:20:00 stop = 01/04/2019 11:25:00 title = Peppa Pig 5
+[  Info  ]       Replaces ----- start = 01/04/2019 11:25:00 stop = 01/04/2019 11:30:00 title = Peppa Pig 5
+[  Info  ]       Replaces ----- start = 01/04/2019 11:30:00 stop = 01/04/2019 11:35:00 title = Peppa Pig 5
+[  Info  ]       Replaces ----- start = 01/04/2019 11:35:00 stop = 01/04/2019 11:40:00 title = Let's Go Pocoyo
+[  Info  ]       Replaces ----- start = 01/04/2019 11:40:00 stop = 01/04/2019 11:45:00 title = Let's Go Pocoyo
+[  Info  ]       Replaces ----- start = 01/04/2019 11:45:00 stop = 01/04/2019 11:55:00 title = Let's Go Pocoyo
+[  Info  ]       Replaces ----- start = 01/04/2019 11:55:00 stop = 01/04/2019 12:05:00 title = Let's Go Pocoyo
+[  Info  ]       Replaces ----- start = 01/04/2019 12:05:00 stop = 01/04/2019 12:10:00 title = Loopdidoo 4
+[  Info  ]       Replaces ----- start = 01/04/2019 12:10:00 stop = 01/04/2019 12:15:00 title = Loopdidoo 4
+[  Info  ]       Replaces ----- start = 01/04/2019 12:15:00 stop = 01/04/2019 12:20:00 title = Loopdidoo 4
+[  Info  ]       Replaces ----- start = 01/04/2019 12:20:00 stop = 01/04/2019 12:30:00 title = Mini Cuccioli 2
+[  Info  ]       Replaces ----- start = 01/04/2019 12:30:00 stop = 01/04/2019 12:35:00 title = Mini Cuccioli 2
+[  Info  ]       Replaces ----- start = 01/04/2019 12:35:00 stop = 01/04/2019 12:40:00 title = Mini Cuccioli 2
+[  Info  ]       Replaces ----- start = 01/04/2019 12:40:00 stop = 01/04/2019 12:55:00 title = I Saurini 4
+[  Info  ]       Replaces ----- start = 01/04/2019 12:55:00 stop = 01/04/2019 13:10:00 title = I Saurini 4
+[  Info  ]       Replaces ----- start = 01/04/2019 13:10:00 stop = 01/04/2019 13:20:00 title = Lulu' Brum Brum 2
+[  Info  ]       Replaces ----- start = 01/04/2019 13:20:00 stop = 01/04/2019 13:35:00 title = Lulu' Brum Brum 2
+[  Info  ]       Replaces ----- start = 01/04/2019 13:35:00 stop = 01/04/2019 13:40:00 title = I Quaderni Della Natura Di Lulu' Brum Brum
+[  Info  ]       Replaces ----- start = 01/04/2019 13:40:00 stop = 01/04/2019 13:50:00 title = 44 Gatti
+[  Info  ]       Replaces ----- start = 01/04/2019 13:50:00 stop = 01/04/2019 14:05:00 title = 44 Gatti
+[  Info  ]       Replaces ----- start = 01/04/2019 14:05:00 stop = 01/04/2019 14:15:00 title = Ape Maia 3d
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/04/2019 02:00:00 stop = 02/04/2019 02:05:00 title = Shaun Vita Da Pecora
+[  Info  ]       Replaces ----- start = 02/04/2019 03:00:00 stop = 02/04/2019 03:10:00 title = Calimero 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/04/2019 02:05:00 stop = 02/04/2019 02:10:00 title = Shaun Vita Da Pecora
+[  Info  ]       Replaces ----- start = 02/04/2019 03:00:00 stop = 02/04/2019 03:10:00 title = Calimero 2
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 02/04/2019 02:20:00 stop = 02/04/2019 02:20:00 title = Treno Dei Dinosauri 3
+[  Info  ]       Added before - start = 02/04/2019 03:20:00 stop = 02/04/2019 03:45:00 title = Treno Dei Dinosauri 3
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 02/04/2019 02:50:00 stop = 02/04/2019 02:50:00 title = La Pimpa 4
+[  Info  ]       Added before - start = 02/04/2019 03:50:00 stop = 02/04/2019 03:55:00 title = La Pimpa 3
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 02/04/2019 02:55:00 stop = 02/04/2019 02:55:00 title = La Pimpa 4
+[  Info  ]       Added before - start = 02/04/2019 03:55:00 stop = 02/04/2019 04:05:00 title = La Pimpa 3
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/04/2019 02:55:00 stop = 02/04/2019 03:00:00 title = La Pimpa 3
+[  Info  ]       Replaces ----- start = 02/04/2019 03:55:00 stop = 02/04/2019 04:05:00 title = La Pimpa 3
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/04/2019 03:00:00 stop = 02/04/2019 03:05:00 title = Sigla Buonanotte
+[  Info  ]       Replaces ----- start = 02/04/2019 03:55:00 stop = 02/04/2019 04:05:00 title = La Pimpa 3
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 02/04/2019 04:20:00 stop = 02/04/2019 04:20:00 title = Treno Dei Dinosauri 3
+[  Info  ]       Added before - start = 02/04/2019 05:20:00 stop = 02/04/2019 05:30:00 title = Chuggington 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/04/2019 04:45:00 stop = 02/04/2019 04:50:00 title = La Pimpa 3
+[  Info  ]       Replaces ----- start = 02/04/2019 05:40:00 stop = 02/04/2019 05:50:00 title = Marco Polo
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 02/04/2019 04:50:00 stop = 02/04/2019 04:50:00 title = La Pimpa 3
+[  Info  ]       Added before - start = 02/04/2019 05:50:00 stop = 02/04/2019 06:05:00 title = Postman Pat 3
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/04/2019 04:50:00 stop = 02/04/2019 04:55:00 title = Postman Pat 3
+[  Info  ]       Replaces ----- start = 02/04/2019 05:50:00 stop = 02/04/2019 06:05:00 title = Postman Pat 3
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/04/2019 04:55:00 stop = 02/04/2019 05:05:00 title = La Pimpa 3
+[  Info  ]       Replaces ----- start = 02/04/2019 05:50:00 stop = 02/04/2019 06:05:00 title = Postman Pat 3
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 02/04/2019 05:05:00 stop = 02/04/2019 05:05:00 title = Milo 2
+[  Info  ]       Added before - start = 02/04/2019 06:05:00 stop = 02/04/2019 06:20:00 title = Postman Pat 3
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/04/2019 05:05:00 stop = 02/04/2019 05:10:00 title = Postman Pat 3
+[  Info  ]       Replaces ----- start = 02/04/2019 06:05:00 stop = 02/04/2019 06:20:00 title = Postman Pat 3
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/04/2019 05:10:00 stop = 02/04/2019 05:15:00 title = Milo 2
+[  Info  ]       Replaces ----- start = 02/04/2019 06:05:00 stop = 02/04/2019 06:20:00 title = Postman Pat 3
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/04/2019 05:55:00 stop = 02/04/2019 06:10:00 title = Molly Monster
+[  Info  ]       Replaces ----- start = 02/04/2019 06:55:00 stop = 02/04/2019 07:00:00 title = Molly Monster
+[  Info  ]       Replaces ----- start = 02/04/2019 07:00:00 stop = 02/04/2019 07:00:00 title = Molly Monster
+[  Info  ]       Replaces ----- start = 02/04/2019 07:00:00 stop = 02/04/2019 07:05:00 title = Molly Monster
+[  Info  ]       Replaces ----- start = 02/04/2019 07:05:00 stop = 02/04/2019 07:10:00 title = Molly Monster 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/04/2019 06:50:00 stop = 02/04/2019 07:05:00 title = Postman Pat 3
+[  Info  ]       Replaces ----- start = 02/04/2019 07:40:00 stop = 02/04/2019 07:55:00 title = Ape Maia 3d 2
+[  Info  ]       Replaces ----- start = 02/04/2019 07:55:00 stop = 02/04/2019 08:00:00 title = Molang 3
+[  Info  ]       Replaces ----- start = 02/04/2019 08:00:00 stop = 02/04/2019 08:05:00 title = Molang 3
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/04/2019 07:05:00 stop = 02/04/2019 07:20:00 title = Postman Pat 3
+[  Info  ]       Replaces ----- start = 02/04/2019 08:05:00 stop = 02/04/2019 08:10:00 title = Molang 3
+[  Info  ]       Replaces ----- start = 02/04/2019 08:10:00 stop = 02/04/2019 08:15:00 title = Molang 3
+[  Info  ]       Replaces ----- start = 02/04/2019 08:15:00 stop = 02/04/2019 08:25:00 title = Trulli Tales
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/04/2019 07:55:00 stop = 02/04/2019 08:00:00 title = Molly Monster
+[  Info  ]       Replaces ----- start = 02/04/2019 08:55:00 stop = 02/04/2019 09:10:00 title = Bumbi 2018 2019
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/04/2019 08:00:00 stop = 02/04/2019 08:05:00 title = Molly Monster
+[  Info  ]       Replaces ----- start = 02/04/2019 08:55:00 stop = 02/04/2019 09:10:00 title = Bumbi 2018 2019
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/04/2019 08:05:00 stop = 02/04/2019 08:10:00 title = Molly Monster 2
+[  Info  ]       Replaces ----- start = 02/04/2019 08:55:00 stop = 02/04/2019 09:10:00 title = Bumbi 2018 2019
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/04/2019 08:10:00 stop = 02/04/2019 08:15:00 title = Molly Monster 2
+[  Info  ]       Replaces ----- start = 02/04/2019 09:10:00 stop = 02/04/2019 09:20:00 title = La Posta Di Yoyo 2018 2019
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/04/2019 08:15:00 stop = 02/04/2019 08:30:00 title = New Teletubbies
+[  Info  ]       Replaces ----- start = 02/04/2019 09:10:00 stop = 02/04/2019 09:20:00 title = La Posta Di Yoyo 2018 2019
+[  Info  ]       Replaces ----- start = 02/04/2019 09:20:00 stop = 02/04/2019 09:30:00 title = Ape Maia 3d
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/04/2019 08:30:00 stop = 02/04/2019 08:35:00 title = Taratabong 2
+[  Info  ]       Replaces ----- start = 02/04/2019 09:30:00 stop = 02/04/2019 09:45:00 title = Ape Maia 3d
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/04/2019 08:35:00 stop = 02/04/2019 08:40:00 title = Taratabong 2
+[  Info  ]       Replaces ----- start = 02/04/2019 09:30:00 stop = 02/04/2019 09:45:00 title = Ape Maia 3d
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/04/2019 11:10:00 stop = 02/04/2019 11:20:00 title = Masha E Orso 2
+[  Info  ]       Replaces ----- start = 02/04/2019 12:10:00 stop = 02/04/2019 12:20:00 title = Loopdidoo 4
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/04/2019 11:20:00 stop = 02/04/2019 11:25:00 title = Masha E Orso 2
+[  Info  ]       Replaces ----- start = 02/04/2019 12:20:00 stop = 02/04/2019 12:30:00 title = Mini Cuccioli 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/04/2019 11:25:00 stop = 02/04/2019 11:35:00 title = Masha E Orso 2
+[  Info  ]       Replaces ----- start = 02/04/2019 12:20:00 stop = 02/04/2019 12:30:00 title = Mini Cuccioli 2
+[  Info  ]       Replaces ----- start = 02/04/2019 12:30:00 stop = 02/04/2019 12:35:00 title = Mini Cuccioli 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/04/2019 12:00:00 stop = 02/04/2019 12:10:00 title = Giulio Coniglio
+[  Info  ]       Replaces ----- start = 02/04/2019 13:00:00 stop = 02/04/2019 13:10:00 title = Lulu' Brum Brum 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/04/2019 12:10:00 stop = 02/04/2019 12:20:00 title = Giulio Coniglio
+[  Info  ]       Replaces ----- start = 02/04/2019 13:10:00 stop = 02/04/2019 13:20:00 title = Lulu' Brum Brum 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/04/2019 12:35:00 stop = 02/04/2019 12:40:00 title = Let's Go Pocoyo
+[  Info  ]       Replaces ----- start = 02/04/2019 13:35:00 stop = 02/04/2019 13:45:00 title = Pirata E Capitano Ep.16
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/04/2019 12:40:00 stop = 02/04/2019 12:45:00 title = Let's Go Pocoyo
+[  Info  ]       Replaces ----- start = 02/04/2019 13:35:00 stop = 02/04/2019 13:45:00 title = Pirata E Capitano Ep.16
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/04/2019 12:45:00 stop = 02/04/2019 12:55:00 title = Let's Go Pocoyo
+[  Info  ]       Replaces ----- start = 02/04/2019 13:45:00 stop = 02/04/2019 13:55:00 title = Ape Maia 3d
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/04/2019 12:55:00 stop = 02/04/2019 13:05:00 title = Let's Go Pocoyo
+[  Info  ]       Replaces ----- start = 02/04/2019 13:55:00 stop = 02/04/2019 14:10:00 title = Ape Maia 3d
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/04/2019 13:05:00 stop = 02/04/2019 13:10:00 title = Loopdidoo 4
+[  Info  ]       Replaces ----- start = 02/04/2019 13:55:00 stop = 02/04/2019 14:10:00 title = Ape Maia 3d
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/04/2019 13:10:00 stop = 02/04/2019 13:15:00 title = Loopdidoo 4
+[  Info  ]       Replaces ----- start = 02/04/2019 14:10:00 stop = 02/04/2019 14:15:00 title = Masha E Orso
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/04/2019 13:15:00 stop = 02/04/2019 13:20:00 title = Loopdidoo 4
+[  Info  ]       Replaces ----- start = 02/04/2019 14:15:00 stop = 02/04/2019 14:20:00 title = Masha E Orso
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/04/2019 14:10:00 stop = 02/04/2019 14:20:00 title = Lulu' Brum Brum 2
+[  Info  ]       Replaces ----- start = 02/04/2019 15:10:00 stop = 02/04/2019 15:15:00 title = Bing
+[  Info  ]       Replaces ----- start = 02/04/2019 15:15:00 stop = 02/04/2019 15:25:00 title = Bing
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/04/2019 14:20:00 stop = 02/04/2019 14:35:00 title = Lulu' Brum Brum 2
+[  Info  ]       Replaces ----- start = 02/04/2019 15:15:00 stop = 02/04/2019 15:25:00 title = Bing
+[  Info  ]       Replaces ----- start = 02/04/2019 15:25:00 stop = 02/04/2019 15:40:00 title = Bing
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/04/2019 15:30:00 stop = 02/04/2019 15:35:00 title = Masha E Orso
+[  Info  ]       Replaces ----- start = 02/04/2019 16:25:00 stop = 02/04/2019 16:40:00 title = Noce Di Cocco
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/04/2019 15:35:00 stop = 02/04/2019 15:40:00 title = Masha E Orso
+[  Info  ]       Replaces ----- start = 02/04/2019 16:25:00 stop = 02/04/2019 16:40:00 title = Noce Di Cocco
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/04/2019 15:40:00 stop = 02/04/2019 15:50:00 title = Masha E Orso
+[  Info  ]       Replaces ----- start = 02/04/2019 16:40:00 stop = 02/04/2019 16:55:00 title = Giulio Coniglio
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/04/2019 16:50:00 stop = 02/04/2019 16:55:00 title = Yo Yo
+[  Info  ]       Replaces ----- start = 02/04/2019 17:50:00 stop = 02/04/2019 17:55:00 title = Molang 3
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/04/2019 16:55:00 stop = 02/04/2019 17:00:00 title = Yo Yo
+[  Info  ]       Replaces ----- start = 02/04/2019 17:55:00 stop = 02/04/2019 18:00:00 title = Molang 3
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/04/2019 17:50:00 stop = 02/04/2019 18:00:00 title = Giulio Coniglio
+[  Info  ]       Replaces ----- start = 02/04/2019 18:35:00 stop = 02/04/2019 19:00:00 title = Puppy Dog Pals Yr1
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/04/2019 18:00:00 stop = 02/04/2019 18:10:00 title = Giulio Coniglio
+[  Info  ]       Replaces ----- start = 02/04/2019 19:00:00 stop = 02/04/2019 19:05:00 title = Bing
+[  Info  ]       Replaces ----- start = 02/04/2019 19:05:00 stop = 02/04/2019 19:15:00 title = Bing
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/04/2019 19:00:00 stop = 02/04/2019 19:05:00 title = Let's Go Pocoyo
+[  Info  ]       Replaces ----- start = 02/04/2019 20:00:00 stop = 02/04/2019 20:05:00 title = Masha E Orso
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/04/2019 19:05:00 stop = 02/04/2019 19:10:00 title = Let's Go Pocoyo
+[  Info  ]       Replaces ----- start = 02/04/2019 20:05:00 stop = 02/04/2019 20:15:00 title = Masha E Orso
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/04/2019 19:10:00 stop = 02/04/2019 19:20:00 title = Let's Go Pocoyo
+[  Info  ]       Replaces ----- start = 02/04/2019 20:05:00 stop = 02/04/2019 20:15:00 title = Masha E Orso
+[  Info  ]       Replaces ----- start = 02/04/2019 20:15:00 stop = 02/04/2019 20:25:00 title = 44 Gatti
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/04/2019 19:20:00 stop = 02/04/2019 19:25:00 title = Let's Go Pocoyo
+[  Info  ]       Replaces ----- start = 02/04/2019 20:15:00 stop = 02/04/2019 20:25:00 title = 44 Gatti
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/04/2019 19:25:00 stop = 02/04/2019 19:35:00 title = Let's Go Pocoyo
+[  Info  ]       Replaces ----- start = 02/04/2019 20:25:00 stop = 02/04/2019 20:35:00 title = 44 Gatti
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/04/2019 20:50:00 stop = 02/04/2019 21:00:00 title = Masha E Orso
+[  Info  ]       Replaces ----- start = 02/04/2019 21:45:00 stop = 02/04/2019 21:55:00 title = Gormiti
+[  Info  ]       Replaces ----- start = 02/04/2019 21:55:00 stop = 02/04/2019 22:05:00 title = Gormiti
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/04/2019 21:00:00 stop = 02/04/2019 21:05:00 title = Masha E Orso
+[  Info  ]       Replaces ----- start = 02/04/2019 21:55:00 stop = 02/04/2019 22:05:00 title = Gormiti
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/04/2019 21:05:00 stop = 02/04/2019 21:15:00 title = Masha E Orso
+[  Info  ]       Replaces ----- start = 02/04/2019 22:05:00 stop = 02/04/2019 22:15:00 title = Bing
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/04/2019 22:25:00 stop = 02/04/2019 22:35:00 title = Pj Masks
+[  Info  ]       Replaces ----- start = 02/04/2019 23:25:00 stop = 02/04/2019 23:50:00 title = Regal Academy 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/04/2019 22:35:00 stop = 02/04/2019 22:50:00 title = Pj Masks
+[  Info  ]       Replaces ----- start = 02/04/2019 23:25:00 stop = 02/04/2019 23:50:00 title = Regal Academy 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/04/2019 01:45:00 stop = 03/04/2019 01:50:00 title = Buonanotte Con Le Favole Di Yoyo 2013
+[  Info  ]       Replaces ----- start = 03/04/2019 02:40:00 stop = 03/04/2019 02:50:00 title = Noddy
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/04/2019 01:50:00 stop = 03/04/2019 06:00:00 title = Shaun Vita Da Pecora
+[  Info  ]       Replaces ----- start = 03/04/2019 02:50:00 stop = 03/04/2019 02:55:00 title = Mofy
+[  Info  ]       Replaces ----- start = 03/04/2019 02:55:00 stop = 03/04/2019 03:00:00 title = Mofy
+[  Info  ]       Replaces ----- start = 03/04/2019 03:00:00 stop = 03/04/2019 03:10:00 title = Mofy
+[  Info  ]       Replaces ----- start = 03/04/2019 03:10:00 stop = 03/04/2019 03:20:00 title = Calimero 2
+[  Info  ]       Replaces ----- start = 03/04/2019 03:20:00 stop = 03/04/2019 03:30:00 title = Calimero 2
+[  Info  ]       Replaces ----- start = 03/04/2019 03:30:00 stop = 03/04/2019 03:55:00 title = Treno Dei Dinosauri 3
+[  Info  ]       Replaces ----- start = 03/04/2019 03:55:00 stop = 03/04/2019 04:00:00 title = La Pimpa 3
+[  Info  ]       Replaces ----- start = 03/04/2019 04:00:00 stop = 03/04/2019 04:05:00 title = La Pimpa 3
+[  Info  ]       Replaces ----- start = 03/04/2019 04:05:00 stop = 03/04/2019 04:10:00 title = La Pimpa 4
+[  Info  ]       Replaces ----- start = 03/04/2019 04:10:00 stop = 03/04/2019 04:15:00 title = Milo 3
+[  Info  ]       Replaces ----- start = 03/04/2019 04:15:00 stop = 03/04/2019 04:20:00 title = Milo 3
+[  Info  ]       Replaces ----- start = 03/04/2019 04:20:00 stop = 03/04/2019 04:30:00 title = Ape Maia 3d
+[  Info  ]       Replaces ----- start = 03/04/2019 04:30:00 stop = 03/04/2019 04:40:00 title = Ape Maia 3d
+[  Info  ]       Replaces ----- start = 03/04/2019 04:40:00 stop = 03/04/2019 04:55:00 title = Cuccioli
+[  Info  ]       Replaces ----- start = 03/04/2019 04:55:00 stop = 03/04/2019 05:10:00 title = Cuccioli
+[  Info  ]       Replaces ----- start = 03/04/2019 05:10:00 stop = 03/04/2019 05:20:00 title = Chuggington 2
+[  Info  ]       Replaces ----- start = 03/04/2019 05:20:00 stop = 03/04/2019 05:30:00 title = Chuggington 2
+[  Info  ]       Replaces ----- start = 03/04/2019 05:30:00 stop = 03/04/2019 05:40:00 title = Marco Polo
+[  Info  ]       Replaces ----- start = 03/04/2019 05:40:00 stop = 03/04/2019 05:50:00 title = Marco Polo
+[  Info  ]       Replaces ----- start = 03/04/2019 05:50:00 stop = 03/04/2019 06:05:00 title = Postman Pat 3
+[  Info  ]       Replaces ----- start = 03/04/2019 06:05:00 stop = 03/04/2019 06:20:00 title = Postman Pat 3
+[  Info  ]       Replaces ----- start = 03/04/2019 06:20:00 stop = 03/04/2019 06:30:00 title = Noddy
+[  Info  ]       Replaces ----- start = 03/04/2019 06:30:00 stop = 03/04/2019 06:40:00 title = Noddy
+[  Info  ]       Replaces ----- start = 03/04/2019 06:40:00 stop = 03/04/2019 06:50:00 title = Noddy
+[  Info  ]       Replaces ----- start = 03/04/2019 06:50:00 stop = 03/04/2019 06:55:00 title = Molly Monster 2
+[  Info  ]       Replaces ----- start = 03/04/2019 06:55:00 stop = 03/04/2019 07:00:00 title = Molly Monster 2
+[  Info  ] 0.10 sec/update
 [  Debug ] 
 [  Info  ] ( 132/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cartoon Network) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -1347,13 +1676,13 @@
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20190329060000 +0100
 [  Debug ] starting with show : Le Sisters at local time 29/03/2019 06:00
-[  Info  ] 0.21 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 135/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Disney Channel +1) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20190331031500 +0200
 [  Debug ] starting with show : Hank Zipzer - Fuori dalle righe at local time 31/03/2019 03:15
-[  Info  ] 0.20 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 136/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cartonito) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -1451,7 +1780,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 04/04/2019 02:28:00 stop = 04/04/2019 03:41:00 title = INTERVISTA A JOHN LANDIS - RED CARPET '11 - (KE)
 [  Info  ]       Replaces ----- start = 04/04/2019 02:28:00 stop = 04/04/2019 03:41:00 title = INTERVISTA A JOHN LANDIS - RED CARPET '11 - (KE)
-[  Info  ] 0.16 sec/update
+[  Info  ] 0.18 sec/update
 [  Debug ] 
 [  Info  ] ( 151/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema +24) -- mode Incremental
 [Error   ] Unable to update channel Premium Cinema +24
@@ -1491,7 +1820,7 @@
 [  Info  ]       show with ---- start = 02/04/2019 03:24:00 stop = 02/04/2019 05:30:00 title = Speed 2 - Senza Limiti
 [  Info  ]       Replaces ----- start = 02/04/2019 04:24:00 stop = 02/04/2019 06:30:00 title = Speed 2 - Senza Limiti
 [  Debug ]    skipped show longer than 15 hour(s) at 31/03/2019 06:30:00 title Duro da uccidere
-[  Info  ] 0.16 sec/update
+[  Info  ] 0.19 sec/update
 [  Debug ] 
 [  Info  ] ( 152/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Emotion) -- mode Incremental
 [  Info  ]    epg correction : 
@@ -1507,7 +1836,7 @@
 [  Debug ] starting with show : Nestore - L'ultima corsa at local time 31/03/2019 03:00
 [  Debug ]    skipped show longer than 15 hour(s) at 30/03/2019 06:30:00 title Il frullo del passero
 [  Debug ]    skipped show longer than 15 hour(s) at 31/03/2019 06:30:00 title Palmetto - Un torbido inganno
-[  Info  ] 0.20 sec/update
+[  Info  ] 0.13 sec/update
 [  Debug ] 
 [  Info  ] ( 153/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Comedy) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
@@ -1549,7 +1878,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 03/04/2019 03:19:00 stop = 03/04/2019 03:42:00 title = LA COMMEDIA DEMENZIALE - COMEDY EXTRA
 [  Info  ]       Replaces ----- start = 03/04/2019 04:19:00 stop = 03/04/2019 04:42:00 title = LA COMMEDIA DEMENZIALE - COMEDY EXTRA
-[  Info  ] 0.16 sec/update
+[  Info  ] 0.19 sec/update
 [  Debug ] 
 [  Info  ] ( 154/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Investigation Discovery) -- mode Incremental
 [Error   ] Unable to update channel Premium Investigation Discovery
@@ -2422,7 +2751,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 04/04/2019 23:35:00 stop = 05/04/2019 00:24:00 title = RICORDATI DI ME - RIZZOLI & ISLES II
 [  Info  ]       Replaces ----- start = 04/04/2019 23:35:00 stop = 05/04/2019 00:24:00 title = RICORDATI DI ME - RIZZOLI & ISLES II
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 155/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Joy) -- mode Incremental
 [Error   ] Unable to update channel Premium Joy
@@ -2464,10 +2793,10 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Debug ] 32009 shows in 171 channels
-[  Debug ] 355 updated shows
-[  Debug ] 44 new shows added
+[  Debug ] 31950 shows in 171 channels
+[  Debug ] 543 updated shows
+[  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 29/03/2019 08:15:06 done in 10m 3s
+[        ] Job finished at 29/03/2019 12:15:23 done in 10m 19s
 [  Debug ] statistics upload error: The remote server returned an error: (404) Not Found.
