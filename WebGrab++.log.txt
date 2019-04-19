@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 19/04/2019 08:05:03
+[        ] Job started at 19/04/2019 12:05:03
 [  Debug ] 
 [  Debug ] Running  on: Unix 3.13.0.132
 [  Debug ] Environment: 4.0.30319.42000
@@ -29,7 +29,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+02:00	(DST in effect)
 [  Debug ] 	next DST dates  :	27/10/2019 03:00 (local)
 [  Debug ] 	                :	29/03/2020 02:00 (local)
-[  Debug ] 	local time now  :	19/04/2019 08:05:03
+[  Debug ] 	local time now  :	19/04/2019 12:05:03
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -227,16 +227,16 @@
 [  Info  ] (   4/171 ) MEDIASET.IT -- chan. (xmltv_id=Rete 4 HD) -- mode Incremental
 [  Debug ]    skipped negative show time! at 20/04/2019 02:02:00
 [  Debug ]    skipped negative show time! at 24/04/2019 01:33:00
-[  Info  ] 0.07 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   5/171 ) MEDIASET.IT -- chan. (xmltv_id=Canale 5 HD) -- mode Incremental
-[  Info  ] 0.06 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   6/171 ) MEDIASET.IT -- chan. (xmltv_id=Italia 1 HD) -- mode Incremental
-[  Info  ] 0.07 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   7/171 ) MEDIASET.IT -- chan. (xmltv_id=Italia 2) -- mode Incremental
-[  Info  ] 0.07 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   8/171 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La1 HD) -- mode Incremental
 [Error   ] Unable to update channel Rsi La1 HD
@@ -270,16 +270,18 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  13/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Top Crime) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.19 sec/update
 [  Debug ] 
 [  Info  ] (  14/171 ) MEDIASET.IT -- chan. (xmltv_id=Mediaset Extra) -- mode Incremental
-[  Info  ] 0.07 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  15/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Storia) -- mode Incremental
+[Warning ] error downloading page: Error getting response stream (ReadDone2): ReceiveFailure
+[Warning ] pausing 1 of 4 times for 5 seconds before re-try.
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  16/171 ) MEDIASET.IT -- chan. (xmltv_id=Iris) -- mode Incremental
-[  Info  ] 0.07 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  17/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Sport 1 HD) -- mode Incremental
 [  Info  ] 
@@ -437,7 +439,7 @@
 [  Debug ]       differs from title in showdetails = Vita da ricchi -  -
 [  Debug ]    suspicious      title in index page  = Vita da ricchi -
 [  Debug ]       differs from title in showdetails = Vita da ricchi -  -
-[  Info  ] 0.29 sec/update
+[  Info  ] 0.27 sec/update
 [  Debug ] 
 [  Info  ] (  48/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Uno +1) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = X Factor 2018 - Le audizioni
@@ -464,7 +466,7 @@
 [  Debug ]       differs from title in showdetails = X Factor 2018
 [  Debug ]    suspicious      title in index page  = X Factor 2018 - Le audizioni
 [  Debug ]       differs from title in showdetails = X Factor 2018
-[  Info  ] 0.27 sec/update
+[  Info  ] 0.26 sec/update
 [  Debug ] 
 [  Info  ] (  49/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=SKY CLASSICA HD) -- mode Incremental
 [  Info  ] 
@@ -478,18 +480,18 @@
 [  Debug ]       differs from title in showdetails = The Eighties
 [  Debug ]    suspicious      title in index page  = Crescere Neofascisti - 1^TV
 [  Debug ]       differs from title in showdetails = Programma non disponibile
-[  Info  ] 0.27 sec/update
+[  Info  ] 0.26 sec/update
 [  Debug ] 
 [  Info  ] (  51/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Atlantic +1) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = X Factor 2018 - Le audizioni
 [  Debug ]       differs from title in showdetails = X Factor 2018
-[  Info  ] 0.28 sec/update
+[  Info  ] 0.26 sec/update
 [  Debug ] 
 [  Info  ] (  52/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox HD) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  53/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox +1) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.22 sec/update
 [  Debug ] 
 [  Info  ] (  54/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Life HD) -- mode Incremental
 [  Info  ] 
@@ -760,13 +762,124 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 130/171 ) RAI.IT -- chan. (xmltv_id=Rai Gulp HD) -- mode Incremental
-[  Debug ] multiple entry of a show at 20190423020500 +0200
 [  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 23/04/2019 03:20:00 stop = 23/04/2019 03:20:00 title = Gino Il Pollo
-[  Info  ]       Added before - start = 23/04/2019 03:20:00 stop = 23/04/2019 03:20:00 title = I Pirati Della Porta Accanto
-[  Debug ] multiple entry of a show at 20190423034500 +0200
-[  Info  ] 0.93 sec/update
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 23/04/2019 02:20:00 stop = 23/04/2019 02:45:00 title = Battle Spirits (v)
+[  Info  ]       Replaces ----- start = 23/04/2019 02:20:00 stop = 23/04/2019 02:30:00 title = Battle Spirits (v)
+[  Info  ]       Replaces ----- start = 23/04/2019 02:30:00 stop = 23/04/2019 02:45:00 title = Hank Zipzer
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 23/04/2019 03:20:00 stop = 23/04/2019 03:35:00 title = Gino Il Pollo
+[  Info  ]       Replaces ----- start = 23/04/2019 03:20:00 stop = 23/04/2019 03:30:00 title = I Pirati Della Porta Accanto
+[  Info  ]       Replaces ----- start = 23/04/2019 03:30:00 stop = 23/04/2019 03:35:00 title = I Pirati Della Porta Accanto
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 23/04/2019 04:50:00 stop = 23/04/2019 05:15:00 title = Martin Mystere (ii)
+[  Info  ]       Replaces ----- start = 23/04/2019 04:50:00 stop = 23/04/2019 04:55:00 title = Martin Mystere (ii)
+[  Info  ]       Replaces ----- start = 23/04/2019 04:55:00 stop = 23/04/2019 05:10:00 title = Scream Street
+[  Info  ]       Replaces ----- start = 23/04/2019 05:10:00 stop = 23/04/2019 05:15:00 title = Gino Il Pollo
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 23/04/2019 05:15:00 stop = 23/04/2019 05:40:00 title = Martin Mystere (ii)
+[  Info  ]       Replaces ----- start = 23/04/2019 05:15:00 stop = 23/04/2019 05:20:00 title = Martin Mystere (ii)
+[  Info  ]       Replaces ----- start = 23/04/2019 05:20:00 stop = 23/04/2019 05:35:00 title = Gino Il Pollo
+[  Info  ]       Replaces ----- start = 23/04/2019 05:35:00 stop = 23/04/2019 05:40:00 title = Scuola Di Vampiri (ii)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 23/04/2019 06:05:00 stop = 23/04/2019 06:15:00 title = Lucky Fred (ii)
+[  Info  ]       Replaces ----- start = 23/04/2019 06:00:00 stop = 23/04/2019 06:25:00 title = Spike Team (ii)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 23/04/2019 06:15:00 stop = 23/04/2019 06:30:00 title = Lucky Fred (ii)
+[  Info  ]       Replaces ----- start = 23/04/2019 06:00:00 stop = 23/04/2019 06:25:00 title = Spike Team (ii)
+[  Info  ]       Replaces ----- start = 23/04/2019 06:25:00 stop = 23/04/2019 06:50:00 title = Spike Team (ii)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 23/04/2019 06:30:00 stop = 23/04/2019 06:55:00 title = Inazuma Eleven Go
+[  Info  ]       Replaces ----- start = 23/04/2019 06:25:00 stop = 23/04/2019 06:50:00 title = Spike Team (ii)
+[  Info  ]       Replaces ----- start = 23/04/2019 06:50:00 stop = 23/04/2019 07:15:00 title = Martin Mystere (ii)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 23/04/2019 06:55:00 stop = 23/04/2019 07:20:00 title = Kung Fu Panda
+[  Info  ]       Replaces ----- start = 23/04/2019 06:50:00 stop = 23/04/2019 07:15:00 title = Martin Mystere (ii)
+[  Info  ]       Replaces ----- start = 23/04/2019 07:15:00 stop = 23/04/2019 07:40:00 title = Martin Mystere (ii)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 23/04/2019 07:20:00 stop = 23/04/2019 07:45:00 title = Kung Fu Panda
+[  Info  ]       Replaces ----- start = 23/04/2019 07:15:00 stop = 23/04/2019 07:40:00 title = Martin Mystere (ii)
+[  Info  ]       Replaces ----- start = 23/04/2019 07:40:00 stop = 23/04/2019 07:50:00 title = I Pirati Della Porta Accanto
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 23/04/2019 09:30:00 stop = 23/04/2019 09:55:00 title = Le Avventure Di Peter Pan (ii)
+[  Info  ]       Replaces ----- start = 23/04/2019 09:20:00 stop = 23/04/2019 09:45:00 title = Kung Fu Panda
+[  Info  ]       Replaces ----- start = 23/04/2019 09:45:00 stop = 23/04/2019 10:05:00 title = Marblegen
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 23/04/2019 10:55:00 stop = 23/04/2019 11:20:00 title = Mia And Me
+[  Info  ]       Replaces ----- start = 23/04/2019 10:50:00 stop = 23/04/2019 11:05:00 title = Dennis And Gnasher Scatenati
+[  Info  ]       Replaces ----- start = 23/04/2019 11:05:00 stop = 23/04/2019 11:15:00 title = Mini Ninjas (ii)
+[  Info  ]       Replaces ----- start = 23/04/2019 11:15:00 stop = 23/04/2019 11:30:00 title = Mini Ninjas (ii)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 23/04/2019 11:20:00 stop = 23/04/2019 11:45:00 title = Mia And Me
+[  Info  ]       Replaces ----- start = 23/04/2019 11:15:00 stop = 23/04/2019 11:30:00 title = Mini Ninjas (ii)
+[  Info  ]       Replaces ----- start = 23/04/2019 11:30:00 stop = 23/04/2019 11:55:00 title = Le Avventure Di Peter Pan (ii)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 23/04/2019 12:10:00 stop = 23/04/2019 12:35:00 title = Kung Fu Panda
+[  Info  ]       Replaces ----- start = 23/04/2019 12:05:00 stop = 23/04/2019 12:20:00 title = Vita Da Giungla (ii)
+[  Info  ]       Replaces ----- start = 23/04/2019 12:20:00 stop = 23/04/2019 12:30:00 title = Atchoo!
+[  Info  ]       Replaces ----- start = 23/04/2019 12:30:00 stop = 23/04/2019 12:40:00 title = Atchoo!
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 23/04/2019 12:35:00 stop = 23/04/2019 13:00:00 title = Kung Fu Panda
+[  Info  ]       Replaces ----- start = 23/04/2019 12:30:00 stop = 23/04/2019 12:40:00 title = Atchoo!
+[  Info  ]       Replaces ----- start = 23/04/2019 12:40:00 stop = 23/04/2019 12:55:00 title = Atchoo!
+[  Info  ]       Replaces ----- start = 23/04/2019 12:55:00 stop = 23/04/2019 13:20:00 title = Mia And Me
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 23/04/2019 16:05:00 stop = 23/04/2019 16:10:00 title = I Corti Di Topolino
+[  Info  ]       Replaces ----- start = 23/04/2019 15:45:00 stop = 23/04/2019 16:10:00 title = Backstage
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/04/2019 02:20:00 stop = 24/04/2019 02:45:00 title = Battle Spirits (v)
+[  Info  ]       Replaces ----- start = 24/04/2019 01:40:00 stop = 24/04/2019 06:05:00 title = Maggie And Bianca (iii)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/04/2019 03:10:00 stop = 24/04/2019 03:20:00 title = Gino Il Pollo
+[  Info  ]       Replaces ----- start = 24/04/2019 01:40:00 stop = 24/04/2019 06:05:00 title = Maggie And Bianca (iii)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/04/2019 03:20:00 stop = 24/04/2019 03:35:00 title = Gino Il Pollo
+[  Info  ]       Replaces ----- start = 24/04/2019 01:40:00 stop = 24/04/2019 06:05:00 title = Maggie And Bianca (iii)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/04/2019 04:50:00 stop = 24/04/2019 05:15:00 title = Martin Mystere (ii)
+[  Info  ]       Replaces ----- start = 24/04/2019 01:40:00 stop = 24/04/2019 06:05:00 title = Maggie And Bianca (iii)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/04/2019 05:15:00 stop = 24/04/2019 05:40:00 title = Martin Mystere (ii)
+[  Info  ]       Replaces ----- start = 24/04/2019 01:40:00 stop = 24/04/2019 06:05:00 title = Maggie And Bianca (iii)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/04/2019 10:50:00 stop = 24/04/2019 11:15:00 title = Mia And Me
+[  Info  ]       Replaces ----- start = 24/04/2019 10:45:00 stop = 24/04/2019 11:10:00 title = Mia And Me
+[  Info  ]       Replaces ----- start = 24/04/2019 11:10:00 stop = 24/04/2019 11:35:00 title = Mia And Me
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/04/2019 11:15:00 stop = 24/04/2019 11:40:00 title = Mia And Me
+[  Info  ]       Replaces ----- start = 24/04/2019 11:10:00 stop = 24/04/2019 11:35:00 title = Mia And Me
+[  Info  ]       Replaces ----- start = 24/04/2019 11:35:00 stop = 24/04/2019 12:00:00 title = Marblegen
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/04/2019 12:05:00 stop = 24/04/2019 12:30:00 title = Kung Fu Panda
+[  Info  ]       Replaces ----- start = 24/04/2019 12:00:00 stop = 24/04/2019 12:25:00 title = Kung Fu Panda
+[  Info  ]       Replaces ----- start = 24/04/2019 12:25:00 stop = 24/04/2019 12:55:00 title = Kung Fu Panda
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/04/2019 12:30:00 stop = 24/04/2019 12:55:00 title = Kung Fu Panda
+[  Info  ]       Replaces ----- start = 24/04/2019 12:25:00 stop = 24/04/2019 12:55:00 title = Kung Fu Panda
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] ( 131/171 ) RAI.IT -- chan. (xmltv_id=Rai YoYo HD) -- mode Incremental
 [  Info  ] 
@@ -820,7 +933,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 148/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=K2) -- mode Incremental
-[  Info  ] 0.20 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] ( 149/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Boomerang) -- mode Incremental
 [  Info  ] 
@@ -891,7 +1004,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 25/04/2019 22:19:00 stop = 26/04/2019 00:27:00 title = Black Mass - L'Ultimo Gangster
 [  Info  ]       Replaces ----- start = 25/04/2019 22:19:00 stop = 26/04/2019 00:27:00 title = Black Mass - L'Ultimo Gangster
-[  Info  ] 0.15 sec/update
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] ( 152/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Cinema Emotion) -- mode Incremental
 [  Info  ] 
@@ -921,7 +1034,7 @@
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 24/04/2019 03:45:00 stop = 24/04/2019 05:30:00 title = Risky business - Fuori i vecchi... i figli ballano (?)
 [  Info  ]       Replaces ----- start = 24/04/2019 03:45:00 stop = 24/04/2019 05:30:00 title = Risky business - Fuori i vecchi... i figli ballano (?)
-[  Info  ] 0.18 sec/update
+[  Info  ] 0.24 sec/update
 [  Debug ] 
 [  Info  ] ( 154/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Investigation Discovery) -- mode Incremental
 [Error   ] Unable to update channel Premium Investigation Discovery
@@ -1137,7 +1250,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 20/04/2019 07:46:00 stop = 20/04/2019 08:36:00 title = CUCINA INFERNALE - LAW & ORDER: UNITA' SPECIALE XX
-[  Info  ]       Replaces ----- start = 20/04/2019 07:46:00 stop = 20/04/2019 08:36:00 title = CUCINA INFERNALE - LAW & ORDER: UNITA' SPECIALE XX - PRIMA TV
+[  Info  ]       Replaces ----- start = 20/04/2019 07:46:00 stop = 20/04/2019 08:36:00 title = CUCINA INFERNALE - LAW & ORDER: UNITA' SPECIALE XX
 [  Debug ]    suspicious      title in index page  = Gone
 [  Debug ]       differs from title in showdetails = DOPPIO RAPIMEN.....
 [  Info  ]    epg correction : 
@@ -1241,7 +1354,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 20/04/2019 22:50:00 stop = 20/04/2019 23:40:00 title = CUCINA INFERNALE - LAW & ORDER: UNITA' SPECIALE XX
-[  Info  ]       Replaces ----- start = 20/04/2019 22:50:00 stop = 20/04/2019 23:40:00 title = CUCINA INFERNALE - LAW & ORDER: UNITA' SPECIALE XX - PRIMA TV
+[  Info  ]       Replaces ----- start = 20/04/2019 22:50:00 stop = 20/04/2019 23:40:00 title = CUCINA INFERNALE - LAW & ORDER: UNITA' SPECIALE XX
 [  Debug ]    suspicious      title in index page  = Blindspot
 [  Debug ]       differs from title in showdetails = LA MAPPA - BLINDSPO.....
 [  Info  ]    epg correction : 
@@ -1599,7 +1712,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 23/04/2019 05:58:00 stop = 23/04/2019 06:50:00 title = CUCINA INFERNALE - LAW & ORDER: UNITA' SPECIALE XX
-[  Info  ]       Replaces ----- start = 23/04/2019 05:58:00 stop = 23/04/2019 06:50:00 title = CUCINA INFERNALE - LAW & ORDER: UNITA' SPECIALE XX - PRIMA TV
+[  Info  ]       Replaces ----- start = 23/04/2019 05:58:00 stop = 23/04/2019 06:50:00 title = CUCINA INFERNALE - LAW & ORDER: UNITA' SPECIALE XX
 [  Debug ]    suspicious      title in index page  = Stalker
 [  Debug ]       differs from title in showdetails = UN GIOCO CON DUE .....
 [  Info  ]    epg correction : 
@@ -1697,7 +1810,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 23/04/2019 21:08:00 stop = 23/04/2019 21:59:00 title = CUCINA INFERNALE - LAW & ORDER: UNITA' SPECIALE XX
-[  Info  ]       Replaces ----- start = 23/04/2019 21:08:00 stop = 23/04/2019 21:59:00 title = CUCINA INFERNALE - LAW & ORDER: UNITA' SPECIALE XX - PRIMA TV
+[  Info  ]       Replaces ----- start = 23/04/2019 21:08:00 stop = 23/04/2019 21:59:00 title = CUCINA INFERNALE - LAW & ORDER: UNITA' SPECIALE XX
 [  Debug ]    suspicious      title in index page  = Person of Interest
 [  Debug ]       differs from title in showdetails = BETA - PERSON OF INTEREST II.....
 [  Info  ]    epg correction : 
@@ -1817,7 +1930,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 24/04/2019 14:26:00 stop = 24/04/2019 15:15:00 title = CUCINA INFERNALE - LAW & ORDER: UNITA' SPECIALE XX
-[  Info  ]       Replaces ----- start = 24/04/2019 14:26:00 stop = 24/04/2019 15:15:00 title = CUCINA INFERNALE - LAW & ORDER: UNITA' SPECIALE XX - PRIMA TV
+[  Info  ]       Replaces ----- start = 24/04/2019 14:26:00 stop = 24/04/2019 15:15:00 title = CUCINA INFERNALE - LAW & ORDER: UNITA' SPECIALE XX
 [  Debug ]    suspicious      title in index page  = The Closer
 [  Debug ]       differs from title in showdetails = SOTTO CONTROLLO - TH.....
 [  Info  ]    epg correction : 
@@ -1883,7 +1996,7 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 25/04/2019 02:55:00 stop = 25/04/2019 03:36:00 title = CUCINA INFERNALE - LAW & ORDER: UNITA' SPECIALE XX
-[  Info  ]       Replaces ----- start = 25/04/2019 02:55:00 stop = 25/04/2019 03:36:00 title = CUCINA INFERNALE - LAW & ORDER: UNITA' SPECIALE XX - PRIMA TV
+[  Info  ]       Replaces ----- start = 25/04/2019 02:55:00 stop = 25/04/2019 03:36:00 title = CUCINA INFERNALE - LAW & ORDER: UNITA' SPECIALE XX
 [  Debug ]    suspicious      title in index page  = Il commissario Schumann
 [  Debug ]       differs from title in showdetails = UNA VITA RUBATA - IL COMMISSARIO .....
 [  Info  ]    epg correction : 
@@ -2012,7 +2125,7 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 25/04/2019 23:34:00 stop = 26/04/2019 00:23:00 title = CLASS ACTION - RIZZOLI & ISLES III
 [  Info  ]       Replaces ----- start = 25/04/2019 23:34:00 stop = 26/04/2019 00:23:00 title = CLASS ACTION - RIZZOLI & ISLES III
-[  Info  ] 0.14 sec/update
+[  Info  ] 0.15 sec/update
 [  Debug ] 
 [  Info  ] ( 155/171 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Joy) -- mode Incremental
 [Error   ] Unable to update channel Premium Joy
@@ -2054,10 +2167,10 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Debug ] 32471 shows in 171 channels
-[  Debug ] 233 updated shows
-[  Debug ] 170 new shows added
+[  Debug ] 32480 shows in 171 channels
+[  Debug ] 384 updated shows
+[  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 19/04/2019 08:14:59 done in 9m 56s
+[        ] Job finished at 19/04/2019 12:15:13 done in 10m 10s
 [  Debug ] statistics upload error: The remote server returned an error: (404) Not Found.
