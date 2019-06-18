@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 18/06/2019 12:05:02
+[        ] Job started at 18/06/2019 16:05:02
 [  Debug ] 
 [  Debug ] Running  on: Unix 4.15.0.51
 [  Debug ] Environment: 4.0.30319.42000
@@ -29,7 +29,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+02:00	(DST in effect)
 [  Debug ] 	next DST dates  :	27/10/2019 03:00 (local)
 [  Debug ] 	                :	29/03/2020 02:00 (local)
-[  Debug ] 	local time now  :	18/06/2019 12:05:03
+[  Debug ] 	local time now  :	18/06/2019 16:05:02
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -227,13 +227,13 @@
 [  Info  ] (   4/171 ) MEDIASET.IT -- chan. (xmltv_id=Rete 4 HD) -- mode Incremental
 [  Debug ]    skipped negative show time! at 20/06/2019 01:20:00
 [  Debug ]    skipped negative show time! at 21/06/2019 01:35:00
-[  Info  ] 
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] (   5/171 ) MEDIASET.IT -- chan. (xmltv_id=Canale 5 HD) -- mode Incremental
-[  Info  ] 0.12 sec/update
+[  Info  ] 0.10 sec/update
 [  Debug ] 
 [  Info  ] (   6/171 ) MEDIASET.IT -- chan. (xmltv_id=Italia 1 HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.10 sec/update
 [  Debug ] 
 [  Info  ] (   7/171 ) MEDIASET.IT -- chan. (xmltv_id=Italia 2) -- mode Incremental
 [  Info  ] 
@@ -279,7 +279,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  14/171 ) MEDIASET.IT -- chan. (xmltv_id=Mediaset Extra) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.11 sec/update
 [  Debug ] 
 [  Info  ] (  15/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Storia) -- mode Incremental
 [  Info  ] 
@@ -443,7 +443,7 @@
 [  Debug ]       differs from title in showdetails = Vita da ricchi
 [  Debug ]    suspicious      title in index page  = Vita da ricchi -
 [  Debug ]       differs from title in showdetails = Vita da ricchi
-[  Info  ] 0.23 sec/update
+[  Info  ] 0.24 sec/update
 [  Debug ] 
 [  Info  ] (  48/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Uno +1) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = X Factor 2018 - Le audizioni
@@ -470,7 +470,7 @@
 [  Debug ]       differs from title in showdetails = X Factor 2018
 [  Debug ]    suspicious      title in index page  = X Factor 2018 - Le audizioni
 [  Debug ]       differs from title in showdetails = X Factor 2018
-[  Info  ] 0.62 sec/update
+[  Info  ] 0.24 sec/update
 [  Debug ] 
 [  Info  ] (  49/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=SKY CLASSICA HD) -- mode Incremental
 [  Info  ] 
@@ -484,12 +484,12 @@
 [  Debug ]       differs from title in showdetails = The Eighties
 [  Debug ]    suspicious      title in index page  = Crescere Neofascisti - 1^TV
 [  Debug ]       differs from title in showdetails = Programma non disponibile
-[  Info  ] 0.25 sec/update
+[  Info  ] 0.35 sec/update
 [  Debug ] 
 [  Info  ] (  51/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Atlantic +1) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = X Factor 2018 - Le audizioni
 [  Debug ]       differs from title in showdetails = X Factor 2018
-[  Info  ] 0.27 sec/update
+[  Info  ] 0.23 sec/update
 [  Debug ] 
 [  Info  ] (  52/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox HD) -- mode Incremental
 [  Info  ] 
@@ -771,32 +771,46 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 131/171 ) RAI.IT -- chan. (xmltv_id=Rai YoYo HD) -- mode Incremental
+[  Debug ] multiple entry of a show at 20190620020000 +0200
 [  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 20/06/2019 02:00:00 stop = 20/06/2019 02:00:00 title = Shaun Vita Da Pecora 2
-[  Info  ]       Added before - start = 20/06/2019 02:00:00 stop = 20/06/2019 02:00:00 title = Mofy 3
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/06/2019 02:00:00 stop = 20/06/2019 02:05:00 title = Shaun Vita Da Pecora 2
+[  Info  ]       Replaces ----- start = 20/06/2019 02:00:00 stop = 20/06/2019 02:05:00 title = Mofy 3
+[  Debug ] multiple entry of a show at 20190620020500 +0200
+[  Debug ] multiple entry of a show at 20190620021000 +0200
+[  Debug ] multiple entry of a show at 20190620021500 +0200
+[  Debug ] multiple entry of a show at 20190620022500 +0200
 [  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 20/06/2019 02:25:00 stop = 20/06/2019 02:25:00 title = Dixiland 2
-[  Info  ]       Added before - start = 20/06/2019 02:25:00 stop = 20/06/2019 02:25:00 title = Bing
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/06/2019 02:25:00 stop = 20/06/2019 02:30:00 title = Dixiland 2
+[  Info  ]       Replaces ----- start = 20/06/2019 02:25:00 stop = 20/06/2019 02:30:00 title = Bing
+[  Debug ] multiple entry of a show at 20190620023000 +0200
 [  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 20/06/2019 02:30:00 stop = 20/06/2019 02:30:00 title = Dixiland 2
-[  Info  ]       Added before - start = 20/06/2019 02:30:00 stop = 20/06/2019 02:30:00 title = Bing
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/06/2019 02:30:00 stop = 20/06/2019 02:35:00 title = Dixiland 2
+[  Info  ]       Replaces ----- start = 20/06/2019 02:30:00 stop = 20/06/2019 02:35:00 title = Bing
+[  Debug ] multiple entry of a show at 20190620023500 +0200
 [  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 20/06/2019 02:35:00 stop = 20/06/2019 02:35:00 title = Dixiland 2
-[  Info  ]       Added before - start = 20/06/2019 02:35:00 stop = 20/06/2019 02:35:00 title = Il Piccolo Regno Di Ben E Holly
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/06/2019 02:35:00 stop = 20/06/2019 02:40:00 title = Dixiland 2
+[  Info  ]       Replaces ----- start = 20/06/2019 02:35:00 stop = 20/06/2019 02:40:00 title = Il Piccolo Regno Di Ben E Holly
+[  Debug ] multiple entry of a show at 20190620025000 +0200
+[  Debug ] multiple entry of a show at 20190620030000 +0200
 [  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 20/06/2019 03:00:00 stop = 20/06/2019 03:00:00 title = I Racconti Di Masha
-[  Info  ]       Added before - start = 20/06/2019 03:00:00 stop = 20/06/2019 03:00:00 title = La Melevisione 2005
-[  Debug ] multiple entry of a show at 20190620043000 +0200
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/06/2019 03:00:00 stop = 20/06/2019 03:05:00 title = I Racconti Di Masha
+[  Info  ]       Replaces ----- start = 20/06/2019 03:00:00 stop = 20/06/2019 03:05:00 title = La Melevisione 2005
+[  Debug ] multiple entry of a show at 20190620032000 +0200
+[  Debug ] multiple entry of a show at 20190620033000 +0200
+[  Debug ] multiple entry of a show at 20190620041000 +0200
+[  Debug ] multiple entry of a show at 20190620045000 +0200
 [  Info  ]    epg correction : 
 [  Info  ]  MISSING show added,
 [  Info  ]       show with ---- start = 20/06/2019 04:50:00 stop = 20/06/2019 04:50:00 title = Postman Pat 3
 [  Info  ]       Added before - start = 20/06/2019 04:50:00 stop = 20/06/2019 04:50:00 title = Il Piccolo Regno Di Ben E Holly
-[  Info  ] 0.06 sec/update
+[  Debug ] multiple entry of a show at 20190620052000 +0200
+[  Debug ] multiple entry of a show at 20190620054000 +0200
+[  Info  ] 0.08 sec/update
 [  Debug ] 
 [  Info  ] ( 132/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cartoon Network) -- mode Incremental
 [  Info  ] 
@@ -997,10 +1011,10 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Debug ] 31460 shows in 171 channels
-[  Debug ] 78 updated shows
+[  Debug ] 31452 shows in 171 channels
+[  Debug ] 72 updated shows
 [  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 18/06/2019 12:13:51 done in 8m 48s
+[        ] Job finished at 18/06/2019 16:14:00 done in 8m 57s
 [  Debug ] statistics upload error: The remote server returned an error: (404) Not Found.
