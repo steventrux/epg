@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 28/06/2019 12:05:02
+[        ] Job started at 28/06/2019 16:05:03
 [  Debug ] 
 [  Debug ] Running  on: Unix 4.15.0.51
 [  Debug ] Environment: 4.0.30319.42000
@@ -29,7 +29,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+02:00	(DST in effect)
 [  Debug ] 	next DST dates  :	27/10/2019 03:00 (local)
 [  Debug ] 	                :	29/03/2020 02:00 (local)
-[  Debug ] 	local time now  :	28/06/2019 12:05:03
+[  Debug ] 	local time now  :	28/06/2019 16:05:03
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -229,13 +229,13 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   5/171 ) MEDIASET.IT -- chan. (xmltv_id=Canale 5 HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.13 sec/update
 [  Debug ] 
 [  Info  ] (   6/171 ) MEDIASET.IT -- chan. (xmltv_id=Italia 1 HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.10 sec/update
 [  Debug ] 
 [  Info  ] (   7/171 ) MEDIASET.IT -- chan. (xmltv_id=Italia 2) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.11 sec/update
 [  Debug ] 
 [  Info  ] (   8/171 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La1 HD) -- mode Incremental
 [Error   ] Unable to update channel Rsi La1 HD
@@ -465,7 +465,7 @@
 [  Debug ]       differs from title in showdetails = X Factor 2018
 [  Debug ]    suspicious      title in index page  = X Factor 2018 - Le audizioni
 [  Debug ]       differs from title in showdetails = X Factor 2018
-[  Info  ] 0.30 sec/update
+[  Info  ] 0.22 sec/update
 [  Debug ] 
 [  Info  ] (  49/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=SKY CLASSICA HD) -- mode Incremental
 [  Info  ] 
@@ -479,12 +479,12 @@
 [  Debug ]       differs from title in showdetails = The Eighties
 [  Debug ]    suspicious      title in index page  = Crescere Neofascisti - 1^TV
 [  Debug ]       differs from title in showdetails = Programma non disponibile
-[  Info  ] 1.43 sec/update
+[  Info  ] 0.22 sec/update
 [  Debug ] 
 [  Info  ] (  51/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Atlantic +1) -- mode Incremental
 [  Debug ]    suspicious      title in index page  = X Factor 2018 - Le audizioni
 [  Debug ]       differs from title in showdetails = X Factor 2018
-[  Info  ] 0.30 sec/update
+[  Info  ] 0.22 sec/update
 [  Debug ] 
 [  Info  ] (  52/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox HD) -- mode Incremental
 [  Info  ] 
@@ -496,7 +496,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  55/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Life +1) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.24 sec/update
 [  Debug ] 
 [  Info  ] (  56/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Crime HD) -- mode Incremental
 [  Info  ] 
@@ -714,10 +714,14 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 117/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=NatGeoPeople SuperHD) -- mode Incremental
-[  Info  ] 
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
+[Warning ] error downloading page: Error getting response stream (ReadDone1): ReceiveFailure
+[Warning ] pausing 2 of 4 times for 10 seconds before re-try.
+[  Info  ] 0.30 sec/update
 [  Debug ] 
 [  Info  ] ( 118/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=NatGeoPeople HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.22 sec/update
 [  Debug ] 
 [  Info  ] ( 119/171 ) GUIDATV.SKY.IT -- chan. (xmltv_id=History Channel HD) -- mode Incremental
 [  Info  ] 
@@ -965,10 +969,10 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Debug ] 31208 shows in 171 channels
-[  Debug ] 37 updated shows
+[  Debug ] 31190 shows in 171 channels
+[  Debug ] 574 updated shows
 [  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 28/06/2019 12:13:59 done in 8m 56s
+[        ] Job finished at 28/06/2019 16:16:09 done in 11m 5s
 [  Debug ] statistics upload error: The remote server returned an error: (404) Not Found.
