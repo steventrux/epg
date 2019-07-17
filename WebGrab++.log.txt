@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 17/07/2019 08:05:02
+[        ] Job started at 17/07/2019 12:05:03
 [  Debug ] 
 [  Debug ] Running  on: Unix 4.15.0.51
 [  Debug ] Environment: 4.0.30319.42000
@@ -29,7 +29,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+02:00	(DST in effect)
 [  Debug ] 	next DST dates  :	27/10/2019 03:00 (local)
 [  Debug ] 	                :	29/03/2020 02:00 (local)
-[  Debug ] 	local time now  :	17/07/2019 08:05:03
+[  Debug ] 	local time now  :	17/07/2019 12:05:03
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -220,13 +220,13 @@
 [  Info  ] (   4/164 ) MEDIASET.IT -- chan. (xmltv_id=Rete 4 HD) -- mode Incremental
 [  Debug ]    skipped negative show time! at 19/07/2019 01:44:00
 [  Debug ]    skipped negative show time! at 20/07/2019 01:19:00
-[  Info  ] 0.07 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   5/164 ) MEDIASET.IT -- chan. (xmltv_id=Canale 5 HD) -- mode Incremental
-[  Info  ] 0.06 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   6/164 ) MEDIASET.IT -- chan. (xmltv_id=Italia 1 HD) -- mode Incremental
-[  Info  ] 0.07 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   7/164 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La1 HD) -- mode Incremental
 [Error   ] Unable to update channel Rsi La1 HD
@@ -389,7 +389,23 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  46/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Premium Cinema +24) -- mode Incremental
-[  Info  ] 0.18 sec/update
+[  Debug ] multiple entry of a show at 20190717063000 +0200
+[  Debug ] multiple entry of a show at 20190717063000 +0200
+[  Debug ] multiple entry of a show at 20190717063000 +0200
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
+[Warning ] error downloading page: Error getting response stream (ReadDone1): ReceiveFailure
+[Warning ] pausing 2 of 4 times for 10 seconds before re-try.
+[  Debug ] multiple entry of a show at 20190717063000 +0200
+[  Debug ] multiple entry of a show at 20190717063000 +0200
+[  Debug ] multiple entry of a show at 20190717063100 +0200
+[  Debug ] multiple entry of a show at 20190717063100 +0200
+[  Debug ] multiple entry of a show at 20190717063100 +0200
+[  Debug ] multiple entry of a show at 20190721063000 +0200
+[  Debug ] multiple entry of a show at 20190721063000 +0200
+[  Debug ] multiple entry of a show at 20190721063000 +0200
+[  Debug ] multiple entry of a show at 20190721063000 +0200
+[  Info  ] 2.06 sec/update
 [  Debug ] 
 [  Info  ] (  47/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Premium Cinema Energy) -- mode Incremental
 [  Info  ] 
@@ -716,9 +732,427 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 137/164 ) RAI.IT -- chan. (xmltv_id=Rai YoYo HD) -- mode Incremental
-[  Debug ]    skipped show longer than 15 hour(s) at 17/07/2019 06:10:00 title New Teletubbies
-[  Debug ]    skipped show longer than 15 hour(s) at 19/07/2019 06:10:00 title New Teletubbies
-[  Info  ] 
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 17/07/2019 06:10:00 stop = 17/07/2019 06:30:00 title = New Teletubbies
+[  Info  ]       Added before - start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 17/07/2019 09:00:00 stop = 17/07/2019 09:05:00 title = Let's Go Pocoyo
+[  Info  ]       Added before - start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 17/07/2019 09:05:00 stop = 17/07/2019 09:10:00 title = Let's Go Pocoyo
+[  Info  ]       Added before - start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 17/07/2019 09:10:00 stop = 17/07/2019 09:20:00 title = Let's Go Pocoyo
+[  Info  ]       Added before - start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 17/07/2019 09:45:00 stop = 17/07/2019 09:50:00 title = Masha E Orso 3
+[  Info  ]       Added before - start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 17/07/2019 09:50:00 stop = 17/07/2019 10:00:00 title = Masha E Orso 3
+[  Info  ]       Added before - start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 17/07/2019 10:00:00 stop = 17/07/2019 10:05:00 title = Masha E Orso 3
+[  Info  ]       Added before - start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 17/07/2019 10:05:00 stop = 17/07/2019 10:15:00 title = Masha E Orso
+[  Info  ]       Added before - start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 17/07/2019 11:05:00 stop = 17/07/2019 11:15:00 title = Pj Masks 2
+[  Info  ]       Added before - start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 17/07/2019 11:15:00 stop = 17/07/2019 11:25:00 title = Pj Masks 2
+[  Info  ]       Added before - start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 17/07/2019 11:25:00 stop = 17/07/2019 11:35:00 title = Giulio Coniglio
+[  Info  ]       Added before - start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 17/07/2019 11:35:00 stop = 17/07/2019 11:50:00 title = Giulio Coniglio
+[  Info  ]       Added before - start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 17/07/2019 12:50:00 stop = 17/07/2019 12:55:00 title = Le Nuove Avventure Della Pimpa
+[  Info  ]       Added before - start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 17/07/2019 12:55:00 stop = 17/07/2019 13:00:00 title = Le Nuove Avventure Della Pimpa
+[  Info  ]       Added before - start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 17/07/2019 13:00:00 stop = 17/07/2019 13:05:00 title = Le Nuove Avventure Della Pimpa
+[  Info  ]       Added before - start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 17/07/2019 13:05:00 stop = 17/07/2019 13:10:00 title = Masha E Orso 2
+[  Info  ]       Added before - start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 17/07/2019 13:10:00 stop = 17/07/2019 13:15:00 title = Masha E Orso 2
+[  Info  ]       Added before - start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 17/07/2019 13:15:00 stop = 17/07/2019 13:25:00 title = Masha E Orso 2
+[  Info  ]       Added before - start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 17/07/2019 13:25:00 stop = 17/07/2019 13:30:00 title = Masha E Orso 2
+[  Info  ]       Added before - start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 17/07/2019 13:30:00 stop = 17/07/2019 13:35:00 title = I Racconti Di Masha
+[  Info  ]       Added before - start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 17/07/2019 13:35:00 stop = 17/07/2019 13:40:00 title = I Racconti Di Masha
+[  Info  ]       Added before - start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 17/07/2019 14:50:00 stop = 17/07/2019 15:00:00 title = Pj Masks 2
+[  Info  ]       Added before - start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 17/07/2019 15:00:00 stop = 17/07/2019 15:15:00 title = Pj Masks 2
+[  Info  ]       Added before - start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 17/07/2019 16:35:00 stop = 17/07/2019 16:40:00 title = Molang 2
+[  Info  ]       Added before - start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 17/07/2019 16:40:00 stop = 17/07/2019 16:45:00 title = Molang 2
+[  Info  ]       Added before - start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 17/07/2019 16:45:00 stop = 17/07/2019 16:50:00 title = Molang 2
+[  Info  ]       Added before - start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 17/07/2019 18:55:00 stop = 17/07/2019 19:00:00 title = Masha E Orso
+[  Info  ]       Added before - start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 17/07/2019 19:00:00 stop = 17/07/2019 19:05:00 title = Masha E Orso
+[  Info  ]       Added before - start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 17/07/2019 19:05:00 stop = 17/07/2019 19:15:00 title = Masha E Orso
+[  Info  ]       Added before - start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 17/07/2019 19:40:00 stop = 17/07/2019 20:05:00 title = La Casa Di Topolino Yr2
+[  Info  ]       Added before - start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 17/07/2019 20:10:00 stop = 17/07/2019 20:30:00 title = Dottoressa Peluche Yr4
+[  Info  ]       Added before - start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 17/07/2019 20:30:00 stop = 17/07/2019 20:40:00 title = Pj Masks 2
+[  Info  ]       Added before - start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 17/07/2019 20:40:00 stop = 17/07/2019 20:55:00 title = Pj Masks 2
+[  Info  ]       Added before - start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 17/07/2019 23:30:00 stop = 17/07/2019 23:35:00 title = La Pimpa 3
+[  Info  ]       Added before - start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 17/07/2019 23:35:00 stop = 17/07/2019 23:40:00 title = La Pimpa 3
+[  Info  ]       Added before - start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 17/07/2019 23:40:00 stop = 17/07/2019 23:45:00 title = La Pimpa 3
+[  Info  ]       Added before - start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 17/07/2019 23:45:00 stop = 17/07/2019 23:50:00 title = La Pimpa 3
+[  Info  ]       Added before - start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 17/07/2019 23:50:00 stop = 17/07/2019 23:55:00 title = Let's Go Pocoyo
+[  Info  ]       Added before - start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 17/07/2019 23:55:00 stop = 18/07/2019 00:00:00 title = Let's Go Pocoyo
+[  Info  ]       Added before - start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 18/07/2019 00:00:00 stop = 18/07/2019 00:10:00 title = Let's Go Pocoyo
+[  Info  ]       Added before - start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 18/07/2019 00:10:00 stop = 18/07/2019 00:15:00 title = Let's Go Pocoyo
+[  Info  ]       Added before - start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 18/07/2019 00:15:00 stop = 18/07/2019 00:20:00 title = Let's Go Pocoyo
+[  Info  ]       Added before - start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 18/07/2019 00:35:00 stop = 18/07/2019 00:40:00 title = Dixiland 2
+[  Info  ]       Added before - start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 18/07/2019 00:40:00 stop = 18/07/2019 00:45:00 title = Dixiland 2
+[  Info  ]       Added before - start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 18/07/2019 00:45:00 stop = 18/07/2019 00:50:00 title = Dixiland 2
+[  Info  ]       Added before - start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 18/07/2019 01:05:00 stop = 18/07/2019 01:10:00 title = I Racconti Di Masha
+[  Info  ]       Added before - start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/07/2019 01:10:00 stop = 18/07/2019 01:15:00 title = I Racconti Di Masha
+[  Info  ]       Replaces ----- start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/07/2019 01:15:00 stop = 18/07/2019 01:20:00 title = Sigla Buonanotte
+[  Info  ]       Replaces ----- start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/07/2019 04:50:00 stop = 18/07/2019 05:05:00 title = Postman Pat 3
+[  Info  ]       Replaces ----- start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/07/2019 05:05:00 stop = 18/07/2019 05:20:00 title = Postman Pat 3
+[  Info  ]       Replaces ----- start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/07/2019 05:20:00 stop = 18/07/2019 05:30:00 title = Noddy
+[  Info  ]       Replaces ----- start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/07/2019 05:30:00 stop = 18/07/2019 05:40:00 title = Noddy
+[  Info  ]       Replaces ----- start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/07/2019 05:40:00 stop = 18/07/2019 05:55:00 title = Noddy
+[  Info  ]       Replaces ----- start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/07/2019 05:55:00 stop = 18/07/2019 06:00:00 title = Molly Monster 2
+[  Info  ]       Replaces ----- start = 18/07/2019 01:10:00 stop = 18/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 19/07/2019 06:10:00 stop = 19/07/2019 06:30:00 title = New Teletubbies
+[  Info  ]       Added before - start = 20/07/2019 01:10:00 stop = 20/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 19/07/2019 09:00:00 stop = 19/07/2019 09:05:00 title = Let's Go Pocoyo
+[  Info  ]       Added before - start = 20/07/2019 01:10:00 stop = 20/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 19/07/2019 09:05:00 stop = 19/07/2019 09:15:00 title = Let's Go Pocoyo
+[  Info  ]       Added before - start = 20/07/2019 01:10:00 stop = 20/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 19/07/2019 09:15:00 stop = 19/07/2019 09:20:00 title = Let's Go Pocoyo
+[  Info  ]       Added before - start = 20/07/2019 01:10:00 stop = 20/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 19/07/2019 09:45:00 stop = 19/07/2019 09:50:00 title = Masha E Orso 3
+[  Info  ]       Added before - start = 20/07/2019 01:10:00 stop = 20/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 19/07/2019 09:50:00 stop = 19/07/2019 10:00:00 title = Masha E Orso
+[  Info  ]       Added before - start = 20/07/2019 01:10:00 stop = 20/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 19/07/2019 10:00:00 stop = 19/07/2019 10:05:00 title = Masha E Orso
+[  Info  ]       Added before - start = 20/07/2019 01:10:00 stop = 20/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 19/07/2019 10:55:00 stop = 19/07/2019 11:05:00 title = Pj Masks 2
+[  Info  ]       Added before - start = 20/07/2019 01:10:00 stop = 20/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 19/07/2019 11:05:00 stop = 19/07/2019 11:20:00 title = Pj Masks 2
+[  Info  ]       Added before - start = 20/07/2019 01:10:00 stop = 20/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 19/07/2019 11:20:00 stop = 19/07/2019 11:30:00 title = Giulio Coniglio
+[  Info  ]       Added before - start = 20/07/2019 01:10:00 stop = 20/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 19/07/2019 11:30:00 stop = 19/07/2019 11:40:00 title = Giulio Coniglio
+[  Info  ]       Added before - start = 20/07/2019 01:10:00 stop = 20/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 19/07/2019 12:40:00 stop = 19/07/2019 12:45:00 title = Le Nuove Avventure Della Pimpa
+[  Info  ]       Added before - start = 20/07/2019 01:10:00 stop = 20/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 19/07/2019 12:45:00 stop = 19/07/2019 12:50:00 title = Le Nuove Avventure Della Pimpa
+[  Info  ]       Added before - start = 20/07/2019 01:10:00 stop = 20/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 19/07/2019 12:50:00 stop = 19/07/2019 12:55:00 title = Le Nuove Avventure Della Pimpa
+[  Info  ]       Added before - start = 20/07/2019 01:10:00 stop = 20/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 19/07/2019 12:55:00 stop = 19/07/2019 13:00:00 title = La Pimpa 4
+[  Info  ]       Added before - start = 20/07/2019 01:10:00 stop = 20/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 19/07/2019 13:00:00 stop = 19/07/2019 13:10:00 title = Masha E Orso 2
+[  Info  ]       Added before - start = 20/07/2019 01:10:00 stop = 20/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 19/07/2019 13:10:00 stop = 19/07/2019 13:15:00 title = Masha E Orso 2
+[  Info  ]       Added before - start = 20/07/2019 01:10:00 stop = 20/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 19/07/2019 13:15:00 stop = 19/07/2019 13:20:00 title = Masha E Orso 2
+[  Info  ]       Added before - start = 20/07/2019 01:10:00 stop = 20/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 19/07/2019 13:20:00 stop = 19/07/2019 13:30:00 title = Masha E Orso 3
+[  Info  ]       Added before - start = 20/07/2019 01:10:00 stop = 20/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 19/07/2019 13:30:00 stop = 19/07/2019 13:35:00 title = I Racconti Di Masha
+[  Info  ]       Added before - start = 20/07/2019 01:10:00 stop = 20/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 19/07/2019 13:35:00 stop = 19/07/2019 13:40:00 title = I Racconti Di Masha
+[  Info  ]       Added before - start = 20/07/2019 01:10:00 stop = 20/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 19/07/2019 14:45:00 stop = 19/07/2019 15:00:00 title = Pj Masks
+[  Info  ]       Added before - start = 20/07/2019 01:10:00 stop = 20/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 19/07/2019 15:00:00 stop = 19/07/2019 15:15:00 title = Pj Masks
+[  Info  ]       Added before - start = 20/07/2019 01:10:00 stop = 20/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 19/07/2019 18:55:00 stop = 19/07/2019 19:00:00 title = Masha E Orso
+[  Info  ]       Added before - start = 20/07/2019 01:10:00 stop = 20/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 19/07/2019 19:00:00 stop = 19/07/2019 19:10:00 title = Masha E Orso
+[  Info  ]       Added before - start = 20/07/2019 01:10:00 stop = 20/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 19/07/2019 19:10:00 stop = 19/07/2019 19:15:00 title = Masha E Orso
+[  Info  ]       Added before - start = 20/07/2019 01:10:00 stop = 20/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 19/07/2019 19:40:00 stop = 19/07/2019 20:05:00 title = La Casa Di Topolino Yr2
+[  Info  ]       Added before - start = 20/07/2019 01:10:00 stop = 20/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 19/07/2019 20:10:00 stop = 19/07/2019 20:30:00 title = Dottoressa Peluche Yr4
+[  Info  ]       Added before - start = 20/07/2019 01:10:00 stop = 20/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 19/07/2019 20:30:00 stop = 19/07/2019 20:40:00 title = Pj Masks 2
+[  Info  ]       Added before - start = 20/07/2019 01:10:00 stop = 20/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 19/07/2019 20:40:00 stop = 19/07/2019 20:55:00 title = Pj Masks 2
+[  Info  ]       Added before - start = 20/07/2019 01:10:00 stop = 20/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 19/07/2019 23:25:00 stop = 19/07/2019 23:30:00 title = La Pimpa 3
+[  Info  ]       Added before - start = 20/07/2019 01:10:00 stop = 20/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 19/07/2019 23:30:00 stop = 19/07/2019 23:35:00 title = La Pimpa 3
+[  Info  ]       Added before - start = 20/07/2019 01:10:00 stop = 20/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 19/07/2019 23:35:00 stop = 19/07/2019 23:40:00 title = La Pimpa 4
+[  Info  ]       Added before - start = 20/07/2019 01:10:00 stop = 20/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 19/07/2019 23:40:00 stop = 19/07/2019 23:45:00 title = La Pimpa 4
+[  Info  ]       Added before - start = 20/07/2019 01:10:00 stop = 20/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 19/07/2019 23:45:00 stop = 19/07/2019 23:50:00 title = Let's Go Pocoyo
+[  Info  ]       Added before - start = 20/07/2019 01:10:00 stop = 20/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 19/07/2019 23:50:00 stop = 19/07/2019 23:55:00 title = Let's Go Pocoyo
+[  Info  ]       Added before - start = 20/07/2019 01:10:00 stop = 20/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 19/07/2019 23:55:00 stop = 20/07/2019 00:00:00 title = Let's Go Pocoyo
+[  Info  ]       Added before - start = 20/07/2019 01:10:00 stop = 20/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 20/07/2019 00:00:00 stop = 20/07/2019 00:10:00 title = Let's Go Pocoyo
+[  Info  ]       Added before - start = 20/07/2019 01:10:00 stop = 20/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 20/07/2019 00:10:00 stop = 20/07/2019 00:15:00 title = Let's Go Pocoyo
+[  Info  ]       Added before - start = 20/07/2019 01:10:00 stop = 20/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 20/07/2019 00:30:00 stop = 20/07/2019 00:35:00 title = Dixiland 2
+[  Info  ]       Added before - start = 20/07/2019 01:10:00 stop = 20/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 20/07/2019 00:35:00 stop = 20/07/2019 00:40:00 title = Dixiland 2
+[  Info  ]       Added before - start = 20/07/2019 01:10:00 stop = 20/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 20/07/2019 00:40:00 stop = 20/07/2019 00:45:00 title = Dixiland 2
+[  Info  ]       Added before - start = 20/07/2019 01:10:00 stop = 20/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 20/07/2019 01:00:00 stop = 20/07/2019 01:05:00 title = I Racconti Di Masha
+[  Info  ]       Added before - start = 20/07/2019 01:10:00 stop = 20/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 20/07/2019 01:05:00 stop = 20/07/2019 01:10:00 title = I Racconti Di Masha
+[  Info  ]       Added before - start = 20/07/2019 01:10:00 stop = 20/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/07/2019 01:10:00 stop = 20/07/2019 01:15:00 title = Sigla Buonanotte
+[  Info  ]       Replaces ----- start = 20/07/2019 01:10:00 stop = 20/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/07/2019 04:50:00 stop = 20/07/2019 05:05:00 title = Postman Pat 3
+[  Info  ]       Replaces ----- start = 20/07/2019 01:10:00 stop = 20/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/07/2019 05:05:00 stop = 20/07/2019 05:20:00 title = Postman Pat 3
+[  Info  ]       Replaces ----- start = 20/07/2019 01:10:00 stop = 20/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/07/2019 05:20:00 stop = 20/07/2019 05:30:00 title = Noddy
+[  Info  ]       Replaces ----- start = 20/07/2019 01:10:00 stop = 20/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/07/2019 05:30:00 stop = 20/07/2019 05:40:00 title = Noddy
+[  Info  ]       Replaces ----- start = 20/07/2019 01:10:00 stop = 20/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/07/2019 05:40:00 stop = 20/07/2019 05:55:00 title = Noddy
+[  Info  ]       Replaces ----- start = 20/07/2019 01:10:00 stop = 20/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/07/2019 05:55:00 stop = 20/07/2019 06:00:00 title = Molly Monster 2
+[  Info  ]       Replaces ----- start = 20/07/2019 01:10:00 stop = 20/07/2019 06:00:00 title = Sigla Buonanotte
+[  Info  ] 0.06 sec/update
 [  Debug ] 
 [  Info  ] ( 138/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cartoon Network) -- mode Incremental
 [  Info  ] 
@@ -798,10 +1232,10 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Debug ] 32781 shows in 164 channels
-[  Debug ] 10 updated shows
-[  Debug ] 112 new shows added
+[  Debug ] 33088 shows in 164 channels
+[  Debug ] 329 updated shows
+[  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 17/07/2019 08:14:01 done in 8m 58s
+[        ] Job finished at 17/07/2019 12:14:26 done in 9m 23s
 [  Debug ] statistics upload error: The remote server returned an error: (404) Not Found.
