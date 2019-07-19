@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 19/07/2019 08:05:03
+[        ] Job started at 19/07/2019 12:05:03
 [  Debug ] 
 [  Debug ] Running  on: Unix 4.15.0.51
 [  Debug ] Environment: 4.0.30319.42000
@@ -29,7 +29,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+02:00	(DST in effect)
 [  Debug ] 	next DST dates  :	27/10/2019 03:00 (local)
 [  Debug ] 	                :	29/03/2020 02:00 (local)
-[  Debug ] 	local time now  :	19/07/2019 08:05:03
+[  Debug ] 	local time now  :	19/07/2019 12:05:03
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -263,14 +263,16 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  13/164 ) MEDIASET.IT -- chan. (xmltv_id=Mediaset Extra) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.10 sec/update
 [  Debug ] 
 [  Info  ] (  14/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Storia) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  15/164 ) MEDIASET.IT -- chan. (xmltv_id=Iris) -- mode Incremental
-[  Info  ] 
+[  Debug ]    suspicious      title in index page  = Belli dentro
+[  Debug ]       differs from title in showdetails = Televendita Media Shop.....
+[  Info  ] 0.08 sec/update
 [  Debug ] 
 [  Info  ] (  16/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Sport 1 HD) -- mode Incremental
 [  Info  ] 
@@ -720,27 +722,33 @@
 [  Debug ] 
 [  Info  ] ( 137/164 ) RAI.IT -- chan. (xmltv_id=Rai YoYo HD) -- mode Incremental
 [  Debug ] multiple entry of a show at 20190723020500 +0200
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 23/07/2019 02:05:00 stop = 23/07/2019 02:05:00 title = Let's Go Pocoyo
+[  Info  ]       Added before - start = 23/07/2019 02:05:00 stop = 23/07/2019 02:05:00 title = Bing
 [  Debug ] multiple entry of a show at 20190723021500 +0200
 [  Debug ] multiple entry of a show at 20190723022000 +0200
-[  Debug ] multiple entry of a show at 20190723023000 +0200
-[  Debug ] multiple entry of a show at 20190723023500 +0200
-[  Debug ] multiple entry of a show at 20190723024500 +0200
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 23/07/2019 02:35:00 stop = 23/07/2019 02:35:00 title = Dixiland 2
+[  Info  ]       Added before - start = 23/07/2019 02:35:00 stop = 23/07/2019 02:35:00 title = Il Piccolo Regno Di Ben E Holly
 [  Debug ] multiple entry of a show at 20190723030000 +0200
-[  Debug ] multiple entry of a show at 20190723032000 +0200
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 23/07/2019 03:00:00 stop = 23/07/2019 03:00:00 title = I Racconti Di Masha
+[  Info  ]       Added before - start = 23/07/2019 03:00:00 stop = 23/07/2019 03:00:00 title = Melevisione 2005
 [  Debug ] multiple entry of a show at 20190723033000 +0200
 [  Debug ] multiple entry of a show at 20190723042000 +0200
 [  Debug ] multiple entry of a show at 20190723043000 +0200
-[  Debug ] multiple entry of a show at 20190723052000 +0200
 [  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 23/07/2019 05:20:00 stop = 23/07/2019 05:20:00 title = Noddy
-[  Info  ]       Added before - start = 23/07/2019 05:20:00 stop = 23/07/2019 05:20:00 title = Peppa Pig 4
-[  Debug ] multiple entry of a show at 20190723054000 +0200
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 23/07/2019 05:20:00 stop = 23/07/2019 05:25:00 title = Noddy
+[  Info  ]       Replaces ----- start = 23/07/2019 05:20:00 stop = 23/07/2019 05:25:00 title = Peppa Pig 4
 [  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 23/07/2019 05:40:00 stop = 23/07/2019 05:40:00 title = Noddy
-[  Info  ]       Added before - start = 23/07/2019 05:40:00 stop = 23/07/2019 05:40:00 title = Piccolo Principe 3
-[  Info  ] 0.05 sec/update
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 23/07/2019 05:40:00 stop = 23/07/2019 05:55:00 title = Noddy
+[  Info  ]       Replaces ----- start = 23/07/2019 05:40:00 stop = 23/07/2019 05:55:00 title = Piccolo Principe 3
+[  Info  ] 0.06 sec/update
 [  Debug ] 
 [  Info  ] ( 138/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cartoon Network) -- mode Incremental
 [  Info  ] 
@@ -823,9 +831,9 @@
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Debug ] 32332 shows in 164 channels
-[  Debug ] 13 updated shows
+[  Debug ] 37 updated shows
 [  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 19/07/2019 08:13:53 done in 8m 49s
+[        ] Job finished at 19/07/2019 12:13:40 done in 8m 37s
 [  Debug ] statistics upload error: The remote server returned an error: (404) Not Found.
