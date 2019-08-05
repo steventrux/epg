@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 05/08/2019 12:05:02
+[        ] Job started at 05/08/2019 16:05:02
 [  Debug ] 
 [  Debug ] Running  on: Unix 4.4.0.150
 [  Debug ] Environment: 4.0.30319.42000
@@ -29,7 +29,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+02:00	(DST in effect)
 [  Debug ] 	next DST dates  :	27/10/2019 03:00 (local)
 [  Debug ] 	                :	29/03/2020 02:00 (local)
-[  Debug ] 	local time now  :	05/08/2019 12:05:02
+[  Debug ] 	local time now  :	05/08/2019 16:05:03
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -229,7 +229,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   6/164 ) MEDIASET.IT -- chan. (xmltv_id=Italia 1 HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.10 sec/update
 [  Debug ] 
 [  Info  ] (   7/164 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La1 HD) -- mode Incremental
 [Error   ] Unable to update channel Rsi La1 HD
@@ -263,7 +263,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  12/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Top Crime) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.22 sec/update
 [  Debug ] 
 [  Info  ] (  13/164 ) MEDIASET.IT -- chan. (xmltv_id=Mediaset Extra) -- mode Incremental
 [  Info  ] 
@@ -273,7 +273,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  15/164 ) MEDIASET.IT -- chan. (xmltv_id=Iris) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.10 sec/update
 [  Debug ] 
 [  Info  ] (  16/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Sport 1 HD) -- mode Incremental
 [  Info  ] 
@@ -301,7 +301,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  24/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=LaEffe) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.23 sec/update
 [  Debug ] 
 [  Info  ] (  25/164 ) PROGRAMMI-TV.EU -- chan. (xmltv_id=La3) -- mode Incremental
 [Error   ] no shows in indexpage!
@@ -389,29 +389,22 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  45/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Premium Cinema HD) -- mode Incremental
-[  Debug ] multiple entry of a show at 20190811063000 +0200
-[  Debug ] multiple entry of a show at 20190811063000 +0200
-[  Debug ] multiple entry of a show at 20190811063000 +0200
-[  Debug ] multiple entry of a show at 20190811063000 +0200
-[  Debug ] multiple entry of a show at 20190811063000 +0200
-[  Debug ] multiple entry of a show at 20190811063100 +0200
-[  Debug ] multiple entry of a show at 20190811063100 +0200
 [  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] (  46/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Premium Cinema +24) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.21 sec/update
 [  Debug ] 
 [  Info  ] (  47/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Premium Cinema Energy) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  48/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Premium Cinema Emotion HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.20 sec/update
 [  Debug ] 
 [  Info  ] (  49/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Premium Cinema Comedy) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  50/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky TG24) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] (  51/164 ) PROGRAMMI-TV.EU -- chan. (xmltv_id=TGcom 24) -- mode Incremental
 [Error   ] no shows in indexpage!
@@ -467,10 +460,14 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  64/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Comedy HD) -- mode Incremental
-[  Info  ] 
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
+[  Info  ] 0.35 sec/update
 [  Debug ] 
 [  Info  ] (  65/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Comedy Central) -- mode Incremental
-[  Info  ] 
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
+[  Info  ] 0.33 sec/update
 [  Debug ] 
 [  Info  ] (  66/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Fox Animation HD) -- mode Incremental
 [  Info  ] 
@@ -504,15 +501,9 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  71/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky motoGP superHD) -- mode Incremental
-[Warning ] error downloading page: The request timed out (5sec)
-[Warning ] Retry 1 of 4 times
-[Warning ] error downloading page: Error getting response stream (ReadDone1): ReceiveFailure
-[Warning ] pausing 2 of 4 times for 10 seconds before re-try.
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  72/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Bike Channel) -- mode Incremental
-[Warning ] error downloading page: The request timed out (5sec)
-[Warning ] Retry 1 of 4 times
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  73/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Eurosport 1) -- mode Incremental
@@ -534,10 +525,10 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  79/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Uno HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] (  80/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Uno SuperHD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.17 sec/update
 [  Debug ] 
 [  Info  ] (  81/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport SerieA SuperHD) -- mode Incremental
 [  Info  ] 
@@ -741,7 +732,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 140/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Disney Channel) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.29 sec/update
 [  Debug ] 
 [  Info  ] ( 141/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Disney Channel +1) -- mode Incremental
 [  Info  ] 
@@ -762,18 +753,12 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 147/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Teen Nick) -- mode Incremental
-[Warning ] error downloading page: The request timed out (5sec)
-[Warning ] Retry 1 of 4 times
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 148/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Disney Junior) -- mode Incremental
-[Warning ] error downloading page: The request timed out (5sec)
-[Warning ] Retry 1 of 4 times
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 149/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Super !) -- mode Incremental
-[Warning ] error downloading page: The request timed out (5sec)
-[Warning ] Retry 1 of 4 times
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 150/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Boing) -- mode Incremental
@@ -818,10 +803,10 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Debug ] 32912 shows in 164 channels
-[  Debug ] 30 updated shows
+[  Debug ] 32929 shows in 164 channels
+[  Debug ] 575 updated shows
 [  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 05/08/2019 12:13:56 done in 8m 53s
+[        ] Job finished at 05/08/2019 16:15:45 done in 10m 42s
 [  Debug ] statistics upload error: The remote server returned an error: (404) Not Found.
