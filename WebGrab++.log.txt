@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 28/09/2019 16:05:02
+[        ] Job started at 28/09/2019 20:05:02
 [  Debug ] 
 [  Debug ] Running  on: Unix 4.4.0.150
 [  Debug ] Environment: 4.0.30319.42000
@@ -29,7 +29,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+02:00	(DST in effect)
 [  Debug ] 	next DST dates  :	27/10/2019 03:00 (local)
 [  Debug ] 	                :	29/03/2020 02:00 (local)
-[  Debug ] 	local time now  :	28/09/2019 16:05:03
+[  Debug ] 	local time now  :	28/09/2019 20:05:02
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -252,7 +252,11 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  10/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=TV 8) -- mode Incremental
-[  Info  ] 
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
+[Warning ] error downloading page: Error getting response stream (ReadDone1): ReceiveFailure
+[Warning ] pausing 2 of 4 times for 10 seconds before re-try.
+[  Info  ] 0.79 sec/update
 [  Debug ] 
 [  Info  ] (  11/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Nove HD) -- mode Incremental
 [  Info  ] 
@@ -430,15 +434,17 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  56/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Atlantic HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] (  57/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Atlantic +1 SuperHD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.16 sec/update
 [  Debug ] 
 [  Info  ] (  58/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox HD) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  59/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox +1) -- mode Incremental
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  60/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Life HD) -- mode Incremental
@@ -634,10 +640,10 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 113/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Arte SuperHD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.17 sec/update
 [  Debug ] 
 [  Info  ] ( 114/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky arte HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.18 sec/update
 [  Debug ] 
 [  Info  ] ( 115/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Discovery Channel SuperHD) -- mode Incremental
 [  Info  ] 
@@ -678,7 +684,7 @@
 [  Debug ]       differs from title in showdetails = Il mistero del tesoro sommerso -  -  -
 [  Debug ]    suspicious      title in index page  = Il mistero del tesoro sommerso -
 [  Debug ]       differs from title in showdetails = Il mistero del tesoro sommerso -  -  -
-[  Info  ] 0.31 sec/update
+[  Info  ] 0.27 sec/update
 [  Debug ] 
 [  Info  ] ( 126/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Focus) -- mode Incremental
 [  Info  ] 
@@ -724,17 +730,17 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 138/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cartoon Network) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.19 sec/update
 [  Debug ] 
 [  Info  ] ( 139/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Disney XD) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 140/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Disney Channel) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.48 sec/update
 [  Debug ] 
 [  Info  ] ( 141/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Disney Channel +1) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.21 sec/update
 [  Debug ] 
 [  Info  ] ( 142/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cartonito) -- mode Incremental
 [  Info  ] 
@@ -746,6 +752,8 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 145/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=DeA Junior) -- mode Incremental
+[Warning ] error downloading page: Error getting response stream (ReadDone2): ReceiveFailure
+[Warning ] pausing 1 of 4 times for 5 seconds before re-try.
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
@@ -756,16 +764,16 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 148/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Disney Junior) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.22 sec/update
 [  Debug ] 
 [  Info  ] ( 149/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Super !) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.19 sec/update
 [  Debug ] 
 [  Info  ] ( 150/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Boing) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 151/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Man-Ga) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.19 sec/update
 [  Debug ] 
 [  Info  ] ( 152/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Frisbee) -- mode Incremental
 [  Info  ] 
@@ -788,10 +796,10 @@
 [  Info  ] ( 158/164 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Calcio 1) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
-[  Debug ] 30918 shows in 164 channels
-[  Debug ] 3 updated shows
+[  Debug ] 30919 shows in 164 channels
+[  Debug ] 205 updated shows
 [  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 28/09/2019 16:12:41 done in 7m 38s
+[        ] Job finished at 28/09/2019 20:15:18 done in 10m 16s
 [  Debug ] statistics upload error: The remote server returned an error: (404) Not Found.
