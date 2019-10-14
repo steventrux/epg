@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 14/10/2019 08:05:02
+[        ] Job started at 14/10/2019 12:05:02
 [  Debug ] 
 [  Debug ] Running  on: Unix 4.15.18.0
 [  Debug ] Environment: 4.0.30319.42000
@@ -29,7 +29,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+02:00	(DST in effect)
 [  Debug ] 	next DST dates  :	27/10/2019 03:00 (local)
 [  Debug ] 	                :	29/03/2020 02:00 (local)
-[  Debug ] 	local time now  :	14/10/2019 08:05:03
+[  Debug ] 	local time now  :	14/10/2019 12:05:02
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -209,6 +209,10 @@
 [  Info  ] update requested for - 164 - out of - 164 - channels for 7 day(s)
 [  Debug ] 
 [  Info  ] (   1/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai 1 HD) -- mode Incremental
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
+[Warning ] error downloading page: Error getting response stream (ReadDone1): ReceiveFailure
+[Warning ] pausing 2 of 4 times for 10 seconds before re-try.
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   2/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai 2 HD) -- mode Incremental
@@ -224,7 +228,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   6/164 ) MEDIASET.IT -- chan. (xmltv_id=Italia 1 HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.11 sec/update
 [  Debug ] 
 [  Info  ] (   7/164 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La1 HD) -- mode Incremental
 [Error   ] Unable to update channel Rsi La1 HD
@@ -243,7 +247,7 @@
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] (   7/164 ) STASERAINTV.COM -- chan. (xmltv_id=La 5) -- mode Incremental
-[  Info  ] 0.07 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   8/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=LA7) -- mode Incremental
 [  Info  ] 
@@ -261,7 +265,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  13/164 ) MEDIASET.IT -- chan. (xmltv_id=Mediaset Extra) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.11 sec/update
 [  Debug ] 
 [  Info  ] (  14/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Storia) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
@@ -630,7 +634,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 111/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Roma Channel) -- mode Incremental
-[  Info  ] 0.13 sec/update
+[  Info  ] 0.12 sec/update
 [  Debug ] 
 [  Info  ] ( 112/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Lazio Style Channel) -- mode Incremental
 [  Info  ] 
@@ -680,7 +684,7 @@
 [  Debug ]       differs from title in showdetails = Il mistero del tesoro sommerso -  -  -
 [  Debug ]    suspicious      title in index page  = Il mistero del tesoro sommerso -
 [  Debug ]       differs from title in showdetails = Il mistero del tesoro sommerso -  -  -
-[  Info  ] 0.26 sec/update
+[  Info  ] 0.28 sec/update
 [  Debug ] 
 [  Info  ] ( 126/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Focus) -- mode Incremental
 [  Info  ] 
@@ -764,10 +768,6 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 150/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Boing) -- mode Incremental
-[Warning ] error downloading page: The request timed out (5sec)
-[Warning ] Retry 1 of 4 times
-[Warning ] error downloading page: Error getting response stream (ReadDone1): ReceiveFailure
-[Warning ] pausing 2 of 4 times for 10 seconds before re-try.
 [  Info  ] 
 [  Debug ] 
 [  Info  ] ( 151/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Man-Ga) -- mode Incremental
@@ -794,10 +794,10 @@
 [  Info  ] ( 158/164 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Calcio 1) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
-[  Debug ] 30355 shows in 164 channels
-[  Debug ] 18 updated shows
+[  Debug ] 30354 shows in 164 channels
+[  Debug ] 31 updated shows
 [  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 14/10/2019 08:13:29 done in 8m 26s
+[        ] Job finished at 14/10/2019 12:13:48 done in 8m 46s
 [  Debug ] statistics upload error: The remote server returned an error: (404) Not Found.
