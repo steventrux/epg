@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 28/11/2019 16:05:02
+[        ] Job started at 28/11/2019 20:05:02
 [  Debug ] 
 [  Debug ] Running  on: Unix 4.15.18.0
 [  Debug ] Environment: 4.0.30319.42000
@@ -29,7 +29,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+01:00	(no DST in effect)
 [  Debug ] 	next DST dates  :	29/03/2020 02:00 (local)
 [  Debug ] 	                :	25/10/2020 03:00 (local)
-[  Debug ] 	local time now  :	28/11/2019 16:05:02
+[  Debug ] 	local time now  :	28/11/2019 20:05:02
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -233,7 +233,8 @@
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] (   1/164 ) MEDIASET.IT -- chan. (xmltv_id=Rete 4 HD) -- mode Incremental
-[  Info  ] 0.12 sec/update
+[  Debug ]    skipped negative show time! at 30/11/2019 07:29:00
+[  Info  ] 0.14 sec/update
 [  Debug ] 
 [  Info  ] (   2/164 ) MEDIASET.IT -- chan. (xmltv_id=Canale 5 HD) -- mode Incremental
 [  Info  ] 0.11 sec/update
@@ -297,7 +298,7 @@
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] (   7/164 ) MEDIASET.IT -- chan. (xmltv_id=Mediaset Extra) -- mode Incremental
-[  Info  ] 0.11 sec/update
+[  Info  ] 0.10 sec/update
 [  Debug ] 
 [  Info  ] (   8/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Storia) -- mode Incremental
 [Error   ] no shows in indexpage!
@@ -309,7 +310,7 @@
 
 [  Debug ] 
 [  Info  ] (   9/164 ) MEDIASET.IT -- chan. (xmltv_id=Iris) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.10 sec/update
 [  Debug ] 
 [  Info  ] (  10/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Sport 1 HD) -- mode Incremental
 [Error   ] Unable to update channel Rai Sport 1 HD
@@ -1351,11 +1352,109 @@
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] (  54/164 ) RAI.IT -- chan. (xmltv_id=Rai Gulp HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.08 sec/update
 [  Debug ] 
 [  Info  ] (  55/164 ) RAI.IT -- chan. (xmltv_id=Rai YoYo HD) -- mode Incremental
-[  Debug ]    skipped show longer than 15 hour(s) at 03/12/2019 06:25:00 title Ridolino E I Suoi Piccoli Amici
-[  Info  ] 
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/12/2019 23:55:00 stop = 03/12/2019 00:05:00 title = Shaun Vita Da Pecora 4
+[  Info  ]       Replaces ----- start = 02/12/2019 23:55:00 stop = 03/12/2019 00:00:00 title = Shaun Vita Da Pecora 4
+[  Info  ]       Replaces ----- start = 03/12/2019 00:00:00 stop = 03/12/2019 00:10:00 title = Shaun Vita Da Pecora 4
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2019 00:05:00 stop = 03/12/2019 00:10:00 title = Shaun Vita Da Pecora 4
+[  Info  ]       Replaces ----- start = 03/12/2019 00:00:00 stop = 03/12/2019 00:10:00 title = Shaun Vita Da Pecora 4
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2019 03:10:00 stop = 03/12/2019 03:20:00 title = Milo
+[  Info  ]       Replaces ----- start = 03/12/2019 03:10:00 stop = 03/12/2019 03:20:00 title = Pipi Pupu' E Rosmarina
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2019 04:40:00 stop = 03/12/2019 04:55:00 title = Il Postino Pat 3
+[  Info  ]       Replaces ----- start = 03/12/2019 04:40:00 stop = 03/12/2019 04:50:00 title = Leo E Tig
+[  Info  ]       Replaces ----- start = 03/12/2019 04:50:00 stop = 03/12/2019 05:05:00 title = Il Postino Pat 3
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2019 04:55:00 stop = 03/12/2019 05:10:00 title = Il Postino Pat 3
+[  Info  ]       Replaces ----- start = 03/12/2019 04:50:00 stop = 03/12/2019 05:05:00 title = Il Postino Pat 3
+[  Info  ]       Replaces ----- start = 03/12/2019 05:05:00 stop = 03/12/2019 05:20:00 title = Il Postino Pat 3
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2019 05:10:00 stop = 03/12/2019 05:20:00 title = Noddy
+[  Info  ]       Replaces ----- start = 03/12/2019 05:05:00 stop = 03/12/2019 05:20:00 title = Il Postino Pat 3
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2019 05:20:00 stop = 03/12/2019 05:35:00 title = Noddy
+[  Info  ]       Replaces ----- start = 03/12/2019 05:20:00 stop = 03/12/2019 05:30:00 title = Noddy
+[  Info  ]       Replaces ----- start = 03/12/2019 05:30:00 stop = 03/12/2019 05:40:00 title = Noddy
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2019 05:35:00 stop = 03/12/2019 05:45:00 title = Noddy
+[  Info  ]       Replaces ----- start = 03/12/2019 05:30:00 stop = 03/12/2019 05:40:00 title = Noddy
+[  Info  ]       Replaces ----- start = 03/12/2019 05:40:00 stop = 03/12/2019 05:50:00 title = Noddy
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2019 05:45:00 stop = 03/12/2019 05:50:00 title = Molly Monster
+[  Info  ]       Replaces ----- start = 03/12/2019 05:40:00 stop = 03/12/2019 05:50:00 title = Noddy
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2019 09:05:00 stop = 03/12/2019 09:15:00 title = Masha E Orso 2
+[  Info  ]       Replaces ----- start = 03/12/2019 09:05:00 stop = 03/12/2019 09:10:00 title = Masha E Orso 2
+[  Info  ]       Replaces ----- start = 03/12/2019 09:10:00 stop = 03/12/2019 09:15:00 title = Masha E Orso 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2019 09:30:00 stop = 03/12/2019 09:35:00 title = Masha E Orso 2
+[  Info  ]       Replaces ----- start = 03/12/2019 09:30:00 stop = 03/12/2019 09:35:00 title = Kit'n Kate
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2019 11:25:00 stop = 03/12/2019 11:35:00 title = Pj Masks 2
+[  Info  ]       Replaces ----- start = 03/12/2019 11:20:00 stop = 03/12/2019 11:30:00 title = Pj Masks 2
+[  Info  ]       Replaces ----- start = 03/12/2019 11:30:00 stop = 03/12/2019 11:45:00 title = Pj Masks 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2019 11:35:00 stop = 03/12/2019 11:45:00 title = Pj Masks 2
+[  Info  ]       Replaces ----- start = 03/12/2019 11:30:00 stop = 03/12/2019 11:45:00 title = Pj Masks 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2019 13:10:00 stop = 03/12/2019 13:20:00 title = Masha E Orso
+[  Info  ]       Replaces ----- start = 03/12/2019 13:10:00 stop = 03/12/2019 13:15:00 title = Masha E Orso
+[  Info  ]       Replaces ----- start = 03/12/2019 13:15:00 stop = 03/12/2019 13:20:00 title = Masha E Orso
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2019 13:25:00 stop = 03/12/2019 13:30:00 title = Masha E Orso
+[  Info  ]       Replaces ----- start = 03/12/2019 13:25:00 stop = 03/12/2019 13:35:00 title = Masha E Orso
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2019 13:30:00 stop = 03/12/2019 13:40:00 title = Masha E Orso
+[  Info  ]       Replaces ----- start = 03/12/2019 13:25:00 stop = 03/12/2019 13:35:00 title = Masha E Orso
+[  Info  ]       Replaces ----- start = 03/12/2019 13:35:00 stop = 03/12/2019 13:40:00 title = I Racconti Di Masha
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2019 13:40:00 stop = 03/12/2019 13:45:00 title = I Racconti Di Masha
+[  Info  ]       Replaces ----- start = 03/12/2019 13:40:00 stop = 03/12/2019 13:50:00 title = I Racconti Di Masha
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2019 13:45:00 stop = 03/12/2019 13:50:00 title = I Racconti Di Masha
+[  Info  ]       Replaces ----- start = 03/12/2019 13:40:00 stop = 03/12/2019 13:50:00 title = I Racconti Di Masha
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2019 14:35:00 stop = 03/12/2019 14:50:00 title = Pj Masks
+[  Info  ]       Replaces ----- start = 03/12/2019 14:35:00 stop = 03/12/2019 14:45:00 title = Pj Masks
+[  Info  ]       Replaces ----- start = 03/12/2019 14:45:00 stop = 03/12/2019 15:00:00 title = Pj Masks
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2019 14:50:00 stop = 03/12/2019 15:00:00 title = Pj Masks
+[  Info  ]       Replaces ----- start = 03/12/2019 14:45:00 stop = 03/12/2019 15:00:00 title = Pj Masks
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2019 15:50:00 stop = 03/12/2019 16:00:00 title = Let's Go Pocoyo
+[  Info  ]       Replaces ----- start = 03/12/2019 15:50:00 stop = 03/12/2019 15:55:00 title = Let's Go Pocoyo
+[  Info  ]       Replaces ----- start = 03/12/2019 15:55:00 stop = 03/12/2019 16:05:00 title = Let's Go Pocoyo
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2019 16:00:00 stop = 03/12/2019 16:05:00 title = Let's Go Pocoyo
+[  Info  ]       Replaces ----- start = 03/12/2019 15:55:00 stop = 03/12/2019 16:05:00 title = Let's Go Pocoyo
+[  Info  ] 0.10 sec/update
 [  Debug ] 
 [  Info  ] (  56/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cartoon Network) -- mode Incremental
 [Error   ] no shows in indexpage!
@@ -1519,10 +1618,10 @@
 [  Info  ] (  67/164 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Calcio 1) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
-[  Debug ] 30528 shows in 164 channels
-[  Debug ] 21 updated shows
+[  Debug ] 30532 shows in 164 channels
+[  Debug ] 109 updated shows
 [  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 28/11/2019 16:18:46 done in 13m 43s
+[        ] Job finished at 28/11/2019 20:18:30 done in 13m 28s
 [  Debug ] statistics upload error: The remote server returned an error: (404) Not Found.
