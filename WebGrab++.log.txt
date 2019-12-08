@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 08/12/2019 16:05:02
+[        ] Job started at 08/12/2019 20:05:02
 [  Debug ] 
 [  Debug ] Running  on: Unix 4.15.18.0
 [  Debug ] Environment: 4.0.30319.42000
@@ -29,7 +29,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+01:00	(no DST in effect)
 [  Debug ] 	next DST dates  :	29/03/2020 02:00 (local)
 [  Debug ] 	                :	25/10/2020 03:00 (local)
-[  Debug ] 	local time now  :	08/12/2019 16:05:02
+[  Debug ] 	local time now  :	08/12/2019 20:05:03
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -233,6 +233,8 @@
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] (   1/164 ) MEDIASET.IT -- chan. (xmltv_id=Rete 4 HD) -- mode Incremental
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   2/164 ) MEDIASET.IT -- chan. (xmltv_id=Canale 5 HD) -- mode Incremental
@@ -258,6 +260,8 @@
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] (   4/164 ) STASERAINTV.COM -- chan. (xmltv_id=La 5) -- mode Incremental
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   5/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=LA7) -- mode Incremental
@@ -370,17 +374,14 @@
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] (  12/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=LEI) -- mode Incremental
-[Warning ] error downloading page: The request timed out (5sec)
-[Warning ] Retry 1 of 4 times
-[Error   ] no shows in indexpage!
-[  Info  ] 
-[  Info  ]    Summary for update of       LEI
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        0
-
+[Error   ] Unable to update channel LEI
+[Critical] Generic syntax exception:
+[Critical]    message: 
+[Error   ] no index page data received from LEI
+[Error   ] unable to update channel, try again later
+[  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  13/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=LaEffe) -- mode Incremental
+[  Info  ] (  12/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=LaEffe) -- mode Incremental
 [Error   ] Unable to update channel LaEffe
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -388,7 +389,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  13/164 ) PROGRAMMI-TV.EU -- chan. (xmltv_id=La3) -- mode Incremental
+[  Info  ] (  12/164 ) PROGRAMMI-TV.EU -- chan. (xmltv_id=La3) -- mode Incremental
 [Error   ] no shows in indexpage!
 [Error   ] Cannot find any shows on the Index Page !
 [  Info  ] 
@@ -398,7 +399,7 @@
 [  Info  ]      total after update        0
 
 [  Debug ] 
-[  Info  ] (  14/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Uno HD) -- mode Incremental
+[  Info  ] (  13/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Uno HD) -- mode Incremental
 [Error   ] no shows in indexpage!
 [  Info  ] 
 [  Info  ]    Summary for update of       Sky Cinema Uno HD
@@ -407,7 +408,7 @@
 [  Info  ]      total after update        0
 
 [  Debug ] 
-[  Info  ] (  15/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Uno SuperHD) -- mode Incremental
+[  Info  ] (  14/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Uno SuperHD) -- mode Incremental
 [Error   ] no shows in indexpage!
 [  Info  ] 
 [  Info  ]    Summary for update of       Sky Cinema Uno SuperHD
@@ -416,7 +417,7 @@
 [  Info  ]      total after update        0
 
 [  Debug ] 
-[  Info  ] (  16/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema +1 SuperHD) -- mode Incremental
+[  Info  ] (  15/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema +1 SuperHD) -- mode Incremental
 [Error   ] no shows in indexpage!
 [  Info  ] 
 [  Info  ]    Summary for update of       Sky Cinema +1 SuperHD
@@ -425,7 +426,7 @@
 [  Info  ]      total after update        0
 
 [  Debug ] 
-[  Info  ] (  17/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema +1 HD) -- mode Incremental
+[  Info  ] (  16/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema +1 HD) -- mode Incremental
 [Error   ] no shows in indexpage!
 [  Info  ] 
 [  Info  ]    Summary for update of       Sky Cinema +1 HD
@@ -434,7 +435,7 @@
 [  Info  ]      total after update        0
 
 [  Debug ] 
-[  Info  ] (  18/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Due SuperHD) -- mode Incremental
+[  Info  ] (  17/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Due SuperHD) -- mode Incremental
 [Error   ] no shows in indexpage!
 [  Info  ] 
 [  Info  ]    Summary for update of       Sky Cinema Due SuperHD
@@ -443,7 +444,7 @@
 [  Info  ]      total after update        0
 
 [  Debug ] 
-[  Info  ] (  19/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Due HD) -- mode Incremental
+[  Info  ] (  18/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Due HD) -- mode Incremental
 [Error   ] no shows in indexpage!
 [  Info  ] 
 [  Info  ]    Summary for update of       Sky Cinema Due HD
@@ -452,7 +453,7 @@
 [  Info  ]      total after update        0
 
 [  Debug ] 
-[  Info  ] (  20/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Uno +24 SuperHD) -- mode Incremental
+[  Info  ] (  19/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Uno +24 SuperHD) -- mode Incremental
 [Error   ] no shows in indexpage!
 [  Info  ] 
 [  Info  ]    Summary for update of       Sky Cinema Uno +24 SuperHD
@@ -461,7 +462,7 @@
 [  Info  ]      total after update        0
 
 [  Debug ] 
-[  Info  ] (  21/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Uno +24 HD) -- mode Incremental
+[  Info  ] (  20/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Uno +24 HD) -- mode Incremental
 [Error   ] no shows in indexpage!
 [  Info  ] 
 [  Info  ]    Summary for update of       Sky Cinema Uno +24 HD
@@ -470,7 +471,7 @@
 [  Info  ]      total after update        0
 
 [  Debug ] 
-[  Info  ] (  22/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Due +24 SuperHD) -- mode Incremental
+[  Info  ] (  21/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Due +24 SuperHD) -- mode Incremental
 [Error   ] Unable to update channel Sky Cinema Due +24 SuperHD
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -478,7 +479,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  22/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Due +24 HD) -- mode Incremental
+[  Info  ] (  21/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Due +24 HD) -- mode Incremental
 [Error   ] Unable to update channel Sky Cinema Due +24 HD
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -486,7 +487,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  22/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Action Super hd) -- mode Incremental
+[  Info  ] (  21/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Action Super hd) -- mode Incremental
 [Error   ] no shows in indexpage!
 [  Info  ] 
 [  Info  ]    Summary for update of       Sky Cinema Action Super hd
@@ -495,7 +496,7 @@
 [  Info  ]      total after update        0
 
 [  Debug ] 
-[  Info  ] (  23/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Action HD) -- mode Incremental
+[  Info  ] (  22/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Action HD) -- mode Incremental
 [Error   ] no shows in indexpage!
 [  Info  ] 
 [  Info  ]    Summary for update of       Sky Cinema Action HD
@@ -504,7 +505,7 @@
 [  Info  ]      total after update        0
 
 [  Debug ] 
-[  Info  ] (  24/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Collection SuperHD) -- mode Incremental
+[  Info  ] (  23/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Collection SuperHD) -- mode Incremental
 [Error   ] Unable to update channel Sky Cinema Collection SuperHD
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -512,7 +513,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  24/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Collection HD) -- mode Incremental
+[  Info  ] (  23/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Collection HD) -- mode Incremental
 [Error   ] Unable to update channel Sky Cinema Collection HD
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -520,7 +521,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  24/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Suspense HD) -- mode Incremental
+[  Info  ] (  23/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Suspense HD) -- mode Incremental
 [Error   ] Unable to update channel Sky Cinema Suspense HD
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -528,7 +529,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  24/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Suspense SuperHD) -- mode Incremental
+[  Info  ] (  23/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Suspense SuperHD) -- mode Incremental
 [Error   ] Unable to update channel Sky Cinema Suspense SuperHD
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -536,7 +537,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  24/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Family HD) -- mode Incremental
+[  Info  ] (  23/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Family HD) -- mode Incremental
 [Error   ] no shows in indexpage!
 [  Info  ] 
 [  Info  ]    Summary for update of       Sky Cinema Family HD
@@ -545,7 +546,7 @@
 [  Info  ]      total after update        0
 
 [  Debug ] 
-[  Info  ] (  25/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Family SuperHD) -- mode Incremental
+[  Info  ] (  24/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Family SuperHD) -- mode Incremental
 [Error   ] no shows in indexpage!
 [  Info  ] 
 [  Info  ]    Summary for update of       Sky Cinema Family SuperHD
@@ -554,7 +555,7 @@
 [  Info  ]      total after update        0
 
 [  Debug ] 
-[  Info  ] (  26/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Romance SuperHD) -- mode Incremental
+[  Info  ] (  25/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Romance SuperHD) -- mode Incremental
 [Error   ] no shows in indexpage!
 [  Info  ] 
 [  Info  ]    Summary for update of       Sky Cinema Romance SuperHD
@@ -563,7 +564,7 @@
 [  Info  ]      total after update        0
 
 [  Debug ] 
-[  Info  ] (  27/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Comedy SuperHD) -- mode Incremental
+[  Info  ] (  26/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Comedy SuperHD) -- mode Incremental
 [Error   ] Unable to update channel Sky Cinema Comedy SuperHD
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -571,7 +572,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  27/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Drama SuperHD) -- mode Incremental
+[  Info  ] (  26/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Cinema Drama SuperHD) -- mode Incremental
 [Error   ] no shows in indexpage!
 [  Info  ] 
 [  Info  ]    Summary for update of       Sky Cinema Drama SuperHD
@@ -580,7 +581,7 @@
 [  Info  ]      total after update        0
 
 [  Debug ] 
-[  Info  ] (  28/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Premium Cinema HD) -- mode Incremental
+[  Info  ] (  27/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Premium Cinema HD) -- mode Incremental
 [Error   ] Unable to update channel Premium Cinema HD
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -588,7 +589,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  28/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Premium Cinema +24) -- mode Incremental
+[  Info  ] (  27/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Premium Cinema +24) -- mode Incremental
 [Error   ] no shows in indexpage!
 [  Info  ] 
 [  Info  ]    Summary for update of       Premium Cinema +24
@@ -597,7 +598,7 @@
 [  Info  ]      total after update        0
 
 [  Debug ] 
-[  Info  ] (  29/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Premium Cinema Energy) -- mode Incremental
+[  Info  ] (  28/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Premium Cinema Energy) -- mode Incremental
 [Error   ] Unable to update channel Premium Cinema Energy
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -605,7 +606,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  29/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Premium Cinema Emotion HD) -- mode Incremental
+[  Info  ] (  28/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Premium Cinema Emotion HD) -- mode Incremental
 [Error   ] Unable to update channel Premium Cinema Emotion HD
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -613,7 +614,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  29/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Premium Cinema Comedy) -- mode Incremental
+[  Info  ] (  28/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Premium Cinema Comedy) -- mode Incremental
 [Error   ] Unable to update channel Premium Cinema Comedy
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -621,7 +622,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  29/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky TG24) -- mode Incremental
+[  Info  ] (  28/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky TG24) -- mode Incremental
 [Error   ] Unable to update channel Sky TG24
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -629,7 +630,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  29/164 ) PROGRAMMI-TV.EU -- chan. (xmltv_id=TGcom 24) -- mode Incremental
+[  Info  ] (  28/164 ) PROGRAMMI-TV.EU -- chan. (xmltv_id=TGcom 24) -- mode Incremental
 [Error   ] no shows in indexpage!
 [Error   ] Cannot find any shows on the Index Page !
 [  Info  ] 
@@ -639,7 +640,7 @@
 [  Info  ]      total after update        0
 
 [  Debug ] 
-[  Info  ] (  30/164 ) PROGRAMMI-TV.EU -- chan. (xmltv_id=Rai News 24) -- mode Incremental
+[  Info  ] (  29/164 ) PROGRAMMI-TV.EU -- chan. (xmltv_id=Rai News 24) -- mode Incremental
 [Error   ] no shows in indexpage!
 [Error   ] Cannot find any shows on the Index Page !
 [  Info  ] 
@@ -649,7 +650,7 @@
 [  Info  ]      total after update        0
 
 [  Debug ] 
-[  Info  ] (  31/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Uno HD) -- mode Incremental
+[  Info  ] (  30/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Uno HD) -- mode Incremental
 [Error   ] no shows in indexpage!
 [  Info  ] 
 [  Info  ]    Summary for update of       Sky Uno HD
@@ -658,7 +659,7 @@
 [  Info  ]      total after update        0
 
 [  Debug ] 
-[  Info  ] (  32/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Uno +1 HD) -- mode Incremental
+[  Info  ] (  31/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Uno +1 HD) -- mode Incremental
 [Error   ] Unable to update channel Sky Uno +1 HD
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -666,7 +667,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  32/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=SKY CLASSICA HD) -- mode Incremental
+[  Info  ] (  31/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=SKY CLASSICA HD) -- mode Incremental
 [Error   ] Unable to update channel SKY CLASSICA HD
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -674,7 +675,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  32/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Atlantic HD) -- mode Incremental
+[  Info  ] (  31/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Atlantic HD) -- mode Incremental
 [Error   ] no shows in indexpage!
 [  Info  ] 
 [  Info  ]    Summary for update of       Sky Atlantic HD
@@ -683,7 +684,7 @@
 [  Info  ]      total after update        0
 
 [  Debug ] 
-[  Info  ] (  33/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Atlantic +1 SuperHD) -- mode Incremental
+[  Info  ] (  32/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Atlantic +1 SuperHD) -- mode Incremental
 [Error   ] Unable to update channel Sky Atlantic +1 SuperHD
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -691,7 +692,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  33/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox HD) -- mode Incremental
+[  Info  ] (  32/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox HD) -- mode Incremental
 [Error   ] no shows in indexpage!
 [  Info  ] 
 [  Info  ]    Summary for update of       Fox HD
@@ -700,7 +701,7 @@
 [  Info  ]      total after update        0
 
 [  Debug ] 
-[  Info  ] (  34/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox +1) -- mode Incremental
+[  Info  ] (  33/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox +1) -- mode Incremental
 [Error   ] Unable to update channel Fox +1
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -708,7 +709,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  34/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Life HD) -- mode Incremental
+[  Info  ] (  33/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Life HD) -- mode Incremental
 [Error   ] no shows in indexpage!
 [  Info  ] 
 [  Info  ]    Summary for update of       Fox Life HD
@@ -717,7 +718,7 @@
 [  Info  ]      total after update        0
 
 [  Debug ] 
-[  Info  ] (  35/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Life +1) -- mode Incremental
+[  Info  ] (  34/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Life +1) -- mode Incremental
 [Error   ] Unable to update channel Fox Life +1
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -725,7 +726,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  35/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Crime HD) -- mode Incremental
+[  Info  ] (  34/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Crime HD) -- mode Incremental
 [Error   ] Unable to update channel Fox Crime HD
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -733,7 +734,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  35/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Crime +1) -- mode Incremental
+[  Info  ] (  34/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Crime +1) -- mode Incremental
 [Error   ] Unable to update channel Fox Crime +1
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -741,7 +742,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  35/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Comedy HD) -- mode Incremental
+[  Info  ] (  34/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Fox Comedy HD) -- mode Incremental
 [Error   ] Unable to update channel Fox Comedy HD
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -749,7 +750,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  35/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Comedy Central) -- mode Incremental
+[  Info  ] (  34/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Comedy Central) -- mode Incremental
 [Error   ] Unable to update channel Comedy Central
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -757,7 +758,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  35/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Fox Animation HD) -- mode Incremental
+[  Info  ] (  34/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Fox Animation HD) -- mode Incremental
 [Error   ] Unable to update channel Sky Fox Animation HD
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -765,7 +766,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  35/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=CI Crime+Investigation HD) -- mode Incremental
+[  Info  ] (  34/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=CI Crime+Investigation HD) -- mode Incremental
 [Error   ] Unable to update channel CI Crime+Investigation HD
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -773,7 +774,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  35/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky AXN) -- mode Incremental
+[  Info  ] (  34/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky AXN) -- mode Incremental
 [Error   ] Unable to update channel Sky AXN
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -781,7 +782,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  35/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky AXN SciFi) -- mode Incremental
+[  Info  ] (  34/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky AXN SciFi) -- mode Incremental
 [Error   ] Unable to update channel Sky AXN SciFi
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -789,7 +790,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  35/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport F1 HD) -- mode Incremental
+[  Info  ] (  34/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport F1 HD) -- mode Incremental
 [Error   ] no shows in indexpage!
 [  Info  ] 
 [  Info  ]    Summary for update of       Sky Sport F1 HD
@@ -798,7 +799,7 @@
 [  Info  ]      total after update        0
 
 [  Debug ] 
-[  Info  ] (  36/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport F1 SuperHD) -- mode Incremental
+[  Info  ] (  35/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport F1 SuperHD) -- mode Incremental
 [Error   ] no shows in indexpage!
 [  Info  ] 
 [  Info  ]    Summary for update of       Sky Sport F1 SuperHD
@@ -807,7 +808,7 @@
 [  Info  ]      total after update        0
 
 [  Debug ] 
-[  Info  ] (  37/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky MotoGP HD) -- mode Incremental
+[  Info  ] (  36/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky MotoGP HD) -- mode Incremental
 [Error   ] Unable to update channel Sky MotoGP HD
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -815,7 +816,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  37/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky motoGP superHD) -- mode Incremental
+[  Info  ] (  36/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky motoGP superHD) -- mode Incremental
 [Error   ] Unable to update channel Sky motoGP superHD
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -823,7 +824,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  37/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Bike Channel) -- mode Incremental
+[  Info  ] (  36/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Bike Channel) -- mode Incremental
 [Error   ] Unable to update channel Bike Channel
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -831,7 +832,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  37/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Eurosport 1) -- mode Incremental
+[  Info  ] (  36/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Eurosport 1) -- mode Incremental
 [Error   ] Unable to update channel Eurosport 1
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -839,7 +840,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  37/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Eurosport 2) -- mode Incremental
+[  Info  ] (  36/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Eurosport 2) -- mode Incremental
 [Error   ] no shows in indexpage!
 [  Info  ] 
 [  Info  ]    Summary for update of       Eurosport 2
@@ -848,7 +849,7 @@
 [  Info  ]      total after update        0
 
 [  Debug ] 
-[  Info  ] (  38/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport 24 HD) -- mode Incremental
+[  Info  ] (  37/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport 24 HD) -- mode Incremental
 [Error   ] no shows in indexpage!
 [  Info  ] 
 [  Info  ]    Summary for update of       Sky Sport 24 HD
@@ -857,7 +858,7 @@
 [  Info  ]      total after update        0
 
 [  Debug ] 
-[  Info  ] (  39/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport 24 SuperHD) -- mode Incremental
+[  Info  ] (  38/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport 24 SuperHD) -- mode Incremental
 [Error   ] no shows in indexpage!
 [  Info  ] 
 [  Info  ]    Summary for update of       Sky Sport 24 SuperHD
@@ -866,7 +867,7 @@
 [  Info  ]      total after update        0
 
 [  Debug ] 
-[  Info  ] (  40/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Arena SuperHD) -- mode Incremental
+[  Info  ] (  39/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Arena SuperHD) -- mode Incremental
 [Error   ] no shows in indexpage!
 [  Info  ] 
 [  Info  ]    Summary for update of       Sky Sport Arena SuperHD
@@ -875,7 +876,7 @@
 [  Info  ]      total after update        0
 
 [  Debug ] 
-[  Info  ] (  41/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Arena HD) -- mode Incremental
+[  Info  ] (  40/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Arena HD) -- mode Incremental
 [Error   ] no shows in indexpage!
 [  Info  ] 
 [  Info  ]    Summary for update of       Sky Sport Arena HD
@@ -884,7 +885,7 @@
 [  Info  ]      total after update        0
 
 [  Debug ] 
-[  Info  ] (  42/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Uno HD) -- mode Incremental
+[  Info  ] (  41/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Uno HD) -- mode Incremental
 [Error   ] no shows in indexpage!
 [  Info  ] 
 [  Info  ]    Summary for update of       Sky Sport Uno HD
@@ -893,7 +894,7 @@
 [  Info  ]      total after update        0
 
 [  Debug ] 
-[  Info  ] (  43/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Uno SuperHD) -- mode Incremental
+[  Info  ] (  42/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Uno SuperHD) -- mode Incremental
 [Error   ] no shows in indexpage!
 [  Info  ] 
 [  Info  ]    Summary for update of       Sky Sport Uno SuperHD
@@ -902,7 +903,7 @@
 [  Info  ]      total after update        0
 
 [  Debug ] 
-[  Info  ] (  44/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport SerieA SuperHD) -- mode Incremental
+[  Info  ] (  43/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport SerieA SuperHD) -- mode Incremental
 [Error   ] no shows in indexpage!
 [  Info  ] 
 [  Info  ]    Summary for update of       Sky Sport SerieA SuperHD
@@ -911,7 +912,7 @@
 [  Info  ]      total after update        0
 
 [  Debug ] 
-[  Info  ] (  45/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport SerieA HD) -- mode Incremental
+[  Info  ] (  44/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport SerieA HD) -- mode Incremental
 [Error   ] no shows in indexpage!
 [  Info  ] 
 [  Info  ]    Summary for update of       Sky Sport SerieA HD
@@ -920,7 +921,7 @@
 [  Info  ]      total after update        0
 
 [  Debug ] 
-[  Info  ] (  46/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Football SuperHD) -- mode Incremental
+[  Info  ] (  45/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Football SuperHD) -- mode Incremental
 [Error   ] no shows in indexpage!
 [  Info  ] 
 [  Info  ]    Summary for update of       Sky Sport Football SuperHD
@@ -929,7 +930,7 @@
 [  Info  ]      total after update        0
 
 [  Debug ] 
-[  Info  ] (  47/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Football HD) -- mode Incremental
+[  Info  ] (  46/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Football HD) -- mode Incremental
 [Error   ] no shows in indexpage!
 [  Info  ] 
 [  Info  ]    Summary for update of       Sky Sport Football HD
@@ -938,7 +939,7 @@
 [  Info  ]      total after update        0
 
 [  Debug ] 
-[  Info  ] (  48/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport NBA SuperHD) -- mode Incremental
+[  Info  ] (  47/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport NBA SuperHD) -- mode Incremental
 [Error   ] no shows in indexpage!
 [  Info  ] 
 [  Info  ]    Summary for update of       Sky Sport NBA SuperHD
@@ -947,7 +948,7 @@
 [  Info  ]      total after update        0
 
 [  Debug ] 
-[  Info  ] (  49/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport NBA HD) -- mode Incremental
+[  Info  ] (  48/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport NBA HD) -- mode Incremental
 [Error   ] no shows in indexpage!
 [  Info  ] 
 [  Info  ]    Summary for update of       Sky Sport NBA HD
@@ -956,7 +957,7 @@
 [  Info  ]      total after update        0
 
 [  Debug ] 
-[  Info  ] (  50/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Golf SuperHD) -- mode Incremental
+[  Info  ] (  49/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Golf SuperHD) -- mode Incremental
 [Error   ] Unable to update channel Sky Sport Golf SuperHD
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -964,7 +965,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  50/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Golf HD) -- mode Incremental
+[  Info  ] (  49/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Sport Golf HD) -- mode Incremental
 [Error   ] Unable to update channel Sky Sport Golf HD
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -972,7 +973,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  50/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Supercalcio HD) -- mode Incremental
+[  Info  ] (  49/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Supercalcio HD) -- mode Incremental
 [Error   ] Unable to update channel Sky Supercalcio HD
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -980,7 +981,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  50/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Supercalcio SuperHD) -- mode Incremental
+[  Info  ] (  49/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Supercalcio SuperHD) -- mode Incremental
 [Error   ] Unable to update channel Sky Supercalcio SuperHD
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -988,7 +989,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  50/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Eurosport 1 Italia) -- mode Incremental
+[  Info  ] (  49/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Eurosport 1 Italia) -- mode Incremental
 [Error   ] Unable to update channel Eurosport 1 Italia
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -996,7 +997,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  50/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Eurosport 2 Italia) -- mode Incremental
+[  Info  ] (  49/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Eurosport 2 Italia) -- mode Incremental
 [Error   ] no shows in indexpage!
 [  Info  ] 
 [  Info  ]    Summary for update of       Eurosport 2 Italia
@@ -1005,7 +1006,7 @@
 [  Info  ]      total after update        0
 
 [  Debug ] 
-[  Info  ] (  51/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 1 HD) -- mode Incremental
+[  Info  ] (  50/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 1 HD) -- mode Incremental
 [Error   ] Unable to update channel Sky Calcio 1 HD
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1013,7 +1014,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  51/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 1 SuperHDD) -- mode Incremental
+[  Info  ] (  50/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 1 SuperHDD) -- mode Incremental
 [Error   ] Unable to update channel Sky Calcio 1 SuperHDD
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1021,7 +1022,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  51/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 2 HD) -- mode Incremental
+[  Info  ] (  50/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 2 HD) -- mode Incremental
 [Error   ] Unable to update channel Sky Calcio 2 HD
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1029,7 +1030,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  51/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 3 HD) -- mode Incremental
+[  Info  ] (  50/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 3 HD) -- mode Incremental
 [Error   ] Unable to update channel Sky Calcio 3 HD
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1037,7 +1038,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  51/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 4 HD) -- mode Incremental
+[  Info  ] (  50/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 4 HD) -- mode Incremental
 [Error   ] Unable to update channel Sky Calcio 4 HD
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1045,7 +1046,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  51/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 5 HD) -- mode Incremental
+[  Info  ] (  50/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 5 HD) -- mode Incremental
 [Error   ] Unable to update channel Sky Calcio 5 HD
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1053,7 +1054,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  51/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 6 sd) -- mode Incremental
+[  Info  ] (  50/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 6 sd) -- mode Incremental
 [Error   ] Unable to update channel Sky Calcio 6 sd
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1061,7 +1062,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  51/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 7 sd) -- mode Incremental
+[  Info  ] (  50/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 7 sd) -- mode Incremental
 [Error   ] Unable to update channel Sky Calcio 7 sd
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1069,7 +1070,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  51/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 8 sd) -- mode Incremental
+[  Info  ] (  50/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 8 sd) -- mode Incremental
 [Error   ] Unable to update channel Sky Calcio 8 sd
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1077,7 +1078,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  51/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 9 sd) -- mode Incremental
+[  Info  ] (  50/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 9 sd) -- mode Incremental
 [Error   ] Unable to update channel Sky Calcio 9 sd
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1085,7 +1086,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  51/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 10 sd) -- mode Incremental
+[  Info  ] (  50/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 10 sd) -- mode Incremental
 [Error   ] Unable to update channel Sky Calcio 10 sd
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1093,7 +1094,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  51/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 11 sd) -- mode Incremental
+[  Info  ] (  50/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 11 sd) -- mode Incremental
 [Error   ] Unable to update channel Sky Calcio 11 sd
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1101,7 +1102,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  51/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 12 sd) -- mode Incremental
+[  Info  ] (  50/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 12 sd) -- mode Incremental
 [Error   ] Unable to update channel Sky Calcio 12 sd
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1109,7 +1110,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  51/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 13 sd) -- mode Incremental
+[  Info  ] (  50/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Calcio 13 sd) -- mode Incremental
 [Error   ] Unable to update channel Sky Calcio 13 sd
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1117,7 +1118,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  51/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Super Tennis HD) -- mode Incremental
+[  Info  ] (  50/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Super Tennis HD) -- mode Incremental
 [Error   ] Unable to update channel Super Tennis HD
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1125,7 +1126,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  51/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Milan Channel) -- mode Incremental
+[  Info  ] (  50/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Milan Channel) -- mode Incremental
 [Error   ] Unable to update channel Milan Channel
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1133,7 +1134,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  51/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Juventus Channel) -- mode Incremental
+[  Info  ] (  50/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Juventus Channel) -- mode Incremental
 [Error   ] Unable to update channel Juventus Channel
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1141,7 +1142,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  51/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Inter Channel) -- mode Incremental
+[  Info  ] (  50/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Inter Channel) -- mode Incremental
 [Error   ] Unable to update channel Inter Channel
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1149,7 +1150,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  51/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Roma Channel) -- mode Incremental
+[  Info  ] (  50/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Roma Channel) -- mode Incremental
 [Error   ] Unable to update channel Roma Channel
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1157,7 +1158,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  51/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Lazio Style Channel) -- mode Incremental
+[  Info  ] (  50/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Lazio Style Channel) -- mode Incremental
 [Error   ] no shows in indexpage!
 [  Info  ] 
 [  Info  ]    Summary for update of       Lazio Style Channel
@@ -1166,7 +1167,7 @@
 [  Info  ]      total after update        0
 
 [  Debug ] 
-[  Info  ] (  52/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Arte SuperHD) -- mode Incremental
+[  Info  ] (  51/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Arte SuperHD) -- mode Incremental
 [Error   ] no shows in indexpage!
 [  Info  ] 
 [  Info  ]    Summary for update of       Sky Arte SuperHD
@@ -1175,7 +1176,7 @@
 [  Info  ]      total after update        0
 
 [  Debug ] 
-[  Info  ] (  53/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky arte HD) -- mode Incremental
+[  Info  ] (  52/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky arte HD) -- mode Incremental
 [Error   ] no shows in indexpage!
 [  Info  ] 
 [  Info  ]    Summary for update of       Sky arte HD
@@ -1184,7 +1185,7 @@
 [  Info  ]      total after update        0
 
 [  Debug ] 
-[  Info  ] (  54/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Discovery Channel SuperHD) -- mode Incremental
+[  Info  ] (  53/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Discovery Channel SuperHD) -- mode Incremental
 [Error   ] Unable to update channel Discovery Channel SuperHD
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1192,7 +1193,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  54/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Discovery Channel HD) -- mode Incremental
+[  Info  ] (  53/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Discovery Channel HD) -- mode Incremental
 [Error   ] Unable to update channel Discovery Channel HD
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1200,7 +1201,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  54/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Discovery Science SuperHD) -- mode Incremental
+[  Info  ] (  53/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Discovery Science SuperHD) -- mode Incremental
 [Error   ] Unable to update channel Discovery Science SuperHD
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1208,7 +1209,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  54/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Discovery Science HD) -- mode Incremental
+[  Info  ] (  53/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Discovery Science HD) -- mode Incremental
 [Error   ] Unable to update channel Discovery Science HD
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1216,7 +1217,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  54/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Discovery Travel Living HD) -- mode Incremental
+[  Info  ] (  53/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Discovery Travel Living HD) -- mode Incremental
 [Error   ] Unable to update channel Discovery Travel Living HD
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1224,7 +1225,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  54/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=NatGeoWild SuperHD) -- mode Incremental
+[  Info  ] (  53/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=NatGeoWild SuperHD) -- mode Incremental
 [Error   ] Unable to update channel NatGeoWild SuperHD
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1232,7 +1233,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  54/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=NatGeoWild HD) -- mode Incremental
+[  Info  ] (  53/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=NatGeoWild HD) -- mode Incremental
 [Error   ] Unable to update channel NatGeoWild HD
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1240,7 +1241,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  54/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=National Geographic HD) -- mode Incremental
+[  Info  ] (  53/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=National Geographic HD) -- mode Incremental
 [Error   ] Unable to update channel National Geographic HD
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1248,7 +1249,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  54/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=NatGeoPeople SuperHD) -- mode Incremental
+[  Info  ] (  53/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=NatGeoPeople SuperHD) -- mode Incremental
 [Error   ] Unable to update channel NatGeoPeople SuperHD
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1256,7 +1257,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  54/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=NatGeoPeople HD) -- mode Incremental
+[  Info  ] (  53/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=NatGeoPeople HD) -- mode Incremental
 [Error   ] Unable to update channel NatGeoPeople HD
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1264,7 +1265,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  54/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=History Channel HD) -- mode Incremental
+[  Info  ] (  53/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=History Channel HD) -- mode Incremental
 [Error   ] Unable to update channel History Channel HD
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1272,7 +1273,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  54/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Focus) -- mode Incremental
+[  Info  ] (  53/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Focus) -- mode Incremental
 [Error   ] Unable to update channel Focus
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1280,7 +1281,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  54/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Dmax) -- mode Incremental
+[  Info  ] (  53/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Dmax) -- mode Incremental
 [Error   ] no shows in indexpage!
 [  Info  ] 
 [  Info  ]    Summary for update of       Dmax
@@ -1289,7 +1290,7 @@
 [  Info  ]      total after update        0
 
 [  Debug ] 
-[  Info  ] (  55/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Real Time HD) -- mode Incremental
+[  Info  ] (  54/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Real Time HD) -- mode Incremental
 [Error   ] Unable to update channel Real Time HD
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1297,7 +1298,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  55/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Caccia e Pesca) -- mode Incremental
+[  Info  ] (  54/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Caccia e Pesca) -- mode Incremental
 [Error   ] Unable to update channel Sky Caccia e Pesca
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1305,7 +1306,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  55/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Pesca e Caccia) -- mode Incremental
+[  Info  ] (  54/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Pesca e Caccia) -- mode Incremental
 [Error   ] Unable to update channel Sky Pesca e Caccia
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1313,7 +1314,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  55/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cielo) -- mode Incremental
+[  Info  ] (  54/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cielo) -- mode Incremental
 [Error   ] Unable to update channel Cielo
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1321,7 +1322,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  55/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Animal Planet) -- mode Incremental
+[  Info  ] (  54/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Animal Planet) -- mode Incremental
 [Error   ] Unable to update channel Animal Planet
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1329,7 +1330,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  55/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Gambero Rosso) -- mode Incremental
+[  Info  ] (  54/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Gambero Rosso) -- mode Incremental
 [Error   ] Unable to update channel Gambero Rosso
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1337,7 +1338,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  55/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Dove TV) -- mode Incremental
+[  Info  ] (  54/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Dove TV) -- mode Incremental
 [Error   ] Unable to update channel Dove TV
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1345,7 +1346,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  55/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cielo HD) -- mode Incremental
+[  Info  ] (  54/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cielo HD) -- mode Incremental
 [Error   ] Unable to update channel Cielo HD
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1353,13 +1354,15 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  55/164 ) RAI.IT -- chan. (xmltv_id=Rai Gulp HD) -- mode Incremental
+[  Info  ] (  54/164 ) RAI.IT -- chan. (xmltv_id=Rai Gulp HD) -- mode Incremental
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
 [  Info  ] 
 [  Debug ] 
-[  Info  ] (  56/164 ) RAI.IT -- chan. (xmltv_id=Rai YoYo HD) -- mode Incremental
+[  Info  ] (  55/164 ) RAI.IT -- chan. (xmltv_id=Rai YoYo HD) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
-[  Info  ] (  57/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cartoon Network) -- mode Incremental
+[  Info  ] (  56/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cartoon Network) -- mode Incremental
 [Error   ] no shows in indexpage!
 [  Info  ] 
 [  Info  ]    Summary for update of       Cartoon Network
@@ -1368,7 +1371,7 @@
 [  Info  ]      total after update        0
 
 [  Debug ] 
-[  Info  ] (  58/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Disney XD) -- mode Incremental
+[  Info  ] (  57/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Disney XD) -- mode Incremental
 [Error   ] Unable to update channel Disney XD
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1376,7 +1379,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  58/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Disney Channel) -- mode Incremental
+[  Info  ] (  57/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Disney Channel) -- mode Incremental
 [Error   ] no shows in indexpage!
 [  Info  ] 
 [  Info  ]    Summary for update of       Disney Channel
@@ -1385,7 +1388,7 @@
 [  Info  ]      total after update        0
 
 [  Debug ] 
-[  Info  ] (  59/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Disney Channel +1) -- mode Incremental
+[  Info  ] (  58/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Disney Channel +1) -- mode Incremental
 [Error   ] Unable to update channel Disney Channel +1
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1393,7 +1396,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  59/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cartonito) -- mode Incremental
+[  Info  ] (  58/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cartonito) -- mode Incremental
 [Error   ] Unable to update channel Cartonito
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1401,7 +1404,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  59/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Baby TV) -- mode Incremental
+[  Info  ] (  58/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Baby TV) -- mode Incremental
 [Error   ] no shows in indexpage!
 [  Info  ] 
 [  Info  ]    Summary for update of       Baby TV
@@ -1410,7 +1413,7 @@
 [  Info  ]      total after update        0
 
 [  Debug ] 
-[  Info  ] (  60/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Nickelodeon) -- mode Incremental
+[  Info  ] (  59/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Nickelodeon) -- mode Incremental
 [Error   ] no shows in indexpage!
 [  Info  ] 
 [  Info  ]    Summary for update of       Nickelodeon
@@ -1419,7 +1422,7 @@
 [  Info  ]      total after update        0
 
 [  Debug ] 
-[  Info  ] (  61/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=DeA Junior) -- mode Incremental
+[  Info  ] (  60/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=DeA Junior) -- mode Incremental
 [Error   ] no shows in indexpage!
 [  Info  ] 
 [  Info  ]    Summary for update of       DeA Junior
@@ -1428,7 +1431,7 @@
 [  Info  ]      total after update        0
 
 [  Debug ] 
-[  Info  ] (  62/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=DeAKids) -- mode Incremental
+[  Info  ] (  61/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=DeAKids) -- mode Incremental
 [Error   ] no shows in indexpage!
 [  Info  ] 
 [  Info  ]    Summary for update of       DeAKids
@@ -1437,7 +1440,7 @@
 [  Info  ]      total after update        0
 
 [  Debug ] 
-[  Info  ] (  63/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Teen Nick) -- mode Incremental
+[  Info  ] (  62/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Sky Teen Nick) -- mode Incremental
 [Error   ] Unable to update channel Sky Teen Nick
 [Critical] Generic syntax exception:
 [Critical]    message: 
@@ -1445,7 +1448,7 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  63/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Disney Junior) -- mode Incremental
+[  Info  ] (  62/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Disney Junior) -- mode Incremental
 [Error   ] no shows in indexpage!
 [  Info  ] 
 [  Info  ]    Summary for update of       Disney Junior
@@ -1454,13 +1457,14 @@
 [  Info  ]      total after update        0
 
 [  Debug ] 
-[  Info  ] (  64/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Super !) -- mode Incremental
-[Error   ] Unable to update channel Super !
-[Critical] Generic syntax exception:
-[Critical]    message: 
-[Error   ] no index page data received from Super !
-[Error   ] unable to update channel, try again later
-[  Info  ] Existing guide data restored!
+[  Info  ] (  63/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Super !) -- mode Incremental
+[Error   ] no shows in indexpage!
+[  Info  ] 
+[  Info  ]    Summary for update of       Super !
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        0
+
 [  Debug ] 
 [  Info  ] (  64/164 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Boing) -- mode Incremental
 [Error   ] Unable to update channel Boing
@@ -1513,6 +1517,8 @@
 
 [  Debug ] 
 [  Info  ] (  66/164 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Sport superHD) -- mode Incremental
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  67/164 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Sport 2 HD) -- mode Incremental
@@ -1526,5 +1532,5 @@
 [  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 08/12/2019 16:07:59 done in 2m 57s
+[        ] Job finished at 08/12/2019 20:08:26 done in 3m 23s
 [  Debug ] statistics upload error: The remote server returned an error: (404) Not Found.
