@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 12/12/2019 16:05:02
+[        ] Job started at 12/12/2019 20:05:02
 [  Debug ] 
 [  Debug ] Running  on: Unix 4.15.18.0
 [  Debug ] Environment: 4.0.30319.42000
@@ -29,7 +29,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+01:00	(no DST in effect)
 [  Debug ] 	next DST dates  :	29/03/2020 02:00 (local)
 [  Debug ] 	                :	25/10/2020 03:00 (local)
-[  Debug ] 	local time now  :	12/12/2019 16:05:03
+[  Debug ] 	local time now  :	12/12/2019 20:05:02
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -248,7 +248,7 @@
 [  Info  ] 0.04 sec/update
 [  Debug ] 
 [  Info  ] (   3/165 ) MEDIASET.IT -- chan. (xmltv_id=Italia 1 HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.61 sec/update
 [  Debug ] 
 [  Info  ] (   4/165 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La1 HD) -- mode Incremental
 [Error   ] Unable to update channel Rsi La1 HD
@@ -1360,7 +1360,14 @@
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] (  54/165 ) RAI.IT -- chan. (xmltv_id=Rai Gulp HD) -- mode Incremental
-[  Info  ] 
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 13/12/2019 17:10:00 stop = 13/12/2019 17:40:00 title = Kung Fu Panda (iii)
+[  Info  ]       Replaces ----- start = 13/12/2019 17:10:00 stop = 13/12/2019 17:35:00 title = Kung Fu Panda (iii)
+[  Info  ]       Replaces ----- start = 13/12/2019 17:35:00 stop = 13/12/2019 18:00:00 title = Spider Man
+[  Info  ] 0.53 sec/update
 [  Debug ] 
 [  Info  ] (  55/165 ) RAI.IT -- chan. (xmltv_id=Rai YoYo HD) -- mode Incremental
 [  Info  ] 
@@ -1519,6 +1526,8 @@
 
 [  Debug ] 
 [  Info  ] (  65/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Sport superHD) -- mode Incremental
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  66/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Sport 2 HD) -- mode Incremental
@@ -1527,10 +1536,10 @@
 [  Info  ] (  67/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Calcio 1) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
-[  Debug ] 2433 shows in 165 channels
-[  Debug ] 8 updated shows
+[  Debug ] 2440 shows in 165 channels
+[  Debug ] 33 updated shows
 [  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 12/12/2019 16:07:24 done in 2m 22s
+[        ] Job finished at 12/12/2019 20:08:04 done in 3m 2s
 [  Debug ] statistics upload error: The remote server returned an error: (404) Not Found.
