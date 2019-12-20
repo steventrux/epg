@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 20/12/2019 16:05:02
+[        ] Job started at 20/12/2019 20:05:02
 [  Debug ] 
 [  Debug ] Running  on: Unix 4.15.18.0
 [  Debug ] Environment: 4.0.30319.42000
@@ -29,7 +29,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+01:00	(no DST in effect)
 [  Debug ] 	next DST dates  :	29/03/2020 02:00 (local)
 [  Debug ] 	                :	25/10/2020 03:00 (local)
-[  Debug ] 	local time now  :	20/12/2019 16:05:02
+[  Debug ] 	local time now  :	20/12/2019 20:05:02
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -244,13 +244,13 @@
 [  Info  ] (   1/165 ) MEDIASET.IT -- chan. (xmltv_id=Rete 4 HD) -- mode Incremental
 [  Debug ]    skipped negative show time! at 21/12/2019 07:44:00
 [  Debug ]    skipped negative show time! at 22/12/2019 13:11:00
-[  Info  ] 
+[  Info  ] 0.05 sec/update
 [  Debug ] 
 [  Info  ] (   2/165 ) MEDIASET.IT -- chan. (xmltv_id=Canale 5 HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.05 sec/update
 [  Debug ] 
 [  Info  ] (   3/165 ) MEDIASET.IT -- chan. (xmltv_id=Italia 1 HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.05 sec/update
 [  Debug ] 
 [  Info  ] (   4/165 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La1 HD) -- mode Incremental
 [Error   ] Unable to update channel Rsi La1 HD
@@ -308,7 +308,7 @@
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] (   7/165 ) MEDIASET.IT -- chan. (xmltv_id=Mediaset Extra) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.05 sec/update
 [  Debug ] 
 [  Info  ] (   8/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Storia) -- mode Incremental
 [Error   ] no shows in indexpage!
@@ -320,7 +320,7 @@
 
 [  Debug ] 
 [  Info  ] (   9/165 ) MEDIASET.IT -- chan. (xmltv_id=Iris) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.04 sec/update
 [  Debug ] 
 [  Info  ] (  10/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Sport 1 HD) -- mode Incremental
 [Error   ] Unable to update channel Rai Sport 1 HD
@@ -1362,7 +1362,54 @@
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] (  54/165 ) RAI.IT -- chan. (xmltv_id=Rai Gulp HD) -- mode Incremental
-[  Info  ] 
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 23/12/2019 09:10:00 stop = 23/12/2019 09:30:00 title = Kung Fu Panda
+[  Info  ]       Replaces ----- start = 23/12/2019 09:10:00 stop = 23/12/2019 09:35:00 title = Kung Fu Panda
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 23/12/2019 09:30:00 stop = 23/12/2019 09:55:00 title = Heidi
+[  Info  ]       Replaces ----- start = 23/12/2019 09:10:00 stop = 23/12/2019 09:35:00 title = Kung Fu Panda
+[  Info  ]       Replaces ----- start = 23/12/2019 09:35:00 stop = 23/12/2019 09:55:00 title = Heidi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 23/12/2019 20:30:00 stop = 23/12/2019 21:50:00 title = L'apprendista Babbo Natale 2
+[  Info  ]       Replaces ----- start = 23/12/2019 19:50:00 stop = 23/12/2019 20:35:00 title = Soy Luna
+[  Info  ]       Replaces ----- start = 23/12/2019 20:35:00 stop = 23/12/2019 21:50:00 title = L'apprendista Babbo Natale 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 23/12/2019 22:45:00 stop = 23/12/2019 23:05:00 title = Inazuma Eleven Go
+[  Info  ]       Replaces ----- start = 23/12/2019 22:45:00 stop = 23/12/2019 23:10:00 title = Inazuma Eleven Go
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 23/12/2019 23:05:00 stop = 23/12/2019 23:30:00 title = Inazuma Eleven Go
+[  Info  ]       Replaces ----- start = 23/12/2019 22:45:00 stop = 23/12/2019 23:10:00 title = Inazuma Eleven Go
+[  Info  ]       Replaces ----- start = 23/12/2019 23:10:00 stop = 23/12/2019 23:35:00 title = Inazuma Eleven Go
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 23/12/2019 23:30:00 stop = 23/12/2019 23:55:00 title = Inazuma Eleven Go
+[  Info  ]       Replaces ----- start = 23/12/2019 23:10:00 stop = 23/12/2019 23:35:00 title = Inazuma Eleven Go
+[  Info  ]       Replaces ----- start = 23/12/2019 23:35:00 stop = 24/12/2019 00:00:00 title = Inazuma Eleven Go
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/12/2019 02:20:00 stop = 24/12/2019 02:40:00 title = Heidi
+[  Info  ]       Replaces ----- start = 24/12/2019 02:20:00 stop = 24/12/2019 02:45:00 title = Heidi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/12/2019 02:40:00 stop = 24/12/2019 03:05:00 title = Heidi
+[  Info  ]       Replaces ----- start = 24/12/2019 02:20:00 stop = 24/12/2019 02:45:00 title = Heidi
+[  Info  ]       Replaces ----- start = 24/12/2019 02:45:00 stop = 24/12/2019 03:10:00 title = Heidi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/12/2019 03:05:00 stop = 24/12/2019 03:25:00 title = Kung Fu Panda
+[  Info  ]       Replaces ----- start = 24/12/2019 02:45:00 stop = 24/12/2019 03:10:00 title = Heidi
+[  Info  ]       Replaces ----- start = 24/12/2019 03:10:00 stop = 24/12/2019 03:35:00 title = Kung Fu Panda
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/12/2019 03:25:00 stop = 24/12/2019 03:50:00 title = Kung Fu Panda
+[  Info  ]       Replaces ----- start = 24/12/2019 03:10:00 stop = 24/12/2019 03:35:00 title = Kung Fu Panda
+[  Info  ]       Replaces ----- start = 24/12/2019 03:35:00 stop = 24/12/2019 03:55:00 title = Kung Fu Panda
+[  Info  ] 0.08 sec/update
 [  Debug ] 
 [  Info  ] (  55/165 ) RAI.IT -- chan. (xmltv_id=Rai YoYo HD) -- mode Incremental
 [  Info  ] 
@@ -1529,10 +1576,10 @@
 [  Info  ] (  67/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Calcio 1) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
-[  Debug ] 2435 shows in 165 channels
-[  Debug ] 0 updated shows
+[  Debug ] 2448 shows in 165 channels
+[  Debug ] 143 updated shows
 [  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 20/12/2019 16:07:17 done in 2m 15s
+[        ] Job finished at 20/12/2019 20:07:38 done in 2m 36s
 [  Debug ] statistics upload error: The remote server returned an error: (404) Not Found.
