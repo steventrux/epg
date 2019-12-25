@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 25/12/2019 00:05:02
+[        ] Job started at 25/12/2019 04:05:02
 [  Debug ] 
 [  Debug ] Running  on: Unix 4.15.18.0
 [  Debug ] Environment: 4.0.30319.42000
@@ -29,7 +29,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+01:00	(no DST in effect)
 [  Debug ] 	next DST dates  :	29/03/2020 02:00 (local)
 [  Debug ] 	                :	25/10/2020 03:00 (local)
-[  Debug ] 	local time now  :	25/12/2019 00:05:03
+[  Debug ] 	local time now  :	25/12/2019 04:05:02
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -249,45 +249,28 @@
 [Error   ] Current culture: en-GB
 [Error   ] time parsing error : String was not recognized as a valid DateTime.
 [Error   ] nextstarttime time scrubbed : 
-[Error   ] computer date/time format: 25/12/2019 00:05:13
-[Warning ] Attempt to restore existing guide data failed! - no data to restore
-[Warning ] Exception: System.ArgumentException: The reference node is not a child of this node.
-  at System.Xml.XmlNode.InsertAfter (System.Xml.XmlNode newChild, System.Xml.XmlNode refChild) [0x00053] in <dc0757ce36454b0b9a9299e0c944b915>:0 
-  at WGconsole.XmlTarget.Insert (System.Xml.XmlNode show) [0x00070] in <274ad6f9740e441a95b86a1d1148edca>:0 
-  at WGconsole.XmlTarget.ReplaceChannel (System.String channelId, System.Xml.XmlDocument xdTv) [0x00092] in <274ad6f9740e441a95b86a1d1148edca>:0 
-  at WGconsole.Program.ConsoleApplication (System.String[] args) [0x018d7] in <274ad6f9740e441a95b86a1d1148edca>:0 
+[Error   ] computer date/time format: 25/12/2019 04:05:17
+[  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] (   1/165 ) MEDIASET.IT -- chan. (xmltv_id=Canale 5 HD) -- mode Incremental
-[Warning ] error downloading page: Error getting response stream (ReadDone2): ReceiveFailure
-[Warning ] pausing 1 of 4 times for 5 seconds before re-try.
 [Error   ] Unable to update channel Canale 5 HD
-[Critical] Generic syntax exception:
-[Critical]    message: 
-[Error   ] Current culture: en-GB
-[Error   ] time parsing error : String was not recognized as a valid DateTime.
-[Error   ] nextstarttime time scrubbed : 
-[Error   ] computer date/time format: 25/12/2019 00:05:28
-[Warning ] Attempt to restore existing guide data failed! - no data to restore
-[Warning ] Exception: System.ArgumentException: The reference node is not a child of this node.
-  at System.Xml.XmlNode.InsertAfter (System.Xml.XmlNode newChild, System.Xml.XmlNode refChild) [0x00053] in <dc0757ce36454b0b9a9299e0c944b915>:0 
-  at WGconsole.XmlTarget.Insert (System.Xml.XmlNode show) [0x00070] in <274ad6f9740e441a95b86a1d1148edca>:0 
-  at WGconsole.XmlTarget.ReplaceChannel (System.String channelId, System.Xml.XmlDocument xdTv) [0x00092] in <274ad6f9740e441a95b86a1d1148edca>:0 
-  at WGconsole.Program.ConsoleApplication (System.String[] args) [0x018d7] in <274ad6f9740e441a95b86a1d1148edca>:0 
+[Critical] See log file for details
+[Critical] Exception.Message: The reference node is not a child of this node.
+[Critical] Exception.StackTrace:   at System.Xml.XmlNode.InsertAfter (System.Xml.XmlNode newChild, System.Xml.XmlNode refChild) [0x00053] in <dc0757ce36454b0b9a9299e0c944b915>:0 
+  at WGconsole.XmlTarget.Insert (WGconsole.Show show) [0x0007b] in <274ad6f9740e441a95b86a1d1148edca>:0 
+  at WGconsole.Program.UpdateChannel (System.String strIndex, WGconsole.ChannelToUpdate Chan, WGconsole.XmlTarget xTarget) [0x03704] in <274ad6f9740e441a95b86a1d1148edca>:0 
+  at WGconsole.Program.ConsoleApplication (System.String[] args) [0x015e6] in <274ad6f9740e441a95b86a1d1148edca>:0 
+[  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] (   1/165 ) MEDIASET.IT -- chan. (xmltv_id=Italia 1 HD) -- mode Incremental
 [Error   ] Unable to update channel Italia 1 HD
-[Critical] Generic syntax exception:
-[Critical]    message: 
-[Error   ] Current culture: en-GB
-[Error   ] time parsing error : String was not recognized as a valid DateTime.
-[Error   ] nextstarttime time scrubbed : 
-[Error   ] computer date/time format: 25/12/2019 00:05:37
-[Warning ] Attempt to restore existing guide data failed! - no data to restore
-[Warning ] Exception: System.ArgumentException: The reference node is not a child of this node.
-  at System.Xml.XmlNode.InsertAfter (System.Xml.XmlNode newChild, System.Xml.XmlNode refChild) [0x00053] in <dc0757ce36454b0b9a9299e0c944b915>:0 
-  at WGconsole.XmlTarget.Insert (System.Xml.XmlNode show) [0x00070] in <274ad6f9740e441a95b86a1d1148edca>:0 
-  at WGconsole.XmlTarget.ReplaceChannel (System.String channelId, System.Xml.XmlDocument xdTv) [0x00092] in <274ad6f9740e441a95b86a1d1148edca>:0 
-  at WGconsole.Program.ConsoleApplication (System.String[] args) [0x018d7] in <274ad6f9740e441a95b86a1d1148edca>:0 
+[Critical] See log file for details
+[Critical] Exception.Message: The reference node is not a child of this node.
+[Critical] Exception.StackTrace:   at System.Xml.XmlNode.InsertAfter (System.Xml.XmlNode newChild, System.Xml.XmlNode refChild) [0x00053] in <dc0757ce36454b0b9a9299e0c944b915>:0 
+  at WGconsole.XmlTarget.Insert (WGconsole.Show show) [0x0007b] in <274ad6f9740e441a95b86a1d1148edca>:0 
+  at WGconsole.Program.UpdateChannel (System.String strIndex, WGconsole.ChannelToUpdate Chan, WGconsole.XmlTarget xTarget) [0x03704] in <274ad6f9740e441a95b86a1d1148edca>:0 
+  at WGconsole.Program.ConsoleApplication (System.String[] args) [0x015e6] in <274ad6f9740e441a95b86a1d1148edca>:0 
+[  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] (   1/165 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La1 HD) -- mode Incremental
 [Error   ] Unable to update channel Rsi La1 HD
@@ -306,7 +289,7 @@
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] (   1/165 ) STASERAINTV.COM -- chan. (xmltv_id=La 5) -- mode Incremental
-[  Info  ] 0.08 sec/update
+[  Info  ] 0.03 sec/update
 [  Debug ] 
 [  Info  ] (   2/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=LA7) -- mode Incremental
 [Error   ] Unable to update channel LA7
@@ -351,7 +334,7 @@
 [Error   ] Current culture: en-GB
 [Error   ] time parsing error : String was not recognized as a valid DateTime.
 [Error   ] nextstarttime time scrubbed : 
-[Error   ] computer date/time format: 25/12/2019 00:05:49
+[Error   ] computer date/time format: 25/12/2019 04:05:29
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] (   4/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Storia) -- mode Incremental
@@ -370,7 +353,7 @@
 [Error   ] Current culture: en-GB
 [Error   ] time parsing error : String was not recognized as a valid DateTime.
 [Error   ] nextstarttime time scrubbed : 
-[Error   ] computer date/time format: 25/12/2019 00:05:53
+[Error   ] computer date/time format: 25/12/2019 04:05:33
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] (   5/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Sport 1 HD) -- mode Incremental
@@ -1413,34 +1396,10 @@
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] (  49/165 ) RAI.IT -- chan. (xmltv_id=Rai Gulp HD) -- mode Incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 29/12/2019 08:40:00 stop = 29/12/2019 09:05:00 title = Kung Fu Panda (ii)
-[  Info  ]       Replaces ----- start = 29/12/2019 08:30:00 stop = 29/12/2019 09:00:00 title = Kung Fu Panda (ii)
-[  Info  ]       Replaces ----- start = 29/12/2019 09:00:00 stop = 29/12/2019 09:25:00 title = Kung Fu Panda (ii)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 29/12/2019 09:05:00 stop = 29/12/2019 09:35:00 title = Kung Fu Panda (ii)
-[  Info  ]       Replaces ----- start = 29/12/2019 09:00:00 stop = 29/12/2019 09:25:00 title = Kung Fu Panda (ii)
-[  Info  ]       Replaces ----- start = 29/12/2019 09:25:00 stop = 29/12/2019 09:50:00 title = Ducktales
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 29/12/2019 17:10:00 stop = 29/12/2019 17:40:00 title = Kung Fu Panda (ii)
-[  Info  ]       Replaces ----- start = 29/12/2019 17:10:00 stop = 29/12/2019 17:35:00 title = Kung Fu Panda (ii)
-[  Info  ]       Replaces ----- start = 29/12/2019 17:35:00 stop = 29/12/2019 18:00:00 title = Il Destino Delle Tartarughe Ninja
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 29/12/2019 23:10:00 stop = 29/12/2019 23:30:00 title = Inazuma Eleven Go
-[  Info  ]       Replaces ----- start = 29/12/2019 23:10:00 stop = 29/12/2019 23:35:00 title = Inazuma Eleven Go
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 29/12/2019 23:30:00 stop = 29/12/2019 23:55:00 title = Inazuma Eleven Go
-[  Info  ]       Replaces ----- start = 29/12/2019 23:10:00 stop = 29/12/2019 23:35:00 title = Inazuma Eleven Go
-[  Info  ]       Replaces ----- start = 29/12/2019 23:35:00 stop = 30/12/2019 00:00:00 title = Inazuma Eleven Go
-[  Info  ] 0.04 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  50/165 ) RAI.IT -- chan. (xmltv_id=Rai YoYo HD) -- mode Incremental
-[  Info  ] 0.04 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  51/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Cartoon Network) -- mode Incremental
 [Error   ] no shows in indexpage!
@@ -1604,10 +1563,10 @@
 [  Info  ] (  62/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Calcio 1) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
-[  Debug ] 1709 shows in 165 channels
-[  Debug ] 88 updated shows
-[  Debug ] 411 new shows added
+[  Debug ] 1708 shows in 165 channels
+[  Debug ] 66 updated shows
+[  Debug ] 187 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 25/12/2019 00:07:39 done in 2m 36s
+[        ] Job finished at 25/12/2019 04:07:31 done in 2m 29s
 [  Debug ] statistics upload error: The remote server returned an error: (404) Not Found.
