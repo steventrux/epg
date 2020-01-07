@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 07/01/2020 08:05:02
+[        ] Job started at 07/01/2020 12:05:02
 [  Debug ] 
 [  Debug ] Running  on: Unix 4.15.18.0
 [  Debug ] Environment: 4.0.30319.42000
@@ -29,7 +29,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+01:00	(no DST in effect)
 [  Debug ] 	next DST dates  :	29/03/2020 02:00 (local)
 [  Debug ] 	                :	25/10/2020 03:00 (local)
-[  Debug ] 	local time now  :	07/01/2020 08:05:02
+[  Debug ] 	local time now  :	07/01/2020 12:05:03
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -243,13 +243,17 @@
 [  Debug ] 
 [  Info  ] (   1/165 ) MEDIASET.IT -- chan. (xmltv_id=Rete 4 HD) -- mode Incremental
 [  Debug ]    skipped negative show time! at 11/01/2020 07:26:00
-[  Info  ] 0.04 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   2/165 ) MEDIASET.IT -- chan. (xmltv_id=Canale 5 HD) -- mode Incremental
-[  Info  ] 0.04 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   3/165 ) MEDIASET.IT -- chan. (xmltv_id=Italia 1 HD) -- mode Incremental
-[  Info  ] 0.04 sec/update
+[Warning ] error downloading page: Error getting response stream (ReadDone1): ReceiveFailure
+[Warning ] pausing 1 of 4 times for 5 seconds before re-try.
+[Warning ] error downloading page: Error: ConnectFailure (Connection refused)
+[Warning ] pausing 2 of 4 times for 10 seconds before re-try.
+[  Info  ] 0.52 sec/update
 [  Debug ] 
 [  Info  ] (   4/165 ) HORIZON.TV.CH -- chan. (xmltv_id=Rsi La1 HD) -- mode Incremental
 [Error   ] Unable to update channel Rsi La1 HD
@@ -307,7 +311,7 @@
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] (   7/165 ) MEDIASET.IT -- chan. (xmltv_id=Mediaset Extra) -- mode Incremental
-[  Info  ] 0.03 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   8/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Storia) -- mode Incremental
 [Error   ] no shows in indexpage!
@@ -319,7 +323,7 @@
 
 [  Debug ] 
 [  Info  ] (   9/165 ) MEDIASET.IT -- chan. (xmltv_id=Iris) -- mode Incremental
-[  Info  ] 0.03 sec/update
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  10/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Sport 1 HD) -- mode Incremental
 [Error   ] Unable to update channel Rai Sport 1 HD
@@ -637,8 +641,6 @@
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] (  28/165 ) PROGRAMMI-TV.EU -- chan. (xmltv_id=TGcom 24) -- mode Incremental
-[Warning ] error downloading page: Error getting response stream (ReadDone2): ReceiveFailure
-[Warning ] pausing 1 of 4 times for 5 seconds before re-try.
 [Error   ] no shows in indexpage!
 [Error   ] Cannot find any shows on the Index Page !
 [  Info  ] 
@@ -1531,9 +1533,9 @@
 [  Info  ] 
 [  Debug ] 
 [  Debug ] 2395 shows in 165 channels
-[  Debug ] 0 updated shows
-[  Debug ] 116 new shows added
+[  Debug ] 34 updated shows
+[  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 07/01/2020 08:07:34 done in 2m 31s
+[        ] Job finished at 07/01/2020 12:07:33 done in 2m 30s
 [  Debug ] statistics upload error: The remote server returned an error: (404) Not Found.
