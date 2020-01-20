@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 20/01/2020 12:05:02
+[        ] Job started at 20/01/2020 16:05:03
 [  Debug ] 
 [  Debug ] Running  on: Unix 4.15.18.0
 [  Debug ] Environment: 4.0.30319.42000
@@ -29,7 +29,7 @@
 [  Debug ] 	UTC Offset now  :	UTC+01:00	(no DST in effect)
 [  Debug ] 	next DST dates  :	29/03/2020 02:00 (local)
 [  Debug ] 	                :	25/10/2020 03:00 (local)
-[  Debug ] 	local time now  :	20/01/2020 12:05:02
+[  Debug ] 	local time now  :	20/01/2020 16:05:03
 [  Info  ] found: /home30/crazypu/git/epg/mediasetpremium.it.ini -- Revision 01
 [  Debug ] xmltv input file - /home30/crazypu/git/epg/guide.xml - found
 [  Debug ] 0 superfluous shows removed
@@ -243,10 +243,10 @@
 [  Debug ] 
 [  Info  ] (   1/165 ) MEDIASET.IT -- chan. (xmltv_id=Rete 4 HD) -- mode Incremental
 [  Debug ]    skipped negative show time! at 25/01/2020 07:31:00
-[  Info  ] 
+[  Info  ] 0.07 sec/update
 [  Debug ] 
 [  Info  ] (   2/165 ) MEDIASET.IT -- chan. (xmltv_id=Canale 5 HD) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.04 sec/update
 [  Debug ] 
 [  Info  ] (   3/165 ) MEDIASET.IT -- chan. (xmltv_id=Italia 1 HD) -- mode Incremental
 [  Info  ] 
@@ -319,7 +319,7 @@
 
 [  Debug ] 
 [  Info  ] (   9/165 ) MEDIASET.IT -- chan. (xmltv_id=Iris) -- mode Incremental
-[  Info  ] 
+[  Info  ] 0.07 sec/update
 [  Debug ] 
 [  Info  ] (  10/165 ) GUIDATV.SKY.IT -- chan. (xmltv_id=Rai Sport 1 HD) -- mode Incremental
 [Error   ] Unable to update channel Rai Sport 1 HD
@@ -1361,7 +1361,55 @@
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] (  54/165 ) RAI.IT -- chan. (xmltv_id=Rai Gulp HD) -- mode Incremental
-[  Info  ] 
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/01/2020 11:40:00 stop = 20/01/2020 12:10:00 title = Inazuma Eleven Ares
+[  Info  ]       Replaces ----- start = 20/01/2020 11:40:00 stop = 20/01/2020 12:05:00 title = Inazuma Eleven Ares
+[  Info  ]       Replaces ----- start = 20/01/2020 12:05:00 stop = 20/01/2020 12:15:00 title = The Jungle Book
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/01/2020 12:10:00 stop = 20/01/2020 12:20:00 title = The Jungle Book
+[  Info  ]       Replaces ----- start = 20/01/2020 12:05:00 stop = 20/01/2020 12:15:00 title = The Jungle Book
+[  Info  ]       Replaces ----- start = 20/01/2020 12:15:00 stop = 20/01/2020 12:30:00 title = The Jungle Book
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/01/2020 12:20:00 stop = 20/01/2020 12:30:00 title = The Jungle Book
+[  Info  ]       Replaces ----- start = 20/01/2020 12:15:00 stop = 20/01/2020 12:30:00 title = The Jungle Book
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/01/2020 12:30:00 stop = 20/01/2020 12:45:00 title = The Jungle Book
+[  Info  ]       Replaces ----- start = 20/01/2020 12:30:00 stop = 20/01/2020 12:40:00 title = The Jungle Book
+[  Info  ]       Replaces ----- start = 20/01/2020 12:40:00 stop = 20/01/2020 12:55:00 title = The Jungle Book
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/01/2020 12:45:00 stop = 20/01/2020 12:55:00 title = The Jungle Book
+[  Info  ]       Replaces ----- start = 20/01/2020 12:40:00 stop = 20/01/2020 12:55:00 title = The Jungle Book
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/01/2020 17:10:00 stop = 20/01/2020 17:40:00 title = Kung Fu Panda (iii)
+[  Info  ]       Replaces ----- start = 20/01/2020 17:10:00 stop = 20/01/2020 17:35:00 title = Kung Fu Panda (iii)
+[  Info  ]       Replaces ----- start = 20/01/2020 17:35:00 stop = 20/01/2020 18:00:00 title = Spider Man
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/01/2020 02:15:00 stop = 21/01/2020 02:40:00 title = Heidi
+[  Info  ]       Replaces ----- start = 21/01/2020 01:55:00 stop = 21/01/2020 02:20:00 title = Geronimo Stilton
+[  Info  ]       Replaces ----- start = 21/01/2020 02:20:00 stop = 21/01/2020 02:45:00 title = Heidi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/01/2020 02:40:00 stop = 21/01/2020 03:00:00 title = Heidi
+[  Info  ]       Replaces ----- start = 21/01/2020 02:20:00 stop = 21/01/2020 02:45:00 title = Heidi
+[  Info  ]       Replaces ----- start = 21/01/2020 02:45:00 stop = 21/01/2020 03:10:00 title = Heidi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/01/2020 03:00:00 stop = 21/01/2020 03:20:00 title = Kung Fu Panda (iii)
+[  Info  ]       Replaces ----- start = 21/01/2020 02:45:00 stop = 21/01/2020 03:10:00 title = Heidi
+[  Info  ]       Replaces ----- start = 21/01/2020 03:10:00 stop = 21/01/2020 03:35:00 title = Kung Fu Panda (iii)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/01/2020 03:20:00 stop = 21/01/2020 03:50:00 title = Kung Fu Panda (iii)
+[  Info  ]       Replaces ----- start = 21/01/2020 03:10:00 stop = 21/01/2020 03:35:00 title = Kung Fu Panda (iii)
+[  Info  ]       Replaces ----- start = 21/01/2020 03:35:00 stop = 21/01/2020 03:55:00 title = Kung Fu Panda (iii)
+[  Info  ] 0.07 sec/update
 [  Debug ] 
 [  Info  ] (  55/165 ) RAI.IT -- chan. (xmltv_id=Rai YoYo HD) -- mode Incremental
 [  Info  ] 
@@ -1528,10 +1576,10 @@
 [  Info  ] (  67/165 ) MEDIASETPREMIUM.IT -- chan. (xmltv_id=Premium Calcio 1) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
-[  Debug ] 2360 shows in 165 channels
-[  Debug ] 0 updated shows
+[  Debug ] 2362 shows in 165 channels
+[  Debug ] 39 updated shows
 [  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 20/01/2020 12:07:20 done in 2m 17s
+[        ] Job finished at 20/01/2020 16:07:28 done in 2m 25s
 [  Debug ] statistics upload error: The remote server returned an error: (404) Not Found.
